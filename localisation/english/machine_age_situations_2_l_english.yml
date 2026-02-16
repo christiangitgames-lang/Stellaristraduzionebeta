@@ -1,0 +1,598 @@
+﻿l_english:
+
+### DIGITIZATION SITUATION START ###
+ situation_digitization: "Sintetizzazione"
+ situation_digitization_type: "Situazione d'Ascensione"
+ situation_digitization_desc: "È giunto il momento di abbandonare i nostri involucri biologici difettosi. Dobbiamo preparare corpi meccanici avanzati ed eseguire il processo di trasferimento della coscienza.\n\n§YPop digitalizzata il mese prossimo§!: §G[From.GetSynthPopsPerMonth]§!"
+ situation_digitization_monthly_change_tooltip: "Le nostre menti diventeranno digitali, i nostri corpi macchine."
+ situation_digitization_outcome: "Una popolazione sintetica."
+ stage_digitization_effects: "Dobbiamo progettare una rappresentazione digitale del cervello, costruire corpi macchina e trasformare noi stessi."
+# Approach Error Correcting
+ situation_digitization_errorcorrecting: "Correzione Errori"
+ approach_digitization_errorcorrecting_tt: "Alta probabilità di eventi benefici.\n$situation_speed_tt$: §R-20%§!"
+ situation_digitization_errorcorrecting_approach_tt: "$situation_digitization_errorcorrecting$ $situation_approach_tt$"
+# Approach Real Time
+ situation_digitization_realtime: "Tempo Reale"
+ approach_digitization_realtime_tt: "$situation_speed_tt$: §YInvariata§!"
+ situation_digitization_realtime_approach_tt: "$situation_digitization_realtime$ $situation_approach_tt$"
+# Approach Overclocked
+ situation_digitization_overclocked: "Sovraccaricato"
+ approach_digitization_overclocked_tt: "Rischio elevato di eventi impegnativi.\n$situation_speed_tt$: §G+20%§!"
+ situation_digitization_overclocked_approach_tt: "$situation_digitization_overclocked$ $situation_approach_tt$"
+
+ situation_num_identity_complex_tt: "$building_identity_complex$"
+ situation_digitization_ongoing_desc: "Sintetizzazione in Corso"
+ situation_digitization_pause_desc: "$situation_cyberization_pause_desc$"
+ situation_identity_complex_needed_desc: "£trigger_no£ $building_identity_complex$ Non abilitato"
+ synth_positive_media_coverage_tt: "Copertura Mediatica Positiva"
+ synth_negative_media_coverage_tt: "Copertura mediatica Negativa"
+
+ biological_pop: "£pop£ Pop Organica"
+ biological_pops: "£pop£ Pop Organica"
+ mechanical_pop: "£pop£ Pop Meccanica"
+ mechanical_pops: "£pop£ Pop Meccanica"
+ pop_is: "è"
+ pops_are: "sono"
+
+# Buildings
+ building_identity_complex: "Complesso d'Identità"
+ building_identity_complex_desc: "Un centro all'avanguardia per la ricerca e lo sviluppo d'identità sintetiche."
+ building_identity_complex_speed: "§G+100§! £pop£ §HPop§!"
+ building_identity_complex_effect_desc: "$building_identity_complex_speed$ caricata al mese."
+ building_ai_emporium: "Emporio Intelligenza Artificiale"
+ building_ai_emporium_desc: "Il mega-complesso unico per tutte le vostre esigenze di Intelligenza Artificiale. Fate in modo che le IA senzienti trasformino oggetti ordinari in compagni intelligenti per la vostra famiglia o la vostra azienda. L'IA è un po' troppo autocosciente per il suo bene? Portatela qui e i nostri tecnici specializzati la resetteranno più velocemente della velocità della subluce."
+ building_ai_emporium_fail_tt: "$TRIGGER_FAIL$Abbiamo già un §Y$building_ai_emporium$§! sul pianeta §Y[planet.owner.GetName]§!"
+ building_ai_emporium_outlawed_robots_tt: "$TRIGGER_FAIL$Sul pianeta §Y[planet.owner.GetName]§! sono vietati i robot"
+ building_clear_thought_clinic: "Clinica Pensiero Libero"
+ building_clear_thought_clinic_desc: "Avete ricordi che non vi servono più? Trasformateli in crediti energetici! La nostra squadra qualificata li rimuoverà in modo sicuro e protetto! Più gioioso è il ricordo, maggiore sarà la ricompensa!\n\nQuesta operazione è definitiva e i modelli di pensiero non possono essere ripristinati una volta estratti."
+ clear_thought_clinic_modifier: "$building_clear_thought_clinic$"
+ clear_thought_clinic_tt: "Modificatore della rete di spionaggio non cumulabile: $TABBED_NEW_LINE$$MOD_SPY_NETWORK_DAILY_VALUE_MULT$: §G+25%§! $TABBED_NEW_LINE$$MOD_SPY_NETWORK_LEVELS_ADD$: §G+10§!"
+
+# Jobs
+ m_pop_assembly: "£mod_planet_pop_assembly_add£ §Y$MOD_PLANET_POP_ASSEMBLY_ADD$§!"
+
+ job_identity_designer: "Progettista d'Identità"
+ job_identity_designer_plural: "Progettisti d'Identità"
+ job_identity_designer_plural_with_icon: "£job_identity_designer£ $job_identity_designer_plural$"
+ job_identity_designer_converter_desc: "I $job_identity_designer_plural$ facilitano la conversione da una forma biologica a un'identità digitale, assicurando un processo di transizione indolore."
+ job_identity_designer_converter_effect_desc: "I $job_identity_designer_plural_with_icon$ forniscono $i_engineering$ e $i_amenities$"
+ job_identity_designer_desc: "I $job_identity_designer_plural$ creano in modo complesso nuove menti sintetiche."
+ job_identity_designer_effect_desc: "I $job_identity_designer_plural_with_icon$ forniscono $i_engineering$, $i_amenities$, e $m_pop_assembly$ in tutto l'impero"
+ mod_job_identity_designer_add: "Lavori da $job_identity_designer$"
+
+ job_roboticist_plural_and_job_identity_designer_plural: "[roboticist.GetNamePlural] e $job_identity_designer_plural$"
+ job_roboticist_plural_with_icon_and_job_identity_designer_plural_with_icon: "$job_roboticist_plural_with_icon$ e $job_identity_designer_plural_with_icon$"
+
+ councilor_ruler_imperial_synth: "$imperial_ruler$"
+ councilor_ruler_imperial_synth_desc: "$imperial_ruler_desc$"
+
+# Traits
+
+# Modifiers
+ synth_opposition_truth: "Campagna Informativa sulla Sintesi"
+ synth_opposition_truth_desc: "Promuovere un'informazione veritiera su tutti gli aspetti legati alla sintetizzazione."
+ synth_opposition_deception: "Campagna di Sintesi Orientata"
+ synth_opposition_deception_desc: "Orientare la narrazione pubblica per enfatizzare gli aspetti positivi della sintesi delle menti."
+
+ synth_tinkering_with_minds: "Armeggiare con le Menti"
+ synth_tinkering_with_minds_desc: "Le menti appena digitalizzate vengono sottoposte a una moderata riprogrammazione per allinearsi alla nostra visione del futuro."
+ synth_brightest_minds: "Privilegiare i Migliori"
+ synth_brightest_minds_desc: "Solo gli individui più eccezionali vengono selezionati per partecipare al nostro programma di sintetizzazione."
+ synth_reprogram_minds: "Riprogrammazione Oppressiva"
+ synth_reprogram_minds_desc: "Questo governo sta ampiamente riprogrammando gli individui "non idonei" man mano che vengono digitalizzati."
+
+ victim_compensation: "Risarcimento Vittime"
+ victim_compensation_desc: "Indennizzo fornito alle famiglie di coloro le cui menti sono andate perdute durante la sintetizzazione."
+
+ synth_mandatory_volunteers: "Volontari Obbligatori"
+ synth_mandatory_volunteers_desc: "I soggetti dei test sono costretti a partecipare a esperimenti per digitalizzare una coscienza biologica."
+ synth_mass_demonstrations: "Manifestazioni di Massa"
+ synth_mass_demonstrations_desc: "La forza lavoro del pianeta è impegnata in proteste di massa contro il passaggio programmato alle macchine."
+ synth_fund_heritage_sites: "Fondo Siti Storici"
+ synth_fund_heritage_sites_desc: "Verranno creati dei siti speciali del patrimonio per limitare l'impatto della transizione sintetica sui membri biologici della nostra specie."
+ synth_revere_the_past: "Venerare il Passato"
+ synth_revere_the_past_desc: "I riti religiosi nati dalla nostra esistenza biologica sono ancora importanti per noi e dobbiamo proteggere questi luoghi di culto."
+ synth_preserve_the_past: "Preservare il Passato"
+ synth_preserve_the_past_desc: "Abbracciare pienamente una nuova esistenza non significa distruggere i luoghi e gli oggetti che hanno dato significato al nostro passato biologico."
+ synth_resistance_fight: "Raduno Leader della Resistenza"
+ synth_resistance_fight_desc: ""L'invio delle nostre squadre di macchine nelle $d_biological_enclaves_no_icon$ per catturare i leader della resistenza, porrà rapidamente fine alle obiezioni."
+ synth_resistance_diplomacy: "Diplomazia Leader della Resistenza"
+ synth_resistance_diplomacy_desc: "Recarsi presso le $d_biological_enclaves_no_icon$ per incontrare i leader della resistenza migliorerà la comprensione reciproca."
+
+ synth_character_force: "Imitare la Vecchia Forma Organica"
+ synth_character_force_desc: "La forma tradizionale della nostra specie è conservata nel regno digitale."
+ synth_character_customize: "Modifica Illimitata del Corpo Sintetico"
+ synth_character_customize_desc: "Gli individui possono modificare liberamente il loro nuovo aspetto digitale."
+ synth_character_customize_elite: "Modifica Limitata del Corpo Sintetico"
+ synth_character_customize_elite_desc: "Per mantenere una chiara gerarchia sociale, solo agli strati superiori è consentito modificare il proprio aspetto."
+ synth_character_customize_corpo: "Modifica del Corpo Sintetico Monetizzata"
+ synth_character_customize_corpo_desc: "Le persone possono modificare liberamente il loro aspetto digitale, a patto che possano permetterselo."
+
+ synth_cravings_imperfections: "Imperfezioni Deliberate dei Sintetici"
+ synth_cravings_imperfections_desc: "Per evitare un'esistenza vuota e impersonale, nei corpi sintetici vengono aggiunte caratteristiche volutamente imperfette."
+ synth_cravings_simulation: "Vita in Una Simulazione"
+ synth_cravings_simulation_desc: "Ci sforziamo di creare un'esistenza più autentica per le persone che scelgono di vivere in una simulazione, difficoltà comprese."
+ synth_cravings_stop: "Organici Integralisti Ignorati"
+ synth_cravings_stop_desc: "Col tempo, la nostra gente apprezzerà la vita perfetta e libera dalle difficoltà organiche."
+ synth_cravings_pain: "Arena Combattimenti Virtuali"
+ synth_cravings_pain_desc: "Impegnarsi in dolorose battaglie virtuali porta uno scopo familiare sia ai partecipanti che agli spettatori."
+
+ synth_health_physical: "Focus sulla Salute Fisica Sintetica"
+ synth_health_physical_desc: "La nostra assistenza sanitaria sintetica darà priorità alla risoluzione dei guasti dei componenti elettronici."
+ synth_health_virtual: "Focus sulla Salute Mentale Sintetica"
+ synth_health_virtual_desc: "Garantire la sicurezza delle nostre menti attraverso aggiornamenti costanti del software è essenziale per la nostra salute."
+ synth_health_both: "Focus Bilanciato sulla Salute Sintetica"
+ synth_health_both_desc: "Affrontare le instabilità sia del software che dell'hardware è essenziale per il benessere del nostro popolo."
+ synth_health_corporate: "Medicina Sintetica"
+ synth_health_corporate_desc: "Espandere le competenze della nostra società al di là dei farmaci tradizionali è fondamentale per curare i virus digitali."
+
+ synth_virtual_world_outlaw: "Mondi Virtuali Fuorilegge"
+ synth_virtual_world_outlaw_desc: "I resort virtuali ad alta dipendenza sono stati messi al bando come minaccia per la società."
+ synth_virtual_world_promote: "Mondi Virtuali Promossi"
+ synth_virtual_world_promote_desc: "Nell'utopia digitale le persone sono libere di godere di forme di intrattenimento praticamente infinite."
+ synth_virtual_world_regulate: "Mondi virtuali Regolamentati"
+ synth_virtual_world_regulate_desc: "Le località virtuali ad alta dipendenza sono strettamente regolamentate per garantire che le persone mantengano un legame con la realtà."
+
+ synth_home_centralized: "Server Centralizzati"
+ synth_home_centralized_desc: "Ogni coscienza digitalizzata viene archiviata in server centralizzati di proprietà dello Stato per ottenere la massima efficienza in termini di costi."
+ synth_home_distributed: "Server Domestici Distribuiti"
+ synth_home_distributed_desc: "Le coscienze digitalizzate sono archiviate all'interno di tradizionali proprietà private."
+ synth_digital_homes: "Proprietà Digitale"
+ synth_digital_homes_desc: "Simile al mercato immobiliare tradizionale, la proprietà digitale offre un reddito quasi identico a una frazione del costo."
+
+ synth_respawn_push: "Standard di Sicurezza Sintetica Semplici"
+ synth_respawn_push_desc: "Standard di sicurezza fisica indulgenti garantiscono un'economia dinamica."
+ synth_respawn_caution: "Standard di Sicurezza Sintetica"
+ synth_respawn_caution_desc: "La protezione dei corpi sintetici e delle menti al loro interno può essere fatta solo con severe linee guida governative."
+ synth_respawn_elite: "Privilegi di Sicurezza Sintetica"
+ synth_respawn_elite_desc: "Agli strati superiori è vietato svolgere mansioni che comportano rischi per il corpo o per la mente."
+
+ synth_cultural_exchange: "Comprensione Culturale"
+ synth_cultural_exchange_desc: "I programmi di scambio culturale da e verso i siti del patrimonio culturale promuovono la comprensione reciproca tra i nostri popoli."
+
+ synth_combat_reactors: "Reattori da Combattimento"
+ synth_combat_reactors_desc: "Ai nostri corpi meccanici è stata aggiunta una nuova tecnologia di microfusione, che garantisce una maggiore capacità di combattimento."
+
+ synth_AI_actor: "Portavoce IA"
+ synth_AI_actor_desc: "Utilizzando una copia IA di una celebrità deceduta, stiamo ottenendo supporto per la nostra attuale direttiva di sintetizzazione."
+
+# Deposits
+ d_old_towns_no_icons: "Città Vecchie"
+ d_old_towns: "£blocker£ $d_old_towns_no_icons$"
+ d_old_towns_desc: "Questa regione è dominata da città ben conservate che ospitano membri della nostra specie originaria. Spendendo risorse, potremo incoraggiare questi ritardatari a trasformarsi in macchine."
+ d_old_towns_custom_tooltip: "Crea §Y[Owner.GetNumSynthOpposition] [Owner.GetMechanicalPopOrPops]§!"
+ d_biological_enclaves_no_icon: "Enclavi Biologiche"
+ d_biological_enclaves: "£blocker£ $d_biological_enclaves_no_icon$"
+ d_biological_enclaves_desc: "Questa regione è dominata da città che ospitano coloro che si oppongono alla transizione sintetica."
+ d_biological_enclaves_custom_tooltip: "Crea §Y[Owner.GetNumSynthOpposition] [Owner.GetMechanicalPopOrPops]§!"
+
+# Policies
+ policy_synthetic_identities_policy: "Identità Sintetiche"
+ policy_synthetic_identities_policy_desc: "È necessario creare nuove identità sintetiche per moltiplicarci."
+ identity_copy_name: "Copie d'Identità"
+ identity_copy: "$identity_copy_name$"
+ identity_copy_desc: "$tech_identity_copy_desc$\n\nLe copie provano solo una leggera tristezza per la loro mancanza di unicità.\n\n$TECH_UNLOCK_IDENTITY_COPY_DESC$\n\nLe §E$identity_copy_name$ $can_enable_mind_creation$§!"
+ identity_fusion_name: "Fusioni d'Identità"
+ identity_fusion: "$identity_fusion_name$"
+ identity_fusion_desc: "$tech_identity_fusion_desc$\n\n$TECH_UNLOCK_IDENTITY_FUSION_DESC$\n\nLe §E$identity_fusion_name$ $can_enable_mind_creation$§!"
+ identity_initialization_name: "Definizioni d'Identità"
+ identity_initialization: "$identity_initialization_name$"
+ identity_initialization_desc: "$tech_identity_initialization_desc$\n\n$TECH_UNLOCK_IDENTITY_INITIALIZATION_DESC$\n\nLe §E$identity_initialization_name$ $can_enable_mind_creation$§!"
+ can_enable_mind_creation: "vengono utilizzate per l'assemblaggio dei sintetici"
+
+ policy_computation_core_allocation: "Focus sul Nucleo di Calcolo"
+ policy_computation_core_allocation_desc: "Le corporazioni sintetiche possono dirottare i cicli di calcolo dai loro sistemi principali per ottimizzare i settori sociali ad alto valore con zero ritardi."
+ computation_core_production_name: "Razionalizzazione della Produzione"
+ computation_core_production: "$computation_core_production_name$"
+ computation_core_production_desc: "Utilizza i cicli di lavorazione di riserva per snellire i processi di produzione.$computation_core_production_tt$"
+ computation_core_production_tt: "\n\n$EFFECTS_HEADER$ $NEW_LINE$- Ogni $pop_group_unit$ $pop_cat_civilian_plural$ aumentano l'§Y$BONUS_WORKFORCE_FOR$ i Metallurgisti§! e i §YLavori da Artigiano§! del §G+0.5%§!"
+ computation_core_stability_name: "Analisi Stabilità"
+ computation_core_stability: "$computation_core_stability_name$"
+ computation_core_stability_desc: "Assegna risorse per monitorare il flusso di informazioni sociali alla ricerca di irregolarità.$computation_core_stability_tt$"
+ computation_core_stability_tt: "\n\n$EFFECTS_HEADER$ $NEW_LINE$- Ogni $pop_group_unit$ $pop_cat_civilian_plural$ aumentano l'§Y$bureaucrat_jobs_bonus_workforce_mult$§! del §G+0.5%§!"
+ computation_core_research_name: "Processi Ricerca"
+ computation_core_research: "$computation_core_research_name$"
+ computation_core_research_desc: "Designa cicli di elaborazione aggiuntivi per i server di ricerca ad alta intensità di prestazioni.$computation_core_research_tt$"
+ computation_core_research_tt: "\n\n$EFFECTS_HEADER$ $NEW_LINE$- Ogni $pop_group_unit$ $pop_cat_civilian_plural$ aumentano l'§Y$BONUS_WORKFORCE_FOR$ i Fisici§!, §YBiologi§!, e i §YLavori di Ingegneria§! del §G+0.5%§!"
+
+# Technologies
+ tech_identity_copy: "Copie d'Identità"
+ tech_identity_copy_desc: "Saremo in grado di copiare l'identità e i ricordi di un sintetico in un nuovo corpo meccanico. Le copie hanno abilità prevedibili, ma rendono le conversazioni stantie."
+ TECH_UNLOCK_IDENTITY_COPY_TITLE: "Garantisce l'accesso alla politica:$TABBED_NEW_LINE$§H$policy_synthetic_identities_policy$§! - $identity_copy_name$"
+ TECH_UNLOCK_IDENTITY_COPY_DESC: "£pop£ §HPop Meccanica§!$TABBED_NEW_LINE$Felicità: §R-5%§!"
+ tech_identity_fusion: "Fusione d'Identità"
+ tech_identity_fusion_desc: "La fusione delle identità e dei ricordi di due o più Sintetici in un corpo meccanico creerà nuovi individui, in qualche modo unici."
+ TECH_UNLOCK_IDENTITY_FUSION_TITLE: "Garantisce l'accesso alla politica:$TABBED_NEW_LINE$§H$policy_synthetic_identities_policy$§! - $identity_fusion_name$"
+ TECH_UNLOCK_IDENTITY_FUSION_DESC: "£pop£ §HPop Meccanica§!$TABBED_NEW_LINE$Costo di assemblaggio: §R+10%§!"
+ tech_identity_initialization: "Inizializzazione dell'identità"
+ tech_identity_initialization_desc: "Saremo in grado di inizializzare un modello d'identità e di fornirgli un'infanzia virtuale. Anche se costoso, possiamo simulare le esperienze ottimali per generare personalità produttive."
+ TECH_UNLOCK_IDENTITY_INITIALIZATION_TITLE: "Garantisce l'accesso alla politica:$TABBED_NEW_LINE$§H$policy_synthetic_identities_policy$§! - $identity_initialization_name$"
+ TECH_UNLOCK_IDENTITY_INITIALIZATION_DESC: "£pop£ §HPop Meccanica§!$TABBED_NEW_LINE$Felicità: §G+5%§!$TABBED_NEW_LINE$Risorse dai Lavori £pop£ Pop: §G+5%§!$TABBED_NEW_LINE$Costo d'Assemblaggio: §R+20%§!"
+
+# DIGITIZATION STAGE 1
+ synth.100.name: "Avvio" # Stage 1 - Start event
+ synth.100.desc: "È giunto il momento di abbandonare la nostra forma biologica, di ascendere alla lega e all'elettricità. Con corpi all'avanguardia e menti accelerate marceremo verso il futuro. La specie [Owner.Species.GetFleshTypeCyberCreed] è fallibile, ma una macchina può essere perfezionata.\n\nTuttavia, la transizione non sarà facile. La comunità di ricerca ha bisogno di almeno un $building_identity_complex$ che faccia da fulcro per lo sviluppo sintetico. Il nostro destino ci attende."
+ synth.100.a: "Costruiamo il nostro destino."
+ synth.100.a.tt: "§RAzione richiesta:§!\nCostruisci un $building_identity_complex$ per riprendere la situazione §Y$situation_digitization$§!."
+
+ synth.105.name: "Costruzioni Migliori"
+ synth.105.desc: "Con la maggiore potenza di elaborazione di un cervello sintetico possiamo superare i nostri limiti biologici. Tuttavia, la potenza extra ha ancora dei limiti, quindi dobbiamo stabilire delle priorità.$synth.105.end$        "
+ synth.105.end: "\n\nPossiamo concentrarci sull'amplificazione del processo decisionale, sull'aumento della capacità di memoria o sull'ottimizzazione della coordinazione mente-arti, migliorando così intere categorie di lavori. In alternativa, potremmo puntare a una maggiore resistenza di tutti i corpi.\n\nTuttavia, queste funzioni richiedono un supporto continuo e saranno disponibili solo sui pianeti dotati di un edificio di assemblaggio robot. Tuttavia, le conoscenze acquisite dalla progettazione garantiranno immediati benefici in termini di produttività."
+ synth.105.a: "Ottimizzate il processo decisionale."
+ build_better_synths: "Aggiunto modificatore edifici assemblaggio robot:"
+ synth.105.a.tt: "$build_better_synths$\nProduzione Risorse Élite: §G+15%§!\n\n"
+ synth.105.b: "Focus sull'archiviazione della memoria."
+ synth.105.b.tt: "$build_better_synths$\nProduzione Risorse Specialista: §G+5%§!\n\n"
+ synth.105.c: "Migliorate le funzioni motorie."
+ synth.105.c.tt: "$build_better_synths$\nProduzione Risorse Lavoratore: §G+10%§!\n\n"
+ synth.105.d: "Migliorate la durata."
+ synth.105.d.tt: "$build_better_synths$\n$mod_planet_jobs_upkeep_mult$: §G-5%§!\n\n"
+
+# Stage 1 Opportunities - Research
+ synth.120.name: "Microfusione Cinetica"
+ synth.120.desc: ""I modificatori a microfusione consentono di sollevare un carro armato!" esclama un importante servizio di recensioni per i consumatori. Non è un'iperbole: I recenti sviluppi della tecnologia di microfusione promettono di migliorare in modo significativo i nostri corpi meccanici.\n\nSebbene sia un po' rischioso, l'installazione di piccoli reattori personali consente un trasferimento di energia esplosivo e una maggiore velocità. Naturalmente, questo ci costringerà a rivalutare le tempistiche di produzione, poiché i generatori rappresentano un'importante espansione della portata del progetto."
+ synth.120.a: "Dobbiamo puntare all'eccellenza!"
+ synth.120.a.tt: "Velocità progresso situazione §Y$situation_digitization$§! per §Y1§! anno: §R-50%§!"
+ situation_kinesthetic_microfusion_tt: "Configurazione Cinetica della Microfusione"
+ synth.120.b: "Una funzione non necessaria."
+ synth.120.c: "Concentratevi sull'affinare le capacità di combattimento."
+
+# Stage 1 Challenges - Research
+ synth.160.name: "Cattiva Pubblicità"
+ synth.160.desc: "Un nuovo film molto popolare ha conquistato l'immaginazione pubblica. La storia è incentrata su un lavoratore sintetico che si dissocia dal suo nuovo corpo.\n\nMentre il protagonista va fuori controllo, i suoi amici e familiari possono solo guardare con orrore. Il tragico finale del dramma viene visto come una critica poco velata alla nostra prevista transizione verso corpi meccanici.\n\nIl discorso pubblico attorno a questo successo ha generato una notevole reazione e potrebbe in ultima analisi rallentare il nostro progresso."
+ synth.160.a: "La questione si sgonfierà."
+ synth.160.b: "Dirottate i fondi per la ricerca verso le PR."
+ synth.160.c: "Arrestate il regista."
+ synth.160.d: "Bloccate tutte le notizie a riguardo."
+
+# DIGITIZATION STAGE 2
+ synth.200.name: "Filosofia della Mente" # Stage 2 - Start event
+ synth.200.desc: "Abbiamo pensato che i vantaggi di una mente completamente digitalizzata fossero così evidenti da evitare qualsiasi tipo di contraccolpo. Forse siamo stati ingenui. Le obiezioni alla piena sintetizzazione sono state forti e devono essere affrontate.\n\nLa critica principale riguarda la nostra incapacità di dimostrare che un sé continuo può essere trasferito in modo sicuro e totale. Ci sono timori, non del tutto infondati, che tutto ciò che siamo riusciti a fare finora sia una copia digitale. La domanda è: queste menti sono davvero le nostre?"
+ synth.200.a: "Dire la verità: non lo sappiamo."
+ synth.200.a.tt: "Esegue una campagna di informazione, per una §Hminima§! opposizione alla sintetizzazione.\n\n"
+ synth.200.b: "Dite loro quello che vogliono sentire."
+ synth.200.b.tt: "Esegue una campagna di disinformazione, per una §Hmoderata§! opposizione alla sintetizzazione.\n\n"
+ synth.200.c: "Qualche obiettore non ci fermerà."
+ synth.200.c.tt: "Ignora gli obiettori, portando al §Hmassimo§! l'opposizione alla sintetizzazione."
+ synth.200.c.material: "Le questioni di coscienza non ci riguardano."
+ synth.200.c.material.tt: "Una visione puramente scientifica produrrà una §Hmoderata§! opposizione alla sintetizzazione.\n\n"
+
+ synth.205.name: "Aggrapparsi al Passato"
+ synth.205.desc: "Il progetto di sintetizzare la nostra popolazione ha continuato a incontrare resistenze, dando luogo a dimostrazioni infuocate che le nostre forze dell'ordine sono riuscite a malapena a contenere. I manifestanti temono di perdere le cose che danno un senso alla vita. Qual è lo scopo della sintetizzazione se comporta la perdita del piacere fisico o del senso di compagnia?\n\nGli irriducibili del movimento di protesta chiedono che alcune città siano designate come siti del patrimonio culturale. Ciò consentirebbe agli obiettori di continuare la loro vita biologica indisturbati."
+ synth.205.a.regular: "Sosteniamo pienamente questi siti del patrimonio."
+ synth.205.a.spiritualist: "Il nostro passato deve essere preservato."
+ synth.205.a.memorialist: "Rispettare il passato è un atto di riverenza."
+ synth.205.b: "Dobbiamo lasciarci il passato alle spalle."
+
+# Stage 2 Opportunities - Objectors
+ synth.220.name: "Seconda Vita"
+ synth.220.desc: "Una celebrità con forti opinioni anti-sintetizzazione ha subito un incidente e si trova attualmente in stato vegetativo. Mentre la popolazione piange la perdita di una personalità amata, i nostri consulenti pro-sintetizzazione vedono un'opportunità.\n\nDigitalizzare la mente della celebrità, offrendole una seconda vita in un corpo sintetico, trasformerebbe senza dubbio alcuni fan in ardenti sostenitori della sintetizzazione. Sebbene il processo sia del tutto legale, il problema è quello del consenso: a parità di condizioni, la celebrità in questione non acconsentirebbe mai alla procedura. Se gestita male, questa trovata di PR potrebbe trasformarsi in un disastro mediatico."
+ synth.220.a: "La sintetizzazione non è un crimine."
+ synth.220.a.tt.negative: "Velocità progresso situazione §Y$situation_digitization$§! per §Y6§! mesi: §R-30%§!"
+ synth.220.a.tt.positive: "Velocità progresso situazione §Y$situation_digitization$§! per §Y6§! mesi: §G+30%§!"
+ synth.220.b: "Non rischiate."
+ synth.220.c: "Ingannate il pubblico con un sostituto dell'IA."
+ synth.220.c.tt: "La sua immagine diventerà un attore nella nostra narrazione."
+
+# Stage 2 Challenges - Objectors
+ synth.260.name: "Menti Perdute"
+ synth.260.desc: "Gli esperimenti per digitalizzare i trilioni di connessioni sinaptiche che compongono una coscienza biologica si sono conclusi con un fallimento catastrofico. Un semplice errore di sintassi ha provocato la cancellazione istantanea dei percorsi neurali dei nostri soggetti. Alcuni lo chiamano omicidio.\n\nI partecipanti erano tutti volontari, ma i loro parenti in lutto chiedono giustizia. Ad aggravare il problema è la difficoltà di trovare nuovi soggetti."
+ synth.260.a: "Risarcite le famiglie e andate avanti."
+ synth.260.b: "I nuovi soggetti saranno scelti per sorteggio."
+ synth.260.b.tt: "Velocità progresso situazione §Y$situation_digitization$§! per §Y1§! anno: §R-25%§!"
+ situation_test_subject_lottery_tt: "Lotteria Soggetti per i Test"
+ synth.260.c: "Se necessario, trovate dei volontari con la forza."
+
+# DIGITIZATION STAGE 3
+ synth.300.name: "Caricamento Massivo d'Identità" # Stage 3 - Start event
+ synth.300.desc: "In tutto il nostro territorio, in ogni grande centro urbano, abbiamo installato cabine di sintetizzazione che ora sono pronte ad accogliere la nostra popolazione della specie [owner.species.GetName]. I modelli d'identità digitale progettati dai $job_identity_designer_plural$ promettono una corrispondenza uno a uno con l'originale biologico.\n\nÈ finalmente arrivato il giorno di abbandonare il nostro passato biologico e abbracciare un futuro sintetico."
+ synth.300.a: "Sintetizzare!"
+ synth.300.a.resistance.tt: "$unlock_edict_tt$ ['concept_edict_subsidized_identity_backups']\n\nSposta §Y[Owner.GetNumSynthOpposition] [Owner.GetBiologicalPopOrPops]§! nelle §Y$d_biological_enclaves$§! su [root.owner.capital_scope.GetName].\nRimuove gli ostacoli §Y[Owner.GetNumSynthOpposition] [Owner.GetMechanicalPopOrPops]§!\n\nModificatore §Y$synth_mass_demonstrations$§! rimosso da [root.owner.capital_scope.GetName]\n\nLa velocità di sintetizzazione dipende dall'approccio alla situazione e dal numero di edifici d'assemblaggio dei robot."
+ synth.300.a.heritage.tt: "$unlock_edict_tt$ ['concept_edict_subsidized_identity_backups']\n\nSposta §Y[Owner.GetNumSynthOpposition] [Owner.GetBiologicalPopOrPops]§! nelle §Y$d_old_towns$§! su [root.owner.capital_scope.GetName].\nRimuove gli ostacoli §Y[Owner.GetNumSynthOpposition] [Owner.GetMechanicalPopOrPops]§!\n\nLa velocità di sintetizzazione dipende dall'approccio alla situazione e dal numero di edifici di assemblaggio del robot."
+
+ synth.305.name: "Turismo Sintetico"
+ synth.305.desc: "Anche se i siti storici designati su [root.owner.capital_scope.GetName] sono stati ben accolti dal pubblico, l'iniziativa si è rivelata forse troppo riuscita. In preda alla nostalgia, un gran numero di turisti sintetici si è riversato sui siti e sta cominciando a sopraffare gli abitanti biologici.\n\nPotrebbe essere necessario limitare il turismo se vogliamo mantenere un senso di autenticità all'interno di questi spazi. In alternativa, l'interazione tra turisti e residenti potrebbe fornire interessanti spunti sociologici."
+ synth.305.a: "Limitate il turismo."
+ synth.305.b: "Incoraggiare i visitatori potrebbe essere redditizio."
+ synth.305.c: "Studiate l'impatto del turismo sui siti."
+ synth.305.d: "Lo scambio culturale promuove la comprensione reciproca."
+
+ synth.310.name: "La Resistenza"
+ synth.310.desc: "Il movimento contro la sintetizzazione su [root.owner.capital_scope.GetName] è diventato più radicale nelle sue tattiche e ambizioni. In effetti, le forze di sicurezza hanno notato un aumento della violenza e la diffusione di armi illegali nei segmenti più estremi del movimento.\n\nAlcuni di questi dissidenti, che si definiscono 'leader della resistenza', si sono ritirati in nascondigli in cui prepararsi ad azioni antigovernative più eclatanti."
+ synth.310.a: "Arrestate i leader."
+ synth.310.a.tt: "Velocità progresso situazione §Y$situation_digitization$§! per §Y1§! anno: §G+25%§!\n\n"
+ synth.310.b: "Tentate di disinnescare la situazione."
+ synth.310.b.tt: "Velocità progresso situazione §Y$situation_digitization$§! per §Y1§! anno: §R-25%§!\n\n"
+
+# Stage 3 Opportunities - Mind Upload
+ synth.320.name: "21,386,732,184 Unità di memoria"
+ synth.320.desc: "21,386,732,184 Unità di memoria: è la capacità media di un cervello [root.owner.GetSpeciesName]. Tuttavia, non tutte le menti sono create uguali.\n\nMentre il processo di sintetizzazione continua, alcuni sostengono che non tutte le menti sono degne di un corpo artificiale. Tuttavia, la questione di chi dare la priorità è spinosa. O forse le menti meno desiderabili potrebbero essere... migliorate, una volta digitalizzate. Riprogrammate."
+ synth.320.a: "Ogni mente è degna di essere preservata."
+ synth.320.b: "Non c'è nulla di male nell'aggiustare..."
+ synth.320.c: "Date priorità alle menti più brillanti."
+ synth.320.d: "Riprogrammate gli individui 'problematici'."
+
+# Stage 3 Challenges - Mind Upload
+ synth.360.name: "Malware Via Etere"
+ synth.360.desc: "Per aumentare la produttività dei [roboticist.GetNamePlural], i dirigenti hanno approvato pericolosi aggiornamenti dei software d'identità via etere. L'intento era quello di integrare la conoscenza dei processi di lavoro ottimali, ma invece la personalità e i ricordi degli sfortunati destinatari sono andati parzialmente persi.\n\nIl team di gestione sostiene che sarebbe troppo lento testare completamente le patch d'identità prima di applicarle e che è più semplice riassegnare i lavoratori che perdono la memoria."
+ synth.360.a: "L'ottimizzazione della produttività vale il costo."
+ synth.360.a.tt: "Aggiunto modificatore edifici d'assemblaggio robot:\n$MOD_PLANET_POP_ASSEMBLY_MULT$: §G+10%§!\n\n§Y[roboticist.GetNamePlural]§! mantenimento base: £alloys£§R3.00§!"
+ synth.360.b: "Applicate processi di aggiornamento lenti ma sicuri."
+ synth.360.b.tt: "Aggiunto modificatore edifici d'assemblaggio robot:\n$MOD_PLANET_POP_ASSEMBLY_MULT$: §R-10%§!\nStabilità: §G+5§!"
+
+# DIGITIZATION STAGE 4
+ synth.400.name: "Una Copia Perfetta" # Stage 4 - Start event
+ synth.400.desc: "Quando abbiamo digitalizzato le nostre menti e le abbiamo caricate in corpi sintetici, abbiamo perso la capacità di riprodurci biologicamente. Ora dobbiamo creare individui facendo copie di menti esistenti.\n\nMan mano che i nostri $job_identity_designer_plural$ continueranno le loro ricerche, senza dubbio miglioreremo il processo. Dopo tutto, anche la copia perfetta è una semplice replica. Creare una nuova mente, una nuova identità... Questa sì che è una sfida."
+ synth.400.a: "Consentite a chiunque di richiedere copie d'identità gratuite."
+ synth.400.pop.tt: "$unlock_edict_tt$ ['concept_edict_optimized_identity_creation']\n\nOgni §Y$job_identity_designer$§! ora fornisce:$TABBED_NEW_LINE$£mod_planet_pop_assembly_mult£ $MOD_POP_ASSEMBLY_SPEED$: §G+1§! in tutto l'impero\n\n"
+ synth.400.b: "Addebitare all'utente ogni copia."
+
+ synth.405.name: "Identità Diversificate"
+ synth.405.desc: "I nostri $job_identity_designer_plural$ hanno scoperto due metodi per creare identità digitali più diversificate.\n\nUn'opzione potrebbe essere quella di mescolare le caratteristiche di due o più personalità esistenti per creare una nuova identità combinata. I tratti che preferiamo potrebbero essere privilegiati o selezionati a caso. In ogni caso, la nuova identità sarebbe sicuramente più interessante delle nostre attuali copie d'identità.\n\nIn alternativa, possiamo inizializzare una nuova identità a partire da un modello artificiale e lasciarla passare attraverso un'infanzia accelerata (e simulata). In questo modo si potrebbe progettare una personalità perfetta."
+ synth.405.a: "Uniremo le nostre identità."
+ synth.405.a.vault: "Unirsi con i nostri antenati digitalizzati."
+ synth.405.a.tt: "Opzione ricerca ottenuta: £engineering£§Y$tech_identity_fusion$§!\n\nPossibilità ricerca futura: £engineering£§Y$tech_identity_initialization$§!"
+ synth.405.b: "L'assistenza virtuale è ottimale."
+ synth.405.b.tt: "Opzione ricerca ottenuta: £engineering£§Y$tech_identity_initialization$§!\n\nPossibilità ricerca futura: £engineering£§Y$tech_identity_fusion$§!"
+
+ synth.4.name: "Una popolazione Sintetica" # Digitization - Last event
+ synth.4.desc: "In uno sforzo coordinato, abbiamo realizzato ciò che sembrava impossibile, trasformando la nostra coscienza in codice e i nostri corpi in macchine.\n\nIl processo non è stato privo di difficoltà e la transizione è stata tutt'altro che facile. Ma qualsiasi cosa si sia persa lungo il cammino, la nostra nuova configurazione offre infinite possibilità."
+ synth.4.desc.unplugged: "Grazie a uno sforzo coordinato, abbiamo raggiunto ciò che un tempo sembrava impossibile, forse persino sacrilego. Ci siamo evoluti oltre la comprensione stessa dell'[origin_unplugged_assimilator_empire.GetName], trasformando la nostra coscienza in codice e i nostri corpi in macchine.\n\nIl processo non è stato privo di difficoltà; la transizione è stata tutt'altro che facile. Ma qualunque cosa sia andata perduta lungo il percorso, la nostra nuova configurazione offre infinite possibilità."
+ synth.4.a: "Saremo eccezionali."
+ synth.4.a.tt: "Sblocca Tutti gli Effetti dell'Albero della Traditione: ['tradition_category:tradition_synthetics']"
+
+### DIGITIZATION SITUATION END ###
+
+### SOCIETAL EFFECTS EVENT CHAIN START ###
+ synthshock_chain_title: "Revisione Digitale"
+ synthshock_chain_desc: "La sintetizzazione di un'intera popolazione è un'impresa di proporzioni monumentali. Ci saranno sicuramente delle ripercussioni. Mentre ci adattiamo alla nuova normalità, sfide incalcolabili e opportunità uniche influenzeranno senza dubbio la nostra vita quotidiana.\n\nIl modo in cui affrontiamo questi cambiamenti definirà la nostra società per i secoli a venire."
+ synth_keep_auth_option: "La sintetizzazione non cambia ciò che siamo."
+
+### AUTHORITIES ###
+# DEMOCRATIC
+# Synth Democratic Physical
+ auth_synth_democratic_physical: "Trasferimento Democratico"
+ auth_synth_democratic_physical_desc: "Questa forma di governo consente una libertà di movimento senza precedenti da un corpo sintetizzato a un altro, ed è pronta ad affrontare i costi aggiuntivi che ne derivano."
+ auth_synth_democratic_physical_tt: "$auth_democratic_election_tt$\nEfficienza Lavorativa per i Specialisti §G+1%§! per £district£ Distretto\nMantenimento Distretto §R+1%§! per £district£ Distretto"
+ concept_auth_synth_democratic_physical: "$auth_synth_democratic_physical$"
+ gov_synth_democracy_physical: "$auth_synth_democratic_physical$"
+ gov_synth_democracy_physical_desc: "$auth_synth_democratic_physical_desc$"
+
+# Synth Democratic Virtual
+ auth_synth_democratic_virtual: "Democrazia Surrogata"
+ auth_synth_democratic_virtual_desc: "La sostituzione dei soldati con sofisticati surrogati operanti a distanza riduce l'impatto della guerra sulla popolazione. Le navi possono anche essere costruite in modo più sottile, poiché l'equipaggio non ha più bisogno di alloggi o cabine di pilotaggio."
+ auth_synth_democratic_virtual_tt: "$auth_democratic_election_tt$"
+ concept_auth_synth_democratic_virtual: "$auth_synth_democratic_virtual$"
+ gov_synth_democracy_virtual: "$auth_synth_democratic_virtual$"
+ gov_synth_democracy_virtual_desc: "$auth_synth_democratic_virtual_desc$"
+
+# OLIGARCHIC
+ auth_cyber_oligarch_ruler_enforcers_tt: "Produzione Risorse Sovrano per [enforcer.GetIcon] [enforcer.GetName]: §G+10%§!"
+
+# Synth Oligarchic Physical
+ auth_synth_oligarchic_physical: "Sovrapposizione Oligarchica"
+ auth_synth_oligarchic_physical_desc: "Le oligarchie sintetiche autorizzano i burocrati di alto livello ad assumere temporaneamente il controllo dei corpi dei loro colleghi meno performanti per evitare catastrofi nella gestione dei processi."
+ concept_auth_synth_oligarchic_physical: "$auth_synth_oligarchic_physical$"
+ gov_synth_oligarchy_physical: "$auth_synth_oligarchic_physical$"
+ gov_synth_oligarchy_physical_desc: "$auth_synth_oligarchic_physical_desc$"
+
+# Synth Oligarchic Virtual
+ auth_synth_oligarchic_virtual: "Supervisione Oligarchica"
+ auth_synth_oligarchic_virtual_desc: "I protocolli di gestione olistica dei progetti e le risorse di elaborazione aggiuntive consentono agli alti funzionari di monitorare più editti a livello di impero con un'efficienza senza precedenti."
+ concept_auth_synth_oligarchic_virtual: "$auth_synth_oligarchic_virtual$"
+ gov_synth_oligarchy_virtual: "$auth_synth_oligarchic_virtual$"
+ gov_synth_oligarchy_virtual_desc: "$auth_synth_oligarchic_virtual_desc$"
+
+# DICTATORIAL
+# Synth Dictatorship Physical
+ auth_synth_dictatorial_physical: "Organo Dittatoriale"
+ auth_synth_dictatorial_physical_desc: "La sincronizzazione dei neuroconnettori e dell'infrastruttura di supporto consente a una singola persona di controllare più corpi sintetici contemporaneamente. Questo ha un effetto enorme e positivo sulla produttività dei lavoratori."
+ concept_auth_synth_dictatorial_physical: "$auth_synth_dictatorial_physical$"
+ gov_synth_dictatorship_physical: "$auth_synth_dictatorial_physical$"
+ gov_synth_dictatorship_physical_desc: "$auth_synth_dictatorial_physical_desc$"
+
+# Synth Dictatorship Virtual
+ auth_synth_dictatorial_virtual: "Indottrinamento Dittatoriale"
+ auth_synth_dictatorial_virtual_desc: "Ora esistiamo in un mondo completamente virtuale. Nulla è vero. Tutto può essere manipolato.\n\nCon il controllo completo dell'ambiente in cui si vive, l'opinione pubblica può essere plasmata da noi. Il popolo crederà a ciò che noi vogliamo che creda."
+ concept_auth_synth_dictatorial_virtual: "$auth_synth_dictatorial_virtual$"
+ gov_synth_dictatorship_virtual: "$auth_synth_dictatorial_virtual$"
+ gov_synth_dictatorship_virtual_desc: "$auth_synth_dictatorial_virtual_desc$"
+
+# IMPERIAL
+# Synth Imperial Physical
+ auth_synth_imperial_physical: "Retroazione imperiale"
+ auth_synth_imperial_physical_desc: "Possiamo accelerare i nostri sforzi di ricerca sezionando le impronte memorizzate dei nostri leader defunti negli archivi della memoria imperiale. In questo modo, possono ancora contribuire all'impero come sicuramente avrebbero voluto.\n\nIl trono imperiale viene ereditato dall'erede designato alla morte del sovrano."
+ auth_synth_imperial_physical_tt: "I leader conferiscono $r_research$ alla morte: $TABBED_NEW_LINE$$scientist_plural_with_icon$ - $r_physics$ $TABBED_NEW_LINE$$official_plural_with_icon$ - $r_society$ $TABBED_NEW_LINE$$commander_plural_with_icon$ - $r_engineering$ $NEW_LINE$ Ottieni la gamma di $r_research$ con il §YLivello Abilità del Leader§!"
+
+ concept_auth_synth_imperial_physical: "$auth_synth_imperial_physical$"
+ gov_synth_imperial_physical: "$auth_synth_imperial_physical$"
+ gov_synth_imperial_physical_desc: "$auth_synth_imperial_physical_desc$"
+
+# Synth Imperial Virtual
+ auth_synth_imperial_virtual: "Trasmissione Imperiale"
+ auth_synth_imperial_virtual_desc: "La tecnologia di trasferimento rapido della mente ci dà la possibilità di rimandare in combattimento i nostri soldati caduti in corpi meccanici nuovi. La stessa tecnica permette ai nostri lavoratori di eseguire riparazioni navali altamente pericolose nello spazio.\n\nIl trono imperiale viene ereditato dall'erede designato alla morte del sovrano."
+ auth_synth_imperial_virtual_tt: "Le nostre armate robotiche hanno il §Y33%§! di possibilità di essere ripristinate quando vengono sconfitte"
+ concept_auth_synth_imperial_virtual: "$auth_synth_imperial_virtual$"
+ gov_synth_imperial_virtual: "$auth_synth_imperial_virtual$"
+ gov_synth_imperial_virtual_desc: "$auth_synth_imperial_virtual_desc$"
+
+# CORPORATE
+# Synth Corporate Physical
+ auth_synth_corporate_physical: "Sapienza Aziendale"
+ auth_synth_corporate_physical_desc: "Le menti sintetiche vincolate possono essere inserite in oggetti inanimati per creare entità viventi rudimentali. Può funzionare come un servitore instancabile, un compagno fedele o persino un membro prezioso della famiglia o dell'azienda.\n\nI governi aziendali sono enormi imprese commerciali che hanno completamente soppiantato il ruolo dello Stato."
+ auth_synth_corporate_physical_tt: "$AVAILABLE_POLICIES$ §Y$policy_computation_core_allocation$§!\n$AVAILABLE_HOLDINGS$ ['building:building_ai_emporium']"
+ concept_auth_synth_corporate_physical: "$auth_synth_corporate_physical$"
+ gov_synth_corporate_physical: "$auth_synth_corporate_physical$"
+ gov_synth_corporate_physical_desc: "$auth_synth_corporate_physical_desc$"
+
+# Synth Corporate Virtual
+ auth_synth_corporate_virtual: "Reminiscenza Aziendale"
+ auth_synth_corporate_virtual_desc: "Questa società si occupa di acquistare ricordi, cancellandoli in modo permanente dal cervello del cliente. I ricordi vividi e intensi valgono più di quelli banali. La corporazione analizza poi i dati alla ricerca di informazioni utili prima di integrarli nel processo di creazione di menti sintetiche.\n\nI governi aziendali sono enormi imprese commerciali che hanno completamente soppiantato il ruolo dello Stato."
+ auth_synth_corporate_virtual_tt: "$AVAILABLE_POLICIES$ §Y$policy_computation_core_allocation$§!\n$AVAILABLE_HOLDINGS$ ['building:building_clear_thought_clinic']"
+ concept_auth_synth_corporate_virtual: "$auth_synth_corporate_virtual$"
+ gov_synth_corporate_virtual: "$auth_synth_corporate_virtual$"
+ gov_synth_corporate_virtual_desc: "$auth_synth_corporate_virtual_desc$"
+
+### EDICTS ###
+ edict_subsidized_identity_backups: "Backup d'Identità Sovvenzionata"
+ edict_subsidized_identity_backups_desc: "Il governo fornisce l'immensa quantità di spazio sul server necessaria per i backup continui dell'identità."
+ edict_subsidized_identity_backups_effect: "$MOD_LEADER_LIFESPAN_ADD$: §G+20 Anni§!\n$MOD_LEADER_SPECIES_EXP_GAIN$: §G+10%§!"
+ concept_edict_subsidized_identity_backups: "$edict_subsidized_identity_backups$"
+ edict_optimized_identity_creation: "Creazione d'Identità Ottimizzata"
+ edict_optimized_identity_creation_desc: "Algoritmi avanzati di personalità e tecniche di compressione della memoria centrale migliorano la nostra velocità di generazione delle identità."
+ concept_edict_optimized_identity_creation: "$edict_optimized_identity_creation$"
+
+### EVENTS ###
+ synth.social_consequences.tt: "Influenza il cambiamento della §YSocietà Sintetica§! in corso.\n\n" # Standard tooltip to indicate that the Physical/Virtual focus variables has changed
+
+# FIRST EVENT #
+# DEMOCRATIC
+ synth.505.name: "$synthshock_chain_title$"
+ synth.505.desc: "Grazie agli sforzi del nostro governo, la coscienza di ogni cittadino volenteroso è stata trasferita in forma digitale. La sintetizzazione ha aperto strade che non possiamo ancora immaginare, portando a nuove sfide e possibilità.\n\nConcentrando i nostri sforzi sul mondo fisico, potremmo trasportare le nostre menti digitalizzate attraverso grandi distanze in un nuovo corpo già preparato per noi. Oppure potremmo trovare i mezzi per creare soldati surrogati comandati a distanza per alleviare i rigori della guerra."
+ synth.505.a: "Dovremmo concentrarci sulla libertà di movimento."
+ synth.505.a.tt: "Enfasi sul reinsediamento e sui distretti."
+ synth.505.b: "Dobbiamo prepararci agli orrori della guerra."
+ synth.505.b.tt: "Enfasi sull'esaurimento bellico e sui viaggi subluminali."
+
+# OLIGARCHIC
+ synth.510.name: "$synthshock_chain_title$"
+ synth.510.desc: "Sebbene la sintetizzazione abbia già influenzato la società in modi che non avremmo mai potuto prevedere, il sentimento generale è che potremmo andare ancora oltre. I nostri attuali corpi sintetici possono essere migliorati o addirittura abbandonati del tutto per un'esistenza completamente virtuale.\n\nSe decidessimo di assegnare un corpo sintetico a tutti, questo potrebbe consentire ai funzionari di assumere temporaneamente il controllo dei corpi dei membri inefficaci del governo. In alternativa, rinunciare a forme fisiche su misura a favore di un'esperienza comunitaria completamente virtuale ci permetterebbe di prendere decisioni con un'efficienza mai vista prima."
+ synth.510.a: "Focus che prende il sopravvento sui corpi inefficaci."
+ synth.510.a.tt: "Enfasi sull'efficienza burocratica."
+ synth.510.b: "Studiate le opzioni olistiche di supervisione virtuale."
+ synth.510.b.tt: "Enfasi sugli editti e sulle dimensioni dell'impero."
+
+# DICTATORIAL
+ synth.515.name: "$synthshock_chain_title$"
+ synth.515.desc: "La sintetizzazione completa della popolazione si è rivelata un successo clamoroso. Il nostro passato organico è stato lasciato nella polvere della storia, ma per tracciare una strada per il futuro, §Y[From.GetRulerTitle] [From.GetRulerName]§! ha bisogno sia dell'obbedienza incondizionata delle nostre menti più brillanti, sia di una decisione.\n\nIl miglioramento dei nostri corpi sintetici consentirebbe agli individui di controllare più ospiti contemporaneamente. In alternativa, potremmo rinunciare completamente allo spazio fisico, manipolando il sentimento pubblico attraverso un ambiente completamente virtuale."
+ synth.515.a: "Concentrarsi sui corpi neuro-sincronizzati."
+ synth.515.a.tt: "Enfasi su lavoratori e distretti."
+ synth.515.b: "Concentrarsi sulla manipolazione virtuale."
+ synth.515.b.tt: "Enfasi sugli edifici e sull'etica del governo."
+
+# IMPERIAL
+ synth.520.name: "$synthshock_chain_title$"
+ synth.520.desc: "Sebbene la sintetizzazione abbia già influenzato l'impero in modi imprevisti, la popolazione sembra disposta ad andare oltre. I nostri corpi sintetici potrebbero diventare estensioni della nostra identità, o semplici strumenti da controllare a distanza tramite la nostra coscienza virtuale. Il nostro percorso è ancora indeciso.\n\nPossiamo ricercare i mezzi per trasferire rapidamente una coscienza da un corpo sacrificabile a un altro. In alternativa, potremmo concentrarci sull'estrazione di conoscenze dai defunti recenti per accelerare i nostri sforzi di ricerca."
+ synth.520.a: "Cercarete di estrarre la conoscenza dai defunti."
+ synth.520.a.tt: "Enfasi su leader e ricerca."
+ synth.520.b: "Studiate il trasferimento rapido della coscienza."
+ synth.520.b.tt: "Enfasi su eserciti e navi."
+
+# CORPORATE
+ synth.525.name: "$synthshock_chain_title$"
+ synth.525.desc: "La sintetizzazione della nostra intera società merita un'analisi approfondita dei rischi e dei benefici. Se da un lato stiamo entrando in una nuova e redditizia frontiera del futuro sintetizzato, dall'altro ci stiamo lasciando alle spalle la nostra base di clienti più materialisticamente allineata. In un mondo perfetto vorremmo mantenere entrambi i segmenti in qualche modo.\n\nI progressi nei campi legati alla sintetizzazione, come l'intelligenza artificiale, ci permetterebbero di dotare gli oggetti inanimati di una vita rudimentale e di lanciare più linee di prodotti. Un'esplorazione più completa dello spazio virtuale consentirebbe di attingere ai ricordi delle persone come a un nuovo tipo di merce."
+ synth.525.a: "Studiate l'incorporazione delle IA."
+ synth.525.a.tt: "Enfasi su produzione e profitto."
+ synth.525.b: "Ricercate la trasformazione dei ricordi in profitto."
+ synth.525.b.tt: "Enfasi su commercio, beni e informazioni."
+
+### EVENT POOL 1: IDENTITY ###
+ synth.610.name: "Provenienza Sintetizzatore"
+ synth.610.desc: "I cambiamenti sociali fondamentali provocati dalla sintetizzazione cominciano a farsi sentire. Non più limitati da forme corporee, abbiamo ridefinito radicalmente le categorie di genere, razza e autonomia corporea. Sebbene per alcuni sia una liberazione, gli elementi più tradizionali sono riluttanti a lasciare andare il vecchio quadro; desiderano un'identità predefinita da cui operare.\n\nPer placarli, potremmo mantenere parti del nostro patrimonio organico nella nostra forma sintetica. In alternativa, potremmo permettere alla popolazione di esprimere più liberamente la propria identità."
+ synth.610.a: "Mantenete la nostra forma originale."
+ synth.610.b: "Consentite la modifica del corpo senza restrizioni."
+ synth.610.c: "Imporre limiti moderati all'identità personale."
+ synth.610.d: "I simboli di status visibili devono rimanere."
+ synth.610.e: "Naturalmente questo può essere monetizzato...?"
+
+ synth.620.name: "Ritorno al Passato"
+ synth.620.desc: "Non entusiasti della sintetizzazione, alcuni guardano con nostalgia al loro passato biologico. Sostengono che una durata di vita più breve e l'innata imperfezione di un 'corpo naturale' rendessero la vita più significativa.\n\nSostenendo che i loro facsimili sintetici o virtuali si sentono impersonali e vuoti, un gruppo di integralisti sta sviluppando una devozione simile a un culto per i corpi organici.\n\nForse dovremmo fornire loro una simulazione meno perfetta in cui esistere. O preferiscono un guscio imperfetto?"
+ synth.620.a: "Introducete imperfezioni programmate nei corpi sintetici."
+ synth.620.b: "Fornite loro un mondo imperfetto."
+ synth.620.c: "È sciocco romanticizzare il passato."
+ synth.620.d: "Il dolore ricorderà loro il loro scopo."
+ synth.620.d.tt: "Che le battaglie virtuali abbiano INIZIO!\n\n"
+
+ synth.630.name: "Architettura Server Domestici"
+ synth.630.desc: "La sintetizzazione dell'intera specie §Y[root.GetSpeciesAdj]§! ha comportato anche un drastico cambiamento nelle nostre pratiche abitative: mentre le menti riposano tranquillamente in enormi server farm, i corpi sintetici possono essere conservati in scaffali. Sebbene questo rappresenti una soluzione efficace dal punto di vista dei costi, alcuni gruppi di difesa stanno sollevando alcune preoccupazioni molto reali.\n\nIl mercato immobiliare, un tempo redditizio, potrebbe crollare del tutto, lasciando un'ammaccatura considerevole nella nostra economia. Potenzialmente più dannoso, almeno dal punto di vista psicologico, è che le persone non avranno più un luogo fisico da chiamare casa. "
+ synth.630.a: "I server centralizzati sono più efficienti."
+ synth.630.b: "I server individuali possono essere collocati nelle case esistenti."
+ synth.630.c: "Iniziate a vendere case digitali."
+
+### EVENT POOL 2: POSSIBILITIES ###
+ synth.1010.name: "Matrice Infinite Possibilità"
+ synth.1010.desc: "L'industria digitale è in piena espansione. Dal brivido della simulazione di un'avventura in prima persona al relax in un resort digitale, l'intrattenimento virtuale non è mai stato così coinvolgente - o così assuefacente. Se da un lato questa industria fiorente rappresenta un motore economico fondamentale, dall'altro la produzione nel mondo fisico ha iniziato a soffrire mentre le persone trascorrono sempre più tempo nelle loro utopie digitali. Alcuni rischiano di perdere completamente il contatto con la vita 'reale', ma potrebbero ancora contribuire alla società partecipando all'economia digitale.\n\nDovremmo vietare i mondi virtuali che creano dipendenza, promuoverli come una nuova forma di intrattenimento redditizio o trovare una via di mezzo attraverso la regolamentazione?"
+ synth.1010.a: "Vietate la realtà virtuale che crea dipendenza persistente."
+ synth.1010.b: "Promuovete questi paradisi virtuali."
+ synth.1010.b.hedonist: "Finalmente il paradiso definitivo!"
+ synth.1010.c: "Regolamentate l'industria."
+
+ synth.1020.name: "Medicina Sintetica"
+ synth.1020.desc: "Le nostre nuove forme sintetiche ci hanno liberato dai disturbi e dalle lesioni del corpo organico. Sfortunatamente, hanno anche creato un'intera nuova serie di problemi, dai semplici guasti meccanici alla stabilità dei server, ai problemi di connessione e ai virus digitali che mettono a rischio la vita.\n\nDobbiamo concentrarci sulla protezione delle nostre menti digitalizzate, considerando il corpo come un bene usa e getta, o dedicargli maggiore attenzione come estensione della nostra identità?"
+ synth.1020.a: "Dobbiamo continuare a proteggere il corpo."
+ synth.1020.a.spiritual: "Il corpo è un contenitore sacro per l'anima."
+ synth.1020.b: "Concentrarsi sulla protezione della mente."
+ synth.1020.b.spiritual: "Abbiamo già trasceso la forma fisica."
+ synth.1020.c: "L'equilibrio è la chiave."
+ synth.1020.d: "Questi nuovi mali offrono un serio potenziale di crescita..."
+
+ synth.1030.name: "Rinascita"
+ synth.1030.desc: "Siamo diventati più veloci, migliori e più forti. Ma sottoporre corpi sintetici a situazioni pericolose ha comunque un costo mentale. Sapere che la mente può essere ripristinata può attenuare il trauma, ma non lo elimina del tutto. Soprattutto perché il recupero non è sempre garantito. Ne è possibile fabbricare nuovi corpi dal nulla.\n\nPossiamo ignorare il trauma psicologico per spingere i limiti delle prestazioni dei synth o moderare le nostre ambizioni per non mettere in pericolo il benessere mentale della popolazione."
+ synth.1030.a: "Continuate a spingere i limiti."
+ synth.1030.b: "Esercitare cautela."
+ synth.1030.c: "L'élite non deve essere messa a rischio."
+
+# FINAL EVENT #
+ synth_virtual_trait: "\n[owner.species.GetNamePlural] Ottieni Tratto: §Y$trait_robot_digital_1$§!\nI leader che hanno il tratto §Y$leader_trait_synthetic$§! viene sostituito con il tratto §Y$leader_trait_virtual$§!"
+ synth_physical_traits: "\nSblocca Tratti §YAvanzati§! per la Modifica della Specie"
+# DEMOCRATIC
+ synth.1505.name: "Società Sintetizzata"
+ synth.1505.desc.physical: "Non è nostra intenzione cancellare completamente l'individualità. Possiamo raccogliere i benefici della sintesi senza perdere irrimediabilmente il nostro io.\n\nCon questo cambiamento, la libertà di movimento non è mai stata così accessibile. Possiamo trasportare le nostre coscienze in corpi specializzati in gran numero, permettendo alle persone di vivere e lavorare ovunque sia più necessario."
+ synth.1505.desc.virtual: "La nostra società si è liberata dal mondo fisico e guarda al futuro con un misto di eccitazione e trepidazione. Ci siamo trasformati in modi che ancora non comprendiamo appieno, ma intraprendiamo questo viaggio epocale insieme.\n\nLa nostra popolazione può ora interfacciarsi con le macchine in modi che non mettono in pericolo la nostra coscienza. È una pietra miliare nel modo in cui navighiamo tra i pericoli della guerra o il vuoto incondizionato dello spazio."
+ synth.1505.desc.neutral: "L'esitazione di fronte a un cambiamento incomprensibile è comprensibile. Molti sono più preoccupati di ciò che potrebbero perdere che di ciò che potrebbero guadagnare. Ma non possiamo restare inerti di fronte a questo bivio e quindi dobbiamo guidare il nostro popolo verso il futuro.\n\nQuesto potrebbe significare creare una selezione di corpi personali specializzati in cui le persone possano saltare a piacimento, oppure abbracciare completamente la loro forma sintetizzata per sopportare i rigori dei viaggi spaziali e della guerra."
+ synth.1505.a: "Facilitate il passaggio da un corpo fisico all'altro."
+ synth.1505.a.tt: "$change_auth_tt$ ['concept_auth_synth_democratic_physical'] $synth_physical_traits$"
+ synth.1505.b: "Usarete i surrogati che combattono al posto nostro."
+ synth.1505.b.tt: "$change_auth_tt$ ['concept_auth_synth_democratic_virtual'] $synth_virtual_trait$"
+ synth.1505.c: "$synth_keep_auth_option$"
+ synth.1505.c.tt: "$keep_auth_tt$ ['concept_auth_democratic']"
+
+# OLIGARCHIC
+ synth.1510.name: "Società Sintetizzata"
+ synth.1510.desc.physical: "La nostra società sintetizzata, i corpi sintetici migliorati e il sentimento generale puntano tutti verso un percorso di sintetizzazione più conservativo. Pur mantenendo una forma fisica personalizzata, la nostra gente sarà in grado di scambiare i corpi quasi a piacimento.\n\nCiò consentirà ai funzionari più esperti di assumere temporaneamente il controllo delle loro controparti meno efficaci, migliorando notevolmente le prestazioni burocratiche."
+ synth.1510.desc.virtual: "Siamo ora pronti a compiere il passo logico successivo nella rivoluzione della sintetizzazione, l'abbraccio di un'esistenza completamente virtuale.\n\nI corpi temporanei svolgeranno compiti nel mondo fisico, ma la maggior parte della popolazione è disposta a passare a uno stato più immateriale dell'essere.\n\nCiò consentirà di eseguire gli ordini in modo rapido ed efficiente, e con un controllo governativo di gran lunga inferiore."
+ synth.1510.desc.neutral: "Abbiamo adattato tutte le parti della società alla vita sintetica, ma i dati rimangono inconcludenti sui benefici di un'ulteriore specializzazione.\n\nPossiamo creare altri accessi per l'identità che permettano ai funzionari supervisori di prendere il controllo dei corpi dei subordinati inefficaci, oppure sviluppare un'interfaccia virtuale in rete che permetta loro di supervisionare più progetti governativi simultaneamente senza latenza."
+ synth.1510.a: "Consentite ai funzionari di subentrare ai colleghi inefficienti."
+ synth.1510.a.tt: "$change_auth_tt$ ['concept_auth_synth_oligarchic_physical'] $synth_physical_traits$"
+ synth.1510.b: "Abbracciate la completa supervisione virtuale."
+ synth.1510.b.tt: "$change_auth_tt$ ['concept_auth_synth_oligarchic_virtual'] $synth_virtual_trait$"
+ synth.1510.c: "$synth_keep_auth_option$"
+ synth.1510.c.tt: "$keep_auth_tt$ ['concept_auth_oligarchic']"
+
+# DICTATORIAL
+ synth.1515.name: "Società Sintetizzata"
+ synth.1515.desc.physical: "Il nostro popolo non si sottrae di fronte a un onesto lavoro fisico. I nostri lavoratori sono stati collegati in rete e ora possono controllare a distanza più corpi, aumentando notevolmente le quote di produzione.\n\nQuesto sviluppo è un chiaro segno che abbiamo ragione a fidarci della guida del nostro leader, il supremo §Y[From.GetRulerTitle] [From.GetRulerName]§!."
+ synth.1515.desc.virtual: "Le persone sono pronte a rinunciare alla loro forma fisica in favore di una coscienza digitale. Sono disposti a continuare la loro esistenza in un ambiente completamente virtuale.\n\nAvendo così firmato la loro percezione, abbiamo la completa libertà di manipolare la loro realtà, aumentando i sentimenti positivi verso lo Stato. Una popolazione allineata con la loro leadership è il pilastro di una nazione forte."
+ synth.1515.desc.neutral: "La popolazione di §Y[root.GetSpeciesAdj]§! rimane indecisa su quale forma debba assumere la nostra coscienza digitalizzata. Le voci più conservatrici vorrebbero che rimanessimo profondamente radicati nei corpi corporei, mentre altri si risentono di questa 'mezza misura' tra vecchio e nuovo.\n\nSpetta a noi fare questa scelta. La concentrazione fisica permetterebbe a un singolo lavoratore di controllare più corpi, mentre un'esistenza virtuale consentirebbe un controllo della società su una scala senza precedenti."
+ synth.1515.a: "Create corpi di lavoratori neuro-sincronizzati."
+ synth.1515.a.tt: "$change_auth_tt$ ['concept_auth_synth_dictatorial_physical'] $synth_physical_traits$"
+ synth.1515.b: "Manipolate l'opinione popolare nello spazio virtuale."
+ synth.1515.b.tt: "$change_auth_tt$ ['concept_auth_synth_dictatorial_virtual'] $synth_virtual_trait$"
+ synth.1515.c: "$synth_keep_auth_option$"
+ synth.1515.c.tt: "$keep_auth_tt$ ['concept_auth_dictatorial']"
+
+# IMPERIAL
+ synth.1520.name: "Società Sintetizzata"
+ synth.1520.desc.physical: "L'Impero sta favorendo il potenziamento dei nostri nuovi corpi sintetici.\n\nQueste nuove forme consentono di smontare i cervelli positronici per acquisire le impronte di conoscenza della nostra élite recentemente scomparsa. Come servitori dell'Impero, questo è sicuramente ciò che avrebbero voluto."
+ synth.1520.desc.virtual: "Il popolo §Y[From.GetSpeciesAdj]§! è disposto a spingersi oltre, abbracciando un'esistenza virtuale completa rispetto ai mezzi limiti del mondo fisico. Questo evento epocale creerà onde d'urto che riecheggeranno nel nostro futuro. Aumentando la velocità e la portata del trasferimento d'identità, siamo in grado di sostituire rapidamente i corpi sintetici distrutti durante le missioni pericolose.\n\nQuesti nuovi sviluppi aumenteranno sicuramente la nostra efficienza in varie situazioni belliche e porteranno gloria all'impero §Y[From.GetSpeciesAdj]§!!"
+ synth.1520.desc.neutral: "L'impero §Y[From.GetSpeciesAdj]§! è a un bivio. Alcuni ritengono che l'uso di corpi fisici ci porterebbe sicurezza e familiarità, mentre altri sono contrari a sfruttare appieno la sintetizzazione e tutto ciò che può portare.\n\nConcentrarsi sugli aspetti fisici ci permetterebbe di riutilizzare le conoscenze dei dignitari recentemente distrutti per i nostri sforzi di ricerca. In alternativa, il percorso verso l'esistenza virtuale consentirebbe di sostituire in massa i corpi sintetici distrutti attraverso un rapido trasferimento d'identità."
+ synth.1520.a: "Utilizzate le menti dei nostri leader defunti."
+ synth.1520.a.tt: "$change_auth_tt$ ['concept_auth_synth_imperial_physical']"
+ synth.1520.b: "Create corpi fisici usa e getta."
+ synth.1520.b.tt: "$change_auth_tt$ ['concept_auth_synth_imperial_virtual']"
+ synth.1520.c: "$synth_keep_auth_option$"
+ synth.1520.c.tt: "$keep_auth_tt$ ['concept_auth_imperial']"
+
+# CORPORATE
+ synth.1525.name: "Società Sintetizzata"
+ synth.1525.desc.physical: "Il nostro reparto commerciale e di ricerca ha sviluppato una rivoluzionaria applicazione di intelligenza artificiale rivolta a tutta la nostra clientela. L'approccio equilibrato alla nuova esistenza sintetica ci permette di progettare prodotti che sfruttano il mondo virtuale a beneficio del fisico.\n\nSiamo ora in grado di dotare gli oggetti inanimati di un'intelligenza artificiale limitata e di dar loro effettivamente vita. Questo nuovo segmento di prodotti può essere ulteriormente indirizzato ai consumatori, al settore privato e ad altre parti interessate in tutta la galassia."
+ synth.1525.desc.virtual: "Il nostro impegno nello spazio virtuale ha dato vita a una linea di prodotti completamente nuova, basata sui ricordi. I tecnici delle nostre filiali sono in grado di estrarli da soggetti volenterosi, indipendentemente dal loro fenotipo.\n\nQueste impronte vengono poi esaminate attentamente dal nostro dipartimento di spionaggio, permettendoci di ottenere un vantaggio competitivo rispetto agli altri imperi su questo fronte. Infine, le memorie vengono incorporate nei nostri processi di creazione di menti sintetiche per ottenere un significativo aumento delle prestazioni."
+ synth.1525.desc.neutral: "Nonostante una meticolosa analisi costi/benefici, né la specializzazione fisica né quella virtuale nel processo di sintesi stanno avendo la meglio. Tuttavia, non possiamo rimanere fermi ai margini di queste opportunità e dobbiamo introdurre un percorso chiaro per i nostri interlocutori.\n\nConcentrarsi sul mondo fisico ci permette di dotare gli oggetti inanimati di un'intelligenza artificiale limitata e di venderli come versioni semplificate di una nuova vita. Gli investimenti nel regno virtuale ci permetterebbero di mercificare i ricordi e i modelli di pensiero."
+ synth.1525.a: "Distribuite entità di IA vincolata."
+ synth.1525.a.tt: "$change_auth_tt$ ['concept_auth_synth_corporate_physical'] $synth_physical_traits$"
+ synth.1525.b: "Vendete i ricordi delle persone."
+ synth.1525.b.tt: "$change_auth_tt$ ['concept_auth_synth_corporate_virtual'] $synth_virtual_trait$"
+ synth.1525.c: "$synth_keep_auth_option$"
+ synth.1525.c.tt: "$keep_auth_tt$ ['concept_auth_corporate']"
+
+### SOCIETAL EFFECTS EVENT CHAIN END ###

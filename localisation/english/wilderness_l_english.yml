@@ -1,0 +1,765 @@
+﻿l_english:
+####################################
+# Events
+####################################
+
+# introduction event
+ progress.2.desc.wilderness: "La [Root.GetName] ha fatto una scoperta sconvolgente su [from.GetName]: il [from.GetPlanetMoon] pullula di vita aliena! Per la prima volta, abbiamo incontrato forme di vita che non sono state create da noi.\n\nQuesta scoperta conferma finalmente che noi, del pianeta [root.owner.capital_scope.GetName], non siamo soli nell'universo. Sebbene nessuna delle creature aliene trovate su [from.GetName] sia senziente, è probabile che sia solo una questione di tempo prima che incontriamo esseri che lo siano..."
+
+# Colonization Events
+ wilderness.1010.name: "[from.GetName] si Risveglia"
+ wilderness.1010.desc.intro: "Le nostre spore terraformanti hanno compiuto il loro scopo, portando una parte di noi a colonizzare un mondo alieno per la prima volta."
+ wilderness.1010.desc.same: "Diventare [from.GetName] così come [root.GetHomeWorldName]... Ci è già così familiare: un modo di essere confortevole, nonostante l'assunzione di tante nuove forme sotto un sole un tempo alieno. Ci siamo adattati facilmente alle condizioni preesistenti qui." #e.g. 'becoming Mars as well as Earth...''
+ wilderness.1010.desc.similar_cold: "Adattare noi stessi per adattarci a [from.GetClassAdj] §Y[from.GetName]§! presenterà delle sfide, ma abbiamo già trovato modi familiari per affrontarle. I viticci si estendono, gli habitat vengono scolpiti e bocche affamate cacciano." #e.g. 'Adapting our self to suit arctic Pluto...'
+ wilderness.1010.desc.similar_dry: "Come il pianeta [root.GetHomeWorldName], abbiamo sempre prosperato in un'atmosfera arida. Così affronteremo anche la sfida di diventare [from.GetClassAdj] §Y[from.GetName]§!. Abbiamo già trovato nuovi modi per cercare e conservare l'umidità, e imparato a lavorare con questa nuova geologia impegnativa, anziché contro di essa." #e.g. 'the challenge of becoming savannah Mars'
+ wilderness.1010.desc.similar_wet: "Così come prosperavamo tra le acque di [root.GetHomeWorldName], così prospereremo anche come [from.GetClassAdj] §Y[from.GetName]§!. I minerali, le correnti e persino la quantità di luce del giorno che riceviamo qui sembrano strane, ma abbiamo già trovato modi per estrarre ciò di cui abbiamo bisogno."
+ wilderness.1010.desc.diff_cold: "Sapevamo che diventare §Y[from.GetName]§! sarebbe stato impegnativo. In effetti, alcune delle caratteristiche che ci rendevano il pianeta [root.capital_scope.GetClassAdj] [root.GetHomeWorldName] sono già appassite qui, ma ciò che resta è forte e ha iniziato ad adattarsi. Questo ambiente sconosciuto rende ancora più difficile procurarsi risorse vitali di base - ma aggrappandoci a questo paesaggio gelido, osserviamo che la vita ha già trovato un modo." #e.g. 'becoming Earth'
+ wilderness.1010.desc.diff_dry: "Questo luogo evoca in noi una paura primordiale: così caldo e secco da risvegliare memorie istintive della Bruciatura. Se però riusciremo ad adattarci e prosperare qui... Diventare §Y[from.GetName]§! potrebbe risvegliare qualcosa di nuovo anche in noi. Dove esiste umidità, abbiamo trovato modi per conservarla. Dove l'ombra era scarsa, abbiamo trovato modi per crearne una nostra."
+ wilderness.1010.desc.diff_wet: "Il nostro sforzo per diventare §Y[from.GetName]§! sarà impegnativo, ma ci siamo preparati contro la muffa e il diluvio. Quelle parti di noi capaci di gestire meglio l'acqua ora la assorbono per quelle più vulnerabili. Abbiamo abbracciato le correnti uniche di questo luogo."
+ wilderness.1010.desc.other: "Mentre plasmiamo noi stessi per diventare §Y[from.GetName]§!, identifichiamo quelle parti di noi che prospereranno e quelle che appassiranno. Questa esistenza [from.GetClassAdj] condivide molto con ciò che conoscevamo prima, ma anche molto di sconosciuto - quindi osserviamo, ed esperimentiamo."
+ wilderness.1010.desc.outro: "Le nostre superstrutture, i nostri nutrienti e il nostro stesso DNA hanno iniziato ad adattarsi e a mescolarsi con la vita che esisteva qui prima di noi. [from.GetName] si sta risvegliando."
+ wilderness.1010.a: "Presto i nostri mondi diventeranno uno."
+
+# Terraforming Events
+ terra.25.desc.wilderness: "Il nostro lungo progetto di risvegliare §Y[From.GetName]§! non si è concluso con il successo sperato. Una rottura in uno dei nostri riallineatori di biomassa ha rilasciato un piccolo diluvio di §YResidui di Terraformazione§!, intasando le valli e formando una crosta appiccicosa su alcune zone abitabili.\n\nSebbene non sia per noi intrinsecamente pericoloso, questo eccesso di materiale simile a pus implica che alcuni dei nostri elementi mobili potrebbero avere difficoltà per un po'."
+ terra.80.desc.wilderness: "Abbiamo liberato le nostre future incarnazioni da un ulteriore strato di radiazioni presenti nell'atmosfera e nel suolo di §Y[From.GetName]§!. Tuttavia, i nostri vigili [Root.GetTerraformerPlural] sono dovuti intervenire e hanno temporaneamente isolato parte di questo mondo. Sembra che abbiamo disturbato una specie autoctona estremamente elusiva che prospera in ambienti radioattivi. Sfortunatamente, a causa delle nostre azioni, ha iniziato a deperire.\n\nAncora più curiosamente, questa specie sembra essere presapiente: è sul punto di sviluppare un pensiero indipendente. Ora che [From.GetName] si appresta a purificarsi degli ultimi lasciti ambientali nocivi, dobbiamo decidere come affrontare questa nuova forma di vita."
+ terra.80.b.wilderness: "Questo mondo è loro. Dovremmo lasciarli risvegliarsi."
+ terra.80.d.wilderness: "Divoriamoli."
+
+ wilderness.2000.name: "Un Risveglio Pianificato"
+ #wilderness.2000.desc.reg: "Sentiamo il potenziale immenso di [from.GetName]. È giusto provare al tempo stesso timore e meraviglia di fronte all'enorme potere che stiamo per esercitare lì: plasmare questo [from.GetPlanetMoon] secondo la nostra volontà e con gli strumenti che abbiamo sviluppato; tracciare il disegno per il suo futuro risveglio.\n\nAbbiamo a lungo fatto affidamento sui processi naturali per far crescere e sostenere il [root.GetName]. Ma queste prove ci sono costate caro, e ci hanno anche insegnato molto. Ora vedremo quali meraviglie potranno emergere quando un mondo abitabile salta la propria evoluzione e acquisisce la saggezza derivata da crescita e decadenza conquistate a fatica."
+ wilderness.2000.desc.barren: "La desolazione di [from.GetName] è forse dolorosa da osservare, ma non lo sarà ancora per molto. Finora, la vita in questa galassia ha scelto di ignorare questo mondo arido, ma ora noi, i [root.GetName], possediamo gli strumenti e la conoscenza per rimediare.\n\nNonostante tutto ciò che abbiamo appreso finora, affrontiamo un compito arduo nel restaurare [from.GetName]. Con la nostra volontà, e grazie agli strumenti per alterare il clima che abbiamo scoperto, la vita presto esisterà dove prima non vi era nulla."
+ wilderness.2000.desc.tomb_detox: "Anche se la vita come la conosciamo su [from.GetName] potrebbe essere stata spazzata via, siamo ora pronti a dare al mondo una seconda possibilità. Abbiamo iniziato il lavoro di ripristino della sua atmosfera, dei suoi corsi d'acqua e del suolo affinché [from.GetName] possa nuovamente ospitare la vita sotto forma dei [root.GetName]."
+ wilderness.2000.desc.gaia: "Il crogiolo dell'evoluzione ha compiuto meraviglie con noi, i [root.GetName]. Ora però abbiamo l'opportunità di donare molto di più al [from.GetPlanetMoon] [from.GetName]. Impugnando strumenti e conoscenze che la nostra incarnazione passata poteva solo immaginare, abbiamo iniziato a plasmare [from.GetName] in un luogo il cui risveglio sarà certamente unico.\n\nLe fondamenta di [from.GetName] un giorno traboccheranno di nutrienti, rigenerate dai cicli vitali della nostra flora e fauna. Valli, crinali e altipiani offriranno abbondante spazio per cercare cibo, cacciare e rifugiarsi. La vita prospererà qui."
+ wilderness.2000.a: "Iniziamo."
+
+ wilderness_pre_sapient_defence_army: "Branco Presapiente"
+ seq_wilderness_pre_sapient_defence_army: "Branco Simbionte $R$"
+ wilderness_pre_sapient_defence_army_plural: "Branchi Presapienti"
+ wilderness_pre_sapient_defence_army_desc: "Creature profondamente territoriali che rimangono docili fino a quando non vengono provocate, momento in cui si abbandonano agli istinti più basilari per difendere chi riconoscono come parte del loro branco."
+ wilderness_pre_sapient_assault_army: "Orda Presapiente"
+ seq_wilderness_pre_sapient_assault_army: "Orda Simbionte $R$" # e.g. 'Symbiont Horde IV'
+ wilderness_pre_sapient_assault_army_plural: "Orde Presapienti"
+ wilderness_pre_sapient_assault_army_desc: "Creature feroci dotate di appena sufficiente astuzia e resistenza grezza da garantire la distruzione selvaggia di chiunque considerino un nemico."
+
+####################################
+# Origins
+####################################
+ origin_wilderness: "Natura Selvaggia"
+ origin_wilderness_desc: "§RATTENZIONE: Blocca tutti i Percorsi di Ascensione eccetto ['concept_purity_ascension']§!\n\nQuesta entità non è altro che un'ecosfera senziente: una moltitudine di forme di vita diverse che da tempo si sono unite per formare una coscienza collettiva su scala planetaria."
+ origin_tooltip_wilderness_effects: "- Tratto della specie: ['trait:trait_wilderness']\n- Sostituisce tutti gli £building£ ['concept_buildings'], £district£ ['concept_districts'], e £zone£ ['concept_district_specialization'] standard con versioni personalizzate\n- Sostituisce la Colonizzazione con Nave Colonia con ['concept_terraforming']\n- Sblocca una nuova Risorsa: £biomass£ ['concept_biomass'] \n- Mondo natale:$TABBED_NEW_LINE$- Dimensione: £planetsize£ 18$TABBED_NEW_LINE$- ['concept_scorched_plains', £blocker£ $d_scorched_plains$]"
+ trait_wilderness: "Selvaggio"
+ trait_wilderness_desc: "§LQuesta specie esiste come parte di un'entità mutualistica, resa indistinguibile dal proprio ambiente nei pensieri e nella produttività.§!"
+ WILDERNESS_NATURAL_WORLDS_DECLINE: "§RLa §YNatura Selvaggia§! non può sopravvivere su mondi innaturali.§!"
+ WILDERNESS_DEAD_WORLD: "$TRIGGER_FAIL$La §YNatura Selvaggia§! non può sopravvivere in imperi non-Selvaggi."
+ country_virtual_jobs: "Tutti i lavori svolti all'interno di questo Impero vengono automaticamente assegnati."
+
+ concept_wilderness_trait: "$trait_wilderness$"
+ concept_wilderness_trait_desc: "- $MOD_LOGISTIC_GROWTH_MULT$: §R-100%§!\n- §RNon può migrare o essere reinsediata§! $NEW_LINE$- §RNon può riprodursi naturalmente§!\n\n§L$trait_wilderness_desc$§!"
+
+ PRESCRIPTED_adjective_zhardmehka: "Fiorenti"
+ PRESCRIPTED_ship_prefix_zhardmehka: "ZMV"
+ PRESCRIPTED_species_name_zhardmehka: "Zhard-Krellin"
+ PRESCRIPTED_species_name_plural_zhardmehka: "Zhard-Krellin"
+ PRESCRIPTED_species_adjective_zhardmehka: "Zhard-Krellina"
+ PRESCRIPTED_planet_name_zhardmehka: "Tellon"
+ PRESCRIPTED_system_name_zhardmehka: "Tattla"
+ PRESCRIPTED_ruler_name_zhardmehka: "$FUN3_CHR_Obanva$ $FUN3_CHR_uvi-Livve$"
+ PRESCRIPTED_ruler_title_zhardmehka: "Avatar"
+
+ START_SCREEN_WILDERNESS_INTRO: "Da che si ha memoria, [root.GetHomeWorldName] è sempre stato il pianeta [root.GetHomeWorldName]. Ogni stelo, viticcio ed enzima qui fa parte del sé: un equilibrio di crescita, decadimento e predazione. Per secoli, [root.GetHomeWorldName] ha potuto solo percepire debolmente la galassia che vi é oltre. Eppure le stelle sono sempre state irrequiete.\n\nUna battaglia ha avuto luogo nei cieli sopra [root.GetHomeWorldName]. Grandi vascelli fecero piovere detriti sulla sua superficie, artefatti alieni che furono rapidamente riciclati. Poi arrivò il brillamento solare..."
+ START_SCREEN_WILDERNESS_DEFAULT: "[root.GetHomeWorldName] lo percepì come una luce accecante e rovente. Miliardi dei nostri simbionti furono arsi e spazzati via da tempeste di fuoco e radiazioni. Un intero continente fu ripulito da ogni forma di vita."
+ START_SCREEN_WILDERNESS_COLD: "[root.GetHomeWorldName] lo percepì come una luce accecante e rovente. I ghiacciai si trasformarono in torrenti impetuosi, mentre le radiazioni stellari bruciarono [root.GetHomeWorldName] fino alle radici. Un intero continente fu spazzato via."
+ START_SCREEN_WILDERNESS_DRY: "[root.GetHomeWorldName] lo percepì come una luce accecante e rovente. Le dune si fusero in vetro e venti impetuosi raschiarono le nostre pareti rocciose. Un intero continente divenne completamente sterile."
+ START_SCREEN_WILDERNESS_WET: "[root.GetHomeWorldName] lo percepì come una luce accecante e rovente. I laghi bollirono e le calotte di ghiaccio si sciolsero mentre le radiazioni stellari bruciavano [root.GetHomeWorldName] fino alle radici. Un intero continente andò perduto."
+ START_SCREEN_WILDERNESS_OUTRO: "Il dolore ci risvegliò. Per la prima volta, comprendemmo la nostra fragilità. La galassia è pericolosa, ma anche colma di meraviglie. Usando ciò che abbiamo appreso, germoglieremo e ci diffonderemo. Porteremo noi stessi tra le stelle."
+
+####################################
+# Authorities
+####################################
+ auth_mutualistic_intelligence: "Intelligenza Mutualistica"
+ auth_mutualistic_intelligence_plural: "Intelligenze Mutualistiche"
+ auth_mutualistic_intelligence_desc: "Le $auth_mutualistic_intelligence_plural$ emergono come coscienze distribuite su scala planetaria. Sono costituite da specie simbiotiche tratte da una varietà di biota, tutte operanti in accordo con la volontà collettiva del loro ambiente.\n\nAlcuni simbionti possono lavorare in modo semi-autonomo su compiti specializzati, ma la maggior parte dipende dal contatto regolare con il proprio ambiente mutualistico. Se isolati, regrediranno a comportamenti selvaggi e istintivi, per poi alla fine perire."
+ tt_auth_mutualistic_intelligence: "Ha l'Autorità §Y$auth_mutualistic_intelligence$§! (§Y$auth_hive_mind$§!)"
+
+ gov_wilderness: "$gov_hive_mind$"
+ gov_wilderness_desc: "Questo governo opera come una coscienza unica, con la popolazione priva di qualsiasi volontà individuale al di fuori del soddisfare i bisogni e i desideri della $RT_WILDERNESS$."
+ RT_WILDERNESS: "Natura Selvaggia"
+ RT_WILDERNESS_FEMALE: "$RT_WILDERNESS$"
+
+####################################
+# Buildings
+####################################
+ building_colony_shelter_wilderness: "Viticci Planetari"
+ building_colony_shelter_wilderness_desc: "Una frontiera pluricellulare di organismi si intreccia su questo mondo, garantendo una presenza stabile per la Selvaticità."
+
+ building_capital_wilderness: "Fascio Radicale Planetario"
+ building_capital_wilderness_desc: "Una massa tentacolare e vibrante di organismi semplici che si armonizza con i simbionti mobili per migliorarne la coordinazione e la produttività."
+ building_major_capital_wilderness: "Complesso Radicale Planetario"
+ building_major_capital_wilderness_desc: "Una massa vivente concentrata, sufficientemente densa da permettere ai simbionti di vivere, lavorare e riprodursi in una sfera altamente localizzata."
+ building_system_capital_wilderness: "Nexus Radicale Planetario"
+ building_system_capital_wilderness_desc: "Una vasta unione di forme di vita diverse che operano all'unisono, così grande da coltivare i propri microclimi ideali."
+ requires_building_wilderness_capital: "§RRichiede §Y$building_capital_wilderness$§! sul pianeta.§!"
+ requires_building_wilderness_major_capital: "§RRichiede §Y$building_major_capital_wilderness$§! sul pianeta.§!"
+ requires_building_wilderness_system_capital: "§RRichiede §Y$building_system_capital_wilderness$§! sul pianeta.§!"
+
+ building_imperial_capital_wilderness: "Complesso Imperiale"
+ building_imperial_capital_wilderness_desc: "La Selvaticità governa l'Impero Galattico da questa struttura massiccia e intricata. È qui che si decide il destino della galassia."
+
+ building_tendril_cradle_1: "Culla dei Viticci"
+ building_tendril_cradle_1_desc: "Un gruppo di fili corti e radicati si estende da questo sito, attirando i materiali vicini verso gli organi chiave nelle immediate vicinanze."
+ building_tendril_cradle_2: "Estensione Filamentosa"
+ building_tendril_cradle_2_desc: "Viticci allungati si estendono attraverso il paesaggio, prelevando risorse dalle distese vicine prima di elaborarle e ridistribuirle."
+ building_tendril_cradle_3: "Nido di Convoglio"
+ building_tendril_cradle_3_desc: "Le radici intrecciate pulsano e si spostano sotto la superficie, trasportando la biomassa attraverso canali stratificati verso centri biotici lontani."
+ building_tendril_cradle_4: "Cuorefilo Planetario"
+ building_tendril_cradle_4_desc: "Massicci viticci logistici si irradiano attraverso il corpo planetario, trascinando, regolando e instradando le risorse della Natura Selvaggia con instancabile sincronizzazione."
+
+ planet_research_buildings: "Edifici di Ricerca Planetari"
+ mod_planet_research_buildings_upkeep_mult: "Mantenimento $planet_research_buildings$"
+ building_brain_node_1: "Crescita nella Ricerca"
+ building_brain_node_1_desc: "Il lavoro di simbionti giocosi ed esplorativi fornisce la base della ricerca generale."
+ mod_planet_building_brain_node_1_build_speed_mult: "Velocità di Costruzione $building_brain_node_1$"
+ building_brain_node_2: "Bosco della Ricerca"
+ building_brain_node_2_desc: "Un habitat dedicato a promuovere il comportamento inquisitivo, facilitando lo studio di artefatti e fenomeni più avanzati."
+ mod_planet_building_brain_node_2_build_speed_mult: "Velocità di Costruzione $building_brain_node_2$"
+ building_brain_node_3: "Recinto di Ricerca Esotica"
+ building_brain_node_3_desc: "Questi vasti recinti permettono a un gran numero di simbionti estremofili di sperimentare con ogni tipo di materiale esotico e pericoloso."
+ mod_planet_building_brain_node_3_build_speed_mult: "Velocità di Costruzione $building_brain_node_3$"
+ building_brain_node_4: "Recinto di Ricerca Avanzata"
+ building_brain_node_4_desc: "Questa fusione di tecnologia esotica e recinti simbiontici di grandi dimensioni facilita la ricerca d'avanguardia in una varietà di ambienti sperimentali."
+ mod_planet_building_brain_node_4_build_speed_mult: "Velocità di Costruzione $building_brain_node_4$"
+
+ building_commensal_clearing_1: "Radura Commensale"
+ building_commensal_clearing_1_desc: "Queste isole di quiete permettono a motili di ogni tipo di radunarsi, riposare e riorientarsi all'interno della Natura Selvaggia."
+ building_commensal_clearing_2: "Boschetto Commensale"
+ building_commensal_clearing_2_desc: "Luoghi ideali e protetti per raduni di massa dei simbionti. Qui, le loro interazioni alimentano una maggiore comprensione del sé distribuito."
+ building_commensal_clearing_3: "Valle Commensale"
+ building_commensal_clearing_3_desc: "Comunità dense e molto varie di simbionti migrano attraverso queste formazioni incontaminate, rafforzando i legami tra di loro."
+ building_commensal_clearing_4: "Bioma Commensale"
+ building_commensal_clearing_4_desc: "Vasti habitat interconnessi ospitano una miriade di incontri, ognuno dei quali è una scintilla vitale di unità mutualistica."
+
+ building_massive_growth_1: "Conca Nutriente"
+ building_massive_growth_1_desc: "Piccole sculture geologiche creano un microclima ideale per la crescita affidabile e continua delle colture."
+ building_massive_growth_2: "Sottobosco Nutriente"
+ building_massive_growth_2_desc: "Una vasta tettoia semipermeabile conferisce a questo sottobosco tutta la protezione ambientale necessaria per produrre cibo ricco e succulento in modo costante."
+ building_massive_growth_3: "Megapiantagione di Contorno"
+ building_massive_growth_3_desc: "Un rifugio per microrganismi semiacquatici e fauna, queste terrazze estese offrono un'abbondanza di proteine e cereali."
+ building_massive_growth_4: "Piantagione Silviculturale"
+ building_massive_growth_4_desc: "La disposizione del sottobosco protetto dalla megaflora frondosa garantisce un'elevata resa di colture alimentari per servire l'intera rete alimentare."
+
+ building_bioelectric_stimulator_1: "Acclimatore Cloroplastico"
+ building_bioelectric_stimulator_1_desc: "Gruppi di bolle simili a lenti concentrano i raggi solari attraverso una densa zuppa algale, convertendo e immagazzinando l'energia per un uso futuro."
+ building_bioelectric_stimulator_2: "Acceleratore Cloroplastico"
+ building_bioelectric_stimulator_2_desc: "Bolle vitree, colme di alghe fotosintetiche, utilizzano l'energia solare per formare legami biochimici più stretti, riducendo la dispersione."
+ building_bioelectric_stimulator_3: "Matrice di Lenti Cloroplastiche"
+ building_bioelectric_stimulator_3_desc: "Rami contrappesati carichi di collettori solari si alzano e abbassano secondo il fabbisogno e la capacità, fungendo da hub energetico versatile e affidabile."
+ building_bioelectric_stimulator_4: "Cisti Cloroplastica"
+ building_bioelectric_stimulator_4_desc: "Queste sacche vitree, piene di alghe possono migrare e moltiplicarsi laddove la loro energia sia più richiesta, eliminando quasi la perdita di potenza nella distanza."
+
+ building_churning_tunnels_1: "Foro Litico"
+ building_churning_tunnels_1_desc: "Massa vegetale dalla durezza quasi cristallina si insinua nei siti estrattivi esistenti, aumentando il rendimento dei minerali utili."
+ building_churning_tunnels_2: "Filtri Litici"
+ building_churning_tunnels_2_desc: "Le colonie di biofilm semipermeabili raccolgono minerali preziosi che altrimenti andrebbero persi nel deflusso delle operazioni di estrazione dei liquidi."
+ building_churning_tunnels_3: "Maceratore Litico"
+ building_churning_tunnels_3_desc: "Le potenti piastre di macinazione e le pinze aiutano a ridurre la materia terrosa in un fango chimico per facilitare l'estrazione dei minerali."
+ building_churning_tunnels_4: "Bagni Litici"
+ building_churning_tunnels_4_desc: "Un insieme di maceratori, agenti biochimici e biofilm permette l'estrazione diretta dei minerali nei siti ricchi di filoni."
+
+ building_natural_furnace_0: "Pozza di Fusione"
+ building_natural_furnace_0_desc: "Simbionti termofili lavorano instancabilmente per produrre leghe di alta qualità attorno a questa fonte di calore naturale."
+ building_natural_furnace_1: "Fornace di Fusione"
+ building_natural_furnace_1_desc: "Formazioni resistenti al calore permettono un uso più efficiente dell'energia, e quindi la produzione di leghe superiori."
+ building_natural_furnace_2: "Fusore a Luce Solida"
+ building_natural_furnace_2_desc: "Forni litorganici sofisticati, assistiti da tecnologia olografica, permettono la creazione di leghe altamente versatili."
+ building_natural_furnace_3: "Nano-Fusore"
+ building_natural_furnace_3_desc: "Nano-organismi termofili abitano queste pozze e questi forni roventi, purificando le leghe dalle impurità indesiderate."
+
+ building_avatar_chamber_1: "Culla dell'Avatar"
+ building_avatar_chamber_1_desc: "Un organo in formazione in cui la natura selvaggia inizia a plasmare le forme di base. Preparando i suoi istinti ad affrontare la vita e i terreni sconosciuti al di fuori della sua biosfera nativa."
+ building_avatar_chamber_2: "Camera dell'Avatar"
+ building_avatar_chamber_2_desc: "Corpi simulati crescono e vengono guidati in prove interne, imitando organismi ed ecosistemi alieni. La conoscenza si diffonde incarnando l'ignoto."
+ building_avatar_chamber_2_effect: "$building_avatar_chamber_1$ produce §G200§! £amenities£ Servizi aggiuntivi"
+ building_avatar_chamber_3: "Foresta dell'Avatar"
+ building_avatar_chamber_3_desc: "Questo organo tentacolare diffonde modelli di avatar ispirati a forme e paesaggi alieni. La Natura Selvaggia apprende vivendo ciò che non ha mai toccato."
+ building_avatar_chamber_3_effect: "$building_avatar_chamber_1$ produce §G400§! £amenities£ Servizi aggiuntivi"
+ building_avatar_chamber_4: "Corteccia dell'Avatar"
+ building_avatar_chamber_4_desc: "Un motore planetario d'incarnazione, in grado di simulare intere civiltà, eco-sistemi alieni ed estremi ambientali. Qui la Natura Selvaggia prova il suo incontro con la galassia."
+ building_avatar_chamber_4_effect: "$building_avatar_chamber_1$ produce §G800§! £amenities£ Servizi aggiuntivi"
+
+ building_mote_aggravator: "Digestore Chimico"
+ building_mote_aggravator_desc: "Un sistema elegante di tessuti vascolari e metabolizzatori chimici produce $volatile_motes$ dalla materia terrestre ordinaria."
+
+ building_churning_stomach: "Filtri per Gas Esotici"
+ building_churning_stomach_desc: "Microrganismi altamente specializzati e nano-organismi reagiscono agli aerosol comuni per produrre questi raffinati $exotic_gases$."
+
+ building_crystal_growth: "Letto Cristallino"
+ building_crystal_growth_desc: "Speciali tettoie garantiscono l'umidità e la temperatura ideali per coltivare con precisione $rare_crystals$ artificiali."
+
+ building_planetary_carapace: "Guarnigione Ossea"
+ building_planetary_carapace_desc: "Una pletora di simbionti ferocemente territoriali può essere ospitata in questo campo di prova, in attesa di essere chiamata in causa."
+ mod_planet_building_planetary_carapace_build_speed_mult: "Velocità di Costruzione $building_planetary_carapace$"
+ building_planetary_carapace_2: "Fortezza d'Ossa"
+ building_planetary_carapace_2_desc: "Questa vasta struttura composta da duri campi d'addestramento e alloggiamenti assicura che i difensori ospitati al suo interno siano pronti a fronteggiare qualsiasi incursione planetaria."
+
+ building_ozone_thickener: "Scudo Planetario a Cupola"
+ building_ozone_thickener_desc: "$tech_planetary_shield_generator_desc$"
+
+ building_subterranean_cache: "Deposito Sotterraneo"
+ building_subterranean_cache_desc: "$building_resource_silo_desc$"
+
+ building_cradle_of_rebirth: "Culla della Rinascita"
+ building_cradle_of_rebirth_desc: "Radicata in profondità, questa struttura metabolizza materia in decomposizione e prede catturate trasformandole in biomassa, nutrendo il corpo del mondo a ogni impulso silenzioso."
+
+ building_wilderness_storm_relief: "$building_storm_resistant_production$"
+ building_wilderness_storm_relief_desc: "Un'ampia volta di foglie indurite e cariche bioelettricamente garantisce la sicurezza dei simbionti nelle sue vicinanze e consente reazioni rapide all'attività delle tempeste cosmiche senza mettere in pericolo la vita o la produttività."
+ building_wilderness_storm_relief_tt: "Gli effetti negativi della §Y$default_storm$§! che influenzano la produzione planetaria sono ridotti del §G25%§!" #TODO Check that this works
+
+ holding_wilderness_glade: "Radura Selvaggia"
+ holding_wilderness_glade_plural: "Radure Selvagge"
+ holding_wilderness_glade_desc: "Una regione produttiva della Selva Simbiotica, tenuemente collegata al collettivo principale. Sebbene fortemente dipendenti da fonti alimentari locali, i simbionti che abitano questo bioma isolato sono abili nell'estrarre risorse nelle vicinanze."
+ holding_wilderness_glade_effect_desc: "Il Suddito converte [owner.WildernessGladeProvides] in $r_basic_plural$ per il Sovrano.\nIl Sovrano riduce il $mod_planet_jobs_productive_upkeep_mult$ sul mondo del Suddito.\nUn £blocker£ §Y$holding_wilderness_glade$§! appare sul pianeta, occupando uno Slot Distretto."
+ no_free_district_for_wilderness_glade: "$TRIGGER_FAIL$§RNessun Distretto libero su questo pianeta per il nostro bioma isolato.§!"
+ blocker_tied_to_wilderness_glade: "$TRIGGER_FAIL$§RQuesto Blocco rimarrà finché l'Holding §Y$holding_wilderness_glade$§! esisterà su questo mondo.§!"
+ d_wilderness_glade_blocker: "$d_wilderness_root_blocker$"
+ d_wilderness_glade_blocker_desc: "Sono necessarie imponenti strutture di radici per supportare una $holding_wilderness_glade$ nelle vicinanze, consentendo a questo bioma isolato di sopravvivere nel nostro ambiente alieno."
+ holding_wilderness_glade_modifier: "Radure Selvagge Distribuite"
+ holding_wilderness_glade_modifier_desc: "Mondi sudditi in armonia con il nostro, ciascun partner condivide i frutti della propria cooperazione mutualistica." # appears in 'lore brown'
+ holding_wilderness_glade_modifier_tt: "Le quantità variano in base al numero di mondi sudditi ospitanti §Y$holding_wilderness_glade_plural$§!."
+
+####################################
+# Districts
+####################################
+ district_craglands: "Bioma Comunitario"
+ district_craglands_plural: "Biomi Comunitari"
+ district_craglands_desc: "Questi rigogliosi boschetti offrono riparo ai simbionti che al tempo stesso costituiscono e dipendono dalla Selva."
+ mod_district_craglands_max_add: "Max $district_craglands_plural$"
+ mod_planet_district_craglands_build_speed_mult: "Velocità di costruzione $district_craglands$"
+
+ district_orchard_forests: "Foresta Frutteto"
+ district_orchard_forests_plural: "Foreste Frutteto"
+ district_orchard_forests_desc: "Regioni destinate alla coltivazione e alla caccia, dove si producono alimenti cellulari, cereali commestibili e simbionti da preda."
+ mod_district_orchard_forests_max_add: "Max $district_orchard_forests_plural$"
+ mod_planet_district_orchard_forests_build_speed_mult: "Velocità di costruzione $district_orchard_forests$"
+
+ district_orchard_forests_uncapped: "$district_orchard_forests$"
+ district_orchard_forests_uncapped_plural: "$district_orchard_forests_plural$"
+ district_orchard_forests_uncapped_desc: "$district_orchard_forests_desc$"
+ mod_district_orchard_forests_uncapped_max: "$mod_district_orchard_forests_max_add$"
+ mod_planet_district_orchard_forests_uncapped_build_speed_mult: "$mod_planet_district_orchard_forests_build_speed_mult$"
+
+ #district_metallic_dew_plains: "Metallic Seam Biome"
+ #district_metallic_dew_plains_plural: "Metallic Seam Biomes"
+ #district_metallic_dew_plains_desc: "Complex geological forms and bespoke refinery buildings are sited throughout these mineral-rich regions."
+ #district_metallic_dew_plains_tooltip_desc: "$i_alloys$ from each §H$building_natural_furnace_0$§!: §G+1§!"
+ #mod_district_metallic_dew_plains_max: "Max $district_metallic_dew_plains_plural$"
+ #mod_planet_district_metallic_dew_plains_build_speed_mult: "$district_metallic_dew_plains$ Build Speed"
+
+ district_photosynthesis_fields: "Campo di Fotosintesi"
+ district_photosynthesis_fields_plural: "Campi di Fotosintesi"
+ district_photosynthesis_fields_desc: "Fronde fotosintetiche prensili costituiscono l'ossatura di queste vaste aree dedicate alla raccolta di energia."
+ mod_district_photosynthesis_fields_max_add: "Max $district_photosynthesis_fields_plural$"
+ mod_planet_district_photosynthesis_fields_build_speed_mult: "Velocità di costruzione $district_photosynthesis_fields$"
+
+ district_photosynthesis_fields_uncapped: "$district_photosynthesis_fields$"
+ district_photosynthesis_fields_uncapped_plural: "$district_photosynthesis_fields_plural$"
+ district_photosynthesis_fields_uncapped_desc: "$district_photosynthesis_fields_desc$"
+ mod_district_photosynthesis_fields_uncapped_max: "Max $district_photosynthesis_fields_plural$"
+ mod_planet_district_photosynthesis_fields_uncapped_build_speed_mult: "$mod_planet_district_photosynthesis_fields_build_speed_mult$"
+
+ district_hollow_mountains: "Montagna Cava"
+ district_hollow_mountains_plural: "Montagne Cave"
+ district_hollow_mountains_desc: "Questi paesaggi rocciosi sono costellati di miniere scavate da tenaci simbionti alla ricerca di minerali preziosi."
+ mod_district_hollow_mountains_max_add: "Max $district_hollow_mountains_plural$"
+ mod_planet_district_hollow_mountains_build_speed_mult: "Velocità di costruzione $district_hollow_mountains$"
+
+ district_hollow_mountains_uncapped: "$district_hollow_mountains$"
+ district_hollow_mountains_uncapped_plural: "$district_hollow_mountains_plural$"
+ district_hollow_mountains_uncapped_desc: "$district_hollow_mountains_desc$"
+ mod_district_hollow_mountains_uncapped_max: "$mod_district_hollow_mountains_max_add$"
+ mod_planet_district_hollow_mountains_uncapped_build_speed_mult: "$mod_planet_district_hollow_mountains_build_speed_mult$"
+
+####################################
+# Zones
+####################################
+ zone_urban_wilderness: "Cuorverde"
+ zone_urban_wilderness_desc: "Un nucleo pulsante di biomassa e istinto. In continua espansione e rimodellamento, qui la Selva affonda le sue radici ampie e profonde, pronta a sostenere qualsiasi funzione emergente."
+
+ zone_foundry_wilderness: "Forgia Viscerale"
+ zone_foundry_wilderness_desc: "Questa camera di calore ribolle di roccia fusa e forza elementale. I $job_forgesymbiont_plural$ plasmano il metallo in un ritmo digestivo, alimentando lo scheletro in crescita del mondo."
+
+ zone_research_wilderness: "Fusto Cognitivo"
+ zone_research_wilderness_desc: "Un nodo elevato di radici nervose e fioriture mutagene. Qui emergono i $job_evosymbiont_plural$ con nuovi arti, nuovi sensi e nuove comprensioni."
+
+ zone_unity_wilderness: "Scogli del Canto"
+ zone_unity_wilderness_desc: "Formazioni torreggianti intrecciate di ossa cave e carne litica, dove il vento porta toni stratificati sulla superficie del mondo. Qui si radunano i $job_choirsymbiont_plural$, per lasciar cantare il mondo stesso."
+
+ zone_fortress_wilderness: "Bulbo del Comando"
+ zone_fortress_wilderness_desc: "Un nodo sensoriale ingrossato dove si raccolgono i $job_tamersymbiont_plural$, rilasciando impulsi odorosi per radunare e dirigere le orde presapienti. La Selva non comanda, secerne."
+
+ zone_minerals_wilderness: "Rocciaspina"
+ zone_minerals_wilderness_desc: "Una struttura torreggiante e crestata di pietra viva, parte catena montuosa, parte organo. Nelle sue ossa cavernose si accumulano minerali che pulsano con il respiro lento della Selva."
+
+ zone_energy_wilderness: "Micopolmoni Solari"
+ zone_energy_wilderness_desc: "Campi estesi di tessuto fotosintetico si gonfiano di luce catturata, accumulando pressione fino a espellere aria in raffiche ritmiche. Da questi impulsi radiosi, i $job_photosymbiont_plural$ vengono lanciati nel cielo, cavalcando correnti termiche in cerca dell'arco delle stelle."
+
+ zone_food_wilderness: "Fiorintreccio"
+ zone_food_wilderness_desc: "Un cervello profumato di petali e feromoni, che intreccia rotte di impollinazione come fili in un arazzo. Da qui, la fertilità del pianeta è organizzata con l'efficienza di qualsiasi fabbrica meccanica."
+
+ zone_research_unity_wilderness: "Nucleo Armonico"
+ zone_research_unity_wilderness_desc: "Un organo ritmico nel cuore della Selva, dove la conoscenza vibra tra memoria e sapere. Il pensiero non nasce qui. Riverbera."
+
+ zone_trade_wilderness: "Filavia"
+ zone_trade_wilderness_desc: "Anelli fibrosi, arti spiraliformi e sacche di stoccaggio formano un instancabile centro di smistamento dove i $job_spindlesymbiont_plural$ intrecciano e distribuiscono gli elementi essenziali della vita. La Selva si consegna da sé."
+
+####################################
+# Decisions
+####################################
+ decision_wilderness_expand: "Espandi Dimensione del Pianeta"
+ decision_wilderness_expand_desc: "Riassorbi la biomassa purificata che abbiamo accumulato per far crescere il nostro mondo."
+ decision_wilderness_mastery_over_nature_desc: "Il nostro Sé collettivo necessita di spazio per crescere, e dunque lo creeremo. Ci adatteremo a ogni ambiente del pianeta."
+
+####################################
+# Jobs
+####################################
+
+ pop_cat_wilderness_heart_strata: "$biomass$"
+ pop_cat_wilderness_heart_strata_plural: "$biomass$"
+ pop_cat_wilderness_heart_strata_desc: "La volontà combinata di un'intera ecosfera, espressa come se fosse una sola mente."
+ mod_pop_cat_wilderness_heart_strata_bonus_workforce_mult: "Bonus Forza Lavoro per $pop_cat_wilderness_heart_strata_plural$"
+
+ pop_cat_menial_symbiont: "Simbionte Minore"
+ pop_cat_complex_symbiont: "Simbionte Complesso"
+
+ pollinosymbiont: "$job_pollinosymbiont$"
+ job_pollinosymbiont: "Simbionte Impollinatore"
+ job_pollinosymbiont_plural: "Simbionti Impollinatori"
+ job_pollinosymbiont_plural_with_icon: "£job_pollinosymbiont£ $job_pollinosymbiont_plural$"
+ job_pollinosymbiont_desc: "Incaricati della fertilità planetaria, impollinano non solo i fiori, ma anche foreste, praterie e barriere coralline."
+ job_pollinosymbiont_effect_desc: "£job_pollinosymbiont£ I $job_pollinosymbiont_plural$ producono £food£ §Y$food$§!"
+ mod_job_pollinosymbiont_add: "Lavori da $job_pollinosymbiont$"
+ mod_job_pollinosymbiont_pop: "§G+1§! Lavoro da $job_pollinosymbiont$ ogni $VALUE$ Pop"
+ mod_job_pollinosymbiont_per_pop_short: "\n§G+1§! £mod_job_pollinosymbiont_add£ ogni $VALUE$ £pop£"
+
+ photosymbiont: "$job_photosymbiont$"
+ job_photosymbiont: "Fotosimbionte"
+ job_photosymbiont_plural: "Fotosimbionti"
+ job_photosymbiont_plural_with_icon: "£job_photosymbiont£ $job_photosymbiont_plural$"
+ job_photosymbiont_desc: "Visibili dall'orbita, i ritmi migratori di questi simbionti sono sincronizzati col cammino del sole."
+ job_photosymbiont_effect_desc: "£job_photosymbiont£ $job_photosymbiont_plural$ producono £energy£ §Y$energy$§!"
+ mod_job_photosymbiont_add: "Lavori da $job_photosymbiont$"
+ mod_job_photosymbiont_per_pop: "§G+1§! Lavoro da $job_photosymbiont$ ogni $VALUE$ Pop"
+ mod_job_photosymbiont_pop_short:0 "\n§G+1§! £mod_job_photosymbiont_add£ per $VALUE$ £pop£"
+
+ grubsymbiont: "$job_grubsymbiont$"
+ job_grubsymbiont: "Simbionte Larvale"
+ job_grubsymbiont_plural: "Simbionti Larvali"
+ job_grubsymbiont_plural_with_icon: "£job_grubsymbiont£ $job_grubsymbiont_plural$"
+ job_grubsymbiont_desc: "Privi di vista e dal corpo molle, questi simbionti scavano per vibrazione, attratti unicamente dalla risonanza dei metalli preziosi."
+ job_grubsymbiont_effect_desc: "£job_grubsymbiont£ I $job_grubsymbiont_plural$ producono £minerals£ §Y$minerals$§!"
+ mod_job_grubsymbiont_add: "Lavori da $job_grubsymbiont$"
+ mod_job_grubsymbiont_per_pop: "§G+1§! Lavoro da $job_grubsymbiont$ ogni $VALUE$ Pop"
+ mod_job_grubsymbiont_pop_short:0 "\n§G+1§! £mod_job_grubsymbiontt_add£ per $VALUE$ £pop£"
+
+ choirsymbiont: "$job_choirsymbiont$"
+ job_choirsymbiont: "Simbionte Corale"
+ job_choirsymbiont_plural: "Simbionti Corali"
+ job_choirsymbiont_with_icon: "£job_choirsymbiont£ $job_choirsymbiont$"
+ job_choirsymbiont_plural_with_icon: "£job_choirsymbiont£ $job_choirsymbiont_plural$"
+ job_choirsymbiont_desc: "Questi simbionti emettono richiami melodici e stratificati che si propagano nella biosfera. Una musica viva e intricata che guida ed eleva l'intero ecosistema."
+ job_choirsymbiont_effect_desc: "£job_choirsymbiont£ I $job_choirsymbiont_plural$ convertono £energy£ §Y$energy$§! e £food£ §Y$food$§! (o £minerals£ §Y$minerals$§!) in £unity£ §Y$unity$§!"
+ mod_job_choirsymbiont_add: "Lavori da $job_choirsymbiont$"
+ mod_job_choirsymbiont_per_pop: "§G+1§! Lavoro da $job_choirsymbiont$ ogni $VALUE$ Pop"
+ mod_job_choirsymbiont_per_pop_short: "\n§G+1§! £mod_job_choirsymbiont_add£ ogni $VALUE$ £pop£"
+
+ forgesymbiont: "$job_forgesymbiont$"
+ job_forgesymbiont: "Simbionte Forgiatore"
+ job_forgesymbiont_plural: "Simbionti Forgiatori"
+ job_forgesymbiont_plural_with_icon: "£job_forgesymbiont£ $job_forgesymbiont_plural$"
+ job_forgesymbiont_desc: "Nati dal magma e guidati dall'istinto, questi simbionti affinano i minerali grezzi in leghe, sollevandole verso l'alto come offerte alla Selva."
+ job_forgesymbiont_effect_desc: "£job_forgesymbiont£ I $job_forgesymbiont_plural$ convertono £minerals£ §Y$minerals$§! in £alloys£ §Y$alloys$§!"
+ mod_job_forgesymbiont_add: "Lavori da $job_forgesymbiont$"
+ mod_job_forgesymbiont_per_pop: "§G+1§! Lavoro da $job_forgesymbiont$ ogni $VALUE$ Pop"
+ mod_job_forgesymbiont_per_pop_short: "\n§G+1§! £mod_job_forgesymbiont_add£ ogni $VALUE$ £pop£"
+
+ evosymbiont_physicist: "$job_evosymbiont$ della Fisica"
+ evosymbiont_biologist: "$job_evosymbiont$ della Biologia"
+ evosymbiont_engineer: "$job_evosymbiont$ dell'Ingegneria"
+ evosymbiont: "$job_evosymbiont$"
+
+ job_evosymbiont_physicist: "$job_evosymbiont$ della Fisica"
+ job_evosymbiont_biologist: "$job_evosymbiont$ della Biologia"
+ job_evosymbiont_engineer: "$job_evosymbiont$ dell'Ingegneria"
+ job_evosymbiont_physicist_plural: "$job_evosymbiont_plural$ della Fisica"
+ job_evosymbiont_biologist_plural: "$job_evosymbiont_plural$ della Biologia"
+ job_evosymbiont_engineer_plural: "$job_evosymbiont_plural$ dell'Ingegneria"
+ job_evosymbiont_physicist_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont_biologist_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont_engineer_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont: "Simbionte Evolutivo"
+ job_evosymbiont_plural: "Simbionti Evolutivi"
+ job_evosymbiont_icon: "£job_brain_drone_physicist£"
+ job_evosymbiont_with_icon: "£job_brain_drone_physicist£ $job_evosymbiont$"
+ job_evosymbiont_plural_with_icon: "[calculator_physicist.GetIcon][calculator_biologist.GetIcon][calculator_engineer.GetIcon] $job_evosymbiont_plural$"
+ job_evosymbiont_desc: "I corpi di questi simbionti sono ipotesi viventi. Irti di nuove antenne, membrane rifrangenti e aculei reticolari, si sono evoluti per assaggiare la gravità e decodificare le formule chimiche."
+ job_evosymbiont_effect_desc: "£job_brain_drone_physicist£ $job_evosymbiont_plural$ convertono $r_minerals$ in $r_physics$ $r_society$ $r_engineering$"
+ job_evosymbiont_physicist_effect_desc: "£job_brain_drone_physicist£ $job_evosymbiont_physicist_plural$ convertono $r_minerals$ in $r_physics$"
+ job_evosymbiont_biologist_effect_desc: "£job_brain_drone_biologist£ $job_evosymbiont_biologist_plural$ convertono $r_minerals$ in $r_society$"
+ job_evosymbiont_engineer_effect_desc: "£job_brain_drone_engineer£ $job_evosymbiont_engineer_plural$ convertono $r_minerals$ in $r_engineering$"
+
+ mod_job_evosymbiont_add: "Lavori da $job_evosymbiont$"
+ mod_job_evosymbiont_per_pop: "§G+1§! di Lavoro da $job_evosymbiont$ per ogni $VALUE$ Pop"
+ mod_job_evosymbiont_per_pop_short: "\n§G+1§! £mod_job_brain_Drone_add£ ogni $VALUE$ £pop£"
+
+ tamersymbiont: "$job_tamersymbiont$"
+ job_tamersymbiont: "Simbioguardiano"
+ job_tamersymbiont_plural: "Simbioguardiani"
+ job_tamersymbiont_desc: "Questi simbionti emettono complessi segnali feromonali per guidare l'Orda Presapiente, trasformando l'istinto selvaggio in difesa planetaria coordinata."
+ job_tamersymbiont_effect_desc: "[patrol_drone.GetIcon] $job_tamersymbiont_plural$ riducono la £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!, generano £defense_army£ §YArmate Difensive§! e producono £unity£ §Y$unity$§!"
+ mod_job_tamersymbiont_add: "Lavori da $job_tamersymbiont$"
+ mod_job_tamersymbiont_per_pop: "§G+1§! di Lavoro da $job_tamersymbiont$ per ogni $VALUE$ Pop"
+ mod_job_tamersymbiont_per_pop_short: "\n§G+1§! £mod_job_patrol_drone_add£ ogni $VALUE$ £pop£"
+ immunosymbiont: "$job_immunosymbiont$"
+ job_immunosymbiont: "Immunosimbionte"
+ job_immunosymbiont_plural: "Immunosimbionti"
+ job_immunosymbiont_desc: "Questi simbionti rilevano le deviazioni e reprimono il dissenso, pattugliando le radici selvagge, anticorpi di dimensioni macro per un organismo di dimensioni maggiori."
+ job_immunosymbiont_effect_desc: "Gli [patrol_drone.GetIcon] $job_immunosymbiont_plural$ riducono la £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!, generano £defense_army£ §YArmate Difensive§!, e producono £unity£ §Y$unity$§!"
+ 
+ broodsymbiont: "$job_broodsymbiont$"
+ job_broodsymbiont: "Covasimbionte"
+ job_broodsymbiont_plural: "Covasimbionti"
+ job_broodsymbiont_plural_with_icon: "[spawning_drone.GetIcon] $job_broodsymbiont_plural$"
+ job_broodsymbiont_desc: "Questi simbionti saturano la Selva con biomassa plasmabile: materia viva grezza, pronta a trasformarsi in ciò di cui il pianeta ha bisogno."
+ job_broodsymbiont_effect_desc: "I [spawning_drone.GetIcon] $job_broodsymbiont_plural$ convertono $r_food$ (o $r_minerals$) in £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! e £biomass£ §YBiomassa§!"
+ mod_job_broodsymbiont_add: "Lavori da $job_broodsymbiont$"
+ mod_job_broodsymbiont_per_pop: "§G+1§! di Lavoro da $job_broodsymbiont$ per ogni $VALUE$ Pop"
+ mod_job_broodsymbiont_per_pop_short: "\n§G+1§! £mod_job_spawning_drone_add£ ogni $VALUE$ £pop£"
+
+ motesymbiote: "$job_motesymbiote$"
+ job_motesymbiote: "Simbiogranulatore"
+ job_motesymbiote_plural: "Simbiogranulatori"
+ job_motesymbiote_desc: "Vissuti al limite della combustione, questi simbionti generano particelle di energia instabile. Piccoli, luminosi e letali."
+ job_motesymbiote_effect_desc: "[chemist_drone.GetIcon] $job_motesymbiote_plural$ convertono [GetCatalyticMineralsOrFood] in £volatile_motes£ §Y$volatile_motes$§!"
+ mod_job_motesymbiote_add: "Lavori da $job_motesymbiote$"
+ mod_job_motesymbiote_per_pop: "§G+1§! di Lavoro da $job_motesymbiote$ per ogni $VALUE$ Pop"
+ mod_job_motesymbiote_per_pop_short: "\n§G+1§! £mod_job_chemist_drone_add£ ogni $VALUE$ £pop£"
+
+ crystalsymbiote: "$job_crystalsymbiote$"
+ job_crystalsymbiote: "Cristallosimbionte"
+ job_crystalsymbiote_plural: "Cristallosimbionti"
+ job_crystalsymbiote_desc: "Questi simbionti coltivano rare formazioni cristalline sui propri corpi. Ogni crescita è modellata da ambiente, funzione e bisogno collettivo."
+ job_crystalsymbiote_effect_desc: "[translucer_drone.GetIcon] $job_crystalsymbiote_plural$ convertono [GetCatalyticMineralsOrFood] in £rare_crystals£ §YCristalli Rari§!"
+ mod_job_crystalsymbiote_add: "Lavori $job_crystalsymbiote$"
+ mod_job_crystalsymbiote_per_pop: "§G+1§! di Lavoro $job_crystalsymbiote$ per ogni $VALUE$ Pop"
+ mod_job_crystalsymbiote_per_pop_short: "\n§G+1§! £mod_job_translucer_drone_add£ ogni $VALUE$ £pop£"
+
+ gaseosymbiote: "$job_gaseosymbiote$"
+ job_gaseosymbiote: "Gaseosimbionte" #Cus I don't want to have a Gassy  mbionte
+ job_gaseosymbiote_plural: "Gaseosimbionti"
+ job_gaseosymbiote_desc: "Maestri dell'alchimia microbica, questi simbionti mantengono con precisione le condizioni necessarie alla generazione naturale di Gas Esotici."
+ job_gaseosymbiote_effect_desc: "[gas_refiner_drone.GetIcon] $job_gaseosymbiote_drone_plural$ convertono [GetCatalyticMineralsOrFood] in £exotic_gases£ §YGas Esotici§!"
+ mod_job_gaseosymbiote_add: "Lavori da $job_gaseosymbiote_drone$"
+ mod_job_gaseosymbiote_per_pop: "§G+1§! Lavoro da $job_gaseosymbiote_drone$ ogni $VALUE$ Pop"
+ mod_job_gaseosymbiote_per_pop_short: "\n§G+1§! £mod_job_gas_refiner_drone_add£ ogni $VALUE$ £pop£"
+
+ spindlesymbiont: "$job_spindlesymbiont$"
+ job_spindlesymbiont: "Brokersimbionte"
+ job_spindlesymbiont_plural: "Brokersimbionti"
+ job_spindlesymbiont_desc: "Con innumerevoli arti flessibili e organi sensoriali esotici, questo simbionte dirige il flusso delle risorse, instradando nutrienti, materia e materiali dove più servono. Ogni movimento equilibra la Selva."
+ job_spindlesymbiont_with_icon: "£job_spindlesymbiont£ $job_spindlesymbiont$"
+ job_spindlesymbiont_plural_with_icon: "£job_spindlesymbiont£ $job_spindlesymbiont_plural$"
+ job_spindlesymbiont_effect_desc: "$job_spindlesymbiont_plural_with_icon$ producono $r_trade$"
+ mod_job_spindlesymbiont_add: "Lavori da $job_spindlesymbiont$"
+
+ job_wilderness_maintenance_drone: "Biomassa Plasmabile"
+ job_wilderness_maintenance_drone_plural: "$job_wilderness_maintenance_drone$"
+ job_wilderness_maintenance_drone_desc: "Biomassa colma di potenziale, conservata e mantenuta finché non sarà necessaria."
+ job_heart_processing: "Biomassa di Nuova Formazione"
+ job_heart_processing_plural: "$job_heart_processing$"
+ job_heart_processing_desc: "Questa biomassa sarà presto integrata. È destinata a svolgere una funzione superiore all'interno di noi stessi."
+
+ neurosymbiont: "$job_neurosymbiont$"
+ job_neurosymbiont: "Neurosimbionte"
+ job_neurosymbiont_plural: "Neurosimbionti"
+ job_neurosymbiont_plural_with_icon: "£job_neurosymbiont£ $job_neurosymbiont_plural$"
+ job_neurosymbiont_desc: "Condotti viventi tra il Behemoth e noi, questi simbionti trascorrono la loro esistenza a trasfondere lentamente la nostra psiche nella bestia."
+ job_neurosymbiont_effect_desc: "£job_neurosymbiont£ $job_neurosymbiont_plural$ producono £energy£ §Y$energy$§!"
+ mod_job_neurosymbiont_add: "Lavori da $job_neurosymbiont$"
+ mod_job_neurosymbiont_per_pop: "§G+1§! $job_neurosymbiont$ ogni $VALUE$ Pop"
+ mod_job_neurosymbiont_pop_short:0 "\n§G+1§! £mod_job_neurosymbiont_add£ ogni $VALUE$ £pop£"
+
+####################################
+# Traditions
+####################################
+ tr_adaptability_appropriation_wilderness: "Appropriazione"
+ tr_adaptability_appropriation_wilderness_delayed: "Gli ecosistemi sotto-utilizzati non apportano alcun beneficio al nostro impero. [GetIndividualNamePluralCap] devono essere riallocati in modo efficiente verso quei pianeti dove sono più necessari."
+ tr_discovery_faith_in_science_wilderness: "Rete Miceliale"
+ tr_discovery_faith_in_science_wilderness_delayed: "Sfruttare la curiosità naturale di tutti [GetIndividualNamePlural] all'interno di una rete interconnessa a base fungina consente una ricerca molto più efficiente."
+ tr_domination_wilderness_network: "Accelerazione Metabolica Macroscopica"
+ tr_domination_wilderness_network_delayed: "Aumentare il tasso di scambio energetico su scala continentale migliora significativamente il supporto che ciascuna parte di noi può offrire alle altre."
+ tr_domination_wilderness_network_effect: "§YSblocca Editto:§! $edict_drone_overdrive_wilderness$"
+ tr_domination_imperious_architecture_wilderness: "Compatibilità Feromonale Interspecie"
+ tr_domination_imperious_architecture_wilderness_desc: "§Y$district_craglands_plural$§! forniscono £defense_army£ §Y$defense_army_plural$§! aggiuntive: §G+2§!"
+ tr_domination_imperious_architecture_wilderness_delayed: "Forzare la comunicazione feromonale tra tutti [GetIndividualNamePlural] consente risposte più rapide alle minacce esterne."
+ tr_expansion_colonization_fever_wilderness: "Mente dei Molti Mondi"
+ tr_expansion_colonization_fever_wilderness_desc: "Aggiunge un §Y£district£Distretto§! casuale all'atto della colonizzazione di un nuovo mondo."
+ tr_expansion_colonization_fever_wilderness_delayed: "[GetGestaltEntityName] è un coro di pensiero che nemmeno il freddo vuoto dello spazio può zittire."
+ tr_expansion_a_new_life_wilderness: "Crescita Rampante"
+ tr_expansion_a_new_life_wilderness_delayed: "[GetGestaltEntityName] sviluppa soluzioni ai propri problemi."
+ tr_expansion_courier_network_wilderness: "$tr_expansion_courier_network_hive$"
+ tr_expansion_courier_network_wilderness_delayed: "Trattare ogni bioma come una suddivisione minore dell'insieme permette una comunicazione mirata senza richiedere l'attenzione totale della mente planetaria."
+ tr_expansion_galactic_ambition_wilderness: "$tr_expansion_galactic_ambition_hive$"
+ tr_expansion_galactic_ambition_wilderness_delayed: "Un terrore primordiale accompagnava i primi tentacoli esitanti nel buio, lontano dal nostro mondo natale. Solo conquistando ed estirpando questa paura potremo continuare a crescere. Milioni di [GetIndividualNamePlural] moriranno affinché [GetGestaltEntityName] possa vivere."
+ tr_prosperity_pursuit_of_profit_wilderness: "Trasporto Liquido Globale"
+ tr_prosperity_pursuit_of_profit_wilderness_delayed: "Vene che attraversano interi continenti trasportano nutrimento e materiali da costruzione essenziali per sostenere gli ecosistemi in difficoltà."
+ tr_prosperity_public_works_wilderness: "Tane Sotterranee"
+ tr_prosperity_public_works_wilderness_desc: "Tutti i £district£ §YDistretti§! forniscono §G+50§! di £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!"
+ tr_prosperity_public_works_wilderness_delayed: "Facendo sì che [GetIndividualNamePlural] permeino gli strati superficiali della crosta e arricchiscano i loro nidi con strutture cerose, è possibile ospitarne molti di più."
+ tr_synchronicity_kinship_wilderness: "Ritmi Circadiani Sincronizzati"
+ tr_synchronicity_kinship_wilderness_delayed: "Controllare con precisione i cicli di riposo di [GetIndividualNamePlural] fa emergere in modo naturale programmi globali di riallocazione dei nutrienti."
+
+####################################
+# Ascension Perks
+####################################
+
+ ap_mastery_of_nature_wilderness: "$ap_mastery_of_nature$"
+ ap_mastery_of_nature_wilderness_desc: "Siamo il ciclo che divora ed è divorato. Dalla cellula più piccola all'albero più alto, viviamo secondo questo principio. Noi siamo la natura."
+ ap_engineered_evolution_wilderness: "$ap_engineered_evolution$"
+ ap_engineered_evolution_wilderness_desc: "La nostra coscienza si è evoluta per superare le prove dell'ambiente. L'ambiente è cambiato, e così faremo anche noi."
+ engineered_evolution_wilderness_tt: "- Avvia la Situazione §Y$genetic_ascension_situation$§! che sblocca l'Albero delle Tradizioni ['tradition_category:tradition_purity'].$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$\n- $UNLOCKS_AGENDA$ §Y$council_agenda_agenda_engineered_evolution_name$§!, che fornisce tecnologie di Modifica Genetica come Opzioni di Ricerca"
+
+############
+# Espionage
+############
+ operation_embed_planetary_roots: "Innesta Radici Planetarie" # literal roots, as in plantlife
+ operation_embed_planetary_roots_desc: "Abbiamo impieghi più urgenti per i nostri [owner.GetIndividualNamePlural] addetti alla raccolta d'informazioni. Tuttavia, innestando un microbioma semi-senziente su uno dei mondi del bersaglio, possiamo conservare gran parte della nostra Rete di Spionaggio e forse persino disturbare la loro catena di approvvigionamento alimentare." # the Wilderness embeds a part of itself, hence 'microbiome'
+ operation_embed_planetary_roots_on_success: "$operation_sleeper_cells_on_success$"
+ espionage_planetary_roots: "Radici Planetarie"
+ espionage_planetary_roots_desc: "Abbiamo innestato un microbioma semi-senziente che ci tiene informati sugli affari di questo impero. Questi simbionti primitivi restano in attesa, pronti a supportare i nostri [owner.GetIndividualNamePlural] nell'attività di raccolta informazioni in qualsiasi momento."
+ operation_embed_planetary_roots_requires_blocker: "$TRIGGER_FAIL$ §RLe nostre $espionage_planetary_roots$ richiedono un ['concept_natural_blocker'] su uno dei mondi del bersaglio.§!"
+ operation_embed_planetary_roots_dont_stack_this: "$TRIGGER_FAIL$ §RAbbiamo già innestato $espionage_planetary_roots$ all'interno di [target.GetName]. I loro benefici potrebbero durare fino a §Y[planet_roots_success]§!.§!"
+ operation_embed_planetary_roots_not_cleared: "$TRIGGER_FAIL$ §RSentiamo ancora la presenza delle nostre $espionage_planetary_roots$ da qualche parte dentro [target.GetName]§!."
+ d_wilderness_root_blocker: "Macchia Invasiva"
+ d_wilderness_root_blocker_desc: "Una chiazza soffocante di natura non autoctona, semi-senziente, ha attecchito ai margini di queste terre rurali."
+
+ wilderness.4500.name: "Setacciare le Lande"
+ wilderness.4500.desc: "I nostri [owner.GetOperativesLowerPlural] semi-autonomi hanno identificato diversi siti potenzialmente adatti al nostro microbioma unico. Ora monitoreranno questi habitat per un certo tempo, dando priorità a quelli che ci offrono la maggiore possibilità di successo a lungo termine."
+ wilderness.4505.name: "Sito Potenziale Identificato"
+ wilderness.4505.desc: "Abbiamo ottenuto la collaborazione di un ignaro [target.GetSpeciesAdj] che crede di partecipare a un nobile atto di conservazione naturale. In realtà, sta per consegnare il nostro microbioma 'bomba di semi' in una regione remota su §H[roots_planet.GetPlanetMoon] [roots_planet.GetName]§!.\n\nSebbene i simbionti contenuti in questo pacchetto possano avere vita breve e non giungano mai a costituire una vera estensione di noi stessi, sentiamo comunque il loro impeto nel volersi infiltrare e osservare questo paesaggio alieno quanto più possibile."
+ wilderness.4510.name: "$espionage_planetary_roots$ Innestate"
+ wilderness.4510.desc: "Dal momento in cui il nostro microbioma è stato consegnato alla sua nuova dimora nel [GetRootsBlockerName], abbiamo iniziato a respirarne l'aria proibita e a percepire il mondo conosciuto come §H[roots_planet.GetName]§!.\n\nLa nostra presenza qui sarà fragile, fintanto che questi simbionti resteranno fondamentalmente scollegati dal nostro sé più vasto. Tuttavia, ci saranno utili quando sarà il momento di riprendere le operazioni nello spazio [target.GetAdj]."
+ wilderness.4510.a: "Le nostre radici devono penetrare più a fondo, durare più a lungo."
+ wilderness.4510.b: "Lasciamo che le nostre radici dilaghino qui."
+
+####################################
+# Technologies
+####################################
+ tech_wilderness_terraform: "Germinazione Planetaria"
+ tech_wilderness_terraform_desc: "Diffondere le nostre radici su un nuovo mondo richiede innanzitutto la preparazione del letto di semina. Terraformando preventivamente un pianeta, possiamo assicurarci che le nostre colonie partano in condizioni sane e favorevoli."
+
+ tech_terrestrial_sculpting_wilderness: "$tech_terrestrial_sculpting$"
+ tech_terrestrial_sculpting_wilderness_desc: "$tech_terrestrial_sculpting_desc$"
+ tech_terrestrial_sculpting_wilderness_effect: "§HSblocca Caratteristica:§! Permette la terraformazione di tutte le classi planetarie standard."
+
+ tech_wilderness_node: "Centri dell'Essere"
+ tech_wilderness_node_desc: "Favorendo la crescita di simbionti riflessivi nei boschi della nostra coscienza distribuita, la nostra volontà collettiva sarà percepita con maggiore intensità da tutti."
+ tech_wilderness_cluster: "$tech_hive_cluster$"
+ tech_wilderness_cluster_desc: "Possiamo accelerare la fluidità del pensiero collettivo globale investendola in aggregazioni di simbionti la cui unica funzione è facilitare tale volontà."
+ tech_wilderness_confluence: "$tech_hive_confluence$"
+ tech_wilderness_confluence_desc: "La nostra volontà mutualistica sarà rafforzata da vasti raduni di simbionti profondamente empatici, così sintonizzati con l'ambiente da concentrare e rilanciare il nostro pensiero collettivo."
+
+ tech_genome_mapping_wilderness: "$tech_genome_mapping$"
+ tech_genome_mapping_wilderness_desc: "Mappare i genomi delle nostre molteplici linee di DNA approfondisce la comprensione della nostra crescita e aiuta a eliminare fattori di complicazione."
+ tech_mining_1_wilderness: "$tech_mining_1$"
+ tech_mining_1_wilderness_desc: "Agenti addensanti mucosali e pressione idraulica possono essere applicati ai depositi minerari esistenti per scavare più a fondo e aumentare i nostri ricavi."
+ tech_powered_exoskeletons_wilderness: "$tech_powered_exoskeletons$"
+ tech_powered_exoskeletons_wilderness_desc: "Gli esoscheletri potenziati aumentano la forza e la velocità di chi li utilizza, con evidenti applicazioni militari e un miglioramento dell'efficienza nel lavoro manuale."
+ tech_colonization_1_wilderness: "Iniziativa per Nuovi Mondi"
+ tech_colonization_1_wilderness_desc: "Rivolgiamo la nostra attenzione al calcolo delle risorse e dei materiali necessari a risvegliare nuovi mondi, così da preparare i nostri simbionti pionieri ai loro ardui viaggi tra le stelle."
+
+ tech_wilderness_government: "$tech_planetary_government$"
+ tech_wilderness_government_desc: "Dal momento in cui un nuovo pianeta viene risvegliato, le sue priorità devono concentrarsi sulla creazione di un ambiente stabile e florido, più che sul legame con il nostro sé più ampio."
+ tech_wilderness_colonial_centralization: "$tech_colonial_centralization$"
+ tech_wilderness_colonial_centralization_desc: "$tech_colonial_centralization_desc$"
+ tech_wilderness_galactic_administration: "$tech_galactic_administration$"
+ tech_wilderness_galactic_administration_desc: "$tech_galactic_administration_desc$"
+ tech_wilderness_science_lab_2: "$tech_basic_science_lab_2$"
+ tech_wilderness_science_lab_2_desc: "$tech_basic_science_lab_2_desc$"
+ tech_wilderness_science_lab_3: "$tech_basic_science_lab_3$"
+ tech_wilderness_science_lab_3_desc: "$tech_basic_science_lab_3_desc$"
+ tech_wilderness_food_processing_1: "$tech_food_processing_1$"
+ tech_wilderness_food_processing_1_desc: "$tech_food_processing_1_desc$"
+ tech_wilderness_food_processing_2: "$tech_food_processing_2$"
+ tech_wilderness_food_processing_2_desc: "$tech_food_processing_2_desc$"
+ tech_wilderness_power_hub_1: "$tech_power_hub_1$"
+ tech_wilderness_power_hub_1_desc: "$tech_power_hub_1_desc$"
+ tech_wilderness_power_hub_2: "$tech_power_hub_2$"
+ tech_wilderness_power_hub_2_desc: "$tech_power_hub_2_desc$"
+ tech_wilderness_mineral_purification_1: "$tech_mineral_purification_1$"
+ tech_wilderness_mineral_purification_1_desc: "$tech_mineral_purification_1_desc$"
+ tech_wilderness_mineral_purification_2: "$tech_mineral_purification_2$"
+ tech_wilderness_mineral_purification_2_desc: "$tech_mineral_purification_2_desc$"
+ tech_wilderness_industry: "$tech_basic_industry$"
+ tech_wilderness_industry_desc: "$tech_basic_industry_desc$"
+ tech_wilderness_alloys_1: "$tech_alloys_1$"
+ tech_wilderness_alloys_1_desc: "$tech_alloys_1_desc$"
+ tech_wilderness_alloys_2: "$tech_alloys_2$"
+ tech_wilderness_alloys_2_desc: "$tech_alloys_2_desc$"
+ tech_wilderness_volatile_motes: "$tech_volatile_motes$"
+ tech_wilderness_volatile_motes_desc: "$tech_volatile_motes_desc$"
+ tech_wilderness_exotic_gases: "$tech_exotic_gases$"
+ tech_wilderness_exotic_gases_desc: "$tech_exotic_gases_desc$"
+ tech_wilderness_rare_crystals: "$tech_rare_crystals$"
+ tech_wilderness_rare_crystals_desc: "$tech_rare_crystals_desc$"
+ tech_wilderness_planetary_defenses: "$tech_planetary_defenses$"
+ tech_wilderness_planetary_defenses_desc: "$tech_planetary_defenses_desc$"
+ tech_wilderness_defense_grid: "$tech_global_defense_grid$"
+ tech_wilderness_defense_grid_desc: "$tech_global_defense_grid_desc$"
+ tech_wilderness_shield_generator: "$tech_planetary_shield_generator$"
+ tech_wilderness_shield_generator_desc: "$tech_planetary_shield_generator_desc$"
+ tech_storm_relief_center: "$tech_industrial_storm_protection$"
+ tech_storm_relief_center_desc: "$tech_industrial_storm_protection$"
+ tech_archaeostudies_wilderness: "$tech_archaeostudies$"
+ tech_archaeostudies_wilderness_desc: "$tech_archaeostudies_desc$"
+
+####################################
+# City Appearance
+####################################
+ WILDERNESS: "Natura Selvaggia"
+
+####################################
+# Deposits
+####################################
+ d_wilderness_mining: "Rete di Caverne Vuote"
+ d_wilderness_mining_desc: "Le forme di vita che un tempo occupavano questo mondo asciarono le loro miniere in uno stato di caotico abbandono, con numerosi tunnel erosi fino alla roccia nuda e strutturalmente instabili."
+ d_wilderness_mining_2: "Altopiano Craterizzato"
+ d_wilderness_mining_2_desc: "Questa regione pericolosa è infestata da detriti privi di valore e da potenziali voragini, tutte conseguenza di un'intensa attività mineraria nel suo passato."
+ d_wilderness_farming: "Foresta Arida"
+ d_wilderness_farming_desc: "Quella che un tempo era una vasta e produttiva foresta ora giace priva di vita. I suoi rami rinsecchiti non sono più in grado di produrre frutti."
+ d_wilderness_farming_2: "Foresta Fossilizzata"
+ d_wilderness_farming_2_desc: "I resti di una vasta regione ricca di diverse silvicolture. La vegetazione abbondante e i funghi sono scomparsi così rapidamente che i resti appaiono cristallini, e biochimicamente inerti."
+ d_wilderness_generator: "Campo Solare Bruciato"
+ d_wilderness_generator_desc: "Un baldacchino avvizzito e steli fragili sono tutto ciò che resta di questa defunta fattoria solare."
+ d_wilderness_generator_2: "Pianura Solare"
+ d_wilderness_generator_2_desc: "Questa vasta regione è occupata dai resti ricoperti di spine di un'antica e rigogliosa foresta solare. Il fogliame secco, leggermente illuminato ora si muove come polvere atmosferica."
+ d_wilderness_city: "Palude Fetida"
+ d_wilderness_city_desc: "Quello che un tempo era un habitat fiorente per innumerevoli forme di vita è stato abbandonato, ora non è più che una fossa in putrida."
+ d_wilderness_city_2: "Palude Purulenta"
+ d_wilderness_city_2_desc: "Innumerevoli forme di vita  sono morte in questo luogo. I loro resti in putrefazione si sono infiltrati nel terreno, riversando un fiume di sostanze biochimiche corrosive e dall'odore insopportabile."
+ d_wilderness_industrial: "Palude Metallica"
+ d_wilderness_industrial_desc: "I resti di numerosi bagni termali, il loro contenuto è stato reso tossico dagli smotttamenti."
+ d_wilderness_industrial_2: "Terre Desolate Biochimiche"
+ d_wilderness_industrial_2_desc: "Solo ciotole di pietra e gole spettrali coperte di polvere tossica rimangono di quella che fu un'immensa rete di impianti minerari semi-organici."
+
+ d_scorched_plains: "Pianure Bruciate"
+ d_scorched_plains_desc: "Questa regione un tempo brulicava di vita, finché non è stata devastata dall'esplosione di una superflare stellare."
+
+ concept_scorched_plains: "$d_scorched_plains$"
+ concept_scorched_plains_desc: "- $MOD_PLANET_MAX_DISTRICTS_ADD$: §R-2§!\n- Tempo necessario per la Bonifica: £time£ 180 §IGiorni§!\n- Costo della Bonifica:\n$t$- 900 $i_energy$\n\n§L$d_scorched_plains_desc$§!"
+
+####################################
+# Colony Types
+####################################
+ col_wilderness_default: "Colonia Selvaggia"
+
+####################################
+# Planet Designations
+####################################
+ col_wilderness_capital: "Pianeta Centrale"
+ col_wilderness_capital_tt: "$col_wilderness_capital_desc$"
+ col_wilderness_capital_desc: "Ogni angolo di questo mondo è pervaso da  vita simbiotica, raccolti in  numero così grande da diventare un organismo stellare vivente."
+ col_wilderness_generator: "Pianeta Fotosintetico"
+ col_wilderness_generator_desc: "$col_generator_desc$"
+ col_wilderness_generator_tt: "Innumerevoli gruppi di simbionti cloroplastici si raccolgono e immagazzinano energia su questo pianeta."
+ col_wilderness_mining: "Pianeta roccioso"
+ col_wilderness_mining_desc: "$col_mining_desc$"
+ col_wilderness_mining_tt: "Sotto la superficie apparentemente arida di questo pianeta si nasconde un concerto di vita sotterranea, che scava con fervore per estrarre un ricco bottino di minerali."
+ col_wilderness_farming: "Mondo Impollinante"
+ col_wilderness_farming_desc: "$col_farming_desc$"
+ col_wilderness_farming_tt: "Simbionti specializzati mantengono condizioni di crescita ideali in ogni angolo di questo mondo, favorendo l'abbondanza di flora e fauna nutritive."
+ col_wilderness_fortress: "Terra dei Predatori"
+ col_wilderness_fortress_desc: "$col_fortress_desc$"
+ col_wilderness_fortress_tt: "La superficie di questo mondo vibra sotto l'impeto delle mandrie profondamente territoriali e riecheggia delle grida di spaventosi predatori."
+ col_wilderness_tech: "Pianeta Contemplativo"
+ col_wilderness_tech_desc: "$col_research_desc$"
+ col_wilderness_tech_tt: "Questo pianeta vivace è costellato di curiosità e strani fenomeni, pronti per essere esplorati dalle menti curiose e intraprendenti."
+ col_wilderness_nest: "Pianeta Tessitore"
+ col_wilderness_nest_desc: "$col_city_desc$"
+ col_wilderness_nest_tt: "Un habitat protetto per una tale moltitudine di forme di vita simbiontiche che l'atmosfera stessa può modificare la sua composizione in risposta alle esigenze e agli umori della Natura Selvaggia."
+ col_wilderness_refinery: "Pianeta Raffinatore"
+ col_wilderness_refinery_desc: "Specializzato nella produzione di £exotic_gases£ §H$exotic_gases$§! e altre £strategic_resource£ §HStrategic Resources§!."
+ col_wilderness_refinery_tt: "Questo pianeta è punteggiato da sorgenti geotermiche dove una moltitudine di nano-organismi e altri simbionti esotici possono raccogliersi e processare materiali grezzi."
+ col_wilderness_forge: "Crogiolo Planetario"
+ col_wilderness_forge_desc: "$col_foundry_desc$"
+ col_wilderness_forge_tt: " Un crogiolo di dimensioni planetarie per processare minerali grezzi e convertirli in leghe efficaci e versatili."
+ col_wilderness_unification: "Pianeta Tranquillo"
+ col_wilderness_unification_desc: "$col_bureau_desc$"
+ col_wilderness_unification_tt: "Un'aura di mutualismo tranquillo pervade questo pianeta, approfondendo le complesse relazioni tra i simbionti."
+
+####################################
+# Personalities
+####################################
+ personality_benevolent_wilderness: "Natura Selvaggia Armonica"
+ personality_benevolent_wilderness_desc: "Questa vasta biosfera senziente cerca solo di intrecciarsi con le stelle. Le sue radici si estendono pazientemente attraverso la galassia, non per fame, ma in armonia."
+
+ personality_rampant_wilderness: "Natura Selvaggia Incontrollata"
+ personality_rampant_wilderness_desc: "La Natura Selvaggia Incontrollata non si scaglia con rabbia; si espande, consuma e perdura. Tutto, vivo o morto, viene reclamato nell'infinito ciclo di crescita e decadimento."
+
+####################################
+# Policies
+####################################
+
+ policy_symbiont_policy: "$policy_drone_policy$"
+ policy_symbiont_policy_desc: "Il nostro collettivo simbiotico è estremamente capace e produttivo, ma non illimitato. Dobbiamo decidere come e dove impiegare al meglio le nostre risorse."
+
+ symbiont_policy_balanced: "$drone_policy_balanced$"
+ symbiont_policy_balanced_name: "$symbiont_policy_balanced$"
+ symbiont_policy_balanced_desc: "La Natura Selvaggia si dedica in egual misura alla produzione di risorse grezze e di beni finiti.\n\n§ENessun bonus o penalità alla produzione di risorse.§!"
+
+ symbiont_policy_worker: "$drone_policy_worker$"
+ symbiont_policy_worker_name: "$symbiont_policy_worker$"
+ symbiont_policy_worker_desc: "La Natura Selvaggia privilegia l'estrazione di risorse grezze, rendendo i simbionti coinvolti più produttivi, ma a discapito della produzione specializzata e manifatturiera.\n\n"
+
+ symbiont_policy_thinker: "$drone_policy_thinker$"
+ symbiont_policy_thinker_name: "$symbiont_policy_thinker$"
+ symbiont_policy_thinker_desc: "La Natura Selvaggia dà priorità alla produzione di beni finiti, diventando più produttiva a scapito dell'estrazione di risorse grezze.\n\n"
+
+####################################
+# Edicts
+####################################
+ edict_capacity_subsidies_wilderness: "$edict_capacity_subsidies$"
+ edict_capacity_subsidies_wilderness_desc: "Questo Editto incentiva i nostri simbionti fotosintetici a formare branchi migratori che seguono il sole sulla nostra superficie, aumentando la produzione di energia."
+ edict_mining_subsidies_wilderness: "$edict_mining_subsidies$"
+ edict_mining_subsidies_wilderness_desc: "Questo Editto rafforza le nostre radici, permettendo ai nostri simbionti scavatori di operare con un minor rischio di collasso strutturale."
+ edict_farming_subsidies_wilderness: "$edict_farming_subsidies$"
+ edict_farming_subsidies_wilderness_desc: "Questo Editto prevede una diluizione aggressiva di sostanze chimiche ad alta energia nel nostro suolo per aumentare la produzione nutrizionale."
+ edict_forge_subsidies_wilderness: "$edict_forge_subsidies$"
+ edict_forge_subsidies_wilderness_desc: "Saturare le nostre riserve di alghe litotrofe con nutrienti permette fioriture stagionali e un aumento del raccolto di sottoprodotti di leghe."
+ edict_research_subsidies_wilderness: "$edict_research_subsidies$"
+ edict_research_subsidies_wilderness_desc: "$edict_research_subsidies_desc$"
+ edict_clearing_motes_wilderness: "$edict_clearing_motes$"
+ edict_clearing_motes_wilderness_desc: "Incrementare la dieta dei simbionti con particelle volatili permette la digestione sia di sostanze organiche che inorganiche. Il nostro olobionte adatterà il nostro stesso ambiente nutrendosene."
+ edict_learning_campaign_wilderness: "$edict_learning_campaign$"
+ edict_learning_campaign_wilderness_desc: "Fornendo nutrienti aggiuntivi ai nostri simbionti, siamo in grado di aumentarne la loro produttività."
+ edict_war_drone_campaign_wilderness: "Campagna dei Simbioti da Guerra"
+ edict_war_drone_campaign_wilderness_desc: "L'allocazione di nutrienti supplementari ai simbionti predatori e gregari consente di potenziarne la forza e la preparazione al combattimento."
+ edict_scientific_revolution_wilderness: "$edict_scientific_revolution$"
+ edict_scientific_revolution_wilderness_desc: "$edict_scientific_revolution_desc$"
+ edict_drone_overdrive_wilderness: "Sovraccarico Simbiotico"
+ edict_drone_overdrive_wilderness_desc: "I nostri biomi verranno resi più competitivi, in quanto richiederanno un maggior numero di risorse."
+
+####################################
+# Colonization Rules
+####################################
+ COLONIZATION_IMPOSSIBLE_WILDERNESS_TECH: "§RNon possiamo colonizzare pianeti troppo diversi dal nostro pianeta d'origine senza £society£ §H$tech_ecological_adaptation$§!.§!"
+
+####################################
+# Agendas
+####################################
+ council_agenda_agenda_purity_perfection_wilderness_name: "$council_agenda_agenda_purity_perfection_name$"
+ council_agenda_agenda_purity_perfection_wilderness_desc: "Dirigeremo l'orchestra genetica dei nostri simbionti con una precisione impareggiabile."
+ agenda_purity_perfection_wilderness_finish: "$council_agenda_agenda_purity_perfection_wilderness_name$"
+ agenda_purity_perfection_wilderness_finish_desc: "$council_agenda_agenda_purity_perfection_wilderness_desc$"
+
+ council_agenda_agenda_superior_colonies_wilderness_name: "Germogli Potenziati"
+ council_agenda_agenda_superior_colonies_wilderness_desc: "$council_agenda_agenda_superior_colonies_desc$"

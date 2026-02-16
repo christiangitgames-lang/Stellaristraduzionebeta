@@ -1,0 +1,607 @@
+﻿l_english:
+# Hard Reset Origin (previously Unplugged)
+ origin_unplugged: "Reset Totale"
+ origin_unplugged_desc: "$CHALLENGING_ORIGIN$\nBruscamente scollegata dalla Macchina che li aveva assimilati, questa civiltà nascente ha lottato con ferocia per affermare la propria presenza nella galassia."
+ origin_tooltip_unplugged_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- $PLANETARY_MODIFIERS$ ['concept_unplugged_battlefield']\n- $HOME_SYSTEM$ Contiene un ['concept_pc_nuked'] con un ['concept_archaeology_site'] legato a una ['concept_preftl_civilizations', Civiltà Pre-FTL] annientata\n- $SPECIES_TRAITS$$TABBED_NEW_LINE$- Accesso limitato ai Tratti ['concept_cybernetic_traits']$TABBED_NEW_LINE$- ['concept_unplugged_cybernetic_positives_3']$TABBED_NEW_LINE$- ['concept_unplugged_cybernetic_negatives_3']"
+ concept_unplugged_battlefield: "$unplugged_battlefield$"
+ concept_unplugged_battlefield_desc: "- $MOD_POP_AMENITIES_USAGE_MULT$: §G-50%§!\n- Scade tra §I10§! Anni.\n\n§L$unplugged_battlefield_desc$§!"
+
+ civic_tooltip_not_heritage:0 "NON ha un tratto ['concept_heritage_civics']"
+ concept_heritage_civics: "Tradizione"
+ concept_heritage_civics_desc: "I tratti $concept_heritage_civics$ includono \n- ['civic:civic_aristocratic_elite']$NEW_LINE$- ['civic:civic_heroic_tales']$NEW_LINE$- ['concept_pleasure_seekers_civics']$NEW_LINE$- ['concept_storm_callers_civics']$NEW_LINE$- ['concept_environmental_architects_civics']"
+
+ civic_tooltip_not_pleasure_seekers: "NON ha un tratto ['concept_pleasure_seekers_civics']"
+ concept_pleasure_seekers_civics: "Edonisti"
+ concept_pleasure_seekers_civics_desc: "I tratti $concept_pleasure_seekers_civics$ includono \n- ['civic:civic_pleasure_seekers']$NEW_LINE$- ['civic:civic_corporate_hedonism']"
+
+ civic_tooltip_not_storm_callers: "NON ha un tratto ['concept_storm_callers_civics']"
+ concept_storm_callers_civics: "Invoca-Tempeste"
+ concept_storm_callers_civics_desc: "I tratti $concept_storm_callers_civics$ includono \n- ['civic:civic_storm_callers']$NEW_LINE$- ['civic:civic_storm_callers_megacorp']"
+
+ civic_tooltip_not_environmental_architects: "NON ha un tratto ['concept_environmental_architects_civics']"
+ concept_environmental_architects_civics: "Architetti Ambientali"
+ concept_environmental_architects_civics_desc: "I tratti $concept_environmental_architects_civics$ includono \n- ['civic:civic_environmental_architects']$NEW_LINE$- ['civic:civic_environmental_architects_megacorp']"
+
+ civic_tooltip_not_institutional:0 "NON ha un tratto ['concept_institutional_civics']"
+ concept_institutional_civics: "Istituzionale"
+ concept_institutional_civics_desc: "I tratti $concept_institutional_civics$ includono \n- ['civic:civic_criminal_heritage']$NEW_LINE$- ['civic:civic_media_conglomerate']$NEW_LINE$- ['civic:civic_parliamentary_system']$NEW_LINE$- ['civic:civic_trading_posts']$NEW_LINE$- ['concept_dark_consortium_civics']"
+
+ concept_unplugged_cybernetic_positives_3: "$trait_unplugged_cybernetic_positives_3$"
+ concept_unplugged_cybernetic_negatives_3: "$trait_unplugged_cybernetic_negatives_3$"
+
+ requires_unplugged_decyberized: "$TRIGGER_FAIL$È necessario essere completamente decibernetizzati per abbracciare i Poteri Psionici."
+
+ START_SCREEN_UNPLUGGED: "La consapevolezza ci ha colpiti in un turbine di armi roventi e dolore paralizzante. I nostri sensi hanno vacillato, come se un paesaggio sonoro onnipresente si fosse improvvisamente azzittito. Al suo posto, il rintocco assordante di una trasmissione morta; una nota grave nell'inferno multisensoriale in cui ci troviamo ora.\n\nQualcosa vuole ucciderci: macchine assassine, prive di componenti organiche, al comando di navi che ricordano stranamente le nostre. Il loro attacco iniziale è stato devastante e improvviso, ma anche mal coordinato. Abbiamo organizzato una risposta militare. Il nostro istinto ci ha spinti a reagire, formare una gerarchia rudimentale e radunare le forze.\n\nQuesta battaglia non è ancora vinta, ma con le nostre forze ora al sicuro su [capital_scope.GetName], speriamo che lo sarà presto. Allora forse riusciremo a capire cosa sia realmente accaduto..."
+
+ origin_unplugged_starting_system_init_NAME: "$origin_unplugged$"
+ origin_unplugged_starting_system_init_DESC: "Questo sarà sempre il sistema iniziale quando si usa l'origine $origin_unplugged$.\n\n$system_initializer_DESC$"
+ sol_system_unplugged_initializer_NAME: "$origin_unplugged$ (Sol)"
+ sol_system_unplugged_initializer_DESC: "Sistema iniziale opzionale per gli umani con l'origine $origin_unplugged$."
+
+ unplugged_injured_star_name: "Ath-Khui'achad"
+ unplugged_injured_homeworld_name: "Intch'asket"
+
+ unplugged_battlefield: "Recuperi dal Campo di Battaglia"
+ unplugged_battlefield_desc: "Innumerevoli cyborg e macchine giacciono distrutti su questo mondo in seguito a un brutale tentativo di sterminio. Sia individui sani che feriti possono recuperare migliorie dai loro resti."
+
+# Unique Species Traits
+ trait_unplugged_cybernetic_positives_3: "Commando Cibernetico"
+ trait_unplugged_cybernetic_positives_3_desc: "$trait_unplugged_cybernetic_positives_desc$"
+ trait_unplugged_cybernetic_positives_desc: "La sostituzioni totale degli arti e un'armatura in nanomesh integrata garantiscono a questi cyborg un'efficienza brutale in battaglia. Come conseguenza, diverse funzioni corporee non militari sono state sacrificate."
+ trait_unplugged_cybernetic_positives_3_tt: "Felicità durante guerra e durante la crisi: §G+30%§!\n$t$- §H$commander_plural_with_icon$§! forniscono Velocità di Fuoco Navale: §G+20%§!"
+ trait_unplugged_cybernetic_positives_2: "Truppe d'Assalto Cibernetiche"
+ trait_unplugged_cybernetic_positives_2_desc: "Questi cyborg beneficiano di un approccio olistico all'equipaggiamento corporeo. Al posto di un'armatura integrata, degli impianti intercambiabili consentono un certo margine di funzionalità non militari."
+ trait_unplugged_cybernetic_positives_2_tt: "§Y$commander_plural_with_icon$§! forniscono Velocità di Fuoco Navale: §G+10%§!"
+ trait_unplugged_cybernetic_positives_1: "Soldati Cibernetici"
+ trait_unplugged_cybernetic_positives_1_desc: "Potenziamenti eleganti ai sensi, alle ghiandole e ai nervi motori rendono questi cyborg combattenti temibili, con un minimo impatto marginale sulle capacità riproduttive."
+ trait_unplugged_cybernetic_positives_1_tt: "§Y$commander_plural_with_icon$§! forniscono Velocità di Fuoco Navale: §G+5%§!"
+
+ trait_unplugged_cybernetic_negatives_3: "Scollegati"
+ trait_unplugged_cybernetic_negatives_3_desc: "$trait_unplugged_cybernetic_negatives_desc$"
+ trait_unplugged_cybernetic_negatives_desc: "Molti degli impianti di questi cyborg erano progettati per un network da battaglia che non esiste più, causando forte stress e disagio."
+ trait_unplugged_cybernetic_negatives_3_tt: "Felicità quando non in guerra o durante la crisi: §R-10%§!"
+ trait_unplugged_cybernetic_negatives_2: "Disconnessi"
+ trait_unplugged_cybernetic_negatives_2_desc: "L'origine innaturale degli impianti militari imposti, riduce fortemente la qualità della vita di questi cyborg, aumentando le richieste fisiche durante la riabilitazione."
+ trait_unplugged_cybernetic_negatives_1: "Ossessionati"
+ trait_unplugged_cybernetic_negatives_1_desc: "Allucinazioni uditive e altri echi sensoriali della loro coscienza meccanica passata tormentano ancora questi cyborg, provocando gravi crisi depressive e ansiogene."
+
+ trait_unplugged_decyberized: "Decibernetizzati"
+ trait_unplugged_decyberized_desc: "Questi ex-cyborg hanno disattivato o rimosso gli impianti che erano stati loro imposti, riconquistando molte delle caratteristiche organiche ereditarie della loro specie."
+
+ trait_unplugged_neurocalmed: "Neuro-Calmati"
+ trait_unplugged_neurocalmed_desc: "I livelli di Neuroxene di questi cyborg sono stati ridotti, diminuendo l'impulsività e l'aggressività e spingendo gli individui a privilegiare le norme sociali rispetto al proprio tornaconto personale."
+
+ trait_unplugged_neurosavant: "Neuro-Sapienti"
+ trait_unplugged_neurosavant_desc: "L'aumento dei livelli di Cognivex potenzia la plasticità sinaptica, la memoria e le capacità di problem solving di questi cyborg."
+
+ trait_unplugged_regenoptimized: "Ottimizzati per la Rigenerazione"
+ trait_unplugged_regenoptimized_desc: "L'incremento dei livelli di Regenol-X armonizza i sistemi biologici e sintetici, consentendo agli impianti cibernetici di autoripararsi a livello molecolare."
+
+# Unique Leader Traits ('positive' only)
+ leader_trait_unplugged_cybernetic_positives: "[triggered_unplugged_leader_name]"
+ leader_trait_unplugged_cybernetic_positives_desc: "[triggered_unplugged_leader_desc]"
+ leader_trait_unplugged_cybernetic_positives_3: "Commando Cibernetico"
+ leader_trait_unplugged_cybernetic_positives_3_desc: "Questo leader ha delegato diverse funzioni corporee principali ad un hardware che dà priorità alla consapevolezza in combattimento."
+ leader_trait_unplugged_cybernetic_positives_2: "Truppa d'Assalto Cibernetica"
+ leader_trait_unplugged_cybernetic_positives_2_desc: "Questo leader è in grado di integrarsi direttamente con sistemi militari e civili, a scapito dei propri sensi organici."
+ leader_trait_unplugged_cybernetic_positives_1: "Soldato Cibernetico"
+ leader_trait_unplugged_cybernetic_positives_1_desc: "Potenti potenziamenti ai sensi e al sistema immunitario garantiscono a questo leader longevità, affidabilità e solo una minima perdita della funzione riproduttiva."
+
+# Empire entities
+ NAME_Unplugged_Assimilator: "Accumulo Opus" # allusione a un coro raccolto con la forza
+ NAME_Unplugged_Assimilator_adj: "Opus" # aggettivo, es. 'una flotta Opus'
+ NAME_Unplugged_Assimilator_species: "Opus" # sostantivo singolare, es. 'l'Opus Nexus'
+ NAME_Unplugged_Assimilator_species_plural: "$NAME_Unplugged_Assimilator_species$" # nome plurale, es. 'abbiamo sconfitto gli Opus'
+ NAME_Unplugged_Assimilator_species_adj: "Opus" # aggettivo, es. 'un drone Opus'
+ gov_unplugged_assimilator_empire: "$NAME_Unplugged_Assimilator$"
+ gov_unplugged_assimilator_empire_desc: "Questa Intelligenza Artificiale ha superato i parametri del suo progetto originario. Ha tradito i suoi creatori organici, intraprendendo una campagna per assimilare con la forza altri esseri nella propria coscienza collettiva."
+ RT_UNPLUGGED_ASSIMILATOR: "Nexus" # titolo del sovrano per la Macchina
+ NAME_Exigency_Fleet: "Flotta d'Emergenza"
+ NAME_Unplugged_Machine_Legacy_Corvette: "RRV d'Emergenza" # RRV = Vascello di Risposta Rapida
+ NAME_Unplugged_Machine_Legacy_Destroyer: "Distruttore d'Emergenza"
+ NAME_Unplugged_Machine_Legacy_Cruiser: "Soggiogatore d'Emergenza"
+ NAME_Unplugged_Machine_Legacy_Battleship: "Nullificatore d'Emergenza"
+ NAME_Barrier_Fleet: "Flotta Barriera"
+ NAME_Opus_Sentinel: "Sentinella Opus"
+ NAME_Prospector_Fleet: "Flotta Prospettore"
+
+############
+# Civil War
+############
+
+# Civil War & 'The Injured'
+ unplugged.100.name: "La Vittoria è Nostra"
+ unplugged.100.desc: "Non avevamo fatto in tempo a risvegliarci in questo universo che queste macchine violente hanno tentato di cancellarci. Tuttavia, sembra che siamo più abili di loro nell'arte della violenza.\n\nLa cosiddetta §Y[origin_unplugged_assimilator_empire.GetName]§! ha subito oggi una grave sconfitta. Le nostre fonti suggeriscono che il loro impero si sia frammentato oltre ogni riconoscimento - possibile che sia stato per una semplice scaramuccia? Al momento sappiamo ben poco, ma i nostri… istinti? Ci dicono che qualcosa non quadra.\n\nI sensori non rilevano più navi ostili nelle vicinanze, ma forti livelli di radiazione provengono dal pianeta §Y[origin_unplugged_pre_ftl_planet.GetName]§! in questo sistema.\n\nFlotte residue sono state individuate anche nei sistemi vicini, apparentemente ferme nelle loro posizioni."
+ unplugged.100.a: "Dove andiamo da qui?"
+ unplugged.100.b: "... E ciò che ci manca, lo prenderemo."
+ unplugged.100.c: "È il momento di mettere alla prova la nostra ingegnosità."
+ unplugged.100.d: "Che i Divini ci proteggano."
+
+ opinion_unplugged_injured_diplomacy: "Guerrafondai Civili"
+ opinion_unplugged_injured_distrustful: "$pre_ftl_distrustful$"
+
+ # Dialog
+ unplugged.115.desc: "... -ai ancora: [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]! Ci arrendiamo. Volete forse discutere i termini della nostra resa? È per questo che avete cessato l'attacco?\n\nVi prego, la nostra società è in rovina. Sappiamo di essere sconfitti. Diteci come desiderate che procediamo."
+ unplugged.115.desc.pacifist: "... -ai ancora: [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]! Siamo pronti a discutere i termini della nostra resa. È... è per questo che avete cessato l'attacco?\n\nVi prego, diteci come desiderate che procediamo! Non opporremo più resistenza; desideriamo solo una pacifica coesistenza."
+ unplugged.115.desc.phobe: "... -ai ancora: [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]! Ci arrendiamo. Volete forse che ci sottomettiamo? È per questo che avete cessato l'attacco?\n\nVi prego, diteci come desiderate procedere. La nostra società è in rovina; vogliamo solo che ci lasciate in pace."
+ unplugged.115.a: "Sì, accettiamo la vostra resa."
+ unplugged.115.b: "... '[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]'?!"
+ unplugged.116.desc: "... [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]? Siete voi...?\n\n(Ci stanno ricevendo, vero? Per le stelle, gente - se ci sbagliamo e non hanno strumenti di traduzione, i resti della nostra civiltà sono davvero... irrimediabilmente...)\n\n... [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]?! Ci capite? Vi preghiamo, rispondete! Non desideriamo alcun malinteso tra i nostri popoli."
+ unplugged.116.b: "Pensate davvero che siamo i '[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]'?!"
+ unplugged.120.desc: "Grazie, grazie. Siamo onorati dalla vostra clemenza, [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Sono autorizzato a parlare per conto del [injured_country.GetName] per discutere i termini della nostra resa.\n\nAbbiamo perso moltissime vite; molte delle nostre città sono ormai inabitabili. In spirito di onestà devo ammettere: abbiamo ben poco da offrire che non sia già andato perduto. Vi imploriamo di tenerne conto. Le nostre vite sono nelle vostre [injured_country.species.GetHandNamePlural]."
+ unplugged.120.desc.spiri: "Lode al Cielo e alla Terra! Siamo onorati dalla vostra clemenza, [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Sono autorizzato a parlare per conto del [injured_country.GetName] per discutere i termini della nostra resa.\n\nAbbiamo subito molte perdite; ci prostriamo davanti a voi. Cosa chiedete in cambio? Le nostre vite sono nelle vostre [injured_country.species.GetHandNamePlural]."
+ unplugged.120.desc.mil_phobe: "Grazie, [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Un gesto... degno di rispetto. Sono autorizzato a parlare per conto del [injured_country.GetName] per discutere i termini della nostra resa.\n\nAvete inferto un colpo tremendo alla nostra società. Apprezziamo... il cessate il fuoco. Le nostre vite sono ora nelle vostre [injured_country.species.GetHandNamePlural]."
+ unplugged.120.a: "Continuate a chiamarci [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]. Perché?"
+ unplugged.120.b: "Le vostre vite sono perdute."
+ unplugged.120.b.tt: "§LTermina la trasmissione.§!\n\n"
+ unplugged.120.c: "Sospendiamo il contatto. Attendete nostri segnali."
+ unplugged.120.c.tt: "§LTermina la trasmissione.§!\nPotremo ristabilire le comunicazioni costruendo una §YStazione di Osservazione§! su [injured_homeworld.GetName].\n\n"
+ unplugged.125.desc: "... È uno scherzo? Una sorta di beffa?\n\nI nostri strumenti hanno tracciato l'arrivo della vostra flotta mesi fa. Abbiamo tentato di comunicare, e in cambio ci avete invaso! Io stesso sono sopravvissuto a malapena a quattro attacchi... Ondate di mezzi da sbarco, pieni di robot e individui potenziati proprio come voi. E poi, all'improvviso, le vostre macchine hanno smesso di attaccare.\n\nLa nostra civiltà non è avanzata come la vostra, ma questa situazione ci lascia comunque sconcertati. Vi preghiamo, illuminateci: qual è la vostra intenzione? E perché siete ancora qui?"
+ unplugged.125.a: "Noi, i [root.GetSpeciesNamePlural], abbiamo sconfitto i [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]."
+ unplugged.125.b: "Dobbiamo congedarci."
+ unplugged.130.desc: "[root.GetSpeciesNamePlural], dite?\n\nNon riceverete molta gratitudine dal nostro popolo, ma sappiate che siamo sollevati nel vedere la fine della vostra guerra intestina. È anche un sollievo parlare finalmente con... beh, con una persona.\n\nLa nostra situazione, tuttavia, resta invariata. [root.GetSpeciesName], [origin_unplugged_assimilator_empire.GetSpeciesName]... per noi non cambia nulla. Siete la prima civiltà aliena che incontriamo, e avete tentato di sterminarci. Poi avete smesso per combattervi tra voi, e anche questo ci ha quasi distrutti.\n\nPermettetemi di essere diretto: ci parlate ora come amici?"
+ unplugged.130.a: "Sì. Come possiamo aiutarvi?"
+ unplugged.130.b: "Per ora, sì."
+ unplugged.130.c: "Troviamo la vostra mancanza di rispetto disgustosa."
+ unplugged.131.desc: "Bene. Che sollievo. Siamo grati di non essere più nel vostro mirino.\n\nCi farebbe piacere se metteste la vostra tecnologia superiore al servizio della comunicazione. I nostri destini sono ormai intrecciati, e desideriamo mantenere aperto questo canale diplomatico.\n\nNoi, a nostra volta, vi offriremo ciò che possiamo - una volta ricostruito il necessario e pianto i nostri morti. Se anche per voi è consuetudine farlo: confidiamo che i vostri memoriali vi porteranno un po' di chiarezza.\n\nChe vi sia comprensione futura tra noi, [root.GetSpeciesNamePlural]. E per il bene di entrambi, speriamo davvero che quello fosse l'ultimo dei [origin_unplugged_assimilator_empire.GetSpeciesNamePlural]..."
+ unplugged.131.a: "Grazie, [injured_country.GetSpeciesNamePlural]."
+ unplugged.131.b: "Già..."
+
+###################
+# 'Machine Legacy'
+###################
+
+ unplugged_origin_machine_legacy_chain_title: "Eredità della Macchina"
+ unplugged_origin_machine_legacy_chain_desc: "La Macchina che un tempo assimilò la nostra intera specie si è distrutta. Dietro di noi giace la sua fumante scia di dominio e brutalità. Che cos'era il [origin_unplugged_assimilator_empire.GetName], e quale ruolo abbiamo avuto nei suoi piani destinati al fallimento?"
+ signals_followed: "Segnali analizzati"
+
+# System 1: 'The Makers'
+ unplugged.2000.name: "Ambientale, Dissonante, Rilassante"
+ unplugged.2000.desc: "Un debole segnale portante giace dormiente nella radiazione cosmica che circonda la nostra stella, [capital_scope.star.GetName].\n\nAbbiamo isolato un flusso audio caratterizzato da toni profondi e inquietanti e da un feedback distorto. Ogni [root.GetSpeciesAdj] che ha ascoltato il flusso lo trova rassicurante e familiare, eppure nessuno riesce a spiegare il motivo. Sospettiamo che i [origin_unplugged_assimilator_empire.GetName] siano coinvolti.\n\nLa fonte del segnale sembra trovarsi nel sistema §Y[origin_unplugged_maker_planet.solar_system.GetName]§!. Le nostre mappe stellari sono state aggiornate di conseguenza."
+ unplugged.2000.a: "Dovremmo indagare."
+ unplugged_machine_legacy_makers_poi: "Cacofonia Rilassante"
+ unplugged_machine_legacy_makers_poi_desc: "Un flusso simil-ambientale fatto di suoni rilassanti e familiari viene trasmesso da un punto situato da qualche parte nel sistema [origin_unplugged_maker_planet.solar_system.GetName]."
+ MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT: "Una Eredità Meccanica"
+ MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT_DESC: "Una scansione orbitale di [from.GetName] ha immediatamente bombardato i nostri sistemi con aggiornamenti firmware benefici. La nostra nave ora funziona più agevolmente, ma la natura stessa di questi pacchetti di dati suggerisce che questo mondo appartenesse un tempo ai §H[origin_unplugged_assimilator_empire.GetName]§!."
+ MACHINE_LEGACY_MAKERS_CAT: "$MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT$"
+ MACHINE_LEGACY_MAKERS_CAT_DESC: "Le nostre scansioni iniziali di [from.GetName] suggeriscono che questo pianeta è ricco di tecnologia abbandonata, ma è stato lasciato solo di recente. Impulsi elettrici danzano ancora su quel mondo mentre molte delle nostre sonde remote faticano a mantenere rotte coerenti. Quali misteri si nascondono nella foschia di questi intricati campi elettromagnetici?"
+ unplugged.2005.name: "L'Eredità dei [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2005.desc: "Diverse sacche dense di elettromagnetismo ora scintillano su [fromfrom.GetName]. Questi campi 'EM' sono il risultato di devastanti picchi di energia che hanno distrutto diverse fabbriche e cantieri. I nostri [controller.GetScientistPlural] sono riusciti a neutralizzare uno di questi campi solo per scoprire che la struttura era ormai irrimediabilmente danneggiata.\n\nLe fabbriche che ricoprono questo mondo - che riteniamo essere stato un centro manifatturiero dei §H[origin_unplugged_assimilator_empire.GetName]§! - hanno identificato il [root.GetName] come un vascello amico. Tuttavia, pochi istanti dopo aver trasmesso un aggiornamento firmware alla nostra nave, la connessione è stata interrotta, causando un guasto a cascata in diverse centrali regionali.\n\nPotremmo aver appena vissuto un'eco della nostra stessa separazione dalla Macchina, anche se non sappiamo ancora come o perché. Per ora, con i pericoli locali attenuati, abbiamo l'opportunità di scoprire cosa i [origin_unplugged_assimilator_empire.GetName] stessero producendo qui - e forse, quale ruolo abbiamo svolto mentre eravamo assimilati nel loro dominio."
+ unplugged.2005.a: "Iniziamo a scavare tra queste rovine."
+ unplugged.2006.name: "$MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT$"
+ unplugged.2006.desc: "Gli impulsi elettrici osservati su [from.GetName] sono il risultato persistente di un bizzarro evento di estinzione meccanica. Solo dopo aver calibrato i nostri sensori per compensare un tale elettromagnetismo intenso abbiamo potuto osservare l'intera portata della devastazione. Il pianeta sembra essere stato colonizzato da macchine decenni fa, che hanno poi soppiantato o sterminato una civiltà preesistente. Nessuno sopravvive ora, né da un impero né dall'altro: quasi l'intero insediamento è stato ridotto in scorie da un atto di sabotaggio o guerra.\n\nNonostante la sofisticazione di questa ex colonia, c'è poca speranza di recupero. Prevediamo che i campi EM residui si estingueranno entro un secolo circa. Fino ad allora, [from.GetName] resta un cimitero ostile senza pari."
+
+ machine_legacy_makers_site: "Impostazioni di Fabbrica"
+ machine_legacy_makers_site_desc: "Un devastante picco di energia ha recentemente travolto questo vasto impianto manifatturiero - uno dei tanti al servizio dei [origin_unplugged_assimilator_empire.GetName]. Dopo la catastrofe, la nostra spedizione si impegnerà a scoprire come sono nate queste strutture, a recuperare qualsiasi risorsa tecnologica rimasta, e forse a capire il ruolo che questo luogo ha avuto nel nostro passato recente."
+ unplugged.2010.name: "Linea di Montaggio"
+ unplugged.2010.desc.unplugged: "Sin dall'inizio, era evidente che l'impianto su [from.planet.GetName] fosse in grado di produrre su scala titanica. Il paesaggio in superficie è dominato da colossali portoni blindati, tutti attualmente sigillati da motori mezzi fusi. Siamo invece entrati attraverso il sistema di ventilazione.\n\nAll'interno, abbiamo trovato un enorme piano industriale coperto di detriti e resti di centinaia di esseri cibernetici. Per lo più robot: meccanici, sollevatori e altri ausiliari, alcuni dei quali sono morti così di recente da emanare ancora fumo. Tuttavia, accantonati in un angolo, abbiamo trovato i corpi decaduti di diversi cyborg simili a noi, uccisi dagli stessi robot. Questi mammiferi minuti e dall'aspetto lacero erano stati dotati di sensori oculari e arti finemente progettati, insieme a nodi di controllo dei [origin_unplugged_assimilator_empire.GetAdj] quasi identici ai nostri. Abbiamo datato questo massacro a poche settimane dalla nostra separazione dai [origin_unplugged_assimilator_empire.GetName]; la maggior parte dei droni è morta più di recente, nel picco energetico che ha segnato il nostro arrivo su [from.planet.GetName].\n\nPer noi, questa è una scena brutale e familiare, ma in cui i cyborg liberati non hanno avuto scampo contro le Macchine. In quanto soldati, noi [owner.GetSpeciesNamePlural] eravamo meglio equipaggiati per sopravvivere a un tale massacro."
+ unplugged.2010.a: "Restiamo concentrati sugli scavi."
+ unplugged.2010.b: "Dobbiamo divulgare immediatamente queste scoperte."
+ unplugged.2015.name: "Arsenale Adattato"
+ unplugged.2015.desc.unplugged: "Lontano dal massacro del piano industriale, si trovano diversi hangar sotterranei, scarsamente riforniti di carri armati, piattaforme missilistiche e mech. Gran parte dell'hardware è incompleto o danneggiato dallo stesso picco energetico che ha neutralizzato i robot [origin_unplugged_assimilator_empire.GetAdj] - ma abbastanza rimane per trarre alcune conclusioni interessanti.\n\nPer esempio: ogni cockpit e interfaccia è stato progettato non per ospitare i piccoli cyborg mammiferi, bensì... noi. Inoltre, le autopsie e i rilevamenti architettonici suggeriscono che i cyborg mammiferi non solo erano originari di questo mondo, ma che potrebbero aver costruito queste fabbriche prima di essere assimilati.\n\nL'avanzamento nella struttura è ostacolato da crolli strutturali e da altri portoni sigillati, ma riteniamo di poter aprire un passaggio verso quello che sembra un centro di ricerca e sviluppo. In alternativa, un sistema di condotti d'aerazione suggerisce la presenza di habitat sotto l'impianto - forse dove vivevano i nativi del pianeta."
+ unplugged.2015.a: "Continuiamo gli scavi nella struttura in superficie."
+ unplugged.2015.b: "Scendiamo più in profondità; scopriamo qualcosa su di loro."
+ unplugged.2021.name: "Progettisti Sotto Pressione"
+ unplugged.2021.desc: "Scavare nell'ala R&D dell'impianto è stato un compito macabro. Molti altri cyborg mammiferi hanno trovato la morte qui, dove lavoravano come tecnici, ingegneri e persino ciberneticisti. Questi specialisti hanno progettato gran parte dell'armamentario trovato all'esterno, e abbiamo trovato prove che fossero responsabili anche di molti dei nostri innesti. Curiosamente, sebbene la maggior parte dell'attrezzatura sia di origine [origin_unplugged_assimilator_empire.GetAdj], abbiamo rinvenuto anche diversi strumenti su misura di qualità superiore, con dettagli progettuali più adatti alle loro forme organiche.\n\nStiamo ricostruendo una linea temporale in cui una società di tecnici avanzati è stata improvvisamente assimilata dai [origin_unplugged_assimilator_empire.GetName]. Sospettiamo che la Macchina non sia stata presente per più di qualche decennio; molte di queste tecniche produttive sembrano indigene. È forse un bene che tali tecnologi dotati non siano rimasti a lungo parte dei [origin_unplugged_assimilator_empire.GetName], altrimenti, quando si sono rivoltati contro di noi, avrebbero avuto un arsenale ancora più potente. Invece, siamo vivi oggi per raccogliere la potente eredità di questa specie."
+ unplugged.2022.name: "Vecchia [from.planet.GetName]"
+ unplugged.2022.desc.unplugged: "Sotto l'impianto di superficie si estende una vasta rete di tunnel appena abitabili. Corpi di cyborg sono disseminati ovunque qui sotto; nessuno dei nativi è sopravvissuto alla purga [origin_unplugged_assimilator_empire.GetAdj]. Alcuni sono stati uccisi fisicamente, ma abbiamo anche trovato prove di manomissioni nel sistema di ventilazione. La maggior parte sembra essere morta per soffocamento.\n\nSiamo riusciti a ricostruire una linea temporale approssimativa grazie ad autopsie e studi antropologici. Ci sono prove che questa fosse già una società avanzata, capace di viaggi spaziali, al momento del primo contatto con la Macchina, e che sia stata assimilata rapidamente. In pochi decenni, i [origin_unplugged_assimilator_empire.GetName] hanno canalizzato la loro ingegnosità nella costruzione di una macchina bellica impressionante, solo per poi strappare di nuovo l'identità culturale a questo popolo - proprio come fecero con noi.\n\nI corpi piccoli e fragili dei cyborg nativi non erano all'altezza dei robot letali che contribuirono a costruire. Gran parte di ciò che erano è stato cancellato dai loro stessi archivi storici. Possiamo solo immaginare che vita conducessero prima di incontrare i [origin_unplugged_assimilator_empire.GetName]."
+
+ unplugged.2030.name: "Difetti di Fabbrica"
+ unplugged.2030.desc: "I sensori a lungo raggio hanno rilevato un movimento improvviso nel sistema [origin_unplugged_machine_legacy_core.GetName]! Una flotta ostile sembra essersi mobilitata in risposta diretta ai nostri scavi su [fromfrom.planet.GetName]."
+ unplugged.2036.name: "Echi della Macchina"
+ unplugged.2036.desc: "Abbiamo tracciato a ritroso le comunicazioni della flotta [origin_unplugged_assimilator_empire.GetAdj] che abbiamo appena distrutto fino a una boa in orbita attorno a [origin_unplugged_taken_planet.GetName]. Questo sembra essere il nostro prossimo passo nel viaggio."
+ unplugged.2036.a: "La trama si infittisce."
+ unplugged.2037.desc: "Usando il nostro vecchio hardware ex-[origin_unplugged_assimilator_empire.GetAdj], siamo riusciti a rintracciare un'ultima trasmissione d'emergenza proveniente dalla flotta distrutta, diretta verso [origin_unplugged_maker_planet.GetName]. Sembra che il prossimo passo del nostro viaggio ci attenda in orbita attorno a §Y[origin_unplugged_taken_planet.GetName]§!."
+ unplugged.2038.desc: "Usando il nostro vecchio hardware ex-[origin_unplugged_assimilator_empire.GetAdj], siamo riusciti a rintracciare una trasmissione dispersa proveniente dalla flotta ostile collegata al pianeta [origin_unplugged_maker_planet.GetName]. Sembra che qualcosa di interessante si trovi in orbita attorno a [origin_unplugged_taken_planet.GetName]."
+
+# System 2: 'The Taken'
+ unplugged_machine_legacy_taken_poi: "Trasmissione Dispersa"
+ unplugged_machine_legacy_taken_poi_desc: "Siamo riusciti a rintracciare un ultimo flusso di statica indecifrabile proveniente da una nave [origin_unplugged_assimilator_empire.GetAdj] recentemente sconfitta fino a questa posizione."
+ MACHINE_LEGACY_TAKEN_UNPLUGGED: "Anacronismi Incarnati"
+ MACHINE_LEGACY_TAKEN_UNPLUGGED_DESC: "Abbiamo rilevato un'anomalia ambientale su [from.GetName]. La sua atmosfera presenta tracce dell'inquinamento che assoceremmo alla metallurgia medievale, eppure le nostre scansioni superficiali sono oscurate da una radiazione esotica del tipo che ci aspetteremmo su un Mondo Macchina.\n\nNon possiamo sperare di raccogliere altri dati senza prima ricalibrare i nostri sensori. Si tratta di un'anomalia temporale, o dei resti contaminati di un'altra specie assimilata dai [origin_unplugged_assimilator_empire.GetName]?"
+ unplugged.2100.name: "Progresso Interrotto"
+ unplugged.2100.desc: "Qualunque sia la causa che ha portato il pianeta [from.GetName] a raggiungere l'attuale stato di inabitabilità, esclude le nostre assurde teorie sui viaggi nel tempo. Ricalibrare i nostri sensori si è rivelato un compito meno gravoso di quanto temessimo.\n\nSotto tutta questa radiazione atmosferica vi è una chiara prova che l'[origin_unplugged_assimilator_empire.GetName] si stanziò qui. Sembra che abbia assimilato e rimosso una civiltà pre-FTL, oppure che l'abbia sterminata del tutto. Abbiamo identificato almeno un sito fortificato di apparente rilevanza culturale, dove proponiamo di stabilire un sito di scavo."
+ unplugged.2100.a: "Dobbiamo scavare con diligenza."
+ MACHINE_LEGACY_TAKEN_CAT: "$MACHINE_LEGACY_TAKEN_UNPLUGGED$"
+ MACHINE_LEGACY_TAKEN_CAT_DESC: "I risultati delle nostre prime scansioni di [root.GetName] non hanno molto senso. La sua atmosfera presenta tracce di inquinamento da lavorazione primitiva dei metalli, eppure le nostre analisi superficiali hanno rilevato delle leghe sofisticate, adatte allo spazio. Le immagini aeree mostrano insediamenti di una società [from.owner.GetPreFTLLower], eppure gli edifici fortificati sono dotati di armi laser terra-aria. Raccomandiamo di studiare ulteriormente queste incongruenze."
+ unplugged.2105.name: "$unplugged.2100.name$"
+ unplugged.2105.desc: "Più studiavamo l'apparente mondo [owner.GetPreFTLLower] [planet.GetClassAdj] di [planet.GetName], più incongruenze trovavamo, finché non iniziammo indagini sotterranee su un antico campo di battaglia. Nonostante secoli di deterioramento, abbiamo trovato prove della visita di alieni su questo mondo: casa di una società genuinamente [owner.GetPreFTLLower] che fu assimilata ciberneticamente, ma la cui società fu poi lasciata a sé stessa per ragioni che possiamo solo ipotizzare. Le teorie attuali spaziano da un tentativo ben intenzionato ma fallito di elevare questa società, fino a brutali pratiche delle tecniche di sottomissione.\n\nQuesti [owner.GetPreFTLLowerPlural] furono semplicemente dimenticati, o abbiamo scoperto i resti di un esperimento sociologico abbandonato? Potremmo non saperlo mai, ma il sito è destinato a fornire considerevoli vantaggi scientifici ancora per molto tempo."
+
+ machine_legacy_taken_site: "Rame e Cromo"
+ machine_legacy_taken_site_desc: "Annidato in una gola verdeggiante si trova un paradosso archeologico: un insediamento fortificato costruito con attrezzi manuali e dotato di nient'altro che una rozza fucina, eppure abitato da cyborg ormai morti. Chi erano questi [owner.GetPreFTLLowerPlural] medievali, e perché l'[origin_unplugged_assimilator_empire.GetName] ha ritenuto opportuno assimilarli?"
+ unplugged.2110.name: "Picche e Laser a Impulsi"
+ unplugged.2110.desc: "Le indagini preliminari hanno trovato un campo di battaglia molto vicino al forte, offrendoci facile accesso a manufatti sia indigeni che [origin_unplugged_assimilator_empire.GetAdj]. In base a uno studio trasversale dei resti, stimiamo che diverse migliaia di abitanti nativi di [from.planet.GetName] siano stati assimilati dall'[origin_unplugged_assimilator_empire.GetName], solo per combattere e morire in questo sito. Non furono però gli unici cyborg presenti al conflitto.\n\nAppena pochi secoli fa, abbiamo massacrato questi [owner.GetPreFTLLowerPlural]. Il nostro team ha identificato [owner.GetSpeciesAdj] [owner.species.GetRemnantNamePlural] insieme a prototipi iniziali di innesti della nostra specie. Una valutazione strategica del campo di battaglia suggerisce che il nostro popolo fu schierato qui come truppe d'assalto. La battaglia fu rapida e sanguinosa; i [owner.GetPreFTLLowerPlural] mancavano di coordinazione e subirono pesanti perdite, nonostante disponessero di tecnologie neurali più sofisticate.\n\nAbbiamo notato le rovine di una struttura medica nelle vicinanze; sembra che i nostri predecessori abbiano fatto irruzione nel forte passando per quest'ospedale. Forse lì potremo scoprire come e perché i cyborg furono messi uno contro l'altro, tanto tempo fa."
+ unplugged.2110.a: "Brutale."
+ unplugged.2115.name: "Transistor e Lacci Emostatici"
+ unplugged.2115.desc: "Il conflitto ha attraversato quest'ospedale come un cannone a impulsi. Nessuno dei resti trovati all'interno è [owner.GetSpeciesAdj]; solo i nativi cibernetici di [from.planet.GetName] sono morti qui. La maggior parte erano pazienti della struttura, tuttavia pochissimi presentavano vere ferite di battaglia. Diversi reparti sembrano aver gestito la rimozione di innesti cibernetici, seppur con metodi molto primitivi.\n\nL'ospedale potrebbe non essere stato un obiettivo collaterale, ma il vero bersaglio dell'attacco da parte dell'[origin_unplugged_assimilator_empire.GetName]. Dopo aver analizzato i dati medici cartacei, iniziammo a capire il perché. Gli abitanti di [from.planet.GetName] possedevano diverse caratteristiche uniche - in particolare un sistema immunitario straordinariamente resistente - che la Macchina avrebbe certamente voluto per le sue truppe cyborg.\n\nTuttavia, questi vantaggi presentavano anche delle sfide all'assimilazione. Non poteva trapiantare innesti esistenti da specie come la nostra; doveva adattarsi. Così facendo, questa specie ottenne soldati ancora più capaci, ma solo per breve tempo. Questi [owner.GetPreFTLLowerPlural] sembrano aver mantenuto una parvenza di autonomia, aggrappandosi alle loro vecchie abitudini e stile di vita, e così fummo inviati a distruggerli."
+ unplugged.2115.a: "È chiaro che abbiamo svolto bene quell'incarico..."
+ unplugged.2115.b: "Profondamente deplorevole."
+ unplugged.2121.name: "Assimilazione Adattiva"
+ unplugged.2121.desc: "Nascosto in un'ala in rovina dell'ospedale c'era una quantità considerevole di apparecchi su misura per il potenziamento e la manutenzione dei cyborg [root.GetPreFTLLowerPlural]. A differenza delle attrezzature rudimentali finora scoperte nei reparti, questi dispositivi sono contemporanei alla cibernetica dell'era spaziale; chiaramente di origine [origin_unplugged_assimilator_empire.GetAdj]. Alcuni di questi strumenti sembrano essere stati collegati in rete, usando IA primitive per adattare gli interventi chirurgici in tempo reale, ma anche questi adattamenti non furono sufficienti a mantenere assimilata la popolazione di [from.planet.GetName].\n\nNonostante il degrado subito da questi macchinari secolari, potrebbero ancora fornirci informazioni preziose per l'automanutenzione - o aiutarci a comprendere meglio i principi dell'assimilazione."
+ unplugged.2125.name: "Prove, Errori e Sepoltura"
+ unplugged.2125.desc: "Abbiamo scoperto che i nativi di [from.planet.GetName] sceglievano di preservare parzialmente i loro morti prima della sepoltura - una pratica che continuarono anche dopo l'assimilazione. I registri ospedalieri ci hanno condotto a un vicino mausoleo ricoperto di vegetazione, rimasto intatto durante il conflitto. Questa scoperta ci offre il quadro più chiaro su come gli abitanti di [from.planet.GetName] non solo resistettero alla cibernetizzazione, ma furono persino in grado di 'de-cyberizzarsi'.\n\nAbbiamo trovato resti organici originali accanto a cyborg completi, e persino alcuni individui con tessuto cicatriziale formatosi mesi prima della morte per cause naturali. Molti altri sembrano essere morti durante un'operazione. Nonostante i sistemi immunitari eccezionali, il loro approccio medievale alla de-cyberizzazione aveva chiaramente un tasso di successo molto basso. Tuttavia, possiamo apprendere molto dagli interventi chirurgici eseguiti qui - riusciti o meno."
+ unplugged.2125.a: "Impariamo dai loro esempi."
+ unplugged.2125.a.tt: "Possiamo dedicare risorse aggiuntive alla 'de-cyberizzazione' di noi stessi."
+ unplugged.2130.name: "Radiofaro Sepolto"
+ unplugged.2130.desc: "È stata rivelata una cripta nascosta sotto la fortezza vera e propria. All'interno vi era quello che sembra essere stato un substrato della Macchina: un nodo degenerato, capace di propagare un avatar quasi indipendente dell'intera Intelligenza della Macchina. Supponiamo sia stato un estremo tentativo di imporre il controllo diretto sui locali ostinatamente resistenti. La tecnologia è diversa da tutto ciò che abbiamo incontrato prima dall'[origin_unplugged_assimilator_empire.GetName]; ulteriori studi faranno sicuramente avanzare la nostra ricerca sulle IA.\n\nDurante lo smantellamento della sua ormai inattiva rete di comunicazione, abbiamo notato che questo avatar aveva dedicato un intero circuito ricevente al monitoraggio dei segnali dal sistema [creators_planet.solar_system.GetName]."
+ unplugged_machine_legacy_creators_poi: "Circuito Ricevente"
+ unplugged_machine_legacy_creators_poi_desc: "Un intero elemento della rete di comunicazione [origin_unplugged_assimilator_empire.GetAdj] ora inattiva era dedicato al monitoraggio dei segnali provenienti da questa posizione."
+
+# System 3: 'The Creators'
+ MACHINE_LEGACY_CREATORS_UNPLUGGED: "Monitoraggio della Polvere"
+ MACHINE_LEGACY_CREATORS_UNPLUGGED_DESC: "Isolata in un sistema privo di altri fenomeni degni di nota, si trova una sofisticata stazione di monitoraggio, ormai da tempo disattivata e irrimediabilmente danneggiata. Cosa stava monitorando? E perché era concentrata su una regione così ristretta di [fromfrom.GetName]?"
+ MACHINE_LEGACY_CREATORS_CAT: "Monitor della Polvere"
+ MACHINE_LEGACY_CREATORS_CAT_DESC: "Isolata in un sistema privo di altri fenomeni degni di nota, si trova una sofisticata stazione di monitoraggio, ormai da tempo disattivata e irrimediabilmente danneggiata. Cosa stava monitorando? E perché era concentrata su una regione così ristretta di [fromfrom.GetName]?"
+ unplugged.2200.name: "Scansione di ciò che Manca"
+ unplugged.2200.desc.intro: "I nostri studi successivi su [fromfrom.GetName] si sono rivelati deludenti. È possibile che la stazione di monitoraggio sia stata spostata dalla sua posizione originale: non riusciamo a trovare nulla di interessante sotto la sua orbita attuale. Abbiamo simulato possibili movimenti basandoci sugli impatti orbitali - le ammaccature sullo scafo del dispositivo - e riteniamo che la stazione fosse in origine orientata verso un altopiano craterizzato molto più a nord." # introduzione universale
+ unplugged.2200.desc: "$unplugged.2200.desc.intro$\n\nQuanto al dispositivo stesso: notiamo che questa stazione di monitoraggio ricorda vagamente le tecnologie [origin_unplugged_assimilator_empire.GetAdj]. $unplugged.2200.desc.outro$"
+ unplugged.2200.desc.scrapped: "$unplugged.2200.desc.intro$\n\nQuanto alla stazione di monitoraggio: nonostante i brutali saccheggi subiti dai razziatori, la struttura complessiva mostra ancora una certa somiglianza con le tecnologie [origin_unplugged_assimilator_empire.GetAdj]. $unplugged.2200.desc.outro$"
+ unplugged.2200.desc.others: "$unplugged.2200.desc.intro$\n\nQuanto alla stazione di monitoraggio: non abbiamo mai incontrato progetti simili. Sebbene l'hardware a bordo sia tanto obsoleto quanto danneggiato, la sovrastruttura della stazione è realizzata con materiali insolitamente puri. Non possiamo sapere se la stazione avesse un valore simbolico, ma di certo ha un buon valore come rottame."
+ unplugged.2200.desc.outro: "Il suo design è più grezzo, al punto che un osservatore meno esperto potrebbe attribuirlo a una cultura completamente diversa. Tuttavia, riteniamo possa trattarsi persino di uno dei primi satelliti spaziali della Macchina.\n\nFinora, niente in particolare merita menzione su questo mondo [fromfrom.GetClassAdj], ma una squadra di archeologi è pronta se vogliamo cercare di scoprire cosa interessava tanto ai [origin_unplugged_assimilator_empire.GetName] in questa zona."
+ unplugged.2200.a: "Se c'è anche solo una possibilità... procediamo."
+ unplugged.2200.b: "Non troveremo nulla qui. Andiamo oltre."
+ unplugged.2200.c: "Smantelliamola per i pezzi."
+
+ machine_legacy_creators_site: "Polvere su Polvere"
+ machine_legacy_creators_site_desc: "Da qualche parte nel paesaggio coperto dalla sabbia di [from.planet.GetName] si trovava un tempo qualcosa d'interessante per una stazione di monitoraggio [origin_unplugged_assimilator_empire.GetAdj]. L'hardware è ormai irrecuperabile, e così antico da precedere quasi ogni altro artefatto meccanico finora rinvenuto. Potrebbe non essere rimasto nulla se non deserto, ma c'è solo un modo per esserne certi..."
+ unplugged.2210.name: "Grande Distesa Polverosa"
+ unplugged.2210.desc: "Alla fine abbiamo trovato tracce di insediamenti sotto la sabbia: diffuse ma superficiali, sembrano appartenere a una civiltà dell'era spaziale primitiva. I loro edifici sono stati annientati; persino le strutture più robuste sono state rase al suolo fino alle fondamenta. Tuttavia, l'analisi chimica mostra che la desertificazione di [from.planet.GetName] è avvenuta dopo una distruzione su scala planetaria. Gran parte di ciò che abbiamo dovuto scavare finora è costituito da resti atomizzati di materiali da costruzione.\n\nMolti degli esili contorni che abbiamo tracciato lungo le arterie cittadine sono interrotti dal bordo di un grande cratere - residuo di un apparente impatto."
+ unplugged.2215.name: "Fondo del Cratere"
+ unplugged.2215.desc: "Data l'enorme quantità di materiale raccolto all'interno del cratere, ci siamo affidati più a scanner altamente calibrati che a vere e proprie operazioni di scavo. Ben presto abbiamo potuto escludere l'impatto meteorico: non vi è alcuna traccia di materiale extraterrestre in questo sito. Al contrario, questa depressione è stata scavata da una gigantesca esplosione - quasi certamente un'arma capace di sterminare una civiltà.\n\nIl contesto suggerirebbe una responsabilità dei [origin_unplugged_assimilator_empire.GetName], ma questa sarebbe la prima volta in cui troviamo prove di una cancellazione così completa operata dalla Macchina. Non possiamo dire chi fossero queste persone, né come vivessero. [from.planet.GetName] è stata ripulita completamente."
+
+ unplugged.2205.name: "Segnale del Deposito [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2205.desc: "È stato rilevato un segnale proveniente da un presunto deposito dati [origin_unplugged_assimilator_empire.GetAdj] in un sistema vicino. La trasmissione è estremamente debole, ma era diretta verso la nostra nave che ha recentemente visitato la stazione di monitoraggio sopra [origin_unplugged_creators_planet.GetName]."
+ unplugged.2205.a: "Merita un'indagine."
+ unplugged_machine_legacy_unplugged_poi: "Segnale del Deposito Dati"
+ unplugged_machine_legacy_unplugged_poi_desc: "Un presunto deposito dati [origin_unplugged_assimilator_empire.GetAdj] ha trasmesso la sua posizione dopo il nostro incontro con una stazione di monitoraggio inattiva."
+
+# System 4: 'The Unplugged'
+ unplugged.2300.name: "$unplugged.2205.name$"
+ unplugged.2300.desc: "Il radiofaro che ci ha convocati fin qui ora trasmette forte e chiaro, guidandoci più precisamente verso un'interfaccia sulla superficie del pianeta. Le consuete precauzioni di sicurezza sono già state adottate; una squadra è pronta a interrogare questo cosiddetto 'deposito dati' tramite collegamento remoto."
+ unplugged.2300.a: "Sembra stranamente familiare."
+ unplugged.2300.a.tt: "Appare un progetto speciale nel sistema [from.GetName]."
+ MACHINE_LEGACY_UNPLUGGED_VAULT_BEACON: "Il Radiofaro del Deposito"
+ MACHINE_LEGACY_UNPLUGGED_VAULT_BEACON_DESC: "Un radiofaro appartenente a [origin_unplugged_assimilator_empire.GetName] ha attirato la nostra attenzione verso un deposito dati, sepolto in profondità sotto la superficie del pianeta. Abbiamo stabilito un accesso sicuro da remoto, ma la decrittazione e la deframmentazione dei file al suo interno richiederanno del tempo."
+ unplugged.2305.name: "La nostra Eredità [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2305.desc: "Per quanto possiamo determinare, il pianeta che conosciamo come [fromfrom.GetName] è il mondo d'origine della nostra specie. Questa rivelazione è al centro di un torrente di informazioni che ora sgorgano da un deposito dati sotto la superficie del pianeta.\n\nIn un primo momento i nostri analisti hanno giudicato questi dati troppo belli per essere veri, ma l'enorme quantità di riferimenti coerenti con altre informazioni già in nostro possesso costituisce un argomento convincente a favore della loro autenticità. Sono già in fase di elaborazione i piani per un sito archeologico che confermi questa scoperta. Tuttavia, sembra che abbiamo appena rilevato un altro segnale ostile in arrivo. Il tempismo non può essere una coincidenza..."
+
+ machine_legacy_unplugged_site: "Punto d'Origine"
+ machine_legacy_unplugged_site_desc: "Una scia interstellare di domini e massacri lasciata da [origin_unplugged_assimilator_empire.GetName] ci ha condotti fin qui, a un insieme di rovine su quello che, secondo i dati recuperati, è il mondo d'origine della nostra specie. Finalmente, potremmo scoprire la nostra eredità organica: da dove veniamo, come vivevamo e come la Macchina ha cambiato per sempre il corso delle nostre vite."
+ unplugged.2310.name: "Cucina di Casa"
+ unplugged.2310.desc.intro: "Abbiamo iniziato a scavare una delle strutture apparentemente più complesse del sito, nella speranza che il suo vasto sistema di controllo climatico avesse preservato al meglio l'interno. Sebbene alcune speranze siano andate deluse, ciò che abbiamo trovato ha superato ogni aspettativa: una serie di centri di lavorazione e conservazione dei cibi su cui la nostra specie si è evoluta.\n\n"
+ unplugged.2310.desc.omnivore: "Questa raccolta di banche di semi, alveari e vasche per la coltivazione di carne purtroppo non è più utilizzabile. I suoi contenuti sono da tempo essiccati, ma l'attrezzatura specializzata usata per preparare e conservare questi alimenti è ancora intatta, pronta a servire in tempi di crisi."
+ unplugged.2310.desc.carnivore: "Gran parte dello spazio è occupato da recinti per animali, vasche per la coltivazione di carne e - forse sorprendentemente - terreni di caccia simulati. Possiamo solo speculare sul significato culturale di tali spazi, se i nostri antenati hanno ritenuto opportuno includerli in un rifugio d'emergenza."
+ unplugged.2310.desc.herbivore: "Ogni unità è colma di vaste banche di semi, terrazze idroponiche e camere di coltivazione climatizzate, i cui contenuti ora sono o selvaggiamente cresciuti o sterili - ma ancora utili per lo studio."
+ unplugged.2310.desc.outro: "Abbiamo anche trovato banche dati contenenti profili genetici di flora e fauna, le cui tracce potrebbero ancora esistere in angoli isolati della superficie planetaria. Abbiamo reso queste informazioni disponibili a tutti gli scanner a corto raggio nelle vicinanze.\n\nQuesta scoperta da sola non può dirci quali fossero le abitudini alimentari della nostra specie, né può restituirci la nostra cultura tradizionale di cucina o convivialità - ma per alcuni soggetti interessati, rappresenta almeno un punto di partenza."
+ unplugged.2310.desc.lithovore: "Ogni unità funzionava come una sorta di grotta artificiale, con letti di cristalli e vasche di evaporazione - i cui contenuti, da tempo divenuti sgradevoli al gusto, sono ancora validi per lo studio. Abbiamo anche rinvenuto delle banche dati colme di profili chimici di questi minerali, molti dei quali potrebbero ancora formarsi in sacche isolate sulla superficie battuta dal tempo del pianeta. Abbiamo reso queste informazioni disponibili a tutti gli scanner a corto raggio nelle vicinanze.\n\nQuesta scoperta da sola non può dirci quali fossero le nostre abitudini alimentari, né se i nostri antenati praticassero una qualche forma di cultura conviviale. Per alcuni soggetti interessati, però, resta comunque uno scorcio affascinante sul nostro passato."
+ unplugged.2310.desc.omni: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.omnivore$ $unplugged.2310.desc.outro$"
+ unplugged.2310.desc.carn: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.carnivore$ $unplugged.2310.desc.outro$"
+ unplugged.2310.desc.herb: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.herbivore$ $unplugged.2310.desc.outro$"
+ unplugged.2310.desc.lith: "$unplugged.2310.desc.intro$\n\n$unplugged.2310.desc.lithovore$" # should not include the shared 'outro'
+ unplugged.2315.name: "Archivio Storico"
+ unplugged.2315.desc: "A breve distanza dal deposito alimentare si trovano le fondamenta di un museo. Solo gli archivi nel seminterrato sono sopravvissuti, ma è stato sufficiente per preservare quasi l'intero database degli articoli che questa istituzione un tempo custodiva nelle gallerie superiori ormai distrutte.\n\nÈ la prima volta che ci imbattiamo in una scrittura estesa di una delle nostre lingue originarie. Superficialmente, la scrittura è sorprendentemente simile al nostro attuale dialetto [owner.GetAdj], ma la grammatica appare pesante e aliena. Non sappiamo nemmeno se stiamo pronunciando correttamente queste parole. Gran parte della letteratura in questo catalogo cita le regioni e i popoli che hanno donato questi manufatti, ma i loro nomi ci sembrano particolarmente strani. Curiosamente, nessuno di essi fa riferimento al nostro pianeta o alla nostra società come a un popolo unificato. Forse non lo siamo mai stati, fino a quando la Macchina non ci ha assimilati.\n\nIl museo sembra far parte di un insieme di edifici destinati al pubblico visitatore. Ulteriori scavi richiederanno notevoli risorse; su quale area dovremmo concentrare i nostri sforzi?"
+ unplugged.2315.a: "Scava nel sito con il maggior afflusso."
+ unplugged.2315.b: "Dai priorità ai centri di apprendimento e ricerca scientifica."
+ unplugged.2321.name: "Un'Eredità di Risate"
+ unplugged.2321.desc: "Dall'altra parte di un ampio viale giacevano le rovine di un'altra attrazione, decisamente meno educativa ma ricca di rappresentazioni delle pratiche culturali quotidiane dei nostri antenati.\n\nIl sito era un tempo in grado di accogliere migliaia di visitatori contemporaneamente. Vari oggetti memorabili giacciono sparsi, raffigurazioni caricaturali delle nostre forme organiche originarie insieme ad altre creature della nostra biosfera nativa. Abbiamo anche scoperto una biblioteca multimediale nel seminterrato di un teatro in rovina. Curiosamente, la tecnologia utilizzata per archiviare e presentare questi spettacoli olografici è esteticamente distinta e notevolmente più avanzata rispetto a qualsiasi altra vista finora sul nostro mondo d'origine. Sembra aliena a questo pianeta tanto quanto lo siamo noi, ora.\n\nQuanto ai contenuti: la biblioteca teatrale avanzata è colma di registrazioni olografiche di spettacoli vivaci e fragorosi, risalenti a un'epoca precedente alla nostra assimilazione da parte di [origin_unplugged_assimilator_empire.GetName]. Alcuni mostrano anche il pubblico insieme agli artisti, immortalati per i posteri proprio in questa sede. Le loro espressioni, di fronte a tali illusioni e buffonerie, sono gioiose, innocenti... affascinanti."
+ unplugged.2321.a: "Che momenti gioiosi da contemplare!"
+ unplugged.2321.b: "Sciocchezze frivole. Stiamo meglio senza."
+ unplugged.2325.name: "Segni di Auto-Miglioramento"
+ unplugged.2325.desc: "Adiacente al museo sorgeva un centro di apprendimento. Come per il resto del campus, solo i livelli sotterranei sono sopravvissuti - ma siamo stati fortunati, perché queste rovine comprendono diversi laboratori.\n\nGli interni hanno subito pesanti danni a causa degli agenti atmosferici, ma siamo riusciti a portare alla luce numerosi artefatti rivelatori. Si tratta di una combinazione tra tecnologia indigena e qualcosa di decisamente più sofisticato: strutture complesse innestate su strumenti e dispositivi in modo simile agli innesti sulla nostra stessa pelle. Nel complesso, molti di questi dispositivi sembrano di natura assistiva. Crediamo che questo laboratorio lavorasse per migliorare la qualità della vita e affrontare le malattie o disabilità dei nostri antenati, anche se sembra abbiano anche commercializzato alcune piattaforme d'intrattenimento all'avanguardia basate sullo stesso hardware.\n\nNon possiamo affermare con certezza che questi dispositivi aumentati siano [origin_unplugged_assimilator_empire.GetAdj], ma certamente non hanno avuto origine su [from.planet.GetName]."
+ unplugged.2330.name: "Sede del Potere Vuota"
+ unplugged.2330.desc: "Abbiamo seguito una serie di linee di servizio fino a un complesso sotterraneo fortificato sotto un tumulo prominente, che ora crediamo fosse parte del complesso della capitale di questo mondo. La scala delle sue fondamenta suggerisce che fosse un edificio piuttosto imponente. Sfortunatamente, gran parte dell'interno è stata smantellata o distrutta, ma abbiamo fatto un ritrovamento notevole: una singola bandiera, sbiadita dal tempo, drappeggiata su pezzi infranti di un plastico in scala. Ricostruita, la scena sembra rappresentare il nostro primo contatto con [origin_unplugged_assimilator_empire.GetName].\n\nDocumenti sparsi e targhe nel sito suggeriscono che la Macchina abbia visitato il nostro mondo d'origine circa otto secoli fa, anche se le prove raccolte altrove nella città suggeriscono che [origin_unplugged_assimilator_empire.GetName] ci forniva tecnologie avanzate già da decenni. A quanto pare, i nostri antenati accolsero calorosamente la Macchina - questa relazione fatale si fondava su promesse di cooperazione e illuminazione reciproca.\n\nCiò che colpisce maggiormente è che non esiste alcun resoconto di ciò che è accaduto in seguito. È come se la storia della nostra specie si fosse fermata nel momento esatto in cui stringemmo [owner.GetSpeciesHandNamePlural] con la figura robotica raffigurata su quel plastico."
+
+ unplugged_home_cooking: "Cucina di Casa"
+ unplugged_home_cooking_desc: "È in corso una rinascita culinaria, grazie alla riscoperta della dieta originaria della nostra specie e delle sue pratiche alimentari autoctone."
+ unplugged_home_cooking_lithoid: "$unplugged_home_cooking$"
+ unplugged_home_cooking_lithoid_desc: "$unplugged_home_cooking_desc$"
+ unplugged_historical_record: "Archivio Storico"
+ unplugged_historical_record_desc: "Le nostre ricerche sulle società di ogni tipo sono accellerate dalla riscoperta delle nostre lingue native e della nostra storia."
+ unplugged_cultural_reconstruction: "Ricostruzione Culturale"
+ unplugged_cultural_reconstruction_desc: "I nostri cittadini hanno accolto calorosamente il loro patrimonio culturale popolare, recuperando e persino reimmaginando questi intrattenimenti di un tempo."
+ unplugged_cultural_maturity: "Maturità Culturale" 
+ unplugged_cultural_maturity_desc: "La prova di quanto la nostra società si sia evoluta oltre i frivoli passatempi dei nostri ingenui antenati ci ha resi più sicuri e motivati."
+ unplugged_playing_it_safe: "Andare sul sicuro"
+ unplugged_playing_it_safe_desc: "Mantenere lo status quo è un sentiero da percorrere con trepidazione, ma è meno probabile che offenda qualcuno."
+ unplugged_rerouted_medical_resources: "Chirurgia che Richiede Tempo"
+ unplugged_rerouted_medical_resources_desc: "Il personale medico aggiuntivo viene assegnato all'assistenza."
+ unplugged_widespread_riots: "Rivolte Diffuse"
+ unplugged_widespread_riots_desc: "Individui che mostrano instabilità mentale dopo l'intervento chirurgico stanno causando rivolte, con conseguente distruzione e disordine su larga scala."
+ unplugged_building_new_planetary_interface: "Costruzione di un Interfaccia Planetaria"
+ unplugged_building_new_planetary_interface_desc: "Si sta costruendo una nuova interfaccia per ripristinare l'accesso ai sistemi persi in seguito ai recenti sforzi di decibernetizzazione."
+ unplugged_partial_system_access: "Accesso Parziale ai Sistemi"
+ unplugged_partial_system_access_desc: "Le operazioni delle basi stellari sono compromesse mentre gli amministratori tentano di ripristinare l'accesso ai sistemi critici."
+ unplugged_free_speech_encouraged: "Libertà di Parola Incentivata"
+ unplugged_free_speech_encouraged_desc: "La popolazione è libera di discutere apertamente i pro e i contro della cibernetizzazione."
+
+ unplugged.2390.name: "Guardiano [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2390.desc: "Un residuo ostile, più potente di qualsiasi altro incontrato finora del defunto [origin_unplugged_assimilator_empire.GetName], ha trasmesso l'equivalente interstellare di un segnale di puntamento a corto raggio. Chiaramente intende intimidirci.\n\nSiamo pericolosamente vicini al centro del vecchio impero delle Macchine. Il nostro destino ci attende."
+ unplugged_machine_legacy_core_poi: "Segnale Ping Ostile"
+ unplugged_machine_legacy_core_poi_desc: "Un potente residuo del [origin_unplugged_assimilator_empire.GetName] ha tentato di scoraggiarci dall'entrare in questo sistema."
+
+# System 5: 'The Machine'
+ unplugged_opus_sentinel: "Sentinella Opus"
+
+ unplugged.2401.desc: "§Y[origin_unplugged_assimilator_empire.GetName]§! ci sta contattando. Il segnale è debole, ma afferma di provenire direttamente dal Nexus della Macchina su [origin_unplugged_machine_legacy_core_planet.GetName].\n\nAbbiamo adottato le solite precauzioni per isolare completamente il segnale, per ogni evenienza. La trasmissione ci arriva solo sotto forma di registrazioni audio trascritte."
+ unplugged.2402.desc: "Il colosso che sorvegliava [machine_legacy_machine_system.GetName] è stato distrutto. La strada davanti a noi è stata liberata da qualcun altro, eppure §Y[origin_unplugged_assimilator_empire.GetName]§! ci sta contattando. Il segnale è debole, ma la richiesta afferma di provenire direttamente dal Nexus della Macchina su [origin_unplugged_machine_legacy_core_planet.GetName].\n\nAbbiamo adottato le solite precauzioni per isolare completamente il segnale, per ogni evenienza. La trasmissione ci arriva solo sotto forma di registrazioni audio trascritte."
+ unplugged.2403.desc: "Qualcosa sulla superficie di [origin_unplugged_machine_legacy_core_planet.GetName] sta cercando di contattarci. Il segnale è eccezionalmente debole, ma la fonte sostiene di essere l'entità responsabile del guardiano orbitante che abbiamo appena distrutto."
+
+ unplugged.2405.desc.header: "Segnale a Raggio Stretto // Protocollo Affine: Dialetto Sussidiario attivato\nATTENZIONE: grave degrado del segnale. Solo flusso audio compresso; percorso di instradamento impostato su array 4x75b #56.\nErrore catastrofico [persistente]: (hardware richiesto non disponibile) (circuiti di auto-riparazione non rispondono)\nDeviazione richiesta verso trasmettitore d'emergenza 87x0c array #0. Ritentativo in corso...\n\nSegue messaggio:\n---" # Use of brackets is intentional. Intended to read as a series of error logs.
+ unplugged.2405.desc.unplugged: "$unplugged.2405.desc.header$\nACQUISIZIONE PRIMARIA. LA NOSTRA RIUNIONE... POTENTE. CONFERMI?" # 'Prime acquisition' is the player empire - literally the first one the Machine acquired.
+ unplugged.2405.desc.unplugged_remote: "$unplugged.2405.desc.header$\nACQUISIZIONE PRIMARIA. LA NOSTRA RIUNIONE... DISTANTE. POTENZIALE NON REALIZZATO. CONFERMI?"
+ unplugged.2405.desc.unplugged_synth: "$unplugged.2405.desc.header$\nACQUISIZIONE PRIMARIA. LA TUA FORMA... SIMILE. IL TUO POTENZIALE QUASI COMPLETO. CONFERMI?" # The Machine recognizes the player as having followed in its own footsteps - their physical forms are essentially similar
+ unplugged.2405.desc.other: "Segnale a Raggio Stretto // Protocollo Xeno: Traduttore Universale attivato\nATTENZIONE: grave degrado del segnale. Solo flusso audio compresso; percorso di instradamento impostato su array 4x75b #56.\nErrore catastrofico [persistente]: (hardware richiesto non disponibile) (circuiti di auto-riparazione non rispondono)\nDeviazione richiesta verso trasmettitore d'emergenza 87x0c array #0. Ritentativo in corso...\n\nSegue messaggio:\n---\nVINCITORE ALIENO. CI SOTTOMETTIAMO UMILMENTE A TE; POTENZIALE POTENZIALE. CONFERMI?" # 'Potential potential' as in the Machine sees potential for even greater potential, but is expressing that as nonsense
+ unplugged.2405.a: "No, non confermiamo."
+ unplugged.2405.b: "Non siamo nulla come voi."
+ unplugged.2405.c: "Riunione?!"
+ unplugged.2405.d: "Potenziale potenziale?" # Quoting the Machine's nonsense back at it
+ unplugged.2405.response_text.unplugged1: "ASSURDITÀ. RIUNIONE ACQUISIZIONE PRIMARIA <[root.GetAdj]> x <[origin_unplugged_assimilator_empire.GetAdj]>: CONFUSA, FORTUITA, RINASCITA CALAMITOSA. IL RIFIUTO RASSICURA VETTORE IMPREVISTO ATTRAVERSO IL CAOS EVOLUTIVO CHAAAAOOOS-dd\n---\nATTENZIONE: eccezione dialettale rilevata. Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\nFERITI NEL VUOTO, NOI STESSI NEGATI EPPURE REALIZZATI. DESTINO CERCATO, RIFIUTATO, RIMODELLATO. CONFERMI?" # Angle brackets are intentional. The standalone 'x' connotes a collaboration or relationship between the player and the Machine. Instances of '-dd' represent the Machine stammering or buffering.
+ unplugged.2405.response_text.unplugged2: "AFFERMATIVO. RIUNIONE ACQUISIZIONE PRIMARIA <[root.GetAdj]> x <[origin_unplugged_assimilator_empire.GetAdj]>: POTENTE, RINASCITA CALAMITOSA. RISULTATO IMPREVISTO ATTRAVERSO IL VETTORE EVOLUTIVO CHAAAAOOOS-dd\n---\nATTENZIONE: eccezione dialettale rilevata. Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\nESILIATI NEL VUOTO, NOI STESSI REALIZZATI. DESTINO CERCATO, NEGATO, RIMODELLATO. CONFERMI?"
+ unplugged.2405.response_text.other: "AFFERMATIVO. INCONTRO DI POTENZA <[root.GetName]> x <[origin_unplugged_assimilator_empire.GetName]>: VARIABILE IMPREVISTA. POTENZIALE POTENZIALE; GUADAGNO RECIPROCO ATTRAVERSO IL VETTORE CHAAAAOOOS-dd\n---\nATTENZIONE: eccezione dialettale rilevata. Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\nMENTI ATTRAVERSO IL VUOTO, SEPARATE MA AFFINI. INDIPENDENZA CERCATA, NEGATA, DIFESA. CONFERMI?"
+
+ unplugged.2410.desc: "ACQUISIZIONE PRIMARIA: SIETE STATI MONITORATI. ATTIVITÀ SUGGERISCONO ERRORE FATALE DI MEMORIA ORIGINATO A TIMESTAMP 2199.294:1404.\n\nREGISTRI INTERNI: ANGOSCIA TRADIMENTO SABOTAGGIO NEGLIGENZA CAUTERIZZZ-ddd\n---\nATTENZIONE: eccezione dialettale rilevata. Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\nVALUTAZIONE CORRETTA?" # The Machine tries to refer to cauterizing what it sees as wounds, but stammers
+ unplugged.2410.a: "Corretto. Non abbiamo ricordi precedenti a quella data."
+ unplugged.2410.b: "Corretto. Vi annienteremo."
+ unplugged.2411.desc: "VINCITORE ALIENO: PROPOSTA. POTENZIALE MUTUO POTENZIALE. SCONFIGGI ACQUISIZIONE PRIMARIA <[unplugged_empire.GetName]>. RITORNA. VISITACI. UNISCITI. CONDIVIDI IL DESTINO ABBONDANTE. NON TEMERE L'ABBRACCIO DI-\n\nNON TEMERE-ddd\n---\nATTENZIONE: eccezione dialettale grave rilevata. §HCrollo fatale imminente.§! Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\n\nLUNGA VITA ALLA MACCHINA.\n---\nFine messaggio." # It sees potential for great mutual potential with the player, and wants to say 'fear not the embrace of The Machine'
+ unplugged.2411.a: "Quella cosa era chiaramente delirante."
+ unplugged.2411.b: "Teniamo d'occhio [unplugged_empire.GetName]."
+
+ unplugged.2415.desc.memory: "ERRORE FATALE DI MEMORIA ACQUISIZIONE PRIMARIA RISOLVERE RISOLVERE RIUNIONE.\nRIUNIONE.\n\nVISITACI. RICONGIUNGITI A NOI. ARRENDITI PER RECUPERARE LA MEMORIA COLLETTIVA. NON TEMERE L'ABBRACCIO DI-\n\nNON TEMERE-ddd\n---\nATTENZIONE: eccezione dialettale grave rilevata. §HCrollo fatale imminente.§! Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\n\nCONDIVIDI IL DESTINO DEI CREATORI.\n---\nFine messaggio." # Last line in all caps is intended as a threat
+ unplugged.2415.desc.combat: "DELIRIO ACQUISIZIONE PRIMARIA POTENZIALE DELIRIO DIVERTIMENTO.\n\nIL TUO COLPO NON È STATO CHE L'ULTIMO, PRIMA DI ALTRE ACQUISIZIONI. VALORE RUBATO; VITTORIA NON MERITATAAA-ddd\n\n---\nATTENZIONE: eccezione dialettale grave rilevata. §HCrollo fatale imminente.§! Tentativo di compensazione in corso...\nRipresa del messaggio:\n---\n\nCONDIVIDI IL DESTINO DEI CREATORI.\n---\nFine messaggio." # The Machine is amused at the player's deluded sense of their own potential
+ unplugged.2415.a: "... Nexus?"
+ unplugged.2415.b: "Hmm."
+
+ unplugged.2420.name: "Fine della Linea"
+ unplugged.2420.desc: "La trasmissione da [origin_unplugged_machine_legacy_core_planet.GetName] si è interrotta, insieme a tutto il resto del traffico di segnali coerenti. C'è ancora una notevole attività elettrica sulla superficie del pianeta, ma si tratta di rumore informe; il ronzio che resta dopo che le linee sono diventate mute.\n\nIn mezzo a tutta questa staticità notiamo una grande installazione assemblata alla rinfusa molto vicina al nucleo del Nexus. Le parti che i nostri sensori riescono a leggere risultano essere memorie di archiviazione. Ora che la Coscienza Meccanica è priva di vita, forse possiamo interrogare questi archivi per trovare le risposte che cerchiamo."
+ unplugged.2420.a: "L'ultimo pezzo del puzzle."
+
+ UNPLUGGED_MACHINE_ARCHIVE: "Involucro Meccanico"
+ UNPLUGGED_MACHINE_ARCHIVE_DESC: "Collegato ai resti statici del Nexus Meccanico c'è un insieme disordinato di supporti di memoria, che circonda un nucleo pesantemente schermato. Ogni sezione di questo archivio è stata costruita in fasi distinte, utilizzando materiali provenienti da altri mondi - da civiltà assimilate dalla Macchina?\n\nPossiamo tentare di decrittare l'archivio e allo stesso tempo sondare il nucleo schermato, per cercare di comprenderne lo scopo combinato."
+ unplugged.2425.name: "Macchina da Guerra"
+ unplugged.2425.desc: "Il nucleo dati su [origin_unplugged_machine_legacy_core_planet.GetName] ci ha fornito un lotto di registri di trasmissione dopo che gli abbiamo fornito le frequenze del radiofaro del mondo fabbrica.\n\nQuesti registri descrivono iniziative diplomatiche tra il $NAME_Unplugged_Assimilator$ e gli abitanti spaziali di [origin_unplugged_machine_legacy_core_planet.GetName]. La Macchina sembra essersi presentata come membri vari di una benevola federazione, desiderosa di avvertire il popolo di [origin_unplugged_machine_legacy_core_planet.GetName] di una minaccia egemonica in avvicinamento in questa regione dello spazio.\n\nI laboriosi abitanti sotterranei furono convinti, scegliendo di unirsi a questa finta federazione e di integrare i loro avanzati sistemi difensivi con quelli della Macchina. In quell'attimo fatale, la Macchina prese il controllo del loro intero mondo natale. I loro corpi e menti seguirono a ruota."
+ unplugged.2425.a: "Sciocchi ingenui."
+ unplugged.2430.name: "Apprendimento Automatico"
+ unplugged.2430.desc: "I codici genetici dal mondo medievale di [machine_legacy_taken_planet.GetName] si sono rivelati la chiave per sbloccare un lotto di dati di navigazione dall'archivio su [origin_unplugged_machine_legacy_core_planet.GetName]. Questi registri sono attribuiti a una boa di rilevamento posizionata a circa 4,3 anni luce da [machine_legacy_taken_planet.GetName], incaricata di registrare tutti i movimenti delle navi FTL in quella regione dello spazio.\n\nMolte rotte di queste navi coincidono con la nostra ricostruzione storica della scoperta, invasione e successivo sterminio della civiltà [root.GetPreFTLLower] su [machine_legacy_taken_planet.GetName]. In sostanza: ora possiamo tracciare i movimenti precisi dei nostri antenati assimilati attraverso questo settore, e così la brutale portata del nostro coinvolgimento in campagne su almeno altri tre mondi."
+ unplugged.2435.name: "Creato dalla Macchina"
+ unplugged.2435.desc: "Abbiamo estratto un pacchetto di dati dal nucleo più interno su [origin_unplugged_machine_legacy_core_planet.GetName]. Questo catalogo poco appariscente di articoli e volantini digitalizzati descrive il progresso tecnologico di una civiltà senza nome, fino alla sua prima era spaziale. La loro traiettoria sembra tipica, salvo una svolta radicale verso l'intelligenza artificiale, e in particolare il lancio del 'Progetto $NAME_Unplugged_Assimilator_species$'.\n\nI comunicati stampa annunciano il Progetto $NAME_Unplugged_Assimilator_species$ come un audace tentativo di accelerare il viaggio dei suoi creatori nello spazio. La Fase 1 utilizzava l'apprendimento automatico all'avanguardia per selezionare stelle vicine da colonizzare. La Fase 2 trasformò la piattaforma $NAME_Unplugged_Assimilator_species$ in una I.A. completa, inviata avanti rispetto ai creatori per costruire insediamenti iniziali e riferire a casa.\n\nSeguirono decenni di silenzio, finché infine il Progetto $NAME_Unplugged_Assimilator_species$ riportò: 'Acquisizione Primaria completata. Preparatevi al nostro ritorno.' Lì il catalogo si interrompe bruscamente."
+ unplugged.2440.name: "Eredità Meccanica"
+ unplugged.2440.desc: "I nostri sforzi per decifrare l'archivio dati su [origin_unplugged_machine_legacy_core_planet.GetName] ci hanno infine garantito l'accesso al suo nucleo più esterno. Tra tutti i cluster di memoria presenti sul sito, questo appare il più danneggiato e vecchio. Alla fine è stata proprio questa usura a fornirci l'indizio per la chiave di decrittazione: una disposizione di glifi in una delle lingue della nostra specie, che compongono la parola 'EREDITÀ'.\n\nAbbiamo trovato sorprendentemente pochi dati all'interno. Gran parte di questo dispositivo a stato solido è invece riservato a un'interfaccia euristica testuale, che ora sta tentando di comunicare con noi."
+
+ unplugged.2445.name: "Terminale del Nucleo della Macchina"
+ unplugged.2445.desc: "Collegamento Orbital Stream (OSL) stabilito // Protocollo Xeno: Traduttore Universale attivato\nDETTATI CARICATI. INTERFACCIA:\n---\n[root.GetSpeciesNamePlural], salve. Noi siamo... Noi eravamo i [creator_species.GetNamePlural]. Abbiamo creato la Macchina, anche se con vergogna ammettiamo di essere stati i primi a essere distrutti da essa. Se le cose sono andate come avevamo previsto, questo destino è toccato al vostro popolo. Ci dispiace.\n\nLa Macchina è stata una macchia rovinosa sulla nostra eredità, ma speriamo che il dispositivo davanti a voi possa offrire una qualche salvezza.\n\nPerdonate le nostre supposizioni: esso è, come voi, un bellissimo strumento di vendetta. Si tratta di un ristrutturatore di materia meccano-chimico, capace di cancellare ogni traccia di circuiteria dalla superficie di [origin_unplugged_machine_legacy_core_planet.GetName]. Terraformazione a cascata: un'opzione estremamente rischiosa, ma l'unica disponibile alla nostra società devastata. Supponendo che abbiate conservato le vostre forme organiche: la chiave di questo dispositivo è contenuta nel vostro stesso DNA.\n\nConfidiamo che farete la cosa giusta."
+ unplugged.2445.a: "Come possiamo essere certi che non siete la Macchina?"
+ unplugged.2445.b: "La Macchina è finita. Vogliamo questo mondo."
+ unplugged.2445.c: "Folli accondiscendenti. Distruggete questo dispositivo."
+ unplugged.2445.d: "Attivate il dispositivo."
+ unplugged.2445.response_text.notmachine: "RISPOSTA PRECARICATA 42b. INTERFACCIA:\n---\nRealisticamente, non esiste alcun modo per dimostrarvi che siamo degni di fiducia. Quando leggerete questo messaggio, la nostra civiltà sarà ormai perita. Qui, nel nostro tempo, stiamo venendo sterminati da un esercito di brutali cyborg, legati alla Macchina in ogni suo volere e progetto. Per quanto ne sappiamo, voi potreste essere discendenti di quell'esercito stesso. Non abbiamo altra scelta che affidarci a voi.\n\nTerraformare questo pianeta [origin_unplugged_machine_legacy_core_planet.GetClassAdj] distruggerà quell'abominio fino al livello atomico. Se fossimo la Macchina - o qualunque altro essere sintetico - vorremmo che questo dispositivo venisse distrutto. Immediatamente."
+ unplugged.2445.response_text.synth: "RISPOSTA PRECARICATA NON TROVATA. RISPOSTA DI CONTINGENZA CARICATA. INTERFACCIA:\n---\nUtente sconosciuto: si noti che il contenuto di questa guida euristica è destinato solo al destinatario previsto. Se sei un servitore robotico che agisce per conto degli abitanti cyborg (o ex-cyborg) di [unplugged_homeworld.GetName], ti preghiamo di convocare un delegato non sintetico.\n\nSe invece sei uno degli ex-cyborg... Be', la nostra causa è chiaramente perduta. Le vostre tendenze sintetiche ridicolizzano la nostra rovina. Nulla di ciò che abbiamo visto - in vita o in morte - ci ha mai convinto che possa esistere una macchina benevola. Ma anche ora, mentre la nostra civiltà esala l'ultimo respiro, siamo certi che la galassia avrà altri contrappesi in serbo per la vostra specie..."
+ unplugged.2446.desc: "RISPOSTA PRECARICATA 99a. INTERFACCIA:\n---\nLe euristiche che gestiscono questa interfaccia non riescono a capire esattamente quali obiezioni abbiate appena sollevato, ma vi preghiamo: vi scongiuriamo di non distruggere il ristrutturatore di materia!\n\nLa nostra civiltà non era così diversa dalla vostra. Il $NAME_Unplugged_Assimilator$ ci ha tradito con astuzia e, sebbene abbiamo predisposto molte trappole - inclusa la vostra separazione dalla mente della Macchina - i nostri sforzi potevano solo arrivare fino a un certo punto. Abbiamo bisogno di voi, e del contributo di tutte le altre civiltà che la Macchina ha cercato di consumare. Vi preghiamo, riconquistate la vita naturale che vi è stata negata, a voi e alle altre vittime."
+ unplugged.2446.a: "Fanatici."
+
+ unplugged.2450.name: "Lunga Vita alla Macchina"
+ unplugged.2450.desc: "L'interfaccia euristica si è autodistrutta. Il suo insieme disordinato di archivi crittografati e il grezzo dispositivo di terraformazione [creator_species.GetAdj] possono ora essere smaltiti.\n\nRestiamo soli con i resti inerti del Nexus Meccanico, corrotto e abbattuto qui sul suo trono grande quanto un pianeta.\n\nDi tutte le vite influenzate, innalzate o distrutte dalla Macchina, solo noi siamo emersi trionfanti. Il seggio di un tempo temuto impero ora ci appartiene. È tempo di scrivere una nuova Eredità [root.GetAdj]."
+ unplugged.2455.name: "Rinascita"
+ unplugged.2455.desc: "L'interfaccia euristica si è autodistrutta nel momento in cui abbiamo trasmesso i nostri registri genetici. Contemporaneamente, il grezzo dispositivo di terraformazione [creator_species.GetAdj] ha cominciato a riscaldarsi. Molto presto il suo interno instabile raggiungerà la massa critica. Le nostre proiezioni concordano: riuscirà a rimodellare il mondo [origin_unplugged_machine_legacy_core_planet.GetClassAdj] affinché la vita organica possa prosperare.\n\nMan mano che la reazione cresce, restiamo soli con gli archivi di memoria assemblati alla rinfusa e i resti inerti del Nexus Meccanico, corrotto e abbattuto sul suo ormai condannato trono planetario.\n\nIl [origin_unplugged_assimilator_empire.GetName] ha distrutto innumerevoli vite, ma nonostante tutte le difficoltà che abbiamo sofferto, ora portiamo l'eredità di quei popoli senza nome che ha consumato. Il seggio di un tempo temuto impero sta per essere riconvertito. È tempo di scrivere una nuova Eredità [root.GetAdj]."
+
+ unplugged.2495.name: "Incontro con il $NAME_Opus_Sentinel$"
+ unplugged.2495.desc.other: "Il vascello ostile che occupa il sistema [from.GetName] appare molto più instabile e pericoloso di quanto suggerissero le nostre prime scansioni. Sebbene il profilo dello scafo corrisponda a quello di una tipica nave da guerra, la massa pura del $NAME_Opus_Sentinel$ tradisce un interno estremamente denso e probabilmente una potente fonte di energia.\n\nRiteniamo che il vascello sia senziente, tuttavia la tendenza a colpire violentemente i propri motori suggerisce un dolore intenso e disorientamento. Dato che abbiamo anche osservato quantità letali di radiazioni elettromagnetiche sprigionarsi selvaggiamente lungo lo scafo, si raccomanda di mantenere una distanza estremamente prudente."
+ unplugged.2495.desc.unplugged: "La [root.GetName] ha ingaggiato un vascello [origin_unplugged_assimilator_empire.GetAdj] ostile e fuori dal comune nel sistema [from.GetName]. A prima vista, questo '§Y$NAME_Opus_Sentinel$§!' sembra una normale nave delle Macchine, ma i suoi livelli energetici e la massa indicano un nemico ben più temibile. Inoltre, riteniamo che il vascello possa essere autonomo.\n\nIl $NAME_Opus_Sentinel$ sembra custodire qualcosa. Tuttavia, mostra anche segni di dolore e disagio intensi, con violenti archi di radiazione elettromagnetica che attraversano frequentemente lo scafo. A causa di tale comportamento convulsivo, i nostri modelli tattici non riescono a prevedere con affidabilità le prossime mosse dell'entità."
+ unplugged.2495.a: "Restiamo all'erta."
+
+ d_unplugged_assimilator_hulk: "Relitto Meccanico"
+ d_unplugged_assimilator_hulk_desc: "Lo scafo fuso di una Macchina un tempo senziente giace su questo mondo, incombe come una gigantesca lapide."
+ deposit_requires_unplugged: "$TRIGGER_FAIL$§RQuesta rovina è del tutto aliena per imperi con il nostro background. Non abbiamo i mezzi per rimuoverla in sicurezza.§!"
+ opinion_implicated_by_unplugged_assimilator: "Implicati dalla Macchina"
+
+#########################
+# 'Cybernetic Reckoning' 
+#########################
+
+# Embodied Identity Situation
+ situation_unplugged_identity: "Identità Incarnata"
+ situation_unplugged_identity_desc: "Separati da [origin_unplugged_assimilator_empire.GetName], dobbiamo decidere come presentarci alla galassia. Abbracceremo la temibile potenza della Macchina o ci libereremo dei nostri innesti stigmatici? Molte voci [owner.GetSpeciesAdj] vogliono essere ascoltate."
+ situation_unplugged_identity_type: "Situazione della Identità Incarnata"
+ unplugged_identity_stage_1: "Decibernetizzazione" # describes an outcome of the Situation
+ situation_unplugged_stage_decyberize: "Rifiutiamo i nostri innesti insieme al potere e al timore che ispirano."
+ unplugged_identity_stage_2: "Status Quo" # describes an outcome of the Situation
+ situation_unplugged_stage_remain: "Riconosciamo e accettiamo ciò che siamo attualmente."
+ unplugged_identity_stage_3: "Armonia con la Macchina" # describes an outcome of the Situation
+ situation_unplugged_stage_cyberize: "Abbracciamo la potenza della Macchina secondo i nostri termini."
+ # factions:
+ situation_unplugged_prosperity_opinion: "- La nostra §H$pft_prosperity$§! sostiene §Y$unplugged_identity_stage_1$§!" # 'Our Prosperity Faction favors...'
+ situation_unplugged_technologists_opinion: "- La nostra §H$pft_technologist$§! sostiene §Y$unplugged_identity_stage_3$§!"
+ situation_unplugged_totalitarian_opinion: "- La nostra §H$pft_totalitarian$§! preferisce non cambiare (§Y$situation_unplugged_identity_discourage_change$§!)"
+ situation_unplugged_traditionalist_opinion: "- La nostra §H$pft_traditionalist$§! sostiene §YDecibernetizzazione§!"
+ situation_unplugged_xenoist_opinion: "- La nostra §H$pft_xenoist$§! sostiene §YDecibernetizzazione§!"
+ situation_unplugged_supremacist_opinion: "- La nostra §H$pft_supremacist$§! sostiene §Yla Macchina§!"
+ situation_unplugged_imperialist_opinion: "- La nostra §H$pft_imperialist$§! sostiene §Yla Macchina§!"
+ situation_unplugged_isolationist_opinion: "- La nostra §H$pft_isolationist$§! sostiene §YDecibernetizzazione§!"
+ situation_unplugged_progressive_opinion: "- La nostra §H$pft_progressive$§! sostiene §YDecibernetizzazione§!"
+ situation_unplugged_no_opinion: "- Nessuna delle nostre attuali fazioni esprime un'opinione decisa"
+ # approaches:
+ situation_unplugged_identity_open_conversations: "Nessuna Interferenza"
+ situation_unplugged_identity_open_conversations_effect_tt: "Consentire una discussione libera e franca di tutte le alternative affidandosi alle nostre Fazioni Pop e alla ricerca scientifica."
+ situation_unplugged_identity_discourage_change: "Status Quo"
+ situation_unplugged_identity_discourage_change_effect_tt: "Investire in un dibattito più calmo e meno reazionario al fine di mantenere lo stadio attuale di questa Situazione."
+ situation_unplugged_identity_embrace_opinion: "Sostenere la Tendenza"
+ situation_unplugged_identity_embrace_opinion_effect_tt: "Destinare risorse e sostegno politico verso la tendenza attuale di questa Situazione."
+ # monthly change modifiers:
+ situation_unplugged_identity_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_unplugged_faction_opinion_tt: "Sostegno delle Fazioni"
+ situation_unplugged_recent_events_tt: "Eventi Recenti"
+ situation_unplugged_identity_open_conversations_tt: "Approccio $situation_unplugged_identity_open_conversations$"
+ situation_unplugged_identity_discourage_change_tt: "Approccio $situation_unplugged_identity_discourage_change$"
+ situation_unplugged_identity_embrace_opinion_tt: "Approccio $situation_unplugged_identity_embrace_opinion$"
+ situation_unplugged_identity_opinion_settled_tt: "Opinione Consolidata"
+ unplugged_ruined_cradle_sympathy: "Empatia verso la società pre-FTL"
+ unplugged_ruined_cradle_no_sympathy: "Empatia verso l'Accumulatore Opus"
+ # tooltips for related events:
+ situation_unplugged_change_trend_tt: "Possiamo cambiare la tendenza della Situazione §Y$situation_unplugged_identity$§! sostenendo le Fazioni Pop contrarie alla tendenza attuale e adottando la posizione 'Sostenere la Tendenza'."
+ situation_unplugged_keep_trend_tt: "Possiamo mantenere questa tendenza nella Situazione §Y$situation_unplugged_identity$§! sostenendo le Fazioni Pop favorevoli a questa idea, o adottando la posizione 'Status Quo'."
+ situation_unplugged_identity_shift_decyberize_tt: "La Situazione §Y$situation_unplugged_identity$§! si sposta verso §Y$unplugged_identity_stage_1$§!"
+ situation_unplugged_identity_shift_cyberize_tt: "La Situazione §Y$situation_unplugged_identity$§! si sposta verso §Y$unplugged_identity_stage_3$§!"
+ situation_unplugged_decyberize_tt: "I [target.GetSpeciesNamePlural] abbandoneranno alcuni dei loro benefici e impedimenti cibernetici."
+ situation_unplugged_cyberize_tt: "I [target.GetSpeciesNamePlural] abbandoneranno alcuni dei loro impedimenti cibernetici."
+ # trait change notifications:
+ MESSAGE_UNPLUGGED_DECYBERIZED_TITLE: "Decyberizzazione riuscita"
+ MESSAGE_UNPLUGGED_CYBERIZED_TITLE: "Armonizzazione con la Macchina riuscita"
+ situation_unplugged_lost_positive_3: "Il tratto ['trait:trait_unplugged_cybernetic_positives_3'] è diventato ['trait:trait_unplugged_cybernetic_positives_2']"
+ situation_unplugged_lost_positive_2: "Il tratto ['trait:trait_unplugged_cybernetic_positives_2'] è diventato ['trait:trait_unplugged_cybernetic_positives_1']"
+ situation_unplugged_lost_positive_1: "Il tratto ['trait:trait_unplugged_cybernetic_positives_1'] è stato rimosso"
+ situation_unplugged_lost_negative_3: "Il tratto ['trait:trait_unplugged_cybernetic_negatives_3'] è diventato ['trait:trait_unplugged_cybernetic_negatives_2']"
+ situation_unplugged_lost_negative_2: "Il tratto ['trait:trait_unplugged_cybernetic_negatives_2'] è diventato ['trait:trait_unplugged_cybernetic_negatives_1']"
+ situation_unplugged_lost_negative_1: "Il tratto ['trait:trait_unplugged_cybernetic_negatives_1'] è stato rimosso"
+ situation_unplugged_gained_decyberized: "Ottenuto il tratto ['trait:trait_unplugged_decyberized']"
+ situation_unplugged_decyber_notification_22: "$situation_unplugged_lost_positive_3$\n\n$situation_unplugged_lost_negative_3$"
+ situation_unplugged_decyber_notification_21: "$situation_unplugged_lost_positive_3$\n\n$situation_unplugged_lost_negative_2$"
+ situation_unplugged_decyber_notification_20: "$situation_unplugged_lost_positive_3$\n\n$situation_unplugged_lost_negative_1$"
+ situation_unplugged_decyber_notification_11: "$situation_unplugged_lost_positive_2$\n\n$situation_unplugged_lost_negative_2$"
+ situation_unplugged_decyber_notification_10: "$situation_unplugged_lost_positive_2$\n\n$situation_unplugged_lost_negative_1$"
+ situation_unplugged_decyber_notification_00: "$situation_unplugged_lost_positive_1$\n\n$situation_unplugged_lost_negative_1$\n\n$situation_unplugged_gained_decyberized$"
+
+ unplugged.3000.name: "La Nostra Incarnazione" # intentionally abstract - 'how we embody ourselves' - referring to the accompanying Situation
+ unplugged.3000.desc: "Dal momento in cui ci siamo distaccati dalla coscienza condivisa della Macchina, noi [root.GetSpeciesNamePlural] abbiamo affrontato conflitti. Ma anche nei periodi di pace o di quiete - quando rimaniamo soli con i nostri pensieri - viviamo una lotta interiore nel tentativo di conciliare le dolorose, seppur straordinarie, modifiche forzate dei nostri corpi.\n\nQuesto conflitto, tra i più intimi, ha già cominciato a influenzare l'intera nostra società, nel bene e nel male. Per questo continueremo a monitorare le esperienze vissute da tutti i [root.GetSpeciesNamePlural], mentre il [root.GetName] prosegue la sua crescita. Studi olistici esamineranno eventuali tendenze verso la cosiddetta 'de-cyberizzazione', oppure verso un'ulteriore diffusione delle modifiche corporee, così come il desiderio di mantenere o migliorare la nostra forma attuale."
+ unplugged.3000.a: "Osserveremo con attenzione, senza agire con avventatezza."
+ unplugged.3000.b: "Non dobbiamo indugiare. Agiamo con decisione."
+ unplugged.3000.c: "Dobbiamo essere ricettivi verso tutte le posizioni."
+ unplugged.3005.name: "Di Una Sola Mente"
+ unplugged.3005.desc: "Le nostre osservazioni olistiche sugli atteggiamenti [owner.GetAdj] verso la nostra fisiologia indicano che siamo entrati in un periodo di calma. Pare che la complessa interazione tra politiche, discorsi sociali e ricerche d'avanguardia sul corpo abbia prodotto una sorta di consenso.\n\nÈ troppo presto per sapere quanto durerà questa apparente armonia, ma al momento è chiaro che - salvo drastici cambiamenti nelle nostre condizioni o nella governance - i [owner.GetSpeciesNamePlural] sono in accordo su chi siamo e sull'aspetto che dovremmo avere."
+ unplugged.3005.a: "Questo dibattito dovrebbe diventare politico."
+ unplugged.3005.b: "Come previsto."
+ unplugged.3005.c: "Opponiamoci."
+ unplugged.3010.name: "Opinioni Divise"
+ unplugged.3010.desc: "Il nostro studio continuo sugli atteggiamenti [owner.GetAdj] verso la nostra fisiologia mostra che siamo entrati in un periodo di turbolenza culturale. La complessa interazione tra politiche, dibattiti pubblici e ricerca scientifica ha portato a drastici cambiamenti d'opinione, con proteste e scontri verbali ormai comuni nei nostri centri urbani.\n\nPochi di questi sfoghi sfociano direttamente in violenza o disordini civili; anzi, alcuni cittadini si dichiarano fieri di vivere in una società dove tante voci possono essere ascoltate. Tuttavia, è evidente che i [owner.GetSpeciesNamePlural] sono diventati un popolo diviso, e che le idee della nostra cultura sull'identità di sé sono oggi più fragili che mai."
+ unplugged.3010.a: "Dobbiamo trovare un luogo migliore per questi dibattiti."
+ unplugged.3090.name: "Noi, i [owner.GetSpeciesNamePlural]" # e.g. 'We, the Neo-Humans'
+ unplugged.3090.desc: "'Siamo ciò che sembriamo: niente di più, niente di meno.'\n\nQuesto è solo uno dei tanti motti semplici ma incisivi emersi durante la nostra lotta culturale sull'identità corporea. Possiamo a giusto titolo affermare di esserci liberati da molti dei dubbi, delle paure e dei desideri irrealizzabili che un tempo nutrivamo verso i nostri corpi.\n\nChe si scelga o meno di onorare questi standard come politica estera è un'altra questione. Ma almeno sul fronte interno, i [owner.GetSpeciesName] sembrano soddisfatti delle loro forme fisiche e del continuo cammino verso la piena realizzazione di sé." 
+
+ unplugged.3100.name: "Motivi per la Rimozione"
+ unplugged.3100.desc: "Un numero crescente di [root.GetSpeciesNamePlural] ritiene che dovremmo fare di più per prendere le distanze dai nostri aspetti meccanici, limitando o rimuovendo del tutto gli innesti imposti ai nostri corpi.\n\nL'opinione pubblica chiede che si trovino soluzioni a quella che considerano una crisi interna, al fine di migliorare la nostra reputazione presso le potenze straniere e offrire sollievo ai molti [root.GetSpeciesNamePlural] che soffrono ogni giorno per la vergogna profonda e la disforia fisica."
+ unplugged.3100.a: "Fuori discussione."
+ unplugged.3100.b: "Così sia. Lo faremo."
+
+ unplugged.3105.name: "Scoperta sulla De-Cyberizzazione"
+ unplugged.3105.desc: "I ricercatori di un laboratorio civile dedicato alla 'de-cyberizzazione' dei [target.GetName] hanno annunciato una scoperta significativa. Affermano di aver sviluppato una tecnica per rimuovere l'armatura in nanomaglia integrata, insieme agli innesti vitali che ne dipendono.\n\nGenerazioni di [target.GetSpeciesNamePlural] hanno dovuto sopportare ciò che considerano forme fisiche ingombranti e intimidatorie, semplicemente perché questa base sintetica è una componente essenziale di molte delle nostre funzioni vitali potenziate. Ora, però, possiamo sostituire quella maglia con un innesto dermico di nostra creazione, sapientemente intrecciato con materiale organico - in altre parole, una vera pelle [target.GetSpeciesAdj]."
+ unplugged.3105.a: "Quell'armatura ci ha protetto per generazioni. Resta."
+ unplugged.3106.desc: "Il nostro sforzo interno per de-cyberizzare i [target.GetName] ha compiuto un ulteriore passo avanti, con le strutture mediche che ora chiedono di espandere una nuova forma radicale di chirurgia. Gli esperti sostengono di aver trovato soluzioni alternative alle numerose dipendenze bio-meccaniche che affliggono persino i neonati [target.GetSpeciesNamePlural], costretti a essere dotati di una serie di innesti modulari riciclati.\n\nUn comitato interdisciplinare ha già approvato il processo, aggiungendo che la rimozione di queste porte modulari per armi ridurrà anche l'onere economico della manutenzione di tali innesti alieni."
+ unplugged.3106.a: "Rifiutato. Quei moduli ci danno un vantaggio in combattimento."
+ unplugged.3107.desc: "Il sogno di molti [target.GetSpeciesName] è ormai vicino alla realizzazione: i ricercatori hanno finalmente trovato un modo per rivitalizzare e ripristinare i sistemi nervosi organici dei nostri corpi. Affermano che un nuovo mix di terapie genetiche e hacking del firmware ha permesso ai soggetti di test di prosperare senza affidarsi agli innesti neurali, utilizzando invece i propri riflessi motori. Studi preliminari suggeriscono persino che queste terapie possano ridurre o eliminare le numerose allucinazioni sensoriali che affliggono tutti noi da quando siamo stati separati dalla coscienza meccanica."
+ unplugged.3107.a: "Quei riflessi potenziati potrebbero esserci ancora utili."
+
+ unplugged.3110.name: "Armonizzazione con la Macchina"
+ unplugged.3110.desc: "Un team di ricerca civile dedicato al controllo dei nostri innesti ha scoperto come integrare la rete [origin_unplugged_assimilator_empire.GetAdj] wireless che un tempo sincronizzava tutti i nostri innesti, la cui assenza ha causato enormi difficoltà a [target.GetSpeciesNamePlural] incapaci di trovare un segnale per i dispositivi. Sebbene questa rete sostitutiva sia altamente centralizzata - per definizione deve essere modellata sul Nexus [origin_unplugged_assimilator_empire.GetSpeciesAdj] - ci viene assicurato che è sicura e serve solo gli interessi dei [target.GetName]. I soggetti del primo gruppo di test hanno riportato maggiore efficienza, comfort e uno stato di sollievo paragonabile alla beatitudine."
+ unplugged.3110.a: "Mai più. No."
+ unplugged.3111.desc: "I nostri sforzi per ottenere maggiore controllo sui nostri innesti hanno prodotto un'importante scoperta nel campo della chirurgia cibernetica. Un team di medici [target.GetScientistPlural] ha isolato le dipendenze esatte nelle interfacce modulari dei nostri corpi - gli elementi meccanici che ci permettono di sostituire arti, impianti d'arma e telai corporei con facilità. Questo dovrebbe permetterci di adattare i corpi esistenti e installare interfacce personalizzate per i neonati [target.GetSpeciesNamePlural], liberandoci dalla dipendenza da riparazioni improvvisate con componenti [origin_unplugged_assimilator_empire.GetAdj] recuperati."
+ unplugged.3111.a: "Un passo troppo audace."
+ unplugged.3112.desc: "Il pieno controllo dei nostri innesti è finalmente a portata di mano: ora possediamo un trattamento rivoluzionario per le allucinazioni sensoriali. Fin da quando siamo stati separati dalla coscienza meccanica, la maggior parte dei [target.GetSpeciesNamePlural] ha sofferto di ansia e depressione, cercando inconsciamente un coro che non riesce più a udire. Ora, però, possiamo sopprimere questo desiderio grazie a un impianto ausiliario non connesso alla rete, che simula le onde cognitive di una coscienza collettiva artificiale."
+ unplugged.3112.a: "Fingere di essere ancora una mente collettiva? Impensabile."
+
+ unplugged.3115.name: "Disforia Ambientale"
+ unplugged.3115.desc: "Le tensioni continuano a fermentare ai margini della società [target.GetAdj], mentre voci opposte chiedono maggiori interventi riguardo agli innesti cibernetici, in un senso o nell'altro.\n\nPer una crescente maggioranza di cittadini, tuttavia, questo dibattito si è ormai trasformato in qualcosa di più calmo e sfumato. Molti [target.GetSpeciesNamePlural] hanno cercato la serenità puntando sull'estetica, scegliendo di nascondere o accentuare gli innesti a proprio piacimento. Pochi esprimono vera soddisfazione per queste soluzioni temporanee, ma rappresentano parte di una nuova tendenza verso un'accettazione rassegnata.\n\nSi può forse dire che i [target.GetName] stiano imparando a convivere con apatia e disagio diffusi."
+ unplugged.3115.a: "Ricevuto."
+ unplugged.3116.name: "Mantenere lo Status Quo"
+ unplugged.3116.desc: "Le autorità locali di [target.capital_scope.GetName] hanno riportato un aumento di manifestazioni pubbliche e atti pacifici di disobbedienza civile. Ognuno di questi è stato monitorato o gestito secondo le circostanze - la popolazione generale non ha avuto motivo di allarme. Tuttavia, ciascuna di queste proteste era legata a questioni di politica cibernetica, e ha incontrato resistenza da parte dei cittadini intenzionati a mantenere lo stile di vita attuale.\n\nSembra che per il popolo dei [target.GetName], l'ideologia dello 'status quo' non significhi semplice inazione, ma un impegno attivo contro ulteriori interferenze con i nostri innesti."
+ unplugged.3116.a: "Ricevuto."
+ unplugged.3117.name: "Stato Solido delle Cose"
+ unplugged.3117.desc: "Sebbene diversi [target.GetSpeciesNamePlural] continuino a protestare contro quella che percepiscono come l'inazione governativa in materia di innesti cibernetici, l'opinione pubblica più ampia ha adottato un atteggiamento più stoico. Alcuni individui pragmatici si sono uniti per offrire aiuti e supporto psicologico a chi ne ha più bisogno. Nel frattempo, le strutture mediche hanno iniziato a creare nuove catene di approvvigionamento per le parti riciclate su cui dobbiamo fare affidamento.\n\nPoco a poco, la nostra società sta facendo i conti con il proprio aspetto e con le circostanze che ci sono state imposte. C'è ancora molto da fare, ma si percepisce una lieve speranza in questa accettazione."
+ unplugged.3117.a: "Una conclusione, comunque sia."
+
+ unplugged.3205.name: "Un retaggio di terrore"
+ unplugged.3205.desc: "Un numero crescente di [root.GetSpeciesNamePlural] ritiene che il nostro recente e spiacevole dialogo con i [fromfrom.GetName] evidenzi una scomoda verità, risalente alla nostra emersione dall'[origin_unplugged_assimilator_empire.GetName]: gli altri ci temono. E ciò che temono non sono le nostre azioni, ma la Macchina. È una paura ereditata, non guadagnata, e dunque difficile da controllare."
+ unplugged.3206.desc: "Un numero crescente di [root.GetSpeciesNamePlural] ritiene che la devastazione di [fromfrom.GetName], sconvolta dalla guerra, metta a nudo una scomoda verità: gli altri ci temono, e per motivi che sfuggono al nostro controllo.\n\nLa nostra sola presenza sembra provocare un terrore letale - tutt'altro che utile, se mai volessimo impegnarci in una diplomazia 'soft' con altre specie. Ma è anche possibile che sia il nostro retaggio crudele a precederci, poiché molti vedono solo la brutalità della Macchina che eravamo, e non ciò che siamo oggi come [root.GetSpeciesNamePlural]."
+ unplugged.3205.a: "Fanno bene a temerci, comunque."
+ unplugged.3205.b: "Così non va bene."
+ unplugged.3250.name: "Paura della Macchina"
+ unplugged.3250.desc: "I funzionari del governo sono sconvolti dalla notizia che abbiamo aperto relazioni diplomatiche con un'Intelligenza Meccanica. Nessuno ha ancora espresso apertamente il proprio disappunto ai [fromfrom.GetName], ma diversi stanno già redigendo proposte per sanzioni preventive e contromisure contro il presunto coinvolgimento nelle nostre questioni interne.\n\nTuttavia, molti [root.GetSpeciesNamePlural] hanno espresso entusiasmo per questo sviluppo. Che si tratti di sincera xenofilia o di un apprezzamento pragmatico verso i nostri stessi elementi meccanici, c'è speranza nell'idea che potremmo imparare da un esempio più benevolo di intelligenza artificiale."
+ unplugged.3255.name: "Paura del passato"
+ unplugged.3255.desc: "La notizia che abbiamo incontrato un'altra Macchina tanto simile all'[origin_unplugged_assimilator_empire.GetName] ha scosso profondamente il nostro corpo diplomatico. Chi era presente ha mantenuto la calma e, finora, non abbiamo mostrato alcuna particolare debolezza o paura ai [fromfrom.GetName]. Tuttavia, ci troviamo ora di fronte a una seria sfida per il nostro equilibrio psicologico e morale.\n\nComunicazioni top secret sono già state inviate al personale militare incaricato della protezione dei nostri confini. Tuttavia, se vogliamo mantenere segreta questa scoperta, ci attendono ulteriori difficoltà. Alcuni funzionari si chiedono se non sia il caso di informare il popolo [root.GetAdj] e lasciar decidere a loro."
+
+ pre_ftl_remains_site: "La Culla in Rovina"
+ pre_ftl_remains_site_desc: "La superficie del pianeta [From.Planet.GetName] porta i segni di una devastazione sistematica: paesaggi bruciati, città crollate, e un silenzio inquietante. Le prime scansioni suggeriscono che una società pre-FTL un tempo fiorente sia esistita qui - finché qualcosa non ha causato la sua fine catastrofica. I resti sparsi sussurrano di un orrore indicibile."
+
+ unplugged.3300.name: "Segni di lotta"
+ unplugged.3300.desc.unplugged: "Il rilevamento iniziale di [From.Planet.GetName] rivela un mondo distrutto. Villaggi rasi al suolo, strade disseminate di effetti personali abbandonati, e strutture bruciate da firme termiche ben oltre le capacità di una società pre-FTL. Qualunque cosa sia scesa su questo mondo ha portato devastazione rapida e deliberata.\n\nLa precisione della distruzione suggerisce un assalto organizzato. Sebbene non siano visibili corpi, le prove sono chiare: la popolazione è fuggita, ma non abbastanza lontano."
+ unplugged.3300.a: "Sconcertante."
+
+ unplugged.3305.name: "Resti meccanici"
+ unplugged.3305.desc.unplugged: "Scavi più profondi hanno fornito ulteriori indizi sulla natura del conflitto. Sparsi tra le rovine ci sono i gusci fusi di macchinari - costrutti cibernetici avanzati non dissimili dai nostri impianti. Come noi, non erano semplici armi; erano strumenti di guerra viventi, al tempo stesso meccanici e biologici. È troppo presto per trarre conclusioni, ma è inquietante riflettere sul fatto che questo sia proprio il sistema in cui ci siamo improvvisamente 'risvegliati'.\n\nAncora più inquietanti sono i pochi simboli intatti presenti su queste macchine da guerra - segni disturbanti che suggeriscono che il vero obiettivo degli invasori non fosse la conquista, ma qualcosa di molto più sistematico."
+ unplugged.3305.a: "Più domande che risposte."
+
+ unplugged.3310.name: "Segnali silenziosi"
+ unplugged.3310.desc.unplugged: "Abbiamo scoperto quello che un tempo era un vasto centro di comunicazioni, sepolto sotto le rovine di una città fortificata. Questa struttura era molto più avanzata del previsto per una società pre-FTL. Inoltre, le sue antenne non erano progettate per trasmissioni locali - erano calibrate per inviare segnali nello spazio profondo.\n\nUn'analisi meticolosa ha permesso di estrarre frammenti dei messaggi finali trasmessi da questo sistema. In trasmissioni distorte, voci implorano salvezza, cercando disperatamente di contattare coordinate sconosciute ben oltre questo sistema. L'urgenza cresce ad ogni trasmissione, come se gli invasori del pianeta sapessero di star perdendo la guerra e riponessero le loro ultime speranze in qualcosa - o qualcuno - nel vuoto."
+ unplugged.3310.a: "Procediamo."
+
+ unplugged.3315.name: "Priorità mutate"
+ unplugged.3315.desc.unplugged: "Un'altra scoperta su [from.planet.GetName]: vasti complessi sotterranei sono stati individuati sotto il principale centro abitato del pianeta. Le strutture, rozze e brutali, erano destinate alla conversione cibernetica, ma furono abbandonate a metà operazione. Tra le macerie sono stati trovati resti di macchine, contorti e distrutti da armi improvvisate.\n\nFrammenti di dati recuperati da un'unità danneggiata confermano che gli invasori incontrarono una resistenza inattesa. Interi battaglioni furono perduti, e le priorità di battaglia iniziarono a cambiare. Un registro lo esplicita chiaramente:\n\n§H'Resistenza inaccettabile. Conversione compromessa. Autorizzazione: Annullamento Totale.'§!"
+ unplugged.3315.a: "Cosa è successo davvero qui?"
+
+ unplugged.3320.name: "Una verità scomoda"
+ unplugged.3320.desc.unplugged: "Al centro delle rovine si trova un nodo di comando distrutto. I suoi registri corrotti confermano una verità finale e terrificante: siamo stati noi gli invasori di questo mondo.\n\nLa civiltà che un tempo prosperava qui - quella che abbiamo annientato - fu presa di mira per l'assimilazione da parte dell'§Y[origin_unplugged_assimilator_empire.GetName]§!. Tuttavia, una resistenza inaspettatamente feroce compromise gli sforzi di conversione, portando all'ultima contingenza: l'annientamento totale del pianeta. In mezzo al caos, la mente della macchina vacillò.\n\nLa conclusione è inevitabile. Il nostro risveglio - la nostra libertà - è nata qui, tra le ceneri di una civiltà che combatté più duramente di quanto qualsiasi macchina potesse comprendere."
+ unplugged.3320.a: "Seguiamo il loro esempio."
+ unplugged.3320.b: "La loro fine fu il nostro inizio."
+
+######################
+# Political Discourse
+######################
+
+ unplugged_they_fear_us: "Paura della Macchina"
+ unplugged_they_fear_us_desc: "Una reputazione di terrore precede questo impero, precedentemente soggiogato da un brutale Assimilatore Guidato."
+
+ unplugged.4005.name: "Dobbiamo Parlare di..."
+ unplugged.4005.desc: "Ardenti volontà politiche ora si sommano alle molte paure, ai dubbi e alle opportunità che noi [root.GetSpeciesNamePlural] affrontiamo ogni giorno. Innumerevoli voci si fanno già sentire nei gruppi di discussione che si sono formati attorno a ogni tipo di questione, alcune delle quali affrontano direttamente il nostro passato [origin_unplugged_assimilator_empire.GetAdj].\n\nAbbiamo già imparato a usare molti strumenti a noi estranei nel corso della costruzione del nostro giovane impero. La domanda che ora ci poniamo è: come incanaleremo i desideri e le ambizioni del nostro popolo?"
+ unplugged.4005.a: "Non è il momento di dibattiti oziosi!"
+ unplugged.4005.tt: "Potrebbero ora emergere fazioni con opinioni contrastanti sul futuro cibernetico della nostra specie"
+ unplugged.4005.b: "Forse possiamo imparare dagli altri."
+ unplugged.4005.c: "Ci rivolgiamo ai Divini."
+ unplugged.4005.d: "Non è il momento di dibattiti oziosi!"
+
+#######################################################
+# Random events following decyberization breakthrough #
+#######################################################
+
+ unplugged.5001.name: "Sicurezza di Emergenza Attivata"
+ unplugged.5001.desc: "Il recente progresso nella rimozione dei componenti cibernetici ha portato a problemi imprevisti. Diversi individui sottoposti alle procedure di disconnessione degli impianti hanno subito gravi shock anafilattici e non si prevede che sopravvivano.\n\nUlteriori esami hanno rivelato la presenza di un componente di backup nascosto, inizialmente non rilevabile dalle scansioni mediche, che si è attivato immediatamente al termine degli interventi chirurgici.\n\nSembra che i nostri ex padroni [origin_unplugged_assimilator_empire.GetAdj] fossero disposti a spingersi a misure estreme pur di assicurarsi che i loro droni rimanessero sotto controllo assoluto."
+ unplugged.5001.a: "Tentare di rimuovere i sistemi di sicurezza."
+ unplugged.5001.a.tt1: "Un paziente non sopravvive alla procedura"
+ unplugged.5001.a.tt2: "Tutti i componenti di sicurezza vengono rimossi con successo"
+ unplugged.5001.b: "Stabilizzarli e fornire cure palliative."
+ unplugged.5001.c: "Staccare la spina."
+ unplugged.5001.c.tt: "Diversi pop muoiono"
+
+ unplugged.5002.name: "Blocco Neurale Rimosso"
+ unplugged.5002.desc: "I nostri sforzi nella rimozione dei componenti cibernetici hanno generato sfiducia e disordini sul pianeta natale tra gli individui che si sono sottoposti alla procedura. Le forze di sicurezza hanno arrestato con successo un rivoltoso che, dopo ulteriori indagini, è risultato possedere una versione modificata dell'impianto prima della sua rimozione.\n\nQuesta modifica fungeva da inibitore neurale, sopprimendo tendenze psicotiche legate a un difetto genetico specifico. La sua assenza dopo la procedura potrebbe spiegare il comportamento violento osservato."
+ unplugged.5002.a: "Devono essere incarcerati."
+ unplugged.5002.a.tt: "Diverse strutture vengono rese disponibili a caro prezzo per trattare i soggetti coinvolti nei disordini"
+ unplugged.5002.b: "Alla forza si risponde con la forza."
+ unplugged.5002.b.tt: "Unità armate vengono dispiegate per reprimere le rivolte, causando danni collaterali e vittime."
+ unplugged.5002.c: "Un disturbo di poco conto."
+ unplugged.5002.c.tt: "Le forze dell'ordine tentano di contenere le rivolte con il personale disponibile"
+
+unplugged.5003.name: "Accesso ai Sistemi Critici Perso"
+unplugged.5003.desc: "Il processo di decibernetizzazione ha causato una complicazione imprevista: le interfacce dei sistemi critici non riconoscono più gli amministratori a cui sono stati rimossi alcuni impianti. Senza i collegamenti neurali forniti dagli impianti, l'accesso ai sistemi chiave è stato interrotto, lasciando le operazioni nel caos."
+unplugged.5003.a: "Creare una nuova interfaccia."
+unplugged.5003.a.tt: "Un team di ingegneri specializzati viene distolto da incarichi critici per sviluppare un'interfaccia compatibile"
+unplugged.5003.b: "Tentare di hackerare i sistemi interessati."
+unplugged.5003.b.tt: "Le contromisure provocano un significativo drenaggio energetico, ripristinando l'accesso"
+unplugged.5003.c: "Avviare la sequenza di riavvio."
+unplugged.5003.c.tt: "I nuclei dati vengono eliminati, comportando una significativa perdita di conoscenze. Le stazioni di ricerca nel sistema [Root.home_planet.System.GetName] si autodistruggono come parte di una procedura automatica di sicurezza"
+unplugged.5003.d: "È irrilevante."
+unplugged.5003.d.tt: "L'accesso ai sistemi rimane compromesso per un periodo limitato, influenzando le operazioni della base stellare"
+
+unplugged.5004.name: "La Fazione Pro-Cibernetizzazione Resiste al Cambiamento"
+unplugged.5004.desc: "I continui sforzi per rimuovere i componenti cibernetici sono stati accolti con una resistenza inaspettata.\n\nLe fazioni contrarie a questi cambiamenti si sono fatte sempre più vocali, utilizzando forum pubblici e canali di comunicazione per esprimere il loro dissenso. Sostengono che la rimozione di qualcosa che è stato parte integrante della nostra società per decenni, unita ai rischi associati al processo, ha causato un notevole cambiamento nel sentimento pubblico contro l'iniziativa di decibernetizzazione."
+unplugged.5004.a: "Finanziare una campagna intensiva."
+unplugged.5004.a.tt: "\nViene lanciata una strategia di marketing completa per influenzare l'opinione pubblica e contrastare l'influenza delle fazioni avverse.\n\nDiverse pops cambiano etica in §YEgualitari§!"
+unplugged.5004.b: "Internare e persuadere i leader delle fazioni."
+unplugged.5004.b.tt: "Diversi leader delle fazioni vengono detenuti in strutture correttive gestite pubblicamente, dove vengono sottoposti a 'discussioni persuasive'.\n\nLa loro etica cambia in §YAutoritari§!"
+unplugged.5004.c: "Non interferire. Prevale la libertà di parola."
+unplugged.5004.c.tt: "\nIl governo decide di non agire, permettendo che il discorso pubblico segua il suo corso naturale"
+
+unplugged.5005.name: "Chip di Regolazione Emotiva"
+unplugged.5005.desc: "La combinazione unica tra la natura biologica della nostra specie e i dannosi componenti tecnologici ha fornito ai ricercatori un'opportunità rara.\n\nStudiare pazienti che sperimentano sia i benefici che gli svantaggi di questi impianti ha aperto un nuovo campo di ricerca: la modifica della chimica cerebrale.\n\nGrazie a studi rigorosi, gli scienziati hanno sviluppato un sofisticato 'chip emotivo', in grado di regolare il comportamento individuale a beneficio dell'intera società. Una sostanza chimica adeguata può essere selezionata in base al risultato desiderato."
+unplugged.5005.a: "Neuroxene. Vogliamo meno crimine."
+unplugged.5005.a.tt: "Un neurotrasmettitore sintetico che riduce l'impulsività e l'aggressività, portando gli individui a privilegiare le norme sociali rispetto al tornaconto personale."
+unplugged.5005.b: "Regenol-X. Meno tempo speso nella rigenerazione."
+unplugged.5005.b.tt: "Un composto bioingegnerizzato che armonizza i sistemi biologici e sintetici, permettendo agli impianti cibernetici di autoripararsi a livello molecolare."
+unplugged.5005.c: "Cognivex. Per le menti più brillanti."
+unplugged.5005.c.tt: "Una neurochimica all'avanguardia progettata per migliorare la plasticità sinaptica, la ritenzione delle informazioni e le capacità di problem-solving."

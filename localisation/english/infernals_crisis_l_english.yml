@@ -1,0 +1,444 @@
+﻿l_english:
+
+# Ascension Perk
+ap_galactic_hyperthermia: "Ipertermia Galattica"
+ap_galactic_hyperthermia_desc: "L'universo è nato nel fuoco, ma si è raffreddato fino a diventare un luogo oscuro e ostile. Per prosperare, dobbiamo aumentare il calore, anche se altri dovranno perire."
+must_be_infernals: "$TRIGGER_FAIL$Richiede che la nostra popolazione sia composta da Infernali."
+
+# UI
+entropy_crystals: "Entropia Cristallizzata"
+entropy_crystals_name: "$entropy_crystals$:"
+entropy_crystals_value: "£entropy_crystals£ $VAL|0$"
+entropy_crystals_gaining: "Completa gli §HObiettivi di Crisi§! per ottenere più £entropy_crystals£ §Y$entropy_crystals$§!."
+entropy_crystals_desc: "Questa matrice frastagliata e scintillante di energia grezza è in qualche modo stabile, quanto basta per essere trasportata come combustibile o incorporata nelle apparecchiature."
+mod_country_base_entropy_crystals_produces_add: "£entropy_crystals£ $entropy_crystals$ Mensile"
+entropy_crystals_crisis_objective: "$menace_crisis_objective$"
+entropy_crystals_crisis_objective_gained: "£entropy_crystals£ Guadagnati"
+entropy_crystals_crisis_objective_reward: "$REWARD$"
+entropy_crystals_crisis_objective_progress: "Abbiamo ottenuto £entropy_crystals£ $AMOUNT$ da questo obiettivo di crisi."
+entropy_crystals_crisis_level_locked: "Necessario per sbloccare questo livello:\n" # remove?
+entropy_crystals_crisis_level_unlocked: "Al $LEVEL$, ottieni i premi:\n"
+entropy_crystals_crisis_level_desc: "Per avanzare nei livelli di Crisi, accumula $entropy_crystals$ e costruisci il §Y$galactic_crucible_4$§!."
+entropy_crystals_crisis_level_unlock: "Ha £entropy_crystals£ §Y$CURRENCY$§! $entropy_crystals$"
+entropy_crystals_current_value: "Valore Attuale: §Y$VALUE|0$§!"
+entropy_crystals_crisis_description_title: "$ap_galactic_hyperthermia$"
+entropy_crystals_crisis_description: "$menace_crisis_description_intro$\n\nUn nuovo modo di manipolare l'energia ci consentirà di aumentare notevolmente la nostra potenza. Dovremo sfruttare il fuoco delle stelle stesse per dare inizio a questa nuova era."
+entropy_crystals_crisis_howto_title: "Fonte di Potere"
+entropy_crystals_crisis_howto: "Perseguendo gli §HObiettivi della Crisi§! si generano £entropy_crystals£ §H$entropy_crystals$§!, che possono essere utilizzati per potenziare il $galactic_crucible_4$ e sbloccare il livello successivo della Crisi."
+
+# Level
+crisis_hyperthermia_already_ongoing: "Un altro impero sta già prendendo il controllo del nucleo galattico."
+crisis_hyperthermia_already_happened: "Un altro impero controlla già il nucleo galattico e ha ridisegnato la galassia."
+crisis_hyperthermia_level_1: "§RPreoccupazione§!"
+crisis_hyperthermia_level_1_desc: "$crisis_level_1_desc$"
+crisis_hyperthermia_lv1_tt: "£trigger_yes£ Ha completato il Progetto Speciale §Y$INF_CRISIS_ENTROPY$§!"
+crisis_hyperthermia_lv1_req_tt: "£trigger_no£ Ha completato il Progetto Speciale §Y$INF_CRISIS_ENTROPY$§!"
+crisis_hyperthermia_level_2: "§RRischio§!"
+crisis_hyperthermia_level_2_desc: "$crisis_level_2_desc$"
+crisis_hyperthermia_lv2_tt: "£trigger_yes£ Ha costruito la Megastruttura §Y$galactic_crucible_0$§! e l'ha aggiornata a §Y$galactic_crucible_1$§!"
+crisis_hyperthermia_lv2_req_tt: "£trigger_no£ Ha costruito la Megastruttura §Y$galactic_crucible_0$§! e l'ha aggiornata a §Y$galactic_crucible_1$§!"
+crisis_hyperthermia_level_3: "§RPericolo§!"
+crisis_hyperthermia_level_3_desc: "$crisis_level_3_desc$"
+crisis_hyperthermia_lv3_tt: "£trigger_yes£ Ha aggiornato la Megastruttura §Y$galactic_crucible_1$§!"
+crisis_hyperthermia_lv3_req_tt: "£trigger_no£ Ha aggiornato la Megastruttura §Y$galactic_crucible_1$§!"
+crisis_hyperthermia_level_4: "§RCalamità§!"
+crisis_hyperthermia_level_4_desc: "$crisis_level_4_desc$"
+crisis_hyperthermia_lv4_tt: "£trigger_yes£ Ha aggiornato la Megastruttura §Y$galactic_crucible_2$§!"
+crisis_hyperthermia_lv4_req_tt: "£trigger_no£ Ha aggiornato la Megastruttura §Y$galactic_crucible_2$§!"
+crisis_hyperthermia_dec_lv4_tt: "£trigger_yes£ Ha completato il Progetto Speciale §Y$INF_CRISIS_ENTROPY_EVIL$§!"
+crisis_hyperthermia_lv4_dec_req_tt: "£trigger_no£ Ha completato il Progetto Speciale §Y$INF_CRISIS_ENTROPY_EVIL$§!"
+crisis_hyperthermia_level_5: "§RMinaccia Esistenziale§!"
+crisis_hyperthermia_level_5_desc: "$crisis_level_5_desc$"
+crisis_hyperthermia_lv5_tt: "£trigger_yes£ Ha aggiornato la Megastruttura §Y$galactic_crucible_3$§!"
+crisis_hyperthermia_lv5_req_tt: "£trigger_no£ Ha aggiornato la Megastruttura §Y$galactic_crucible_3$§!"
+
+# MPerks Level 1
+menp_hyperthermia_crystals: "$entropy_crystals$"
+menp_hyperthermia_crystals_desc: "§Y$entropy_crystals$§! rappresentano una svolta nella destabilizzazione controllata dell'energia. Con questa risorsa volatile a nostra disposizione, possiamo rimodellare l'ordine galattico stesso."
+unlocks_entropy_objectives: "Consente l'accumulo di £entropy_crystals£ §Y$entropy_crystals$§! completando gli §HObiettivi di Crisi§!."
+menp_hyperthermia_harnessing: "Sfruttamento dell'Entropia"
+menp_hyperthermia_harnessing_desc: "L'integrazione della sintesi dei §Y$entropy_crystals$§! nel nostro settore consente un uso più efficiente di questa risorsa volatile, allineando il nostro focus tecnico agli obiettivi strategici."
+unlocks_entropy_edict: "§HSblocca Editto:§! $edict_entropy_harnessing$"
+menp_hyperthermia_crucible: "Crogiolo Galattico"
+menp_hyperthermia_crucible_desc: "Questo Crogiolo proposto fungerebbe da motore centrale per sfruttare l'entropia stellare. Grazie alla sua capacità di cristallizzarla e trasportarla, il Crogiolo potrebbe diventare un faro del nostro potere infuocato, diffondendolo tra le stelle."
+unlocks_galactic_crucible: "§HSblocca Megastruttura:§! $galactic_crucible_0$"
+
+# MPerks Level 2
+menp_hyperthermia_conc_entropy: "Entropia Concentrata"
+menp_hyperthermia_conc_entropy_desc: "$entropy_conduit_plural$ sono fondamentali per espandere il nostro potere in questa fase. Aumentare la produzione del Crogiolo accelererà la nostra marcia verso un futuro più luminoso e ardente."
+unlocks_conduit_spawn: "§H$UNLOCKS_SHIP_TYPE$:§! $entropy_conduit$ \n- §Y$entropy_conduit_plural$§! vengono creati automaticamente dal §Y$galactic_crucible_4$§! e viaggerà verso i sistemi stellari vicini. \n- Le colonie all'interno di un sistema mirato ricevono dei bonus. \n- Sono equipaggiati con l'arma £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§!, che disabilita i nemici all'impatto per diversi giorni. \n\n"
+menp_hyperthermia_radiant: "Ambizioni Raggianti"
+menp_hyperthermia_radiant_desc: "Essere la scintilla che accende la galassia non lascia tempo per ripensamenti o burocrazia. Non possiamo permetterci di perdere tempo a rimodellare innumerevoli sistemi. Per raggiungere i nostri obiettivi, dobbiamo aumentare drasticamente la nostra capacità di costruzione."
+menp_hyperthermia_ignition: "Accensione Forzata"
+menp_hyperthermia_ignition_desc: "A volte, impegnarsi di più non basta. Dobbiamo portare la nostra tecnologia al livello successivo e sfruttarne appieno il potenziale. È ora di ridurre al minimo le misure di sicurezza e massimizzare la produttività."
+unlocks_crucible_overclocking: "Consente 'l'overclocking' della §HMegastruttura§! §Y$galactic_crucible_1$§!."
+
+# MPerks Level 3
+menp_hyperthermia_cruiser: "$ember_cruiser$"
+menp_hyperthermia_cruiser_desc: "Dotate di tecnologia all'avanguardia, queste navi convertono il flusso di calore volatile in annientamento diretto, riducendo i nostri nemici a cenere carbonizzata."
+unlocks_ember_cruiser: "§H$UNLOCKS_SHIP_TYPE$:§! $ember_cruiser$"
+menp_hyperthermia_flames: "Fiamme Avvolgenti"
+menp_hyperthermia_flames_desc: "L'utopia che immaginiamo non lascia spazio all'opposizione ai nostri obiettivi. Chiunque cercherà di fermarci imparerà presto che la resistenza sarà punita con una pioggia di fuoco sui loro mondi natali."
+unlocks_firestorm_stance: "§HSblocca Terraformazione:§! $pc_volcanic$ \n§HSblocca Atteggiamento di Bombardamento:§! $bombardment_firestorm$\n\n"
+menp_hyperthermia_coronal: "Sfiato Coronale"
+menp_hyperthermia_coronal_desc: "I nostri $entropy_conduit_plural$ attualmente dissipano un enorme calore per rimanere stabili. Scaricando quel calore nello spazio circostante, potremmo trasformare gli $entropy_conduit_plural$ in armi devastanti contro i nostri nemici."
+unlocks_conduit_damage: "§Y$entropy_conduit_plural$§! infligge danni passivi alle navi e alle stazioni ostili. \n\n"
+
+# MPerks Level 4
+menp_hyperthermia_reactors: "Reattori a Eliofusione"
+menp_hyperthermia_reactors_desc: "Sfruttando i §Y$entropy_crystals$§! nella tecnologia militare si ottengono sistemi di propulsione di potenza senza precedenti. Le nostre navi solcheranno le stelle come mai prima d'ora."
+menp_hyperthermia_solarflare: "Bagliore Solare Artificiale"
+menp_hyperthermia_solarflare_desc: "C'è stato un periodo in cui alcune parti della galassia erano fuori dalla nostra portata. Quell'illusione sta finendo. Presto, sciami dei nostri $entropy_conduit_plural$ satureranno le stelle, portando devastazione calibrata a tutti coloro che si oppongono a noi."
+unlocks_conduit_borders: "§Y$entropy_conduit_plural$§! attraversano automaticamente il confine nel territorio nemico. \n\n"
+menp_hyperthermia_armada: "Armata Ardente"
+menp_hyperthermia_armada_desc: "Mentre la galassia si coalizza contro di noi, la mobilitazione diventa imperativa. Ogni cittadino deve ora contribuire a sostenere il fronte energetico, alimentando le fiamme della nostra ascesa."
+unlocks_blazing_navalcap: "§Y[GetAlloyProducerPlural]§! e §Y[GetResearcherPlural]§! aumentano la £navy_size£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!.\n\n"
+
+# MPerks Level 5
+menp_hyperthermia_battleship: "$ember_battleship$"
+menp_hyperthermia_battleship_desc: "Con cannoni caldi come la tempesta di fuoco che sta per travolgere la galassia, queste grandi navi costituiranno il grosso delle nostre forze difensive attorno al Crogiolo."
+unlocks_ember_battleship: "§H$UNLOCKS_SHIP_TYPE$:§! $ember_battleship$ \n- Può equipaggiare l'arma £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§!."
+menp_hyperthermia_critical_mass: "Massa Critica"
+menp_hyperthermia_critical_mass_desc: "L'aumento dell'attività entropica nel guscio esterno di una stella provoca un'ondata di radiazioni. Ciò sta causando un riscaldamento più rapido di interi sistemi."
+unlocks_conduit_boost: "§Y$entropy_conduit_plural$§! diventano più forti a seconda della quantità di sistemi catturati.\n\n$hyperthermia_map_perc$\n\n"
+hyperthermia_map_perc: "§G20%§! della galassia: $TABBED_NEW_LINE$- $entropy_conduit_plural$ devastano le colonie vicine $TABBED_NEW_LINE$- Le colonie colpite perderanno lentamente £pop£ $POPS$ $TABBED_NEW_LINE$- Affligge solo gli imperi di specie non-§YInfernali§! $TABBED_NEW_LINE$- Sistemi richiesti: §Y[root.hyperthermia_own_systems_var]§!/§Y[root.hyperthermia_systems_var]§!"
+menp_hyperthermia_ammunition: "Munizioni Infuse"
+menp_hyperthermia_ammunition_desc: "Un perfezionamento nella progettazione delle munizioni: le munizioni standard sono ora potenziate con nuclei entropici su microscala, che rilasciano picchi termici destabilizzati al momento dell'impatto. Il risultato è una distruzione notevolmente potenziata."
+
+# Misc
+entropy_crystals_deficit: "Carenza di $entropy_crystals$"
+edict_entropy_harnessing: "Sfruttamento di Entropia"
+edict_entropy_harnessing_desc: "L'integrazione della produzione di $entropy_crystals$ nella nostra infrastruttura ci consente di sfruttare appieno le nostre competenze tecniche e di sfruttare al massimo il potenziale di questa nuova risorsa volatile."
+mod_planet_technician_entropy_crystals_produces_add: "£entropy_crystals£ §Y$entropy_crystals$§! da £job_technician£ [GetTechnician]"
+mod_shipsize_ember_cruiser_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_cruiser$)"
+mod_shipsize_ember_battleship_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_battleship$)"
+mod_conduit_spawnrate_add: "Tempo di Costruzione £time£ $entropy_conduit$"
+mod_conduit_spawnrate_switch: "Construzione $entropy_conduit$: §RDisabilitata§!"
+mod_conduit_spawnrate_switch_short: "§RDisabilita la costruzione di $entropy_conduit$§!"
+mod_shipsize_ember_cruiser_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_cruiser$)"
+mod_shipsize_ember_battleship_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_battleship$)"
+ENTROPY_WORMHOLE: "$NATURAL_WORMHOLE_GALACTIC$"
+BYPASS_ENTROPY_WORMHOLE: "$ENTROPY_WORMHOLE_GALACTIC$"
+BYPASS_DESC_UNKNOWN_ENTROPY_WORMHOLE: "Non abbiamo mai visto prima questo tipo di formazione."
+ENTROPY_WORMHOLE_GALACTIC: "Strano Wormhole"
+ENTROPY_WORMHOLE_DESC: "Questo sistema contiene un §YWormhole§! collegato a $DEST|Y$"
+ENTROPY_WORMHOLE_DESC_UNEXPLORED: "Questo sistema contiene un §YWormhole§! §Rinesplorato§!"
+ENTRY_BYPASS_ENTROPY_WORMHOLE: "$BYPASS_TYPE$"
+EXIT_BYPASS_ENTROPY_WORMHOLE: "Uscita $BYPASS_TYPE$"
+personality_hyperthermia_empire: "Termarchia"
+personality_hyperthermia_empire_desc: "Un impero Thermarchico è governato da un'ideologia che esalta l'energia, l'entropia e il fuoco stellare. Non conquistano, ma cauterizzano, scolpendo la galassia con il calore e la volontà."
+triggered_opinion_hyperthermia_empire: "Impero $personality_hyperthermia_empire$"
+mod_job_metallurgist_naval_cap_add: "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$ lavori da £job_foundry£ [GetAlloyProducer]"
+crisis_thermophile_adaptation: "Adattamento Termofilo"
+crisis_thermophile_adaptation_desc: ""
+crisis_conduit_stop: "$mod_conduit_spawnrate_switch$" # modifier is hidden
+crisis_conduit_stop_desc: ""
+
+sm_gravitational_centrifuge: "Centrifuga Gravitazionale"
+sm_gravitational_centrifuge_desc: "Questa struttura sfrutta forti gradienti gravitazionali per separare i materiali di scarto a livello molecolare, creando un plasma entropico che può essere cristallizzato per un ulteriore utilizzo."
+gravitational_centrifuge_tt: "Completa l'Obiettivo di Crisi §H$crisobj_entropy_starbase_name$§!"
+requires_multiple_stars_or_or_bh: "§RRichiede un sistema §Ybinario§!, §Yternario§! o un §Y$pc_black_hole$§!.§!"
+
+# Conduit Starforming
+crisis_conduit_buff: "Supervisione Stellare"
+crisis_conduit_buff_desc: "L'atmosfera della stella locale sta subendo rapidi cambiamenti, causando una raffica di brillamenti solari in tutto il sistema. Sebbene questo sia catastrofico per gli altri, per noi è perfetto per prosperare."
+TERRAFORM_ORDER: "Trasforma Stella"
+TERRAFORM_ORDER_DESC: "Trasformerà lentamente la stella bersaglio in una §Y$pc_m_giant_star$§!."
+TERRAFORM_ORDER_RESEARCH: "Sfruttando il potenziale energetico composito dell'Entropia Cristallizzata, le stelle minori possono espandersi fino a diventare possenti Giganti Rosse."
+FLEETORDER_TERRAFORM_BUTTON: "$TERRAFORM_ORDER$"
+FLEETORDER_TERRAFORM: "Stellaforgiare $PLANET|Y$ ($PROGRESS|Y%0$)"
+FLEETORDER_BOOST_STAR: "Accendere la Stella"
+CAN_NOT_TERRAFORM_STAR: "$TRIGGER_FAIL$Deve essere una stella primaria."
+CAN_NOT_CRISIS_TERRAFORM_STAR_CLASS: "$TRIGGER_FAIL$Classe stella non valida per la trasformazione."
+CAN_NOT_CRISIS_TERRAFORM_STAR_MEGASTRUCTURE: "$TRIGGER_FAIL$La megastruttura orbitante blocca la trasformazione."
+VALID_TERRAFORM_STAR: "La stella può essere terraformata."
+STATION_CAN_NOT_TERRAFORM_STAR: "La stazione di conduzione deve essere in orbita."
+
+# Objectives
+crisobj_own_volcanics_name: "Mondi Vulcanici Propri"
+crisobj_own_volcanics_desc: "L'aumento del calore del sistema alimenta un maggiore vulcanismo, perfetto per portare avanti la nostra missione infuocata. Dovremmo dare priorità alla colonizzazione dei §YMondi Vulcanici§! per rimanere all'avanguardia.\n\nFornisce entrate passive di §Y$entropy_crystals$§! ogni anno, proporzionali al numero di colonie §Y$pc_volcanic$§!."
+crisobj_create_volcanics_name: "Creare Mondi Vulcanici"
+crisobj_create_volcanics_desc: "Diffondere il vulcanismo planetario in tutta la galassia alimenterà la nostra economia basata sui cristalli di entropia. Con le giuste tecniche di terraformazione, possiamo innescare un'attività vulcanica sostenuta ovunque desideriamo.\n\nTerraformare un pianeta in un §Y$pc_volcanic$§!"
+crisobj_own_red_stars_name: "Stella Rossa Propria"
+crisobj_own_red_stars_desc: "Dovremmo dare priorità alla colonizzazione dei sistemi attorno alle stelle rosse. Le loro vaste superfici di emissione sono ideali per la raccolta di energia termica.\n\nFornisce un reddito passivo di §Y$entropy_crystals$§! ogni mese, proporzionale a ciascun §Y$pc_m_star$§! o §Y$pc_m_giant_star$§! presente all'interno dei nostri confini."
+crisobj_create_red_stars_name: "Creare Stelle Rosse"
+crisobj_create_red_stars_desc: "Canalizzando i Cristalli Entropici, possiamo trasformare le stelle in Giganti Rosse, alimentando l'ascesa del nostro nuovo impero ardente.\n\nLe stelle terraformate dai §Y$entropy_conduit_plural$§! diventano §Y$pc_m_giant_star$§!"
+crisobj_planet_firestorm_name: "Incendio Doloso Planetario"
+crisobj_planet_firestorm_desc: "È ora di insegnare ai nostri rivali il vero significato della supremazia, con un bombardamento devastante che ridurrà il loro mondo in cenere.\n\nBombardare una colonia con §Y$bombardment_firestorm$§! per infliggere §R100% di devastazione§!"
+crisobj_lens_beam_impact_name: "Navi Distruttive"
+crisobj_lens_beam_impact_desc: "I mondi freddi e temperati non ci servono a nulla. Dobbiamo rimodellarli, sciogliendone la superficie per ottenere forme più adatte alle nostre esigenze.\n\nUtilizzare l'arma £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§!, equipaggiata sui §Y$entropy_conduit_plural$§! e §Y$ember_battleship_plural$§!, per bombardare i mondi nemici."
+crisobj_entropy_starbase_name: "Centrifughe Gravitazionali Proprie"
+crisobj_entropy_starbase_desc: "Le centrifughe gravitazionali ci aiuteranno a raccogliere più $entropy_crystals$. \n\nCostruisci la base stellare §Y$sm_gravitational_centrifuge$§! nei sistemi §Ybinari§!, §Yternari§! o §Y$pc_black_hole$§!."
+
+# Ships
+NAME_Ember_Cruiser: "Devastatore Ardente"
+ember_cruiser_cap: "$ember_cruiser$"
+ember_cruiser: "$cruiser$ Ember"
+ember_cruiser_plural: "$cruiser_plural$ Ember"
+EMBER_CRUISER_BOW_L1: "$CRUISER_BOW_L1$"
+EMBER_CRUISER_BOW_M1S2: "$CRUISER_BOW_M1S2$"
+EMBER_CRUISER_BOW_M2: "$CRUISER_BOW_M2$"
+EMBER_CRUISER_MID_S2HB: "$CRUISER_MID_S2HB$"
+EMBER_CRUISER_MID_L1M1: "$CRUISER_MID_L1M1$"
+EMBER_CRUISER_MID_M3: "$CRUISER_MID_M3$"
+EMBER_CRUISER_MID_M2S2: "$CRUISER_MID_M2S2$"
+EMBER_CRUISER_STERN_M1: "$CRUISER_STERN_M1$"
+EMBER_CRUISER_STERN_S2: "$CRUISER_STERN_S2$"
+
+NAME_Ember_Battleship: "Flaming Smelter"
+ember_battleship_cap: "$ember_battleship$"
+ember_battleship: "$battleship$ Ember"
+ember_battleship_plural: "$battleship_plural$ Ember"
+EMBER_BATTLESHIP_BOW_L1M1S2: "$BATTLESHIP_BOW_L1M1S2$"
+EMBER_BATTLESHIP_BOW_L2: "$BATTLESHIP_BOW_L2$"
+EMBER_BATTLESHIP_BOW_M1S2SHB: "$BATTLESHIP_BOW_M1S2SHB$"
+EMBER_BATTLESHIP_BOW_XL: "$BATTLESHIP_BOW_M2S4$"
+EMBER_BATTLESHIP_MID_L2M2: "$BATTLESHIP_MID_L2M2$"
+EMBER_BATTLESHIP_MID_L3: "$BATTLESHIP_MID_L3$"
+EMBER_BATTLESHIP_MID_M4SHB: "$BATTLESHIP_MID_M4SHB$"
+EMBER_BATTLESHIP_MID_S4LHB: "$BATTLESHIP_MID_S4LHB$"
+EMBER_BATTLESHIP_STERN_L1: "$BATTLESHIP_STERN_L1$"
+EMBER_BATTLESHIP_STERN_M2: "$BATTLESHIP_STERN_M2$"
+
+conduit_station_cap: "$entropy_conduit$"
+conduit_station: "$entropy_conduit$"
+conduit_station_plural: "$entropy_conduit_plural$"
+NAME_Conduit_Station: "$NAME_Entropy_Conduit$" 
+entropy_conduit_cap: "$entropy_conduit$"
+entropy_conduit: "Condotto"
+entropy_conduit_plural: "Condotti"
+entropy_conduit_key: "Condotto Centrale"
+NAME_Entropy_Conduit: "Condotto Entropico"
+
+# Weapon
+LENS_FLARE_BEAM: "Lente Paralizzatrice"
+LENS_FLARE_BEAM_DESC: "Il raggio di quest'arma è calibrato per disturbare i sistemi di controllo critici, consentendo una finestra temporale limitata per attacchi senza opposizione."
+lfb_on_hit_stun_tt: "§YDisabilita§! il bersaglio per §G7§! giorni, rendendolo incapace di muoversi o rispondere al fuoco."
+lf_weapon_stun_effect: "§RImpatto della $LENS_FLARE_BEAM$§!"
+lf_weapon_stun_effect_desc: "   " # not visible
+
+# Megastructure
+galactic_crucible_0: "Telaio del Crogiolo Galattico"
+galactic_crucible_0_DESC: "È l'impalcatura di base di un $galactic_crucible_4$, costruita per sostenere e guidare il resto della struttura."
+galactic_crucible_0_MEGASTRUCTURE_DETAILS: "Questa vasta stazione sottrae energia alla sua stella, alimentando cantieri navali automatizzati che producono §Y$entropy_conduit_plural$§!; navi in grado di rimodellare il destino di una stella."
+galactic_crucible_1: "Chassis del $galactic_crucible_4$"
+galactic_crucible_1_DESC: "Con la sua infrastruttura di base completata, il $galactic_crucible_4$ è ora una stazione funzionante. La costruzione dei sistemi di cristallizzazione dell'entropia è già in corso."
+galactic_crucible_2: "Nucleo del $galactic_crucible_4$"
+galactic_crucible_2_DESC: "Il $galactic_crucible_4$ è ora pienamente operativo e pronto per espandere l'implementazione dell'§Y$entropy_crystals$§!. Tutti gli aggiornamenti futuri dipenderanno da questa base.\n\n§HCompleta il Progetto Speciale per sbloccare la fase successiva.§!"
+galactic_crucible_3: "Centro del $galactic_crucible_4$"
+galactic_crucible_3_DESC: "Il sistema del $galactic_crucible_4$, in fase di espansione, è ora dotato di sistemi entropici modulari, progettati per una riconfigurazione e una crescita senza soluzione di continuità. I tecnici possono aumentarne la capacità riducendo al minimo le inefficienze."
+galactic_crucible_4: "Crogiolo Galattico"
+galactic_crucible_4_DESC: "Completamente armato e operativo, il $galactic_crucible_4$ è pronto a scatenare la sua furia devastante in tutta la galassia. I sistemi di flusso entropico funzionano ora alla massima efficienza teorica."
+galactic_crucible_5: "Istituto del $galactic_crucible_4$"
+galactic_crucible_5_DESC: "Il $galactic_crucible_4$ è stato irreversibilmente riprogettato per impedire un'emissione di energia pericolosamente elevata. Rimarrà una fonte stabile e sicura di prosperità per l'impero."
+galactic_crucible_ruined: "$galactic_crucible_4$ in rovina"
+galactic_crucible_ruined_DESC: "Un cantiere navale in rovina, un tempo forgiato per servire le ardenti ambizioni di un impero caduto."
+galactic_crucible_ruined_MEGASTRUCTURE_DETAILS: "Questa vasta rovina irradia ancora calore intermittente, che pulsa in modo imprevedibile tra i resti frantumati."
+SPAWN_CONDUITS: "$entropy_conduit_plural$"
+SPAWN_CONDUITS_DESC: "Il $galactic_crucible_4$ costruisce automaticamente dei $entropy_conduit_plural$. Si dirigeranno verso una stella che può essere trasformata in una §Y$pc_m_giant_star$§!."
+megastructure_overclocking_desc: "Grazie all'overclocking strategico, questa megastruttura può superare i limiti operativi standard e sbloccare effetti unici."
+overclock_mode: "Modalità:"
+overclock_gc_default: "$overclock_mode$ di §HDefault§!"
+overclock_gc_default_desc: "Produce una fornitura costante e modesta di Entropia Cristallizzata.\n"
+overclock_gc_high: "$overclock_mode$ in §HSovraccarico§!"
+overclock_gc_high_desc: "Utilizza enormi riserve energetiche per potenziare la costruzione dei Condotti.\n"
+overclock_gc_eco: "$overclock_mode$ in §HProduzione§!"
+overclock_gc_eco_desc: "Un investimento consistente in leghe consente di produrre Entropia Cristallizzata a un ritmo più elevato.\n"
+overclock_gc_war: "$overclock_mode$: §HCentro di Coordinamento§!"
+overclock_gc_war_desc: "Il $galactic_crucible_4$ può essere utilizzato per fornire alle navi vicine abbondanti quantità di energia di riserva, massimizzando la forza combattiva delle flotte difensive.\n"
+
+# Event Chain
+galactic_hyperthermia_chain_title: "$ap_galactic_hyperthermia$"
+galactic_hyperthermia_chain_desc: "Abbiamo deciso che il futuro sarà avvolto dalle fiamme e ci stiamo muovendo per incendiare l'intera galassia."
+
+# Special Projects
+INF_CRISIS_ENTROPY: "Nuova Fonte di Alimentazione"
+INF_CRISIS_ENTROPY_DESC: "Il fuoco ha sempre avuto un ruolo importante nella nostra società, ma ora potremmo essere in grado di sfruttare il suo potere caotico in modi totalmente nuovi. Questo potrebbe essere ciò che gli scienziati hanno sempre sognato: una fonte di energia che va oltre l'alimentazione della nostra civiltà attuale e può catapultarci tra le stelle.\n\n§HEffetto:§! Sblocca la nuova risorsa £entropy_crystals£ §Y$entropy_crystals$§!."
+INF_CRISIS_ENTROPY_EVIL: "Tempesta di Fuoco Forgiata"
+INF_CRISIS_ENTROPY_EVIL_DESC: "Il Crogiolo ci ha mostrato una nuova strada per la nostra specie. Sarebbe sciocco non abbracciarla, e non dovremmo tollerare gli sciocchi. È tempo di rifare la galassia con un'immagine nuova e fiammeggiante, e bruciare chiunque rifiuti la nostra visione.\n\n§HEffetti:§!\n- Sblocca il prossimo potenziamento del §Y$galactic_crucible_4$§!.\n- I §Y$entropy_conduit_plural$§! ora possono convertire le stelle nel territorio nemico.\n\n" # Crystallized Entropy is used to its full potential
+INF_CRISIS_ENTROPY_GOOD: "Correlazione Imprevista"
+INF_CRISIS_ENTROPY_GOOD_DESC: "Sebbene il potere del Crogiolo sia immenso, è anche instabile. Se ne compromettiamo definitivamente le capacità, ci assicureremo una modesta fonte di prosperità senza mettere in pericolo la galassia né perdere la benevolenza dei nostri vicini." # Crystallized Entropy can be used for the economy
+
+# Countdown Situation
+situation_galactic_hyperthermia_timer: "Mobilitazione"
+situation_galactic_hyperthermia_timer_type: "$situation_galactic_hyperthermia_timer$"
+situation_galactic_hyperthermia_timer_desc: "La nostra padronanza dell'§Y$entropy_crystals$§! ci consentirà presto di avviare una trasformazione radicale della galassia. Abbiamo aperto dei wormhole verso sei sistemi attorno al nucleo galattico.\nSe riusciremo a stabilire dei §Y$entropy_conduit_plural$§! in ciascuno di essi e a difenderli da chiunque tenti di interferire con i nostri piani, saremo in grado di incendiare la galassia stessa."
+situation_galactic_hyperthermia_timer_monthly_change_tooltip: "Il livello attuale di entropia che si irradia nel nucleo galattico. Quando raggiungerà il suo picco, la galassia brucerà."
+situation_gh_timer_outcome: "I nostri servizi segreti riferiscono che diverse nazioni potrebbero prepararsi alla guerra per ostacolare i nostri piani. Se li affrontiamo impreparati, la nostra impresa fallirà prima ancora di iniziare."
+situation_gh_approach_timer: "Affronta le Conseguenze"
+situation_gh_approach_timer_tt: "È giunto il momento. Un conflitto inevitabile sta per travolgere la galassia in una guerra di proporzioni epiche."
+situation_gh_difficulty_progress: "Difficoltà"
+situation_gh_opponent_progress: "§G-0.1§! per ogni impero avversario"
+
+# Crisis Situation
+situation_galactic_hyperthermia: "Tempesta di Fuoco Galattica"
+situation_galactic_hyperthermia_type: "$situation_galactic_hyperthermia$"
+situation_galactic_hyperthermia_monthly_change_tooltip: "La velocità con cui la galassia si sta avvicinando alla combustione totale."
+situation_hyperthermia_desc_perp: "§LImmaginiamo un'utopia splendente, ma per crearla dobbiamo incenerire tutto ciò che ci ostacola. Abbiamo acceso le prime scintille e ora dobbiamo alimentare le fiamme fino a consumare ogni angolo della galassia.§!\n\n$situation_hyperthermia_stats$"
+situation_hyperthermia_desc: "§L§Y[event_target:hyperthermia_empire.GetName]§! ha infiammato le stelle. Ora tocca a noi combattere il più grande incendio che la galassia abbia mai affrontato. Non ci sono seconde possibilità. Se falliamo, tutto ciò che abbiamo realizzato sarà ridotto in cenere.§!\n\n$situation_hyperthermia_stats$"
+situation_hyperthermia_stats: "§HSistemi Centrali Acquisiti:§! [event_target:hyperthermia_empire.gh_crisis_core_var]"
+
+situation_galactic_hyperthermia_outcome: "[GetHyperthermiaOutcome]"
+situation_gh_outcome_perp: "Se avremo successo, una pioggia di fuoco consumerà la galassia, lasciando solo coloro che hanno abbracciato il calore tra le ceneri. Nemmeno le stelle saranno immuni; dopo miliardi di anni, saranno rimodellate a immagine della nostra stella natale."
+situation_gh_outcome_other: "Se §Y[hyperthermia_empire.GetName]§! avrà successo, l'intera galassia sarà ridotta in cenere, creando un regno in cui sopravviveranno solo forme di vita termofile."
+
+situation_galactic_hyperthermia_progress: "La quantità di sistemi del Nucleo Galattico occupati dai §Y$entropy_conduit_plural$§! determina la progressione mensile. \n$TABBED_NEW_LINE$- Meno di §Y3§! sistemi: §R-3§! $TABBED_NEW_LINE$- Occupando §Y3§! sistemi: §Y0§! $TABBED_NEW_LINE$- Più di §Y3§! sistemi: §G+3§! \n\nProgresso Attuale"
+situation_galactic_hyperthermia_stage1: "Minimo raggiunto ($stage_1$)"
+
+situation_gh_approach_perp: "Alimenta il Fuoco"
+situation_gh_approach_perp_tt: "Ora o mai più. Dobbiamo riuscirci, o rischiamo di perdere tutto ciò che abbiamo ottenuto."
+situation_gh_approach_other: "Spegnere le Fiamme"
+situation_gh_approach_other_tt: "Questo impero rappresenta una minaccia esistenziale alla stabilità galattica. Il pieno impegno non è più una scelta, ma una necessità."
+
+# Events
+# NOTE: Remove most #comments below after texts are done
+infernals.1000.name: "Un Nuovo Potere"
+infernals.1000.desc: "[GetHyperthermiaIntroIfRedGiant]"
+infernals.1000.descNormal: "I nostri [GetScientistPlural] riportano un nuovo metodo per raccogliere e immagazzinare l'entropia legandola in una matrice cristallina ad alta energia. Questa §Y$entropy_crystals$§! può immagazzinare e trasportare una notevole quantità di energia termica, applicabile in operazioni industriali, economiche e interstellari.\n\nLa modellazione suggerisce che potrebbero essere utilizzati per terraformare pianeti in climi più caldi, o persino per accelerare l'evoluzione stellare in giganti rosse. In linea di principio, l'entropia dispersa in tutta la galassia potrebbe essere recuperata e convertita in calore utilizzabile, guidando l'espansione termica composta su scala galattica.\n\n§HAvvia Progetto Speciale:§! §Y$INF_CRISIS_ENTROPY$§!" 
+infernals.1000.descRedGiant: "I nostri [GetScientistPlural] hanno analizzato l'§Y$entropy_crystals$§! un tempo usata per innescare una Gigante Rossa, un atto che ha quasi posto fine alla nostra civiltà prima ancora che potesse nascere. Ora siamo in grado di riprogettare questa sostanza volatile per legare e trasportare una grande quantità di energia termica per uso industriale, economico e su scala stellare.\n\nLe simulazioni suggeriscono che potrebbe consentire la terraformazione in climi più caldi o innescare l'evoluzione stellare in giganti rosse. In teoria, l'entropia galattica ambientale potrebbe essere recuperata e convertita in calore, guidando l'espansione termica sistemica.\n\n§HAvvia Progetto Speciale:§! §Y$INF_CRISIS_ENTROPY$§!" # Intro if you've learned about entropy from the Red Giant Miners
+
+infernals.1005.name: "Cristallizzazione Ottenuta"
+infernals.1005.desc1: "Abbiamo completato la nostra prima infrastruttura funzionante per la raccolta di energia e la sua conversione in §Y$entropy_crystals$§!. Questi cristalli contengono un'immensa energia termica e consentono già alla nostra industria di immagazzinarla e trasportare l'energia in modo molto più efficiente rispetto ai metodi convenzionali.\n\nLe Giganti Rosse, grazie alle loro vaste superfici di emissione e alla loro produzione termica, sono ideali per questo processo e siamo pronti ad implementare la tecnologia in qualsiasi sistema sotto il nostro controllo.\n\nI nostri tecnici hanno anche iniziato ad adattare il processo per l'uso industriale, sperimentando modi per sintetizzare l'$entropy_crystals$ sfruttando l'entropia ambientale. Con l'avvio di questa nuova economia, ricchezza e potere seguiranno sicuramente. I nostri [GetScientistPlural] stanno già studiando come aumentare ulteriormente la produzione.\n\n§HSblocca la Megastruttura:§! §Y$galactic_crucible_0$§!" # Reaching lv1
+infernals.1005.desc2: "Con i nostri campioni esistenti di §Y$entropy_crystals$§!, possiamo raccoglierli e sintetizzarli senza mettere in pericolo la nostra stella natale. Questi cristalli contengono un'immensa energia termica, consentendo alla nostra industria di immagazzinare e trasportare energia in modo molto più efficiente rispetto ai metodi convenzionali.\n\nLe Giganti Rosse, grazie alle loro vaste superfici di emissione e alla loro produzione termica, sono ideali per questo processo e siamo pronti ad implementare la tecnologia in qualsiasi sistema sotto il nostro controllo.\n\nI nostri tecnici hanno anche iniziato ad adattare il processo per uso industriale, sperimentando modi per sintetizzare l'$entropy_crystals$ sfruttando l'entropia ambientale. Con l'avvio di questa nuova economia, ricchezza e potere seguiranno sicuramente. I nostri [GetScientistPlural] stanno già studiando come aumentare ulteriormente la produzione.\n\n§HSblocca la Megastruttura:§! §Y$galactic_crucible_0$§!" # Reaching lv1
+infernals.1005.a: "Dobbiamo iniziare la costruzione."
+infernals.1005.a.tt: "Usa un $constructor$ per costruire il §Y$galactic_crucible_0$§! attorno a una stella."
+infernals.1005.b: "Ordina ai droni di iniziare la costruzione."
+infernals.1005.b.tt: "Usa un $constructor$ per costruire il §Y$galactic_crucible_0$§! attorno a una stella."
+
+infernals.1006.name: "Evoluzione Termofila"
+infernals.1006.desc: "Ci incamminiamo nel nostro viaggio per incendiare la galassia, ma dobbiamo essere preparati al meglio per affrontare il calore. Adattare la nostra popolazione a temperature più elevate ci aiuterà a prosperare nel nostro nuovo futuro."
+infernals.1006.descRedGiant: "Mentre lavoriamo instancabilmente per invertire i cambiamenti della nostra stella, il nostro corpo deve essere preparato al meglio per affrontare il fuoco e le fiamme. Adattare la nostra popolazione a temperature più elevate ci aiuterà a prosperare nel nostro nuovo futuro."
+
+infernals.1010.name: "Lancio dei $entropy_conduit_plural$"
+infernals.1010.desc: "Il $galactic_crucible_1$ è ora pronto per dispiegare i §Y$entropy_conduit_plural$§!: sistemi automatizzati progettati per incanalare e amplificare l'entropia stellare. Una volta inviati, ricicleranno e intensificheranno l'energia prodotta da una stella, trasformandola in una gigante rossa e riscaldando interi sistemi per sostenere l'infrastruttura del nostro impero in espansione.\n\nQuesti §Y$entropy_conduit_plural$§! possono essere prodotti a intervalli regolari e funzionano in modo del tutto autonomo. Per ora rimarranno all'interno del nostro territorio, ma col tempo potrebbe essere utile lasciarli diffondere in tutta la galassia. Dopotutto, il nostro impero non smette mai di crescere.\n\n§HAggiornamento Megastruttura Disponibile:§! §Y$galactic_crucible_2$§!" # Reaching lv2
+infernals.1010.a: "La produzione dell'$entropy_crystals$ accelererà."
+infernals.1010.b: "Dobbiamo conquistare altre stelle."
+
+infernals.1015.name: "Quanto diventerà troppo caldo?"
+infernals.1015.desc: "La nostra continua ricerca sull'§Y$entropy_crystals$§! ha rivelato una possibilità agghiacciante: quando è altamente concentrata, può alimentare armi di portata inimmaginabile, in grado di devastare interi pianeti. Con un tale potere, la galassia potrebbe cadere sotto il nostro dominio.\n\nMa esplorare queste applicazioni militari distruggerebbe quel poco di fiducia che rimane tra noi e i nostri vicini. E chi può dire che un giorno tali armi non potrebbero essere usate contro di noi?\n\nLe inutili parole di pace non saranno sufficienti. Se vogliamo dimostrare le nostre intenzioni, dobbiamo distruggere pubblicamente il $galactic_crucible_2$, assicurandoci che non possa mai produrre tali armi. Altrimenti, è solo questione di tempo prima che questa tecnologia venga trasformata in arma, da noi o da qualcun altro.\n\n§HQuesta decisione sbloccherà un Progetto Speciale§!" # Reaching lv3 & decision
+infernals.1015.a: "Alimenta le fiamme della guerra!" # evil path
+infernals.1015.a.desc: "Avvia Progetto Speciale $crisis_hyperthermia_level_4$.\n" #\n\n§HIssues Special Project:§! §Y$INF_CRISIS_ENTROPY_EVIL$§!
+infernals.1015.b: "Moderiamo le nostre ambizioni." # good path
+infernals.1015.b.desc: "Impedisce l'accesso al livello di Crisi $crisis_hyperthermia_level_4$. \n\n§HAvvia Progetto Speciale:§! §Y$INF_CRISIS_ENTROPY_GOOD$§! per trasformare il §Y$galactic_crucible_2$§! in un §Y$galactic_crucible_5$§!."
+
+infernals.1020.name: "Nel Fuoco"
+infernals.1020.desc: "La nostra indagine sull'§Y$entropy_crystals$§! e sul progetto §Y$INF_CRISIS_ENTROPY_EVIL$§! ha confermato ciò che sospettavamo: il potenziale di armi devastanti è reale. Con un tale potere nelle nostre mani, non abbiamo più bisogno di moderarci per motivi diplomatici.\n\nL'espansione del $galactic_crucible_3$ accelererà, con particolare attenzione alle sue applicazioni più... aggressive. Prima sbloccheremo queste armi, meno conterà l'opinione della galassia.\n\n§HAggiornamento Megastruttura Disponibile§! §Y$galactic_crucible_4$§!" # Finishing special project for evil path
+infernals.1020.a: "Dobbiamo prepararci alla guerra."
+infernals.1020.a.tt: "- L'espansione del §Y$galactic_crucible_4$§! dovrebbe essere una priorità.\n- $unlocks_conduit_damage$"
+infernals.1020.b: "I nostri rivali saranno legna da ardere per il fuoco."
+infernals.1020.b.tt: "- L'espansione del §Y$galactic_crucible_4$§! dovrebbe essere una priorità.\n- $unlocks_conduit_damage$"
+
+infernals.1021.name: "Un Bagliore Incessante"
+infernals.1021.desc: "Il $galactic_crucible_3$ è stato neutralizzato con successo, assicurando che non possa più essere ampliato o riutilizzato per scopi distruttivi. Sebbene la perdita del suo pieno potenziale sia deplorevole, continuare su quella strada avrebbe rischiato di provocare una catastrofe e il collasso di tutti i rapporti diplomatici.\n\nFortunatamente, anche nella sua forma limitata, l'$galactic_crucible_5$ rimarrà una potente fonte di energia e prosperità. Abbiamo fatto un passo indietro prima di oltrepassare il limite, assicurandoci un futuro in cui potremo collaborare con la comunità galattica continuando a beneficiare di questa straordinaria scienza.\n\n§HAggiornamento Megastruttura Disponibile:§! §Y$galactic_crucible_5$§!" # Finishing special project for good path
+infernals.1021.a: "Tutti noi traiamo beneficio dalla collaborazione reciproca."
+infernals.1021.b: "Nell'armonia troviamo la prosperità."
+
+infernals.1025.name: "Intorno al Nucleo"
+infernals.1025.desc: "La nostra ricerca in corso sui §Y$entropy_conduit_plural$§! e sulla trasformazione delle stelle in giganti rosse suggerisce che potremmo essere in grado di ampliare le nostre operazioni fino a surriscaldare il nucleo galattico stesso, innescando una cascata termica in tutta la galassia e trasformandola così in un luogo molto più ospitale per noi.\n\nAbbiamo identificato sei sistemi che circondano il nucleo che potrebbero fungere da centri operativi per questa impresa. Questi sistemi si trovano oltre la rete di ipervie galattiche, ma sono in corso sforzi per generare wormhole stabili e stabilire un accesso." # Reaching lv4
+infernals.1025.a: "Siamo gli unici adatti a sopravvivere alle fiamme"
+infernals.1025.a.tt: "Altre specie cercheranno di opporsi a noi. Prepariamoci ad una guerra galattica"
+infernals.1025.b: "L'intera galassia arderà in armonia."
+infernals.1025.b.tt: "Altre specie cercheranno di opporsi a noi. Prepariamoci ad una guerra galattica"
+
+infernals.1030.name: "Diamo il via alle Danze"
+infernals.1030.desc: "Il $galactic_crucible_4$ è completamente armato e operativo. Con il completamento dei tunnel wormhole, abbiamo assicurato l'accesso a tutti e sei i sistemi di staging attorno al Nucleo Galattico.\n\nIl nostro lavoro per surriscaldare il nucleo può avere inizio. Altri imperi potrebbero rilevare la nostra attività e tentare di raggiungere questi sistemi, ma per ora abbiamo un vantaggio e il nucleo si piega al nostro volere.\n\n§HUsa il Wormhole per assicurarti i Sistemi del Nucleo Galattico§!" # Reaching lv5, lanes open in 3 years!
+infernals.1030.a: "Inizia l'installazione nei sistemi centrali."
+infernals.1030.a.tt: "L'implementazione dei §Y$entropy_conduit_plural$§! nei sei sistemi del Nucleo Galattico ci consentirà di surriscaldare l'intera galassia contemporaneamente. Dobbiamo iniziare i preparativi."
+infernals.1030.b: "Il nostro futuro è luminoso grazie al fuoco."
+infernals.1030.b.tt: "$infernals.1030.a.tt$"
+
+infernals.1035.name: "Allarme Antincendio Galattico"
+infernals.1035.desc: "Gli imperi rivali hanno aperto con la forza le ipervie verso le nostre basi operative vicino al nucleo galattico. Mentre continuiamo a surriscaldare il nucleo, dobbiamo prepararci alla resistenza.\n\nMa non ci fermeranno. Il freddo buio dello spazio sarà spazzato via e sostituito dalla gloria ardente del nostro futuro ascendente."
+# core is now connected with the galaxy!
+infernals.1035.a: "Non riusciranno mai a spegnerci"
+infernals.1035.b: "Lasciamo che si gettino nelle nostre fiamme incandescenti."
+
+infernals.1040.name: "Tempesta in Arrivo"
+infernals.1040.desc: "Il nucleo galattico ha iniziato ad agitarsi. I livelli di entropia attorno al buco nero supermassiccio stanno aumentando vertiginosamente, proiettando onde di radiazione termica nei sistemi vicini.\n\nProprio mentre il panico sta prendendo piede, un team di coraggiosi scienziati provenienti da diversi pianeti ha svelato l'esistenza di ipervie di recente formazione che collegano sei sistemi che circondano il nucleo. Questi sistemi, a quanto pare, ospitano strutture gestite da §Y[hyperthermia_empire.GetName]§!, che stanno attivamente surriscaldando il nucleo. Questa manomissione sconsiderata minaccia di innescare una tempesta di fuoco a cascata in tutta la galassia, incenerendo tutti coloro che non riescono a fermare le loro ambizioni.\n\nSe vogliamo sopravvivere, dobbiamo violare questi sistemi e strappare loro il controllo. La crisi è qui e la temperatura continua a salire." # other empires learn about the core, forming a coalition war
+infernals.1040.a: "Dobbiamo fermarli!" # generic reply (declares war)
+infernals.1040.a.tt: "§LUna crisi di proporzioni senza precedenti sta per travolgere la nostra galassia. Solo la forza combinata di una nuova alleanza potrà salvarci.§! \n\nFormeremo una §Ycoalizione§! di imperi che si opporranno alla crisi, dando vita a un conflitto che coinvolgerà l'intera galassia. §RDichiareremo guerra§! contro §Y[hyperthermia_empire.GetName]§!."
+infernals.1040.b: "Bruciate, stolti!" # Genocidals reply
+infernals.1040.b.tt: "§LIn tempi di crisi, ogni specie pensa a se stessa. Abbiamo la forza per risolvere la situazione da soli§!"
+infernals.1040.c: "Sono proprio come noi." # Infernals reply
+infernals.1040.c.tt: "§LI metodi di §Y[hyperthermia_empire.GetName]§! sono in linea con la nostra visione di una galassia trasformata. Alla luce di questo allineamento, potremmo essere risparmiati dalla piena forza di ciò che altri considereranno una catastrofe.§!"
+infernals.1040.d: "Non è affar nostro" # neutral reply
+infernals.1040.d.tt: "§LUn impero che gioca con il fuoco non è certo una novità. Questo sconvolgimento passerà, come tutte le cose. Non c'è motivo di coinvolgerci.§!"
+
+infernals.1042.name: "Escalation: §RCrisi Dichiarata§!"
+infernals.1042.desc: "Le più grandi trasformazioni della storia hanno sempre richiesto grandi sacrifici. Tuttavia, la Comunità Galattica considera il nostro lavoro una minaccia piuttosto che una necessità. In risposta, una coalizione militare unificata si è mobilitata contro di noi.\n\nCon l'obiettivo dichiarato di sterminarci, non abbiamo alternative: qualsiasi approccio al Nucleo Galattico o al $galactic_crucible_4$ sarà contrastato con una forza schiacciante.\n\nLa nostra visione ha infiammato le stelle stesse. Coloro che si oppongono affrontino la tempesta che abbiamo scatenato.\n\n§HDifendete i sistemi del Nucleo Galattico e la vittoria sarà assicurata!§!"
+infernals.1042.a: "Un risultato inevitabile."
+
+infernals.1043.name: "Chiamata alle armi: §RCrisi Dichiarata§!"
+infernals.1043.desc: "Alla luce delle crescenti minacce al centro della galassia, la Comunità Galattica ha messo in atto una risposta unitaria contro §Y[hyperthermia_empire.GetName]§!, i cui sforzi radicali per aumentare la temperatura galattica mettono in pericolo tutte le forme di vita conosciute.\n\nSe queste ambizioni dovessero procedere senza controllo, innumerevoli civiltà andrebbero incontro all'estinzione. Il cosiddetto §Y[hyperthermia_empire.GetName]§! si trova ora in aperta opposizione ad una coalizione unita dalla necessità.\n\nLa battaglia è iniziata e trilioni di vite sono in bilico.\n\n§HCatturate i sistemi del nucleo galattico o tutto sarà perduto!§!"
+infernals.1043.a: "Mobilitate le flotte!"
+
+infernals.1045.name: "Corsa Contro il Tempo"
+infernals.1045.desc1: "È imminente una tempesta di fuoco a cascata. Presto, il nucleo galattico erutterà, spazzando via i nostri nemici e consolidando il nostro dominio sulle stelle.\n\nMa la galassia rifiuta di abbracciare il nostro futuro radioso. Attraverso le ipervie appena create, complottano per invadere le nostre basi operative e distruggere tutto ciò che abbiamo costruito. Per quale motivo? Per preservare la loro fredda e stagnante oscurità?\n\nNon possiamo permettere loro di interferire. Dobbiamo mantenere la linea al centro, finché la tempesta di fuoco non si accenderà e li ridurrà in cenere." # last stage of global situation - crisis
+infernals.1045.desc2: "Il nucleo galattico diventa sempre più caldo, alimentato dall'ossessione fanatica di §Y[hyperthermia_empire.GetName] di accendere le stelle. Di questo passo, la loro tempesta di fuoco annienterà ogni opposizione e spazzerà via quasi tutta la vita dalla galassia.\n\nNon è possibile ragionare con loro. Se vogliamo sopravvivere, dobbiamo colpire alla fonte: i sistemi del nucleo galattico, dove il loro potere è più forte. Solo così potremo fermare §Y[hyperthermia_empire.GetName]§!.\n\nIl destino dell'intera galassia è in bilico. È ora di mostrare a §Y[hyperthermia_empire.GetName]§! che chi gioca con il fuoco... finisce per bruciarsi." # last stage of global situation - others
+infernals.1045.a: "Terremo la posizione."
+infernals.1045.a.tooltip: "Dobbiamo mantenere il controllo dei sei sistemi principali per ottenere la vittoria."
+infernals.1045.b: "Dobbiamo eliminarli una volta per tutte."
+infernals.1045.b.tooltip: "Dobbiamo attaccare i sei sistemi principali e distruggere i condotti di §Y[hyperthermia_empire.GetName]§! altrimenti verremo inceneriti."
+
+infernals.1055.name: "La galassia è nostra!"
+infernals.1055.desc: "Abbiamo alimentato le fiamme della vittoria dal centro della galassia fino alle stelle più lontane. La tempesta di fuoco ha ridotto i nostri nemici in cenere. Non avevano la visione, il coraggio, per abbracciare il glorioso futuro che abbiamo rivendicato. La galassia è nostra.\n\nIn questo nuovo ordine di fuoco e furia, i pianeti ribollono di magma e luce, illuminati dal calore crescente delle giganti rosse. L'entropia si diffonde in ogni sistema, pronta per essere raccolta e piegata al nostro volere. Ogni giorno che passa, il nostro impero diventa più ricco, più forte... inarrestabile.\n\nAbbiamo consumato l'intera galassia e l'abbiamo ricostruita come un faro ardente del nostro dominio. E un giorno, forse, getteremo altre galassie sul rogo." # crisis won
+infernals.1055.a: "Questa nuova galassia è nostra, pronta per essere conquistata"
+infernals.1055.b: "Alla fine, tutti i fuochi si uniscono per diventare uno solo."
+infernals.1055.c: "La nostra dimora non ha spazio per forme di vita deboli." #Scorched world heralds (genocidal Infernal)
+infernals.1055.d: "La nostra resistenza è stata finalmente ricompensata." #Infernal Fire Cult
+infernals.1055.e: "Abbiamo bandito il freddo e l'oscurità da questa galassia." #Other Infernals
+infernals.1055.f: "I nostri miserabili rivali sono ridotti in cenere." #Generic Genocidal
+
+infernals.1052.name: "$galactic_crucible_4$ Catturato"
+infernals.1052.desc: "Con la conquista del sistema §H[crucible_system.GetName]§!, le nostre forze hanno anche preso il controllo del $galactic_crucible_4$ che era in costruzione attorno alla stella locale. \n\nLa perdita di questa megastruttura distrugge ogni residua speranza dei suoi creatori di conquistare la galassia con la forza."
+infernals.1052.a: "Distruggiamolo!"
+infernals.1052.a.tt: "Il §Y$galactic_crucible_4$§! verrà danneggiato irreparabilmente."
+infernals.1052.b: "Possiamo sfruttare questa opportunità."
+infernals.1052.b.tt: "Trasforma il §Y$galactic_crucible_4$§! in un §Y$galactic_crucible_5$§! per la produzione di $r_alloys$."
+
+infernals.1053.name: "$galactic_crucible_4$ Catturato"
+infernals.1053.desc: "La cattura del sistema §H[crucible_system.GetName]§! ha svelato i piani sinistri dei §H[crucible_builders.GetName]§!, che prevedevano la completa distruzione dell'intera galassia con una tempesta di fuoco senza precedenti. \n\nPer ora, la macchina che ha il potenziale di causare un evento del genere è stata messa in stand-by. Non appena la guerra sarà finita, dovremo usare le risorse e le forze che ci restano per disattivare questa gigantesca megastruttura una volta per tutte."
+infernals.1053.a: "Dobbiamo porre fine a questa guerra al più presto!"
+infernals.1053.b: "Una costruzione affascinante."
+
+infernals.1056.name: "Rinascita Galattica"
+infernals.1056.desc: "Mentre noi eravamo impegnati ad accendere la scintilla che avrebbe incendiato la galassia, gli §Y[hyperthermia_empire.GetName]§! avevano già trasformato le stelle in armi, cambiando per sempre il volto della galassia. \n\nPer ora possiamo abbracciare questa utopia appena forgiata, ma dovremmo monitorare attentamente le loro prossime mosse mentre rafforzano la loro presa sulla galassia."
+infernals.1056.a: "Un potere immenso porta solo caos e conflitti."
+infernals.1056.b: "È emersa una nuova minaccia."
+infernals.1056.c: "Una svolta sorprendente degli eventi."
+
+# Relic
+r_crystallized_singularity: "Singolarità Cristallizzata"
+r_crystallized_singularity_desc: "Deformata da una galassia in fiamme, questa singolarità crepita di un calore ammaliante. Se non viene sigillata con cura, attirerà inspiegabilmente i pellegrini, anche dai pianeti più desolati. Coloro che si trovano di fronte ad essa si sentono costretti ad abbracciare una vita più semplice... più vicina alle fiamme."
+r_crystallized_singularity_effect_tt: "\n- Il §G10%§! delle nostre entrate derivanti dalla £physics_research£ §Y$physics_research$§! genererà anche $r_energy$."
+r_crystallized_singularity_ls_effect_tt: "- Sblocca la decisione §Y$decision_gh_life_seeding$§! sui mondi colonizzabili per creare una nuova civiltà primitiva."
+crystallized_singularity_mod: "$r_crystallized_singularity$"
+crystallized_singularity_mod_desc: "$r_crystallized_singularity_desc$"
+
+decision_gh_life_seeding: "Seminare la Vita"
+decision_gh_life_seeding_desc: "Il nostro successo nel rimodellare la galassia ha portato alla rapida estinzione delle specie sulla maggior parte dei pianeti. Ora, abbiamo il privilegio di ricreare la vita a nostra immagine."
+decision_gh_life_seeding_limit: "$TRIGGER_FAIL$§RQuesto pianeta ha già una civiltà primitiva.§!"
+decision_gh_life_seeding_colony: "$TRIGGER_FAIL$§RNon può essere eseguito in un sistema con una colonia.§!"
+decision_gh_life_seeding_effect: "Crea una civiltà primitiva a nostra immagine. \n\n§HLimite di attivazione:§! [from.gh_life_seeder_var] / 3"
+
+# Grand Archive Specimen
+infernal_burning_gem: "Gemma Ardente"
+infernal_burning_gem_desc_short: "Uno dei primi prototipi funzionanti creati durante gli sforzi di [GetName] per sfruttare l'entropia"
+infernal_burning_gem_desc_details: "Apparentemente opaco alla maggior parte dei sistemi visivi, il debole bagliore bianco di questo frammento di cristallo nasconde l'incredibile quantità di energia che la contiene. Sebbene possa essere superato da tecniche più recenti, la sua struttura e le sue proprietà hanno ancora molto da insegnare."
+
+# Timeline
+TIMELINE_EVENT_GH_START: "Tempesta di Fuoco\n§L[GetDate]§!"
+TIMELINE_EVENT_GH_START_TOOLTIP: "§HDiventa la Crisi§!\n§YEvento Crisi§!\n\n[EVENT_TARGET_0.GetName] ha dato inizio al suo dominio, iniziando a prendere il controllo del destino della galassia. Coloro che non condividono questa visione saranno travolti da una scia di conquiste infuocate, che lasceranno solo cenere dietro di sé."
+TIMELINE_EVENT_GH_END: "Fiamme Divoranti\n§L[GetDate]§!"
+TIMELINE_EVENT_GH_END_TOOLTIP: "§HGalassia Sconfitta§!\n§YEvento Crisi§!\n\nQuella che era iniziata come un'ambizione ardente è diventata la scintilla che ha infiammato la galassia. Coloro che si sono opposti a noi sono stati ridotti in cenere, insieme alla loro storia."
+
+# Hyperthermia Terraformed Stars
+sc_crisis_binary_1: "$sc_binary_1$"
+sc_crisis_binary_2: "$sc_binary_1$"
+sc_crisis_binary_5: "$sc_binary_1$"
+sc_crisis_binary_7_8_9: "$sc_binary_1$"
+sc_crisis_binary_10: "$sc_binary_1$"
+sc_crisis_trinary_1: "$sc_trinary_1$"
+sc_crisis_trinary_2: "$sc_trinary_1$"
+sc_crisis_trinary_3: "$sc_trinary_1$"
+sc_crisis_trinary_4: "$sc_trinary_1$"

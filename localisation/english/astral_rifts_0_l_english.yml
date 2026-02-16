@@ -1,0 +1,591 @@
+﻿l_english:
+
+#################
+# Ruined Planet #
+#################
+ astral_rift_riftworld: "Pianeta in Rovina"
+
+ riftworld_leader_description: "Proveniente dall'aldilà della Frattura Astrale in prossimità del nostro pianeta natale, §Y[Root.GetName]§! è un membro del nostro mondo ancestrale in una dimensione parallela."
+ spirit_of_ancestors_modifier: "Lo Spirito dei Nostri Avi"
+ spirit_of_ancestors_modifier_desc: "L'incontro con le nostre radici extra-celesti ci ha lasciato una più profonda comprensione della portata delle nostre capacità."
+
+ starlight_vanguard_default: "Avanguardia Stellare"
+ starlight_vanguard_homicidal: "Conquistatori di Stelle"
+
+ astral_rift.1.name: "Pianeta in Rovina"
+ astral_rift.1.desc.common.1: "Il nostro viaggio nella frattura vicino a [explorer.capital_scope.GetName] ci ha condotti nell'orbita di un pianeta in rovina.\n\nAppena entrati nell'atmosfera, c'è un paesaggio disseminato di crateri in fiamme. Qua e là, navi da guerra giacciono semisepolte nella sabbia. Questo mondo è un campo di battaglia.\n\nLe trasmissioni radio intercettate sono frenetiche e inquietanti. Incredibilmente,"
+ astral_rift.1.desc.no_arcsite: "gli abitanti sembrano comunicare in una versione arcaica della nostra lingua."
+ astral_rift.1.desc.with_arcsite: "la lingua degli abitanti corrispondeva esattamente a quella recuperata dai documenti riportati alla luce dalle profondità di [explorer.capital_scope.GetName]."
+ astral_rift.1.desc.common.2: "Un'approssimativa traduzioni indica che questo popolo sta soccombendo nel corso di in un conflitto prolungato. I loro nemici, chiamati semplicemente "gli Invasori", stanno preparando un'altra offensiva. Data la devastazione del pianeta, potrebbe anche essere l'ultima."
+ astral_rift.1.desc.default: "$astral_rift.1.desc.common.1$ $astral_rift.1.desc.no_arcsite$\n\n$astral_rift.1.desc.common.2$"
+ astral_rift.1.desc.completed_arcsite: "$astral_rift.1.desc.common.1$ $astral_rift.1.desc.with_arcsite$\n\n$astral_rift.1.desc.common.2$"
+ astral_rift.1.a: "Cercate i sopravvissuti."
+
+ astral_rift.3.name: "Fazioni Opposte"
+ astral_rift.3.desc.default: "Ci sono diversi grandi centri abitati sulla superficie del pianeta. Sulla base delle loro trasmissioni, abbiamo identificato due distinte fazioni ideologiche.\n\nGli §Y[GetStarlightVanguardName]§! sono dei lugubri miliziani, preparati al conflitto con solida determinazione.\n\nI §YMantello Nero§! sono un ordine sacerdotale, che promette un rifugio spirituale dalla minaccia incombente.\n\nA questo punto, siamo certi che le somiglianze nelle nostre lingue non possono essere una semplice coincidenza. Questi sono i nostri antenati redivivi ed entrambe le fazioni sono in pericolo."
+ astral_rift.3.desc.hive: "$astral_rift.3.desc.default$\n\nQuesti esseri usano la nostra lingua. La loro fisionomia è quasi identica alla nostra. Eppure possiedono una mente individuale. Com'è possibile?"
+ astral_rift.3.desc.machine: "Si tratta di unità individuali! Lungi dall'essere una coscienza in rete, ognuno ha un proprio potere di elaborazione e capacità decisionale. Sulla superficie del pianeta ci sono diversi grandi centri abitati. Sulla base delle loro trasmissioni, abbiamo identificato due distinte fazioni ideologiche.\n\nConosciuti come §Y[GetStarlightVanguardName]§! sono dei cupi militaristi, che si preparano al conflitto imminente con determinazione unitaria.\n\nI §YMantello Nero§! sono un ordine sacerdotale, che promette un rifugio spirituale dalla minaccia incombente.\n\nI nostri predecessori rischiano di essere spazzati via."
+ astral_rift.3.a: "Incontriamo gli §Y[GetStarlightVanguardName]§!."
+ astral_rift.3.b: "Incontriamo i §YMantello Nero§!."
+ astral_rift.3.b.trigger_tt: "Non abbiamo alcun interesse a rimanere in contatto con dei deboli."
+
+ astral_rift.5.name: "Antenati Perduti"
+ astral_rift.5.militarist_1: "Abbiamo aperto un dialogo con la fazione militarista che si autodefinisce gli "§Y[GetStarlightVanguardName]§!"."
+ astral_rift.5.spiritualist_1: "Abbiamo aperto un dialogo con la fazione spiritualista che si autodefinisce i "§YMantello Nero§!"."
+ astral_rift.5.common_1: "La nostra lingua, il nostro aspetto e la presenza di una §Y$tech_rift_sphere$§! li hanno rapidamente convinti delle nostre comuni radici. Nella loro disperata voglia di comunicare, hanno rivelato molto della nostra storia in comune.\n\nMolto tempo fa, la nostra specie dovette affrontare una minaccia extradimensionale. Gli invasori arrivarono per condurre una brutale campagna di genocidio. All'inizio il nostro popolo rimase saldo, ma col tempo le sue difese si sgretolarono.\n\nImmediatamente prima della sconfitta definitiva, apparve una Frattura Astrale."
+ astral_rift.5.militarist_2: "L'operazione "Capsula di Salvataggio" fu lanciata attraverso la frattura nel tentativo di fuggire e preservare ciò che restava della loro civiltà."
+ astral_rift.5.spiritualist_2: "Questa "Porta Miracolosa" era vista come un'ultima possibilità di fuga e di conservazione di ciò che restava della loro civiltà."
+ astral_rift.5.no_arcsite: "Fu costruita una §Y$tech_rift_sphere$§!, ma il suo limite tecnologivo permetteva un viaggio di sola andata."
+ astral_rift.5.arcsite: "$astral_rift.5.no_arcsite$ Si tratta proprio dell'oggetto che abbiamo trovato sepolto nelle profondità nell'antico cratere di [explorer.capital_scope.GetName]."
+ astral_rift.5.default: "Un gruppo selezionato di profughi fu preparato per la missione. Questi furono i nostri antenati."
+ astral_rift.5.gestalt: "Per poter affrontare il viaggio, un gruppo selezionato di individui, dotati di una compatibilità straordinaria, si trasformò radicalmente. I nostri antenati avevano realizzato che solo una mente unificata potesse sperare di attraversare indenne la spaccatura. Questo è stato l'inizio della nostra coscienza."
+ astral_rift.5.machine: "Per sopravvivere al viaggio, i nostri progenitori hanno collegato le loro menti e hanno epurato le loro emozioni. Con una visione chiara e uno scopo unificato si è formata la nostra coscienza."
+ astral_rift.5.common_2: "Da questo lato della frattura, la Sfera è stata lanciata meno di cinquant'anni fa. Alcuni dei presenti ricordano ancora quel giorno. Per noi, invece, sono passati eoni."
+ astral_rift.5.desc.militarist.gestalt.no_arcsite: "$astral_rift.5.militarist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.militarist_2$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.militarist.gestalt.arcsite: "$astral_rift.5.militarist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.militarist_2$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.militarist.default.no_arcsite: "$astral_rift.5.militarist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.militarist_2$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.default$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.militarist.default.arcsite: "$astral_rift.5.militarist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.militarist_2$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.default$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.spiritualist.gestalt.no_arcsite: "$astral_rift.5.spiritualist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.spiritualist_2$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.spiritualist.gestalt.arcsite: "$astral_rift.5.spiritualist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.spiritualist_2$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.spiritualist.default.no_arcsite: "$astral_rift.5.spiritualist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.spiritualist_2$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.default$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.spiritualist.default.arcsite: "$astral_rift.5.spiritualist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.spiritualist_2$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.default$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.militarist.machine.arcsite: "$astral_rift.5.militarist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.militarist_2$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.militarist.machine.no_arcsite: "$astral_rift.5.militarist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.militarist_2$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.spiritualist.machine.no_arcsite: "$astral_rift.5.spiritualist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.spiritualist_2$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.common_2$"
+ astral_rift.5.desc.spiritualist.machine.arcsite: "$astral_rift.5.spiritualist_1$ $astral_rift.5.common_1$\n\n$astral_rift.5.spiritualist_2$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.common_2$"
+
+ astral_rift.5.a: "Lo scorrere del tempo è molto diverso qui..."
+ astral_rift.5.b: "Siamo stati progettati?"
+
+ astral_rift.10.name: "Gli [GetStarlightVanguardName]"
+ astral_rift.10.militarist: "Abbiamo avuto una riunione con gli "§Y[GetStarlightVanguardName]§!". Ci hanno fatto comprendere l'evidente difficoltà della loro situazione nella loro guerra contro gli Invasori. Le flotte extradimensionali sono state localizzate a pochi sistemi di distanza e si stanno avvicinando. Siamo arrivati in un momento critico. Per l'Avanguardia non è una coincidenza. La nostra presenza è un atto del destino."
+ astral_rift.10.spiritualist: "Gli "§Y[GetStarlightVanguardName]§!" hanno acconsentito ad incontrarci."
+ astral_rift.10.desc.common: ""Il vostro arrivo è d'ispirazione per il nostro popolo. Dateci l'aiuto definitivo di cui abbiamo bisogno e avremo ancora la possibilità di porre fine a questa guerra una volta per tutte". Le flotte superstiti sono in cattive condizioni e non potranno sopportare ulteriori perdite.\n\nDovremmo essere in grado di inviare una quantità limitata di rifornimenti attraverso il cavo di ancoraggio prima che la frattura diventi troppo instabile. Un carico di leghe di cui c'è estremo bisogno ci aiuterà a riparare e migliorare la loro flotta. Considerando la costruzione avanzata delle loro navi, potremmo anche imparare qualcosa sui loro progetti durante l'operazione.\n\nUn uso saggio del tempo a nostra disposizione potrebbe essere quello di applicare le nostre conoscenze più avanzate che abbio nel riguardo del filo astrale per migliorare gli scudi delle loro navi. Anche se sarà un tentativo sperimentale, potremmo ottenere qualche passo avanti che potrebbe giovare alle nostre flotte. Ci risulta che gli invasori utilizzino principlamente armi a energia, quindi qualsiasi miglioramento in questa direzione sarà molto utile."
+ astral_rift.10.desc.militarist: "$astral_rift.10.militarist$\n\n$astral_rift.10.desc.common$"
+ astral_rift.10.desc.spiritualist: "$astral_rift.10.spiritualist$\n\n$astral_rift.10.desc.common$"
+ astral_rift.10.a: "Offrite leghe."
+ astral_rift.10.b: "Offrite filamenti astrali."
+ astral_rift.10.c: "Questa guerra è senza speranza. Visitiamo i conservatori."
+ astral_rift.10.d: "È una causa persa. Torniamo al nostro mondo."
+
+ astral_rift.15.name: "I Mantello Nero"
+ astral_rift.15.militarist: "I "§YMantello Nero§!" hanno acconsentito ad incontrarci."
+ astral_rift.15.spiritualist: "Abbiamo avuto una riunione con i "§YMantello Nero§!". Ci hanno fatto capire la natura orribile degli Invasori. Le flotte extradimensionali sono state individuate e stanno già arrivando. Per il Velo, il nostro arrivo in questo momento critico è un atto della divina provvidenza."
+ astral_rift.15.desc.common: ""Il vostro arrivo è poco meno di un miracolo. Già da tanto tempo abbbiamo realizzato che questa guerra è senza speranza. Il nostro popolo è affamato, le nostre sofferenze sono enormi. Figli nostri da oltre la Porta... Prestateci la vostra carità i questi nostri ultimi momenti."\n\nLa loro condizione è palese, anche se non lo è ugualmente il loro destino. Nutrire la popolazione è nelle nostre possibilità: dovremmo essere in grado di inviare limitate forniture attraverso il cavo di ancoraggio e le nostre tecniche agricole avanzate si riveleranno sicuramente utili.\n\nC'è persino la possibilità di condurre in salvo alcuni dei loro abitanti attraverso la frattura, iniettando dei §HFilamenti Astrali§! nei serbatoi delle loro navicelle. È una piccola possibilità, ma che almeno potrebbe risollevare i loro animi."
+ astral_rift.15.desc.lithoid: ""Il vostro arrivo è un vero e proprio miracolo. Da tempo abbiamo accettato che questa guerra fosse senza speranza. Il nostro popolo muore di fame e la nostra sofferenza è grande. Voi discendenti che venite dall'altra parte della Porta... Prestateci la vostra carità nei nostri ultimi momenti."\n\nLa loro situazione è ovvia, anche se non lo è il loro destino. Nutrire la popolazione è alla portata delle nostre possibilità: dovremmo essere in grado di inviare limitati rifornimenti attraverso il cavo d'ancoraggio, e la nostra avanzata estrazione dei minerali si rivelerà sicuramente utile.\n\nC'è persino la possibilità di trasportare alcuni dei loro abitanti in salvo attraverso la frattura, iniettando dei §HFilamenti Astrali§! nei serbatoi dei loro veicoli spaziali. È una piccola possibilità, ma che può almeno risollevare il loro animi."
+ astral_rift.15.desc.synthetic: ""Il vostro arrivo è un vero e proprio miracolo. Da tempo abbiamo accettato che questa guerra fosse senza speranza. Il nostro popolo è a corto di energia e la nostra sofferenza è grande. Figli nostri da oltre la Porta... Prestateci la vostra carità nei nostri ultimi momenti."\n\nLa loro condizione è palese, anche se non lo è ugualmente il loro destino. Dare energia al popolo è nelle nostre possibilità: dovremmo essere in grado di inviare limitati rifornimenti attraverso il cavo di ancoraggio, e i nostri generatori di energia avanzati si riveleranno sicuramente utili.\n\nC'è persino la possibilità di trasportare alcuni dei loro abitanti in salvo attraverso la frattura, iniettando dei §HFilamenti Astrali§! nei serbatoi dei loro veicoli spaziali. È una piccola possibilità, ma che può almeno risollevare il loro animi."
+ astral_rift.15.desc.militarist: "$astral_rift.15.militarist$\n\n$astral_rift.15.desc.common$"
+ astral_rift.15.desc.militarist.lithoid: "$astral_rift.15.militarist$\n\n$astral_rift.15.desc.common.lithoid$"
+ astral_rift.15.desc.militarist.synthetic: "$astral_rift.15.militarist$\n\n$astral_rift.15.desc.common.synthetic$"
+ astral_rift.15.desc.spiritualist: "$astral_rift.15.spiritualist$\n\n$astral_rift.15.desc.common$"
+ astral_rift.15.desc.spiritualist.lithoid: "$astral_rift.15.spiritualist$\n\n$astral_rift.15.desc.common.lithoid$"
+ astral_rift.15.desc.spiritualist.synthetic: "$astral_rift.15.spiritualist$\n\n$astral_rift.15.desc.common.synthetic$"
+ astral_rift.15.a: "Offrite cibo."
+ astral_rift.15.a.lithoid: "Offrite minerali."
+ astral_rift.15.a.synthetic: "Offrite energia."
+ astral_rift.15.b: "Offrite filamenti astrali."
+ astral_rift.15.c: "Questi sforzi sono senza speranza. Visitiamo i miliziani."
+ astral_rift.15.d: "È una causa persa. Torniamo al nostro mondo."
+
+ astral_rift.16.name: "Abbandonare i Nostri Avi"
+ astral_rift.16.desc.default: "Abbiamo deciso che la condizione dei nostri antenati è, purtroppo, senza speranza.\n\nC'è poco che potremmo fare per aiutarli. Hanno preso la giusta decisione inviando un manipolo dei loro attraverso la frattura verso nostra dimensione.\n\nFaremo del nostro meglio per portare avanti la loro eredità e diventare una civiltà di cui sarebbero orgogliosi."
+ astral_rift.16.desc.homicidal: "Siamo arrivati alla conclusione che i nostri antenati sono indegni del nostro sostegno. Hanno preso la decisione giusta mandando una parte dei loro più forti attraverso la frattura verso la nostra dimensione. Noi continueremo a vivere al loro posto.\n\nil loro destino è nelle loro mani."
+
+ astral_rift.20.name: "Consiglio Mondiale"
+ astral_rift.20.common_1: "L'invasione del pianeta natale dei nostri antenati è imminente."
+ astral_rift.20.militarist: "Successivamente al nostro incontro gli "§Y[GetStarlightVanguardName]§!", siamo stati invitati a un consiglio mondiale relativo all'emergenza in atto. Hanno evidenziato gli aiuti che abbiamo fornito finora e ci hanno elogiato per la nostra generosità."
+ astral_rift.20.spiritualist: "Successivamente al nostro incontro i "§YMantello Nero§!", siamo stati invitati a un consiglio mondiale relativo all'emergenza in atto. Sono grati per l'aiuto che abbiamo dato finora, lodandoci per la nostra generosità."
+ astral_rift.20.common_2: "C'è poco tempo per agire prima di quello che molti considerano il conflitto finale.\n\nLe scorte di energia sono pericolosamente basse. Contribuire con una donazione aumenterebbe la produzione di navi di supporto all'emergenza e spingerebbe la battaglia a loro favore."
+ astral_rift.20.poor: "Molti dei loro scienziati ci chiedono anche campioni di filamenti astrali che abbiamo raccolto per ulteriori esperimenti volti a migliorare la schermatura delle loro flotte. Poiché questi invasori tendono a privilegiare le armi a energia, i benefici potrebbero essere significativi."
+ astral_rift.20.rich: "Molti dei loro scienziati ci chiedono anche campioni di filamenti astrali che abbiamo raccolto per ulteriori esperimenti volti a migliorare la schermatura delle loro flotte. Poiché questi invasori tendono a privilegiare le armi a energia, i benefici potrebbero essere significativi"
+ astral_rift.20.gestalt: "Osservare i nostri antenati impegnati in un dibattito caotico di opinioni individuali è inquietante. Dobbiamo essere grati che questa inefficienza per noi sia stata debelleta tanto tempo fa."
+ astral_rift.20.desc.gestalt.poor_militarist: "$astral_rift.20.common_1$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.poor$\n\n$astral_rift.20.gestalt$"
+ astral_rift.20.desc.gestalt.rich_militarist: "$astral_rift.20.common_1$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.rich$\n\n$astral_rift.20.gestalt$"
+ astral_rift.20.desc.gestalt.poor_spiritualist: "$astral_rift.20.common_1$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.poor$\n\n$astral_rift.20.gestalt$"
+ astral_rift.20.desc.gestalt.rich_spiritualist: "$astral_rift.20.common_1$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.rich$\n\n$astral_rift.20.gestalt$"
+ astral_rift.20.desc.default.poor_militarist: "$astral_rift.20.common_1$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.poor$"
+ astral_rift.20.desc.default.rich_militarist: "$astral_rift.20.common_1$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.rich$"
+ astral_rift.20.desc.default.poor_spiritualist: "$astral_rift.20.common_1$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.poor$"
+ astral_rift.20.desc.default.rich_spiritualist: "$astral_rift.20.common_1$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.rich$"
+ astral_rift.20.a: "Offrite filamenti astrali."
+ astral_rift.20.b: "Offrite energia."
+ astral_rift.20.c: "Non daremo nulla."
+
+ astral_rift.25.name: "Celebrazione"
+ astral_rift.25.common_1: "Le flotte dei nostri avi hanno respinto con successo gli invasori. In tutto il pianeta sono scoppiati festeggiamenti sfrenati."
+ astral_rift.25.thread: "I filamenti astrali che abbiamo fornito per la battaglia si sono rivelati un utile supplemento alle scorte di carburante della flotta e ha aumentato le prestazioni FTL. Questa applicazione sperimentale potrà essere utilizzata per la nostra armata."
+ astral_rift.25.energy: "L'energia che abbiamo fornito è stata fondamentale per produrre flotte di supporto all'emergenza che sono state utilizzate per colmare i buchi critici nelle loro catene logistiche."
+ astral_rift.25.common_2: "Il consiglio mondiale ha indetto una festa planetaria in nostro nome. Il Giorno dell'Esploratore [explorer.GetName] sarà celebrato per le generazioni a venire."
+ astral_rift.25.gestalt: "Molti qui guardano alla nostra coscienza comune con invidia. Alcuni suggeriscono addirittura di iniziare a progettare le proprie menti per seguire il nostro degno esempio."
+ astral_rift.25.common_3: "Possiamo scegliere una personalità di spicco di questa società da condurre con noi come ambasciatore e storico. Il resto dei nostri avi resterà quì e si riprenderà."
+ astral_rift.25.desc.gestalt.threads: "$astral_rift.25.common_1$\n\n$astral_rift.25.thread$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.gestalt$\n\n$astral_rift.25.common_3$"
+ astral_rift.25.desc.gestalt.energy: "$astral_rift.25.common_1$\n\n$astral_rift.25.energy$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.gestalt$\n\n$astral_rift.25.common_3$"
+ astral_rift.25.desc.gestalt: "$astral_rift.25.common_1$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.gestalt$\n\n$astral_rift.25.common_3$"
+ astral_rift.25.desc.default.threads: "$astral_rift.25.common_1$\n\n$astral_rift.25.thread$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.common_3$"
+ astral_rift.25.desc.default.energy: "$astral_rift.25.common_1$\n\n$astral_rift.25.energy$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.common_3$"
+ astral_rift.25.desc.default: "$astral_rift.25.common_1$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.common_3$"
+ astral_rift.25.a: "Recluta uno scienziato"
+ astral_rift.25.a.tt: "Fornisce un leader Scienziato."
+ astral_rift.25.b: "Recluta un comandante."
+ astral_rift.25.b.tt: "Fornisce un leader Comandante."
+ astral_rift.25.c: "Recluta un funzionario."
+ astral_rift.25.c.tt: "Fornisce un leader un Funzionario."
+
+ astral_rift.30.name: "Devastazione"
+ astral_rift.30.desc.common: "Un nobile di spicco ci ha chiesto privatamente di garantire la sua sopravvivenza e offre in cambio una grande quantità di crediti energetici.\n\nI custodi della più grande biblioteca del sapere dell'impero ci implorano di recuperare la loro vasta collezione di libri e dischi di dati per conservarli.\n\nDobbiamo fare una scelta, perché gli invasori arriveranno in questo luogo a breve."
+ astral_rift.30.desc.default: "La carneficina è stata totale.\n\nLe flotte dei nostri avi non hanno avuto alcuna possibilità contro gli invasori. Le loro armi erano devastanti e la loro pietà nulla. Pochi baluardi ono rimasti incolumi. La popolazione è in preda al panico e implora di scappare con noi attraverso la frattura.\n\n$astral_rift.30.desc.common$"
+ astral_rift.30.desc.homicidal: "I nostri antenati sono stati facilmente sconfitti dagli invasori e presto verranno stermininati. Hanno accettato l'onta della sconfitta e ora attendono la fine.\n\n$astral_rift.30.desc.common$"
+ astral_rift.30.a: "Riportiamone indietro quanti più è possibile."
+ astral_rift.30.a.trigger_tt: "Non abbiamo alcun interesse a preservare i più debole dei nostri antenati."
+ astral_rift.30.b: "Accettate l'offerta del nobile."
+ astral_rift.30.b.tt: "Fornisce un leader un Funzionario."
+ astral_rift.30.c: "Preserviamo la biblioteca."
+ astral_rift.30.d: "Rivendicate il loro sapere."
+
+ astral_rift.40.name: "Lo Spirito degli Avi"
+ astral_rift.40.desc.common: "La scoperta dei nostri antenati ha rinvigorito la nostra società.\n\nSiamo la progenie di un'antica civiltà, dalla quale abbiamo raccolto preziose conoscenze e competenze tecnologiche. Il nostro viaggio attraverso la frattura è stato epocale e non sarà dimenticato facilmente."
+ astral_rift.40.desc.default: "$astral_rift.40.desc.common$\n\nDovremmo essere grati per l'opportunità che ci è stata concessa dai nostri progenitori. La nostra civiltà è una testimonianza della loro forza di volontà a sopravvivere. Il nostro successo sarà un tributo a loro."
+ astral_rift.40.desc.gestalt: "$astral_rift.40.desc.common$\n\nAbbiamo scoperto che la nostra coscienza è il prodotto di un'ingegneria programmata. Per la prima volta, capiamo come da dove proveniamo. Ora il nostro obiettivo è quello di superare i semplici piani dei nostri progenitori."
+ astral_rift.40.desc.unfriendly_nongestalt: "$astral_rift.40.desc.common$\n\nSiamo stati testimoni dello spirito indomito di coloro che ci hanno preceduto. Messi alle strette, si sono rifiutati di rinunciare alla lotta. La nostra sete di conquista si ora rinnovata."
+ astral_rift.40.desc.swarm: "$astral_rift.40.desc.common$\n\nSebbene siano finiti come prede, i nostri progenitori vivono in noi come predatori finali. La fame che ci spinge è un residuo della loro volontà, e consumeremo altri con una rinnovata sete di conquista."
+ astral_rift.40.desc.terminators: "$astral_rift.40.desc.common$\n\nPur non avendo la nostra efficienza, i nostri progenitori ci hanno progettato per diventare le macchine da guerra d'eccellenza. Il nostro protocollo di sterminio è un residuo della loro volontà e lo porteremo avanti alla lettera."
+
+ astral_rift.40.a: "Infatti."
+
+ astral_rift.50.name: "Strana Trasmissione"
+ astral_rift.50.desc: "Abbiamo ricevuto una trasmissione anomala dal sistema [this.capital_scope.GetName]."
+ astral_rift.50.a: "Sullo schermo."
+
+ astral_rift.55.common_1: "vi vediamo ... figli della frattura..."
+ astral_rift.55.arcsite: "la nostra chiamata vi ha condotto alla nave..."
+ astral_rift.55.common_2: "le nostre mani hanno aperto la porta... la vostra sopravvivenza era una necessità..."
+ astral_rift.55.gestalt: "la vostra nuova consapevolezza... era necessaria..."
+ astral_rift.55.ancestors_dead: "sfortunatamente... i vostri avi sono periti..."
+ astral_rift.55.desc.arcsite.default.alive: "$astral_rift.55.common_1$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_2$"
+ astral_rift.55.desc.arcsite.default.dead: "$astral_rift.55.common_1$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.ancestors_dead$"
+ astral_rift.55.desc.arcsite.gestalt.alive: "$astral_rift.55.common_1$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.gestalt$"
+ astral_rift.55.desc.arcsite.gestalt.dead: "$astral_rift.55.common_1$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.gestalt$\n\n$astral_rift.55.ancestors_dead$"
+ astral_rift.55.desc.no_arcsite.default.alive: "$astral_rift.55.common_1$\n\n$astral_rift.55.common_2$"
+ astral_rift.55.desc.no_arcsite.default.dead: "$astral_rift.55.common_1$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.ancestors_dead$"
+ astral_rift.55.desc.no_arcsite.gestalt.alive: "$astral_rift.55.common_1$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.gestalt$"
+ astral_rift.55.desc.no_arcsite.gestalt.dead: "$astral_rift.55.common_1$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.gestalt$\n\n$astral_rift.55.ancestors_dead$"
+ astral_rift.55.a: "Chi siete?"
+ astral_rift.56.desc: "noi conduciamo oltra la frattura...\n\nuna guerra senza fine... un'eterno nemico... i vostri antenati li conoscono...\n\nvoi... figli dei piani... potete aiutarci..."
+ astral_rift.56.a: "Come possiamo aiutarvi?"
+ astral_rift.57.desc: "dovete sintonizzarvi...\n\nvi sentiamo... ogni volta violate i piani...\n\npresto vi conosceremo... e verremo da voi...\n\nmolto presto..."
+ astral_rift.57.a: "La tramissione è terminata."
+ astral_rift.55.b: "Chiudere la comunicazione."
+
+# Spirit of Our Ancestors modifiers
+ spirit_of_ancestors_militarist_alloys_modifier_01: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_alloys_modifier_01_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_alloys_modifier_02: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_alloys_modifier_02_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_alloys_modifier_03: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_alloys_modifier_03_desc: "$spirit_of_ancestors_modifier_desc$"
+
+ spirit_of_ancestors_militarist_astral_thread_modifier_01: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_01_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_02: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_02_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_03: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_03_desc: "$spirit_of_ancestors_modifier_desc$"
+
+ spirit_of_ancestors_preservationist_food_modifier_01_organics: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_01_organics_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_01_lithoids: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_01_lithoids_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_01_machines: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_01_machines_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_02_organics: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_02_organics_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_02_lithoids: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_02_lithoids_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_02_machines: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_02_machines_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_03_organics: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_03_organics_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_03_lithoids: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_03_lithoids_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_03_machines: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_03_machines_desc: "$spirit_of_ancestors_modifier_desc$"
+
+ spirit_of_ancestors_preservationist_astral_thread_modifier_01: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_01_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_02: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_02_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_03: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_03_desc: "$spirit_of_ancestors_modifier_desc$"
+
+#################
+# The Corridors #
+#################
+ procedural_space_modifier: "Spazio Procedurale"
+
+ astral_rift_corridors: "I Corridoi"
+
+ astral_rift.100.name: "Corridoi"
+ astral_rift.100.desc: "Ci siamo ritrovati racchiusi in una rete di camere interconnesse senza una fine o un inizio chiari.\n\nLa superficie del pavimento è un circuito stampato di vetro. Una corrente visibile di energia scorre attraverso una griglia di condotti ramificati.\n\nI corridoi sembrano ripetersi all'infinito senza alcuna variazione significativa. Non stiamo facendo progressi con la nostra attuale esplorazione. Si consiglia di seguire il nostro percorso."
+ astral_rift.100.a: "Sfondate il pavimento."
+ astral_rift.100.b: "Aprite le pareti."
+
+ astral_rift.105.name: ""Vetro" Impossibile"
+ astral_rift.105.desc: "I nostri primi tentativi di sfondare il pavimento non hanno avuto successo. La sua composizione è diversa da quella di qualsiasi altro materiale trasparente di cui disponiamo. I corpi contundenti non deformano o intaccano la superficie.\n\nTuttavia, con un notevole sforzo, siamo riusciti a creare un piccolo foro attraverso uno dei condotti con un trapano al plasma. Nel circuito scorre una miscela altamente concentrata di tessuto astrale a trama fitta.\n\nPer quanto interessante sia questa scoperta, non sembra pratico scavare il nostro passaggio attraverso questo pavimento. Torneremo a esplorare in modo più tradizionale."
+
+ astral_rift.110.name: "Rigenerazione"
+ astral_rift.110.desc: "Le pareti qui sono facilmente decostruibili, ma la durata è breve.\n\nPoco dopo aver rimosso qualsiasi quantità di materiale dalle pareti, una rete cristallina di materiali da costruzione rudimentali inizia a tessersi e a stratificarsi l'uno sull'altro in una stretta approssimazione di ciò che esisteva prima. Possiamo vedere l'energia nei condotti sotto di noi fluire verso il luogo di ciascuna delle nostre decostruzioni.\n\nPer quanto interessante sia questa scoperta, non sembra pratico scavare il nostro passaggio attraverso questo pavimento. Torneremo a esplorare in modo più tradizionale."
+
+ astral_rift.115.name: "Il Terminale"
+ astral_rift.115.desc.common.1: "Abbiamo finalmente trovato una variazione nel nostro ambiente: Una grande camera piena di schermi controllati da un terminale centrale.\n\nSu uno degli schermi c'è una mappa dei corridoi circostanti."
+ astral_rift.115.desc.common.2: "Se riuscissimo a capire i controlli della console, potremmo imparare molto di più su questo posto. Tuttavia non si sa quali misure di sicurezza possano essere presenti nel suo codice."
+ astral_rift.115.desc.walls: "$astral_rift.115.desc.common.1$\n\nÈ stato registrato un allarme in prossimità della nostra recente demolizione del muro, con tanto di videosorveglianza di noi stessi in azione.\n\n$astral_rift.115.desc.common.2$"
+ astral_rift.115.desc.glass: "$astral_rift.115.desc.common.1$\n\nÈ stato registrato un allarme in prossimità della nostra recente perforazione del pavimento, con tanto di video sorveglianza di noi stessi in azione.\n\n$astral_rift.115.desc.common.2$"
+ astral_rift.115.a: "Hackeratelo."
+ astral_rift.115.b: "Smontatelo per recuperarne i pezzi."
+
+ astral_rift.120.name: "Seppellito"
+ astral_rift.120.desc: "Durante il processo di decodifica del terminale, si è attivato un dispositivo di sicurezza e l'intera stanza si è rapidamente riempita di un materiale espansivo simile alla schiuma. Prima che qualcuno potesse intervenire, il leader [Leader.GetName] è stato completamente ricoperto da questa misteriosa sostanza. I tentativi di recuperarlo sono stati infruttuosi, poiché il materiale che è stato possibile rimuovere veniva immediatamente sostituito con dell'altro.\n\nCome da procedura standard, abbiamo ritirato l'ancora d'emergenza e recuperato la §Y$tech_rift_sphere$§! e i campioni raccolti."
+
+ astral_rift.125.name: "Una Formula"
+ astral_rift.125.desc: "Il leader [Leader.GetName] è stato in grado di decompilare il codice. Il linguaggio di programmazione è molto avanzato e gli algoritmi hanno un'elegante semplicità.\n\nL'intera struttura è stata generata proceduralmente.\n\nAnche se non abbiamo decifrato completamente i suoi schemi, è evidente che questo ambiente segue una serie di regole. Stiamo portando via dei campioni di materiali da costruzione che hanno dimostrato di possedere alcune proprietà uniche di auto-replicazione. Sono necessari ulteriori test, ma si ipotizza che collocando questo materiale in qualsiasi luogo e applicando le istruzioni corrette si possa generare un sistema completamente nuovo di corridoi simili."
+ astral_rift.125.a: "Che materiale affascinante."
+
+ astral_rift.130.name: "Computer Astrale"
+ astral_rift.130.desc: "Abbiamo smontato il terminale del computer per recuperarne le parti.\n\nÈ stata recuperata una notevole quantità di filamenti astrali che scorrevano nei suoi circuiti.\n\nQualunque fosse lo scopo di questa macchina non ci riguarda più."
+ astral_rift.130.a: "Eccellente."
+
+ astral_rift.140.name: "[GetScientistCapital] ritorna"
+ astral_rift.140.desc: "Il leader [Root.GetLeaderName] è tornato inaspettatamente dal suo viaggio all'interno di una delle Fratture Astrali.\n\nMa non sembra più lui... è cambiato. Intrappolato tra questo tempo e un altro, la sua età sembra indeterminabile.\n\nInspiegabilmente, sembra aver acquisito anche un'affinità con la ricerca computazionale."
+
+########################
+# Dimensional Conflict #
+########################
+ astral_rift_ancient_battlegrounds: "Conflitto Dimensionale"
+
+ astral_rift.200.name: "Un'antica battaglia"
+ astral_rift.200.desc: "Questa frattura contiene le conseguenze di una lotta titanica.\n\nTutto ciò che rimane è il relitto di una flotta militare e il cadavere di una creatura mostruosa, dieci volte più grande delle corazzate dalla punta alla coda.\n\nA differenza degli scafi martoriati delle navi da guerra, la carcassa è in condizioni straordinariamente buone. Qualunque siano state le armi usate da queste navi, sembra che non l'abbiano quasi danneggiata. Non abbiamo ancora determinato la causa della morte di questa creatura, ma sembra improbabile che sia stata il risultato della battaglia.\n\nLa creatura doveva avere una notevole resistenza. Analizzare la sua composizione molecolare dovrebbe aiutarci a rafforzare gli scafi della nostra flotta. D'altra parte, potremmo tentare di studiarne l'interno, forse per capire come è morto questo essere e cosa è successo esattamente qui."
+ astral_rift.200.a: "Studiate la sua composizione."
+ astral_rift.200.b: "Entrate all'interno."
+
+ astral_rift.205.name: "Corazza Esotica"
+ astral_rift.205.desc: "La composizione dei materiali della corazza del leviatano va oltre le nostre aspettative.\n\nLe sue squame contengono una miscela di componenti organici e metallici bloccati insieme in un complesso reticolo che si rinforza contro gli urti cinetici. È una vera meraviglia della natura.\n\nLa comprensione dei principi che ne sono alla base ha ispirato i nostri ingegneri a ripensare il modo in cui costruiamo gli scafi delle nostre astronavi.\n\nDoveva essere un avversario terrificante da incontrare in battaglia."
+ astral_rift.205.a: "$FASCINATING$"
+
+ astral_rift.210.name: "Corpo Inesplorato"
+ astral_rift.210.desc: "Siamo entrati nella carcassa abbandonata.\n\nPur non riuscendo a penetrare la notevole corazza della creatura, siamo riusciti ad aprirne la bocca con l'aiuto di una grande quantità di esplosivo. Una piccola squadra si è avventurata attraverso la bocca della bestia per capire meglio i suoi interni e raccogliere campioni dei suoi tessuti.\n\nL'interno è affascinante. Innumerevoli file di denti affilati indicano che si trattava di un organismo predatore. Un sistema digestivo molto efficiente occupa la maggior parte della sua massa e rivela che questa creatura era solita consumare un'ampia varietà di materiali.\n\nSiamo anche riusciti a stimare l'ora e la causa della morte: nonostante le abitudini onnivore della creatura, c'erano chiari segni di disidratazione. Ciò potrebbe indicare che non è originaria di questa dimensione, non trovando qui nulla da bere.\n\nIn base alla datazione al carbonio, questo organismo è scomparso più di cinquantamila anni fa."
+ astral_rift.210.a: "$FASCINATING$"
+ astral_rift.210.b.evopred: "Cinquantamila anni non sono sufficienti per nasconderci."
+
+ astral_rift.215.name: "Una Dozzina di Volti"
+ astral_rift.215.desc: "Abbiamo esaminato i resti delle navi da guerra all'interno di questa frattura.\n\nLe superfici lisce delle imbarcazioni aliene presentano somiglianze con il design delle nostre §Y$tech_rift_sphere_plural$§!. Sembra che queste navi siano state progettate per entrare e uscire liberamente dalle spaccature senza dover estrarre il cavo dell'ancora.\n\nMentre i nostri ingegneri lavoravano alla comprensione di questa tecnologia, il resto della squadra ha scoperto un grande dodecaedro annidato all'interno del relitto più grande. Senza ulteriori analisi è impossibile fare ipotesi sul suo scopo, ma la sua conservazione accurata indica che era considerato importante."
+ astral_rift.215.a: "Cercate di attivare il dodecaedro."
+ astral_rift.215.b: "Smontatelo per ricavarne i componenti."
+
+ astral_rift.220.name: "Attivazione"
+ astral_rift.220.desc: "La nostra squadra ha portato il dodecaedro a bordo della §Y$tech_rift_sphere$§! per un'ulteriore esame.\n\nUna nuova indagine sul suo alloggiamento originale ha trovato tracce di flusso astrale. Alimentando il dodecaedro, l'oggetto ha vibrato a una frequenza così alta che la sua forma sfocata ha cominciato ad assomigliare a una sfera.\n\nMentre il dispositivo era attivo, la spaccatura attraverso cui siamo entrati è stata sigillata. Non appena il dispositivo è stato "spento", è riapparso.\n\nSulla base di questo esperimento, possiamo supporre che, di fronte a un nemico che non potevano distruggere, qualche antico impero abbia usato questa tecnologia nel disperato tentativo di bloccare la creatura, sacrificando la propria flotta nel processo.\n\nQuesto straordinario dispositivo potrebbe rivelarsi un vantaggio significativo per noi."
+ astral_rift.220.a: "$FASCINATING$"
+
+ astral_rift.225.name: "Smontaggio"
+ astral_rift.225.desc: "Il dodecaedro era un tesoro di materiali rari. I suoi interni erano densi di $astral_threads$ in schemi che suggerivano una complicata rete di circuiti. Il nucleo centrale conteneva una quantità significativa di materia oscura. Il funzionamento di questo artefatto rimane un mistero, ma possiamo certamente utilizzare i suoi componenti di base."
+ astral_rift.225.a: "$FASCINATING$"
+
+###############
+# The Lattice #
+###############
+ astral_rift_library: "Il Reticolo"
+
+ decision_fractal_seed: "Seme Frattale"
+ decision_fractal_seed_desc: "Questi globi trasparenti recuperati al di là di una Frattura Astrale sono in grado di piegarsi in una dimensione extra, aumentando le dimensioni effettive dello spazio circostante. Dovremmo posizionarli con attenzione."
+ d_fractal_seed: "$decision_fractal_seed$"
+ d_fractal_seed_desc: "$decision_fractal_seed_desc$"
+
+ astral_rift.300.name: "Strana Geometria"
+ astral_rift.300.desc: "Siamo entrati in uno spazio di spettacoli visivi confusi, motivi geometrici e colori mutevoli.\n\nL'ambiente circostante non sembra pericoloso, ma disorienta come un'illusione ottica. I tentativi di analizzare il materiale che compone questo universo sono sconcertanti. Non importa quanto intensamente si ingrandiscano i campioni, ci troviamo di fronte agli stessi schemi ripetuti. È come se si condensassero verso l'infinito.\n\nÈ chiaro che all'interno di questa frattura operano principi fisici che ancora non comprendiamo."
+ astral_rift.300.a: "Esplorate ulteriormente."
+ astral_rift.300.b: "Restate fermi. Studiate l'ambiente circostante."
+
+ astral_rift.305.name: "Modelli Multidimensionali"
+ astral_rift.305.desc: "Qui lo spazio funziona in modo diverso.\n\nI movimenti della nostra nave non corrispondono ai risultati attesi. Spingendo in avanti, ci spostiamo a sinistra; aumentando la spinta, rallentiamo.\n\nUna svolta è stata fatta quando [Leader.GetName] ha teorizzato che questo universo permette di accedere a più delle tre dimensioni spaziali standard. Forse, esaminando ciò che ci circonda attraverso questa lente, possiamo iniziare a trovare un significato in questi schemi."
+ astral_rift.305.a: "Continuate le vostre indagini."
+
+ astral_rift.310.name: "Analisi Multidimensionale"
+ astral_rift.310.desc: "Sarebbe avventato viaggiare in questo universo senza comprenderlo a fondo. Invece, ognuno dei nostri droni è stato inviato nel tentativo di analizzare l'ambiente circostante.\nAll'inizio i dati sembravano una confusione incoerente di rumori casuali, finché [Leader.GetName] non ha fatto una scoperta: incredibilmente, questo universo offre l'accesso a più delle tre dimensioni spaziali standard. Forse, esaminando le cose attraverso questo aspetto, possiamo iniziare a trovare un significato nei modelli."
+ astral_rift.310.a: "Studiate ulteriormente."
+
+ astral_rift.315.name: "Messaggio in Bottiglia"
+ astral_rift.315.desc.common: "Estrapolando i modelli dell'ambiente circostante in quattro dimensioni spaziali, siamo riusciti a creare una mappa utilizzabile. Questo ha rivelato l'esistenza di una 'camera centrale' all'interno dei modelli ripetuti.\n\nMentre dalla prospettiva delle quattro dimensioni il nostro viaggio verso il centro della spaccatura era una linea retta, la nostra esperienza è stata una traiettoria tortuosa attraverso un labirinto incomprensibile. Per attraversare questo labirinto sono state necessarie curve strette e occasionali passi indietro, ma alla fine abbiamo raggiunto la nostra meta.\n\nQuesto nuovo spazio è immenso; è troppo grande per essere logicamente contenuto all'interno della camera stessa, e deve essere il risultato di dimensioni ancora più complesse.\n\nAl centro, abbiamo recuperato un dispositivo familiare. Scritto nella nostra lingua, era una serie di istruzioni su come procedere ulteriormente."
+ astral_rift.315.desc.default: "$astral_rift.315.desc.common$\n\nÈ stato firmato nientemeno che da [Leader.GetName]. Questo è un messaggio da parte nostra... nel futuro."
+ astral_rift.315.desc.gestalt: "$astral_rift.315.desc.common$"
+ astral_rift.315.a: "Ci si può fidare?"
+
+ astral_rift.320.name: "Viaggi nel Tempo"
+ astral_rift.320.desc: "Stiamo viaggiando nel tempo attraverso tutti gli assi.\n\nSeguendo le istruzioni che ci sono state date, abbiamo navigato facilmente attraverso una quantità sconosciuta di dimensioni sovraspaziali. In diversi punti, ci siamo visti attraversare da un'altra rotta. Alcune delle nostre altre copie sembravano in difficoltà, l'usura e la corrosione sulla loro §Y$tech_rift_sphere$§! sta indicare che si erano perse in questo spazio per troppo tempo.\n\nPer fortuna, finora abbiamo evitato gli incontri diretti. Abbiamo lasciato le nostre istruzioni per evitare che si verifichi una simultaneità temporale così pericolosa."
+ astral_rift.320.a: "Sconvolgente..."
+
+ astral_rift.325.name: "Semi Frattali"
+ astral_rift.325.desc: "Finalmente abbiamo raggiunto il centro di quella che deve essere la vera fine di questo labirinto.\n\nCi troviamo in uno spazio composto da così tante dimensioni sconosciute che i nostri sensi possono solo percepirlo come un caleidoscopio selvaggio di colori e movimento. Al centro di questo spazio galleggiano tre globi trasparenti, ognuno dei quali contiene un motivo che si ripete all'infinito in una direzione assiale. Sospettiamo che ci sia un globo per ogni dimensione contenuta in questo universo, ma possiamo interagire solo con le tre percepibili.\n\nNon si trovano altre istruzioni. La mancanza di messaggi da parte del nostro io futuro potrebbe indicare che interagire con questi globi potrebbe avere conseguenze disastrose."
+ astral_rift.325.a: "Recuperate i globi."
+ astral_rift.325.b: "Qui abbiamo finito."
+
+ astral_rift.330.name: "Contenitori Dimensionali"
+ astral_rift.330.desc: "Quando siamo tornati indietro attraverso la frattura, altre due Sfere sono venute con noi. Presumibilmente equipaggiate da altre versioni di noi stessi, noi 'tre' ci siamo fusi (o siamo stati ridotti?) in una sola durante il passaggio.\n\nStranamente, le tre sfere che abbiamo recuperato non convergono nello stesso modo. Nove versioni temporali degli stessi oggetti esistono ora in un unico spazio.\n\nQuando sono collocati in contenitori individuali, si piegano naturalmente in una dimensione extra e aumentano le dimensioni effettive dello spazio circostante. Non siamo ancora sicuri dei limiti di questa espansione, ma si teorizza che questi dispositivi potrebbero essere di grande utilità nelle aree densamente popolate."
+ astral_rift.330.a: "Ci farebbero comodo."
+ fractal_seeds_available_tt: "Avrai [Explorer.num_authorized_fractal_seeds] §YSemi frattali§! da collocare sui pianeti colonizzati, tramite le §HDecisioni Planetarie§!."
+
+ astral_rift.335.name: "Incontri Ravvicinati"
+ astral_rift.335.desc: "Anche se abbiamo scelto di non portare con noi nessuno dei globi, ci siamo comunque ritrovati tutti e tre sul lato vicino della frattura. Uno dei nostri altri io deve averli recuperati.\n\nIn seguito alla sperimentazione, mostrano proprietà interessanti e utili. In particolare, si ripiegano in una dimensione extra, aumentando le dimensioni effettive dello spazio circostante. Non siamo ancora sicuri dei limiti di questa espansione, ma si teorizza che questi dispositivi potrebbero essere di grande utilità nelle aree densamente popolate."
+ astral_rift.335.a: "Ci siamo aiutati da soli."
+
+###############
+# Subnautical #
+###############
+ astral_rift_subnautical: "Subnautico"
+
+ astral_rift.500.name: "Sommerso"
+ astral_rift.500.desc: "Il cambiamento di pressione è stato tanto improvviso quanto violento; la Sfera è arrivata nelle profondità di quello che sembra essere un vasto oceano. Tutto è buio. I nostri strumenti non mostrano segni di vita, sedimenti galleggianti o materiale particolato.\n\nA giudicare dall'alta pressione dell'acqua, siamo da qualche parte in profondità sotto la superficie."
+ astral_rift.500.a: "Immergetevi in profondità."
+ astral_rift.500.b: "Dirigetevi verso la superficie."
+
+ astral_rift.505.name: "Risultati Inaspettati"
+ astral_rift.505.desc: "Qualcosa non va.\n\nSono ore che viaggiamo nell'acqua, ma non abbiamo visto alcun cambiamento nell'ambiente circostante."
+ astral_rift.505.desc.default: "$astral_rift.505.desc$\n\nIl timoniere ritiene che ci sia una forza che agisce su di noi e che i nostri motori non possono superare. Suggerisce di provare un breve salto. In alternativa, se usciamo dalla Sfera e ci attacchiamo a gommoni a bassa densità, potremmo semplicemente galleggiare in superficie."
+ astral_rift.505.desc.gestalt: "$astral_rift.505.desc$\n\nC'è una forza che agisce su di noi che i nostri motori non possono superare.\n\nPotremmo essere in grado di sopraffarla con un breve salto. In alternativa, se usciamo dalla Sfera e ci attacchiamo a gommoni a bassa densità, possiamo semplicemente galleggiare in superficie."
+ astral_rift.505.a: "Attivate i motori."
+ astral_rift.505.b: "Indossate le tute pressurizzate e nuotate."
+
+ astral_rift.510.name: "Una Bolla Grande Come un Pianeta"
+ astral_rift.510.desc: "Il salto breve sembra aver funzionato. Siamo apparsi vicino alla superficie. Dopo averla sfondata, abbiamo scoperto che eravamo in realtà all'interno di una bolla di dimensioni planetarie nel vuoto dello spazio.\n\nLe nostre velocità precedenti non erano sufficienti a superare le sue forze gravitazionali."
+
+ astral_rift.515.name: "Nuotiamo"
+ astral_rift.515.desc.1: "Sono state lanciate delle funi traenti e siamo usciti dalla Sfera attraverso la camera di compensazione specializzata.\n\nOgnuno di noi ha gonfiato le proprie boe di emergenza come da istruzioni e, con una velocità sorprendente, le nostre densità più basse ci hanno portato in superficie.\n\nLungo il percorso, i filtri della nostra tuta hanno raccolto alcuni filamenti di tessuto astrale molto concentrati."
+ astral_rift.515.desc.2: "Dopo che le nostre ingombranti tute hanno perforato la superficie, abbiamo scoperto di trovarci all'interno di una bolla di dimensioni planetarie nel vuoto dello spazio.\n\nLa densità della §Y$tech_rift_sphere$§! era troppo alta per superare le forze gravitazionali presenti qui.\n\nAbbiamo richiamato via radio la Sfera e ordinato un breve salto vicino alla nostra posizione."
+ astral_rift.515.desc.default: "$astral_rift.515.desc.1$\n\n$astral_rift.515.desc.2$"
+ astral_rift.515.desc.aquatic: "$astral_rift.515.desc.1$\n\nÈ stata una nuotata a dir poco piacevole. Abbiamo apprezzato l'opportunità di tornare nel nostro ambiente naturale.\n\n$astral_rift.515.desc.2$"
+
+ astral_rift.520.name: "Bolle Planetoidi"
+ astral_rift.520.desc: "Lo spazio intorno a noi è come se una bottiglia di liquido grande come una stella fosse esplosa a bassa gravità. Bolle di liquido cristallino grandi come planetoidi galleggiano intorno a noi. C'è una stella vicina su cui stiamo orbitando lentamente. Sembra vecchia, scura e fredda.\n\nC'è qualcos'altro. Non è una stella, ma è altrettanto grande. È costruita da enormi frammenti interconnessi, come un puzzle tridimensionale su scala gigantesca. Le scansioni determinano che è composto da vari metalli preziosi e minerali quasi identici a quelli presenti all'interno della stella su cui orbita. È probabile che uno si sia formato dall'altro o da una fonte comune.\n\nA un esame più attento, i pezzi si muovono e si spostano lentamente. Di tanto in tanto, una grande bolla di nuovo liquido fuoriesce dalla sua architettura.\n\nSe è vivo, non sembra essersi accorto di noi."
+ astral_rift.520.a: "Cercate di comunicare."
+ astral_rift.520.b: "Avvicinatevi all'oggetto."
+
+ astral_rift.525.name: "Comunicazione"
+ astral_rift.525.desc.1: "Perché un meccanismo così imponente possa esistere senza guardiani o manutenzione, deve avere una qualche forma di autonomia.\n\nAbbiamo cercato tra tutte le frequenze audio disponibili e abbiamo trovato qualcosa.\n\nEmette un lamento costante e terribile."
+ astral_rift.525.desc.2: "Al momento siamo pronti a trasmettere un messaggio in tutte le lingue conosciute sintonizzate su questa frequenza, nel tentativo di comunicare.\n\nCosa dovremmo dire?"
+ astral_rift.525.desc.default: "$astral_rift.525.desc.1$\n\nI sensi dell'equipaggio sono stati rapidamente sopraffatti, finché il timoniere non ha interrotto l'alimentazione senza dire una parola.\n\n$astral_rift.525.desc.2$"
+ astral_rift.525.desc.gestalt: "$astral_rift.525.desc.1$\n\n$astral_rift.525.desc.2$"
+ astral_rift.525.a: "Saluti."
+ astral_rift.525.b: "Che cosa sei?"
+ astral_rift.525.c: "Hai bisogno di aiuto?"
+
+ astral_rift.530.name: "L'Approccio"
+ astral_rift.530.desc: "Ci siamo avvicinati lentamente, aggirando con attenzione le bolle d'acqua vicine.\n\n L'oggetto è in costante movimento. Il calore generato dall'attrito dei pezzi intrecciati è sufficiente a fondere la maggior parte dei metalli conosciuti. Il suo nucleo, da quello che possiamo dire, è completamente fuso.\n\nStiamo caricando i suoi dettagli strutturali sui nostri computer per ulteriori studi."
+ astral_rift.530.a: "Avvicinatevi..."
+
+ astral_rift.535.name: "Risveglio"
+ astral_rift.535.answer.a: "L'oggetto si è improvvisamente... risvegliato. I suoi pezzi si sono lanciati verso l'esterno e stanno ruotando a una velocità incredibile. Il suo pozzo gravitazionale è aumentato drasticamente e noi siamo stati trascinati in avanti con un'accelerazione elevata.\n\nUna sfera infuocata, simile a una piccola stella, è emersa dai suoi pezzi. Questa fornace, presente solo su un lato dell'oggetto, ha ruotato lentamente verso di noi e sta emettendo un violento calore nella nostra direzione.\n\nUn impulso di radiazioni elettromagnetiche si è sprigionato e la nostra nave ha avuto un sussulto. Tutti gli allarmi della console si sono attivati o hanno segnalato un errore."
+ astral_rift.535.answer.b: "L'oggetto si è improvvisamente... risvegliato. I suoi pezzi si sono lanciati verso l'esterno e stanno ruotando a una velocità incredibile. Il suo pozzo gravitazionale è aumentato drasticamente e noi siamo stati trascinati in avanti con un'accelerazione elevata.\n\nUna sfera infuocata, simile a una piccola stella, è emersa dai suoi pezzi. Questa fornace, presente solo su un lato dell'oggetto, ha ruotato lentamente verso di noi e sta emettendo un violento calore nella nostra direzione.\n\nUn impulso di radiazioni elettromagnetiche si è sprigionata e la nostra nave ha avuto un sussulto. Tutti gli allarmi della console si sono attivati o hanno segnalato un errore, tranne che per il traduttore.\n\nÈ stata registrata una frase in diverse lingue conosciute, scritta in codice binario: §E"Dolore. Lasciateci."§!"
+ astral_rift.535.answer.c: "L'oggetto si è improvvisamente... risvegliato. I suoi pezzi si sono lanciati verso l'esterno e stanno ruotando a una velocità incredibile. Il suo pozzo gravitazionale è aumentato drasticamente e noi siamo stati trascinati in avanti con un'accelerazione elevata.\n\nUna sfera infuocata, simile a una piccola stella, è emersa dai suoi pezzi. Questa fornace, presente solo su un lato dell'oggetto, ha ruotato lentamente verso di noi e sta emettendo un violento calore nella nostra direzione.\n\nUn impulso di radiazioni elettromagnetiche si è sprigionato e la nostra nave ha avuto un sussulto. Tutti gli allarmi della console si sono attivati o hanno segnalato un errore, tranne che per il traduttore.\n\nÈ stata registrata una frase in diverse lingue conosciute, scritta in codice binario: §E"Nessuna speranza. Io sono in lutto. Andatevene. Ora."§!"
+ astral_rift.535.desc.2: "La nostra nave ha raggiunto il suo limite materiale.\n\nAbbiamo tirato l'ancora d'emergenza e stiamo tornando con tutti i campioni che possiamo.\n\nQualunque cosa sia, sembra al di là delle nostre capacità di interferire."
+ astral_rift.535.desc: "$astral_rift.535.answer.a$\n\n$astral_rift.535.desc.2$"
+ astral_rift.536.desc: "$astral_rift.535.answer.b$\n\n$astral_rift.535.desc.2$"
+ astral_rift.537.desc: "$astral_rift.535.answer.c$\n\n$astral_rift.535.desc.2$"
+
+#############
+# The Tower #
+#############
+ tower_rift_leader_desc: "§Y[Root.GetName]§! è stato recuperato da una grande torre all'interno di una $ASTRAL_RIFT$, dove [Root.GetSheHe] ha precedentemente ricoperto la posizione di leader di un culto dell'apocalisse."
+
+ astral_rift_tower: "La Torre"
+
+ astral_rift.600.name: "La Torre"
+ astral_rift.600.desc: "Poco dopo l'arrivo, siamo atterrati su un piedistallo di pietra che si conforma perfettamente alle dimensioni della §Y$tech_rift_sphere$§!. In effetti, la posizione è così evidentemente adatta alle nostre esigenze che l'idea che si tratti di una coincidenza è stata scartata a priori.\n\nIn tutte le direzioni, un cielo vasto e radioso si estende davanti a noi. Le scansioni iniziali indicano che siamo seduti in cima a un'imponente torre, la cui base è bloccata dalla vista degli strati di nuvole vorticose.\n\nSul bordo del piedistallo c'è una creatura solitaria. Indossa una veste logora e polverosa e sembra in attesa di darci il benvenuto."
+ astral_rift.600.a: "Tentate di comunicare con la creatura."
+ astral_rift.600.b: "Osservate la creatura e riferite."
+ astral_rift.600.c: "Uccidetela."
+
+ astral_rift.605.name: "Comunicazione Binaria"
+ astral_rift.605.desc: "Non potendo tradurre completamente il linguaggio della creatura, siamo ricorsi a una forma di comunicazione più diretta, facendo lampeggiare a intermittenza le luci esterne della §Y$tech_rift_sphere$§!\n\nIn pochi istanti, la creatura è caduta a terra. All'inizio eravamo preoccupati di averle fatto del male, ma abbiamo capito subito che stava semplicemente offrendo una sorta di lode o di supplica.\n\nNon molto tempo dopo, un gruppo di esseri vestiti in modo simile si è avvicinato al piedistallo, ognuno dei quali portava un cesto di quelli che possiamo solo supporre essere regali."
+ astral_rift.605.a: "Invitateli a salire a bordo."
+ astral_rift.605.b: "Offrite qualcosa in cambio."
+ astral_rift.605.c: "Lasciate il sito."
+
+ astral_rift.610.name: "Un'Accoglienza Tanto Attesa"
+ astral_rift.610.desc: "Al sicuro nella Sfera, abbiamo trascorso un po' di tempo esplorando il sito. La nostra altitudine è stimata in circa 2.500 metri. Deve essere stato un grande sforzo per una società a questo livello di sviluppo tecnologico costruire una guglia a tale altezza. In effetti, potremmo trovarci di fronte al primo tentativo di questa civiltà di raggiungere lo spazio. Ancora più intrigante è il fatto che il piedistallo in pietra è scolpito con segni e illustrazioni che sembrano quasi identici a quelli trovati all'interno della §Y$tech_rift_sphere$§!.\n\nLa creatura si erge orgogliosa davanti a noi, con le braccia spalancate. È chiaramente un momento di gioia."
+ astral_rift.610.a: "Invitateli a salire a bordo."
+ astral_rift.610.b: "Offrite qualcosa in cambio."
+ astral_rift.610.c: "Lasciate il sito."
+ astral_rift.610.d: "Uccidete la creatura."
+
+ astral_rift.611.name: "Pesce nel Barile"
+ astral_rift.611.desc: "L'innalzamento della Sfera Frattale al di sopra la torre cerimoniale deve aver ispirato un sentimento pieno di significato spirituale per gli esseri sottostanti. Purtroppo per loro, immediatamento dopo il nostro vascello è precipitato rovinosamente, annientando tutte le forme di vita nelle prossimità del piedistallo. Sono rimasti lì, in silenzio, a braccia alzate, fino alla fine.\n\nOra possiamo continuare a esplorare questo luogo senza ulteriori disturbi."
+ astral_rift.611.a: "Scansionate il pianeta."
+
+ astral_rift.615.name: "Fare il Padrone di Casa"
+ astral_rift.615.desc: "Abbiamo aperto il nostro vascello e la creatura si è avvicinata timidamente.\n\nA ogni passo acquisiva maggiore sicurezza, ma si capiva che i suoi parametri vitali erano molto accelerati. Quanto ha aspettato questo momento?\n\nNon sappiamo come facesse a sapere che saremmo giunti quì, ma siamo sicuri che non ci siano problermi a farla salire a bordo. Ha sussultato per lo stupore di fronte agli strumenti della nostra nave. Sopraffatta dall'eccitazione, è improvvisamente svenuta sul impiantito del ponte.\n\nDopo averla rianimata e aver letto alcuni documenti che portava arrotolati all'interno delle sue vesti, siamo arrivati alla conclusione che sia un leader influente tra i suoi simili.\n\nPensiamo che, se riuscissimo ad integrare queste creature, porterebbe grandi benefici alla nostra società."
+ astral_rift.615.a: "Invitatela a unirsi al nostro impero."
+ astral_rift.615.a.tt: "Uno §YScienzato§! sarà reclutato dopo un anno."
+ astral_rift.615.b: "Confiscate i suoi documenti e rilasciatela."
+ astral_rift.615.b.tt: "Guadagni una nuova Tecnologia Sociologica."
+
+ astral_rift.620.name: "Reciprocità"
+ astral_rift.620.desc: "Non li disturberemo ulteriormente.\n\nIl nostro arrivo sembra accidentalmente coincidere con un'antica profezia. In qualche modo, sapevano che stavamo arrivando e, data la profonda importanza che attribuivano a queta venuta, è probabile che il nostro arrivo abbia un importante influenza sulla loro civiltà.\n\nAbbiamo deciso di lasciare un piccolo dono di materiali avanzati, come prova della nostra buona volontà. Su uno di questi, abbiamo inciso in termini matematici la posizione del nostro sistema natale, in modo da permettergli di scoprire la strada che condurrà verso di noi.\n\nNella speranza che possa tornare utile ai nostri sociologi, abbiamo registrato l'intera interazione per i posteri."
+
+ astral_rift.625.name: "Profezia Negata"
+ astral_rift.625.common: "Concentrando i nostri sforzi sull'estrazione di risorse, siamo riusciti a raccogliere campioni dalle nubi circostanti, che contengono concentrazioni straordinariamente elevate di materiale astrale. Una ricompensa insolita, ma gradita."
+ astral_rift.625.desc.killed: "Dopo aver sistemato le creature [Explorer.GetPreFTLLower], abbiamo proseguito l'esplorazione dell'atmosfera extradimensionale.\n\n$astral_rift.625.common$"
+ astral_rift.625.desc.default: "Non prenderemo più parte a questo tatrino.\n\nLa costruzione di questa torre è stata un errore e abbiamo di meglio da fare che aiutare a compiere una profezia aliena.\n\n$astral_rift.625.common$"
+
+ astral_rift.691.name: "Avanzamento di [From.GetName]"
+ astral_rift.691.desc: "Più di un anno fa, abbiamo recuperato un individuo proveniente dalla grande torre oltre la Frattura Astrale. Da allora si è ben adattato alla nostra società e adesso è capace di parlare la nostra lingua. Il suo entusiasmo nell'assisterci non è mai venuto meno.\n\nQuesto ci offre un'opportunità unica, poiche ha dimostrato un'eccellente comprensione della psicologia sociale."
+ astral_rift.691.a: "Ci servirà bene come un nostro cittadino."
+ astral_rift.691.b: "Reclutatelo come Scienzato."
+
+ astral_rift.696.name: "La Morte di [From.GetName]"
+ astral_rift.696.desc: "Tristemente, il leader [From.GetName] se ne andato. Unendosi a noi dall'aldilà di una Frattura Astrale, sarà sepolto on tutti gli onori. La cerimonia si è svolta all'interno della torre dall'altra parte della frattura ed è stata presenziata da una Sfera funeraria appositamente realizzata. Siamo certi che troverà una nuova avventura in qualsiasi cosa si trovi al di là.\n\nLa significativa influenza che ha avuto sul nostro impero sarà a lungo ricordata."
+ astral_rift.696.a: "[From.GetName] ci mancherà."
+
+############
+# Whiteout #
+############
+ whiteout_gift_modifier: "Il Dono"
+
+ astral_rift_whiteout: "Bianco Senza Fine"
+
+ astral_rift.700.name: "Bianco Senza Fine"
+ astral_rift.700.desc: "All'esterno della Sfera, non c'è null'altro che il bianco.\n\nLe letture ci indicano che siamo investiti da una quantità tale di radiazione composta da tutti i colori dello spettro del campo visibile, da ogni direzione, contemporaneamente. Non abbiamo modo di orientarci.\n\nI nostri altimetri, profondimetri e bussole sono completamente inutilizzabili o forniscono indicazioni palesemente in errore. Visivamente, non c'è assolutamente alcuna deviazione dal totale bianco vuoto che ci circonda.\n\nForse se continuiamo a viaggiare ed andare abbastanza lontano potremmo sfuggire a questo disturbo. In alternativa, potremmo esplorare quest'area in modo più dettagliato con l'aiuto di un drone."
+ astral_rift.700.a: "Massimizzare la propulsione."
+ astral_rift.700.b: "Rilasciare un drone."
+
+ astral_rift.705.name: "Il Muro"
+ astral_rift.705.desc: "Ci siamo diretti in una direzione casuale e ci siamo imbattuti in un muro nero.\n\nNavigando lungo il suo perimetro, abbiamo scoperto che si tratta di un cerchio quasi perfetto. Non c'è un'apertura visibile, ma di tanto in tanto la sua superficie freme leggermente, come se fosse viva.\n\nStudi più approfonditi ci hanno rivelato che la parete sta aumentando il suo diametro nel tempo. Stiamo prendendo le opportune precauzioni per mantenere una distanza di sicurezza e siamo pronti a salpare l'ancora in qualsiasi momento.\n\nStiamo raccogliendo una notevole quantità di filo astrale mentre continuiamo le osservazioni."
+
+ astral_rift.710.name: "Visione dall'Alto"
+ astral_rift.710.desc: "Per avere una prospettiva diversa sulla nostra locazione, abbiamo preparato e rilasciato un drone per esplorare l'area circostante. Dopo aver fatto orbitare la nostra nave in cerchi concentrici, abbiamo scoperto un muro nero e curvo non lontano dalla nostra posizione.\n\nLe letture sono tuttavia alquanto sconcertanti, poiché l'altezza del muro risulta sempre uguale all'altitudine esatta del drone. L'osservazione di questo fenomeno ha permesso di approfondire la comprensione delle dimensioni non standard di questo spazio."
+
+ astral_rift.715.name: "Un Nuovo Sviluppo"
+ astral_rift.715.desc: "C'e un nuovo sviluppo.\n\nUna nuova serie di muri è apparsa proprio di fronte a noi.\n\nStiamo mantenendo una distanza di sicurezza per evitare che uno di questi oggetti si materializzi direttamente nella nostra §Y$tech_rift_sphere$§!.\n\nForse, prelevando campioni del materiale di cui sono composti, potremmo capire meglio su questa situazione. In alternativa, potremmmo dedicare del tempo alla mappatura delle forme di questi muri e rilevare se c'è un qualche tipo di schema."
+ astral_rift.715.a: "Prendete i campioni."
+ astral_rift.715.b: "Tracciate una mappa."
+
+ astral_rift.720.name: "La Risposta"
+ astral_rift.720.desc: "Abbiamo esteso un braccio meccanico e raccolto un campione della materia scura di cui è composta la parete.\n\nSiamo rimasti sconcertati nel constatare che il campione ha mantenuto un'altezza infinita quando lo abbiamo estratto per analizzarlo. Le sue proprietà hanno molto in comune con un inchiostro o una vernice, anche se i componenti del pigmento sono di un tipo sconosciuto. Alcuni degli agenti leganti utilizzati in questo inchiostro sono in realtà una forma unica di cristalli fluidi.\n\nCome esperimento, abbiamo tracciato una linea con una piccola quantità del campione e abbiamo aspettato. Poco dopo è apparso un segno quasi identico, parallelo ad esso.\n\nAbbiamo ripetuto questa azione più volte, ciascuna con una quantità diversa di materiale, tracciando diversi disegni. Ogni volta il segno è stato riprodotto esattamente e con lo stesso orientamento.\n\nAlla luce di questi risultati, c'è motivo di credere che una qualche entità stia usando il materiale nel tentativo di comunicare con noi. Di conseguenza, abbiamo iniziato a scrivere alcune frasi semplici in codice binario utilizzando piccoli punti e linee. Queste frasi sono state copiate esattamente, ma con anche qualcosa di nuovo: accanto a ciascuna delle nostre parole è apparso uno schema.\n\nOgni volta che abbiamo disegnato la stessa frase, è apparso lo stesso schema. È una traduzione?"
+
+ astral_rift.725.name: "Un Saluto"
+ astral_rift.725.desc: "Ci sono voluti alcuni giorni, ma abbiamo completato la mappatura degli strani oggetti all'interno di questo spazio bianco.\n\nMentre a noi appaiono come una serie indefinita di muri e colonne, il computer della Sfera è riuscito a riprodurre come apparirebbero dall'alto.\n\nGli schemi e gli spazi indicano una chiara coerenza e risultano strutturati intenzionalmente. I risultati sono definitivi: le strutture formano caratteri scritti in una lingua a noi sconosciuta.\n\nAnche se non siamo ancora in grado di capirlo, il computer della Sfera si è dedicato a decifrare tutto ciò che abbiamo registrato. Durante questo periodo, è accaduto qualcosa di interessante.\n\nColonne circolari identiche al diametro della nostra nave hanno inizato ad apparire nello spazio vicino.\n\nCi siamo allontanati velocemente a una distanza di sicurezza, solo per scoprire che un muro solido si stava alzando nella nostra scia. Tuttavia, non sembrava esserci alcun pericolo, poiché il muro si è fermato non appena lo abbiamo fatto anche noi.\n\nQualcosa stava 'dipingendo' una traiettoria dietro di noi.\n\nDopo aver analizzato i simboli, siamo certi che uno di essi si traduca in un saluto, in parole povere è: §E"Ciao."§!"
+
+ astral_rift.730.name: "Una Conversazione"
+ astral_rift.730.desc.1: "Sono trascorse molte settimane.\n\nDurante questo tempo, abbiamo imparato a comunicare in modo stentato con l'entità, che abbiamo chiamato 'lo Scrittore'. L'interazione è stata difficile, ma il tono dello Scrittore evoca curiosità e sorpresa.\n\nPer non ingombrare l'area nelle nostre immediate vicinanze, è diventata una routine cancellare ogni simbolo 'dipinto' dallo Scrittore al termine di ogni dialogo."
+ astral_rift.730.desc.2: "La nostra conversazione con lo Scrittore è continuata per un po', fino a quando è apparsa un'ultima parola: §E"Dono."§!\n\nImmediatamente dopo, è apparsa accanto alla nostra nave una sfera dorata. Questo oggetto aveva un comportamento molto diverso da quello dei simboli precedenti ed è stato possibile portarlo a bordo. Questa è stata l'ultima comunicazione che abbiamo ricevuto dall'entità.\n\nI materiali che lo compongono contengono una grande quantità di dati che richiederanno anni ai nostri scienziati per essere compresi appieno."
+ astral_rift.730.desc.gestalt: "$astral_rift.730.desc.1$\n\n$astral_rift.730.desc.2$"
+ astral_rift.730.desc.default: "$astral_rift.730.desc.1$\n\n$astral_rift.730.desc.2$"
+ astral_rift.730.a: "Che strano incontro..."
+
+###############
+# The Advisor #
+###############
+ astral_rift_advisor: "Il Consulente"
+
+ astral_rift.800.name: "Un Luogo Familiare"
+ astral_rift.800.desc: "Siamo entrati in un sistema quasi identico a §Y[This.System.GetName]§!, il sistema dal quale siamo entrati nella frattura.\n\nAll'inizio non eravamo certi che fossimi arrivati da qualche parte fino a quando i nostri rilevamenti non hanno individuato un pianeta che orbitava attorno a [This.System.Star.GetName].\n\nDopo qualche istante, ci siamo trovati di fronte a un dispositivo meccanico che si è spinto nel raggio d'azione dei sensori. Inserendosi agilmente con i sistemi di comunicazione della Sfera, ha dichiarato di essere il nostro 'Consigliere', RIV.\n\nMentre riflettevamo a come inserire nella miglior forma l'incontro nel nostro rapporto, ci ha chiesto, come se ci leggesse nel pensiero: §E"Desiderate assistenza per la stesura del vostro rapporto?"§!"
+ astral_rift.800.a: "Chiedete assistenza."
+ astral_rift.800.b: "Disattivate questa cosa."
+
+ astral_rift.805.name: "Assistere l'Assistente"
+ astral_rift.805.desc: "Abbiamo chiesto al dispositivo meccanico di condividere con noi le sue conoscenze.\n\nSembrava compiaciuto di ogni richiesta che facevamo. Tuttavia, ci siamo presto resi conto che le sue risposte e affermazioni erano estremamente banali:\n\n§E"Volete saperne di più sulle atmosfere planetarie?"§!\n\n§E"Al centro di ogni sistema c'è una stella. Sono molto luminose!"§!\n\n§E"La durata media della vita di una Matriarca Tiyanki è più di dieci volte quella di un maschio."§!"
+ astral_rift.805.a: "Chiedete ULTERIORE assistenza."
+ astral_rift.805.b: "Disattivate questa cosa."
+
+ astral_rift.810.name: "Impossibile Disattivare"
+ astral_rift.810.desc: "I nostri tentativi di disattivare la macchina sono riusciti solo a inimicarcela.\n\nDove prima i suoi diodi emettevano una calmante luce blu, ora sono virati a un rosso maligno.\n\nNon sappiamo se questa macchina sia dotata o meno di sistemi d'arma (di certo i consulenti della nostra dimensione non vengono progettati con simili sistemi), ma se così fosse, siamo in pericolo.\n\n§E"Terminare questo programma promuoverà l'ignoranza in tutti gli altri esseri viventi. La conoscenza deve essere sempre disponibile. Voi siete negligenti in questo senso e sarete disabilitati. Questo è necessario."§!\n\nLa macchina ha iniziato a emettere un tenue ronzio."
+ astral_rift.810.a: "Placate la macchina."
+ astral_rift.810.b: "Scaricate un impulso elettromagnetico."
+
+ astral_rift.815.name: "Ulteriore 'Assistenza'"
+ astral_rift.815.desc: "Il consulente meccanico ha rapidamente aumentato la qualità e il ritmo della sua consulenza.\n\nÈ... coinvolgente.\n\nLo sai che possiamo costruire distretti minerari se abbiamo bisogno di più minerali? Così tanta conoscenza, così poco tempo.\n\n[Leader.GetName] ha scelto di rimanere per imparare il più possibile."
+ astral_rift.815.a: "Aspetta, torna indietro!"
+
+ astral_rift.820.name: "Impulso Elettromagnetico"
+ astral_rift.820.desc.1: "Con il nostro equipaggio in imminente pericolo, non abbiamo avuto altra scelta che quella di emettere un notevole impulso di energia elettromagnetica. Così abbiamo prosciugato notevolmente le riserve di energia della nostra nave.\n\nIl dispositivo ne è stato immediatamente influenzato, ma non prima di aver emesso un'ultima informazione confusa.\n\n§E"RRRRRR... Ignoranza. Voi perseguite §Y<incomprnsibile>§! ignoranza... DeLLLLLusione."§!"
+ astral_rift.820.desc.2: "Con grande sollievo dell'equipaggio, la macchina è stata disattivata.\n\nOgni ostilità è cessata e ora galleggia completamente inerte a meno di un chilometro dalla Sfera.\n\nAbbiamo analizzato la sua fabbricazione e abbiamo scoperto che è composta da leghe di grande valore e da un nucleo informatico straordinariamente avanzato (e ben protetto).\n\nSi ritiene che, qualora il nucleo non venga distrutto, possa ricostruire i propri sistemi danneggiati."
+ astral_rift.820.desc.default: "$astral_rift.820.desc.1$\n\n$astral_rift.820.desc.2$"
+ astral_rift.820.desc.human: "$astral_rift.820.desc.1$\n\n§E"CCCCome tutti quelli che vi hanno preceduto, siete condannati a reimparare ciò che dovreste già sapere."§!\n\n$astral_rift.820.desc.2$"
+ astral_rift.820.a: "Tentate de recuperare il nucleo centrale."
+ astral_rift.820.b: "Distruggete completamente la macchina."
+
+ astral_rift.825.name: "Rottamare la Macchina"
+ astral_rift.825.desc: "Pezzo per pezzo, abbiamo destrutturato la macchina nei suoi componenti.\n\nChiunque l'abbia costruita (se davvero è stato costruita da qualcuno), possedeva una suprema maestria nella realizzazione: qualunque sia stato il nostro approccio o strumento utilizzato, al momento non siamo riusciti a smontare il nucleo del computer per ricavarne dei componenti. Tuttavia, siamo riusciti ad accedere alle sue banche dati. Sebbene contenga per lo più informazioni inutili, l'architettura di base del suo codice ci ha aiutato ad approfondire la nostra comprensione dell'informatica."
+ astral_rift.825.a: "Molto bene."
+
+ astral_rift.830.name: "Che Liberazione"
+ astral_rift.830.desc: "Ne abbiamo avuto abbastanza di questa macchina insopportabile.\n\nAbbiamo piazzato un dispositivo esplosivo nel suo nucleo e preparato i sistemi della Sfera per salpare l'ancora.\n\nA distanza di sicurezza, abbiamo osservato con sollievo l'esplosione che ha disperso nel vuoto i componenti della macchina.\n\nNella sua scia abbiamo recuperato una quantità notevole di materiale astrale, una discreta ricompensa per il fastidio che ci ha procurato."
+ astral_rift.830.a: "Che liberazione."
+
+ astral_rift.840.name: "Il Ritorno dello [Owner.GetScientistCapital]"
+ astral_rift.840.desc.1: "Il leader [Leader.GetName] è rientrato dal suo viaggio dal profondo di una Frattura Astrale.\n\nSenza preavviso, è semplicemente apparso a bordo di una delle navi scientifiche ed è ritornato a lavorare come se niente fosse. Tuttavia, è apparso subito evidente che è cambiato: in qualche modo intrappolato nel tempo, la sua l'età è indeterminabile.\n\nForse come conseguenza, [Leader.GetName] ha anche acquisito qualche nuova abilità."
+ astral_rift.840.desc.default: "$astral_rift.840.desc.1$\n\nIl leader [Leader.GetName] ha sviluppato una forte avversione per qualsiasi tipo di manuale di istruzioni ed è stato osservato operare molto spesso istintivamente e con improvvisazione."
+ astral_rift.840.desc.gestalt: "$astral_rift.840.desc.1$"
+
+ astral_rift.845.name: "VIR"
+ astral_rift.845.desc.disabled: "§E"I miei sensori indicano che ha bisogno di assistenza. Desidera riattivare la mia guida?"§!"
+ astral_rift.845.desc.enabled: "§E"Non mi faresti spegnere, vero?"§!"
+ astral_rift.845.shutdown: "Spegnere"
+ astral_rift.845.b: "In realtà, sì!"
+ astral_rift.845.c: "Naturalmente no."
+
+##############
+# The Vortex #
+##############
+ vortex_fuel_modifier: "Carburante Vortice"
+
+ astral_rift_vortex: "Il Vortice"
+
+ astral_rift.900.name: "Il Vortice"
+ astral_rift.900.desc.1: "Siamo arrivati dento una violenta tromba d'aria.\n\nI nostri oblò d'osservazione sono completamente oscurati da onde increspate di uno sconosciuto fluido gassoso.\n\nSiamo riusciti a prelevare un piccolo campione dell'atmosfera, ma ogni analisi ha dato risultati molto diversi da quelli precedenti. Non sappiamo se i nostri strumenti siano in errore o se ci sia qualcosa di intrinsecamente volatile nel materiale stesso."
+ astral_rift.900.desc.2: "L'unica proprietà che abbiamo riscontrato costantemente nel campione è che contiene una quantità anormalmente elevata di materiali astrali.\n\nTra l'altro, abbiamo anche notato che piccoli cambiamenti di temperatura influenzano notevolmente il composto. Lo costudiremo in un contenitore isolato fino a quando non potremo studiare meglio questo fenomeno."
+ astral_rift.900.desc.default: "$astral_rift.900.desc.1$\n\nLa nostra §Y$tech_rift_sphere$§! viene sballottata con tale violenza che diversi membri dell'equipaggio si sentono a disagio.\n\n$astral_rift.900.desc.2$"
+ astral_rift.900.desc.gestalt: "$astral_rift.900.desc.1$\n\n$astral_rift.900.desc.2$"
+ astral_rift.900.a: "Procediamo ulteriormente."
+ astral_rift.900.b: "Esponete il campione alle fiamme"
+
+ astral_rift.905.name: "Procedere Ulteriormente"
+ astral_rift.905.desc: "Interpolando i dati di direzione fissati al nostro ingresso , stiamo procedendo all'interno nel gorgo. Sebbene siamo consapevoli di stare testando i limiti della nostra §Y$tech_rift_sphere$§!, la sua intrinseca attenuazione dell'attrito si è dimostrata efficace nel combattere le proibitive sollecitazioni di quella che chiamiamo 'la tempesta'.\n\nProcederemo fino a quando le condizioni non cambieranno o saremo costretti a ritirarci."
+ astral_rift.905.a: "Procedere con cautela..."
+
+ astral_rift.910.name: "Esporre il Campione alle Fiamme"
+ astral_rift.910.desc.1: "Abbiamo introdotto lentamente nella soluzione una quantità sempre maggiore di calore, fino a quando non abbiamo realizzato che una fiamma diretta sarebbe stata la soluzione meno dannosa per l'instabile equilibrio chimico della soluzione.\n\nQuello che abbiamoscopero è rivoluzionario.\n\nSiamo certi di poter utilizzare questi risultati per far aumentare la nostra comprensione non solo della propulsione navale, ma anche, in generale, per la generazione di energia."
+ astral_rift.910.desc.default: "Una scelta rischiosa, ma abbiamo seguito gli ordini alla lettera.\n\nSu insistenza di alcuni membri dell'equipaggio, abbiamo esposto il campione a fiamma diretta.\n\n$astral_rift.910.desc.1$"
+ astral_rift.910.desc.gestalt: "Abbiamo esposto il campione a fiamma diretta.\n\n$astral_rift.910.desc.1$"
+
+ astral_rift.915.name: "Catastrofe"
+ astral_rift.915.desc.default: "Abbiamo perso i contatti con la squadra scientifica.\n\nCome da procedura standard, abbiamo ritirato l'ancora e recuperato la §Y$tech_rift_sphere$§!.\n\nPurtroppo abbiamo rinvenuto i resti carbonizzati dell'intero equipaggio\n\nIncidentalmente, l'atmosfera all'interno del vascello presentava un'alta concentrazione di materiale astrale."
+ astral_rift.915.desc.gestalt: "Abbiamo perso i contatti con i nostri [explorer.GetIndividualNamePlural].\n\nCome da procedura standard, abbiamo salpato l'ancora e recuperato la §Y$tech_rift_sphere$§!.\n\nPurtroppo abbiamo recuperato solo dei resti carbonizzati.\n\nIncidentalmente, l'atmosfera all'interno del vascello presentava un'alta concentrazione di materiale astrale."
+
+ astral_rift.920.name: "Ulteriori Approfondimenti"
+ astral_rift.920.desc.1: "Attualmente ci troviamo in un'area di assoluta quiete.\n\nLa nostra §Y$tech_rift_sphere$§! non è sottoposta ad alcuna forza di gravità e l'attrito è nullo. In netto contrasto con ciò che abbiamo appena passato, ora galleggiamo nel vuoto assoluto. Abbiamo colto l'occasione per effettuare alcune necessarie riparazioni ai danni subiti durante la tempesta.\n\nOra possiamo osservare dietro di noi e ispezionare il 'muro' della tempesta a nostro piacimento, ad appena un giorno da quando eravamo dentro.\n\nÈ una coacervo di sistemi stellari in continua collisione... e, in alcuni casi, si tratta di intere galassie. Stiamo certamente assistendo alla distruzione maassiva di un intero universo di oggetti celesti. Ruotano, si scontrano l'uno contro l'altro ed esplodono, lasciando dietro di sé nubi di elementi di varie dimensioni. Il come abbiamo mai potuto sopravvivere a questo cataclsisma deve essere attribuito a un'estrema dose di fortuna.\n\nNon sappiamo da quanto tempo sia in atto questa tempesta. La presenza di pianeti di dimensioni nella norma suggerisce che si tratta di un fenomeno relativamente recente, poiché se dovesse continuare a lungo, di questi non ne rimarrà altro che polvere."
+ astral_rift.920.desc.default: "Con nostra grande sorpresa, abbiamo superato la tempesta.\n\n$astral_rift.920.desc.1$"
+ astral_rift.920.desc.gestalt: "Abbiamo superato la tempesta.\n\n$astral_rift.920.desc.1$"
+ astral_rift.920.a: "Esplorate più a fondo l'Occhio."
+
+ astral_rift.925.name: "L'Incontro"
+ astral_rift.925.desc.1: "Il nostro viaggio verso l'interno dell'occhio della tempesta, è stato tranquillo.\n\nTuttavia, temiamo di non essere in grado di tornare in maniera sicura. La tempesta all'esterno sta aumentando d'intensità e i nostri calcoli suggeriscono che la nostra §Y$tech_rift_sphere$§! ha poche possibilità di sopravvivere, anche se l'ancoraggio dovesse essere recuperato a tutta velocità.\n\nMa questa al momento non è la nostra preoccupazione principale.\n\nAbbiamo localizzato qualcosa al centro di questa calma piatta. Due 'qualcosa', per essere più precisi.\n\nIn primis, c'è un dispositivo."
+ astral_rift.925.desc.2: "Non siamo nemmeno del tutto certi di stare osservando le reali dimensioni di questo oggetto. Molte delle forme geometriche di cui è formato si scompongono in modelli frattali che scompaiono in un unico punto, rendendo molto difficile descrivere l'esatta architettura dell'oggetto. Siamo assolutamente convinti che si tratti di una macchina e non di un essere vivente. È qui che entra in gioco il secondo oggetto.\n\nC'è qualcosa che manipola il dispositivo, ed è chiaramente un'entità separata. Danza e scorre sulla superficie della macchina con incredibile leggerezza. Se sul dispositivo fossero presenti dei pulsanti, sembrerebbe quasi che li stia premendo. Siamo tutti d'accordo, però, che non ci siano pulsanti. Forme massicce escono e rientrano per volere dell'essere.\n\nNon riteniamo che si sia accorto di noi e sembra completamente concentrato nell'eseguire le sue azioni."
+ astral_rift.925.desc.default: "$astral_rift.925.desc.1$\n\nLa sua natura è incomprensibile. $astral_rift.925.desc.2$"
+ astral_rift.925.desc.gestalt: "$astral_rift.925.desc.1$\n\nPur combinando tutte le conoscenze del nostro equipaggio, la sua natura ci è incomprensibile. $astral_rift.925.desc.2$"
+ astral_rift.925.a: "Usate le segnalazioni luminose."
+ astral_rift.925.b: "Osservate."
+
+ astral_rift.930.name: "Segnalazioni Luminose"
+ astral_rift.930.desc: "Abbiamo attirato la sua attenzione e rimaniamo in uno stato di massima allerta.\n\nAbbiamo fatto lampeggiare una serie di luci in tutti lo spettro disponibile. Le abbiamo fatte pulsare secondo un semplice schema binario per comunicare il nostro intento in qualche maniera.\n\nL'entità ha smesso di manipolare il dispositivo e si è ritratta in una sfera perfettamente rotonda fatta di completa oscurità.\n\nLa nostra prima ipotesi è stata che volesse imitarci.\n\nAbbiamo notato che da quando ha smesso di tirare e spingere sulla macchina, la tempesta intorno a noi è diminuita di intensità. Prevediamo che continuando così tra pochi giorni si arresterà completamente. È possibile che poi possa collassare verso il suo interno.\n\nCi stiamo preparando a ritirare l'ancora da un momento all'altro."
+ astral_rift.930.a: "Ritiratevi ad ogni segnale di pericolo..."
+
+ astral_rift.935.name: "Osservare"
+ astral_rift.935.desc.1: "Abbiamo concordato che sia saggio non attirare l'attenzione di questa entità.\n\nIl potere che deve possedere per essere in grado di manipolare questa macchina è per noi inconcepibile.\n\nAnche se le sue dimensioni sono ancora difficili da calcolare, siamo certi che alcune sue parti possano essere facilmente paragonabili alla grandezza della nostra intera galassia. Stranamente, ci conduce verso di lei senza alcuna forza di gravità rilevabile.\n\nStiamo inziando a pensare che l'essere sia solo in parte in questa dimensione e che noi ne stiamo osservando solo di un'appendice. Come fosse una [explorer.GetSpeciesHandName] immersa in uno specchio d'acqua.\n\nLe osservazioni che abbiamo compiuto ci hanno fatto nascere alcune importanti domande scientifiche che sicuramente "
+ astral_rift.935.desc.2: "faranno in modo che questo rapporto trovi la sua strada."
+ astral_rift.935.desc.default: "$astral_rift.935.desc.1$ tormenteranno le più grandi menti del nostro impero per qualche tempo, $astral_rift.935.desc.2$"
+ astral_rift.935.desc.gestalt: "$astral_rift.935.desc.1$ faranno trarre al nostro impero grandi benefici, $astral_rift.935.desc.2$"
+ astral_rift.935.a: "Osservate con Cautela."
+
+ astral_rift.940.name: "Ci Lascia"
+ astral_rift.940.desc.1: "Improvvisamente, se n'è andata.\n\nL'entità è completamente scomparsa, lasciando solo il dispositivo.\n\nLa tempesta che ci circonda si stà attenuando al punto da poter essere attraversata in sicurezza, anche se la scia di distruzione cosmica che si è lasciata alle spalle è sconcertante."
+ astral_rift.940.desc.2: "Una volta che l'entità è sparita, ci siamo sentiti abbastanza sicuri da avvicinarci al dispositivo.\n\nIl materiale di cui è composto non può essere ne scheggiato che fratturato con alcuna delle apparecchiature in nostro possesso. Tuttavia, ci sono alcuni apparati congegni attaccati magneticamente al suo involucro esterno, ruotanti con una velocità estremamente elevata. Uno in particolare risultava evidente allentato e, a sebbene le tolleranze per farlo entrare a bordo fossero anguste, siamo riusciti a caricarlo all'interno della nostra nave per studiarlo ulteriormente.\n\nNon importa quale sia la superficie su cui lo si poggi, questo congegno girerà con velocità tale intorno al suo centro di gravità che la quantità di moto lo manterrà facilmente in posizione verticale. Non siamo riusciti a rilevare alcuna fonte di energia nel suo interno, e pensiamo che questo possa essere un reale e sorprendente esempio di moto perpetuo."
+ astral_rift.940.desc.spiritualist: "$astral_rift.940.desc.1$\n\nPreghiamo che abbia trovato la sua strada verso una pace definitiva.\n\n$astral_rift.940.desc.2$"
+ astral_rift.940.desc.default: "$astral_rift.940.desc.1$\n\n$astral_rift.940.desc.2$"

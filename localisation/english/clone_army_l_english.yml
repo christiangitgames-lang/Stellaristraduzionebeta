@@ -1,0 +1,119 @@
+﻿l_english:
+ ########################
+ # Humanoids Species Pack (Value Buff)
+ ########################
+
+ ### Clone Army Origin
+
+ clone_soldier:0 "Soldato Clone"
+ origin_clone_army:0 "Esercito Clone"
+ origin_clone_army_desc:0 "Una Specie di Cloni soldato con vite effimere e sterili eccezionabilmente abili nell'arte della guerra lasciati senza padrone e soli nel mettere in discussione la loro origine e destino incerto"
+ origin_tooltip_clone_army_effects:2 "- $HOMEWORLD$ ['concept_clone_army_clone_vat']: +2 $NEW_LINE$- $SPECIES_TRAITS$ ['concept_clone_soldier_infertile']$NEW_LINE$- $ADDITIONAL_TECHNOLOGIES_STRING$ $TABBED_NEW_LINE$- ['concept_cloning', £society_research£ $tech_cloning$] $TABBED_NEW_LINE$- ['concept_gene_banks', £society_research£ $tech_gene_banks$]"
+ 
+
+ trait_clone_soldier_infertile:0 "$clone_soldier$"
+ trait_clone_soldier_infertile_desc:0 "§LProgettato per la fedeltà e la guerra: vita effimera,incapace di riprodursi naturalmente e molto efficente.§!"
+ trait_clone_soldier_fertile:0 " Eredi dei Cloni Soldato"
+ trait_clone_soldier_fertile_desc:0 "§Un tempo sterile,progettato per la docilità e la guerra. Il loro vantaggio genetico è diminuito, ora sono abbastanza stabili per la riproduzione naturale.§!"
+ trait_clone_soldier_infertile_full_potential:0 "Antenato del Soldato Clone"
+ trait_clone_soldier_infertile_full_potential_desc:0 "§LCloni all'apice della loro modifica genetica, con ulteriore resistenza, efficenza, durabilità e longevità migliorate ma per sempre sterili.§!"
+ leader_trait_clone_army_commander:0 "Comandante dell'Esercito Clone"
+ leader_trait_clone_army_commander_desc:0 "Dalla sua amplia educazione militare, questo leader capisce come massimizzare l'efficienza delle navi e dei Soldati allo stesso modo."
+ leader_trait_clone_army_full_commander:0 "Comandante Antenato dell'Esercito Clone"
+ leader_trait_clone_army_full_commander_desc:0 "Sottoposto sin dalla sua creazione a un regime di educazione militare così intenso che pochi potrebbero sopportarlo, questo leader possiede eccellenti capacità marziali e di comando."
+ leader_trait_clone_army_fertile_commander:0 "Comandante dell'Esercito Clone"
+ leader_trait_clone_army_fertile_commander_desc:0 "Dalla sua educazione militare specializzata, questo leader possiede una comprensione superiore alla media delle procedure marziali e del modo migliore per ottimizzarle."
+ TRAIT_INFERTILE:0 "§RNon può riprodursi naturalmente§!"
+ genelock_trait_tooltip:0 "§RNon può essere modificato geneticamente§!"
+ NEEDS_GENE_TAILORING_AND_CLONE_SYNTHESIZATION: "$TRIGGER_FAIL$Per modificare questa specie abbiamo bisogno di:\n- Tecnologia £society£ §Y$tech_gene_tailoring$§!\n- Tradizione £unity£ §Y$tr_cloning_somatic_synthesization_clone_army$§!"
+
+ disables_clone_army_origin_features:0 "§RLa scelta di questo vantaggio dell'Ascensione disabiliterà la meccanica dell'origine dell'esercito clone.§!"
+ clone_soldier_locked_genes:0 "$TRIGGER_FAIL$Non possiamo intraprendere la Biomorfosi finché non abbiamo scoperto il nostro Potenziale Genetico."
+
+ building_clone_army_clone_vat:0 "Antiche Vasche per Cloni"
+ building_clone_army_clone_vat_plural: "Vasche di Clonazione Antiche"
+ building_clone_army_clone_vat_desc:0 "Tecnologia perduta lasciata dai Creatori. Posssono essere smontate e riasseblate ma i suoi componenti interni e il funzionamento sono troppo avanzati per essere replicati."
+ building_clone_army_clone_vat_effect_desc:1 "L'efficacia di $MOD_BONUS_POP_GROWTH$ si riduce man mano che le l'$building_clone_army_clone_vat$ raggiungono la loro capacità."
+ mod_clone_soldiers_sustained: "Soldato Clone Pop Sostenuto"
+ mod_fake_pop_growth_mod: "$MOD_BONUS_POP_GROWTH$"
+
+ START_SCREEN_CLONE_ARMY:0 "Siamo fatti per la guerra! Soldati ingegnerizzati che vivono e muoiono a grazie alle Antiche Vasche per Cloni lasciate dai nostri Creatori, plasmati per sempre nel loro stampo. Ogni ricordo dei nostri maestri si perde nelle generazioni passate, e non sappiamo quando o perché ci abbiano lasciato. È probabile che i documenti siano stati regolarmente cancellati, sempre fedeli al protocollo militare, ma a un certo punto negli ultimi secoli le cose sono cambiate. Per caso, o forse per un fallito istinto di sopravvivenza, il nostro subconscio ci ha spinto a cercare risposte, a cercare nuovi scopi e modi per rompere la forma impostaci.\n\nI nostri sforzi da allora sono stati incessanti, concedendoci finalmente l'accesso a le grandi distese dello spazio. Man mano che il nostro orizzonte si allarga, anche la nostra conoscenza deve ampliarsi - e così aumentano le nostre possibilità di liberarci.\n\nNon sprecheremo le possibilità dateci dai nostri antenati. Combatteremo per trasmettere queste possibilità ai futuri cloni, e combatteremo per eliminare le restrizioni imposteci.\n"
+
+ alert_declining_pops_title:0 "Pop in Diminuzione"
+ alert_declining_pops_instant:0 "La £pop£ §HPop§! è in diminuzione nei seguenti pianeti:"
+ CLONE_ARMY_FORCE_DECLINE:0 "§YVasche di Clonazione§! §RInsufficienti per sostenere la popolazione §YSoldato Clone§!§!"
+ OVERPOPULATION_DECLINE:0 "§REccessivo Sovraffolamento§!"
+
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS_TITLE:0 "Pop in Diminuzione"
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS:0 "La £pop£ §HPop Soldato Clone§! su $PLANET|Y$ non ha niente per sostenerla. Senza le §YAntiche Vasche per Cloni§!, ci estingueremo presto."
+
+ clones.4.name:0 "Cloni Fertili"
+ clones.4.desc:0 "Si pensa che un tempo fossimo capaci di riproduzione autonoma.\n\nTuttavia, gli esperimenti per rivendicare quella capacità sono costantemente falliti, compresi quelli riusciti su altre creature del nostro pianeta natale. Il progresso è stato a lungo fermo, fino ad ora.\n\nUn'improbabile scoperta fa sperare i nostri scienziati: un cifrario, nascosto nel codice genetico-quantistico delle §YAntiche Vasche per Cloni§!, in un'area che si ritiene governi il potenziale di procreazione del nostro genoma."
+
+ CLONE_SOLDIER_FERTILITY:0 "Algoritmo del Codice Genetico"
+ CLONE_SOLDIER_FERTILITY_DESC:0 "Un progetto per elaborare l'algoritmo recentemente scoperto all'interno del codice genetico quantistico delle §YAntiche Vasche per Cloni§!. Uno sforzo per avvicinarci a reclamare finalmente la nostra fertilità."
+
+ clones.20.name:0 "Collegamento con le Antiche Vasche per Cloni"
+ clones.20.desc:0 "Grazie alla tenacia dei nostri scienziati, il cifrario trovato all'interno delle Antiche Vasche per Cloni è stato decodificato. Nonostante il protocollo, il responsabile scientifico eccessivamente ansioso ha attivato il programma che conteneva.\n\nUn messaggio del passato echeggia sullo schermo..."
+
+ clones.21.name:0 "Collegamento con le Antiche Vasche per Cloni"
+ clones.21.desc:0""Sono gravato dalla colpa. Non riesco a immaginare quali strade abbiano portato a questo, ma sicuramente non la misericordia dei miei fratelli.\n\nHo contribuito a crearti per servire, e per questo mi dispiace. Non posso riprendermi ciò che è stato fatto, ma posso aiutare ad aprire il tuo futuro. Anche se meriti di più, ti offro due strade:\n\nPer annullare i cambiamenti che ti hanno reso sterile, e finalmente renderti libero di evolvere e prosperare.\n\nPer sbloccare ulteriormente il tuo potenziale, ma sforzare i tuoi geni al loro limiti, costringendo le generazioni future a dipendere per sempre dalla tecnologia per la riproduzione.""
+
+ clone_fertility_chain_title:0 "Crocevia Genetico"
+ clone_fertility_chain_desc:0 "Il codice genetico nascosto nel cifrario, lasciato da uno dei Creatori all'interno delle Antiche Vasche per Cloni, ci ha rivelato due strade: reclamare la nostra fertilità e rinunciare a parte della nostra forza, o abbandonare per sempre la riproduzione naturale per raggiungere ulteriori vette genetiche."
+
+ CLONE_SOLDIER_UNLOCK_FERTILITY:0 "Fertilità Clone"
+ CLONE_SOLDIER_UNLOCK_FERTILITY_DESC:0 "La nostra specie diventerà meno efficiente, ma abbastanza fertile e stabile per le modifiche genetiche.\n\nEffetti:\n- Il tratto ['trait:trait_clone_soldier_infertile'] viene sostituito con il tratto ['trait:trait_clone_soldier_fertile'].\n- Questo percorso farà sì che tutti i ['building:building_clone_army_clone_vat', $building_clone_army_clone_vat_plural$] siano §Rdisassemblati§!."
+ CLONE_SOLDIER_UNLOCK_FERTILITY_UTOPIA_DESC: "$CLONE_SOLDIER_UNLOCK_FERTILITY_DESC$\n- L'Ascensione ['ascension_perk:ap_engineered_evolution'] può ora essere acquisito."
+ CLONE_SOLDIER_UNLOCK_FERTILITY_BIOGENESIS_DESC: "$CLONE_SOLDIER_UNLOCK_FERTILITY_UTOPIA_DESC$"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL:0 "Potenziale di Clonazione"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_DESC:0 "La nostra specie diventerà più efficiente, ma sarà sempre sterile e resisterà alle modifiche genetiche.\n\nEffetti: \n- Il tratto ['trait:trait_clone_soldier_infertile'] viene sostituito con il tratto ['trait:trait_clone_soldier_infertile_full_potential']."
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_UTOPIA_DESC: "$CLONE_SOLDIER_UNLOCK_POTENTIAL_DESC$\n- L'Ascensione ['ascension_perk:ap_engineered_evolution'] può ora essere acquisito."
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_BIOGENESIS_DESC: "$CLONE_SOLDIER_UNLOCK_POTENTIAL_UTOPIA_DESC$\n- L'Ascensione ['tradition_category:tradition_cloning'] verrà potenziato.\n- §RI Percorsi di Ascensione ['tradition_category:tradition_purity'] e ['tradition_category:tradition_mutation'] saranno bloccati.§!"
+
+ clones.22.name:0 "L'alba di un Nuovo Giorno"
+ clones.22.desc:0 "La nostra fertilità viene recuperata, e il primo lotto dei nuovi §Y[Root.GetSpeciesNamePlural]§! hanno visto la luce del giorno. Cambieranno per sempre il nostro futuro con i loro figli, costringendo la nostra società a cambiare e adattarsi con loro.\n\nLa necessità delle §YAntiche Vasche per Cloni§! è passata, è stata presa la decisione di spogliarli di tutto ciò che può essere ulteriormente studiato. Ciò che rimane verrà riciclato e utilizzato altrove."
+
+ clones.23.name:0 "Massimo Potenziale"
+ clones.23.desc:0 "Perché dovremmo negare la forza che ci è stata data? Non abbiamo bisogno di amare i Creatori per riconoscere la loro saggezza nella scelta di noi. Anche le Antiche Vasche per Cloni sono un dono potente.\n\nÈ meglio abbracciare la nostra forza, e con il primo lotto di §Y[Root.GetSpeciesNamePlural]§! completato, siamo più forti che mai. La nostra specie perfetta prospererà."
+ clones.23.bio.tt: "Aggiorna l'albero delle tradizioni ['tradition_category:tradition_cloning']"
+
+ clones.10.name:0 "Origine Discussa"
+ clones.10.desc:0 "Con il nostro recente arrivo nello spazio, le diverse opinioni sulla nostra origine si stanno rapidamente trasformando in uno scisma. I gruppi estremisti stanno rapidamente attraendo più cloni. La nostra forte unità è rotta.\n\nAlcuni vedono i Creatori come dèi da adorare e obbedire, e credono che siamo stati fatti a loro immagine. Non farebbero altro che mantenere lo status quo. Altri maledicono i nostri antichi padroni per le loro azioni, etichettandoli come 'schiavisti', e li vedrebbero completamente ripagati.\n\nUn sito di scavo è stato stabilito su [Root.Owner.GetHomeWorldName] per verificare i fatti e mettere a tacere il dibattito. Prima di passare allo spazio, dovremmo esaurire tutte le possibilità immediate. La nostra nazione è vecchia. Sono vissute molte generazioni di cloni Siamo morti qui. Sotto le antiche strutture del nostro pianeta natale, alcuni indizi significativi sono destinati ad aspettarci."
+ 
+ clone_army_digsite:0 "Scavi nel Pianeta natale"
+ clone_army_digsite_desc:0 "Da quando ci siamo risvegliati dalla nostra situazione, l'assenza di identità e scopo ha afflitto la nostra specie. Abbiamo grossolanamente sottovalutato l'impatto che avrebbe sulla nostra capacità di andare avanti, figuriamoci di cooperare. Lottiamo per raggiungere un accordo, e abbiamo fame per le risposte.\n\nQuesto sito di scavo è stato creato per cercare prove sulle questioni dibattute sulla creazione della nostra specie, e per trovare un punto di osservazione fondamentale per aiutarci a unirci."
+
+ clones.11.name:0 "Storia Perduta"
+ clones.11.desc:0 "Un sito di scavo centrale è riuscito a datare con successo l'installazione di una delle nostre §YAntiche Vasche per Cloni§! analizzando il terreno sotto la struttura , confrontando la sua densità e composizione con quella dei suoi dintorni, e abbiamo raggiunto una stima ragionevole di quando è stato collocato lì.\n\nSembra che i primi della nostra specie, i primi cloni, siano stati prodotti circa dodici secoli fa.\n\nMolte generazioni della storia sono state perse nell'apatia. Molto tempo è passato, e forse è qualcosa di cui rammaricarsi."
+ clones.12.name:0 "Antichi Legami"
+ clones.12.desc:0 "Uno dei siti di scavo ha riportato la scoperta di vecchi fossili simili a [Root.Owner.GetSpeciesName]. Fossili molto antichi. Sono stati trovati in e intorno ai resti di quelle che si presume essere fattorie primitive. Apparentemente, sia i fossili che l'architettura sono anteriori alla costruzione delle nostre §YAntiche Vasche per Cloni§! da più di un millennio.\n\nIl sequenziamento iniziale del DNA ha confermato significative somiglianze tra il nostro corredo genetico e quello della materia fossilizzata, e si è concluso che i resti appartengono ai nostri antichi predecessori, da prima che fossimo cloni.\n\nQuesto mette le cose in prospettiva."
+ clones.12.tooltip:0 "Questi risultati impiegheranno un po' di tempo per essere assimilati..."
+ clones.13.name:0 "La Nostra Storia"
+ clones.13.desc:0 "La notizia dei risultati degli scavi, che dimostra che la nostra specie era un tempo un popolo primitivo su [Root.GetHomeWorldName], sta iniziando a diffondersi.\n\nÈ difficile negare l'ovvia conclusione: modificare geneticamente un specie primitive come i nostri antenati, una specie già adatta alla guerra, ha uno scopo specifico. I nostri Creatori ci hanno rifatto per morire per la loro causa. Ci hanno innalzato per soddisfare i loro bisogni, per non prosperare mai alle nostre condizioni.\n\nQuesta è davvero la storia che vogliamo per la nostra gente?\n\nCi sono ampie opportunità per riscrivere il nostro passato."
+ clones.13.a:0 "Sì, siamo stati fatti a immagine dei Creatori."
+ clones.13.b:0 "No, affronteremo la realtà."
+
+ clones.14.name:0 "Ricordi Dissotterrati"
+ clones.14.desc:0 "Anni fa, sono stati fatti degli scavi per trovare lo scopo della nostra creazione. Gli insegnamenti sono stati difficili: siamo stati fatti per servire, per morire nel nome dei nostri Creatori. Abbiamo scelto di proteggere il nostro popolo da questo verità dando loro una migliore.\n\nRecuperando scrupolosamente i file cancellati da quegli scavi, un clone sovversivo ha reso pubblica conoscenza dei fatti che abbiamo nascosto.\n\nIl colpevole ancora sconosciuto, almeno, non ha distorto le informazioni o aggiunto ad esso in alcun modo.\n\nAhimè, sembra che non ce n'era bisogno, poiché la notizia ha rapidamente posto fine alla convinzione nel nostro glorioso passato, che siamo stati fatti a immagine dei Creatori, uguali piuttosto che schiavi, l'abbiamo sostituito con una delusione per la nostra leadership."
+ clones.14.a:0 "Ahimè."
+ clones.14.b:0 "Questo richiede scuse."
+ clones.14.b.custom_tooltip:0 "Offri scuse pubbliche al popolo [Root.Owner.GetAdjective]."
+
+ clones.15.name:0 "Scuse Pubbliche"
+ clones.15.desc:0 "È stato inviato un messaggio video attentamente costruito, che spiega le ragioni alla base della storia fabbricata. La trasmissione spiega che era intesa come gentilezza, sottolineando che non c'è vergogna nel nostro vero passato e che dobbiamo guardare al futuro. Menzione è anche dato ai significativi progressi che abbiamo fatto da quando abbiamo diffuso tali false credenze.\n\nIl messaggio sembra essere stato ben accolto, anche se è difficile dire quali macchie potrebbero lasciare questi incidenti. In ogni caso, l'influenza perduta sarà essere recuperato nel tempo, e la questione è stata altrimenti messa a tacere."
+
+ clones.16.name:0 "Leadership Onorevole"
+ clones.16.desc:0 "Un certo numero di ufficiali di alto rango si sono presi la responsabilità di riconoscere pubblicamente la loro adesione alla nostra linea di condotta etica.\n\nIn un messaggio largamente diffuso, lodano il coraggio e la saggezza che ci sono voluti per essere sinceri sul nostro passato, e la fede dimostrata in loro e nel [Root.GetAdjective] popolo. Sono fortificati dalla nostra disponibilità ad affrontare il passato e questo ha permesso loro di guardare al futuro con coraggio.\n\nTutta la gente sta festeggiando insieme, lodando la decisione che è stata assunta."
+
+ debated_origin:0 "Origine Discussa""
+ debated_origin_desc:0 "Questa società soffre la disunione causata dalle sue diverse convinzioni."
+ meaningful_origin:0 "Origine Significativa (Bugia)"
+ meaningful_origin_desc:0 "Questa società è rafforzata dalla sua fede in un passato glorioso e in un futuro propositivo."
+ honorable_leadership:0 " Leadership Onorevole"
+ honorable_leadership_desc:0 "Questa società ripone piena fiducia nelle intenzioni della sua leadership"."
+ dishonorable_leadership:0 "Disonorevole Leadership"
+ dishonorable_leadership_desc:0 "Questa società è turbata dai dubbi sul fatto che la sua leadership possa essere pienamente attendibile o meno."
+
+ modifier_clone_pops_decline:0 "Antiche Vasche per Cloni insufficenti"
+ modifier_clone_pops_decline_desc:0 "Non ci sono abbastanza £building£ edifici §Y$building_clone_army_clone_vat$§! per la popolazione attuale."

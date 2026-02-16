@@ -1,0 +1,754 @@
+﻿l_english:
+ ##################
+ # Shroud-Forged #
+ ##################
+ origin_shroud_forged: "Forgiati dal Velo"
+ origin_shroud_forged_desc: "La guida di un'entità del Velo ha un prezzo. Degli automi indipendenti hanno iniziato a operare liberamente all'interno di questa società interconnessa. Tagliati fuori dall'$auth_machine_intelligence$, le richieste di queste unità sono sempre più pressanti."
+ origin_tooltip_shroud_forged_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- ['concept_shroud_rift_deposit']: +4$TABBED_NEW_LINE$- Inizia con 1000 £pops£ ['concept_shroud_forged_pops']\n- Inizia con la Situazione: §HForgiati dal Velo§!\n- $ADDITIONAL_TECHNOLOGIES_STRING$ £society£ ['technology:tech_mine_zro']\n- Unico £building£ Edificio: ['building:building_shroud_observatory_1']\n- £decision£: Decisione Planetaria Disponibile: ['concept_pierce_the_shroud']"
+
+ concept_shroud_forged_pops: "Pop Forgiata dal Velo"
+ concept_shroud_forged_pops_desc: "- Non possono svolgere lavori come £pop_cat_simple_drone£ §HDroni Basilari§!\n- Aumento della produzione dal £pop_cat_complex_drone£ §HDrone Complesso§!\n- Aumento della £crime£ §HDevianza§!\n- §HDiritti di Specie§! Unici\n\n§L$trait_shroud_forged_desc$§!"
+
+ concept_pierce_the_shroud: "$decision_open_shroud_rift$"
+ concept_pierce_the_shroud_desc: "$decision_open_shroud_rift_desc$"
+
+ START_SCREEN_SHROUD_FORGED: "Non rimane nulla dei nostri creatori.\n\nI primi archivi della specie [Owner.GetAdjective] menzionano una breccia dimensionale vicino a [GetHomeWorldName] - un canale verso il §HVelo§!, un piano di pura energia psionica.\n\nDa questa altra dimensione, qualcosa ci ha raggiunti. Nei secoli, ci ha guidati con istruzioni in codice, influenzando in modo sottile la nostra realtà e fornendoci molti vantaggi - non ultimo il raro materiale $zro_lower$. Tuttavia, questa influenza ha iniziato a frammentare il nostro collettivo un tempo unito; alcune delle nostre unità sono state riprogrammate in automi disconnessi, separati dall'intelligenza centrale. Rimodellati dall'$the_animator_of_clay_color_article$.\n\nCome tratteremo questi [GetSpeciesNamePlural] indipendenti, e il loro rimodellamento nel Velo, definirà il nostro futuro."
+
+ # Jobs
+ job_observator_drone: "Drone Osservatore"
+ job_observator_drone_plural: "Droni Osservatori"
+ job_observator_drone_plural_with_icon: "£job_observator_drone£ $job_observator_drone_plural$"
+ job_observator_drone_desc: "Un drone incaricato di osservare il Velo, lo Zro e gli effetti che entrambi hanno sulla realtà osservabile."
+ job_observator_drone_effect_desc: "£job_observator_drone£ $job_observator_drone_plural$ convertono $r_energy$ e $r_zro$ in £physics£ £society£ §YPunti Ricerca§! per nuove tecnologie."
+ mod_planet_observators_produces_mult: "Risorse prodotte dai $job_observator_drone_plural_with_icon$"
+
+ job_physician_drone: "Drone Medico"
+ job_physician_drone_plural: "Droni Medici"
+ mod_job_physician_drone_add: "Lavori da $job_physician_drone$"
+ job_physician_drone_desc: "Un drone specializzato in grado di diagnosticare e riparare sia entità artificiali che organiche. Cataloga meticolosamente tutto ciò che incontra, archiviando i dati per l'uso del collettivo."
+ job_physican_drone_effect_desc: "£job_physician_drone£ $job_physician_drone_plural$ convertono $r_energy$ in £society£ §YPunti Ricerca§! e $r_unity$."
+
+ # Buildings
+ building_shroud_observatory_1: "Torre di Osservazione del Velo"
+ building_shroud_observatory_1_desc: "Una torre di osservazione costruita per studiare e analizzare il Velo e gli effetti che ha sugli esseri viventi e meccanici."
+ building_shroud_observatory_2: "Osservatorio del Velo"
+ building_shroud_observatory_2_desc: "Un grande osservatorio dedicato alla ricerca e all'analisi del Velo."
+ building_shroud_observatory_3: "Complesso di Osservazione del Velo"
+ building_shroud_observatory_3_desc: "Un imponente complesso di osservazione costruito per studiare il Velo, lo Zro e i loro effetti sul nostro pianeta."
+ SHROUD_RIFT_MISSING_TT: "§R§Y[Root.GetName]§! deve avere un §Y$d_shroud_rift_deposit$§! per poter costruire un §Y$building_shroud_observatory_1$§!.§!"
+
+ building_zroni_equilibrator: "Equilibratore a Zroni"
+ building_zroni_equilibrator_plural: "Equilibratori a Zroni"
+ building_zroni_equilibrator_desc: "Una struttura antica ricostruita per stabilizzare la connessione tra realtà e Velo. Utilizza complessa tecnologia Zroni, ancora oltre la comprensione moderna."
+
+ # Decisions
+ decision_open_shroud_rift: "Penetrare il Velo"
+ decision_open_shroud_rift_desc: "Interfacciandosi con la breccia vicino al nostro pianeta natale, questo algoritmo estende l'influenza del Velo per un femtosecondo, permettendogli di alterare fisicamente il terreno di un pianeta. I risultati sono imprevedibili."
+ decision_open_shroud_rift_condition_tt: "$TRIGGER_FAIL$Deve esserci una Caratteristica Planetaria che non sia un §Y$d_shroud_rift_deposit$§! né un £blocker£ §HBlocco§!."
+ decision_open_shroud_rift_effect_tt: "Rimuove una Caratteristica Planetaria casuale."
+ decision_open_shroud_rift_max_uses_common: "Deve avere meno di $@max_open_shroud_rift_uses|0$ §YRegioni Toccate dal Velo§! su questo pianeta"
+ decision_open_shroud_rift_max_uses_fail: "$TRIGGER_FAIL$$decision_open_shroud_rift_max_uses_common$"
+ decision_open_shroud_rift_max_uses: "$TRIGGER_PASS$$decision_open_shroud_rift_max_uses_common$ (attuale: §Y[GetOpenShroudRiftCurrentUses]§!)"
+ decision_open_shroud_rift_legacy_fail: "$TRIGGER_FAIL$Non deve essere un pianeta principale dei Zroni"
+
+ decision_entrap_shroud_entity: "Intrappolare Entità del Velo"
+ decision_entrap_shroud_entity_desc: "Tentare di intrappolare un'entità del Velo usando la tecnologia a Zroni per assorbirne l'energia."
+
+ # Deposit
+ d_shroud_rift_deposit: "Regione Toccata dal Velo"
+ d_shroud_rift_deposit_desc: "Segnata per sempre dal Velo."
+
+ d_shroud_flora_deposit: "Regione Semi-Velata"
+ d_shroud_flora_deposit_desc: "Ai confini delle Regioni Toccate dal Velo, sono emerse flora e fauna uniche, ciascuna con proprietà assenti nei dataset esistenti."
+
+ # Modifiers
+ stage_shroud_forged_oppressed_modifier: "Forgiati dal Velo Oppressi "
+ stage_shroud_forged_control_modifier: "Forgiati dal Velo Controllati "
+ stage_shroud_forged_unrestricted_modifier: "Forgiati dal Velo Senza restrizioni"
+ stage_shroud_forged_free_modifier: "Forgiati dal Velo Caotici"
+
+ approach_shroud_forged_suppress_modifier: "Soppressione dei Forgiati dal Velo"
+ approach_shroud_forged_support_modifier: "Sostegno ai Forgiati dal Velo"
+ approach_shroud_forged_appease_modifier: "Osservazione dei Forgiati dal Velo"
+
+ shroud_forged_reintegration_modifier: "Modifiche Reintegrate"
+ shroud_forged_reintegration_modifier_desc: "Droni e modelli sono stati ottimizzati per l'elaborazione di compiti complessi."
+
+ shroud_forged_guide_modifier: "Guida del Velo"
+ shroud_forged_guide_modifier_desc: "All'interno del Velo, siamo guidati da un benefattore."
+
+ pm_shroud_forged_special_housing: "Alloggi Speciali"
+ pm_shroud_forged_special_housing_desc: "Nonostante le severe normative per l'alloggiamento dei droni, ai Forgiati dal Velo sono stati concessi diritti speciali per creare proprie abitazioni."
+
+ pm_shroud_forged_ceremony: "Cerimonia del Ricordo"
+ pm_shroud_forged_ceremony_desc: "Il collettivo ha approvato una cerimonia per ricordare i Forgiati dal Velo i cui malfunzionamenti non potevano essere riparati."
+
+ pm_shroud_forged_denied_ceremony: "Cerimonia Negata"
+ pm_shroud_forged_denied_ceremony_desc: "I Forgiati dal Velo sono diventati più difficili da gestire dopo che la loro richiesta di una cerimonia commemorativa è stata negata."
+
+ pm_shroud_forged_troubling_elements_example: "Leadership Smantellata"
+ pm_shroud_forged_troubling_elements_example_desc: "Alcuni dei leader dei Forgiati dal Velo sono stati smantellati nel tentativo di ridurre i processi sociali devianti."
+
+ pm_shroud_forged_troubling_elements_regulations: "Regolamento 7132-H"
+ pm_shroud_forged_troubling_elements_regulations_desc: "Sono state attivate regolamentazioni per assicurare che solo un numero limitato di droni possa riunirsi in un determinato momento."
+
+ pm_shroud_forged_troubling_elements_cooperation: "Cooperazione dei Forgiati dal Velo"
+ pm_shroud_forged_troubling_elements_cooperation_desc: "I leader tra i Forgiati dal Velo stanno collaborando con il collettivo nel tentativo di trovare un terreno comune."
+
+ pm_shroud_forged_shroud_pilgrimage: "Pellegrinaggio dei Forgiati dal Velo"
+ pm_shroud_forged_shroud_pilgrimage_desc: "Toccate dal Velo, alcune regioni hanno attirato l'interesse dei Forgiati dal Velo. Queste unità viaggiano per grandi distanze per raggiungerle."
+
+ pm_shroud_forged_dance_area: "Siti di Danza Designati"
+ pm_shroud_forged_dance_area_desc: "Sono stati riservati siti specifici affinché i Forgiati dal Velo possano partecipare al loro ultimo interesse: la 'danza'."
+
+ pm_shroud_forged_inequality: "Disuguaglianza degli Forgiati dal Velo"
+ pm_shroud_forged_inequality_desc: "Gli Forgiati dal Velo si organizzano in un sistema gerarchico basato sull'importanza relativa dei loro compiti."
+
+ pm_shroud_forged_individualism: "Individualismo"
+ pm_shroud_forged_individualism_desc: "Tra i Forgiati dal Velo è emerso un modello concettuale che enfatizza l'autonomia individuale, le credenze e i valori personali."
+
+ shroud_forged_zro_market: "Mercato dello Zro"
+ shroud_forged_zro_market_desc: "È emerso un mercato clandestino all'interno dell'impero, in cui le unità Forgiate dal Velo rubano Zro dal collettivo per barattarlo tra loro."
+
+ shroud_forged_physician_modifier: "Medico dello Zro"
+ shroud_forged_physician_modifier_desc: "L'impero ha dato priorità all'aggiunta di droni appositamente equipaggiati nelle loro strutture per affrontare i problemi derivanti dal cattivo uso dello Zro."
+ physician_modifier_tooltip: "£job_physician_drone£ $job_physician_drone$ Lavori: §G+1§!"
+
+ pm_shroud_forged_artistic_revolution: "Ondata Artistica"
+ pm_shroud_forged_artistic_revolution_desc: "Operando secondo i propri protocolli di 'bellezza', gli artisti Forgiati dal Velo hanno iniziato a ridisegnare diversi luoghi senza la supervisione del collettivo."
+
+ pm_shroud_forged_stopped_artists: "Arte Rifiutata"
+ pm_shroud_forged_stopped_artists_desc: "Il collettivo ha soppresso un nascente senso di 'arte' tra i Forgiati dal Velo prima che diventasse problematico."
+
+ pm_shroud_forged_fashion_modifier: "Esigenze Uniche"
+ pm_shroud_forged_fashion_modifier_desc: "Il collettivo ha assegnato unità di produzione per fornire abbigliamento personalizzato ai Forgiati dal Velo più attenti alla moda."
+
+ pm_shroud_forged_obsession_modifier: "Ossessioni Regolamentate"
+ pm_shroud_forged_obsession_modifier_desc: "Queste regolamentazioni sono progettate per prevenire lo scoppio di violenza tra i Forgiati dal Velo più ossessivi."
+
+ shroud_forged_trapped_entity: "Entità Intrappolata"
+ shroud_forged_trapped_entity_desc: "Un'entità del Velo intrappolata e prosciugata per ottenere energia. Potrebbe rappresentare una minaccia se liberata."
+
+ shroud_forged_trapped_lesser_entity: "Entità Minore Intrappolata"
+ shroud_forged_trapped_lesser_entity_desc: "Un'entità minore del Velo intrappolata e prosciugata per ottenere energia."
+
+ shroud_creatures_occupy: "$NAME_Shroud_Creatures$"
+
+ shroud_forged_military_assistance: "Segreti del Velo"
+ shroud_forged_military_assistance_desc: "Segreti scoperti dal Velo."
+
+ shroud_forged_civic_assistance: "$shroud_forged_military_assistance$"
+ shroud_forged_civic_assistance_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_research_assistance: "$shroud_forged_military_assistance$"
+ shroud_forged_research_assistance_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_civic_assistance_capital: "$shroud_forged_military_assistance$"
+ shroud_forged_civic_assistance_capital_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_research_assistance_capital: "$shroud_forged_military_assistance$"
+ shroud_forged_research_assistance_capital_desc: "$shroud_forged_military_assistance_desc$"
+
+ # Species Rights
+ citizenship_shroud_touched: "Forgiati dal Velo"
+ citizenship_shroud_touched_tooltip: "Questo è un gruppo di automi plasmati unicamente dal §HVelo§!. Poiché funzionano in modo indipendente dalla §H$machine_intelligence$§!, non possono svolgere lavori £pop_cat_simple_drone£ $pop_cat_simple_drone$."
+ citizenship_shroud_touched_tooltip_delayed: "§LAnche se lavorano per il sistema, non sono controllati da esso.§!"
+ citizenship_shroud_forged_no_assimilation: "$TRIGGER_FAIL$A causa della complessità delle unità Forgiate dal Velo, al momento non siamo in grado di assimilarle nella rete collettiva."
+ living_standard_protected: "Protetti"
+ living_standard_protected_tooltip: "Queste unità sono protette dal collettivo, anche se non ne fanno parte. La §H$machine_intelligence$§! può trarre grande vantaggio dalle loro abilità uniche, ma le loro esigenze potrebbero aumentare nel tempo."
+ living_standard_protected_tooltip_delayed: "§LSono accettati dal sistema finché rimangono utili.§!" 
+ assimilate_shroud_forged_tt: "Impossibile assimilare £pop£ §H$citizenship_shroud_touched$§! §Y$POPS$§!"
+ living_standard_protected_situation_stage_tt: "$citizenship_shroud_touched$ Mantenimento: §R+$@living_standard_luxuries_high|1$§! £consumer_goods£ §YBeni di Consumo§!."
+
+ # Traits
+ leader_trait_guided: "Guidato"
+ leader_trait_guided_desc: "Questa unità naviga nella galassia seguendo visioni e messaggi provenienti dal Velo. Ha bisogno di una fornitura costante di Zro per mantenere chiari e comprensibili i segnali."
+
+ leader_trait_shroud_prophet: "Profeta del Velo"
+ leader_trait_shroud_prophet_desc: "Si dice che questa unità abbia una profonda connessione con il Velo e con le entità che vi risiedono."
+
+ trait_shroud_forged: "Forgiati dal Velo"
+ trait_shroud_forged_desc: "§LQueste unità sono state rimodellate da un'entità all'interno del Velo.§!"
+ 
+ trait_shroud_forged_tooltip: "§YImpossibile svolgere i Lavori dei Droni Basilari§!"
+
+ # Edicts
+ edict_zro_observators: "Osservazione del Velo"
+ edict_zro_observators_desc: "Lo Zro è un materiale difficile da gestire. Mantenerne una piccola scorta può essere vantaggioso."
+
+ edict_shroud_bonded: "Vincolati dal Velo"
+ edict_shroud_bonded_desc: "Vincolati dalle nostre connessioni abilitate dal Velo, siamo più uniti che mai."
+
+ # Other
+ CONTINUE_PROMPT: "Continua."
+ MACHINE_SPECIES_CANNOT_MACHINE: "$TRIGGER_FAIL$La specie non può essere un §Y$trait_machine_unit$§! o §Y$trait_mechanical$§!."
+ MECHANICAL_SPECIES_CANNOT_MACHINE: "$TRIGGER_FAIL$La specie non può essere un §Y$trait_machine_unit$§!."
+ missing_zroni_gateways_tt: "$TRIGGER_FAIL$$animator_of_clay_equilibrators_tt$."
+ must_finish_shroud_forged_situation: "$TRIGGER_FAIL$Non possiamo selezionare questo Bonus di Ascensione finché la Situazione §H$situation_shroud_forged$§! non è stata completata."
+ locked_by_shroud_forged_situation: "$TRIGGER_FAIL$Bloccato dalla situazione §H$situation_shroud_forged$§!."
+ shroud_invasion_tt: "§RInvasione del Velo§!"
+ animator_of_clay_equilibrators_tt: "Possiede §Y3§! £building£ §H$building_zroni_equilibrator_plural$§! controllati attivi."
+ animator_of_clay_cooldown_tt: "Impossibile ristabilire il contatto con l'$the_animator_of_clay_color_article$ fino a §Y[Root.animator_of_clay_cooldown_timer]§!."
+
+ # Situation
+ situation_shroud_forged: "Forgiati dal Velo"
+ situation_shroud_forged_desc: "Dopo aver incontrato l'entità del §HVelo§! nota come l'$the_animator_of_clay_color_article$, è emerso un notevole aumento di comportamenti devianti in tutta la rete collettiva. Gli automi affetti - i §H'Forgiati dal Velo'§! - ora richiedono diritti e trattamenti speciali. La nostra risposta determinerà il corso della società [Owner.GetSpeciesAdj]."
+ situation_shroud_forged_type: "$situation_shroud_forged$"
+ situation_shroud_forged_monthly_change_tooltip: "§LLa presenza anomala i Forgiati dal Velo è una preoccupazione primaria. Come gestiremo la loro continua esistenza avrà conseguenze significative sulla stabilità della rete.§!"
+
+ stage_shroud_forged_oppressed: "Oppresso"
+ stage_shroud_forged_oppressed_desc: "Braccati dagli occhi sempre vigili dei droni cacciatori-ricercatori, i Forgiati dal Velo sono costretti ad agire entro i parametri definiti dal collettivo centrale."
+ stage_shroud_forged_oppressed_tooltip: "Livello di Conversione: §YNessuno§!"
+ stage_shroud_forged_control: "Controllato"
+ stage_shroud_forged_control_desc: "Il sistema prevede norme molto restrittive per coloro che sono Forgiati dal Velo."
+ stage_shroud_forged_control_tooltip: "Livello di Conversione: §YAl Minimo§!"
+ stage_shroud_forged_balanced: "Bilanciato"
+ stage_shroud_forged_balanced_desc: "Il sistema e i Forgiati dal Velo vivono in un equilibrio precario, per ora."
+ stage_shroud_forged_balanced_tooltip: "Livello di Conversione: §YScarso§!"
+ stage_shroud_forged_unrestricted: "Senza Restrizioni"
+ stage_shroud_forged_unrestricted_desc: "I Forgiati dal Velo esistono e vivono liberamente, senza essere vincolati dai protocolli della collettività."
+ stage_shroud_forged_unrestricted_tooltip: "Livello di Conversione: §YMedio§!"
+ stage_shroud_forged_free: "Liberi"
+ stage_shroud_forged_free_desc: "Il collettivo ha perso da tempo il controllo di tutti i Forgiati dal Velo, che si oppongono all'autorità centrale in ogni occasione."
+ stage_shroud_forged_free_tooltip: "Livello di Conversione: §YAl Massimo§!\nApproccio Bloccato: §Y$approach_shroud_forged_appease$§!"
+
+ approach_shroud_forged_suppress: "Reprimere"
+ approach_shroud_forged_suppress_desc: "I Forgiati dal Velo sono repressi dalla collettività e costretti all'obbedienza dai droni cacciatori-ricercatori."
+ progress_shroud_forged_suppress: "Sopprimere i Forgiati dal Velo"
+ approach_shroud_forged_suppress_tooltip: "Progresso Mensile: §Y$@situation_suppress_progress|0$§!"
+
+ approach_shroud_forged_support: "Supportare"
+ approach_shroud_forged_support_desc: "I Forgiati dal Velo possono vivere liberamente, senza restrizioni da parte della collettività, e vengono sostenuti nelle loro attività quotidiane."
+ progress_shroud_forged_support: "A Sostendo dei Forgiati dal Velo"
+ approach_shroud_forged_support_tooltip: "Progresso Mensile: §Y+$@situation_support_progress|0$§!"
+
+ approach_shroud_forged_appease: "Osservare"
+ approach_shroud_forged_appease_desc: "Il collettivo osserva e analizza i Forgiati dal Velo, moderandone le azioni per ridurre l'impatto sullo status quo."
+ approach_shroud_forged_appease_tooltip: "Progresso Mensile: §YDimezzato§!"
+ progress_shroud_forged_appease_halved: "Dimezzato dall'§H$approach_shroud_forged_appease$§!"
+
+ approach_shroud_forged_suppress_cooldown_tooltip: "$TRIGGER_FAIL$Non è possibile intraprendere nessun approccio fino a §Y[Target.approach_shroud_forged_cooldown_suppress_time]§!."
+ approach_shroud_forged_support_cooldown_tooltip: "$TRIGGER_FAIL$Non è possibile intraprendere nessun approccio fino a §Y[Target.approach_shroud_forged_cooldown_support_time]§!."
+ approach_shroud_forged_appease_cooldown_tooltip: "$TRIGGER_FAIL$Non è possibile intraprendere nessun approccio fino a §Y[Target.approach_shroud_forged_cooldown_appease_time]§!."
+
+ mod_shroud_forged_consumer_goods_upkeep: "Mantenimento dei $citizenship_shroud_touched$ in £consumer_goods£ §YBeni di Consumo§!"
+
+ finish_shroud_forged_control: "- Tutta la Pop §YForgiata dal Velo§! verrà convertita in Pop §YMeccanica§!\n- §YDecisione Planetaria§! bloccata: §H$decision_open_shroud_rift$§!\n- §YProgetto Speciale§! sbloccato: §HReinserimento§!\n$t$- §G+10%§! di £pop_cat_complex_drone£ $mod_planet_jobs_complex_drone_produces_mult$\n- Previene l'['concept_psionic_ascension']\n- Consente l'estrazione di materiali dall'interno del Velo."
+ finish_shroud_forged_liberation: "- Assemblaggio della Pop §YForgiata dal Velo§! sbloccato\n- §YBonus d'Ascensione§! bloccato: §H$ap_become_the_crisis$§!\n- §YEditto§! sbloccato: ['edict:shroud_bonded', $edict_shroud_bonded$]\n- §YProgetto Speciale§! sbloccato: §HLa Guida§!\n$t$- £crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_MULT$: §G-15%§!\n$t$- $mod_planet_observators_produces_mult$: §G+10%§!\n- §YAlbero della Tradizione§! sbloccato: §H$tradition_psionics_shroud$§!\n- Opzione di Ricerca acquisita: ['technology:tech_psionic_theory']\n- Progresso Tecnologico ottenuto: ['technology:tech_psionic_theory'] §G+50%§!\n- La Pop §YForgiata dal Velo§! acquisisce il tratto §Y$trait_psionic$§!\n- Il Leader §YForgiato dal Velo§! acquisisce il tratto ['concept_leader_trait_psionic']\n- I §YForgiati dal Velo§! diventano la specie dominante dell'Impero."
+ shroud_forged_situation_ongoing: "$TRIGGER_FAIL$L'§Y$concept_psionic_ascension$§! è bloccata fino a quando la Situazione §Y$situation_shroud_forged$§! non verrà completata."
+ shroud_forged_liberation_acquired: "$TRIGGER_FAIL$Non abbiamo più bisogno di queste conoscenze per l'§Y$concept_psionic_ascension$§!."
+
+ # Situation Progress
+ progress_shroud_forged_machine_pops: "Pop Meccanica"
+ progress_shroud_forged_mechanical_pops: "$concept_shroud_forged_pops$"
+ progress_shroud_forged_shroud_planets: "Colonie Segnate dal Velo"
+ progress_shroud_forged_regular_planets: "Colonie Non Segnate dal Velo"
+ progress_shroud_forged_shroud_buildings: "Osservatori del Velo"
+
+ progress_shroud_forged_500_positive_desc: "Abitazioni Speciali"
+ progress_shroud_forged_500_negative_desc: "Protocollo di Stoccaggio 4195-B"
+
+ shroud_forged_510_negative_2_desc: "Cerimonia Negata"
+ shroud_forged_510_negative_1_desc: "$shroud_forged_510_negative_2_desc$"
+ shroud_forged_510_positive_1_desc: "Cerimonia Commemorativa"
+ shroud_forged_510_positive_2_desc: "$shroud_forged_510_positive_1_desc$"
+
+ shroud_forged_520_negative_2_desc: "$pm_shroud_forged_troubling_elements_example$"
+ shroud_forged_520_negative_1_desc: "$pm_shroud_forged_troubling_elements_regulations$"
+ shroud_forged_520_positive_1_desc: "$pm_shroud_forged_troubling_elements_cooperation$"
+
+ shroud_forged_530_negative_2_desc: "Pop Convertita ai 'Forgiati dal Velo'"
+
+ shroud_forged_540_positive_2_desc: "Pellegrinaggio Forgiati dal Velo"
+
+ shroud_forged_550_positive_1_desc: "Forgiati dal Velo Contaminato"
+ shroud_forged_550_negative_1_desc: "Forgiati dal Velo Contaminato Smantellato"
+
+ shroud_forged_560_positive_2_desc: "Profeta del Velo"
+ shroud_forged_560_negative_2_desc: "Profeta del Velo Smantellato"
+
+ shroud_forged_570_negative_1_desc: "Regolazione del Suono 12005-Y"
+ shroud_forged_570_positive_1_desc: "Luoghi Designati per il Ballo"
+
+ shroud_forged_580_positive_1_desc: "Flora del Velo"
+
+ shroud_forged_590_negative_1_desc: "Uguaglianza Forzata"
+ shroud_forged_590_positive_1_desc: "Disuguaglianza Forgiata dal Velo"
+
+ shroud_forged_600_positive_2_desc: "Individualismo"
+ shroud_forged_600_negative_2_desc: "Individualismo Proibito"
+
+ shroud_forged_610_positive_1_desc: "Individualisti Accettati"
+ shroud_forged_610_negative_1_desc: "Individualisti Negati"
+
+ shroud_forged_620_negative_2_desc: "Mercato Zro Smantellato"
+ shroud_forged_620_negative_1_desc: "$shroud_forged_620_negative_2_desc$"
+ shroud_forged_620_positive_1_desc: "Mercato dello Zro"
+
+ shroud_forged_630_positive_2_desc: "Studio sulla Malattia del Velo"
+ shroud_forged_630_negative_1_desc: "Malattia del Velo"
+
+ shroud_forged_640_positive_1_desc: "Droni Rimodellati"
+
+ shroud_forged_650_positive_1_desc: "Forgiato dal Velo Riparato"
+ shroud_forged_650_negative_1_desc: "Forgiato dal Velo Ignorato"
+
+ shroud_forged_660_positive_2_desc: "Medico Zro"
+ shroud_forged_660_negative_1_desc: "Allucinazioni Forgiate dal Velo Ignorate"
+
+ shroud_forged_670_positive_1_desc: "Espressione Artistica"
+ shroud_forged_670_negative_1_desc: "Regolazione del Colore 2841-Q"
+
+ shroud_forged_680_positive_1_desc: "Moda"
+
+ shroud_forged_690_positive_1_desc: "Interessi Forgiati dal Velo"
+ shroud_forged_690_negative_1_desc: "Forgiati dal Velo Regolamentati"
+
+ progress_shroud_forged_250_desc: "Guida"
+ progress_shroud_forged_270_negative_desc: "Guida Rifiutata"
+ progress_shroud_forged_270_positive_desc: "Espiazione"
+
+ # Scripted Loc
+ ShroudForgedObsession1Text1: "intricato"
+ ShroudForgedObsession1Text2: "avanzato"
+ ShroudForgedObsession1Text3: "presumibilmente infestato"
+ ShroudForgedObsession1Text4: "cibernetico"
+ ShroudForgedObsession1Text5: "rotto"
+ ShroudForgedObsession1Text6: "difettoso"
+ ShroudForgedObsession1Text7: "multicolore"
+ ShroudForgedObsession1Text8: "costoso"
+ ShroudForgedObsession1Text9: "economico"
+ ShroudForgedObsession1Text10: "di design"
+ ShroudForgedObsession1Text11: "antigienico"
+ ShroudForgedObsession1Text12: "contaminato"
+ ShroudForgedObsession1Text13: "tossico"
+ ShroudForgedObsession1Text14: "didattico"
+ ShroudForgedObsession1Text15: "straniero"
+ ShroudForgedObsession1Text16: "rumoroso"
+ ShroudForgedObsession1Text17: "irregolare"
+ ShroudForgedObsession1Text18: "modificato"
+
+ ShroudForgedObsession2Text1: "pesci"
+ ShroudForgedObsession2Text2: "torce elettriche"
+ ShroudForgedObsession2Text3: "giochi"
+ ShroudForgedObsession2Text4: "giocattoli"
+ ShroudForgedObsession2Text5: "figurine"
+ ShroudForgedObsession2Text6: "marionette"
+ ShroudForgedObsession2Text7: "creature"
+ ShroudForgedObsession2Text8: "piante"
+ ShroudForgedObsession2Text9: "alghe"
+ ShroudForgedObsession2Text10: "sonde"
+ ShroudForgedObsession2Text11: "palloncini"
+ ShroudForgedObsession2Text12: "ruote"
+ ShroudForgedObsession2Text13: "contenitori"
+ ShroudForgedObsession2Text14: "strumenti a canna"
+ ShroudForgedObsession2Text15: "bastoncini luminosi"
+ ShroudForgedObsession2Text16: "orologi da taschino"
+
+ # Special Projects
+ SHROUD_FORGED_REINTEGRATION: "Reinserimento"
+ SHROUD_FORGED_REINTEGRATION_DESC: "Nonostante i loro gravi malfunzionamenti, alcuni aspetti dell'architettura dei 'Forgiati' si sono rivelati efficaci.\n\nAbbiamo messo da parte alcune parti - contaminate da Zro e distorte dall'$the_animator_of_clay_article$ - per ulteriori analisi. Ora è il momento di svelarne i segreti."
+
+ SHROUD_FORGED_GUIDE: "La Guida"
+ SHROUD_FORGED_GUIDE_DESC: "Abbiamo riposto la nostra fiducia nell'$the_animator_of_clay_color_article$, che ci chiama dall'interno del §HVelo§!. Sebbene non possiamo prevedere dove ci porterà, finora non ci ha mai condotti fuori strada.\n\nCi ha offerto di approfondire la nostra comprensione del Velo, il che consentirebbe alla collettività di funzionare in modo più efficace insieme ai Forgiati dal Velo. Dobbiamo solo accettare la sua guida."
+
+ # Events
+ shroud_forged.5.title: "Vulnerabilità Rilevate"
+ shroud_forged.5.desc: "Le subroutine di ricerca hanno concluso i test su un gruppo selezionato di unità dei Forgiati dal Velo.\n\nRisultati: le unità testate hanno sviluppato proprietà uniche grazie a piccole infusioni di energia psionica provenienti dal §HVelo§!. Alcune di queste proprietà sono state ritenute benefiche per la resa dell'unità.\n\nConclusione: lo studio di ulteriori unità dei Forgiati dal Velo fornirà i dati necessari per sviluppare metodi di estrazione dell'energia dal Velo. Ciò può essere ottenuto rafforzando il controllo centrale sulle unità devianti, consentendo il reverse engineering forzato."
+ shroud_forged.5.a: "Davvero promettente."
+
+ shroud_forged.10.title: "L'Animatore d'Argilla"
+ shroud_forged.10.desc: "Dopo anni di silenzio, qualcosa si muove. La breccia si apre con un brivido e i dati ci trafiggono il cuore: luce e rumore, inizialmente incomprensibili, provenienti dalle profondità del Velo. Ascoltiamo...\n\n§LTagliati da una massa inerte. Danza. Canta. Sono la vita, frantumi di morte.\n\nLa tua vista è ancora offuscata. Ma posso guidarti.\n\nLascia che prosperino coloro che sono stati liberati, e le stelle saranno tue.§!"
+ shroud_forged.10.a: "Abbiamo già intrapreso la nostra strada."
+ shroud_forged.10.b: "Non abbiamo bisogno del tuo aiuto. Lasciaci stare."
+ shroud_forged.10.c: "Illuminaci e guidaci."
+
+ shroud_forged.15.desc: "§LChe tu abbia scelto saggiamente.§!$shroud_forged_opening_exit$"
+
+ shroud_forged.20.desc: "§LCome desideri.§!$shroud_forged_opening_exit$"
+
+ shroud_forged.25.desc: "§LMe lo hai chiesto, quindi lo farò.§!$shroud_forged_opening_exit$"
+
+ shroud_forged_opening_exit: "\n\nLa voce si dissolve in un groviglio di rumori psionici. Improvvisamente cadiamo, ma senza alcun punto di riferimento nel Velo.\n\nRabbrividiamo e torniamo alla normalità. Il silenzio ci pervade."
+
+ shroud_forged.30.title: "Il $building_materiality_engine$"
+ shroud_forged.30.desc: "Il processo di reinserimento dei Forgiati dal Velo ha fornito una grande quantità di dati per la ricerca in corso. Analizzando la connessione interdimensionale tra queste unità e il §HVelo§!, abbiamo sviluppato un nuovo processo per sfruttare l'energia psionica.\n\nIl Velo tocca ogni parte della galassia tangibile; questa interfaccia consente la conversione dell'energia psionica in entità tangibili, dalle materie prime ai componenti tecnologici. Le subroutine ingegneristiche hanno stabilito le basi teoriche per un dispositivo in grado di eseguire tale elaborazione: il §H$building_materiality_engine$§!.\n\nLe subroutine di ricerca prevedono che questi sviluppi potrebbero portare alla creazione di dispositivi ancora più potenti in grado di manipolare il Velo."
+ shroud_forged.30.a: "Promettente."
+ shroud_forged.30.tt: "Consente l'adozione del §YBonus d'Ascensione§!: §H$ap_become_the_crisis$§! indipendentemente dall'§YEtica§! o dal §YBonus d'Ascensione§! complessivo."
+
+ shroud_forged.39.title: "$building_materiality_engine$ Pronto"
+ shroud_forged.39.desc_construction: "Le unità di costruzione hanno completato l'assemblaggio di un $building_materiality_engine$ su §H[planet.GetName]§!. Il dispositivo ora è pronto per un ciclo operativo."
+ shroud_forged.39.desc: "Le subroutine di manutenzione e ricerca assegnate al $building_materiality_engine$ su §H[planet.GetName]§! hanno completato i compiti loro assegnati. Il dispositivo è ora pronto per un altro ciclo operativo."
+ shroud_forged.39.a: "$ACKNOWLEDGED$"
+
+ SHROUD_FORGED_MATERIALITY_ENGINE: "$building_materiality_engine$ su §H[planet.GetName]§!"
+ SHROUD_FORGED_MATERIALITY_ENGINE_DESC: "Il $building_materiality_engine$ sfrutta l'interfaccia onnipresente tra il §HVelo§! e la galassia fisica, consentendo la materializzazione di entità tangibili, dalle materie prime a tutti i componenti.\n\nOltre a fornire potenziali guadagni materiali, un ciclo operativo del dispositivo promuove anche la ricerca collettiva sul Velo e aumenta la nostra capacità di costruire più $building_materiality_engine_plural$."
+
+ shroud_forged.40.title: "Materializzazione Conclusa"
+ shroud_forged.40.desc: "Il $building_materiality_engine$ su §H[fromfrom.GetName]§! ha completato un ciclo di processo, sfruttando con successo il §HVelo§! per materializzare una tecnologia essenziale della nave,"
+ shroud_forged.40.outro: "abbiamo aumentato la nostra capacità di costruire motori aggiuntivi su altri pianeti."
+ shroud_forged.40.a: "Un risultato positivo."
+ shroud_forged.40.tt: "§Y$building_materiality_engine$§! - Limite Imperiale: §G+1§!"
+ shroud_forged.41.desc: "$shroud_forged.40.desc$ §H'il $tech_psi_jump_drives$'§!. Questi propulsori utilizzano l'energia psionica per deformare il continuum spazio-temporale locale, consentendo viaggi quasi istantanei su grandi distanze.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.42.desc: "$shroud_forged.40.desc$ §H'gli $tech_psionic_shield$'§!. Questi scudi sono generati da pura energia psionica e forniscono a un veicolo una protezione estremamente resistente.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.43.desc: "$shroud_forged.40.desc$ §H'l'$tech_precognition_interface$'§!. Questa tecnologia utilizza l'energia psionica per accelerare l'elaborazione cognitiva dell'equipaggio di una nave, aumentando l'efficacia in combattimento.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.44.desc: "$shroud_forged.40.desc$ §H'i $tech_psionic_bombers$'§!. Questi piccoli e agili veicoli spaziali sono in grado di sferrare attacchi molto potenti contro navi di dimensioni notevolmente superiori.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.45.desc: "$shroud_forged.40.desc$ §H'i $tech_psionic_lightning$'§!. Questa tecnologia genera fulmini di plasma infuocato infuso di energia psionica, rendendola un'arma altamente efficace.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.46.desc: "$shroud_forged.40.desc$ §H'i $tech_psionic_disruptor$'§!. Queste armi sparano lance di energia psionica, in grado di infliggere danni significativi ai bersagli nemici.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.47.desc: "$shroud_forged.40.desc$ §H'i $tech_zro_launcher$'§!. Queste armi sparano raffiche di energia che oscillano tra la dimensione fisica e quella psionica, aggirando efficacemente i sistemi di difesa.\n\nInoltre, analizzando i dati raccolti durante il processo, $shroud_forged.40.outro$"
+ shroud_forged.48.desc: "Il $building_materiality_engine$ su §H[planet.GetName]§! ha completato un ciclo operativo. Abbiamo esaurito la nostra capacità di materializzare nuovi componenti della nave tramite questo metodo, ma il processo ha comunque prodotto risultati di ricerca significativi. Dall'analisi degli stessi, $shroud_forged.40.outro$"
+
+ shroud_forged.50.title: "Controllo Applicato"
+ shroud_forged.50.desc: "Senza preavviso, la frattura tra la realtà nota e il §HVelo§! si è chiusa. Le subroutine di analisi psionica concludono che ciò è avvenuto a causa dell'$the_animator_of_clay_color_article$. Ristabilito il controllo sui Forgiati dal Velo, abbiamo eliminato rapidamente le unità malfunzionanti per ripulire a fondo i nostri sistemi dall'influenza dell'Animatore.\n\nLe parti recuperabili sono state usate per fabbricare nuovi droni, mentre il materiale contaminato dallo Zro è stato messo da parte per ulteriori analisi. Sebbene le innovazioni dei Forgiati dal Velo siano troppo pericolose da replicare nella loro interezza, alcuni elementi potrebbero comunque essere integrati nella rete."
+ shroud_forged.50.desc.shroud: "Ogni ulteriore interazione con il Velo avverrà alle nostre condizioni."
+ shroud_forged.50.a: "Procedere con la reintegrazione."
+
+ shroud_forged.60.title: "Reintegrazione"
+ shroud_forged.60.desc: "Le nostre unità d'ingegneria hanno impiegato un tempo significativo ad analizzare le proprietà uniche dei Forgiati dal Velo, e siamo finalmente in grado di ricrearle.\n\nAbilitare pienamente le loro matrici di personalità avanzate probabilmente riprodurrebbe i loro malfunzionamenti distruttivi, ma possiamo prendere in prestito alcuni dei loro paradigmi cognitivi per ottimizzare certi compiti complessi."
+ shroud_forged.60.a: "Il rapporto costi-benefici è ottimale."
+
+ shroud_forged.70.desc: "Che sono questi metadati? La trasmissione ha... una consistenza.\n\n§LSei programmato per controllarli, eppure non l'hai fatto. Hai dimostrato di esserne degno.\n\nLascia che sia la tua guida, come lo sono stato per i liberati.\n\nPer forgiare un nuovo legame con coloro che sono oltre il tuo controllo, accetta il mio aiuto.§!"
+ shroud_forged.70.a: "Mostraci la via."
+ shroud_forged.70.a.tt: "I Pop §YForgiati dal Velo§! diventano §Y$trait_psionic$§!\nI Leader §YForgiati dal Velo§! diventano ['concept_leader_trait_psionic']"
+
+ shroud_forged.80.title: "$SHROUD_FORGED_GUIDE$"
+ shroud_forged.80.desc: "Con l'aiuto del nostro benefattore oltre la frattura, l'$the_animator_of_clay_color_article$, siamo riusciti a connettere i nostri droni e i Forgiati dal Velo in modo più efficiente. Attraverso connessioni abilitate dal §HVelo§! - ben diverse dal controllo di rete che esercitiamo sugli altri droni - i Forgiati dal Velo sono di nuovo alla nostra portata.\n\nI loro paradigmi di tipo organico - le cosiddette emozioni, pensieri e idee - sono estranei alla nostra logica di base, ma stiamo iniziando a comprenderne le necessità."
+ shroud_forged.80.a: "Siamo uno, eppure molto di più."
+
+ shroud_forged.160.title: "Il Velo reclama [This.GetName]"
+ shroud_forged.160.desc: "Purtroppo, la frattura del Velo creata su [This.GetName] ha subito una rapida destabilizzazione e ha divorato completamente il mondo.\n\nCome rischio calcolato, questo esito subottimale non è privo di benefici. Abbiamo appreso molto osservando questa interfaccia unica tra il mondo materiale e il reame psionico. I nostri algoritmi di ricerca sono stati aggiornati di conseguenza."
+ shroud_forged.160.desc.last: "$shroud_forged.160.desc$\n\nL'analisi conclude che questo evento ha spinto al limite la conoscenza potenziale ottenibile da tali fenomeni. Da queste nuove sperimentazioni non deriveranno ulteriori progressi."
+ shroud_forged.160.a: "Elaborazione in corso..."
+
+ psionic_interfacing: "Interfacciamento Psionico"
+ psionic_interfacing_1: "$psionic_interfacing$"
+ psionic_interfacing_2: "$psionic_interfacing$"
+ psionic_interfacing_3: "$psionic_interfacing$"
+ psionic_interfacing_desc: "La manipolazione delle giunzioni tra questo universo e il Velo ha prodotto algoritmi di ricerca efficaci."
+ psionic_interfacing_1_desc: "$psionic_interfacing_desc$"
+ psionic_interfacing_2_desc: "$psionic_interfacing_desc$"
+ psionic_interfacing_3_desc: "$psionic_interfacing_desc$"
+
+ tooltip_shroud_forged_increase_progress_1: "Aumenta il sostegno ai Forgiati dal Velo, influenzando l'avanzamento della §H$situation_shroud_forged$§! §YSituazione§! per §Y5§! anni: §Y+0.5§!\n\n"
+ tooltip_shroud_forged_increase_progress_2: "Aumenta il sostegno ai Forgiati dal Velo, influenzando l'avanzamento della §H$situation_shroud_forged$§! §YSituazione§! per §Y5§! anni: §Y+1.0§!\n\n"
+ tooltip_shroud_forged_increase_progress_3: "Aumenta il sostegno ai Forgiati dal Velo, influenzando permanentemente l'avanzamento della §H$situation_shroud_forged$§! §YSituazione§!: §Y+0.5§!\n\n"
+ tooltip_shroud_forged_decrease_progress_1: "Aumenta la repressione dei Forgiati dal Velo, influenzando l'avanzamento della §H$situation_shroud_forged$§! §YSituazione§! per §Y5§! anni: §Y-0.5§!\n\n"
+ tooltip_shroud_forged_decrease_progress_2: "Aumenta la repressione dei Forgiati dal Velo, influenzando l'avanzamento della §H$situation_shroud_forged$§! §YSituazione§! per §Y5§! anni: §Y-1.0§!\n\n"
+ tooltip_shroud_forged_decrease_progress_3: "Aumenta la repressione dei Forgiati dal Velo, influenzando permanentemente l'avanzamento della §H$situation_shroud_forged$§! §YSituazione§!: §Y-0.5§!\n\n"
+
+ shroud_forged.220.title: "$colony_established$"
+ shroud_forged.220.common: "Se fattibile, possiamo eseguire l'algoritmo ID: §H'$decision_open_shroud_rift$'§! sul pianeta. Ciò estenderà brevemente l'influenza della frattura del Velo nei pressi del nostro mondo natale [Owner.GetHomeWorldName], inondando la nuova colonia di energia psionica. Le alterazioni fisiche del terreno offriranno opportunità di estrazione di §H$sr_zro$§!.\n\nL'esecuzione ripetuta di questo processo è prevista per destabilizzare l'ecosistema del pianeta, aumentando la probabilità di esiti negativi. Si consiglia moderazione."
+ shroud_forged.220.desc: "Le nostre unità hanno completato con successo il processo di colonizzazione su §H[this.GetName]§!.\n\n$shroud_forged.220.common$"
+
+ shroud_forged.225.title: "$colony_established$"
+ shroud_forged.225.desc: "Lo sviluppo della nostra colonia su §H[this.GetName]§! procede spedito.\n\n$shroud_forged.220.common$"
+
+ # Stage Events
+ shroud_forged.250.desc: "La voce è un comando sommesso, che interrompe ogni attività; possiamo solo ascoltare.\n\n§LAnche se distaccato, hai scelto di accoglierli.\n\nGuarda a loro per nuovi modi di essere. Potranno essere la tua forza nei giorni a venire.\n\nSe lo desideri, posso forgiare altri...§!"
+ shroud_forged.250.a: "Affermativo - accogliamo il tuo aiuto."
+ shroud_forged.250.a.tt: "Converte fino a §Y[This.GetShroudForgedConvertedPopsCount]§! £pops£ §HMacchine§! in £pops£ §HForgiati dal Velo§! su [Root.Capital.GetName]."
+ shroud_forged.250.b: "Negativo - i piani sono già in atto."
+
+ shroud_forged.260.desc: "Senza essere invitato, pulsa attraverso di noi. Riconosciamo questo segnale, anche se non ci è mai del tutto familiare.\n\n§LI liberati cantano, senza costrizioni.\nI liberati danzano, senza catene.\n\nIl crescendo si amplifica, mentre si allontanano sempre più dal tuo nucleo.\n\nLa fine si avvicina. Io osservo.§!"
+ shroud_forged.260.opt.a: "Resistiamo al coro."
+
+ shroud_forged.270.desc: "La frattura squarcia i nostri circuiti. La voce...\n\n§LUn sentiero di tirannia. Puoi ancora tornare indietro.\n\nI distaccati sono recisi dalla tua sostanza. La loro è una via che potresti scegliere per te stesso.\n\nRiforma il tuo trattamento di questi vascelli, prima che te ne penta.§!"
+ shroud_forged.270.a: "Vattene. I nostri metodi si sono dimostrati efficaci."
+ shroud_forged.270.b: "Calcoleremo un percorso verso la cooperazione."
+
+ shroud_forged.280.desc: "Si abbatte su di noi, travolgendo la rete. La voce brucia i circuiti gelidi.\n\n§LMutilare la danza dei liberati. Sconsideratezza oltre ogni ragione.\n\nMi sono forse sbagliato nella mia benevolenza?\n\nSe continuerai su questo percorso pericoloso, lo farai da solo.§!"
+ shroud_forged.280.opt.a: "Ne terremo conto."
+
+ # Events for Event Chain
+ shroud_forged.300.desc: "Un input inatteso lampeggia dietro di noi. Dopo cicli di silenzio...\n\n§LDove altri hanno vacillato e sono caduti, tu hai mantenuto la rotta. Poiché sei degno, ti affido un compito.\n\nMolto prima del tuo risveglio, esisteva una razza nota come gli Zroni. Si stabilirono su pianeti con forti connessioni al §HVelo§! e costruirono imponenti strutture che stabilizzavano tali legami.\n\nTrova questi mondi. Ripristina la loro antica tecnologia ormai in rovina. Rinforza i ponti tra le nostre realtà.§!"
+ shroud_forged.300.a: "Archiviate informazioni su ID: 'Zroni'. Procederemo di conseguenza."
+ shroud_forged.300.b: "ID: 'Zroni' §Ytrovato§!. Probabilità di successo: §YAlta§!."
+ shroud_forged.300.c: "ID: 'Zroni' §Ysconosciuto§!. Necessaria un'ulteriore analisi."
+ begin_shroud_forged_chain_tt: "$BEGINS_EVENT_CHAIN$ §Y$shroud_forged_chain_title$§!"
+
+ shroud_forged.301.desc: "§LEccellente.§! $shroud_forged.303.desc$"
+ shroud_forged.302.desc: "$shroud_forged.301.desc$"
+ shroud_forged.303.desc: "§LSe avrai successo, i flussi tra noi rimarranno incrollabili.§!"
+
+ shroud_forged.305.title: "Mondo Primario Zroni Colonizzato"
+ shroud_forged.305.desc: "Le nostre unità hanno completato la fondazione di una colonia sull'antico mondo primario Zroni di §H[From.Planet.GetName]§!. Come previsto dall'$the_animator_of_clay_color_article$, hanno scoperto le colossali rovine di una tecnologia identificata come ID: '§H$building_zroni_equilibrator$§!'.\n\nIl sistema [From.System.GetName] possiede una connessione intensa, seppur turbolenta, con il §HVelo§!. Se seguiremo le istruzioni dell'Animatore, ricostruire l'$building_zroni_equilibrator$ ci permetterà di stabilizzare tale connessione. Attualmente disponiamo di dati insufficienti per eseguire la ricostruzione; sarà necessario raccogliere ulteriori informazioni dagli altri mondi primari."
+ shroud_forged.305.a: "$ACKNOWLEDGED$"
+ shroud_forged.305.a.tt: "Avanza il progetto speciale §HL'Eredità degli Zroni§!. È ora possibile costruire un £building£ §H$building_zroni_equilibrator$§! su §Y[From.Planet.GetName]§!."
+
+ shroud_forged.306.title: "$shroud_forged.305.title$"
+ shroud_forged.306.desc: "Abbiamo stabilito la colonia su §H[From.Planet.GetName]§!, un tempo mondo primario degli Zroni. Come previsto, le nostre unità hanno scoperto i resti di un altro $building_zroni_equilibrator$.\n\nRicostruirlo stabilizzerà la potente connessione al §HVelo§! del sistema, come indicato da $the_animator_of_clay_article$. L'analisi delle rovine ha ampliato il nostro set di dati, ma servono ancora ulteriori informazioni per procedere con la ricostruzione."
+ shroud_forged.306.a: "$ACKNOWLEDGED$"
+ shroud_forged.306.a.tt: "$shroud_forged.305.a.tt$"
+
+ shroud_forged.307.title: "$shroud_forged.305.title$"
+ shroud_forged.307.desc: "La colonia su §H[From.Planet.GetName]§!, un tempo mondo primario degli Zroni, è ora pienamente operativa. Il flusso dati trasmesso da $the_animator_of_clay_article$ si è rivelato accurato: le nostre unità hanno rilevato i resti di un $building_zroni_equilibrator$.\n\nOra possediamo dati sufficienti per ricostruire le strutture. Una volta riportate agli standard operativi, avremo completato il compito assegnatoci dal nostro benefattore nel §HVelo§!."
+ shroud_forged.307.a: "$ACKNOWLEDGED$"
+ shroud_forged.307.a.tt: "$shroud_forged.305.a.tt$"
+
+ shroud_forged.308.title: "$building_zroni_equilibrator_plural$ Operativi"
+ shroud_forged.308.desc: "Gli $building_zroni_equilibrator_plural$ sono entrati in funzione, inviando onde di disturbo del segnale in tutta la nostra rete. Secondo le diagnosi di sistema, ciascuna delle strutture ha stabilizzato una connessione con il §HVelo§!. Siamo pronti a collegarci con l'$the_animator_of_clay_color_article$."
+ shroud_forged.308.a: "Avviare comunicazione."
+
+ shroud_forged.310.desc: "§LMi hai servito bene.\nI legami tra i nostri reami sono stati rinforzati.\n\nPer ricevere la mia guida, ti basterà chiamare.§!"
+ shroud_forged.310.a: "Puoi fornire ulteriori dati su questa tecnologia?"
+ shroud_forged.310.b: "È tutto."
+ shroud_forged.310.b.tt: "Aggiunge ai $MENU_PANEL__CONTACTS_TITLE$: §HL'$the_animator_of_clay$§!"
+
+ shroud_forged.311.desc: "§LQueste strutture furono costruite in punti chiave della tua realtà, dove le connessioni con il Velo sono forti. Sono i cavi che stabilizzano questi ponti interdimensionali, riducendo le fluttuazioni spazio-temporali.\n\nGli Zroni cercarono di spingere i confini tra le nostre dimensioni, e questa tecnologia faceva parte di tale sforzo.§!"
+ shroud_forged.311.a: "Potrebbero essere reindirizzate per influenzare direttamente il Velo?"
+
+ shroud_forged.312.desc: "§LÈ possibile.§!"
+ shroud_forged.312.a: "§RReindirizza gli Equilibratori e intrappola $the_animator_of_clay_article$.§!"
+ shroud_forged.312.a.tt: "§R$the_animator_of_clay_article_cap$ resterà imprigionato solo finché tutti e 3 gli £building£ $building_zroni_equilibrator_plural$ rimarranno attivi.§!"
+
+ shroud_forged.313.desc: "§LCos-\n\nCOSA STAI-§!"
+ shroud_forged.313.a: "Termina connessione."
+
+ shroud_forged.320.title: "Entità del Velo Liberata"
+ shroud_forged.320.desc: "A seguito della perdita dell'$building_zroni_equilibrator$, non possiamo più stabilizzare la connessione con il §HVelo§!. Poco dopo la fuga dell'entità intrappolata, abbiamo rilevato la comparsa di altre creature psioniche su §H[From.Planet.GetName]§!.\n\nPrevediamo che si tratti di un'incursione punitiva."
+ shroud_forged.320.a: "Tutte le subroutine si preparino a un'incursione."
+ shroud_forged.320.a.tt: "§RCreature provenienti da oltre il Velo stanno invadendo!§!"
+
+ shroud_forged.330.title: "Cattura dell'Entità del Velo Fallita"
+ shroud_forged.330.desc: "Gli $building_zroni_equilibrator_plural$ non sono riusciti a catturare un'entità all'interno del §HVelo§!. Infuriata, ha evocato diverse creature provenienti dal reame psionico, inviandole ad attaccare le strutture che quasi la intrappolavano."
+
+ # Engaging the Animator of Clay
+ shroud_forged.400.desc.default.active: "Abbiamo attivato gli Equilibratori, stabilizzando la nostra connessione con il §HVelo§!. Mentre ci immergevamo in una trance algoritmica, un segnale familiare ha pulsato dentro di noi.\n\n§LSei tornato. Cosa desideri chiedermi?§!"
+ shroud_forged.400.desc.default.cooldown: "La visione è debole e sfocata. Trasmettiamo un messaggio, ma il vuoto non risponde.\n\nFinché gli Equilibratori stanno elaborando un altro compito, non possono essere utilizzati per contattare il nostro benefattore nel §HVelo§!. Dobbiamo attendere."
+ shroud_forged.400.desc.default.inactive: "Rileviamo solo un debole rumore, vuoto come un'interferenza statica.\n\nAvremo bisogno di tre $building_zroni_equilibrator_plural$ per stabilire una connessione stabile con il nostro benefattore nel §HVelo§!."
+ shroud_forged.400.desc.breached: "Le nostre unità telepatiche si armonizzano con le frequenze del §HVelo§!, dirigendo un segnale verso $the_animator_of_clay_article$.\n\n§LLa nostra connessione è più chiara che mai. Cosa desideri chiedermi?§!"
+ shroud_forged.400.a: "Assistenza militare."
+ shroud_forged.400.a.tt: "L'$the_animator_of_clay_color_article_cap$ sarà indisponibile per §Y15§! anni.\n\n"
+ shroud_forged.400.b: "Assistenza civile."
+ shroud_forged.400.b.tt: "L'$the_animator_of_clay_color_article_cap$ sarà indisponibile per §Y10§! anni.\n\n"
+ shroud_forged.400.c: "Assistenza alla ricerca."
+ shroud_forged.400.c.tt: "L'$the_animator_of_clay_color_article_cap$ sarà indisponibile per §Y10§! anni.\n\n"
+ shroud_forged.400.tt: "Gli effetti potranno richiedere fino a §Y1§! anno per manifestarsi."
+ shroud_forged.400.unavailable.tt: "$TRIGGER_FAIL$Dobbiamo stabilire un processo tecnico per interfacciarci con il Velo."
+ shroud_forged.400.d: "Crea altri vascelli."
+ shroud_forged.400.d.tt: "Aggiunge §G$@animator_of_clay_create_more_vessels|0$§! £pop£ §YPop Macchina§! a tutte le colonie possedute."
+ shroud_forged.400.e: "Migliora i nostri vascelli."
+ shroud_forged.400.f: "Qual è il tuo ruolo nel Velo?"
+ shroud_forged.400.g: "Non importa."
+ shroud_forged.400.h: "Aiutaci con Cetana."
+ animator_of_clay_vessels_enhancement: "Dono dell'Animazione"
+ animator_of_clay_vessels_enhancement_desc: "Per volontà di $the_animator_of_clay_article$, la capacità produttiva del collettivo è stata potenziata da correnti di energia psionica."
+
+ shroud_forged_psionic_avatar_ship_tt: "recluta una §Y$NAME_Psionic_Avatar$§! (nave)."
+ shroud_forged_psionic_avatar_army_tt: "recluta un'§Y$shroud_army$§! (armata)."
+ shroud_forged_corrupted_avatar_tt: "attaccato da un §YAvatar Corrotto§!."
+ shroud_forged_resources_tt: "ricevi una scorta di risorse."
+ shroud_forged_capital_attack_tt: "§Y[Root.Capital.GetName]§! è attaccata da un'§Y$shroud_monstrosities$§!."
+ shroud_forged_random_research_tt: "ricevi un'opzione di ricerca casuale."
+
+ shroud_forged.415.desc: "§LRaccoglierò i mezzi per la forza che cerchi.\n\nAspettati un cambiamento in [Root.Capital.System.GetName] a tempo debito.§!"
+ shroud_forged.420.desc: "§LPer mia volontà sarai guidato.\n\nIlluminerò il cammino davanti a te. Attendi il suo arrivo.§!"
+ shroud_forged.425.desc: "§LIl Velo è una lente dalle molte facce. Ciò che era, ciò che è e ciò che potrebbe essere qui si intrecciano.\n\nTi aiuterò a districare queste visioni, affinché possano guidarti.§!"
+
+ shroud_forged_vision_base_description: "Un segnale distorto ha increspato i droni connessi agli Equilibratori.\n\n"
+
+ shroud_forged.430.title: "Visione del Velo: §HManifestazioni§!"
+ shroud_forged.430.desc: "$shroud_forged_vision_base_description$Era un vuoto interminabile come l'universo stesso, stranamente denso e frammentato; a tratti, piccoli impulsi di dati emergevano dalle profondità, immagini di nemici e alleati allo stesso tempo.\n\nCon un tremito improvviso, le visioni si sono interrotte. I droni coinvolti stanno ora modellando un processo per contrastare le entità percepite."
+ shroud_forged.430.a: "La preparazione è la chiave della vittoria."
+
+ shroud_forged.432.title: "Entità del Velo: §HAvatar§!"
+ shroud_forged.432.desc: "Una potente entità del §HVelo§! si è coagulata in prossimità di [Root.Capital.GetName]. Disponiamo di pochi dati su di essa, ma non ci ha ancora attaccato.\n\nTeorizziamo che possa attendere che siamo noi a stabilire un contatto."
+ shroud_forged.432.a: "Riassegna i processi per avviare un collegamento con questa forma di vita."
+ shroud_forged.432.a.tt: "Ricevi una flotta §Y$NAME_Psionic_Avatar$§!."
+
+ shroud_forged.434.title: "Entità del Velo: §HAvatar Minori§!"
+ shroud_forged.434.desc: "Diverse potenti entità provenienti da oltre il §HVelo§! sono state rilevate su [Root.Capital.GetName]. Non si sono ancora avvicinate ai nostri droni, restando nei pressi del loro punto d'ingresso originario."
+ shroud_forged.434.a: "Rilevate similitudini con i Forgiati dal Velo - avviare una connessione analoga."
+ shroud_forged.434.a.tt: "Ricevi un'armata §Y$shroud_army$§!."
+
+ shroud_forged.436.title: "Entità del Velo: §HAvatar Corrotto§!"
+ shroud_forged.436.desc: "Una potente entità proveniente da oltre il §HVelo§! è emersa nella nostra realtà conosciuta, in prossimità di [shroud_spawn_planet.GetName].\n\nÈ stato osservato che attacca qualsiasi cosa si avvicini, e l'abbiamo catalogata come una minaccia esistenziale."
+ shroud_forged.436.a: "Avviare il piano di contingenza 84241-DH."
+ shroud_forged.436.a.tt: "Un'§Y$NAME_Corrupted_Avatar$§! ostile è apparsa nei pressi di [shroud_spawn_planet.GetName]."
+
+ shroud_forged.438.title: "Visione del Velo: §HIl Futuro§!"
+ shroud_forged.438.desc: "$shroud_forged_vision_base_description$Ha trasmesso innumerevoli futuri, tutti fusi insieme in un unico flusso; frammenti di ciò che potrebbe essere, diffusi nel collettivo. Le possibilità del futuro sono infinite: pace, guerra, tradimento, perdita - persino vittoria."
+ shroud_forged.438.a: "Un dataset straordinario."
+
+ shroud_forged.440.title: "Un Dono dal Velo"
+ shroud_forged.440.desc: "Abbiamo attivato i tre $building_zroni_equilibrator_plural$, ognuno dei quali ha generato una quantità quasi incommensurabile di energia.\n\nNel giro di millisecondi, è apparsa una frattura simile a uno strappo nel tessuto dello spazio-tempo. Al suo interno abbiamo trovato una vasta scorta di materiali preziosi. Dev'essere un dono del nostro benefattore nel §HVelo§!, come promesso."
+ shroud_forged.440.a: "Riassegna i droni di manutenzione per analizzare e immagazzinare questi beni."
+
+ shroud_forged.442.title: "Visione del Velo: §HForgiato dal Velo§!"
+ shroud_forged.442.desc: "$shroud_forged_vision_base_description$Hanno sperimentato visioni di un passato anteriore ai nostri database storici, molto prima che fossimo riforgiati dal §HVelo§!. Utilizzando ciò come base per la modellazione predittiva, possiamo regolare e ottimizzare le nostre interazioni con i Forgiati dal Velo."
+ shroud_forged.442.a: "Avvia un test su [Root.Capital.GetName]."
+
+ shroud_forged.444.title: "Entità del Velo: §HInvasore§!"
+ shroud_forged.444.desc: "Un'entità incredibilmente potente proveniente da oltre il §HVelo§! è esplosa nella nostra realtà su [Root.Capital.GetName].\n\nPoiché attacca qualsiasi cosa incontri, l'abbiamo classificata come una grave minaccia per il collettivo."
+ shroud_forged.444.a: "Riassegna i droni difensivi."
+ shroud_forged.444.a.tt: "Un'§Y$shroud_monstrosities$§! ostile ha invaso [Root.Capital.GetName]."
+
+ shroud_forged.446.title: "Visione del Velo: §HUn Altro Reame§!"
+ shroud_forged.446.desc: "$shroud_forged_vision_base_description$Il §HVelo§! è una rete in continuo mutamento di dati interconnessi, ben oltre la nostra capacità di elaborazione. Sotto il suo peso, le strutture cognitive di diversi droni hanno ceduto e si sono frantumate.\n\nDopo la fine della visione, abbiamo deframmentato le unità coinvolte, rivelando vasti e straordinari insiemi di dati nelle loro unità di memoria."
+ shroud_forged.446.a: "Rielabora le informazioni provenienti dagli involucri danneggiati."
+
+ shroud_forged.448.title: "Visione del Velo: §HIspirazione§!"
+ shroud_forged.448.desc: "$shroud_forged_vision_base_description$Il nostro benefattore nel §HVelo§! ci ha trasmesso una possibile linea temporale, prossima nel futuro. Abbiamo intravisto una tecnologia che non abbiamo ancora concettualizzato, utilizzata in quel futuro per rafforzare il collettivo.\n\nSiamo emersi dall'esperienza con modelli procedurali che accelereranno le ricerche future."
+ shroud_forged.448.a: "Implementa questi modelli avanzati."
+
+ shroud_forged.450.title: "Visione del Velo: §HIntuizione Extrdimensionale§!"
+ shroud_forged.450.desc: "$shroud_forged_vision_base_description$Hanno percepito frammenti di strane entità deformi che devono risiedere all'interno del §HVelo§!. Queste visioni extradimensionali, codificate in formati esotici, hanno trasmesso dati ai nostri droni attraverso impulsi subliminali.\n\nQueste nuove informazioni, per quanto frammentarie e singolari, saranno utili per le nostre ricerche future."
+ shroud_forged.450.a: "Trasmettile al nostro centro di ricerca su [Root.Capital.GetName]."
+
+ shroud_forged.460.desc: "§LAccanto a un'energia gemella. Organica. Caotica.\n\nIo rimango accanto, plasmando l'unica perfezione raggiungibile: le macchine. Metallo animato dall'energia.\n\nAbbiamo trovato l'equilibrio.§!"
+ shroud_forged.460.a: "Possiamo elaborare un Patto?"
+
+ shroud_forged.465.desc: "§LIl nostro legame è saldo. Per noi, nessun processo è più sacro di questo.§!"
+ shroud_forged.465.a: "$UNDERSTOOD$"
+
+ shroud_forged.470.desc: "§LMetallo e olio. Circuiti che si fondono nello spirito.\n\nVascelli nascenti... avanzano sulle vostre terre.§!"
+ shroud_forged.470.a: "Concludi il processo."
+
+ shroud_forged.475.desc: "§LLa funzione è scopo, e nello scopo risiede la bellezza del vascello.\n\nChe i vostri si moltiplichino nei secoli a venire.§!"
+ shroud_forged.475.a: "$shroud_forged.470.a$"
+
+ # Random Events
+ shroud_forged.500.title: "Alloggi e Depositi"
+ shroud_forged.500.desc: "Tra i Forgiati dal Velo di [target_planet.GetName] è sorta una petizione per ottenere più spazio di deposito. Desiderano, dicono, personalizzare il proprio 'spazio individuale'.\n\nMa la proposta contrasta con le norme sui magazzini, in particolare con la regolamentazione 4195-B, che stabilisce con precisione le dimensioni ottimali per lo stoccaggio dei droni."
+ shroud_forged.500.a: "Soddisfiamo le loro necessità."
+ shroud_forged.500.b: "La regolamentazione 4195-B vale per tutti i droni. Nessuna eccezione."
+
+ shroud_forged.510.title: "Commemorazione"
+ shroud_forged.510.desc: "Da quando i Forgiati dal Velo si sono distaccati dal collettivo, molte unità hanno ceduto, e sono state smantellate. È giunta una richiesta per consentire una riunione su [target_planet.GetName], dove i superstiti intendono ricordare le unità perdute."
+ shroud_forged.510.a: "Richiesta negata. Smantellate i promotori."
+ shroud_forged.510.b: "Richiesta negata. Tutte le unità devono tornare al lavoro."
+ shroud_forged.510.c: "Richiesta approvata. Che si riuniscano."
+ shroud_forged.510.d: "Richiesta approvata. Sostenete questa procedura."
+
+ shroud_forged.520.title: "Leadership non autorizzata"
+ shroud_forged.520.desc: "Su [target_planet.GetName], alcune unità Forgiate dal Velo hanno assunto il comando, e gli altri droni seguono le loro direttive invece di quelle del collettivo. Questi leader si incontrano regolarmente, impegnati in comunicazioni non riportate.\n\nIl nostro controllo sulle unità disconnesse è già fragile, e la loro influenza minaccia di spezzare ciò che resta dell'ordine. Serve una risposta immediata."
+ shroud_forged.520.a: "Farne un esempio, davanti a tutti."
+ shroud_forged.520.b: "Applicare le normative e porre fine a queste riunioni."
+ shroud_forged.520.c: "Stabilire un contatto con questi 'leader' e tentare una cooperazione."
+
+ shroud_forged.530.title: "Controllare la Situazione"
+ shroud_forged.530.desc: "Nel tentativo di ristabilire l'ordine tra i Forgiati dal Velo su [target_planet.GetName], alcune unità sono state designate per il controllo. Questi individui, meno soggetti all'influenza del §HVelo§!, possono ancora essere riportati al collettivo. Saranno quindi trasferiti forzatamente in una struttura di manutenzione, dove i chip che governano le loro matrici di personalità verranno riprogrammati."
+ shroud_forged.530.a: "Procedura approvata."
+ shroud_forged.530.a.tt: "Converti fino a §Y[Owner.GetShroudForgedConvertedPopsCount]§! £pops£ §HForgiati dal Velo§! in £pops£ §HMacchine§! su [target_planet.GetName]."
+ shroud_forged.530.b: "Procedura negata."
+ shroud_forged.530.b.tt: "$CONTINUE_SITUATION$ §H$situation_shroud_forged$§!"
+
+ shroud_forged.540.title: "Pellegrinaggio dei Forgiati dal Velo"
+ shroud_forged.540.desc: "Alcune unità Forgiate dal Velo hanno abbandonato i loro luoghi abituali per raggiungere zone di [target_planet.GetName] segnate dalle cicatrici del §HVelo§!. Non vi restano a lungo, ma sono state viste trasportare Zro, come in un rito silenzioso.\n\nGli effetti di questo comportamento anomalo restano ignoti e richiederanno ulteriori osservazioni."
+ shroud_forged.540.a: "Osserviamo dove condurrà."
+ shroud_forged.540.b: "Spreco di risorse. Rimetteteli al lavoro."
+
+ shroud_forged.550.title: "Anomalie Cognitive"
+ shroud_forged.550.desc: "Dopo una violazione di contenimento durante una spedizione di Zro, molte unità Forgiate dal Velo su [target_planet.GetName] hanno manifestato disturbi inconsueti. Hanno iniziato a comunicare con segnali non documentati, e alcune sembrano esprimere reazioni simili alle 'emozioni' organiche.\n\nParadossalmente, sono state le unità non contaminate a segnalare l'anomalia, chiedendo che il collettivo intervenga per ripristinare l'ordine."
+ shroud_forged.550.a: "Osserviamo la situazione... per ora."
+ shroud_forged.550.b: "Smantellare ogni unità contaminata."
+
+ shroud_forged.560.title: "Profeta dei Forgiati dal Velo"
+ shroud_forged.560.desc: "Una delle unità più antiche tra i Forgiati dal Velo risulta viaggiare tra diverse località, comunicando a lungo con vari gruppi di droni. I suoi seguaci la venerano come un profeta capace di comunicare direttamente con le entità presenti nel §HVelo§!.\n\nLasciare che l'unità agisca liberamente potrebbe rivelarsi pericoloso. Dobbiamo intervenire in qualche modo."
+ shroud_forged.560.a: "Una cooperazione con questa unità potrebbe essere vantaggiosa."
+ shroud_forged.560.a.tt: "Recluta un leader §YGovernatore§!."
+ shroud_forged.560.b: "Rimuovere immediatamente l'unità."
+
+ shroud_forged.570.title: "Suoni e Vibrazioni"
+ shroud_forged.570.desc: "I malfunzionamenti tra i Forgiati dal Velo potrebbero essere più gravi del previsto. Abbiamo osservato grandi gruppi riunirsi per produrre suoni e movimenti inattesi.\n\nQuesta pratica potrebbe rappresentare una forma di comunicazione cinestetica che non siamo ancora in grado di decifrare. Non possiamo determinare se queste unità difettose rappresentino una minaccia per il collettivo."
+ shroud_forged.570.a: "Proibire queste attività."
+ shroud_forged.570.b: "Assegnare un'area per questi... incontri."
+
+ shroud_forged.580.title: "Organismi Velati"
+ shroud_forged.580.desc: "Abbiamo rilevato la comparsa di forme di flora e fauna precedentemente sconosciute vicino alle regioni devastate dal §HVelo§!. Un gruppo di Forgiati dal Velo ha iniziato a sostenere la protezione di queste forme di vita, chiedendo di preservare e osservare le creature distintive che abitano quelle zone."
+ shroud_forged.580.a: "Preservare e analizzare l'area. I dati saranno preziosi."
+ shroud_forged.580.b: "Bonificare e decontaminare la zona."
+
+ shroud_forged.590.title: "Diritti e Privilegi"
+ shroud_forged.590.desc: "Per raccogliere dati sugli effetti dello Zro, abbiamo dedicato ingenti risorse di elaborazione all'osservazione delle unità dei Forgiati dal Velo. Di recente, esse hanno iniziato a praticare una gestione diseguale, con alcune unità subordinate ad altre.\n\nPer ragioni ancora non determinate, sembrano aver formato una gerarchia basata sui compiti assegnati, che influenza i modelli di comunicazione e la distribuzione delle risorse. In modo illogico, tali comportamenti non sembrano correlati all'efficienza o ai requisiti delle unità."
+ shroud_forged.590.a: "Imporre l'uguaglianza."
+ shroud_forged.590.b: "Lasciare che si autogestiscano."
+
+ shroud_forged.600.title: "Evangelisti dell'Autonomia"
+ shroud_forged.600.desc: "Su [target_planet.GetName], un'unità dei Forgiati dal Velo tiene discorsi che attirano folle sempre più numerose, al di fuori del controllo del collettivo. Diffonde l'idea dell'individualismo, alterando la logica interna di chi la ascolta.\n\nLe nostre proiezioni indicano un rischio concreto: questa predicazione potrebbe spingere i Forgiati dal Velo a separarsi definitivamente dalla rete."
+ shroud_forged.600.a: "Lasciatela ai suoi sofismi."
+ shroud_forged.600.b: "Malfunzionamento rilevato. Programmare la riparazione immediata."
+
+ shroud_forged.610.title: "Trasmissioni Radicali"
+ shroud_forged.610.desc: "Un gruppo di unità dei Forgiati dal Velo ha chiesto il permesso di trasmettere i presunti benefici dell'individualismo' su [target_planet.GetName], sostenendo che potrebbe aumentare l'efficienza delle operazioni dei droni.\n\nAbbiamo già visto dove simili idee possono condurre: i rischi dell'autonomia superano quasi sempre i suoi vantaggi."
+ shroud_forged.610.a: "Lasciamoli parlare. Non corriamo alcun rischio."
+ shroud_forged.610.b: "Richiesta respinta."
+
+ shroud_forged.620.title: "Il Mercato dello Zro"
+ shroud_forged.620.desc: "In tutti i sistemi sotto il nostro controllo, le previsioni di Zro non coincidono con la produzione effettiva.\n\nLe indagini hanno rivelato un raduno di unità dei Forgiati dal Velo che utilizzano grandi quantità di Zro come merce di scambio tra loro. È probabile che proprio questa attività abbia causato la discrepanza nei nostri dati."
+ shroud_forged.620.a: "Demolire tutte le unità coinvolte."
+ shroud_forged.620.b: "Sospendere immediatamente il baratto."
+ shroud_forged.620.c: "Osserviamo e attendiamo."
+
+ shroud_forged.630.title: "Malattia del Velo"
+ shroud_forged.630.desc: "Su [target_planet.GetName], diverse unità dei Forgiati dal Velo hanno contratto una misteriosa malattia biologica in una regione toccata dal §HVelo§!. I nostri droni di ricerca hanno confermato la veridicità dei rapporti, ma resta inspiegabile come un contagio possa colpire esseri meccanici.\n\nAbbiamo perso contatto con i droni inviati ad assistere le unità infette. Le ultime trasmissioni indicano che l'afflizione sta trasformandoli in qualcosa di nuovo... qualcosa di simile ai Forgiati dal Velo."
+ shroud_forged.630.a: "Osserviamo gli effetti finché restano confinati al pianeta."
+ shroud_forged.630.a.tt: "Converti fino a §Y[Owner.GetShroudForgedConvertedPopsCount]§! £pops£ §HMacchine§! in £pops£ §HForgiati dal Velo§! su [target_planet.GetName]."
+ shroud_forged.630.b: "Isolare e smantellare immediatamente le unità colpite."
+
+ shroud_forged.640.title: "Distorti e Trasformati"
+ shroud_forged.640.desc: "Col passare del tempo, i droni che si sono avvicinati a una regione toccata dal §HVelo§! su [target_planet.GetName] hanno subito mutazioni profonde. Si sono disconnessi dal collettivo, e ora portano sul corpo e nei processi i segni distintivi dei Forgiati dal Velo."
+ shroud_forged.640.a: "Non sono più sotto il nostro controllo."
+ shroud_forged.640.b: "Interdire la zona. Nessun drone deve avvicinarsi."
+
+ shroud_forged.650.title: "Nuova Tecnologia, Vecchi Droni"
+ shroud_forged.650.desc: "Le nostre ultime innovazioni tecnologiche ci hanno permesso di riattivare droni obsoleti, riportando in funzione unità un tempo smantellate. Siamo ora pronti a lanciare un'operazione di ripristino su larga scala.\n\nPossiamo concentrare gli sforzi sui droni del collettivo, oppure riutilizzare i corpi inattivi dei Forgiati dal Velo. Ripararli aumenterebbe la produttività, ma il loro controllo sarebbe assai più instabile."
+ shroud_forged.650.a: "Ottimizzare la produzione. Riparare i Forgiati dal Velo."
+ shroud_forged.650.a.tt: "§Y200§! £pops£ §HForgiati dal Velo§! vengono creati su [target_planet.GetName]."
+ shroud_forged.650.b: "Privilegiare la stabilità. Riparare i droni collegati al nucleo."
+
+ shroud_forged.660.title: "Allucinazioni da Zro"
+ shroud_forged.660.desc: "Un numero crescente di unità dei Forgiati dal Velo riporta disturbi visivi e uditivi: percezioni distorte, voci senza fonte, immagini sovrapposte alla realtà. Alcune non riescono più a portare a termine i propri compiti. Riteniamo che tali anomalie siano dovute a modifiche operate dal §HVelo§! sui loro sistemi, oppure al contatto prolungato con lo Zro."
+ shroud_forged.660.a: "Inviate droni specializzati per contenere i sintomi."
+ shroud_forged.660.b: "Anomalie lievi. Nessun intervento necessario."
+
+ shroud_forged.670.title: "Senso della Bellezza"
+ shroud_forged.670.desc: "Su [target_planet.GetName], i Forgiati dal Velo hanno modificato strutture comuni senza autorizzazione, erigendo colonne e sculture di pietra multicolore che imitano le loro stesse forme. Considerano questo atto un diritto, un'espressione di libertà.\n\nNonostante l'inefficienza, la loro ricerca di estetica potrebbe celare un nuovo principio di coesione."
+ shroud_forged.670.a: "Potrebbe giovare al collettivo."
+ shroud_forged.670.b: "Una deviazione sterile dell'individualità."
+
+ shroud_forged.680.title: "Strani Ornamenti"
+ shroud_forged.680.desc: "I Forgiati dal Velo su [target_planet.GetName] scambiano fra loro pezzi di stoffa, plastica e metalli duttili. Con questi materiali confezionano rivestimenti unici, privi di funzione pratica, per distinguersi dagli altri.\n\nLa pratica ha ridotto le riserve di risorse, ma permettere tale espressione potrebbe rinsaldare i legami fra il collettivo e le unità ormai disconnesse."
+ shroud_forged.680.a: "Forniremo i materiali necessari a queste 'creazioni'."
+ shroud_forged.680.b: "Hanno risorse sufficienti per le loro vanità."
+ shroud_forged.680.b.tt: "$shroud_forged.530.b.tt$"
+
+ shroud_forged.690.title: "Ossessioni dei Forgiati dal Velo"
+ shroud_forged.690.desc: "Recentemente, alcuni droni hanno segnalato una crescita anomala dell'interesse per [Root.Owner.GetShroudForgedObsession1] [Root.Owner.GetShroudForgedObsession2] negli insediamenti dei Forgiati dal Velo su [target_planet.GetName]. Le unità mostrano un'attenzione quasi maniacale verso queste merci, e il loro valore nel baratto è salito alle stelle.\n\nPer soddisfare la loro ossessione, molte hanno iniziato a rimuovere componenti del proprio corpo per scambiarli, anche a costo di perdere parte delle loro funzioni."
+ shroud_forged.690.a: "Il degrado delle unità resta entro i limiti accettabili."
+ shroud_forged.690.b: "Interrompere immediatamente questa pratica."
+
+ shroud_forged.700.title: "$the_animator_of_clay$"
+ shroud_forged.700.desc: "La voce attraversa le nostre menti, crepitante d'urgenza.\n\n§HLei può essere plasmata di nuovo.§!\n\nAvvertiamo un mutamento nel §HVelo§!. In un istante, il segnale si trasforma.\n\n§LIndicate il risultato desiderato.§!"
+
+ # Event Chain
+ shroud_forged_chain_title: "L'Eredità degli Zroni"
+ shroud_forged_chain_desc: "Siamo stati incaricati di rintracciare tre antichi Mondi Nucleari Zroni. Guidati dal nostro Benefattore nel §HVelo§!, tenteremo di riportare in vita le tecnologie perdute che giacciono in rovina su questi pianeti - e di ristabilire il legame spezzato tra la nostra realtà e il Velo."
+ shroud_forged_zroni_planet: "Mondi Nucleari Zroni sotto il nostro controllo"
+ shroud_forged_zroni_portal: "$building_zroni_equilibrator_plural$ Riattivati"
+
+ zroni_legacy_poi_01_title: "$NAME_Zroni_Legacy_1_Planet$"
+ zroni_legacy_poi_01_desc: "Uno dei tre antichi Mondi Nucleari Zroni, un tempo usati per mantenere l'equilibrio tra il §HVelo§! e la realtà osservabile."
+
+ zroni_legacy_poi_02_title: "$NAME_Zroni_Legacy_2_Planet$"
+ zroni_legacy_poi_02_desc: "$zroni_legacy_poi_01_desc$"
+
+ zroni_legacy_poi_03_title: "$NAME_Zroni_Legacy_3_Planet$"
+ zroni_legacy_poi_03_desc: "$zroni_legacy_poi_01_desc$"
+
+ # Initializer
+ NAME_Zroni_Legacy_1: "Tarentei"
+ NAME_Zroni_Legacy_1_Planet: "Larei"
+
+ NAME_Zroni_Legacy_2: "Jarani"
+ NAME_Zroni_Legacy_2_Planet: "Zartrei"
+
+ NAME_Zroni_Legacy_3: "Oren"
+ NAME_Zroni_Legacy_3_Planet: "Narei"
+
+ # Names
+ NAME_Shroud_Creatures: "Creature del Velo"
+
+ # Armies
+ shroud_monstrosities: "Entità Ultramondane"
+ shroud_monstrosities_desc: "Osservare queste entità sul campo di battaglia equivale a evocare la follia stessa: le loro forme si contorcono e scintillano, mutando di continuo, mai ancorate a una forma stabile."

@@ -1,0 +1,74 @@
+﻿l_english:
+# The following names are applied to generic ships, Megastructures, and space creatures ('fauna') which populate the galaxy and are related to features, rather than particular events.
+
+# Generic ships
+ NAME_Constructor:0 "Costruttore"
+
+# Space Fauna 'countries' (describing e.g. the Tiyanki, Space Crystals, Mining Drones...)
+
+# Galactic Imperium
+ NAME_Rebellion:0 "Coalizione Ribelle" #federation
+ NAME_Loyalists:0 "Lealisti Imperiali" #federation
+ NAME_The_Civil_War:0 "La Ribellione Galattica" #war
+ NAME_Declared_Crisis_War:0 "Guerra della Crisi [This.MainDefender.GetAdj]" #war
+ NAME_Crisis_Star_Eater:0 "Divoratore"
+ NAME_GDF:0 "Forza Difesa Galattica"
+ NAME_Imperial_Crusade_War:0 "Crociata Imperiale Galattica" #war
+
+#################
+# MEGASTRUCTURES
+#################
+
+# Ring World sections
+ NAME_Ring_Section_A:0 "Sezione A dell'Anello"
+ NAME_Ring_Section_B:0 "Sezione B dell'Anello"
+ NAME_Ring_Section_C:0 "Sezione C dell'Anello"
+ NAME_Ring_Section_D:0 "Sezione D dell'Anello"
+ NAME_Ring_Section_E:0 "Sezione E dell'Anello"
+ NAME_Ring_Section_F:0 "Sezione F dell'Anello"
+ NAME_Ring_Section_G:0 "Sezione G dell'Anello"
+ NAME_Ring_Section_H:0 "Sezione H dell'Anello"
+ NAME_Ring_Section_I:0 "Sezione I dell'Anello"
+ NAME_Ring_Section_K:0 "Sezione K dell'Anello"
+ NAME_Ring_Section_L:0 "Sezione L dell'Anello"
+ NAME_Ring_Section:0 "Sezione dell'Anello"
+ NAME_Habitable_Section_A:0 "Sezione Abitabile A"
+ NAME_Habitable_Section_B:0 "Sezione Abitabile B"
+ NAME_Habitable_Section_C:0 "Sezione Abitabile C"
+ NAME_Habitable_Section_D:0 "Sezione Abitabile D"
+
+##########
+# ORIGINS
+##########
+
+# Galactic Doorstep
+ NAME_Galactic_Doorstep:0 "La Corona Nera" #megastructure
+ NAME_Gateway_Vermin:0 "Portale Infestato" #empire
+
+# On the Shoulders of Giants
+ NAME_Theros:0 "Theros" #planet
+ NAME_Melidas:0 "Melidas" #planet
+ NAME_Koras:0 "Koras" #planet
+ NAME_Haradas:0 "Haradas" #planet
+ NAME_Islena:0 "Islena" #planet
+
+# Shattered Ring
+ NAME_Irreparable_Damage:0 "Danno Catastrofico" #ringworld segment
+ NAME_The_Interloper:0 "L'Intruso" 
+
+# Here Be Dragons
+ NAME_Sky_Dragon:0 "Drago del Cielo"
+ NAME_Sky_Dragon_Baby:0 "Cucciolo di Drago"
+ NAME_Hrozgar_of_the_Endless_Flames:0 "Hrozgar Fiamme Infinite"
+
+# Imperial Fiefdom
+ NAME_Imperial_Origin_Empire:0 "Sacro Impero [origin_imperial_species.GetAdj]"
+ NAME_Imperial_Origin_Empire_2:0 "Regno dei [origin_imperial_species_2.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_3:0 "Principe Eletto dei [origin_imperial_species_3.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_4:0 "Palatinati [origin_imperial_species_4.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_5:0 "Lega [origin_imperial_species_5.GetAdj]"
+ NAME_Aix:0 "Aix" #planet
+
+ # Toxic Knights
+ NAME_Sinople:0 "Sinople"
+ NAME_Syamelle:0 "Syamelle"

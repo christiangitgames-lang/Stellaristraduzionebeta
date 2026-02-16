@@ -1,0 +1,170 @@
+﻿l_english:
+####################
+# ARCHAEOLOGY SITES
+####################
+
+# Ice Trauma (by Gemma Thomson)
+ site_ice_trauma:0 "Sotto il Ghiaccio"
+ site_ice_trauma_desc:0 ""Le vaste terre ghiacciate e desolate di [from.planet.GetName] erano un tempo mari, sparsi su un'abbondanza di profondi canyon vulcanici. Sebbene l'ambiente non sia più in grado di sostenere la vita, abbiamo rilevato le rovine di antichi insediamenti sottomarini in trincee ghiacciate vicino alla superficie del pianeta."
+
+ arcsite.1000.name:0 "Guglie Spettrali"
+ arcsite.1000.desc:0 "I nostri [owner.GetScientistPlural] hanno posizionato i propri accampamenti lungo i bordi di un lago ghiacciato e vitreo. Sotto una luce sufficiente, si possono intravedere delle torri spettrali sottostanti. Si arrampicano verso l'alto dal letto del lago come fermi viticci.\n\nI nostri equipaggi meno esperti si stanno ancora adattando per lavorare in un freddo così pungente e sterile. Nonostante ciò, i nostri scavi sono proceduti rapidamente. Abbiamo scoperto numerose camere d'aria, tutte progettate per navi sottomarine primitive. Non ci sono ancora segni delle navi stesse. Sia che gli abitanti della torre siano rimasti o siano fuggiti, tutti i suoi moli sono stati lasciati vuoti."
+ arcsite.1000.a:0 "Scoprite di più su queste tecniche per rompere il ghiaccio."
+
+ arcsite.1005.name:0 "Qualche Segno di Usura"
+ arcsite.1005.desc:0 "Mentre continuiamo a rimuovere grandi sezioni di ghiaccio dai vari habitat ghiacciati, i nostri [owner.GetScientistPlural] presso la torre di attracco ha scoperto un primitivo terminale per computer. Sembra che il suo fragile involucro di metallo fosse... masticato.\n\nIl terminale si è avviato correttamente dopo alcune piccole riparazioni. Gran parte della rete dati dell'habitat rimane offline, ma possiamo dedurre molto dalla cache locale delle immagini, file personali, e da quello che sembra essere un backup dei registri di missione."
+
+ arcsite.1010.name:0 "Sviluppi Preoccupanti"
+ arcsite.1010.desc:0 "La nostra conoscenza dell'antico insediamento su [from.planet.GetName] si approfondisce, ma anche la nostra preoccupazione. Ciò che abbiamo scoperto sono i resti di una colonia di frontiera, un residuo di una civiltà così a lungo dimenticata, che non riusciamo nemmeno a discernere il loro nome.\n\nQuando i mari erano la caratteristica dominante su questo mondo, gruppi diversi di coloni furono portati dal loro pianeta natale e arruolati in equipaggi di pionieri sottomarini. Il loro obiettivo era quello stabilire colonie e sfruttare le risorse naturali del pianeta. La loro realtà, tuttavia, era costituita da esperimenti biologici incontrollati, cambiamenti politici radicali e pericoli significativi per difendersi da §Yflora e fauna ostili§!.\n\nI registri dei sensori di una boa di navigazione sembrano aver tracciato un equipaggio di questo tipo in rotta verso un avamposto vicino. Riteniamo che la loro nave sia ancora lì, intrappolata nel ghiaccio insieme a un deposito di materiali utili."
+ arcsite.1010.a:0 "Inviate immediatamente un gruppo di ricerca."
+ arcsite.1010.b:0 "Scoprite i segreti di questi ostili abitanti dell'oceano."
+
+ arcsite.1016.name:0 "Fuoco e Acqua"
+ arcsite.1016.desc:0 ""Il ghiaccio annerito circonda la grotta in cui abbiamo trovato il relitto accartocciato e bruciato di un antico sottomarino. Al riparo dai peggiori cicli di gelo-disgelo di questo pianeta, questa grotta bruciata ha conservato le prove di molteplici calamità che hanno colpito l'equipaggio.\n\nIl rozzo motore nucleare del sottomarino porta i segni di riparazioni frettolose e rattoppate, negli alloggi dell'equipaggio abbiamo trovato segni di graffi e deboli residui di bruciature chimiche. A un certo punto tutte le navette di salvataggio del sottomarino sono state utilizzate, ma solo una è rimasta nelle vicinanze incastrata in una bocca di lava dormiente.\n\nNon è rimasto quasi nulla da recuperare da questo relitto bruciato, ma il carico che l'equipaggio doveva consegnare, un §Ycontainer di rifornimenti§! coloniale, è rimasto intatto. La nostra squadra di ricerca è tuttavia riuscita a recuperare ciò che i sommergibilisti condannati non hanno potuto salvare."
+
+ arcsite.1017.name:0 "Sottomarino Sovrano"
+ arcsite.1017.desc:0 "Abbiamo scavato una galleria attraverso notevoli quantità di ghiaccio per trovare il relitto intatto di un sottomarino, sigillato all'interno di una grotta ermetica. Le condizioni della tundra hanno da tempo ridotto tutta la materia organica in polvere fine, ma ha preservato una ricchezza di artefatti culturali.\n\nLa nostra indagine antropologica suggerisce un focolaio di attività politica quando l'equipaggio di questo sottomarino si staccò dalla vicina colonia. Proclamarono diversi confini sovrani all'interno dello scafo del loro sottomarino, sposando ogni sorta di ideologia politica. Sorprendentemente, questa estrema faziosità sembra aver rafforzato i legami sociali dell'equipaggio, anziché allontanarli. La questione susciterà sicuramente un vivace dibattito tra i nostri scienziati politici."
+ arcsite.1017.auth.a:0 "... Tenendoci un passo avanti ai dissidenti."
+
+ arcsite.1018.name:0 "Eredità Genetica"
+ arcsite.1018.desc:0 "Ci aspettavamo che un vascello così antico si fosse schiantato da tempo. Invece scopriamo che questo relitto è stato congelato di colpo, conservando la sua sovrastruttura insieme ai cadaveri di numerose creature. Alcune di queste sembrano essere fauna autoctona di grandi dimensioni, feroci e decisamente predatrici. Mentre altre dalle fattezze di piccoli esseri sapienti che indossavano tute ambientali, probabilmente erano le loro prede.\n\nL'equipaggio del sottomarino non è originario di [fromfrom.planet.GetName]. Lo studio e le autopsie effettuate dai nostri scienziati sui corpi di questi esseri alieni ci dimostrano che si sono modificati geneticamente con del materiale proveniente da forme di vita locali. Non sappiamo cosa abbia spinto i coloni a compiere un gesto simile, ma di sicuro così facendo hanno garantito la sopravvivenza di una preziosa storia genetica."
+ arcsite.1018.phobe.a:0 "Che vile oscenità."
+ arcsite.1018.b.evopred: "Che specie intelligente!"
+
+ arcsite.1020.name:0 "Calvario Congelato"
+ arcsite.1020.desc.intro:0 "Dopo aver esaminato tutto ciò che potevamo dal sottomarino distrutto e dagli habitat abbandonati, la nostra squadra su [from.planet.GetName] si sta preparando a raggrupparsi vicino alla superficie del pianeta. C'è ancora molto che non sappiamo su questa colonia. La maggior parte di ciò che abbiamo trovato è semplicemente un'eredità eclettica della vita in una frontiera particolarmente solitaria."
+ arcsite.1020.tech.desc:0 "$arcsite.1020.desc.intro$\n\nSebbene la loro civiltà non possedesse la tecnologia dei viaggi FTL, questi antichi sommergibilisti ci hanno guidato verso notevoli scoperte in altri campi. Hanno fatto queste scoperte in condizioni avverse che noi solitamente non vogliamo sperimentare."
+ arcsite.1020.default.desc:0 "$arcsite.1020.desc.intro$\n\nSebbene la loro civiltà non possedesse la tecnologia dei viaggi FTL, le difficoltà sembrano guidare questa colonia un tempo sottomarina verso alcune singolari scoperte scientifiche ed economiche, che ora siamo liberi di sfruttare."
+ arcsite.1020.a:0 "Queste scoperte possono essere utili ai nostri coloni."
+ arcsite.1020.b:0 "Gli habitat sotterranei sono un'idea interessante."
+ arcsite.1020.c:0 "Potremmo fare buon uso degli armamenti di quel sottomarino."
+ arcsite.1020.a.memorialist:0 "Conserveremo la loro memoria."
+ arcsite.1020.a.prospectors:0 "Un'impresa curiosa."
+
+ ice_trauma_insights_colony:0 "Eredità dei Sommergibilisti Congelati" #modifier
+ ice_trauma_insights_engineering:0 "Ingegno dei Sommergibilisti Congelati" #modifier
+ ice_trauma_memorialist_unity:0 " In Memoria dei Sommergibilisti Congelati" #modifier
+
+# Engineered Species
+ site_engineered_species:0 "Fossili Abbondanti"
+ site_engineered_species_desc:1 "[from.planet.GetName] sembra essere un pianeta abitabile standard, ma a un esame più attento, la nostra squadra di ricerca ha individuato grandi depositi di fossili in condizioni apparentemente ben conservate. È interessante notare che ammassi più grandi contengono più esemplari sullo stesso strato, indicando che sono morti nello stesso momento o sono stati collocati lì intenzionalmente. L'esame di questi resti ci dà l'opportunità di comprendere meglio il processo evolutivo delle specie che abitano questo pianeta."
+
+ arcsite.2000.name:0 "Un Sacco di Ossa"
+ arcsite.2000.desc:0 "Abbiamo scansionato la superficie e trovato alcuni depositi promettenti, pieni di resti di una varietà di specie diverse. Alcuni assomigliano a quelli che vivono ancora sulla superficie, mentre altri non sono qualcosa che non abbiamo mai visto prima.\n\nSebbene il lavoro sia duro e la fauna selvatica sia agitata dalla nostra presenza, [leader.GetName] abbiamo già fatto scoperte notevoli ed siamo riusciti a ricostruire alcune delle specie estinte. Questo, a sua volta, ha acceso una disputa tra la squadra di ricerca. alcuni vogliono esporre queste specie in delle mostre, altri preferiscono studiare il materiale, poiché sono i fossili meglio conservati trovati fino ad oggi, e questo sito di scavo è quasi esaurito."
+ arcsite.2000.study:0 "Studiate i fossili."
+ arcsite.2000.use:0 "Fate di loro una mostra."
+ arcsite.2001.name:0 "Studio dei Fossili" #Study
+ arcsite.2001.desc:0 "Abbiamo svolto ricerche approfondite per determinare la relazione tra le specie fossili e l'attuale biosfera su [from.planet.GetName]. Si scopre che alcune di esse appartengono allo stesso genere, con molte somiglianze. Ulteriori studi potrebbero darci più risposte."
+ arcsite.2002.name:0 "Mostra Interplanetaria" #Use
+ arcsite.2002.desc:0 "Un po' di persone sono venute alla nostra mostra. Sebbene non possiamo utilizzare il materiale raccolto per la nostra ricerca, abbiamo attirato alcuni generosi finanziatori e inviato i fossili in un tour interplanetario. L'aspetto alieno dei reperti ha causato un piccolo boom di persone interessate alla xenoarcheologia."
+
+ arcsite.2010.name:0 "Abitanti delle Caverne"
+ arcsite.2010.desc:0 "Esaurito il primo sito, abbiamo deciso di trasferirci in luoghi più remoti alla ricerca di più materiale per la ricerca. [leader.GetName] ha trovato un posto abbastanza buono, una grotta che fungeva da casa per alcuni specie estinte. Un'attenta indagine ed esame ha rivelato qualcosa di insolito, qualunque cosa vivesse in questa grotta utilizzava un colorante ingegnoso che si rivela quando esposto al calore e alla luce.\n\nAbbiamo identificato due tipi di dipinti, uno che racconta la storia del passato, e l'altro che ritrae la vita quotidiana. Sfortunatamente, abbiamo sconvolto il delicato ecosistema che conservava i disegni. La reazione a catena che ne deriva, combinata con l'età della tintura, ne fa sbiadire e scomparire in breve tempo. La squadra deve decidere quale vale la pena salvare."
+ arcsite.2010.study:0 "Preserva la storia."
+ arcsite.2010.use:0 "Preserva la vita quotidiana."
+ arcsite.2011.name:0 "Storia degli Abitanti delle Caverne" #Study
+ arcsite.2011.desc:0 "Abbiamo salvato i disegni relativi al passato e acquisito informazioni sulla storia della specie. Sembra che questi abitanti delle caverne siano entrati in contatto con una civiltà avanzata che in qualche modo ne ha influenzato l'aspetto e lo sviluppo. Date le raffigurazioni delle creature, presumiamo che la specie fosse soggetta a rapide mutazioni genetiche e che le loro generazioni variassero notevolmente nell'aspetto."
+ arcsite.2012.name:0 "Vita degli Abitanti delle Caverne" #Use
+ arcsite.2012.desc:0 "Abbiamo salvato i disegni relativi alla vita quotidiana e acquisito informazioni sulla storia della specie. Raffigurano gli abitanti delle caverne come un conglomerato di specie dall'aspetto diverso ma altrettanto intelligenti che hanno partecipato a rituali complessi. [leader.GetName ] presumeva che le varie creature si crogiolassero alla luce della divinità, lavorassero per lui e in cambio ricevessero la libertà."
+
+ arcsite.2020.name:0 "Struttura Ossea"
+ arcsite.2020.desc:0 "Esplorando ulteriormente nelle profonde voragini della grotta, ci siamo imbattuti in una grotta con una strana struttura ossea all'interno. Dato lo stato attuale della struttura, sembra che sia crollata e sprofondata nel terreno, probabilmente a seguito di un terremoto. [Leader.GetName] ha ordinato l'allestimento di un campo e abbiamo già eseguito alcune scansioni perimetrali, ma il terreno non è stabile. Potremmo non avere il tempo sufficiente per esaminare completamente la struttura una volta che saremo all'interno.\n\nLa grande potenzialità per i nostri studi risiede nell'edificio stesso. Possiamo studiare l'intrigante materiale osseo o concentrare i nostri sforzi sull'esplorazione, cercando nella struttura ulteriori indizi sugli alieni che l'hanno costruita e utilizzata e sulla loro routine quotidiana."
+ arcsite.2020.study:0 "Studiate l'edificio."
+ arcsite.2020.use:0 "Studiate il suo interno."
+ arcsite.2021.name:0 "Struttura Vivente" #Study
+ arcsite.2021.desc:0 "Dopo una ricerca senza intoppi, [Leader.GetName] concluse che l'edificio era... vivo. Non ora, ma anni fa, durante la sua creazione. Si trattava di una massa di ossa e tessuti modellati insieme per creare un edificio in grado di rimodellarsi per lo scopo desiderato. Dato il modo in cui l'edificio è crollato, si potrebbe addirittura supporre che si sia trattato di un atto deliberato da parte della struttura stessa.\n\nPurtroppo, durante i nostri studi abbiamo compromesso la struttura e questa è crollata ulteriormente, rendendo l'edificio inutilizzabile per ulteriori ricerche. [Leader.GetName] ha ordinato alla squadra di andare avanti."
+ arcsite.2022.name:0 "Civiltà Sotteranea" #Use
+ arcsite.2022.desc:0 "L'interno di questa inquietante struttura si è rivelato un labirinto di corridoi semicrollati e pieni di materiale osseo che giaceva ovunque. Con qualche difficoltà, siamo riusciti a estrarre diversi utensili e oggetti che indicano che su questo pianeta viveva una cultura complessa.\n\nPurtroppo, durante i nostri studi la struttura è stata compromessa ed è crollata ulteriormente, rendendo l'edificio inutilizzabile per ulteriori ricerche. [Leader.GetName] ha ordinato alla squadra di andare avanti."
+
+ arcsite.2030.name:0 "Struttura Sotterranea"
+ arcsite.2030.desc:0 "Finalmente siamo arrivati alla fine della grotta. Siamo entrati in qualcosa che somigliava a un vecchio bunker abbandonato costruito nel sottosuolo. Non assomiglia a niente che abbiamo trovato prima: supponiamo che i visitatori alieni abbiano allestito un laboratorio di ricerca quaggiù. E viste le vasche fatiscenti, le varie ossa e i fossili in giro, stavano studiando queste specie proprio come noi... Solo loro hanno avuto l'opportunità di condurre ricerche quando i loro esemplari erano ancora vivi.\n\n[Leader.GetName] si è subito messo al lavoro, cercando di raccogliere tutte le informazioni utili dal sito e dalle banche dati, non appena le abbiamo collegate alla fonte di alimentazione."
+ arcsite.2030.proceed:0 "Quali misteri scopriremo?"
+
+ arcsite.2040.name:0 "Passo in Avanti"
+ arcsite.2040.revelation.desc:0 "Abbiamo confrontato le nostre conoscenze dagli studi precedenti con le informazioni delle banche dati. La conclusione che abbiamo fatto è sconcertante. Sembra che migliaia di anni fa, una civiltà spaziale sia sbarcata su questo mondo e abbia trovato gli esemplari indigeni facili da addestrare, usando le loro tecniche di manipolazione genetica. In un primo momento, hanno ridotto in schiavitù la popolazione degli autoctoni intelligenti, anche se non completamente sviluppati, e hanno condotto vari esperimenti su di loro. Questi includevano trasformarli in tessuto vivente per scopi di costruzione. O in schiavi obbedienti o in animali domestici e bestiame.\n\nI casi precedenti che abbiamo trovato erano probabilmente resti di queste specie prima che si evolvessero nella biosfera non saccente che ora prospera su [from.planet.GetName]. Una fine orribile per una specie che un giorno avrebbe potuto attraversare la galassia proprio come noi."
+ arcsite.2040.ignorance.desc:0 "Sembra che migliaia di anni fa, una civiltà avanzata abbia trovato gli esemplari che vivono qui come uno studio interessante. Erano, affascinati dalla biosfera diversificata. Le vecchie banche dati continuano a funzionare, piene di strane conclusioni e di esperimenti alquanto preoccupanti. Contengono una composizione genetica di base della specie e come potrebbero essersi sviluppate nel passato e nel futuro.\n\nChe cosa è successo ai ricercatori stessi? Sono passati allo stato degli abitanti delle caverne che abbiamo trovato prima? O forse è il contrario, e si sono evoluti da loro, lasciando il pianeta a un certo punto? Ci porta a chiederci: quali altri misteri custodisce l'universo?"
+ arcsite.2040.revelation:0 "Questo è orribile."
+ arcsite.2040.ignorance:0 "L'universo è pieno di meraviglie."
+ arcsite.2040.phobe:0 "Questo dimostra che non ci si può fidare degli Xeno!"
+ arcsite.2040.phile:0 "Tali crimini sarebbero impossibili sotto il nostro governo!"
+ arcsite.2040.evopred.ignorance: "Che iniziativa altruistica!"
+ arcsite.2040.evopred: "La galassia è un posto molto arduo. "
+
+ engineered_species_revelation:0 "Dura Verità" #modifier
+ engineered_species_revelation_desc:0 "Se da un lato siamo stati in grado di accogliere la conoscenza di alieni morti da tempo e delle loro cavie per la manipolazione genetica, dall'altro ci ha dimostrato che lo spazio non è un luogo amichevole. È facile trasformarsi da predatore a preda."
+ engineered_species_ignorance:0 "Universo Misterioso" #modifier
+ engineered_species_ignorance_desc:0 "Esplorare l'universo è un'impresa piena di meraviglie. È sorprendente che la vita possa prosperare anche negli angoli più remoti della galassia e nelle condizioni più pericolose. Il nostro popolo, affascinato da storie di creature diverse che vivono insieme in armonia, è pronto ad affrontare i misteri dell'universo."
+ engineered_species_ownway:0 "Pensiero Unificato"
+ engineered_species_ownway_desc:0 "L'universo è duro, ma dobbiamo rimanere fedeli al nostro cammino per non seguire gli errori di chi ci ha preceduto."
+
+ # Debris Belt
+ site_debris_belt:0 "Campo di Detriti"
+ site_debris_belt_desc:0 "Le nostre scansioni nel sistema [From.Planet.System.GetName] mostrano che la sua fascia di asteroidi è di una varietà insolita. Invece del normale mix di rocce, ghiaccio e detriti spaziali che di solito compongono queste formazioni, sembra che si tratti dei resti di una serie di grandi habitat artificiali. Devono essere stati distrutti con incredibile violenza negli ultimi millenni. Il campo di detriti che ne è scaturito potrebbe contenere segreti incalcolabili, ma è talmente esteso che tracciarne la mappa potrebbe richiedere molto tempo."
+ r_odryskan_crystal:0 "Cristallo di Odryskia"
+ r_odryskan_crystal_desc:0 "Un cristallo di inestimabile valore. Si dice che il prezzo di anche un solo frammento sia sufficiente a portare le menti mortali alla follia."
+ r_odryskan_crystal_regular_effect:0 "Uno dei nostri scienziati potrebbe ottenere il tratto §Y$leader_trait_maniacal$§! ."
+ NAME_The_Cabin:0 "La Cabina"
+
+ arcsite.2500.name:0 "La Cabina"
+ arcsite.2500.desc:0 "Non siamo stati i primi a scoprire il campo di detriti nel sistema §Y[From.Planet.System.GetName]§!. I nostri [Root.Owner.GetResearchers] hanno trovato una navicella così piccola che l'hanno chiamata "cabina spaziale", contenente i resti di un singolo alieno tossicoide e un numero considerevole di cristalli di dati. A giudicare dal tasso di decadimento, la nostra ipotesi migliore è che questo alieno sia morto solo pochi secoli fa."
+ arcsite.2505.name:0 "Un Lungo Soggiorno"
+ arcsite.2505.desc:0 "I cristalli di dati scoperti nella cabina spaziale dell'alieno sono in realtà diari di missione. I nostri [Root.Owner.GetResearchers] ci hanno inviato un campione, insieme a una traduzione preliminare che inizia con un tono ottimistico:\n\n"È l'occasione della vita. Le rovine del mitico Odryskan sono a portata di mano. La mia nuova casa non è un granché, ma è sufficiente per me, e presto potrò mandare a casa abbastanza crediti per pagare le cure di mia figlia."\n\nBen presto, però, i toni si inaspricono:\n\n"Moglie e figlia morte. Non è rimasto nessuno a piangere per me. Il materiale recuperato venduto al mercato nero basta a malapena a sostenere i costi della vita. È troppo tardi per tornare indietro."\n\nComplessivamente, l'alieno ha trascorso più di cinque decadi a setacciare il campo di detriti in un'apparentemente inutile ricerca di ricchezze."
+ arcsite.2505.A:0 "Sicuramente ha trovato qualcosa in tutti questi anni!"
+ arcsite.2515.name:0 "Discesa Nella Follia"
+ arcsite.2515.desc:0 "Non è vero\nNon è vero\nNon è vero\nNon è vero\n§RBUGIE!§!\n...\n...\n...\nMa se fosse vero?\n\nI diari diventano sempre più inquietanti man mano che l'alieno scivola sempre più nella follia."
+ arcsite.2520.name:0 "Alla Fine la Pace"
+ arcsite.2520.desc:0 "I nostri [Root.Owner.GetResearchers] hanno finito di tradurre i cristalli di dati dell'alieno. Presentano un'interpretazione dell'ultimo diario di bordo, in cui, poco prima della morte, il registratore vive un raro momento di lucidità:\n\n"Finalmente ho trovato quello che cercavo. Molti mi considererebbero pazzo per aver continuato la ricerca così a lungo. Credo che, probabilmente, abbiano ragione. Ormai sono vecchio, anzi, morente, e i miei parenti sono ormai polvere da tempo. Non ha senso vendere il manufatto, ma forse ora posso trovare pace."\n\nI registri proseguono individuando il luogo in cui l'alieno ha nascosto il tesoro. Seguendoli, abbiamo rintracciato una gemma di dimensioni sorprendenti e di valore incalcolabile."
+ arcsite.2520.A:0 "Il nostro tesoro..."
+
+ #Krazura Arcsite
+ site_krazura_dig: "Sito dell'Antica Capitale"
+ site_krazura_desc: "Abbiamo scoperto le rovine di un'antica città su [From.Planet.GetName]. Date le sue dimensioni e la sua portata, si trattava probabilmente della capitale o del centro amministrativo di una grande civiltà spaziale.\n\nSarà necessario uno scavo completo per determinarne correttamente l'origine."
+
+ arcsite.3025.name: "Nido in Rovina"
+ arcsite.3025.desc: "Nel paesaggio della capitale si possono notare grandi santuari e templi in rovina. Un'esplorazione più approfondita ha rivelato che questa civiltà è stata distrutta più di mezzo milione di anni fa.\n\nIn base alla scoperta di alcuni murales straordinariamente ben conservati, gli abitanti sembravano essere di origine aviaria. Una traslitterazione approssimativa della loro lingua indica che si chiamavano Krazura."
+ arcsite.3025.a: "Continuate a scavare."
+ arcsite.3030.name: "Resti della Frattura"
+ arcsite.3030.intro: "Ulteriori scavi hanno portato a una scoperta sorprendente: una camera così massiccia che potrebbe ospitare una delle montagne più piccole del pianeta. Nonostante le dimensioni impressionanti della sua costruzione, questa 'Grande Sala' non ha alcuna funzione apparente, con un solo punto di ingresso e di uscita.\n\nLe pareti della camera, approssimativamente sferiche, mostrano forti segni di deformazione dimensionale; è ragionevole concludere che la camera sia stata costruita attorno a un wormhole o a un altro portale subspaziale."
+ arcsite.3030.a.desc: "$arcsite.3030.intro$\n\nInoltre, un murale inciso appena fuori dalla Sala ha fornito un'incredibile scoperta: questo pianeta non è altro che Skravird, patria ancestrale del famoso Ammiraglio Skrand Sharpbeak!"
+ arcsite.3030.b.desc: "$arcsite.3030.intro$\n\nUn murale inciso all'esterno della Sala indica che un tempo questo pianeta si chiamava Skravird."
+ arcsite.3030.tt: "Cambia il nome del pianeta in §YSkravird§!."
+ arcsite.3031.name: "Nessun Nido Come Casa"
+ arcsite.3031.desc: "Avete trovato Skravird. Pensavo che la mia casa fosse persa per sempre.\n\nAvere la possibilità di conficcare i miei artigli nel suo terreno, sentire il vento caldo del sud che soffia tra le mie piume... Ciò che avete fatto per me e per il mio popolo è al di là di ogni misura.\n\nSono rinfrancato, nel corpo e nella mente. Avete la mia gratitudine."
+ arcsite.3031.a: "Buona fortuna a te, Ammiraglio."
+ arcsite.3035.name: "Occhi Aperti"
+ arcsite.3035.desc: "Abbiamo stabilito che i Krazura non erano originari della nostra dimensione. Arrivati attraverso una specie di portale, si sono ritrovati alla deriva in una galassia strana e aliena. Molto più tardi, intorno al luogo di arrivo fu costruita la Grande Sala.\n\nI pochi documenti rimasti indicano che si consideravano arbitri di un grande potere mistico. Si credeva che il loro capo supremo, noto come 'Yakura', fosse un singolo individuo che si reincarnava in un nuovo corpo a ogni generazione.\n\nSotto la Grande Sala, abbiamo portato alla luce i resti di alcuni di questi governanti. È interessante notare che i primi possedevano una struttura genetica diversa da quelli successivi. Sembra che il viaggio in questo universo abbia avuto un impatto sul DNA dei Krazura, facendo emergere un 'doppio' paio di occhi."
+ arcsite.3035.b.evopred: "DNA interdimensionale, hai detto?"
+ arcsite.3040.name: "La Minaccia"
+ arcsite.3040.desc: "I Krazura sono arrivati come rifugiati nel nostro universo. Tuttavia, i documenti rinvenuti nei pressi della Grande Sala mostrano che si sono rapidamente affermati come un potente impero interstellare. Per molte generazioni hanno goduto di un'età dell'oro. Il loro popolo prosperò e l'abilità e la supremazia degli Yakura divennero indiscusse. Poi apparve la Minaccia.\n\nUn nemico diverso da tutti quelli che avevano incontrato prima, questo nemico senza nome sembrava ossessionato dalla loro distruzione. I più grandi saggi Krazura rimasero impotenti di fronte all'indomabile minaccia, la loro potente magia fu resa inutile."
+ arcsite.3045.name: "L'Ultima Migrazione"
+ arcsite.3045.a.desc: "Abbiamo scoperto una serie di documenti che offrono indizi sul destino dei Krazura.\n\nAl comando della nave ammiraglia della loro marina c'era un Ammiraglio leggendario, un grande eroe del suo popolo. Prima che la Minaccia aliena potesse ottenere la vittoria finale, lui e il suo equipaggio furono inviati in un'ultima, audace missione. Nel tentativo di aggirare il nemico, entrarono in un Portale sconosciuto. Della nave e dell'equipaggio non si seppe più nulla.\n\nQuello che è successo rimane un mistero. È possibile che questa nave sia ancora in circolazione?"
+ arcsite.3045.b.desc: "Abbiamo scoperto una serie di documenti che offrono indizi sul destino dei Krazura.\n\nIn un audace tentativo di aggirare il nemico, lo Yakura ordinò alla nave ammiraglia di entrare in un Portale Sconosciuto. Al comando c'era il leggendario Ammiraglio Skrand Sharpbeak.\n\nLui e il suo equipaggio sono gli eredi di un'eredità straordinaria. Che Skrand voglia accettare o meno il titolo, la sua gente ora lo guarda come Yakura."
+ arcsite.3045.a: "Possano le sue ali volare."
+
+ #Krazura Random Events
+
+ arcsite.3055.name: "Uccello Maligno"
+ arcsite.3055.desc: "Anche se i progressi generali erano in fase di stallo, il nostro [owner.GetResearchers] ha rivelato l'ingresso di una camera precedentemente sconosciuta. All'interno c'era una statua enorme, tanto imponente quanto bella.\n\nDi forma aviaria, il suo lungo e potente collo è formato da maglie metalliche che in qualche modo riescono a librarsi in posizione. Un piumaggio affilato spunta da un cranio patrizio e i suoi occhi sono araldi dorati del potere. Muovendosi nella camera, il nostro [owner.GetResearchers] ha avuto la spiacevole sensazione di essere osservato.\n\nDietro la figura hanno scoperto che era nascosta una porta o un sigillo, ma qualsiasi cosa questo uccello malefico custodisse ha smesso di funzionare da tempo."
+ arcsite.3060.name: "Marciume delle Piume"
+ arcsite.3060.desc: "In base a quanto abbiamo scoperto finora, questa civiltà non era estranea alle tragedie.\n\nAntichi documenti conservati in una sorta di cripta o mausoleo descrivono in dettaglio l'emergere di una grande pestilenza, che colpì la fisionomia della specie aviaria in modi particolarmente raccapriccianti.\n\nManifestandosi per la prima volta nel piumaggio, il virus faceva marcire le piume alla radice. Nel giro di pochi giorni, questi effetti si sono estesi al sangue. Non possiamo saperlo con certezza, ma le prime stime indicano un tasso di mortalità superiore al 30%.\n\nUn toccante monumento è stato eretto in una delle piazze centrali della città. In cima a un cumulo di ossa, un singolo uccello scheletrico guarda senza speranza verso il cielo, le sue piume cadute sono sparse intorno a un paio di fragili artigli."
+ arcsite.3060.a: "Orribile anche solo da contemplare."
+ arcsite.3060.b: "Raccapricciante."
+
+################
+# RANDOM EVENTS
+################
+
+ arcsite.9000.name:0 "Veglia Solitaria"
+ arcsite.9000.desc:0 "Il capo archeologo [leader.GetName] è diventato sempre più chiuso in se stesso negli ultimi tempi. Sembra che sia meno coinvolto nei nostri obiettivi di ricerca, scegliendo invece di ossessionarsi con i vari diari e registri che abbiamo scoperto finora. Spesso borbotta su "quanto devono essersi sentite sole queste persone".\n\nÈ possibile che la desolazione di questo sito di scavo stia causando sofferenza. Possiamo organizzare una consulenza a livello di squadra, oppure confidare che [leader.GetName] trovi una soluzione per suo lavoro." #Uses he/she/they loc., i.e. 'She appears' vs. 'They appear'
+ arcsite.9000.a:0 "Accordarsi. La salute della squadra è della massima importanza."
+ arcsite.9000.b:0 "Lasciatelo stare. Forse ha scoperto qualcosa."
+ arcsite.9001.desc:0 "L'archeologo capo [absconded_archaeologist.GetName] è fuggito, portando con sé una parte consistente dei nostri dati antropologici. La squadra riferisce che manca un veicolo di terra, ma tutte le nostre tute ambientali sono rimaste alla base.\n\nÈ possibile che [absconded_archaeologist.GetName] sia fuggito in un altro habitat sottomarino da qualche parte nella tundra, ma realisticamente... Dobbiamo pensare al peggio."
+ arcsite.9001.a:0 "Profondamente deplorevole."
+ arcsite.9002.desc:0 "L'archeologo [leader.GetName] ha subito un pesante trauma. Anche se ora appare piuttosto provato, si è riunito alla squadra e ha avanzato un'ipotesi convincente. Sembra che ci siano sfuggiti alcuni sottili dettagli nella raccolta dei documenti personali. L'insieme, questi indizi forniscono proprio il tipo di svolta che speravamo di ottenere."
+ arcsite.9002.a:0 "Ma ne è valsa la pena?"
+
+ arcsite.9005.name:0 "Rompighiaccio"
+ arcsite.9005.desc:0 "La squadra di scavo su [from.planet.GetName] ha lavorato a stretto contatto con i nostri [owner.GetResearchers] su [owner.capital_scope.GetName], sperimentando nuove soluzioni per il lavoro nella fredda tundra. La squadra di terra ha messo in campo un prototipo di escavatore il cui progetto si ispira molto alle tecniche di terraformazione.\n\nI primi test suggeriscono che questa macchina accelererà in modo significativo il nostro lavoro qui. Tuttavia, hanno identificato §Hdiversi rischi§!. Saranno necessari ulteriori fondi per cercare di mitigarli."
+ arcsite.9005.a:0 "I rischi e il costo potenziale sono troppo grandi"
+ arcsite.9005.tt.carefree:0 "aggiunge §G4 indizi§! al sito §H$site_ice_trauma$§!\n§H[leader.GetName]§! ottiene:\nil tratto $t$§Y$leader_trait_carefree$§!\n$t$Esperienza: +§G150§!" #directly follows loc string 'RANDOM_EFFECT'
+ arcsite.9005.tt.paranoid:0 "aggiunge §R-2 indizi§! al sito §H$site_ice_trauma$§!\n§H[leader.GetName]§! ottiene:\nil tratto $t$§Y$leader_trait_paranoid$§!\n$t$Esperienza: +§G50§!" #directly follows loc string 'RANDOM_EFFECT'

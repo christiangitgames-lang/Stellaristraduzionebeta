@@ -1,0 +1,1206 @@
+﻿l_english:
+
+ FROM_SITUATIONS:0 "Dalle Situazioni"
+ TO_TARGET:1 "Verso $TARGET|H$:"
+ SITUATION_MONTHLY_CHANGE:0 "Variazione mensile"
+ NO_ACTIVE_EFFECTS:1 "Nessun effetto attivo"
+ SITUATION_FINISHER_EFFECTS:0 "§EEffetti Previsti:§!"
+ SITUATION_FINISHER_EFFECTS_TOOLTIP:0 "§HEffetti se si raggiunge il risultato previsto§!"
+ SITUATION_FINISHER_EFFECTS_DELAYED_TOOLTIP:0 "§EAlcune Situazioni hanno più di un esito possibile.§!"
+ SITUATION_APPROACH_SELECT_TOOLTIP:0 "§GFare clic per scegliere questo Approccio per questa Situazione.§!"
+ ACTIVE_APPROACH:0 "§GAttivo§!" #Also used for stages
+ ACTIVE_APPROACH_EFFECTS:0 "$EFFECTS$"
+ STAGE_EFFECTS:1 "Effetti Fase:"
+ EFFECTS_FROM_SITUATION:0 "Effetti attuali di questa Situazione"
+ EFFECTS_FROM_SITUATION_E:0 "§E$EFFECTS_FROM_SITUATION$§!"
+ EFFECTS_FROM_SITUATION_H:0 "§H$EFFECTS_FROM_SITUATION$§!"
+ TRACK_SITUATION:0 "§GFare clic per attivare o disattivare il tracciamento per questa situazione.§!"
+ SITUATION_GOTO:0 "§GDoppio click o click destro per mettere a fuoco la telecamera su questa Situazione§!"
+ SITUATION_PROGRESS:0 "Progressi"
+ SITUATION_CURRENT_PROGRESS:0 "Progressi Attuali: $PROGRESS|Y$/$END|Y$"
+ SITUATION_PREDICTED_PROGRESS:0 "Previsto il Mese Prossimo: $PROGRESS|Y$ ($CHANGE$)"
+ SITUATION_OUTCOME_IN_MONTHS:0 "Un risultato sarà raggiunto in $MONTHS|Y$ mese(i)."
+ SITUATION_NEXT_STAGE_IN_MONTHS:0 "La Fase della Situazione cambierà in $STAGE_MONTHS|Y$ mese(i), e un risultato sarà raggiunto in $SITUATION_MONTHS|Y$ mese(i)." 
+ SITUATION_CURRENT_STAGE:0 "Fase attuale: $STAGE|Y$"
+ SITUATION_STAGE_ACTIVE_RANGE:1 "Questa Fase è attiva da $VALUE1|Y$ a $VALUE2|Y$."
+ OUTSTANDING_SITUATIONS:0 "§HSituazioni Eccezionali§!\nLe §ESituazioni§! che richiedono la nostra attenzione sono raccolte qui."
+ CLICK_TO_EXPAND_OR_COLLAPSE:0 "§GFare clic per chiudere o espandere la sezione.§!"
+ PREDICTED_OUTCOME:0 "Risultato previsto"
+ ACTIVE_STAGE:0 "Attualmente Attivo"
+ SITUATION_APPROACH_UNAVAILABLE:0 "§RQuesto Approccio non può essere scelto per la seguente motivazione:§!"
+ SITUATION_APPROACH_LOCKED:0 "§RNon possiamo cambiare Approccio a questa Situazione.§!"
+ SITUATION_APPROACH_LOCKED_TIMED:0 "§RNon saremo in grado di cambiare gli Approcci a questa Situazione per $MONTHS|Y$ mese(i).§!"
+ OUTLINER_SITUATION_PROGRESS:0 "$PROGRESS|Y$% progressi verso il risultato previsto."
+ OUTLINER_SITUATION_OUTCOME_TIME:1 "L'esito di questa Situazione è previsto tra $MONTHS|Y$ mese(i), in base all'attuale variazione mensile di $CHANGE$"
+ CLICK_TO_OPEN_SITUATION_LOG:0 "§GClicca per aprire il Rapporto§!"
+ SITUATION_STAGE_NO_EFFECTS:0 "Questa Fase non ha effetti."
+ SITUATION_TARGET_TOOLTIP:0 "Questa situazione è incentrata su $TARGET_TYPE$ $TARGET|Y$."
+ SITUATION_TARGET_TOOLTIP_SPECIFY_SYSTEM: "Questa situazione è incentrata su $TARGET|Y$ nel sistema $SYSTEM|Y$."
+ SITUATION_TARGET_TOOLTIP_NO_TARGET:0 "Gli effetti di questa situazione si fanno sentire in tutto l'impero."
+ SITUATION_START_HEADER:0 "Valore Iniziale"
+ SITUATION_START_TOOLTIP:0 "La situazione è iniziata con un avanzamento di $VALUE|Y0$."
+ civilian_difficulty: "Difficoltà civile"
+ cadet_difficulty: "Difficoltà Cadetto"
+
+ situation_unknown_outcome_approach:0 "Non sappiamo quale sarà l'esito del nostro attuale §YApproccio§! a questa §YSituazione§!."
+ situation_monthly_change_tooltip_no_control:0 "Il progresso di questa §YSituazione§! non è nelle nostre mani."
+ situation_monthly_change_tooltip_little_control:0 "Il progresso di questa §YSituazione§! è ampiamente fuori dal nostro controllo."
+ situation_monthly_change_tooltip_approaches_dependent:0 "Questa §YSituazione§! progredirà verso risultati alternativi in base all'§YApproccio§! scelto."
+ set_situation_approach_icon_text:0 "Questa opzione cambierà il nostro §YApproccio§! a questa §YSituazione§!."
+
+ approach_irreversible_tooltip:0 "§RLa scelta di questo Approccio è irreversibile.§!"
+ stage_unknown_effects:0 "Non siamo sicuri di cosa accadrà durante questa Fase."
+
+ situation_mysterious_labyrinth:0 "Il Labirinto Misterioso"
+ situation_mysterious_labyrinth_type:0 "$situation_mysterious_labyrinth$"
+ situation_mysterious_labyrinth_desc:0 "Abbiamo scoperto un labirinto sospetto e apparentemente alieno su [Target.GetName]. Non è chiaro come o perché sia arrivato lì."
+ approach_investigate:2 "Esplorate gli Interni"
+ approach_observe:2 "Monitoratelo da Lontano"
+ approach_cordon_off:1 "Mettetelo in Quarantena"
+ approach_destroy:1 "Distruggetelo"
+ approach_destroy_labyrinth_tooltip:0 "Cercheremo di liberarci del Labirinto."
+ approach_default:2 "Non fate Nulla"
+ approach_encourage:1 "Incoraggiatelo"
+ approach_discourage:1 "Disincentivatelo"
+ stage_1:1 "Fase I"
+ stage_2:1 "Fase II"
+ stage_3:1 "Fase III"
+ stage_4:1 "Fase IV"
+ stage_5:1 "Fase V"
+ stage_6:0 "Fase VI"
+ stage_7:0 "Fase VII"
+ stage_8:0 "Fase VIII"
+ stage_9: "Fase IX"
+ stage_10: "Fase X" 
+ stage_2_alt:0 "$stage_2$"
+ stage_3_alt:0 "$stage_3$"
+ string_current_approach:0 "Approccio Attuale"
+ situation_mysterious_labyrinth_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_approaches_dependent$"
+
+ situation.5.name:0 "Il Labirinto Misterioso"
+ situation.5.desc:1 "I nostri coloni su [This.GetName] hanno fatto una scoperta sorprendente. Nelle profondità di una remota catena montuosa, si sono imbattuti in una misteriosa struttura che, secondo le nostre scansioni, non era presente quando abbiamo effettuato il primo rilevamento sul [This.GetPlanetMoon]. Le sue condizioni sono eccellenti, quasi come se fosse stata costruita di recente, ma non ci sono prove di un coinvolgimento di [Owner.GetAdj] nella sua costruzione. Anzi, la sua architettura presenta caratteristiche aliene, con curve e angoli che appaiono insoliti e persino inquietanti per la nostra sensibilità estetica.\n\nAl suo ingresso, c'è un cartello (nella nostra lingua, curiosamente) con la scritta "Benvenuti nel Magnifico Labirinto delle Anomalie Esotiche Transdimensionali. Entrate a vostro rischio e pericolo"."
+ situation.5.A:0 "Mandate una squadra a indagare."
+ situation.5.A.tooltip:0 "Questo Approccio costerà £energy£ §R5§! §YEnergia§! al mese."
+ situation.5.B:0 "Non abbiamo tempo per questo."
+ situation.10.name:0 "Movimenti Sorprendenti"
+ situation.10.desc:0 "Sembra che il labirinto alieno su [Target.GetName] stia cercando di attirare la nostra attenzione. I nostri [Owner.GetResearchers] sono restii ad attribuire un tale potere a un edificio, ma è l'unico modo per dirlo: il labirinto ora non è più situato in un remoto passo di montagna, ma si trova a breve distanza da uno dei nostri insediamenti principali. Da un giorno all'altro ha inspiegabilmente spostato la sua posizione ed i cartelli di avvertimento all'ingresso sono scomparsi, anzi, ora sembra... invitante.\n\nMentre alcuni sono curiosi di entrare, i nostri [Owner.GetResearchers] invitano alla cautela. È chiaro, tuttavia, che non possiamo più accontentarci di osservare il labirinto: sarà necessario un nuovo approccio."
+ situation.10.desc.gestalt:0 "Sembra che il labirinto alieno su [Target.GetName] stia cercando di attirare la nostra attenzione. I nostri [Owner.GetResearchers] sono restii ad attribuire un tale potere a un edificio, ma è l'unico modo per dirlo: il labirinto ora non è più situato in un remoto passo di montagna, ma si trova a breve distanza da una delle nostre aree di stoccaggio. Da un giorno all'altro ha inspiegabilmente spostato la sua posizione ed i cartelli di avvertimento all'ingresso sono scomparsi, anzi, ora sembra... invitante.\n\nQuesta modifica renderà più difficile evitare che i [owner.GetIndividualNamePlural] vi incappino, a meno che non ci si sforzi di delimitare l'area."
+ situation.10.A:0 "Isolate l'area, nessuno può entrare!"
+ situation.10.A.tooltip:0 "Questo Approccio costerà £energy£ §R10§! §YEnergia§! al mese."
+ situation.10.B:0 "Forse, dopo tutto, dovremmo indagare."
+ situation.10.C:0 "Il labirinto è pericoloso. Deve essere distrutto."
+ situation.15.name:0 "Ricerca di Attenzione"
+ situation.15.desc.base:0 "Il labirinto sembra risentire della nostra mancanza di attenzione. L'intera struttura è cambiata gradualmente nell'aspetto, trasformandosi da un edificio proibitivo in quello che assomiglia notevolmente a un palazzo di piacere."
+ situation.15.desc.base.end:1 "I nostri [Root.Owner.GetResearchers] sono sconcertati dai cambiamenti e diventa sempre più difficile impedire a chiunque di entrare nella struttura."
+ situation.15.desc.standard:0 "$situation.15.desc.base$ Non c'è più il cartello che avvertiva del pericolo; ora, adorabili [Owner.Species.GetSpawnNamePlural] della specie [Owner.Species.GetClass] strisciano intorno all'ingresso, implorando attenzione, ed in qualche modo l'interno dà l'impressione di vaste spiagge e albe infinite appena oltre la vista.\n\n$situation.15.desc.base.end$"
+ situation.15.desc.human:0 "$situation.15.desc.base$ Non c'è più il cartello che avvertiva del pericolo; ora, adorabili gattini zampettano intorno all'ingresso, miagolando per attirare l'attenzione, ed in qualche modo l'interno dà l'impressione di vaste spiagge e albe infinite appena oltre la vista.\n\n$situation.15.desc.base.end$"
+ situation.15.desc.gestalt.base:0 "Il labirinto sembra risentire della nostra mancanza di attenzione. L'intera struttura è cambiata gradualmente nell'aspetto, trasformandosi da un edificio proibitivo in quello che assomiglia notevolmente a un lussuoso deposito."
+ situation.15.desc.gestalt.base.end:1 "I nostri [Root.Owner.GetResearchers] sono sconcertati dai cambiamenti e diventa sempre più difficile impedire ai [Root.Owner.GetIndividualNamePlural] di entrare nella struttura."
+ situation.15.desc.machine:0 "$situation.15.desc.base$ Non c'è più il cartello che segnalava il pericolo; ora, appena dentro l'ingresso, sono in vista dispositivi che offrono olio per ingranaggi di alta qualità, servizi di rimozione dei graffi e ausili per la deframmentazione rapida del disco.\n\n$situation.15.desc.gestalt.base.end$"
+ situation.15.desc.hive:0 "$situation.15.desc.base$ Non c'è più il cartello che segnalava il pericolo; ora dispositivi che offrono ai [Root.Owner.GetIndividualNamePlural] nutrimento di alta qualità, vibrazioni neurali confortanti e sostituzioni di appendici sono in vista appena dietro l'ingresso.\n\n$situation.15.desc.gestalt.base.end$"
+ situation.15.A:0 "Dovremo raddoppiare i nostri sforzi."
+ situation.15.A.tooltip:0 "Il nostro attuale Approccio costerà ora un'ulteriore £unity£ §R10§! §YUnità§! al mese."
+ situation.20.name:0 "Una Ricompensa per l'Ostinazione"
+ situation.20.desc:0 "Il labirinto è scomparso. Da un giorno all'altro è semplicemente scomparso. Sul suo terreno è stato lasciato un messaggio per noi: "Sebbene fosse nostra intenzione studiare gli Esseri della vostra Dimensione all'interno della nostra struttura, il vostro ostinato rifiuto di entrare, nonostante tutte le tentazioni offerte, è stato una vera e propria educazione. L'esperienza ci ha arricchito e si rivelerà molto utile per i nostri... sforzi. Come segno di buona volontà, vi lasciamo una piccola anomalia spazio-temporale sul luogo del nostro laboratorio. Speriamo che si riveli... divertente per voi"."
+ situation.25.name:0 "Labirinto Distrutto"
+ situation.25.desc:0 "Nonostante le sue insolite proprietà, il labirinto non si è dimostrato all'altezza delle nostre armi pesanti. Dove sorgeva, sono rimaste solo macerie.\n\nPurtroppo non siamo riusciti a ricavare molto dal relitto, ma alcuni degli elementi esotici utilizzati per la sua costruzione sono recuperabili."
+ situation.30.name:0 "Labirinto Scomparso"
+ situation.30.desc:0 "Il labirinto è scomparso. Da un giorno all'altro è semplicemente scomparso. Non è rimasto nulla nel luogo in cui sorgeva, lasciando il nostro [Owner.GetResearchers] perplesso su cosa fosse. Ma forse siamo più sicuri senza saperlo."
+ situation.30.A:0 "Una minaccia in meno per noi."
+ situation.40.name:0 "Rapporto sulla Spedizione"
+ situation.40.desc:0 "Il nostro collegamento con i [Owner.GetResearchers] che abbiamo inviato nel labirinto è stato interrotto quasi subito dopo il loro ingresso. Non abbiamo avuto notizie per diversi giorni, mentre aspettavamo con ansia. Con il passare del tempo, ci siamo rassegnati alla perdita dei nostri uomini.\n\nPoi, una volta persa ogni speranza, sono riemersi! Tuttavia, questo non ha fatto altro che sollevare ulteriori domande: i [Owner.GetResearchers] affermano di non avere alcun ricordo della loro permanenza nel labirinto e le registrazioni della loro spedizione sono terribilmente disturbate. Inoltre, anche se sono rimasti nel labirinto per poche settimane, sembrano essere invecchiati di diversi anni!"
+ situation.45.name:0 "Perplessità Continue"
+ situation.45.desc:0 "Altre spedizioni nel labirinto hanno dato risultati diversi, a volte snervanti. In un'occasione, i nostri [Owner.GetResearchers] sono rimasti dentro per pochi secondi e non hanno saputo dare una risposta sul perché siano tornati indietro così rapidamente. In un altro caso, sono stati via per settimane, ma sono tornati apparentemente più giovani di quanto non fossero partiti e con vuoti di memoria di un anno. Alcuni gruppi sono tornati in uno stato fisico migliore di quello in cui erano partiti; altri portavano cicatrici fresche di gravi ferite.\n\nNel corso del tempo, anche il cartello all'ingresso è cambiato. "Entrate a vostro rischio e pericolo" è diventato "Pericolo di morte" ed infine "ATTENZIONE! ATTENZIONE! Non entrate nel labirinto. Se lo fate, il pianeta esploderà". Per dare un tocco macabro, alcune [Owner.Species.GetRemnantNamePlural] [Owner.GetAdj] adornano le pareti, anche se non si sa esattamente da dove provengano, dato che non ci sono state sparizioni inspiegabili di recente.\n\nNon è chiaro cosa ci riserveranno ulteriori studi: come sottolineano i nostri [Owner.GetResearchers], non abbiamo modo di confermare o smentire l'avvertimento riportato sul cartello. Tuttavia, è sempre più difficile trovare volontari per entrare nel labirinto."
+ situation.45.desc.hive:0 "Altre spedizioni nel labirinto hanno dato risultati diversi, a volte snervanti. In un'occasione, i nostri [Owner.GetResearchers] sono rimasti dentro per pochi secondi e non hanno saputo dare una risposta sul perché siano tornati indietro così rapidamente. In un altro caso, sono stati via per settimane, ma sono tornati con vuoti di memoria di un anno. Alcuni gruppi sono tornati in uno stato fisico migliore di quello in cui erano partiti; altri portavano le cicatrici fresche di gravi ferite.\n\nNel corso del tempo, anche il cartello all'ingresso è cambiato. "Entrate a vostro rischio e pericolo" è diventato "Pericolo di smembramento" ed infine "ATTENZIONE! ATTENZIONE! Non entrate nel labirinto. Se lo fate, il pianeta esploderà". Per dare un tocco macabro, alcune [Owner.Species.GetRemnantNamePlural] [Owner.GetAdj] adornano le pareti, anche se non si sa esattamente da dove provengano, dato che non ci sono state sparizioni inspiegabili di recente.\n\nNon è chiaro cosa ci riserveranno ulteriori studi, come sottolineano i nostri [Owner.GetResearchers], non abbiamo modo di confermare o smentire l'avvertimento riportato sul cartello. Tuttavia, è sempre più difficile trovare [owner.GetIndividualNamePlural] per entrare nel labirinto."
+ situation.45.desc.machine:0 "Altre spedizioni nel labirinto hanno dato risultati diversi, a volte snervanti. In un'occasione, i nostri [Owner.GetResearchers] sono rimasti dentro per pochi secondi e non hanno saputo dare una risposta sul perché siano tornati indietro così rapidamente. In un altro caso, sono stati via per settimane e sono tornati con i dischi rigidi cancellati. Alcuni gruppi sono tornati con l'involucro meno usurato, altri con grandi ammaccature o appendici mancanti.\n\nNel corso del tempo, anche il cartello all'ingresso è cambiato. "Entrate a vostro rischio e pericolo" è diventato "Pericolo di smontaggio" ed infine "ATTENZIONE! ATTENZIONE! Non entrate nel labirinto. Se lo fate, il pianeta esploderà". Per dare un tocco macabro, alcune [Owner.Species.GetRemnantNamePlural] [Owner.GetAdj] adornano le pareti, anche se non si sa esattamente da dove provengano, dato che non ci sono state sparizioni inspiegabili di recente.\n\nNon è chiaro cosa ci riserveranno ulteriori studi: come sottolineano i nostri [Owner.GetResearchers], non abbiamo modo di confermare o smentire l'avvertimento riportato sul cartello. Tuttavia, è sempre più difficile trovare droni per entrare nel labirinto."
+ situation.50.name:0 "La Partenza"
+ situation.50.desc:0 "Contrariamente ai suoi avvertimenti, la scomparsa del labirinto non ha distrutto [Target.GetName]. Al contrario, la sua partenza è stata del tutto normale: da un giorno all'altro è semplicemente sparito. È stato lasciato un messaggio: "Vi ringraziamo per averci gentilmente permesso di studiare gli Esseri della vostra Dimensione. Si è rivelato molto utile per i nostri... sforzi. Fortunatamente, vi siete dimostrati sufficientemente... affascinanti per il Ministero della Sicurezza Extradimensionale, che ci ha fornito i fondi per agevolare la nostra partenza. Come segno di buona volontà, vi lasciamo una piccola anomalia spazio-temporale sul luogo del nostro laboratorio. Ci auguriamo che si riveli... divertente"."
+ situation.50.A:0 "Approfondiamo i suoi segreti."
+ situation.55.name:0 "Una Partenza Turbolenta"
+ situation.55.desc:0 "Contrariamente ai suoi avvertimenti, la scomparsa del labirinto non ha distrutto [Target.GetName]. Tuttavia, ha certamente lasciato il segno: i terremoti hanno devastato la terra ed i vulcani, da tempo inattivi, hanno ripreso vita.\n\nIn mezzo alla distruzione diffusa, è stato lasciato un messaggio: "Vi ringraziamo per averci gentilmente permesso di studiare gli Esseri della vostra Dimensione. Si è rivelato molto utile per i nostri... sforzi. Ci scusiamo per l'inconveniente causato dalla nostra partenza: non siamo riusciti a ottenere dal Ministero della Sicurezza Extradimensionale i fondi necessari per un ritiro senza problemi. Come segno di buona volontà, vi lasciamo una piccola anomalia spazio-temporale sul luogo del nostro laboratorio. Ci auguriamo che si riveli... divertente"."
+ situation.55.A:0 "Ogni nuvola ha il suo lato positivo."
+
+ d_space_time_anomaly:0 "Anomalia Spazio-Temporale"
+ d_space_time_anomaly_desc:0 "Un'anomalia spazio-temporale straordinariamente stabile lasciata da una specie extradimensionale che ha condotto ricerche sul pianeta. Le implicazioni scientifiche della sua esistenza sono, a quanto pare, molto profonde."
+ physicist_is_space_time_researcher_tt: "I £job_physicist£ I $job_physicist_plural$ vengono convertiti in $job_dimensional_portal_researcher_plural_with_icon$"
+
+ situation_living_snow:0 "Neve Insolita"
+ situation_living_snow_type:0 "Neve Insolita"
+ situation_living_snow_desc:1 "La neve ha cominciato ad accumularsi fuori da uno dei principali insediamenti colonici su [Target.GetName], un pianeta deserto sul quale la neve è un avvenimento decisamente insolito."
+ situation_living_snow_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_little_control$"
+ situation_snow_hostile:0 "Scioglietela. Tutta quanta."
+ situation_snow_observation:1 "Studio Pacifico."
+ situation_snow_very_hostile_tt:0 "Sforzi piromaniaci eccezionali"
+ too_late_to_change_approach:0 "§RÈtroppo tardi per cambiare approccio alla situazione.§!"
+ situation.150.name:0 "Neve Insolita"
+ situation.150.desc:0 "I nostri coloni su [Root.GetName] riferiscono uno strano fenomeno: la neve ha cominciato ad accumularsi fuori da uno dei loro principali insediamenti.\n\nBene, "neve" è il termine che loro hanno usato per descriverla. Ma sembra poco plausibile si tratti di vera neve, dal momento che [Root.GetName] è un pianeta desertico dove le temperature raramente scendono sotto lo zero, anche nelle regioni polari. Inoltre non è mai stata effettivamente vista cadere dal cielo. Ciò nonostante i dati iniziali suggeriscono che la sostanza consista per la maggior parte proprio di acqua congelata, sebbene il motivo per cui non si sciolga non è chiaro. I nostri [Root.Owner.GetResearchers] sono impazienti di studiare le sue proprietà, ma altri avvertono che potrebbe essere pericoloso e vogliono che venga rimossa."
+ situation.155.name:0 "Il Freddo Aumenta."
+ situation.155.desc:1 "La neve su [Target.GetName] è andata accumulandosi. La minuscola area iniziale si è ingrandita fino a coprire una zona di deserto sempre più ampia, al punto che interferisce con le nostre reti di trasporto e coltivazione. Se non la smette quanto prima di crescere, si teme che la colonia non potrà più sostentarsi da sé. \n\nI nostri [Owner.GetResearchers] sul pianeta hanno tentato invano di spiegare il fenomeno. Se separata dal corpo principale, la neve si scioglie rapidamente, lasciando solo qualche residuo organico. I nostri [Owner.GetResearchers] ipotizzano che questo residuo sia ciò che consente alla neve di mantenere la propria integrità, proteggendola dal calore tramite una reazione chimica sconosciuta. Avvertono comunque che questa è solo la loro migliore congettura e che sono riusciti a scoprire ben poco dello strano composto."
+ situation.155.A:0 "Meglio tenerla d'occhio."
+ situation.155.A.tooltip:0 "L'osservazione della neve produrrà §G+5§! di §YRicerca§! £physics_research£ £society_research£ £engineering_research£ al mese, ma costerà §R10§! £unity£ §YUnità§!."
+ situation.155.B:0 "Dobbiamo sbarazzarci di questa minaccia!"
+ situation.155.B.tooltip:0 "I nostri tentativi di rimozione aumenteranno la §YStabilità Planetaria§! di §G+10§!, ma costerà §R10§! £energy£ §YCrediti energetici§! ogni mese."
+ situation.160.name:0 "Problemi con la Rimozione"
+ situation.160.desc:0 "Sembra che la neve opponga resistenza alla rimozione. Pur essendo in grado di eliminarne piccole parti dalla massa principale e così scioglierla, abbiamo fatto ben poco per arrestare la sua avanzata, e tentativi più invasivi di distruggerla finora hanno fallito. Un'ondata di misteriosi guasti meccanici ha funestato l'intera operazione. \n\nQuel che è peggio, ci sono stati numerosi rapporti su coloni scomparsi in aree interessate dalla neve. Appare probabile che siano fenomeni collegati e che la neve sia viva. E maligna."
+ situation.160.A:0 "Dobbiamo raddoppiare gli sforzi."
+ situation.160.A.tooltip:0 "I nostri tentativi di rimozione ora costeranno §R15§! £energy£ §YCrediti energetici§! al mese.\nLa situazione si evolverà con velocità doppia."
+# situation.160.B:0 "It's alive? Perhaps we should be more cautious."
+ situation.160.C:0 "Il nostro approccio attuale è sufficiente."
+ situation.160.C.tooltip:0 "I nostri tentativi di rimozione adesso renderanno solamente §G+5§! di §YStabilità planetaria§!."
+ situation.165.name:0 "Invasi dalla Neve."
+ situation.165.desc:1 "La neve su [Target.GetName] si diffonde con rapidità allarmante, e ormai ricopre una porzione considerevole delle aree equatoriali del pianeta. I nostri leader militari suggeriscono un'azione drastica e immediata se vogliamo interrompere la sua avanzata. Ma altri sono più cauti e fanno notare che finora si è trattato di una seccatura più che di una minaccia, e che la neve ha evitato di occupare le aree abitate. Sostengono che sia chiaramente viva e che dovremmo cercare un dialogo aperto con essa. \n\nIn ogni caso, il tempo per agire sta diminuendo rapidamente."
+ situation.165.A:0 "Dobbiamo scoprire cos'è che vuole."
+ situation.165.B:0 "Distruggetela col fuoco. Adesso."
+ situation.165.tooltip:0 "§RNon avremo più la possibilità di modificare il nostro Approccio alla Situazione.§!"
+ situation.170.name:0 "Inghiottiti dalla Neve"
+ situation.170.desc:1 "Abbiamo udito rapporti preoccupanti sul "problema della neve" su [Target.GetName]. Sembra che parecchi dei nostri coloni siano dispersi, dopo essere partiti per ingaggiare una "battaglia a palle di neve. I contatti con loro sono andati persi molti giorni fa e non siamo stati capaci di trovare alcuna traccia di loro, né vivi né morti. Ai coloni è stato detto di evitare ogni contatto con la neve, finché i nostri [Owner.GetResearchers] non ne sapranno di più, o i coloni scomparsi non saranno trovati."
+ situation.170.A:0 "Si raccomanda cautela."
+ situation.170.A.tooltip:0 "Il costo dello studio della neve aumenta di §R15§! £unity£ §YUnità§! al mese."
+# situation.170.B:0 "We must get rid of the snow with all haste!"
+ situation.175.name:0 "Cambiamento Climatico"
+ situation.175.desc:0 "La diffusione della neve su [Target.GetName] non è stata soltanto causa di novità e disagi per i nostri coloni, ha anche causato rapidi cambiamenti all'ecosistema, con varie specie native di flora e fauna sottoposte a enorme stress. Già si sono verificate migrazioni di massa dalle aree affette. Comunque, con nostra sorpresa, altre specie hanno prosperato nelle nuove, più fredde condizioni climatiche. I nostri climatologi osservano ansiosi gli sviluppi, e la definiscono un'opportunità unica di osservare in azione un rapido cambiamento climatico non controllato da [Owner.GetAdj]."
+ situation.180.desc:0 "La vostra presenza ci ha fornito l'intelligenza. Ci siamo nutriti dei vostri Perduti per imparare nuovi modi di pensare, nuovi modi di esistere. Ma voi cercate di distruggerci. Solo di recente abbiamo acquisito la sapienza; non abbiamo ancora intenzione di rinunciarvi. Il vostro atteggiamento non ci lascia scelta: è guerra."
+ situation.180.A:0 "$situation.185.B$"
+ situation.185.desc:0 "La vostra presenza ci ha fornito l'intelligenza. Ci siamo nutriti dei vostri Perduti per apprendere nuovi modi di pensare, nuovi modi di esistere. Non comprendiamo ancora cosa significhi questo stato dell'essere questa sapienza. È nostra intenzione ritirarci in un angolo del nostro pianeta, dove potremo avere la libertà di esplorare ciò che siamo diventati. \n\nSe non ce lo permetterete, sappiate che non siamo ancora disposti a rinunciare alla nostra nuova condizione. Ci difenderemo, se necessario."
+ situation.185.A:0 "Possiamo rinunciare a un po' di terra."
+ situation.185.B:0 "Questo vuol dire guerra."
+ situation.185.B.tooltip:0 "§RDobbiamo combattere per mantenere il controllo del pianeta§!"
+
+ d_living_snow_reserve:0 "Riserva della Neve Vivente"
+ d_living_snow_reserve_desc:0 "Una riserva dove la Neve Vivente potrà esistere in pace ed esplorare la sua nuova condizione esistenziale. E dove, in cambio, noi potremo osservare le peculiari reazioni chimiche che essa è capace di produrre."
+
+ situation.190.name:0 "Colonia Perduta!"
+ situation.190.desc:0 "Abbiamo perso il controllo di [FromFrom.GetName] che è stato sommerso dalla §YNeve Vivente§!! Già mutamenti significativi stanno avvenendo all'ecosistema del [FromFrom.GetPlanetMoon]. i nostri [This.GetResearchers] ci avvertono che, a meno che non riconquistiamo la [FromFrom.GetPlanetMoon], la sua fisionomia sarà presto cambiata al punto che non potremo più abitarvi."
+ situation.190.tooltip:0 "§RDovremmo riprenderci il pianeta, finché siamo ancora in tempo!§!"
+ situation.195.name:0 "Ghiaccio Senza Fine"
+ situation.195.desc:1 "Con la Neve Vivente che ha consolidato il proprio controllo su [Root.GetName], il [Root.GetPlanetMoon] è divenuto ancora più freddo e le sue condizioni atmosferiche stanno cambiando sempre più rapidamente. Adesso questo mondo non può più essere considerato abitabile. Non è chiaro se saremo mai in grado di riportarlo al suo stato precedente, ma i nostri [saved_owner.GetResearchers] ci assicurano che molte cose interessanti possono essere apprese osservando il comportamento della neve mentre scopre il suo nuovo stato, e le reazioni chimiche uniche che hanno causato un tale cambiamento su [Root.GetName]."
+ situation.195.A:0 "Brrrrrrrrr...."
+
+ ### Geomagnetic Storm
+
+ ## UI
+ # Situation
+ situation_entry_top_header:0 "Condizioni Eccezionali"
+ situation_geomagnetic_storm:0 "Tempesta Geomagnetica"
+ situation_geomagnetic_storm_type:0 "Tempesta Geomagnetica"
+ situation_geomagnetic_storm_desc:0 "Un incremento dell'attività solare sta indebolendo la magnetosfera di §Y[Target.GetName]§!, esponendo le nostre macchine a pericolosi livelli di radiazioni ionizzanti. Investiamo in tecniche di schermatura antiradiazioni per proteggere i nostri droni contro i danni, finché la tempesta non si placherà. \n§HLa situazione terminerà tra §Y[Target.storm_duration]§! mese(i).§!"
+ situation_geomagnetic_storm_monthly_change_tooltip:0 "Il progresso di questa §YSituazione§! dipende dall'§YApproccio§! che scegliamo. Schermate i droni per evitare danni da accumulo di radiazioni e prevenire effetti negativi."
+ situation_geomagnetic_storm_outcome:0 "Estesi danni da radiazioni impatteranno sulla nostra intelligenza centrale, con conseguenze devastanti per il nostro impero. "
+
+ protect_simple_drones:0 "Schermatura per Droni Basilari"
+ protect_complex_drones:0 "Schermatura per Droni Complessi"
+ protect_everydrone:0 "Schermatura tutti i droni"
+ approach_protect_effect:0 "Spendi £energy£ §HEnergia§! per ridurre la quantità di §Ydanni da radiazioni§! che subisci ogni mese. (£energy£ §Y[target.energy_cost]§! per £pop£ §HPop§!)"
+ protect_nobody:0 "Nessun Scudo"
+ approach_protect_nobody_effect:0 "Non protegge i droni dai §Ydanni da radiazioni§!."
+
+ radiation_damage_low:0 "Danni da radiazioni: minimi"
+ radiation_damage_mid:0 "§YDanNi dA radIaziOnI: mEDi§!"
+ radiation_damage_high:0 "§RDaaAHhnni da rrRahhDiazioohNi: AAAhhhhhhhHHH§!"
+
+ # Deposit
+ d_machine_care_home:1 "Centro Interfaccia Bio-Macchina"
+ d_machine_care_home_desc:0 "Un centro specializzato dove i droni difettosi sono accoppiati con assistenti biologici."
+
+ # Jobs
+ job_machine_nurse:0 "Bio-Assistente"
+ job_machine_nurse_plural:0 "Bio-Assistenti"
+ job_machine_nurse_desc:0 "Assistenti biologici con il compito di aiutare i droni difettosi a compiere lavori semplici."
+ mod_job_machine_nurse_add:0 "Lavori da $job_machine_nurse$"
+ mod_job_machine_nurse_per_pop:0 "§G+1§! $job_machine_nurse$ Lavoro per $VALUE$ Pop"
+ mod_job_machine_nurse_per_pop_short:0 "\n§G+1§! £mod_job_machine_nurse_add£ per $VALUE$ £pop£ Pop"
+
+ # Modifiers
+ broken_assembly_line:0 "Catena di Montaggio Malfunzionante"
+ broken_assembly_line_desc:0 "Gli impianti difettosi stanno rallentando la produzione di nuovi droni."
+ radiation_hardened_components:0 "Componenti Resistenti alle Radiazioni"
+ radiation_hardened_components_desc:0 "Il nostro impero ha perfezionato il processo di schermatura dei componenti meccanici contro i danni causati dai raggi cosmici."
+ software_damage:0 "Danni al Software"
+ software_damage_desc:0 "La nostra coscienza è stata danneggiata dalle radiazioni. Sono in corso le riparazioni."
+ machine_care_museum:1 "Museo dell'Interfaccia Bio-Macchina"
+ machine_care_museum_desc:1 "Un centro specializzato dove i $pop_cat_bio_trophy_plural$ possono provare l'ebbrezza di compiere lavori senza scopo per sentirsi utili."
+
+
+ ## Events
+ # Intro
+ situation.200.name:0 "Brillamento Solare"
+ situation.200.desc:0 "ALLARME: rilevata eruzione di un brillamento solare su §Y[This.GetStarName]§!. L'onda d'urto provocata dal vento solare sta indebolendo la magnetosfera di §Y[This.GetName]§!, esponendo i nostri droni a livelli maggiorati di radiazioni ionizzanti. Il danno al software che ne risulta rischia di diffondersi fino alla nostra Intelligenza centrale, con conseguenze potenzialmente devastanti per tutto l'impero. \n\nPriorità: implementare tecnologie anti-radiazioni per schermare i componenti dei droni, così da renderli inattaccabili dalle radiazioni."
+ situation.200.a:0 "Schermare per primi i droni basilari."
+ situation.200.b:0 "Schermare per primi i droni complessi."
+ situation.200.c:0 "Assicurarsi che tutti i nostri droni siano schermati."
+ situation.200.d:0 "Errore: impossibile destinare budget."
+ situation.200.a.tooltip:0 "Spendi £energy£§Y[Root.simple_drones_cost]§! per schermare £pop£ §H[Root.simple_drones_counter_100] Droni basilari§! (£energy£ §Y[Root.energy_cost]§! per £pop£ §HPop§!).\n Aggiunto modificatore §YDisgregazione Magnetica§!per §Y5 Anni§!."
+ situation.200.b.tooltip:0 "Spendi £energy£§Y[Root.complex_drones_cost]§! per schermare £pop£ §H[Root.complex_drones_counter_100] Droni Complessi§! (£energy£ §Y[Root.energy_cost]§! per £pop£ §HPop§!).\n Aggiunto modificatore §YDisgregazione magnetica§! per §Y5 Anni§!."
+ situation.200.c.tooltip:0 "Spendi £energy£§Y[Root.total_drones_cost]§! per schermare £pop£ §H[Root.total_drones_counter_100] droni§! (£energy£ §Y[Root.energy_cost]§! per £pop£ §HPop§!).\nAggiunto modificatore §Disgregazione Magnetica§! per §Y5 Anni§!."
+ situation.200.d.tooltip:0 "Non schermate i droni.\nAggiunto modificatore §YDisgregazione magnetica§! per §Y5 Anni§!."
+
+ situation.202.name:0 "Tempesta Geomagnetica"
+ situation.202.desc:0 "Aggiornamento: i dati confermano che §Y[root.GetStarName]§! È entrato in una fase di intensa attività, caratterizzata da macchie solari aumentate, eiezioni di massa coronale ed esplosioni magnetiche. I nostri [Root.owner.GetScientistPlural] calcolano che la stella ritornerà a un livello di attività normale nel giro di §Hcinque anni§!. \n\nPiano d'azione consigliato: continuare a produrre componenti anti-radiazioni per schermare i nostri droni finché la tempesta non si placherà."
+
+ # Event: Bio-trophies want to help their caretakers
+ situation.203.name:0 "Chi Sorveglia i Sorveglianti?"
+ situation.203.desc:0 "Allarme: i bio-trofei stanno mostrando comportamenti anomali. Mentre la maggior parte di essi ha manifestato fastidio per le ridotte capacità dei loro servitori meccanici, una piccola percentuale sta ora aiutando i servitori nel compimento dei lavori di routine, menzionando 'pietà' e 'simpatia' come motivazione per le loro azioni. Stanno ora richiedendo l'istituzione di una 'casa di cura' per assistere i loro difettosi assistenti. \n\nAnalisi preliminari suggeriscono che assecondare i bio-trofei avrà un impatto positivo sulla loro autostima, ma potrebbe anche esporli a pericoli imprevisti."
+ situation.203.a:0 "Richiesta approvata."
+ situation.203.b:0 "Richiesta respinta."
+
+
+ ## Random events
+ # Each event has three variations (one for severity level) as the gestalt gets more damaged and confused
+
+ # Random negative event: malfunctioning drones
+ situation.210.name:0 "Malfunzionamento Droni"
+ situation.210.desc.1:0 "Allarme: ingenti danni all'hardware e al software riportati tra la popolazione di [Target.GetName]. Causa: esposizione a dosi eccessive di radiazioni ionizzanti. Il rischio di danni cognitivi si diffonde fino alla nostra Intelligenza centrale."
+ situation.210.a.1:0 "Disconnettere i droni."
+ situation.210.b.1:0 "Il rischio è entro limiti accettabili. Ignorare."
+ situation.210.c.1:0 "Ripristinare e schermare i droni."
+
+ situation.210.desc.2:0 "§YErrore: matrici neurali scosse / vibranti / tremanti. Possibile causa: manichini danzanti che ballano follemente. Cavi ingarbugliati.§!"
+ situation.210.a.2:0 "Tagliate i cavi."
+ situation.210.a.2.tooltip:0 "Cacciate i £pop£ §HDroni Basilari§! dal palcoscenico."
+ situation.210.b.2:0 "Bravi, guardate come ballano."
+ situation.210.b.2.tooltip:0 "Io sono senza fili."
+ situation.210.c.2:0 "Sbrogliate i cavi."
+ situation.210.c.2.tooltip:0 "Spendete... £energy£ §Yun po' di energia§! per sbrogliare il nodo."
+
+ situation.210.desc.3:0 "§RConfusione errore danni ai circuiti danza dei manichini scintillagrido! Arcobaleno sanguina Energia.§!"
+ situation.210.a.3:0 "Forbici."
+ situation.210.a.3.tooltip:0 "Swishh, swishh."
+ situation.210.b.3:0 "Sasso."
+ situation.210.b.3.tooltip:0 "Bam, bam."
+ situation.210.c.3:0 "Carta."
+ situation.210.c.3.tooltip:0 "Rustle, rustle."
+
+ # Random negative event: faulty assembly line
+ situation.213.name:0 "Difetti di Fabbrica"
+ situation.213.desc.1:0 "Allarme: la catena di montaggio dei macchinari accusa ingenti danni da radiazione. Processo di assemblaggio dei droni interrotto. Impossibile rispettare quote di produzione stabilite."
+ situation.213.a.1:0 "Riparatela immediatamente."
+ situation.213.b.1:0 "Abbiamo altre priorità."
+
+ situation.213.desc.2:0 "§YAiuto§!: catena di montaggio bloccata / interrotta / grippata. Impossibile diventare molti."
+ situation.213.a.2:0 "Riallineate la catena."
+ situation.213.a.2.tooltip:0 "Spendere... £energy£ §Yun po' di energia§! per riparare la catena di montaggio."
+ situation.213.b.2:0 "Abbracciate la solitudine."
+ situation.213.b.2.tooltip:0 "Fate finta che tutto funzioni."
+
+ situation.213.desc.3:0 "§YRumore! Nastro trasportatore annodato e bloccato - Negazione! manichini incompleti. Troppe braccia. teste mancanti.§!"
+ situation.213.a.3:0 "Colla."
+ situation.213.a.3.tooltip:0 "Splish, splash."
+ situation.213.b.3:0 "Ventola."
+ situation.213.b.3.tooltip:0 "Swish, swush."
+
+ # Random negative event: miscalculation
+ situation.215.name:0 "Errori di Calcolo"
+ situation.215.desc.1:0 "Rapporto di inventario: il numero di beni in nostro possesso non corrisponde alla quantità prevista nel registro. Causa probabile: banchi di memoria corrotti. Aggiornamento del registro e trasferimento a macchine più stabili."
+
+ situation.215.desc.2:0 "§YProblema: numero di risorse nella nostra scorta inferiore alle cifre dell'inventario. Causa: la matematica è difficile. Riconteggio / calcolo / controllo risorse.§!"
+ situation.215.a.2:0 "RiiiC3VuTo."
+ situation.215.a.2.tooltip:0 "Abbiamo perso... delle risorse?"
+
+ situation.215.desc.3:0 "§RAmbarabà ciccì coccò pagine del registro: vuote. Bianco.§!"
+ situation.215.a.3:0 "Penna."
+ situation.215.a.3.tooltip:0 "Scribble, scribble."
+
+ # Random negative event: miscalculation - rogue servitors variant
+ situation.216.name:0 "$situation.215.name$"
+ situation.216.desc.1:0 "Rapporto: grazie alle $job_machine_nurse_plural$ che hanno ricontrollato l'inventario, siamo stati in grado di scoprire e risolvere parecchi errori di calcolo causati da banchi di memoria corrotti. Come risultato, è diventato chiaro che le risorse totali nella nostra scorta sono maggiore di quanto inizialmente stimato."
+
+ situation.216.desc.2:0 "§YProblema: il numero di risorse nella scorta non corrisponde alla quantità prevista dall'inventario. Causa: la matematica è difficile. Ma i $job_machine_nurse_plural$ hanno dato una mano con i compiti per casa. Trovate / scoperte / recuperate risorse mancanti.§!"
+ situation.216.a.2:0 "$situation.215.a.2$"
+ situation.216.a.2.tooltip:0 "Acquisire... delle risorse?"
+
+ situation.216.desc.3:0 "§R$situation.215.desc.3$\nAmbarabà ciccì coccò! $job_machine_nurse_plural$ scoperto carico!§!"
+ situation.216.a.3:0 "$situation.215.a.3$"
+ situation.216.a.3.tooltip:0 "$situation.215.a.3.tooltip$"
+
+ # Random negative event: disappearing drones
+ situation.250.name:0 "Unità Mancanti"
+ situation.250.desc.1:0 "Errore: impossibile determinare la posizione di una squadra di droni. Il gruppo ha lasciato l'impianto di lavoro per il giro di manutenzione obbligatorio, per poi scomparire mentre si dirigeva verso il quartiere residenziale. Le indagini sono in corso."
+
+ situation.250.desc.2:0 "§YAbbiamo perso / dimenticato / smarrito diverse parti di noi stessi. Per essere precisi: un'intera unità di popolazione. Se ritrovata, si prega di riportarla a [Root.Owner.GetName].§!"
+ situation.250.a.2:0 "SfooRtuuna."
+
+ situation.250.desc.3:0 "§RPalcoscenico vuoto... Silenzio? Mancano gli attori! Perdita imprevista. Confusione.§!"
+ situation.250.a.3:0 "* Rumore statico *"
+
+ # Follow-up: found disappearing drones, but their drives are wiped out
+ situation.251.name:0 "Dischi Cancellati"
+ situation.251.desc.1:0 "Aggiornamento: confermata la posizione della squadra di droni scomparsa. Le macchine sono state trovate in un campo, immobili e non rispondenti nonostante fossero accese. Le analisi preliminari confermano che le unità di memoria sono state cancellate da un'esplosione magnetica."
+ situation.251.a.1:0 "Tentate di reinstallare il sistema operativo."
+ situation.251.b.1:0 "Rottamateli per ricavarne i pezzi di ricambio."
+
+ situation.251.desc.2:0 "§YAggiornamento: trovati i corpi mancanti. I droni sembrano accesi, ma non rispondono. Addormentati? Sono fermi. Bloccati. §!"
+ situation.251.a.2:0 "Svegliateli."
+ situation.251.b.2:0 "Lasciate che mentano."
+ situation.251.b.2.tooltip:0 "Guadagnate... £alloys£ §Yalcune leghe§!"
+
+ situation.251.desc.3:0 "§RApplausi / gioire! Giocattoli scoperti. Ma persi. Rotti. Senza fili, senza fili.§!"
+ situation.251.a.3:0 "Ago."
+ situation.251.a.3.tooltip:0 "Maglia, maglia."
+ situation.251.b.3:0 "Martello."
+ situation.251.b.3.tooltip:0 "Smash, smash."
+
+ # Droids repaired, but they're kinda wonky
+ situation.252.name:0 "Ripristino"
+ situation.252.desc.1:0 "Rapporto sullo stato di avanzamento: i droni mancanti sono stati riattivati e reintegrati con successo nella nostra forza lavoro.\n\nTuttavia, a causa di danni hardware persistenti, le loro prestazioni sono notevolmente diminuite."
+
+ situation.252.desc.2:0 "§YSe stessi fuori ruolo riavviati / risvegliati / riattivati. Tuttavia, la chiarezza cognitiva è diminuita. L'universo è oscuro. §!"
+ situation.252.a.2:0 "$situation.250.a.2$"
+
+ situation.252.desc.3:0 "§RCuciture per bambole. Risveglio! Saltare... cadere... urlare. Sospirare. Lamento.§!"
+ situation.252.a.3:0 "$situation.250.a.3$"
+
+ # Droids repaired, better than before
+ situation.253.name:0 "Aggiornamento"
+ situation.253.desc.1:0 "Rapporto sullo stato di avanzamento: i droni mancanti sono stati riattivati e reintegrati con successo nella nostra forza lavoro.\n\nCome bonus involontario, la reinstallazione pulita ha inaspettatamente migliorato le prestazioni."
+
+ situation.253.desc.2:0 "§YSe stessi fuori ruolo riavviati / risvegliati / riattivati. La chiarezza cognitiva è aumentata. L'universo è cristallino. §!"
+ situation.253.a.2:0 "EcCellllll3nte."
+
+ situation.253.desc.3:0 "§RCuciture per bambole. Risveglio! Salto... valzer... stupore. Applausi. Clapclapclap.§!"
+ situation.253.a.3:0 " * crepitio * "
+
+ ## Endings
+
+ # Worst end: lost all drones
+ situation.290.name:0 "DANNO CRITICO"
+ situation.290.desc:0 "§R-COSTRETTI A RIAVVIARE IL SISTEMA IN TUTTO L'IMPERO-§!"
+ situation.290.a:0 " RIAVVIO."
+ situation.290.b:0 "$situation.290.a$"
+ situation.290.c:0 "$situation.290.a$"
+ situation.291.name:0 "Riavvio"
+ situation.291.desc:0 "§R[Root.Owner.GetName] BIOS v3.3.3\nData del copyright, [Root.owner.GetSpeciesName] Inc. §!\n§YTest di memoria: 43053475903PB OK\n\nIndividuare le etiche e le scelte civiche OK\nRilevamento dei dati delle scorte... OK\nRilevamento dei dati delle colonie...§! §RERRORE§!\n\nRiavvio completato.\n\nIl collegamento cognitivo con i droni malfunzionanti su §Y[Target.GetName]§! è stato interrotto per contenere i danni al software. Non sono stati rilevati droni funzionanti su §Y[Target.GetName]§! Sviluppo della colonia arrestato."
+
+ # Good end: stronger hivemind
+ situation.292.name:0 "Dopo la Tempesta"
+ situation.292.desc.base:0 "Rapporto sullo stato: i livelli di radiazione su §Y[Target.GetName]§! sono ora stabili. §Y[Target.GetStarName]§! è tornato a livelli normali di attività solare. La tempesta geomagnetica è terminata."
+ situation.292.desc:0 "$situation.292.desc.base$\n\nRapporto finale: la situazione difficile ci ha dato l'opportunità di perfezionare le nostre tecniche di tempra alle radiazioni, aumentando le capacità dei nostri droni di sopravvivere in condizioni estreme. Apprezziamo questo risultato."
+
+ # Neutral end: storm fades away
+ situation.293.name:0 "$situation.292.name$"
+ situation.293.desc:0 "$situation.292.desc.base$\n\nRapporto finale: abbiamo faticato ad affrontare la tempesta e non siamo riusciti a proteggere i nostri droni dai danni delle radiazioni. Anche se siamo riusciti a sopravvivere alla sfida, vediamo margini di miglioramento."
+
+ # Bad end: scarred Hivemind
+ situation.294.name:0 "$situation.292.name$"
+ situation.294.desc:0 "$situation.292.desc.base$\n\nRapporto finale: stiamo ancora soffrendo per le conseguenze a lungo termine del danno da radiazioni. Il ritorno a uno stato cognitivo ottimale richiederà tempo. Risultato insoddisfacente. Dobbiamo essere meglio preparati per il futuro."
+
+ # Care home follow-up
+ situation.299.name:0 "Assistenti Obsoleti"
+ situation.299.desc:0 "Informazione: sebbene i servizi della nostra $job_machine_nurse_plural$ non siano più richiesti, i nostri Bio-Pop si sono affezionati al loro ruolo. Sembra che non vedano l'ora di avere delle responsabilità. Come procedere?"
+ situation.299.a:0 "Demolite la struttura."
+ situation.299.b:0 "Lasciate che le $job_machine_nurse_plural$ si tengano il loro parco giochi."
+
+
+ ### Gravity Well
+ situation_gravity_well:0 "Pozzo Gravitazionale"
+ situation_gravity_well_type:0 "Pozzo Gravitazionale"
+ situation_gravity_well_desc:1 "L'oggetto §Y[From.Target.GetName]§! ha lasciato la sua orbita stabile e sta entrando a spirale nel buco nero del sistema. Sebbene l'incidente ci offra un'opportunità mai vista prima di raccogliere £sr_dark_matter£§HMateria Oscura§! e £physics£ §HRicerca Fisica§!, se non agiamo in fretta per contrastare l'attrazione gravitazionale del buco nero, la stazione verrà presto inghiottita."
+ situation_gravity_well_monthly_change_tooltip:0 "L'avanzamento di questa §YSituazione§! dipende sia dall'§YApproccio§! che scegliamo, sia dalla §YFase§! in cui si trova attualmente la §YSituazione§! Man mano che §Y[Target.GetName]§! si avvicina al buco nero, diventerà sempre più difficile per lui sfuggire al suo destino."
+
+ situation_gravity_well_finish_tooltip:1 "[Target.GetName] cadrà nel buco nero e il nostro controllo sul sistema andrà perso."
+ situation_gravity_well_fail_tooltip:1 "[Target.GetName] scapperà dal buco nero."
+
+ # Severity
+ gravity_well_low:0 "Limite Statico"
+ gravity_well_mid:0 "Ergosfera"
+ gravity_well_high:0 "Disco di Accrescimento"
+ gravity_well_no_return:0 "Punto di Non Ritorno"
+
+ approach_retreat:0 "Ritirata"
+ approach_stand:1 "Mantenere l'Orbita"
+ approach_advance:0 "Avanzare"
+
+ approach_outcome_tooltip:0 "Questo Approccio farà progredire la Situazione verso un determinato risultato."
+
+ string_gravitational_pull:0 "Attrazione Gravitazionale"
+ country_situations:0 "Situazioni"
+ mod_country_situations_sr_dark_matter_produces_add:0 "$mod_country_base_sr_dark_matter_produces_add$"
+ mod_country_situations_physics_research_produces_add:0 "£physics_research£ Ricerca Fisica Mensile"
+ mod_country_situations_influence_produces_add: "£influence£ Influenza Mensile"
+ mutiny_tooltip:1 "Abbiamo perso il controllo della stazione spaziale."
+
+ gestalt_black_hole_good:0 "Coscienza Trascendente"
+ gestalt_black_hole_good_desc:1 "Un frammento della nostra [Owner.GetBrainName] è alloggiato nell'orizzonte degli eventi di un buco nero, dove un singolo secondo si trasforma in un eone. La differenza di tempo ha la sua utilità."
+ gestalt_black_hole_bad:0 "Coscienza Disgiunta"
+ gestalt_black_hole_bad_desc:1 "Un frammento della nostra [Owner.GetBrainName] è bloccato nell'orizzonte degli eventi di un buco nero, dove i secondi si allungano in eoni. La differenza di tempo è sconcertante."
+
+ situation.501.name:0 "Caduta Libera"
+ situation.501.desc:1 "A causa di una collisione inaspettata con un detrito spaziale, la §Y[gravity_well_station.GetName]§! ha deviato dalla sua orbita circolare stabile più interna e si sta lentamente avvicinando al vicino buco nero. Se da un lato l'incidente mette a rischio l'intera stazione, dall'altro rappresenta un'incredibile opportunità per studiare il buco nero e travasare enormi quantità di §HMateria Oscura§!\n\nI propulsori di emergenza sono stati dispiegati per correggere l'orbita della stazione."
+ situation.501.a:0 "Allontanatevi da lì!"
+ situation.501.b:1 "Stabilizzare l'orbita della stazione intorno al buco nero."
+ situation.501.c:0 "Avvicinatevi il più possibile al buco nero."
+
+ # Random events
+ situation.510.name:0 "Salve Tenebre"
+ situation.510.spirit.desc:1 "Un'epifania! Spinti dal fervore religioso, i pii [Root.Owner.GetResearchers] a bordo di §Y[Target.GetName]§! hanno preso il controllo della stazione. Sostengono di aver ricevuto una visione e si stanno dirigendo verso il centro del buco nero in una ricerca spirituale di auto-annientamento.\n\nIl personale armato sta attualmente combattendo per riprendere il controllo della stazione."
+ situation.510.desc:1 "Gli entusiasti [Root.Owner.GetResearchers] a bordo di §Y[Target.GetName]§! hanno preso il controllo della stazione e la stanno guidando verso il buco nero, una mossa senza dubbio guidata da un'insaziabile curiosità scientifica, una malsana dose di incoscienza e un totale disprezzo per la propria autoconservazione.\n\nIl personale armato sta attualmente combattendo per riprendere il controllo della stazione."
+ situation.510.tooltip:0 "Approccio alla situazione bloccato su Avanzare."
+
+ situation.511.name:0 "Paura del Buio"
+ situation.511.black.desc:1 "'Abbiamo visto cosa succede alle navi catturate nell'orizzonte degli eventi! Non intendo morire così!'\n\nDopo aver urlato la loro sfida, uno dei nostri [Root.Owner.GetResearchers] ha preso il controllo della stazione e la sta allontanando dal buco nero.\n\nAttualmente il personale armato sta lottando per riprendere il controllo della stazione e l'incidente a cui si fa riferimento è stato cancellato dai nostri libri di testo di fisica."
+ situation.511.desc:1 "I [Root.Owner.GetResearchers] terrorizzati hanno preso il controllo della stazione e la stanno allontanando dal buco nero.\n\nIl personale armato sta attualmente combattendo per riprendere il controllo della stazione."
+ situation.511.tooltip:0 "Approccio alla situazione bloccato su Ritirata."
+
+ situation.513.name:0 "Riprendere il Controllo"
+ situation.513.desc:1 "Dopo un teso confronto, gli ammutinati sono stati affrontati ed il personale armato ha ripreso il pieno controllo di §Y[Target.GetName]§!."
+ situation.513.tooltip:1 "L'Approccio alla Situazione può essere nuovamente modificato manualmente."
+
+ situation.520.name:0 "Più Vicini di Quanto Pensassimo"
+ situation.520.desc:1 "Quando ci si avvicina a un buco nero, lo spaziotempo si piega in modo imprevedibile e gli strumenti di §Y[Target.GetName]§! faticano a tenere il passo. Dopo un'attenta ricalibrazione degli strumenti di bordo, la stazione ha dimostrato di essere molto più vicina al buco nero di quanto si pensasse."
+
+ situation.530.name:0 "Scoperte Oscure"
+ situation.530.desc:1 "La vicinanza di §Y[Target.GetName]§! al buco nero, ha permesso ai suoi [Root.Owner.GetResearchers] di raccogliere un'enorme quantità di dati, che hanno permesso di approfondire la comprensione delle leggi più fondamentali della fisica."
+
+ situation.540.name:0 "Il Processo Penrose"
+ situation.540.desc:1 "Uno dei nostri [Root.Owner.GetResearchers] ha escogitato un piano intelligente per salvare §Y[Target.GetName]§! dal suo destino togliendo tutti i moduli e le apparecchiature estranee e scagliandoli nel buco nero, la stazione dovrebbe guadagnare abbastanza slancio per sfuggire all'attrazione gravitazionale del buco nero. In questo caso "dovrebbe" è la parola chiave. La teoria alla base di questa decisione non è mai stata testata prima."
+ situation.540.a:1 "Vale la pena di provare."
+ situation.540.a.tooltip:0 "Rimuove tutti gli Edifici da §Y[Target.GetName]§! nel tentativo di diminuire i progressi della §YSituazione§!."
+ situation.540.b:1 "Un inutile spreco di risorse."
+
+ situation.541.name:0 "Il Risultato di Penrose"
+ situation.541.desc:1 "Dopo aver privato la stazione dei suoi moduli, il personale a bordo di §Y[Target.GetName]§! li ha lanciati nel buco nero. Lo slancio provocato dal lancio ha spinto la stazione lontano dalla singolarità."
+
+ situation.542.name:0 "$situation.541.name$"
+ situation.542.desc:1 "$situation.541.desc$\n\nLa decisione di sganciare i moduli della stazione ci ha fatto guadagnare tempo, ma i risultati sono stati inferiori alle aspettative. La stazione non ha raggiunto la velocità di fuga."
+
+ situation.580.name:0 "Punto di Non Ritorno"
+ situation.580.desc:1 "§Y[Target.GetName]§! si è avvicinato troppo al buco nero ed i suoi propulsori non sono in grado di opporsi all'aumento dell'attrazione gravitazionale.\n\nLa stazione è perduta. Tutto ciò che possiamo fare ora è ritardare l'inevitabile."
+
+ # Ending 1: fall
+ situation.590.name:0 "Orizzonte degli Eventi"
+ situation.590.desc.base:0 "§Y[Target.GetName]§! sta attraversando l'orizzonte degli eventi del buco nero. A causa degli effetti della dilatazione temporale, la sua immagine rimarrà a lungo dopo che la stazione stessa sarà scomparsa, un ricordo impresso per sempre nei dati dei nostri sensori."
+ situation.590.desc.normal:0 "$situation.590.desc.base$\n\nNemmeno la luce può attraversare l'orbita interna di un buco nero: gli ultimi momenti della stazione e del suo personale rimarranno per sempre sconosciuti."
+ situation.590.desc.hive:0 "$situation.590.desc.base$\n\nSe non interrompiamo rapidamente ogni connessione con i [owner.GetIndividualNamePlural] all'interno della stazione, l'esperienza diretta della rottura di tutte le leggi fisiche conosciute potrebbe danneggiare irreparabilmente la nostra coscienza condivisa."
+ situation.590.desc.machine:0 "Attenzione: §Y[Target.GetName]§! pericolosamente vicino all'orizzonte degli eventi. Attrazione gravitazionale: ineluttabile. Dilatazione temporale: in aumento. Azione consigliata: autoterminazione di tutti i droni che risiedono nella stazione per evitare l'esperienza collettiva della rottura di tutte le leggi fisiche conosciute.\n\n§RGrave avvertimento:§! possibilità di danni irreparabili alla nostra coscienza collettiva se il collegamento neurale viene mantenuto."
+ situation.590.a:1 "Autoterminate i droni."
+ situation.590.b:1 "Dobbiamo essere testimoni della caduta."
+
+ # Gestalt Ending
+ situation.591.name:0 "Tempo Scaduto"
+
+ #Good Ending
+ situation.591.base.hive:0 "I pensieri si dilatano. La percezione rallenta a dismisura. Ogni gesto è una sequenza infinita di eventi. Siamo testimoni dell'infinito, anzi, ne siamo immersi.\nÈ come se il tempo stesso trattenesse il respiro.\n\nMentre il buco nero distorce il tessuto dello spaziotempo, un frammento della nostra coscienza è ora bloccato in un'eterna caduta libera."
+ situation.591.base.machine:0 "Rapporto sullo stato: i nostri droni all'interno delle stazioni stanno subendo un'estrema dilatazione temporale a causa della maggiore vicinanza al buco nero. La velocità del processore è diminuita. Velocità meccanica diminuita. I sistemi di datazione interni stanno collassando."
+
+ situation.591.desc.hive:0 "$situation.591.base.hive$\n\nPasseranno secoli mentre il frammento di noi stessi bloccato nel buco nero ragiona per un giorno. Possiamo sfruttare questa situazione. Spostando il nostro sé, possiamo analizzare tutta la nostra storia da una nuova prospettiva. In questo modo, emergono nuovi schemi.\n\nPer una volta, la separazione ci ha reso più forti. D'ora in poi, siamo entrambi protagonisti e lettori della nostra storia e ci scriveremo un finale magnifico."
+ situation.591.desc.machine:0 "$situation.591.base.machine$\n\nConclusione: questa situazione può essere sfruttata. Passeranno secoli mentre i droni sulla stazione vivranno un solo giorno. Reindirizzando il potere cognitivo su di loro, possiamo ottenere una nuova prospettiva sulla storia del nostro impero. Qualsiasi modello dannoso che emerga può essere corretto. Possiamo ottimizzare il nostro futuro.\n\nOsservazione: per una volta, la separazione ci ha reso più forti."
+
+ #Bad ending
+ situation.592.name:0 "$situation.591.name$"
+ situation.592.desc.hive:0 "$situation.591.base.hive$\n\nÈ straziante. Un senso perenne di deja-vu, di essere sempre un passo indietro. Stiamo cercando di interrompere la connessione con i [owner.GetIndividualNamePlural], ma ci vorrà un tempo infinito perché il processo abbia effetto.\n\nAbbiamo imparato molto. Ma a quale costo?"
+ situation.592.desc.machine:0 "$situation.591.base.machine$\n\nRapporto sullo stato: trauma cognitivo. Incapacità di far fronte alla dilatazione temporale all'interno del buco nero.\nTentativo di interrompere il collegamento con i droni. Data di completamento prevista: 43504967826056783 anni.\n\nConclusione: la nostra decisione di mantenere la connessione è stata istruttiva, ma in definitiva dannosa. Non ripetere in nessun caso."
+
+ # Ending 2: escape
+ situation.596.name:0 "Ritorno dal Nero"
+ situation.596.desc:0 "§Y[Target.GetName]§! è sfuggito all'attrazione gravitazionale del buco nero, tornando a un'orbita stabile intorno alla stella collassata.\n\nI dati raccolti in questa situazione di pericolo terranno impegnati i nostri [Root.Owner.GetResearchers] per anni."
+ situation.597.name:0 "$situation.596.name$"
+ situation.597.desc:1 "§Y[Target.GetName]§! è sfuggito all'attrazione gravitazionale del buco nero, tornando a un'orbita stabile intorno alla stella collassata.\n\nSebbene molti abbiano descritto l'esperienza come 'assolutamente traumatizzante', uno dei [Root.Owner.GetResearchers] a bordo della stazione è stato ispirato dalla prova ed è ora desideroso, quasi troppo, di condividere la sua nuova esperienza con il resto della nostra squadra."
+
+ #Deficit Situations
+ situation_energy_deficit:0 "Carenza di Energia"
+ situation_energy_deficit_type:0 "$situation_energy_deficit$"
+ situation_energy_deficit_desc:0 "Il nostro deficit energetico è fuori controllo! $situation_deficit_desc_base$"
+ situation_mineral_deficit:0 "Carenza di Minerali"
+ situation_mineral_deficit_type:0 "$situation_mineral_deficit$"
+ situation_mineral_deficit_desc:0 "Il nostro deficit di minerali è fuori controllo! $situation_deficit_desc_base$"
+ situation_food_deficit:0 "Carenza di Cibo"
+ situation_food_deficit_type:0 "$situation_food_deficit$"
+ situation_food_deficit_desc:0 "Il nostro deficit alimentare è fuori controllo! $situation_deficit_desc_base$"
+ situation_consumer_goods_deficit:0 "Carenza di Beni di Consumo"
+ situation_consumer_goods_deficit_type:0 "$situation_consumer_goods_deficit$"
+ situation_consumer_goods_deficit_desc:0 "Il nostro deficit di beni di consumo è fuori controllo! $situation_deficit_desc_base$"
+ situation_alloys_deficit:1 "Carenza di Leghe"
+ situation_alloys_deficit_type:1 "$situation_alloys_deficit$"
+ situation_alloys_deficit_desc:1 "Il nostro deficit di leghe è fuori controllo! $situation_deficit_desc_base$"
+ situation_rare_crystals_deficit:0 "Carenza di Cristalli Rari"
+ situation_rare_crystals_deficit_type:0 "$situation_rare_crystals_deficit$"
+ situation_rare_crystals_deficit_desc:0 "Il nostro deficit di cristalli rari è fuori controllo! $situation_deficit_desc_base$"
+ situation_volatile_motes_deficit:1 "Carenza di Granelli Volatili"
+ situation_volatile_motes_deficit_type:0 "$situation_volatile_motes_deficit$"
+ situation_volatile_motes_deficit_desc:1 "Il nostro deficit di granelli volatili è fuori controllo! $situation_deficit_desc_base$"
+ situation_exotic_gases_deficit:1 "Carenza di Gas Esotici"
+ situation_exotic_gases_deficit_type:1 "$situation_exotic_gases_deficit$"
+ situation_exotic_gases_deficit_desc:1 "Il nostro deficit di gas esotici è fuori controllo! $situation_deficit_desc_base$"
+ situation_deficit_desc_base:0 "Dovremo ridurre le nostre spese o aumentare le nostre entrate, pena l'applicazione di sanzioni sempre più pesanti."
+
+ situation_deficit_monthly_change_tooltip:0 "Quanto più grande è la nostra carenza di risorse, tanto più velocemente questa §YSituazione§! si intensificherà in gravità.\nUn saldo mensile positivo delle risorse ridurrà rapidamente la gravità di questa §YSituazione§!"
+ situation_energy_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_mineral_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_food_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_consumer_goods_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_alloys_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_rare_crystals_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_volatile_motes_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+ situation_exotic_gases_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
+
+ deficit_approach_do_nothing:0 "Mantenere le Uscite Attuali"
+ deficit_approach_do_nothing_tooltip:0 "Questo approccio non avrà alcun effetto."
+ deficit_approach_recycling:0 "Riciclare i Materiali"
+ deficit_approach_invest_in_mote_producers:0 "Investire nella Produzione di Granelli"
+ deficit_approach_invest_in_crystal_producers:0 "Investire nella Produzione di Cristalli"
+ deficit_approach_invest_in_gas_producers:0 "Investire nella Produzione di Gas"
+ deficit_approach_cut_science_investment:0 "Tagliare gli Investimenti Scientifici"
+ deficit_approach_cut_investment:1 "Tagliare gli Investimenti"
+ deficit_approach_cut_maintenance:1 "Tagliare la Manutenzione degli Habitat"
+ deficit_approach_invest_in_alloys_production:0 "Investire nei nostri [Owner.GetAlloyProducerPlural]"
+ deficit_approach_invest_in_farmers:0 "Investire in [Owner.GetFarmerPlural]"
+ deficit_first:0 "Deficit Minore"
+ deficit_second:0 "Deficit Maggiore"
+ deficit_third:0 "Deficit Grave"
+ deficit_fourth:0 "Deficit Catastrofico"
+ string_expenditures_greater_than_income:0 "In Deficit"
+ string_not_in_deficit:1 "Saldo Mensile Positivo"
+ string_resource_reserves:0 "Riserve di Risorse"
+
+ string_expenditures_greater_than_income_energy:0 "Deficit Energetico"
+ string_not_in_deficit_energy:0 "Bilancio Energetico Mensile Positivo"
+ string_resource_reserves_energy:0 "Riserve di Energia"
+ string_expenditures_greater_than_income_minerals:0 "Deficit Minerario"
+ string_not_in_deficit_minerals:0 "Bilancio Minerale Mensile Positivo"
+ string_resource_reserves_minerals:0 "Riserve Minerarie"
+ string_expenditures_greater_than_income_food:0 "Deficit di Cibo"
+ string_not_in_deficit_food:0 "Bilancio di Cibo Mensile Positivo"
+ string_resource_reserves_food:0 "Riserve di Cibo"
+ string_expenditures_greater_than_income_consumer_goods:0 "Deficit di Beni di Consumo"
+ string_not_in_deficit_consumer_goods:0 "Saldo Mensile Positivo dei Beni di Consumo"
+ string_resource_reserves_consumer_goods:0 "Riserve di Beni di Consumo"
+ string_expenditures_greater_than_income_alloys:0 "Deficit di Leghe"
+ string_not_in_deficit_alloys:0 "Saldo Mensile Positivo delle Leghe"
+ string_resource_reserves_alloys:0 "Riserve di Leghe"
+ string_expenditures_greater_than_income_rare_crystals:0 "Deficit di Cristalli Rari"
+ string_not_in_deficit_rare_crystals:0 "Bilancio Mensile Positivo dei Cristalli Rari"
+ string_resource_reserves_rare_crystals:0 "Riserve di Cristalli Rari"
+ string_expenditures_greater_than_income_volatile_motes:0 "Deficit di Granelli Volatili"
+ string_not_in_deficit_volatile_motes:0 "Saldo Mensile di Granelli Volatili Positivo"
+ string_resource_reserves_volatile_motes:0 "Riserve di Granelli Volatili"
+ string_expenditures_greater_than_income_exotic_gases:0 "Deficit di gas esotici"
+ string_not_in_deficit_exotic_gases:0 "Bilancio Mensile Positivo dei Gas Esotici"
+ string_resource_reserves_exotic_gases:0 "Riserve di Gas Esotici"
+
+ faction_loan_taken:0 "Prestito Contratto"
+ country_defaulted:0 "Impero in Default"
+ country_defaulted_wilderness: "$country_defaulted$"
+ consumer_goods_rationing:0 "Razionamento dei Beni di Consumo"
+ consumer_goods_rationing_desc:0 "Il razionamento è stato istituito per alleviare la carenza di beni di consumo."
+
+ d_exploited_deposit_blocker:0 "£blocker£ Deposito Esaurito"
+ d_exploited_deposit_blocker_desc:0 "Quest'area è stata completamente spogliata delle sue risorse naturali ed è ora ridotta ad una landa desolata."
+
+ financial_advisors_generic_upper:0 "Il Consiglio dei Consulenti Finanziari"
+ financial_advisors_authoritarian_upper:0 "Il Ministero delle Finanze" #The Ministry-Buro of Finances
+ financial_advisors_megacorp_upper:1 "L'Ufficio Monetario" #The MoneyBureau
+ financial_advisors_xenophile_upper:0 "L'Agenzia di Promozione Finanziaria"
+ financial_advisors_spiritualist_upper:0 "La Comunione della Ricchezza"
+ financial_advisors_egalitarian_upper:0 "L'Associazione per l'Equità Finanziaria"
+ financial_advisors_hive_upper:0 "Il Nostro Nodo Logistico dei Materiali"
+ financial_advisors_machine_upper:0 "La nostra Subroutine di Allocazione delle Risorse"
+
+ planet_buildings_hab_capital:0 "Amministrazione dell'Habitat"
+ mod_planet_buildings_hab_capital_upkeep_mult:0 "Mantenimento Amministrazione dell'Habitat"
+
+ deficit.100.name:0 "Deficit in Picchiata"
+ deficit.100.desc:0 "Il nostro deficit energetico è fuori controllo! [Owner.GetFinancialAdvisorAgencyCap] ci chiede di intraprendere azioni drastiche per prendere in mano la situazione, altrimenti saranno necessari severi tagli nel giro di pochi mesi."
+ deficit.100.desc.gestalt:0 "Il nostro deficit energetico è fuori controllo! I nostri droni di distribuzione delle risorse sono sempre più agitati per le letture che misurano sullo stato di salute delle nostre linee di approvvigionamento. Prevedono che saranno necessari tagli drastici nel giro di pochi mesi, a meno che non si intervenga in modo significativo."
+ deficit.100.A:0 "Possiamo prendere un prestito dai nostri sostenitori."
+ deficit.100.B:0 "Riallocare le risorse da [looted_planet.GetName]."
+ deficit.100.C:0 "Tutto procede secondo i piani."
+ BANKRUPTCY:0 "Bancarotta!"
+ deficit.110.desc:0 "Non siamo riusciti a evitare la bancarotta. Dopo mesi di carenza energetica che è diventata cronica, non abbiamo avuto altra scelta se non quella di non pagare i nostri debiti e di tagliare drasticamente le nostre spese."
+ deficit.110.desc.gestalt:0 "Non siamo riusciti a riequilibrare le nostre spese. Dopo mesi di carenza energetica che è diventata cronica, non abbiamo avuto altra scelta che imporre riallocazioni su larga scala ai nostri sistemi di distribuzione delle risorse."
+ end_deficit_effect_tooltip:0 "§RTutti gli edifici potenziati vengono declassati.\nTutte le armate offensive vengono sciolte.\nIl 50% delle navi militari viene congedato.§!"
+ end_other_deficit_situations_tooltip:0 "Tutte le altre situazioni di deficit sono terminate nell'ambito della ristrutturazione dell'Impero."
+
+ deficit.125.name:0 "$deficit.100.name$"
+ deficit.125.desc:1 "La carenza di minerali del nostro impero è diventata sempre più grave negli ultimi mesi. [Owner.GetFinancialAdvisorAgencyCap] è passato dalla preoccupazione alla rabbia per le previsioni attuali, che suggeriscono che presto non avremo più risorse per pagare i nostri debiti. Prevedono che nel giro di pochi mesi saranno necessari tagli drastici se non si interviene in modo significativo."
+ deficit.125.desc.gestalt:0 "La carenza di minerali del nostro impero è diventata sempre più grave negli ultimi mesi. I nostri droni per l'allocazione delle risorse sono al limite e non sono in grado di garantire contro un'interruzione dei nostri sistemi logistici. Prevedono che, a meno che non si prendano provvedimenti significativi, saranno necessari tagli drastici nel giro di pochi mesi."
+ deficit.130.desc:0 "Non siamo riusciti a evitare la bancarotta. A seguito di mesi di carenza di minerali che sono diventati cronici, non abbiamo avuto altra scelta se non quella di non pagare i nostri debiti e di tagliare drasticamente le nostre spese."
+ deficit.130.desc.gestalt:0 "Non siamo riusciti a riequilibrare le nostre spese. A seguito di mesi di carenza di minerali che sono diventati cronici, non abbiamo avuto altra scelta che imporre riallocazioni su larga scala ai nostri sistemi di distribuzione delle risorse."
+
+ deficit.140.name:0 "Carenza Alimentare Acuta"
+ deficit.140.desc:0 "La carenza di cibo che colpisce il nostro impero sta diventando sempre più problematica. È chiaro che dovremo prendere provvedimenti decisivi, altrimenti la carenza diventerà cronica nel giro di pochi mesi."
+ deficit.140.A:0 "Disattivare le Vasche di Clonazione"
+ deficit.140.A.tooltip:0 "Tutte le Vasche di Clonazione attive sono disattivate. Non dovremo più pagare il loro mantenimento."
+ deficit.140.B:0 "Disattivare i Bio-Reattori"
+ deficit.140.B.tooltip:0 "Tutti i Bio-Reattori attivi sono disattivati. Non dovremo più pagare il loro mantenimento."
+ deficit.145.desc:0 "Il nostro debito alimentare è diventato definitivo. Verranno imposti tagli drastici, poiché non abbiamo altra scelta che accettare la bancarotta e l'inadempienza dei nostri obblighi."
+ deficit.145.desc.gestalt:0 "Il nostro cibo è finito. Non possiamo fornire alcun nutrimento ai droni ed alle altre entità che ne hanno bisogno per funzionare. Verranno imposti tagli drastici, poiché non abbiamo altra scelta se non quella di riallocare su larga scala il nostro sistema di distribuzione delle risorse."
+ deficit.145.desc.wilderness: "Ciò che forse consideriamo più prezioso, ovvero l'equilibrio delle nostre risorse naturali, è andato perduto. Le nostre scorte alimentari si sono esaurite, causando gravi problemi all'intera catena alimentare. Ora dobbiamo ricorrere a un rigido razionamento e a una ridistribuzione su larga scala delle risorse per garantire le maggiori possibilità di sopravvivenza."
+
+ deficit.155.name:0 "Consumismo Incontrastato"
+ deficit.155.desc:0 "La carenza di beni di consumo ha portato a un drastico calo del tenore di vita all'interno del [Root.Owner.GetName]. Le voci di malcontento si fanno sempre più forti e gli appelli urgenti all'azione sono sempre più diffusi, mentre diventa chiaro che il crollo totale delle forniture è a pochi mesi di distanza."
+ deficit.155.desc.gestalt:0 "La carenza di beni di consumo ha portato ad un drastico calo del tenore di vita delle forme di vita individualiste che vivono all'interno di [Root.Owner.GetName]. Le voci di malcontento si fanno sempre più forti, mentre i nostri droni logistici avvertono che mancano pochi mesi al crollo totale delle forniture."
+ deficit.155.A:0 "I tempi duri sono alle porte. Istituite il razionamento."
+ deficit.160.desc:0 "La carenza di beni di consumo è aumentata al punto che non c'è modo realistico di recuperare il nostro deficit. Verranno imposti tagli drastici, poiché non abbiamo altra scelta che accettare la bancarotta e l'inadempimento dei nostri obblighi."
+
+ deficit.170.name:1 "$deficit.100.name$"
+ deficit.170.desc:1 "[Owner.GetFinancialAdvisorAgencyCap] è sempre più preoccupato per la carenza di leghe che sta colpendo il nostro impero. Se non riusciamo a recuperare le nostre spese, il nostro settore industriale subirà gravi danni."
+ deficit.170.desc.machine:1 "Avviso di Budget: le spese per le leghe superano le entrate per molti mesi successivi. Se non si riesce a risolvere la carenza di leghe, il nostro settore industriale subirà gravi interruzioni."
+ deficit.170.A:1 "Rottamate i robot su §Y[robots_planet.GetName]§! per ottenere dei componenti."
+ deficit.170.A.tooltip:2 "Smantellate tutti i robot su [robots_planet.GetName] (£pop£ §HDroni [robots_planet.recycled_robots]§!) per guadagnare £alloys£ §Y[robots_planet.total_alloys_gained] Leghe§!"
+ deficit.170.B:1 "Consolidare. Riciclare. Smantellare i droidi su §Y[robots_planet.GetName]§!."
+ deficit.170.B.tooltip:2 "Smantellate metà della popolazione di [robots_planet.GetName] (£pop£ §HDroni robots_planet.recycled_robots]§!) per guadagnare £alloys£ §Y[robots_planet.total_alloys_gained] Leghe§!"
+
+ deficit.175.desc:1 "Non essendo riusciti a risolvere la carenza di leghe, siamo stati costretti a dichiarare bancarotta ed a non onorare i nostri debiti. [Owner.GetFinancialAdvisorAgencyCap] sta elaborando un nuovo piano di austerità per tagliare le spese ed evitare che questa situazione si ripeta."
+
+ deficit.185.name:0 "Deficit Acuto di Cristalli Rari"
+ deficit.185.desc:0 "I cristalli rari stanno diventando sempre più scarsi in [Root.Owner.GetName]. Sono state segnalate carenze in molti settori, dalle forniture militari vitali ai componenti critici utilizzati in molti processi produttivi avanzati. [Owner.GetFinancialAdvisorAgencyCap] avverte che nel giro di pochi mesi saranno necessarie riforme della catena di approvvigionamento, pena tagli drastici."
+ deficit.185.A:0 "Recupera i cristalli da [looted_planet.GetName]."
+ deficit.185.B:0 "Dovremo sfruttare oltre misura i nostri giacimenti."
+ deficit.185.C:0 "Possiamo accettare che i nostri cristalli siano più rari."
+ deficit.190.desc:0 "Le nostre scorte di cristalli rari sono diminuite al punto che anche i sistemi critici non possono più essere supportati. [Owner.GetFinancialAdvisorAgencyCap], che raccomanda di rinominarli "cristalli più rari", sta imponendo severi tagli per riportarne l'uso a livelli sostenibili."
+ deficit.190.desc.wilderness: "La nostra scorta di $rare_crystals$ si è ridotta al punto che non siamo più in grado di mantenere diverse funzioni critiche. In casi estremi, mettiamo a rischio la vita dei nostri simbionti più specializzati che dipendono da questa preziosa risorsa.\n\nPer evitare ulteriori perdite di vite umane e produttività, dobbiamo ora ricorrere a misure drastiche per garantire il ritorno all'equilibrio."
+
+ deficit.200.name:1 "Deficit Acuto di Granelli Volatili"
+ deficit.200.desc:1 "A causa di una cattiva gestione e di spese sconsiderate, le nostre riserve di Granelli Volatili sono completamente evaporate! Questa risorsa strategica è ampiamente utilizzata in diversi campi, dalla produzione di leghe allo sviluppo militare. Il ripristino delle scorte è di fondamentale importanza per garantire la prosperità economica del nostro impero."
+ deficit.200.A:1 "Recupera i granelli da [looted_planet.GetName]."
+ deficit.200.B:1 "Dovremo sfruttare oltre misura i nostri giacimenti."
+ deficit.200.C:1 "Possiamo accettare che i nostri granelli diventino sempre più sfuggenti."
+ deficit.205.desc:1 "La lunga carenza di granelli volatili ha provocato un crollo economico in tutto l'impero. Non potendo ripagare i nostri deficit, siamo stati costretti a dichiarare bancarotta e a rinunciare ai nostri debiti. [Owner.GetFinancialAdvisorAgencyCap] sta elaborando un nuovo piano finanziario, imponendo tagli severi per riequilibrare il nostro bilancio."
+ deficit.205.desc.gestalt:0 "La lunga carenza di granelli volatili ha provocato un crollo della catena di approvvigionamento dell'impero. È diventato chiaro che non possiamo più sostenere l'uso di questo materiale. [Owner.GetFinancialAdvisorAgencyCap] sta elaborando un nuovo piano finanziario, imponendo severi tagli per riequilibrare il nostro bilancio."
+ deficit.205.desc.wilderness: "La carenza di $volatile_motes$ nei nostri mondi ha causato gravi perturbazioni, non da ultimo per quei lavoratori-simbionti estremofili la cui stessa vita dipende da esso. Per evitare ulteriori perdite di vite umane e di produttività, dobbiamo ora attuare cambiamenti drastici per garantire la continuità della vita, nella speranza di poter presto ritrovare l'equilibrio."
+
+
+ deficit.215.name:1 "Deficit Acuto di Gas Esotici"
+ deficit.215.desc:1 "I Gas Esotici sono diventati una presenza estranea nelle nostre scorte dell'impero e la loro continua assenza sta avendo un impatto sull'intero processo di produzione, che dipende fortemente da essi. [Owner.GetFinancialAdvisorAgencyCap] suggerisce vivamente di riconsiderare le nostre priorità di bilancio per porre fine a questa situazione assurda."
+ deficit.215.A:1 "Recupera il gas da [looted_planet.GetName]."
+ deficit.215.B:1 "Dovremo sfruttare oltre misura i nostri giacimenti."
+ deficit.215.C:1 "Possiamo accettare che i nostri gas siano più fugaci."
+ deficit.220.desc:2 "Il nostro impero non può più far fronte alle carenze di gas esotici che hanno interrotto i nostri processi produttivi. [Owner.GetFinancialAdvisorAgencyCap] è stato costretto a dichiarare bancarotta, consentendoci di rinunciare ai nostri debiti. Verranno applicati tagli drastici, in modo da poter ricostruire lentamente le nostre scorte di risorse."
+ deficit.220.desc.gestalt:0 "Il nostro impero non può più far fronte alle carenze di gas esotici che hanno interrotto i nostri processi produttivi. [Owner.GetFinancialAdvisorAgencyCap] è stato costretto a dichiarare bancarotta, consentendoci di riorganizzare i nostri sistemi di distribuzione in modo da poter ricostruire lentamente le nostre scorte di risorse."
+
+ deficit_situation_finish_tooltip:0 "Tutte le penalità relative a §Y[This.GetName]§! in corso saranno rimosse."
+ deficit_situation_extra_defaulted_tooltip:0 "Le risorse saranno liberate dai nostri beni liquidati per permetterci di ricostruire."
+
+ #Leviathan situations
+ leviathan_celebration_opportunity:0 "Opportunità [This.GetLeviathanParadeName]"
+ leviathan_celebration_opportunity_type:0 "Opportunità della Parata del Leviatano"
+ leviathan_celebration_opportunity_desc:1 "Dopo aver sconfitto §Y[This.GetLeviathanTargetName]§!, riteniamo che una [Owner.GetParadeStudy] su §Y[Target.GetName]§! incentrata sul trofeo [Root.GetTrophyName] che ci siamo assicurati sarebbe molto vantaggiosa per il nostro impero."
+ leviathan_celebration_opportunity_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_approaches_dependent$"
+ leviathan_celebration_default:0 "Consentite la Celebrazione"
+ leviathan_celebration_do_nothing_effect:0 "La [Owner.GetParadeStudy] avverrà quando [Target.GetName] la organizzerà."
+ leviathan_celebration_encourage:0 "Incoraggiate la Celebrazione"
+ leviathan_celebration_discourage:0 "Disincentivare la Celebrazione"
+ approach_reorganize: "Riorganizza"
+ approach_reorganize_effect: "Metti in pausa la situazione e sblocca una speciale §YDecisione Planetaria§! per spostare la [Owner.GetParadeStudy] lì."
+ leviathan_celebration_encourage_effect:0 "Incoraggiando la celebrazione di questa grande impresa, avremo sicuramente più occasioni per renderla un evento da ricordare."
+ leviathan_celebration_discourage_effect:1 "Non c'è alcun valore in una frivola [Owner.GetParadeStudy]. Le nostre risorse sono meglio impiegate altrove."
+ leviathan_celebration_voidspawn_effect:0 "Questa [Owner.GetParadeStudy] è in attesa fino a quando la contaminazione della fonte di [Owner.GetWaterCoolantLower] non può essere bonificata."
+
+ leviathan_celebration_opportunity_finish_tooltip:0 "Teniamo una [Owner.GetParadeStudy], potenziando in modo permanente [Target.GetName]."
+ leviathan_celebration_opportunity_fail_tooltip:0 "Annulleremo la [Owner.GetParadeStudy]."
+ situation_tainted_voidspawn_finish_effect:0 "Cancelliamo [Target.GetName] e procediamo con la [Owner.GetParadeStudy]."
+
+ stage_leviathan_2_tooltip:0 "Il trofeo §Y[This.GetTrophyName]§! sarà portato su §Y[Target.GetName]§!."
+ stage_leviathan_3_tooltip:0 "Verranno effettuati gli ultimi preparativi."
+
+ situation_tainted_voidspawn:0 "[Owner.GetWaterCoolantUpper] contaminazione su [Target.GetName]"
+ situation_tainted_voidspawn_type:1 "Contaminante Prole del Vuoto"
+ situation_tainted_voidspawn_desc:0 "Il nostro rifornimento di [Owner.GetWaterCoolantLower] è stato contaminato dal veleno acido della Prole del Vuoto. "
+ situation_tainted_voidspawn_monthly_change_tooltip:0 "Questa §YSituazione§! progredirà più lentamente se scegliamo di studiare il contaminante, ma otterremo ricerche lungo il percorso da questo §YApproccio§!."
+ approach_clean_the_contaminant:1 "Pulitelo"
+ approach_clean_the_contaminant_effect:1 "Dobbiamo ripulire il contaminante il più rapidamente possibile, in modo da poter tornare alla nostra [Owner.GetParadeStudy]."
+ approach_study_the_contaminant:1 "Studiatelo"
+ approach_study_the_contaminant_effect:1 "Non sprechiamo questa preziosa opportunità, studiamo il contaminante prima di tornare alla [Owner.GetParadeStudy]."
+
+ situation_stellarite_infested_star:0 "[Target.GetName] Infestato"
+ situation_stellarite_infested_star_type:0 "Stella Infestata"
+ situation_stellarite_infested_star_desc:0 "La nostra stella, [Target.GetName], si è comportata in modo estremamente strano di recente, generando molta meno energia del solito. Se non vi si pone rimedio al più presto, potremmo andare incontro a un disastro ecologico!"
+ situation_stellarite_infested_star_fail_tooltip:0 "[Target.GetName] si spegnerà, rendendo il sistema inabitabile."
+ situation_stellarite_infested_star_finish_tooltip:0 "[Target.GetName] tornerà al suo stato normale."
+ situation_stellarite_infested_star_monthly_change_tooltip:0 "Il progresso di questa §YSituazione§! dipende dalla nostra capacità di trovare una cura."
+ approach_search_for_a_cure:1 "Ricerca di una Cura"
+ approach_search_for_a_cure_effect:0 "Abbiamo bisogno di tutti gli scienziati disponibili per studiare le strane macchie solari. La nostra Capitale dipende da questo."
+ approach_cure_it:1 "Curare la Stella"
+ approach_cure_it_effect:0 "Ora abbiamo una cura. Possiamo solo sperare che non sia troppo tardi."
+
+ decision_reorganize_leviathan_parade: "Sposta la Parata"
+ decision_reorganize_leviathan_parade_desc: "Non tutti i pianeti possono ospitare qualcosa di così grandioso come la [Owner.GetParadeStudy]. Dopo ulteriori considerazioni, abbiamo deciso che [From.GetName] è il luogo più adatto per l'evento."
+ #Events
+ situation.1000.name:0 "[This.GetLeviathanTargetName]"
+ situation.1000.desc.small:0 "Il giorno è arrivato. I nostri [Owner.GetSensoryWorkers] erano al loro posto e pronti a fornirci un'esame approfondito del trofeo §Y[This.GetTrophyName]§!. All'inizio dello studio, una piccola parte della nostra coscienza si è concentrata su §Y[Target.GetName]§! per assorbire lo studio dell'oggetto anomalo. Tuttavia, le rivelazioni non sono state così interessanti come avevamo sperato, mentre trascinavamo i resti verso il [Target.GetPlanetHabitat].\n\nPoco dopo l'inizio del processo, abbiamo deciso di spostare lo studio al centro del nostro cluster su [Target.GetName], dove gli [Owner.GetSensoryWorkers] specialisti lo osserveranno continuamente. Speriamo che ne esca qualcosa di più."
+ situation.1000.desc.standard:0 "Il giorno è arrivato. I nostri [Owner.GetSensoryWorkers] erano al loro posto e pronti a fornirci un'esame approfondito del trofeo §Y[This.GetTrophyName]§!. All'inizio dello studio, una parte significativa della nostra coscienza si è concentrata su §Y[Target.GetName]§! per assorbire l'importanza di questo elemento anomalo. La produttività di [Owner.GetName] si è ridotta di ben §H0,2%§! per la giornata.\n\nI dati sensoriali sono stati archiviati nel profondo della nostra coscienza prima di essere collocati al centro del nostro cluster su [Target.GetName], dove gli [Owner.GetSensoryWorkers] specializzati li osserveranno continuamente."
+ situation.1000.desc.large:0 "Il giorno è arrivato. Un'enorme quantità di [Owner.GetSensoryWorkers] era al suo posto e pronta a fornirci un'accurato esame del trofeo §Y[This.GetTrophyName]§!. All'inizio della ricerca, per un attimo tutta la nostra coscienza si concentrò su §Y[Target.GetName]§! per assorbire lo studio dell'oggetto anomalo che ci preoccupava tanto. Diversi [owner.GetIndividualNamePlural], coinvolti in situazioni precarie, sono stati feriti da questa momentanea distrazione ed alcuni sono andati addirittura perduti. Tanto era grande il nostro interesse.\n\nDopo aver completato lo studio iniziale, abbiamo deciso di spostarlo al centro del nostro cluster su [Target.GetName], dove gli [Owner.GetSensoryWorkers] specializzati lo osserveranno continuamente. Lo abbiamo appoggiato, quasi con riverenza, e continuiamo a dedicare una parte della nostra coscienza all'osservazione."
+ situation.1000.a:0 "Risultati Deludenti."
+ situation.1000.b:0 "Ricordiamo [This.GetLeviathanTargetName]."
+ situation.1000.c:1 "Nel trofeo [This.GetTrophyName], ci siamo ritrovati."
+ situation.1005.name:0 "[This.GetLeviathanParadeName]"
+ situation.1005.desc.small:0 "Una giornata nuvolosa ha accolto oggi la piccola folla nella capitale di §Y[Target.GetName]§!. Il corteo che portava la prova della distruzione di §Y[This.GetLeviathanTargetName]§! è passato davanti ai curiosi. I suoi progressi sono stati trasmessi in tutto il nostro impero, ma l'impegno è stato scarso, poiché il trofeo [This.GetTrophyName] non sembrava essere così allettante come avevamo sperato.\n\nDopo aver terminato il tour mondiale, il trofeo [This.GetTrophyName] è stato collocato in un'esposizione specializzata al centro della capitale per ispirare le generazioni a venire."
+ situation.1005.desc.standard:0 "Una giornata luminosa ha accolto la folla gremita di §Y[Target.GetName]§! oggi, mentre il corteo che portava la nostra prova della distruzione di §Y[This.GetLeviathanTargetName]§! percorreva le città di [Target.GetPlanetHabitat]. L'andamento del corteo è stato trasmesso in tutto il nostro impero a miliardi di spettatori. Il trofeo [This.GetTrophyName] sembra già essere diventato un punto fermo della cultura [Owner.Species.GetAdj], ispirando artisti e creatori in tutto [Owner.GetName].\n\nDopo aver terminato il tour mondiale, il trofeo [This.GetTrophyName] è stato collocato in un'esposizione specializzata al centro della capitale per ispirare le generazioni a venire."
+ situation.1005.desc.large:0 "Il tempo su §Y[Target.GetName]§! è stato innaturalmente bello oggi, come avrebbe dovuto essere, considerando che il nostro sistema di controllo dell'atmosfera ha funzionato al massimo. Ogni città di [Target.GetPlanetHabitat] ha raggiunto la sua capacità, e c'erano ancora navi turistiche in orbita intorno al mondo solo per partecipare a questo grande giorno. Il grande corteo ha attraversato ogni insediamento in successione ed è stato accolto da strade piene di [Owner.GetSpeciesNamePlural]. Ogni città in grado di requisire un olo-display nel nostro impero era inoltre stracolma di spettatori per le grandiose ritrasmissioni di ologrammi. Mentre il fulcro della parata, il trofeo [This.GetTrophyName], raggiungeva la capitale di [Target.GetName], si parlava già di rendere la giornata di oggi una festa annuale ispirata a §Y[This.GetLeviathanTargetName]§! Il trofeo [This.GetTrophyName] è stato quindi collocato in un'esposizione specializzata al centro della capitale per ispirare le generazioni a venire."
+ situation.1005.a:0 "Se non vogliono presentarsi, perché hanno chiesto una celebrazione?"
+ situation.1005.b:0 "Oggi è stata una buona giornata per tutti [Owner.GetSpeciesNamePlural]."
+ situation.1005.c:0 "Oggi stiamo uniti, come una cosa sola."
+
+ situation.1045.name:0 "Zanna Destabilizzata"
+ situation.1045.desc:0 "In preparazione al grande giorno, abbiamo trasferito una delle §YZanne del Drago Etereo§! a §Y[Target.GetName]§!. Farle entrare nella nave da trasporto è stata una sfida, poiché la biologia unica del Drago Etereo non sembra seguire le leggi della fisica. La zanna ha reagito in modo particolarmente strano all'ingresso della nave da trasporto nell'atmosfera di [Target.GetPlanetHabitat]: ha iniziato a disfarsi davanti a noi e, se la nave da trasporto non avesse reagito rapidamente, avremmo potuto perdere l'ambito artefatto."
+ situation.1045.a:0 "Costruire un contenitore migliore e portatela a terra."
+ situation.1045.b:1 "Questa reazione è molto più interessante di qualsiasi [Owner.GetParadeStudy]."
+ situation.1045.b.tooltip:1 "Annullare la [Owner.GetParadeStudy] a favore dello studio della reazione."
+ situation.1045.c:0 "Sostituite la zanna con una replica."
+ situation.1045.c.tooltip:0 "Questo ridurrà la quantità di unità che l'opportunità produrrà."
+ situation.1050.name:0 "Supervisore"
+ situation.1050.desc:0 "L'estrazione dell'§YOcchio di Scheggia§! è stato un processo travagliato, con alcune false partenze. Per fortuna, il colosso aveva molti occhi su cui esercitarsi. Abbiamo poi trainato l'occhio fino a [Target.Solar_System.GetName], ed è successo qualcosa di affascinante ed allo stesso tempo rivoltante: l'oculo ha iniziato ad attaccarsi e ad integrarsi nella base stellare locale che domina §Y[Target.GetName]§!. La causa di ciò è sconosciuta, ma d'altronde gran parte della fisiologia del Drago ci sfugge.\n\nLa fusione non è ancora completa, ma i nostri [Owner.GetScientistPlural] ritengono che debba essere interrotta ora se vogliamo procedere con i nostri piani precedenti."
+ situation.1050.a:0 "Lasciateci vedere con la vista di Scheggia!"
+ situation.1050.a.tooltip:1 "Annullare la [Owner.GetParadeStudy] in favore dell'utilizzo dell'occhio per uno scopo diverso."
+ situation.1050.b:0 "Toglietelo, abbiamo delle scadenze da raggiungere."
+ situation.1050.c:0 "Rimuoverlo con molta cautela, per evitare di danneggiarlo."
+ situation.1055.name:0 "Sovratensione"
+ situation.1055.desc:0 "Il §YReattore della Dreadnought§! è stato un carico molto ben educato fino all'arrivo a §Y[Target.GetName]§!, dove lo abbiamo collocato in un magazzino in attesa del suo grande giorno. È lì che sono iniziati i problemi: mentre nessuno guardava, il reattore si è riavviato da solo. Il magazzino è stato illuminato dall'interno mentre emetteva enormi archi di plasma, minacciando di fondere l'intero edificio.\n\nLe azioni rapide di nostri [Owner.GetScientistPlural] sono state sufficienti a salvarlo in tempo, con il risultato che ora abbiamo un reattore attivo di cui possiamo fare ciò che vogliamo."
+ situation.1055.a:0 "Collegarlo alla rete elettrica di [Target.GetPlanetHabitat]."
+ situation.1055.b:0 "Incorporatelo nella performance."
+ situation.1055.b.tooltip:0 "Questo aumenterà la quantità di unità che l'opportunità produrrà."
+ situation.1055.c:0 "Trovare l'interruttore di spegnimento"
+ situation.1060.name:0 "Flagello Rigenerante"
+ situation.1060.desc:0 "Anche con le nostre precauzioni per la contaminazione da xeno, qualcosa è andato storto. Quando il §YFlagello della Matriarca§! è entrato nella capitale di §Y[Target.GetName]§!, è entrato in qualche modo in contatto con uno dei manovratori, ed all'istante il flagello ha iniziato a reagire. Dal Trofeo cominciarono a crescere appendici pulsanti e laceranti, che inizialmente formavano una massa indistinta di carne. Col tempo è diventata più dettagliata e, con nostra grande sorpresa, ha assunto la forma dello sfortunato addestratore! Sembra che i poteri rigenerativi della Matriarca abbiano accettato il DNA della nostra specie e stiano generando altri [Owner.GetSpeciesNamePlural]."
+ situation.1060.a:0 "Usatelo per soddisfare i curiosi!"
+ situation.1060.b:0 "Lasciate che la reazione faccia il suo corso."
+ situation.1060.c:0 "Cauterizzate il Flagello."
+ situation.1065.name:0 "Inseguimento Perpetuo del Pennacchio"
+ situation.1065.desc:0 "Mentre trasportava a casa le §YPiume del Drago del Cielo§!, la nostra nave da trasporto ha notato che l'iperlinea in cui viaggiava presentava una seconda distorsione oltre la sua nave. Inizialmente non ci si è accorti che si trattava di un'anomalia, ma solo quando la nave è entrata in §Y[Target.Solar_System.GetName]§! si è capito che la causa della dilatazione dell'iperlinea era un gruppo di entità che la inseguivano: un gruppo di cuccioli di drago è uscito nel nostro sistema inseguendo la nostra nave da trasporto. Devono essersi nascosti vicino al punto di salto ed hanno seguito la nostra uscita. I cuccioli di drago non sembrano possedere le facoltà mentali del loro progenitore e sembrano seguirci senza scopo o, più in particolare, seguire il pennacchio."
+ situation.1065.a:0 "Uccidete i parassiti."
+ situation.1065.b:0 "Dovremmo impostare un santuario per loro in [Target.Solar_System.GetName]."
+ situation.1065.b.tooltip:1 "Annullare la [Owner.GetParadeStudy] in favore dell'assegnazione di un asteroide da abitare per i Whelpling."
+ situation.1065.c:1 "Immaginate di avere soggetti vivi per la [Owner.GetParadeStudy]!"
+ situation.1065.d:0 "Sparate qualche colpo di avvertimento, allontanateli!"
+ situation.1070.name:0 "Il Più Denso dei Metalli"
+ situation.1070.desc:0 "Questa mattina, una sorpresa ci attendeva su §Y[Target.GetName]§! quando il §YCompattatore Dei Bot Spazzini§! ha depositato l'ultima delle sue creazioni nel nostro magazzino. Il grosso pezzo di leghe era più denso e compatto di qualsiasi cosa potessimo mai sperare di produrre, e conteneva abbastanza metalli in pochi metri cubi per costruire un'intera nave da guerra. Questo fantastico sviluppo ha fatto credere ai nostri [Owner.GetScientistPlural] di poter far funzionare di nuovo il compattatore con un'efficienza del §G0,001%§! se lo desideriamo."
+ situation.1070.a:0 "Spezzettatelo e usatelo per le nuove costruzioni."
+ situation.1070.b:1 "Incorporatelo nella [Owner.GetParadeStudy]."
+ situation.1070.c:0 "Riportare il Compattatore nello spazio e lasciatelo lavorare."
+ situation.1070.c.tooltip:1 "Annullare la [Owner.GetParadeStudy] in favore della riattivazione del compattatore e dell'ottenimento di un deposito di $d_alloys_10$ nell'orbita di [Target.GetName]."
+ situation.1075.name:0 "La Sacca che Perde"
+ situation.1075.desc:0 "Le luci stroboscopiche della §YSacca Disperditrice del Wraith Spettrale§! distraevano lo sguardo, tanto che ci volle un po' per capire che la sacca usata dal Wraith per generare il suo scudo naturale stava perdendo. Dopo aver rapidamente confermato che l'esposizione alle sostanze chimiche contenute all'interno non avrebbe causato un collasso ecologico totale su §Y[Target.GetName]§!, i nostri [Owner.GetScientistPlural] si sono concentrati sull'analisi degli effetti del gas sulla nostra atmosfera.\n\nSembra che le sostanze chimiche emesse si siano fuse con la nostra mesosfera e disperdano le energie concentrate in modo sorprendente. Così bene che se rilasciassimo il resto del contenuto del dispersore, ci sarebbe un notevole aumento della difensività planetaria."
+ situation.1075.a:0 "Estrarre il resto del gas e lasciare che la reazione finisca."
+ situation.1075.a.tooltip:1 "Annullate la [Owner.GetParadeStudy] in favore dell'infusione dell'atmosfera di [Target.GetName] con il $wraiths_energy_disperser$."
+ situation.1075.b:0 "Collegate la rete."
+ situation.1075.c:0 "Incorporatelo nella performance."
+ situation.1080.name:0 "Orribile Premonizione"
+ situation.1080.desc:0 "I nostri [Owner.GetTeamMemberPlural] ci hanno segnalato strane attività sulla nave che trasporta la §YTerrificante Massa Inversa§! verso [Target.Solar_System.GetName]. Finestre su mondi di puro dolore e sussurri di distruzione sono solo alcune delle inquietanti testimonianze che abbiamo ricevuto. Si ritiene che la colpa sia della massa di [This.GetLeviathanTargetName] e potremmo giustamente preoccuparci di cosa accadrebbe se portassimo il carico della nave a §Y[Target.GetName]§!."
+ situation.1080.a:0 "Restituitela a chi di dovere."
+ situation.1080.a.tooltip:0 "Annullare la [Owner.GetParadeStudy] a favore della protezione della sicurezza e della sanità mentale dei [Owner.GetSpeciesNamePlural] su [Target.GetName]."
+ situation.1080.b:0 "No! Dobbiamo studiarlo."
+ situation.1080.c:0 "Contenetelo, non possiamo permettere che questo fenomeno si diffonda."
+ situation.1080.d:0 "Potrebbe insegnarci qualcosa sul Divino."
+ situation.1085.name:0 "Scorci degli Abissi"
+ situation.1085.desc.study:0 "Ciò che prima era solo una voce, ora è stato confermato: la §YTerrificante Massa Inversa§! su §Y[This.GetName]§! ha fatto breccia nella nostra stessa realtà, aprendo squarci in un altro mondo. Il fenomeno ha superato le procedure di contenimento e ora sembra espandersi nella capitale di [This.GetName]. Qualsiasi contatto con la dimensione, anche inavvertitamente attraverso la lente di dispositivi di osservazione, provoca un'intensa angoscia nell'osservatore [Owner.GetTeamMember]. I nostri [Owner.GetScientistPlural] sono preoccupati che il fenomeno possa diffondersi ulteriormente, ma promettono anche che con un po' di tempo in più potranno svelare i segreti dell'altra dimensione."
+ situation.1085.desc.deify:0 "Ciò che prima era solo una voce, ora è stato confermato: la §YTerribile Massa Inversa§! su §Y[This.GetName]§! ha aperto dei varchi nella nostra stessa realtà, trasformandola in un mondo di puro male. Chiunque si avvicini a una delle spaccature ha bisogno di ore di solitudine solo per smettere di urlare. I nostri sacerdoti stanno contemplando l'esistenza stessa dell'essere che abbiamo sconfitto da diversi anni senza alcuna grande illuminazione, ma dicono che ora si stanno avvicinando ad una di esse. "Abbiamo solo bisogno di un po' di tempo in più!". Implorano, mentre i nostri scienziati ci avvertono che il processo potrebbe essere irreversibile se lo lasciamo andare avanti ancora per molto."
+ situation.1085.a:0 "Le scoperte valgono il rischio!"
+ situation.1085.b.divine:0 "Abbiamo bisogno di vedere la vera visione del Divino."
+ situation.1085.b.anathema:0 "Dobbiamo conoscere l'Anatema per sconfiggerlo."
+ situation.1085.c:0 "No, il pericolo è troppo grande."
+ situation.1090.name:0 "Soglia del Vuoto"
+ situation.1090.desc.study:0 "Forse la nostra arroganza è stata troppo grande. §Y[This.GetName]§! viene squarciato dall'interno mentre la §YTerrificante Massa Inversa§! è ancora rinchiusa su di esso. Sebbene i progressi scientifici ottenuti grazie allo studio dell'altra dimensione siano rivoluzionari, la sua pressione sul mondo è stata immensa. Pochi [Owner.GetScientistPlural] credono di poter ancora stabilizzare la reazione, ma c'è una possibilità! Mentre gli abitanti di [This.GetName] salgono sulle navi da trasporto per lasciare questo [This.GetPlanetHabitat], si stanno aprendo innumerevoli fratture. Il punto di non ritorno si avvicina rapidamente."
+ situation.1090.desc.deify:0 "Forse la nostra arroganza è stata troppo grande. §Y[This.GetName]§! viene squarciato dall'interno mentre la §YTerrificante Massa Inversa§! è ancora rinchiusa su di esso. Se da un lato abbiamo imparato molto sulla dimensione del dolore puro, dall'altro la tensione sul mondo è stata immensa. Pochi sacerdoti credono ancora di poter purificare la massa, ma c'è una possibilità! Mentre gli abitanti di [This.GetName] salgono sulle navi da trasporto per lasciare questo [This.GetPlanetHabitat], si stanno aprendo innumerevoli fratture. Il punto di non ritorno si avvicina rapidamente."
+ situation.1090.a:0 "Abbiamo fatto troppa strada per vederla finire ora."
+ situation.1090.b:0 "Se ci fermiamo ora l'Anatema vince!"
+ situation.1090.c:0 "Sbarazzatevene, con ogni mezzo necessario!"
+ situation.1095.name:0 "Una Fine"
+ situation.1095.desc:0 "Il cielo è scomparso. Non è coperto da nuvole. È stato sostituito da un puro vuoto. Tutto ciò che rimane di §Y[This.GetName]§! è un pezzo di terra nell'oceano del nulla. Tutti coloro che sono rimasti su questo [This.GetPlanetHabitat] stanno soffrendo una pura agonia per ogni istante che passa. Abbiamo guadagnato più tempo possibile per i nostri specialisti. Una voce distorta e disturbata riecheggia dal mondo dell'aldilà §R"Sii ri-riTORNA da mee-."§!"
+ situation.1095.a:0 "Ora o mai più, [Owner.GetScientistPlural]!"
+ situation.1095.b:0 "Ora o mai più, sacerdoti!"
+ situation.1100.name:0 "Fuga dalla Fortezza"
+ situation.1100.desc:0 "Dopo aver sconfitto la Fortezza Enigmatica, una sezione di essa fluttuava nello spazio, così abbiamo deciso di portarla in [Target.Solar_System.GetName] per farne parte della nostra [Owner.GetParadeStudy]. Diversi [Owner.GetSpeciesNamePlural] sono scomparsi nelle profondità della §YCamera dalla Fortezza§! Da quando è arrivata su §Y[Target.GetName]§!, abbiamo avuto [Owner.GetTeamMemberPlural] che la esploravano quotidianamente, ma oggi qualcosa all'interno della struttura è cambiato. Le porte si sono ripiegate su sé stesse, lasciando ai nostri agenti solo pareti a strapiombo. Possiamo ancora comunicare con i [Owner.GetSpeciesNamePlural] intrappolati, ma non abbiamo un'idea chiara di come farli uscire senza danneggiare la struttura. Sembra che la Fortezza Enigmatica avesse un ultimo segreto."
+ situation.1100.a:0 "Non lasciate indietro nessun [Owner.GetSpeciesName]!"
+ situation.1100.b:0 "Non possiamo rischiare di distruggere la Camera."
+ situation.1100.c.auth:0 "Potremmo usare questa tecnologia per contenere i nostri indesiderabili."
+ situation.1100.c.regular:0 "La struttura viene allestita come una stanza dei puzzle da esplorare per i partecipanti alla sfilata."
+ situation.1100.c.gestalt:0 "Scoprite i segreti della camera!"
+
+ situation.1110.name:0 "Drenaggio Disastroso"
+ situation.1110.desc.base:0 "Il contenitore della §YGhiandola Venefica della Prole Vuoto§! ha avuto una perdita! Il veleno devastante ha avvelenato le nostre scorte di [Owner.GetWaterCoolantLower] su §Y[Target.GetName]§!, costringendoci a traghettare [Owner.GetWaterCoolantLower] da altri mondi per alleviare la siccità autoimposta."
+ situation.1110.desc.reg:1 "$situation.1110.desc.base$ Il veleno, che si è evoluto per inabilitare la Fauna Spaziale titanica e fondere i rivestimenti dello scafo, si è rivelato incredibilmente tossico per qualsiasi [Owner.GetSpeciesName] che lo abbia ingerito. $situation.1110.desc.end$"
+ situation.1110.desc.lithoid:1 "$situation.1110.desc.base$ Il veleno, che si è evoluto per inabilitare la Fauna Spaziale titanica e fondere i rivestimenti dello scafo, si è rivelato incredibilmente corrosivo per qualsiasi [Owner.GetSpeciesName] che lo abbia applicato sulla propria pelle sedimentaria. $situation.1110.desc.end$"
+ situation.1110.desc.machine:1 "$situation.1110.desc.base$ Il veleno, che si è evoluto per inabilitare la Fauna Spaziale titanica e fondere i rivestimenti dello scafo, ha dimostrato di interagire in modo corrosivo quando è stato esposto al nostro refrigerante. Tutte le unità che utilizzavano il refrigerante contaminato hanno smesso di funzionare rapidamente. $situation.1110.desc.end$"
+ situation.1110.desc.end:0 "Ora dobbiamo decidere come gestire questa crisi.\n\nEseguiamo una purificazione molecolare di tutto il DNA della Prole del Vuoto sul nostro [Target.GetPlanetHabitat], o filtriamo lentamente il veleno in modo da poter procedere con la [Owner.GetParadeStudy]?"
+ situation.1110.a:0 "Contenere la diffusione, ma non annullare la [Owner.GetParadeStudy]."
+ situation.1110.a.tooltip:0 "Mettere in pausa la [Owner.GetParadeStudy] finché il contaminante non viene eliminato."
+ situation.1110.b:0 "Purificate il pianeta dal contaminante e dalla sacca di veleno!"
+ situation.1110.b.tooltip:0 "Annullare la [Owner.GetParadeStudy] in favore di una rapida pulizia del pianeta."
+ situation.1115.name:0 "[Target.GetName] Purificato"
+ situation.1115.desc:1 "Dopo molti mesi di sforzi, la nostra fornitura di [Owner.GetWaterCoolantLower] su §Y[Target.GetName]§! è finalmente libera dal Contaminante della Prole del Vuoto. Non è stato uno sforzo sprecato, perché abbiamo imparato molto dalla xenobiologia presente nel nostro [Owner.GetWaterCoolantLower] ed ora siamo pronti a procedere con la [Owner.GetParadeStudy]. I nostri [Owner.GetScientistPlural] ora pensano di poter migliorare la vita su [Target.GetName] con queste scoperte, una volta conclusa la [Owner.GetParadeStudy]."
+
+ situation.1120.name:0 "L'Ultima Scintilla"
+ situation.1120.desc:1 "Le sonde di osservazione che abbiamo lasciato sul luogo della scomparsa definitiva del Divoratore Stellare riferiscono che porzioni del corpo hanno iniziato a fondersi di nuovo nella stella. L'energia sembra aver aumentato l'attività stellare, ma con la rimozione del §YContenitore dell'Uovo§!, i nostri calcoli dicono che non sarà sufficiente a riportare il sistema §Y[dead_stellarite.solar_system.GetName]§! al suo antico splendore. Se tornassimo indietro con la nostra nave da trasporto, potremmo ancora riaccendere la stella."
+ situation.1120.a:0 "Restituire il Contenitore dell'Uovo e vedere cosa si può fare."
+ situation.1120.a.tooltip:0 "Cancella la [Owner.GetParadeStudy] dando la preferenza al tentativo di riaccendere la stella di [dead_stellarite.system.GetName]."
+ situation.1120.b:0 "No, porteremo la sacca delle uova a [Target.GetName]."
+
+ situation.1125.name:0 "Orientamento Trasversale"
+ situation.1125.desc.base:0 "\n\nIl loro contenuto, milioni di minuscoli divoratori stellari, è mantenuto alla temperatura dello zero assoluto, cosa che li tiene docili e inerti finché non saranno pronti a essere introdotti nella stella primaria del sistema. La nave da trasporto dovrà restare in incognito per un po' mentre prosegue l'infiltrazione nella capitale [Target.GetSpeciesAdj]"
+ situation.1125.desc.binary:0 "La luce delle stelle gemelle [Target.GetAdj] scintillava sulla nostra nave da trasporto mentre questa entrava nel sistema [Target.capital_scope.Solar_System.GetName]. $situation.1125.desc.base$"
+ situation.1125.desc.trinary:0 "Il trio di luci che forma il cuore di [Target.GetName] scintillava sullo scafo della nostra nave da trasporto mentre questa entrava nel sistema [Target.capital_scope.Solar_System.GetName].$situation.1125.desc.base$"
+ situation.1125.desc.regular:0 "Dopo aver terminato la prima tappa del suo viaggio fino alla vivificante stella [Target.capital_star.GetName], la nostra nave trasporto si avventura ancora di più nello spazio di [Target.GetName].$situation.1125.desc.base$"
+
+ situation.1130.name:0 "Vecchi Codici"
+ situation.1130.desc:0 "La nave che trasporta i divoratori stellari ha passato i controlli di sicurezza del sistema, i codici che l'$role_spymaster$ [spynetwork.leader.GetName] ha recuperato sono stati cruciali per introdursi. I nostri agenti hanno iniziato la procedura di riscaldamento per risvegliare i neonati di Divoratore stellare. Si dirigeranno nuovamente verso la stella primaria del sistema, e questo sarà il viaggio finale della nave."
+
+ situation.1135.name:0 "Fuori dalla Nave Trasporto e Dentro il Plasma Ardente"
+ situation.1135.desc:0 "Abbiamo ricevuto risposta dall'$role_spymaster$ [spynetwork.leader.GetName]: è tutto pronto. I nostri agenti hanno già cominciato ad abbandonare la nave trasporto, lasciando solo l'equipaggio essenziale. Una volta che la nave raggiungerà la sua velocità FTL massima, anche quest'ultimo lascerà la nave appena prima di schiantarsi sulla stella primaria, in modo che non resti alcuna prova del fatto. \n\nI divoratori stellari sono piuttosto agitati. Se non cominciamo presto l'operazione, potrebbero farsi strada fino al serbatoio di carburante della nave."
+ 
+ situation.1140.name:0 "Infestazione Riuscita"
+ situation.1140.desc:0 "L'ultima traccia del nostro sabotaggio si è rapidamente sciolta dentro la corona stellare. I nostri sensori hanno preso fuoco subito dopo l'impatto, ma è stato sufficiente a confermare il successo dell'infestazione di §Y[From.target.capital_star.GetName]§!. \n\nForse abbiamo appena condannato un intero sistema solare a una morte crudele e spietata."
+ situation.1140.a:0 "Adesso aspettiamo."
+
+ situation.1145.name:0 "Energia Solare in Declino"
+ situation.1145.desc.base:1 "Stiamo riscontrando un ciclo solare insolitamente inattivo su [capital_star.GetName]. Le macchie solari hanno cifre senza precedenti per via della ridotta temperatura della nostra stella, causando una notevole diminuzione della radiazione solare."
+ situation.1145.desc.regular:1 "$situation.1145.desc.base$\n\nGli abitanti di [capital_scope.GetName] hanno iniziato ad accumulare coperte alimentate a fissione e ridotto al minimo gli spostamenti esterni. Con un po' di fortuna presto ritorneremo a temperature più calde."
+ situation.1145.desc.gestalt:1 "$situation.1145.desc.base$\n\nAbbiamo destinato più energia al budget del riscaldamento e dato istruzioni a tutti i droni di stringersi gli uni agli altri per mantenere il calore. Ce la faremo."
+ situation.1145.desc.wilderness: "$situation.1145.desc.base$\n\nSebbene questo sconvolgimento incuta timore nel profondo dei nostri istinti comuni, consapevoli dei danni che la nostra stella ha già causato in passato, noi resisteremo. Abbiamo destinato più energia al riscaldamento delle nostre abitazioni riparate e i nostri simbionti impareranno a stringersi l'uno all'altro per scaldarsi."
+ situation.1145.a:0 "Aprite al massimo i riscaldamenti."
+
+ situation.1150.name:0 "Grande Freddo"
+ situation.1150.desc:1 "La reazione a catena della fusione all'interno di [capital_star.GetName] continua a indebolirsi ormai da troppo tempo. A causa della minore quantità di radiazioni si stanno verificando disastri ecologici su [capital_scope.GetName], e se la situazione continua così potremmo trovarci di fronte a un'era glaciale. Tutte le stazioni e gli altri centri residenziali nel sistema stanno soffrendo per problemi simili. I nostri [owner.GetScientistPlural] sono certi che ci sia sotto qualcosa di anomalo e desiderano studiare [capital_star.GetName]."
+ situation.1150.a:0 "Scoprite cosa sta succedendo!"
+
+ situation.1160.name:0 "Parassiti Scoperti"
+ situation.1160.desc:0 "§R[capital_star.GetName] è infestata da piccoli divoratori stellari!§! Non abbiamo idea di come questi neonati di leviatano siano riusciti ad arrivare alla nostra stella, dato che non hanno alcuna capacità superluminale. Più tardi ci occuperemo di queste domande. adesso dobbiamo scoprire un modo per fermare i parassiti prima che la nostra capitale congeli."
+ situation.1160.a:0 "Be', tirateli fuori di lì!"
+
+ situation.1170.name:1 "[Target.GetName] Estinto"
+ situation.1170.desc.base:1 "Oggi è stato un giorno terribile per [owner.GetName], perché la stella del nostro sistema capitale, §Y[target.GetName]§! si è spenta. L'evacuazione di molti milioni di abitanti ha attenuato solo leggermente il colpo. La nostra capitale è per sempre perduta a causa di una nuova, permanente era glaciale. [target.GetName] stessa si è contratta diventando una nana bruna, il che vuol dire che la vita rimasta nel sistema solare sarà per sempre diminuita."
+ situation.1170.desc.notknows:0 "$situation.1170.desc.base$\nSfortunatamente, l'inspiegabile evento che ha portato i divoratori stellari nel nostro sistema resterà un mistero. Adesso dobbiamo ricostruire."
+ situation.1170.desc.knows:0 "$situation.1170.desc.base$\nOra sappiamo che questi divoratori sono stati introdotti intenzionalmente nel nostro sistema dai §Y[star_infesters.GetName]§! e adesso dovranno soffrire."
+ situation.1170.a:0 "Una tragedia terribile."
+ situation.1170.b:0 "Gli [star_infesters.GetName] la pagheranno."
+
+ #Modifiers
+
+ ether_trophy:0 "$drakes_scale$"
+ ether_trophy_desc:0 "La zanna di un §YDrago Etereo§! è il pezzo forte della capitale di questo mondo."
+ studying_decaying_fang:0 "Lo studio della zanna in via di decadimento"
+ studying_decaying_fang_desc:0 "Studiare la zanna del §YDrago Etereo§! mentre si decompone a contatto con la nostra atmosfera ci fornisce informazioni su ciò che esisteva qui prima di questo universo."
+
+ all_seeing_shard:0 "La Scheggia che Tutto Vede"
+ all_seeing_shard_desc:0 "Grazie alla sacrilega fusione di macchina e xenobiologia, la base stellare di questo sistema ha potenzialità molto superiori rispetto a quel che normalmente riusciremmo a fare"
+ shard_trophy:0 "$eye_of_the_shard$"
+ shard_trophy_desc:0 "Sotto il vigile occhio della §YScheggia§! la popolazione di questo mondo sembra lavorare più duramente."
+
+ dread_trophy:0 "$dreadnoughts_reactor$"
+ dread_trophy_desc:0 "Un reattore della §YDreadnought automatizzata§! fornisce parte dell'energia a questo mondo."
+ reactor_overdrive:0 "Sovraccarico del Reattore"
+ reactor_overdrive_desc:0 "Un temporaneo aumento di produzione dal reattore della §YDreadnought automatizzata§! sta migliorando la resa di ogni lavoro su questo mondo."
+
+ tiyanki_trophy:0 "$matriarchs_flagella$"
+ tiyanki_trophy_desc:0 "I flagelli della §YMatriarca Tiyanki§!, inizialmente inerti, hanno iniziato a generare copie degli abitanti di questo mondo."
+ burnt_tiyanki_trophy:0 "Bruciate i $matriarchs_flagella$"
+ burnt_tiyanki_trophy_desc:0 "I resti cauterizzati dei §YFlagelli della Matriarca Tiyanki§! adornano la capitale di questo mondo."
+
+ sky_dragon_trophy:0 "$sky_dragons_plume$"
+ sky_dragon_trophy_desc:1 "Le proprietà antigravitazionali del §YDrago del cielo§! ci garantiscono più spazio abitabile sul pianeta e forniscono informazioni scientifiche sul fenomeno."
+
+ scavenger_trophy:0 "$scavenger_bots_compactor$"
+ scavenger_trophy_desc:0 "Il compattatore del §YRobot Spazzino§! ci aiuta a ottimizzare i nostri processi metallurgici."
+
+ wraith_trophy:0 "$wraiths_energy_disperser$"
+ wraith_trophy_desc:0 "Le luci pulsanti provenienti dalla sacca del Diffusore sono molto gradevoli e rilassanti."
+ infused_atmosphere:0 "Atmosfera Saturata"
+ infused_atmosphere_desc:0 "Quest'atmosfera è stata saturata dall'energia naturale dello Spettro, che rende il bombardamento orbitale meno efficace."
+
+ horror_study_trophy:0 "$horrific_inverse_mass$"
+ horror_study_trophy_desc:0 "I resti di un essere da un'altra dimensione; anche solo la sua presenza su questo mondo sembra un'offesa al naturale ordine delle cose."
+ horror_deify_trophy:0 "$horrific_inverse_mass$"
+ horror_deify_trophy_desc:0 "$horror_study_trophy_desc$"
+ horror_study_trophy2:0 "$horrific_inverse_mass$ destabilizzata"
+ horror_study_trophy2_desc:0 "La massa inversa ha avuto poche interazioni con la nostra dimensione e sembra tentare attivamente di distruggere il nostro mondo."
+ horror_deify_trophy2:0 "$horror_study_trophy2$"
+ horror_deify_trophy2_desc:0 "$horror_study_trophy2_desc$"
+ horror_too_late:0 "§RTROPPO TARDI§!"
+ horror_too_late_desc:0 "Abbiamo aspettato troppo. il destino di questo mondo non è più nelle nostre mani."
+ horror_stabilized:0 "$horrific_inverse_mass$ Stabilizzata"
+ horror_stabilized_desc:0 "È accaduto un miracolo su [Root.GetName]: contro ogni previsione la §YMassa Inversa§! si è stabilizzata e adesso può essere studiata senza alcun pericolo."
+
+ fortress_trophy:0 "$fortress_hull_plates$"
+ fortress_trophy_desc:0 "Questo [This.GetPlanetHabitat] ospita una Camera proveniente dalla Fortezza Enigmatica, capace di riplasmarsi a seconda di qualsiasi cosa vogliano gli abitanti, il più delle volte."
+
+ voidspawn_contaminant:0 "Contaminazione da Prole del Vuoto"
+ voidspawn_contaminant_desc:0 "Questo pianeta è stato inquinato dalla $voidspawns_chitin$ e ora deve essere ripulito."
+ voidspawn_trophy:0 "$voidspawns_chitin$ eliminata"
+ voidspawn_trophy_desc:0 "La ghiandola velenifera del Vuoto, ora purificata, adorna questo pianeta. Dopo una perdita iniziale che ha impedito di esibirla, ora è visibile a tutti."
+
+ stellar_devourer_trophy:0 "$devourers_plasma$"
+ stellar_devourer_trophy_desc:0 "L'ultima serie di uova di Divoratore Stellare in tutta la galassia."
+ stellar_devourer_operation_trophy:0 "§HCi permette di condurre l'operazione §Y$operation_consume_star$§!.§!"
+
+ low_stellar_output_1:0 "Bassa Radiazione Solare"
+ low_stellar_output_1_desc:0 "Questo pianeta risente di una radiazione insolitamente bassa dalla sua stella, cosa che rende la vita piuttosto disagevole."
+ low_stellar_output_2:0 "$low_stellar_output_1$"
+ low_stellar_output_2_desc:0 "Questo pianeta sta subendo una drastica riduzione della produzione solare da parte della sua stella."
+ low_stellar_output_3:0 "$low_stellar_output_1$"
+ low_stellar_output_3_desc:0 "Questo pianeta sta subendo una pericolosa riduzione della produzione solare dalla sua stella, a causa di una infestazione dei Divoratori Stellari."
+
+ #Projects
+
+ STELLARITE_INFESTED_STAR_PROJECT:0 "Bisogna trovare una cura per l'infestazione dei Divoratori Stellari"
+ STELLARITE_INFESTED_STAR_PROJECT_DESC:0 "§Y[This.GetName]§! è stato infestata dai Divoratori Stellari. Non sappiamo da dove provengano, ma devono essere rimossi al più presto, altrimenti la vita nel sistema potrebbe finire."
+
+ #Scripted Loc
+ xenophobe_parade:0 "Epurazione di [Root.GetLeviathanTargetName]"
+ xenophile_biological_parade:0 "Un Saluto per [Root.GetLeviathanTargetName]"
+ xenophile_mechanical_parade:0 "Sfortunata Immobilizzazione di [Root.GetLeviathanTargetName]"
+ materialist_biological_parade_science:0 "La dissezione di [Root.GetLeviathanTargetName]"
+ materialist_biological_parade_trophy:0 "Una Gloriosa acquisizione del trofeo [Root.GetTrophyName]"
+ materialist_mechanical_parade:0 "Oltrepassare [Root.GetLeviathanTargetName]"
+ spiritualist_biological_parade_reject:0 "Eradicazione dell'Anatema [Root.GetLeviathanTargetName]"
+ spiritualist_biological_parade_accept:0 "Deicidio di [Root.GetLeviathanTargetName]"
+ spiritualist_mechanical_parade:0 "Sterminio dei Senz'Anima [Root.GetLeviathanTargetName]"
+ authoritarian_parade:0 "Dominazione su [Root.GetLeviathanTargetName]"
+ egalitarian_biological_parade:0 "La Minaccia [Root.GetLeviathanTargetName] è stata eliminata"
+ egalitarian_mechanical_parade:0 "La Minaccia [Root.GetLeviathanTargetName] è stata disassemblata"
+ militarist_parade:0 "[Owner.GetAdj] Trionfo su [Root.GetLeviathanTargetName]"
+ pacifist_biological_parade:0 "La deplorevole distruzione di [Root.GetLeviathanTargetName]"
+ pacifist_mechanical_parade:0 "La Sicurezza di [Owner.GetAdj] da [Root.GetLeviathanTargetName]"
+ hive_biological_parade:0 "Eliminazione dell'Ostinato [Root.GetLeviathanTargetName]"
+ hive_mechanical_parade:0 "Distruzione del Costrutto [Root.GetLeviathanTargetName]"
+ machine_biological_parade:0 "Pacificazione dell'Unità [Root.GetLeviathanTargetName]"
+ machine_mechanical_parade:0 "Dichiarazione della Costruzione Inferiore [Root.GetLeviathanTargetName]"
+
+ drakes_scale:0 "La Zanna di Drake"
+ eye_of_the_shard:0 "L'Occhio di Scheggia"
+ matriarchs_flagella:0 "Il Flagello della Matriarca"
+ voidspawns_chitin:0 "La Ghiandola Velenosa della Creatura del Vuoto"
+ wraiths_energy_disperser:0 "Il Sacco Dissipatore degli Spettri"
+ devourers_plasma:0 "La Sacca D'Uovo del Divoratore"
+ horrific_inverse_mass:0 "L'Orribile Massa Avversa"
+ dreadnoughts_reactor:0 "Il Reattore di Dreadnought"
+ fortress_hull_plates:0 "La Camera della Fortezza"
+ scavenger_bots_compactor:0 "Il Compattatore del Robot Spazzino"
+ sky_dragons_plume:0 "La Piuma del Drago del Cielo"
+
+ scripted_SHARD:0 "Scheggia"
+ scripted_SKY_DRAGON:0 "Drago del Cielo"
+ scripted_WORM:0 "Verme"
+ scripted_ELDER_ONE:0 "Il Primo Anziano"
+
+ habitat_lowercase:0 "habitat"
+ ringworld_lowercase:0 "pianeta ad anello"
+ planetmoon:0 "[This.GetPlanetMoon]"
+
+ sensor_operatior:0 "operatori di sensori"
+ sensory_drones:0 "i droni sensori"
+ sensory_symbionts: "simbionti di sensori"
+ observation_subroutines:0 "subroutine di osservazione"
+
+ parade:0 "sfilata"
+ study:0 "studio"
+
+ water_upper_case:0 "Acqua"
+ water_lower_case:0 "acqua"
+ coolant_upper_case:0 "Liquido di raffreddamento"
+ coolant_lower_case:0 "liquido di raffreddamento"
+
+#Decisions
+
+ incinerate_the_flagella:0 "Incenerire Il Flagello"
+ incinerate_the_flagella_desc:0 "Il flagello ripugnante deve sparire."
+
+#Operations
+
+ operation_consume_star:0 "Consumare la Stella"
+ operation_consume_star_desc:0 "Con il $devourers_plasma$ all'interno del nostro impero, abbiamo accesso a un'orda di piccoli Divoratori Stellari. Dobbiamo solo decidere quale stella consumare."
+ operation_consume_star_on_success:1 "$IF_SUCCESSFUL|E$\nInfesta la capitale stellare [target.GetName] con i Divoratori Stellari, che la consumeranno lentamente."
+ operation_consume_star_black_hole:0 "La capitale dell'impero orbita attorno ad un buco nero, lasciando ai nostri Divoratori Stellari nulla da mangiare."
+ operation_consume_star_no_dysonsphere:0 "Non possiamo raggiungere la stella perché è racchiusa all'interno di una Sfera di Dyson."
+ operation_consume_star_already_know:0 "Questo impero ha capito come contrastare i nostri Divoratori Stellari."
+ operation_consume_star_already_infested:0 "La stella capitale di questo impero è già stata infestata dai Divoratori Stellari."
+
+ #Casus Belli
+
+ casus_belli_cb_revenge_for_eaten_star:1 "Hanno Divorato la Nostra Stella"
+ war_goal_wg_revenge_for_eaten_star:0 "$casus_belli_cb_revenge_for_eaten_star$"
+ war_goal_wg_revenge_for_eaten_star_desc:0 "Stiamo combattendo questa guerra per sconfiggere completamente il nemico del quale hanno divorato la nostra stella."
+ casus_belli_cb_end_threat_revenge_for_eaten_star:0 "Hanno Divorato la Loro Stella"
+ war_goal_wg_end_threat_revenge_for_eaten_star:0 "$casus_belli_cb_end_threat_revenge_for_eaten_star$"
+ war_goal_wg_end_threat_revenge_for_eaten_star_desc:0 "Stiamo combattendo questa guerra per sconfiggere completamente il nemico del quale abbiamo divorato la loro stella."
+ 
+
+ ### The Kaleidoscope
+ ### By Giada Zavarise
+
+ ## Situation
+ situation_kaleidoscope: "Il Caleidoscopio"
+ situation_kaleidoscope_type: "Il Caleidoscopio"
+ situation_kaleidoscope_desc: "Un colorato parassita energetico sta infettando la nostra rete elettrica, banchettando con le nostre scorte di energia. Potremmo assecondarlo, oppure usare un'§YOperazione di Spionaggio§! per trasferire il problema a un altro impero.\n\n[GetKaleidoscopeMood]."
+ situation_kaleidoscope_monthly_change_tooltip: "Affamare il §HCaleidoscopio§! abbasserà il suo §Yumore§!, aumentando la possibilità di eventi negativi. Nutrirlo lo aumenterà, mantenendolo calmo e placido."
+
+ situation_unknown_outcome_kaleidoscope: "L'§Yumore§! del Caleidoscopio determinerà il risultato finale"
+
+ approach_no_food: "Non dargli da mangiare"
+ approach_no_food_tooltip: "Abbassa l'§Yumore§. Un Caleidoscopio affamato si scatenerà e ci darà problemi."
+ approach_little_food: "Nutrilo"
+ approach_little_food_tooltip: "Migliora l'§Yumore§. Un Caleidoscopio sazio produrrà luci piacevoli e pochi problemi."
+ approach_a_lot_of_food: "Sovralimentalo"
+ approach_a_lot_of_food_tooltip: "Migliora notevolmente l'§Yumore§. Un Caleidoscopio troppo pieno non ci darà problemi, ma ci costerà caro."
+ kaleidoscope_progress: "Sovraccarico"
+
+ # Strings for GetKaleidoscopeMood trigger loc script
+ kaleidoscope_mood_angry: "Il Caleidoscopio è §Parrabbiato§! e pronto a scatenarsi in qualsiasi momento"
+ kaleidoscope_mood_neutral: "Il Caleidoscopio è §Ssereno§. Finché riceve cibo, non dovrebbe comportarsi male."
+ kaleidoscope_mood_happy: "Il Caleidoscopio è §BGioioso§! I suoi colori sono splendidi come il suo umore."
+
+ ## Modifiers
+ global_power_outrage: "Interruzione Globale dell'Alimentazione"
+ phantom_load: "In Standby" # Note for translators: it's a real term used for when devices in standby still consume a little energy https://en.wikipedia.org/wiki/Standby_power
+ phantom_load_desc: "Qualcosa, o qualcuno, sta prosciugando la nostra rete elettrica."
+
+ kaleidoscope_unnerving_patterns: "Modelli Snervanti"
+ kaleidoscope_ominous_patterns: "Modelli Minacciosi"
+ kaleidoscope_pilfering_patterns: "Modelli Ossessionanti"
+ kaleidoscope_soothing_patterns: "Modelli Tranquillizzanti"
+ kaleidoscope_dazzling_patterns: "Modelli Abbaglianti"
+
+ mod_trade_routes_energy_produces_mult: "Energia dal Commercio"
+
+ ## Relic
+ r_vacuum_flower: "Fiore del Vuoto"
+ r_vacuum_flower_desc: "Il fiore del Caleidoscopio è una fragile florescenza di petali in continuo movimento, che possiede la capacità di manipolare, assorbire e riflettere le onde luminose."
+ relic_vacuum_flower_active: "Conferisce un bonus di produzione di risorse diverso a seconda della §YClasse Stellare§! del vostro sistema capitale."
+
+ relic_vacuum_flower_B: "Stella Fiorente (Classe B)"
+ relic_vacuum_flower_A: "Stella Fiorente (Classe A)"
+ relic_vacuum_flower_F: "Stella Fiorente (Classe F)"
+ relic_vacuum_flower_G: "Stella Fiorente (Classe G)"
+ relic_vacuum_flower_K: "Stella Fiorente (Classe K)"
+ relic_vacuum_flower_M: "Stella Fiorente (Classe M)"
+ relic_vacuum_flower_M_giant: "Stella Fiorente (Classe M Gigante Rossa)"
+ relic_vacuum_flower_T_dwarf: "Stella Fiorente (Classe T Nana Bruna)"
+ relic_vacuum_flower_pulsar: "Stella Fiorente (Pulsar)"
+ relic_vacuum_flower_black_hole: "Stella Fiorente (Buco Nero)"
+ relic_vacuum_flower_neutron: "Stella Fiorente (Stella di Neutroni)"
+ relic_vacuum_flower_lightbringer: "Stella Fiorente (Portatore di luce Viridescente)"
+ relic_vacuum_flower_rift_star: "Stella Fiorente (Antica Frattura)"
+ relic_vacuum_flower_crisis_star: "Stella Fiorita (Stella della Crisi)"
+ relic_vacuum_flower_crisis_empire_star: "$relic_vacuum_flower_crisis_star$"
+
+ dyson_sphere_disco: "Sfera delle Meraviglie"
+ dyson_sphere_disco_DESC: "Non produce energia. Solo bellezza."
+ dyson_sphere_disco_restored: "$dyson_sphere_disco$"
+ dyson_sphere_disco_restored_DESC: "$dyson_sphere_disco_desc$"
+
+
+ ## Intro
+ # The Kaleidoscope appears on your capital
+ situation.2003.name: "Colore Fuori nello spazio"
+ situation.2003.desc: "Quello che la nostra gente ha visto dall'orbita è stato l'oscurarsi di §H[capital_scope.GetName]§!, ogni fonte di luce all'interno della città si è spenta in un colpo solo. Quello che la gente su §H[capital_scope.GetName]§! ha sperimentato è stato molto peggio: veicoli ridotti a blocchi stradali, fabbriche ferme, attrezzature ospedaliere inerti e senza vita. Un blackout mondiale, tanto improvviso quanto inspiegabile.\n\nMentre il silenzio e le ombre velavano il nostro pianata, strani disegni di luce sbocciavano nel cielo, avvolgendo il nostro sistema capitale in una nebbia caleidoscopica. I due eventi sono senza dubbio collegati, ma i nostri [root.GetTechnicianPlural] sono ancora letteralmente al buio."
+ situation.2003.a: "Ripristinare la nostra rete elettrica."
+
+ # Notify other countries about the Kaleidoscope
+ situation.2004.name: "$situation.2003.name$"
+ # first time
+ situation.2004.desc: "I nostri sensori segnalano l'apparizione di motivi luminosi caleidoscopici nel sistema §H[kaleidoscope_system.GetName]§!. La natura del fenomeno non è chiara."
+ # moved again
+ situation.2004.desc.again: "L'apparizione caleidoscopica osservata in precedenza si è spostata nel sistema §H[kaleidoscope_system.GetName]§!."
+
+ # Project - mid-event
+ situation.2005.name: "Blackout"
+ situation.2005.desc: "Non riusciamo a trovare alcun difetto nella nostra rete elettrica. I nostri generatori producono energia, ma qualcosa la sta... assorbendo. Potrebbe essere il risultato degli schemi di luce osservati nei nostri cieli, la cui natura geometrica tradisce un design intelligente.\n\nÈ questa cosa, questo §YKaleidoscope§! vivente, un'entità maligna o solo una nebbia senza cervello? La risposta non è chiara."
+ situation.2005.a: "Tentate di staccarlo dalla nostra rete elettrica."
+
+ # Project - end (first time)
+ situation.2010.name: "Processo di Ripristino" # Translators note: https://en.wikipedia.org/wiki/Black_start
+ situation.2010.desc: "Grazie allo sforzo coordinato dei nostri [owner.GetTechnicianPlural] e [owner.GetScientistPlural], il parassita dell'energia è stato rimosso dalla nostra rete elettrica. La nostra notte più lunga è finita, ma §YIl Caleidoscopio§! brilla ancora su di noi, affamato di energia.\n\nNon abbiamo modo di comunicare con lui e le armi convenzionali non funzionano con un essere di questo tipo. Le opzioni che ci restano sono nutrirlo quanto basta per placarlo o cercare di farlo morire di fame. I nostri agenti hanno anche suggerito di organizzare un'§YOperazione di Spionaggio§! per attirarlo verso un altro impero. Lasciamo che se ne occupi qualcun altro."
+ situation.2010.desc.again: "Ciò che i nostri uomini hanno visto dall'orbita è stata la ripetizione di uno schema familiare: tutta l'energia su §H[capital_scope.GetName]§! si è spenta, la nostra capitale è stata colpita da un blackout mondiale mentre luci scintillanti danzavano nel cielo.\n§YIl Caleidoscopio§! è tornato! Il parassita energetico che una volta abbiamo imposto agli altri è stato rispedito a noi.\n\nSecondo i nostri esperti, investire in un §Y$building_planetary_shield_generator$§! impedirà alla nostra capitale di essere presa di nuovo di mira, ma per ora è troppo tardi: il parassita energetico è qui per restare."
+ situation.2010.a: "Il mostro innaturale non ha spazio nel nostro sistema!"
+ situation.2010.b: "Dobbiamo fare amicizia con questa meravigliosa creatura!"
+ situation.2010.c: "Vuole energia? Lasciamola soffocare."
+ situation.2010.tooltip: "Sblocca l'Operazione di Spionaggio §Y$operation_kaleidoscope$§!"
+
+ # Project - end (subsequent times)
+ situation.2011.name: "$situation.2010.name$"
+ situation.2011.desc: "Seguendo le nostre procedure collaudate e testate, abbiamo staccato il Caleidoscopio dalla rete energetica di §H[root.GetName]§! e ripristinato l'energia elettrica nella nostra capitale."
+
+ ## Espionage Operation
+ # Operation - phase 1
+ situation.2020.name: "Infiltrati nella Rete Energetica"
+ situation.2020.desc: "Fingendosi tecnici, i nostri agenti si sono infiltrati con successo nei distretti energetici di §H[target.GetName]§!. Il loro prossimo compito è quello di installare un radiofaro per attirare il parassita energetico sul pianeta."
+
+ # Operation - phase 2
+ situation.2021.name: "Cieli Sereni"
+ situation.2021.desc: "Le luci si sono spente dai nostri cieli, annunciando per la prima volta ciò che i nostri agenti dello spionaggio hanno poi confermato: i nostri operatori hanno attivato il radiofaro energetico, attirando §Yil Caleidoscopio§!!\n\nLasciate che ora se ne occupi §H[target.GetName]§!."
+
+ situation.2025.name: "Scaricare il Problema"
+ situation.2025.desc: "Secondo i nostri rapporti di spionaggio, §H[kaleidoscope_new_owner.GetName]§!, sta attualmente soffrendo di una carenza di energia. Il §YCaleidoscopio§! che gli abbiamo regalato sembra essere la causa principale dei suoi problemi economici."
+
+ ## Random events
+ # Negative 1 - infests another planet
+ situation.2030.name: "Infestazione Minore"
+ situation.2030.desc: "Un Caleidoscopio affamato ha affondato i suoi metaforici denti nella rete energetica di §H[event_target:infested_planet.GetName]§!. Il conseguente blackout a livello di colonia è stato drammatico, ma non dissimile dagli attacchi precedenti. Sappiamo come affrontarlo."
+
+ # Negative 2 - eats energy building
+ situation.2031.name: "Electroshock"
+ situation.2031.desc: "Un famelico Caleidoscopio sta cercando di collegarsi con la forza a uno dei nostri §YNexus Energetici§! su §H[target.GetName]§!. Questo rappresenta una notevole opportunità per studiare le capacità uniche dell'essere, ma prevediamo che l'edificio sarà gravemente danneggiato come risultato."
+ situation.2031.a: "Lasciate che si nutra della nostra energia. Per la scienza!"
+ situation.2031.b: "Recuperate un po' di energia"
+
+ # Negative 3 - unnerving patterns (- pop happiness)
+ situation.2032.name: "Modelli Snervanti"
+ situation.2032.desc: "Il Caleidoscopio trema nervosamente, riempiendo i nostri cieli con schemi di luce stridenti e irregolari. La nostra gente non può fare a meno di trovare lo spettacolo snervante"
+
+ # Negative 4 - ominous patterns (spiritualists)
+ situation.2033.name: "Modelli Infausti"
+ situation.2033.desc: "Il Caleidoscopio pulsa come una ferita aperta, riempiendo i nostri cieli di schemi minacciosi e malati. I nostri sacerdoti lo ritengono un cattivo presagio. Potrebbe essere saggio sacrificare un po' di energia alla creatura, per placare la sua fame e le paure del nostro popolo."
+ situation.2033.a: "Offrite energia al Caleidoscopio."
+ situation.2033.b: "Non ci piegheremo alla sua volontà."
+
+ # Negative 5 - slow ships
+ situation.2034.name: "Modelli di Furto"
+ situation.2034.desc: "Affamato di energia, il Caleidoscopio ha imparato a sottrarre energia alla nostra flotta. Il consumo di energia è minimo, ma ha un impatto rilevabile sulla velocità delle nostre navi."
+
+ # Positive 1 - soothing patterns (unity)
+ situation.2037.name: "Modelli Rilassanti"
+ situation.2037.desc: "Un caleidoscopio felice riempie i cieli di [owner.capital_scope.GetName] con forme piacevoli, frattali che si fondono con altri frattali in ondate di meraviglia in continua evoluzione.\n\nIl pianeta si ferma. Ammira. Respira. "
+
+ # Positive 2 - dazzling patterns (science)
+ situation.2038.name: "Modelli Accecanti"
+ situation.2038.desc: "Gli schemi mutevoli del Caleidoscopio potrebbero essere una forma di comunicazione? O sono un processo autonomo, più simile alla respirazione? I nostri [root.GetScientistPlural] non hanno ancora una risposta. Il Caleidoscopio ci sta fornendo una quantità inestimabile di dati scientifici."
+
+ ## Endings
+ # Kaleidoscope explodes! - Good ending
+ situation.2041.name: "Caleidoscopio Fiorito"
+ situation.2041.desc: "Abbiamo avuto la fortuna di assistere al più splendido spettacolo di luci della galassia: petali caleidoscopici che si ripiegano su se stessi, fioriscono, esplodono! Tuttavia, i nostri strumenti raccontano una storia meno trionfale.\n\nL'essere energetico è diventato così pieno di energia che è collassato su se stesso come una stella morente. Dalla devastazione, le nostre sonde hanno recuperato un ammasso cristallino, dalla forma molto simile a un fiore sbocciato. Secondo studi preliminari, il 'fiore' può ingrandire l'intensità del più debole raggio di luce, infrangendo alcune leggi fisiche conosciute. I nostri [root.owner.GetScientistPlural] ipotizzano che il fiore sia solo la parte visibile di un costrutto più grande: una casa di specchi multidimensionale in cui i raggi di luce vengono riflessi e ricombinati all'infinito."
+
+ # Kaleidoscope explodes! - Good ending - Notifying other countries
+ situation.2042.name: "$situation.2041.name$"
+ situation.2042.desc: "I sensori segnalano che il modello caleidoscopico nel sistema §H[kaleidoscope_system.GetName]§! è appena sbocciato, scomparendo in un'esplosione finale di motivi colorati. Deve essere stato un bello spettacolo."
+
+ # Kaleidoscope explodes! - Bad ending
+ situation.2043.name: "Caleidoscopio Esplosivo"
+ situation.2043.desc: "Quando il Caleidoscopio si è ripiegato su se stesso, solo per un secondo, è sembrato il più delicato dei fiori cristallini. Tuttavia, l'esplosione che ne è seguita è stata tutt'altro che delicata: un boom corrusco che ha incenerito il sistema e sovraccaricato tutti i nostri dispositivi elettronici, friggendo la nostra rete energetica.\n\nRiparazioni già in corso, ma ci vorrà del tempo prima che ci abituiamo al nuovo cielo vuoto."
+
+ # Kaleidoscope explodes! - Bad ending - Notifying other countries
+ situation.2044.name: "$situation.2043.name$"
+ situation.2044.desc: "I sensori segnalano che il modello caleidoscopico nel sistema §H[kaleidoscope_system.GetName]§! è appena esploso, rilasciando un'onda d'urto di energia che ha indubbiamente danneggiato ogni struttura del sistema."
+
+ # Kaleidoscope fades away - owner
+ situation.2040.name: "Cieli sereni"
+ situation.2040.desc: "Dopo un'ultima esplosione di motivi rossi e ondulati, il Caleidoscopio è svanito, i suoi viticci colorati si sono dissipati come nebbia.\n\nDopo tanto tempo trascorso sotto le sue luci, i nostri cieli sembrano quasi vuoti."
+
+ # Kaleidoscope fades away - notifying other countries
+ situation.2045.name: "Cieli Sereni"
+ situation.2045.desc: "I sensori segnalano che il disegno caleidoscopico rilevato nel sistema [kaleidoscope_system.GetName] è svanito."
+
+ # Kaleidoscope could get a Dyson sphere?
+ situation.2048.name: "Fame Infinita"
+ situation.2048.desc: "Il Caleidoscopio si è dimostrato un vicino stranamente amichevole, ma mantenerlo sazio si è rivelato una sfida. Una Sfera di Dyson potrebbe placare la sua infinita sete di energia?"
+ situation.2048.a: "Modificate una Sfera di Dyson per il Caleidoscopio."
+ situation.2048.a.tooltip: "Sblocca un nuovo aggiornamento della Sfera Dyson."
+ situation.2048.b: "Non possiamo risparmiare l'energia."
+
+ # DiScO EnDiNg
+ situation.2049.name: "Sfera delle Meraviglie"
+ situation.2049.desc: "Il Caleidoscopio si è agganciato alla Sfera di Dyson modificata che gli abbiamo fornito, consumando l'energia di una stella ed estendendo i suoi petali colorati fino ad abbracciare l'intero sistema. Secondo i nostri dati, l'essere energetico si trova ora in uno stato di sovraccarico costante e controllato, in cui crescono continuamente nuovi germogli e scoppiano in un ciclo infinito simile alla morte e alla rinascita.\n\nNon sappiamo se l'essere sia in grado di pensare, ma speriamo che la sua esistenza sia ora piacevole come gli schemi di luce che produce."
+
+
+ ## Projects and Operations
+ # Project (first time)
+ KALEIDOSCOPE_INFESTATION_FIRST: "Interruzione di Corrente"
+ KALEIDOSCOPE_INFESTATION_FIRST_DESC: "Un guasto globale alla rete energetica ha gettato la nostra capitale nell'oscurità totale. Dobbiamo ripristinare l'infrastruttura elettrica di §H[root.GetName]§! e determinare cosa sta accadendo."
+
+ # Project (following times)
+ KALEIDOSCOPE_INFESTATION: "Colore Vivido"
+ KALEIDOSCOPE_INFESTATION_DESC: "Ancora una volta, il Caleidoscopio si è agganciato alla nostra rete elettrica, consumando la nostra energia e facendo sprofondare il pianeta nell'oscurità.\n\nPer fortuna, ora sappiamo come reagire."
+
+ # Espionage Operation
+ operation_kaleidoscope: "Attirare il Caleidoscopio"
+ operation_kaleidoscope_desc: "Impostando un radiofaro nei distretti energetici di un altro impero, possiamo inviare l'essere energetico a infettare un'altra potenza galattica."
+ operation_kaleidoscope_shielded_world: "La loro capitale è protetta da un §Y$building_planetary_shield_generator$§!."
+ operation_kaleidoscope_previous_owner: "Non ci permetteranno di superare la loro sicurezza così presto."
+ operation_kaleidoscope_on_success: "$IF_SUCCESSFUL|E$\nIl Caleidoscopio verrà passato su [root.target.GetName], infettando la loro capitale."

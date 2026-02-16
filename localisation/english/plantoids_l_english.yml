@@ -1,0 +1,335 @@
+﻿l_english:
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ PLANTOID_TITLE: "Plantoids Species Pack" # Do not translate
+ DLC_PLANTOID_RECOMMENDATION_DESC:1 "§SPlantoid Species Pack§! è un DLC che contiene ritratti di piante senzienti, che mettono radici in tutta la galassia."
+ DLC_PLANTOID_RECOMMENDATION_PLANTS_REC:1 "Raccomandiamo §SPlantoid Species Pack§! perché questo impero si adatta al suo tema botanico."
+
+ ### Fruitful Partnership Origin
+ ## By Giada Zavarise
+
+ feeding_station: "Giardino dei Frutti"
+ feeding_station_plural: "Giardini dei Frutti"
+
+ origin_fruitful: "Collaborazione Fruttuosa"
+ origin_fruitful_desc: "Questa civiltà verdeggiante ha sviluppato una sinergia unica con la fauna spaziale. Offrendo i loro frutti a queste creature, le invogliano a disperdere i semi in modo da favorire i loro sforzi di colonizzazione."
+ origin_tooltip_fruitful_effects: "- Fauna Spaziale: Disperde i ['concept_seed_pod', Baccelli di Semi] in tutta la galassia \n- $AVAILABLE_STARBASE_BUILDINGS$ ['concept_sm_feeder', Giardini dei Semi Stellari] \n- $AVAILABLE_BOMBARDMENT_STANCE$ ['concept_seed_bombing' ]\n- $HOME_SYSTEM$ ['concept_tiyanki' ] in un sistema vicino"
+ civic_tooltip_hive_xenophile_or_pacifist: "Deve essere almeno §YXenofilo§!, §YPacifista§!, o §YCoscienza Gestalt§!"
+
+ START_SCREEN_FRUITFUL_PLANTOID: "Se le vostre radici sono profonde, ma il vostro spirito è inquieto, lasciate che altri portino via i vostri dolori. Lasciate che gli animali annusino i vostri fiori, si nutrano dei vostri frutti e si bagnino all'ombra delle vostre foglie. Lasciate che portino polline e semi in terre lontane, in modo che la vostra prole possa seppellire le proprie radici in terra straniera. E quando il vento vi farà sentire il fruscio delle foglie, saprete che i vostri figli hanno trovato una nuova casa.\n\nDa tempo immemorabile, collaboriamo con la fauna locale per diffondere la nostra specie nel pianeta [GetHomeWorldName]. Così, quando è arrivato il momento di sradicarci, con i rami che si protendono verso il cielo, è stato naturale interagire anche con la fauna del vuoto. Masticano i nostri frutti. Brucano le nostre foglie. E porteranno i nostri figli su mondi lontani, dove fioriranno e saranno nutriti da soli alieni.\n\nLasciamo che i nostri semi si diffondano. La galassia diventerà il nostro giardino."
+ START_SCREEN_FRUITFUL_FUNGOID: "Se il vostro micelio è profondo, ma il vostro spirito è inquieto, lasciate che altri portino via i vostri dolori. Lasciate che gli animali annusino le vostre spore, si nutrano dei vostri gambi e si bagnino all'ombra dei vostri cappelli fungini. Lasciate che portino le spore in terre lontane, in modo che la vostra progenie possa seppellire le proprie radici in terra straniera. E quando la terra vi farà sentire il fremiti di una nuovo reticolo micorrizico, saprete che i vostri figli hanno trovato una casa.\n\nDa tempo immemorabile, collaboriamo con la fauna locale per diffondere la nostra specie nel pianeta [GetHomeWorldName]. Così, quando è arrivato il momento di sradicarci, con i funghi velenosi che si protendono verso il cielo, è stato naturale interagire anche con la fauna del vuoto. Masticano i nostri corpi fruttiferi. Ci sfiorano i carpofori. E porteranno i nostri figli su mondi lontani, dove spunteranno e saranno nutriti da soli alieni.\n\nLascia che le nostre spore si diffondano. Lascia che la galassia sia il nostro giardino di funghi."
+
+ ## Techs
+ sm_feeder: "Giardino dei Semi Stellari"
+ sm_feeder_desc: "Un giardino pressurizzato per la nostra base stellare, pieno di piante geneticamente migliorate per attirare la fauna spaziale."
+ sm_feeder_tt: "Effetti:\n$t$Attira la fauna spaziale a pascolare presso la base stellare, per mangiare i §YBaccelli di Semi§! per la dispersione"
+ sm_ring_feeder: "Giardino Orbitale"
+ sm_ring_feeder_desc: "Un giardino pressurizzato per il nostro Anello Orbitale, adornato con piante geneticamente migliorate per attirare la fauna spaziale."
+
+ tech_critter_feeder: "Giardini dei Frutti"
+ tech_critter_feeder_desc: "Giardini pressurizzati pieni di frutti bioingegnerizzati, geneticamente migliorati per attirare la fauna spaziale."
+
+ sseeder: "Stazione Frutteto"
+
+ has_origin_fruitful_special_project_key: "Gli imperi con l'Origine §Y$origin_fruitful$§! possono usare un §YProgetto Speciale§!"
+
+ seeded_planet_0_modifier: "Baccelli di Semi Dormienti"
+ seeded_planet_0_modifier_desc: "Strani semi provenienti da un ecosistema completamente diverso giacciono dormienti su questo pianeta."
+ seeded_planet_0_modifier_tooltip: "$has_origin_fruitful_special_project_key$ per aprire i Baccelli di Semi e colonizzare il pianeta.."
+ seeded_planet_1_modifier: "Xenoflora Invasiva"
+ seeded_planet_1_modifier_desc: "I semi provenienti da un'altro luogo hanno trovato terreno fertile qui, soppiantando la vegetazione locale."
+ seeded_planet_1_modifier_tooltip: "$has_origin_fruitful_special_project_key$ per convocare armate che appariranno su questo pianeta durante una guerra."
+ seeded_planet_2_modifier: "Diffusione della Xenoflora Invasiva"
+ seeded_planet_2_modifier_desc: "I semi provenienti da un'altro luogo hanno trovato qui terreno fertile, soppiantando la vegetazione locale."
+ seeded_planet_2_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
+ seeded_planet_3_modifier: "Xenoflora Invasiva e Travolgente"
+ seeded_planet_3_modifier_desc: "I semi provenienti da un'altro luogo hanno trovato qui terreno fertile, soppiantando la vegetazione locale."
+ seeded_planet_3_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
+
+ MESSAGE_FRUITFUL_SEED_PLANTED_TITLE: "Baccello Piantato"
+ MESSAGE_FRUITFUL_SEED_PLANTED_OWNER: "La Fauna Spaziale ha portato i nostri baccelli di semi su $PLANET|Y$, nel sistema $SYSTEM|Y$, dove hanno generato una nuova foresta."
+ MESSAGE_FRUITFUL_SEED_PLANTED_NO_OWNER: "La Fauna Spaziale ha portato i nostri baccelli di semi su $PLANET|Y$, nel sistema $SYSTEM|Y$. Rimarranno dormienti fino a quando non saremo pronti ad aprirli."
+
+ MESSAGE_FRUITFUL_SEED_LOST_TITLE: "Baccello Perso"
+ MESSAGE_FRUITFUL_SEED_LOST: "Abbiamo perso il contatto con i nostri baccelli di semi sul pianeta $PLANET|Y$. È probabile che siano stati distrutti."
+
+ MESSAGE_FRUITFUL_SEED_CRITTER_TITLE: "Semi Assorbiti"
+ MESSAGE_FRUITFUL_SEED_CRITTER: "La Fauna Spaziale in visita nel sistema $SYSTEM|Y$ ha mangiato i frutti del nostro giardino e ora sta trasportando i nostri baccelli di semi tra le stelle."
+
+ OPEN_SEED_PODS_PROJECT: "Bacelli di Semi Aperti su [this.GetName]"
+ OPEN_SEED_PODS_PROJECT_DESC: "La Fauna Spaziale ha portato i nostri baccelli di semi dormienti su §H[this.GetName]§!. Puntando un raggio di energia concentrata sul pianeta, possiamo stimolare la loro crescita, trasformando una roccia disabitata in una nuova colonia verdeggiante."
+
+ WEEDS_ARMY_PROJECT: "Crescita di Armate su [this.GetName]"
+ WEEDS_ARMY_PROJECT_DESC: "La Fauna Spaziale ha portato i nostri baccelli di semi su §H[this.GetName]§! dove saranno coltivati e curati da §H[this.owner.GetName]§!. Puntando un fascio di energia concentrata verso il pianeta, possiamo stimolare la crescita, trasformando la foresta in §HArmate Xenoflora§!. Più alto è il livello di §HXenoflora Invasiva§! sul pianeta, più eserciti verranno generati."
+
+ FRUITFUL_SEED_POD: "Baccello di Semi"
+
+ fruitful_army: "Armate Xenoflora"
+ fruitful_army_desc: "Un segnale codificato ha risvegliato questa flora aliena a lungo dormiente. Una volta sradicata, marcia brandendo le proprie radici come armi pesanti e contundenti."
+
+ # Events
+ origin.7100.name: "Dispersione dei Semi"
+ origin.7100.desc: "Per la Fauna Spaziale della galassia, abbiamo costruito un giardino. L'abbiamo riempito di fiori, frutti e baccelli appiccicosi, pronti ad attaccarsi alla pelle di queste magnifiche creature. Ma questi abitanti del vuoto apprezzeranno il nostro banchetto? Non appena hanno morso la prima mela, la nostra ansia è svanita.\n\nDa tempo immemorabile, offriamo frutta e ristoro agli animali del nostro pianeta. In cambio, hanno portato i nostri semi. Ora, questo antico patto è stato replicato su scala galattica: La fauna spaziale trasporterà i nostri §YBaccelli di Semi§! con loro durante il viaggio. Con un po' di fortuna, i nostri semi cadranno su un pianeta §Hcolonizzabile§! dove avranno tutto il necessario per creare un nuovo giardino per il nostro popolo. Basta dirigere un raggio di energia per attivarli, consentendoci di abitare nuovi mondi senza dover inviare una nave colonia."
+ origin.7100.tooltip: "Quando la fauna spaziale entra in un nuovo sistema stellare, ha la possibilità di lasciare cadere i §HBaccelli di Semi§! su un pianeta abitabile. Siate pazienti."
+
+ origin.7304.name: "Dispersione Coordinata"
+ origin.7304.desc: "Anche se possiamo affidarci alla Fauna Spaziale selvatica per diffondere i nostri §YBaccelli§!, possiamo farlo in modo più affidabile con coloro che si sono uniti di recente alle nostre flotte.\n\nI nostri §YGiardini Stellati§! distribuiranno i semi alle creature all'interno del nostro ovile, che potremo poi inviare direttamente sui §HPianeti colonizzabili§! per stabilire un nuovo giardino."
+
+ origin.7321.name: "La Pazienza Porta i Suoi Frutti"
+ origin.7321.desc: "I nostri §YBacelli di semi§! su §H[from.GetName]§! si sono aperti, e i nuovi nati [root.GetSpeciesNamePlural] hanno iniziato a mettere le radici nel sottosuolo."
+
+ origin.7326.name: "Semi Misteriosi"
+ origin.7326.desc.base: "Il terreno di [this.GetName] è disseminato di semi che non sembrano far parte dell'ecosistema locale. Con una quantità minima di luce e acqua, i semi si sono sviluppati rapidamente, avvolgendo il pianeta in una nuova foresta favorendo i nostri sforzi di colonizzazione."
+ origin.7326.desc.knowowner: "$origin.7326.desc.base$\n\nSecondo le nostre analisi genetiche, questi semi a crescita rapida e bioingegnerizzati sono stati sviluppati da §Y[seeds_owner.GetName]§!."
+ origin.7326.desc.notknowowner: "$origin.7326.desc.base$. I nostri scienziati non sono riusciti a determinare l'origine dei semi, ma una cosa è certa: sono di natura artificiale, bioingegnerizzati per attecchire rapidamente in un terreno alieno."
+ origin.7326.a.desc: "Sblocca la Decisione §Y$decision_uproot_weed$§! su questo pianeta."
+
+ origin.7327.name: "$origin.7326.name$"
+ origin.7327.desc.base: "Durante l'attraversamento del sistema [this.solar_system.GetName], un branco di fauna spaziale ha lasciato cadere un oggetto non identificato sulla superficie di [this.GetName]. Abbiamo raggiunto rapidamente il cratere d'impatto ed era pieno di una vegetazione sconosciuta. L'oggetto caduto assomigliava a una nave colonia: un baccello di semi contenente tutto il necessario per avviare un nuovo insediamento, dai materiali essenziali ai coloni appena risvegliati."
+ origin.7327.desc.knowowner: "$origin.7326.desc.base$\n\nSecondo la nostra analisi genetica, questi semi insoliti sono stati sviluppati da §Y[seeds_owner.GetName]§!."
+ origin.7327.desc.notknowowner: "$origin.7326.desc.base$\n\nGrazie al sistema di comunicazione presente nei baccelli siamo riusciti a stabilire rapidamente un contatto con l'impero da cui è germinato il seme."
+ origin.7327.desc.moreseeds: "La xenoflora già presente sul nostro pianeta sta crescendo ancora più forte."
+
+ origin.7328.name: "$origin.7321.name$"
+ origin.7328.desc: "La nostra nave colonia è appena atterrata su §H[from.GetName]§!, ma la nostra gente era già lì, inattiva nel terreno. Gli aggiuntivi [root.owner.GetSpeciesNamePlural] e le risorse contenute nel §YBaccello di Semi§! Aiuteranno i nostri coloni a sviluppare il pianeta.\n\nPossano le loro radici diffondersi in lungo e in largo."
+
+ origin.7400.name: "Avamposto Schierato!"
+ origin.7400.desc: "I nostri lontani [owner.GetColonistPlural] su §Y[Root.GetName]§! hanno dispiegato un'§Y$starbase_outpost$§! attorno alla stella, ottenendo il controllo del sistema §Y[Root.GetStarName]§!."
+
+ origin.7500.name: "Proteggere la Fauna Spaziale"
+ origin.7500.desc: "Il nostro rapporto con le creature spaziali è piuttosto unico, ma non siamo i soli a rispettare il loro diritto di esistere; una risoluzione appena approvata dalla Comunità Galattica contribuirà a proteggere la vita di queste meravigliose creature."
+
+ origin.7510.name: "Pericolo per la Fauna Spaziale"
+ origin.7510.desc: "Le creature spaziali sono sempre state nostre amiche, ma non tutti i membri della Comunità Galattica condividono il nostro amore per gli abitanti del vuoto. La risoluzione appena approvata mette a rischio la vita dei nostri amici e la nostra."
+
+ origin.7600.name: "Raccogli Ciò Che Semini"
+ origin.7600.desc: "I nostri nemici pensano che ci piegheremo alla loro forza come canne abbattute dal vento, dimenticando che le piante hanno le spine.\n\nI nostri soldati dormono nella loro terra. In caso di necessità, possiamo utilizzare la nostra §HXenoflora Invasiva§! nelle armate, per proteggere ciò che è nostro e per strangolare ciò che chiamano proprio. Dobbiamo solo dirigere un raggio di energia verso il pianeta desiderato per iniziare la nostra invasione."
+
+ origin.7710.name: "Raccogli Ciò Che Semini"
+ origin.7710.desc: "Dalla §HXenoflora Invasiva§! su §H[from.GetName]§! all'improvviso sono spuntati degli arti, trasformandosi in una armata. Il pianeta è sotto attacco!"
+
+ MESSAGE_FRUITFUL_WEED_ARMY_TITLE: "Armata Germogliata"
+ MESSAGE_FRUITFUL_WEED_ARMY: "I semi su $PLANET|Y$ si sono aperti e sono diventati un'armata."
+
+ opinion_nice_forests: "Giardinieri Utili"
+ opinion_cut_our_forests: "Tagliare il Nostro Giardino"
+
+ opinion_voted_to_kill_tiyanki: "Votato per Danneggiare la Fauna Spaziale"
+ opinion_voted_to_help_tiyanki: "Votato per Proteggere la Fauna Spaziale"
+
+ fruitful_partnership_chain_title: "Dispersione dei Semi"
+ fruitful_partnership_chain_desc: "La fauna spaziale trasporterà i nostri §YBaccelli§! in terre lontane. Con un tocco di luce stellare, i nostri semi possono germogliare in una nuova colonia."
+
+ fruitful_partnership_war_chain_title: "Semi della Guerra"
+ fruitful_partnership_war_chain_desc: "In tempo di guerra, i nostri §YBaccelli di Semi§! possono germogliare in armate, pronte a difendere i nostri pianeti o a invadere obiettivi lontani."
+
+ decision_uproot_weed: "Estirpare le Erbacce"
+ decision_uproot_weed_desc: "Rimuove il Modificatore $seeded_planet_2_modifier$."
+
+ ## Seed Bombing
+ bombardment_seed_bombing: "Bombardamento di Semi"
+ bombardment_seed_bombing_desc: "Il $bombardment_seed_bombing$ ricopre il pianeta con sfere di semi iperfertilizzati, provocando una crescita esplosiva.\n- §ENessun§! danno alle §YArmate§!\n- §HPesanti§! dannni ai §YPianeti§!\n- §ENessun§! danno alla §YPop§!\n- Bombarderà i pianeti indifesi\n- Genera ostacoli sul pianeta"
+
+ d_seed_bombing_plantoid_blocker: "£blocker£ Crescita Silvana Esplosiva"
+ d_seed_bombing_plantoid_blocker_desc: "Questa regione del pianeta è stata infestata da una foresta di flora aliena in costante crescita."
+
+ d_seed_bombing_fungoid_blocker: "£blocker£ Crescita Fungina Esplosiva"
+ d_seed_bombing_fungoid_blocker_desc: "Questa regione del pianeta è stata infestata da una foresta di funghi alieni in costante crescita."
+
+ d_seed_bombing_blocker_custom_tooltip: "$d_decrepit_dwellings_custom_tooltip$\n"
+
+ origin.7201.name: "Crescita Esplosiva"
+ origin.7201.desc: "La nostra colonia su §H[this.GetName]§! è stata bombardata da palline di semi iperfecondati. Nuove foreste spuntano ovunque, spaccando pavimenti, rovinando edifici e riempiendo questo [this.GetPlanetHabitat] di xenoflora a crescita rapida."
+ MESSAGE_FRUITFUL_SEED_BOMBING_TITLE: "Bombardamento di Semi"
+ MESSAGE_FRUITFUL_SEED_BOMBING: "Il bombardamento di semi ha creato un nuovo ostacolo su $PLANET|Y$."
+
+ ## Critters interactions
+
+ # Amoebas
+ story.101.desc.fruitful: "Se pacificati, potrebbero rivelarsi portatori ideali per i nostri Baccelli di Semi."
+ story.107.fruitful.desc: "Sebbene siano prevalentemente carnivori, i frutti carnosi e bulbosi che i nostri ricercatori hanno creato soddisfano i loro gusti."
+ story.107.a.fruitful.tooltip: "Our §H$sm_feeder$§! are now capable of attracting §HSpace Amoeba§! fleets."
+
+ # Crystals
+ story.201.desc.fruitful: "Non siamo certi che queste creature siano in grado di mangiare, ma se così fosse, potrebbero rivelarsi utili portatori dei nostri semi. Pacificarli ci permetterebbe di condurre ulteriori studi."
+ story.207.fruitful.desc: "La creazione di un frutto appetibile per queste creature è stata una sfida. Non siamo sicuri che stiano mangiando i pomi di vetro che abbiamo creato o che amino portarli in giro, affascinati dalla loro superficie lucida. Tuttavia questo è sufficiente per le nostre esigenze."
+ story.207.a.fruitful.tooltip: "Il nostro §H$sm_feeder$§! è ora in grado di attirare le flotte delle §HEntità Cristalline§!."
+
+ # Study the Tyanki and get their tech
+ origin.7000.name: "$story.501.name$"
+ origin.7000.desc.common: "e abbiamo già imparato molto su queste docili creature.\n\nCapaci di accedere a una qualche dimensione inferiore del subspazio, queste forme di vita native dello spazio vagano da sistema a sistema con eccezionale disinvoltura. Si nutrono di gas comuni negli strati superiori di molti giganti gassosi, ma hanno sviluppato una predilezione per i nostri frutti. Attaccano raramente, ammesso che lo facciano, anche quando vengono provocate.\n\nSono il mezzo migliore per diffondere i nostri semi: calme, innocue, sono quasi noiose. Nasconderanno qualche segreto?"
+ origin.7000.desc.default: "Le §YTiyanki§! è la prima tra le specie aliene con cui siamo entrati in contatto, $origin.7000.desc.common$"
+ origin.7000.desc.beastmasters: "Le §YTiyanki§! è una nuova specie aliena con cui siamo entrati in contatto, $origin.7000.desc.common$"
+ origin.7000.a: "Dedicate ulteriore tempo al loro studio."
+ origin.7000.b: "Abbiamo altre priorità."
+
+ TIYANKIS_PROJECT: "Studio delle Tyanki"
+ TIYANKIS_PROJECT_DESC: "Dedicare del personale della stazione spaziale allo studio delle Tyanki potrebbe darci ulteriori informazioni sulla vita di queste pacifiche e misteriose creature del vuoto."
+
+ origin.7005.name: "$story.501.name$"
+ origin.7005.desc: "Studiando le abitudini alimentari dei nostri amici netturbini, i nostri scienziati hanno fatto un passo avanti dal punto di vista scientifico. $tech_space_whale_weapon_1_desc$. Questa tecnologia si rivelerà senza dubbio utile."
+
+ ### Civics
+
+ civic_idyllic_bloom:0 "Fioritura Incantevole"
+ civic_idyllic_bloom_desc:0 "Questa società si dedica da tempo alla cura e al miglioramento dell'ambiente, impegnandosi a creare un vero paradiso per i suoi abitanti."
+ civic_hive_idyllic_bloom:0 "Micorrizale Ideale"
+ civic_hive_idyllic_bloom_desc:0 "La Mente Alveare si prende cura dell'ambiente, costruendo un paradiso alla ricerca della perfezione sinergetica."
+ civic_wilderness_idyllic_bloom: "$civic_hive_idyllic_bloom$"
+ civic_wilderness_idyllic_bloom_desc: "Questa Natura Selvaggia aspira a uno stato di perfezione veramente sinergico, e per questo conferisce ai suoi simbionti floreali e fungini il potere di trasformare il mondo che li circonda."
+ civic_tooltip_idyllic_bloom_effects:2 "Puoi costruire le £building£ §Y$building_gaiaseeders$§! sui tuoi pianeti ideali per la tua specie di appartenenza e su quelli dei tuoi vassalli.\n$building_gaiaseeders_all_desc$\nUna volta sbloccate le tecnologie di £society£ §YTerraformazione§!, le £building£ §Y$building_gaiaseeders$§! possono essere costruite su altri tipi di pianeta."
+
+ disables_idyllic_bloom:0 "§RScegliendo questo Bonus d'Ascensione sarà disattivata la scelta Civica $civic_idyllic_bloom$.§!"
+
+ civic_tooltip_not_idyllic_bloom: "NON ha una Scelta Civica ['concept_idyllic_bloom_civics']"
+ concept_idyllic_bloom_civics: "Fioritura Incantevole"
+ concept_idyllic_bloom_civics_desc: "Le Scelte Civiche $concept_idyllic_bloom_civics$ consitono in \n- ['civic:civic_idyllic_bloom']$NEW_LINE$- ['civic:civic_hive_idyllic_bloom']"
+
+ gaia_seeder_bloomed_pops_effect: "Dopo aver completato la trasformazione di [This.GetName] in $pc_gaia$, il Seminatore Gaia cambierà la nostra popolazione per adattarla meglio a questo pianeta.\n\nAumenta gli effetti dei Tratti §Y$trait_plantoid_bloomed$§! e §Y$trait_plantoid_budding$§! del §G+50%§!."
+ gaia_seeder_bloom_timer_tooltip: "\nLa prossima Fioritura su §Y[This.GetName]§! si verificherà fra §Y[This.gaia_seeder_bloom_timer]§!."
+ MESSAGE_POPS_IDYLLIC_BLOOMED_TITLE: "Pop Sbocciata"
+ MESSAGE_POPS_IDYLLIC_BLOOMED: "Il nostro Seminatore Gaia su $PLANET|Y$ ha rilasciato un'altra Fioritura, migliorando la nostra £pop£ Pop."
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$Richiede £society£ §Y$tech_climate_restoration$§! per costruirle sui §YPianeti Sepolcro§!."
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$Richiede £society£ §Y$tech_terrestrial_sculpting$§! per essere costruite"
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$Richiede £society£ §Y$tech_ecological_adaptation$§! per essere costruite"
+ gaiaseeders_wet:0 "§YUmidi§!"
+ gaiaseeders_dry:0 "§YSecchi§!"
+ gaiaseeders_cold:0 "§YFreddi§!"
+ gaiaseeders_same_climate_wet:0 "$gaiaseeders_same_climate_start$ su §YPianeti§! $gaiaseeders_wet$."
+ gaiaseeders_same_climate_dry:0 "$gaiaseeders_same_climate_start$ su §YPianeti§! $gaiaseeders_dry$."
+ gaiaseeders_same_climate_cold:0 "$gaiaseeders_same_climate_start$ su §YPianeti§! $gaiaseeders_cold$."
+ gaiaseeders_different_climate_wet:0 "$gaiaseeders_different_climate_start$ su §YPianeti§! $gaiaseeders_dry$ o $gaiaseeders_cold$."
+ gaiaseeders_different_climate_dry:0 "$gaiaseeders_different_climate_start$ su §YPianeti§! $gaiaseeders_same_climate_wet$ o $gaiaseeders_cold$."
+ gaiaseeders_different_climate_cold:0 "$gaiaseeders_different_climate_start$ su §YPianeti§! $gaiaseeders_same_climate_wet$ o $gaiaseeders_same_climate_dry$."
+ gaiaseeders_special_habitability_preference:0 "$gaiaseeders_different_climate_start$ su §YPianeti§! $gaiaseeders_wet$, $gaiaseeders_dry$ o $gaiaseeders_cold$."
+
+ building_gaiaseeders:0 "Seminatrici Gaia"
+ building_gaiaseeders_1:0 "$building_gaiaseeders$ - Fase 1"
+ building_gaiaseeders_2:0 "$building_gaiaseeders$ - Fase 2"
+ building_gaiaseeders_3:0 "$building_gaiaseeders$ - Fase 3"
+ building_gaiaseeders_4:0 "$building_gaiaseeders$ - Fase Finale"
+ building_gaiaseeders_all_desc:0 "Le strutture sparse su tutto il pianeta lo portano progressivamente a diventare un §YPianeta Gaia§!, attraverso 4 fasi di potenziamento."
+ building_gaiaseeders_1_desc:0 "$building_gaiaseeders_all_desc$\n\nQuesta è la fase iniziale di crescita."
+ building_gaiaseeders_2_desc:0 "$building_gaiaseeders_all_desc$\n\nQuesta fase si muove verso l'abitabilità."
+ building_gaiaseeders_3_desc:0 "$building_gaiaseeders_all_desc$\n\nQuesta fase mette in evidenza l'abitabilità."
+ building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_effect_desc:0 "Terraformazionea nel §YPianeta Gaia§! in completamento."
+
+ building_gaiaseeders_pc_gaia: "$building_gaiaseeders_4$"
+ building_gaiaseeders_pc_gaia_desc: "$building_gaiaseeders_4_desc$"
+
+ plant.100.name:0 "Fioritura Perfetta"
+ plant.100.desc:1 "Attraverso i nostri bio-ingegneri migliori,investimenti considerevoli e anni di duro lavoro,il nostro progetto inseminazione di Gaia su §Y[Root.GetName]§! è giunto a compimento.\n\nDa questo giorno, §Y[Root.GetName]§! sarà considerato una vera gemma lungo tutti i pianeti, da ammirare, o forse invidiare."
+ plant.100.a:0 "Che la celebrazione abbia inizio!"
+ plant.100.b:0 "Abbiamo fatto bene, adesso è tempo di concentrarci altrove."
+
+ plant.105.desc:0 "Attraverso i nostri bio-ingegneri migliori,investimenti considerevoli e anni di duro lavoro,il nostro progetto inseminazione di Gaia su §Y[From.Planet.GetName]§! è giunto a compimento.\n\nDa questo giorno, §Y[From.Planet.GetName]§! sarà considerato una vera gemma lungo tutti i pianeti, da ammirare, o forse invidiare. Siamo certi che i nostri vassalli apprezzano i nostri sforzi."
+
+ plant.110.desc:0 "I nostro Signore Supremo ha completato il suo strano progetto su §Y[from.from.planet.GetName]§!, per trasformandolo in un Pianeta Gaia. Grazie ad esso possiamo ora sfruttare il clima idilliaco e gli ampi spazi aperti di questo paradiso."
+ plant.110.desc.hydrocentric:0 "I nostro Signore Supremo ha completato il suo strano progetto su §Y[from.from.planet.GetName]§!. Il pianeta è stato rovinato! Gli oceani sono stati ricoperti con pianure e dolci colline. L'atmosfera un tempo umida è diventata arida e secca. Ancora peggio, quando abbiamo espresso le nostre preoccupazioni, sono state respinte a priori! Il Signore Supremo dice di aver reso il nostro mondo "più bello"."
+
+ plant.110.a:0 "Come si permette!"
+ plant.110.b:0 "Com'è premuroso!"
+ plant.110.c:0 "Che decisione curiosa."
+
+ celebrate_idyllic_bloom:0 "Festeggiamento Trasformazione Incantevole"
+ celebrate_idyllic_bloom_desc:0 "Una celebrazione planetaria si sta svolgendo in seguito al completamento della trasformazione di questo mondo in un'incantevole paradiso."
+ terraformed_our_ocean_world:0 "Pianeta Oceanico Terraformato"
+ terraformed_our_ocean_world_desc:0 "Il nostro Signore Supremo ha terraformato un bellissimo Pianeta Oceanico in un brutto Pianeta Gaia. Che gusto terribile."
+
+ thankful_for_gaia:0 "Grato per Gaia"
+ thankful_for_gaia_desc:0 "Il nostro Signore Supremo ha recentemente terraformato uno dei nostri pianeti in un Pineta Gaia. Che gentilezza!"
+
+### Traits by Byron Aytoun
+
+ trait_plantoid_phototrophic:0 "Fototrofia"
+ trait_plantoid_phototrophic_desc:0 "§LQuesta specie viene sostenuta da una combinazione di cibo e luce solare .§!\n"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "Sostituisce il §Y50%§! di Mantenimento di $food_with_icon$ (o equivalente) con il Mantenimento di $energy_with_icon$."
+
+ trait_plantoid_radiotrophic:0 "Radiotrofia"
+ trait_plantoid_radiotrophic_desc:0 "§LQuesta specie viene sostenuta da una combinazione di cibo e radiazioni a bassa energia, e come tale può prosperare sul più inospitale dei pianeti.§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n$t$- Alla Pop che vive sui §YPianeti Sepolcro§! viene rimosso il Mantenimento di £energy£ §YEnergia§!.\n$t$- Velocità di Crescita Pop sui §YPianeti Sepolcro§! §G+10%§!\n$t$- Abitabilità Pianeta Sepolcro: §G+10%§!"
+ trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "Sostituisce il §Y50%§! di Mantenimento Base di £minerals£ §YMinerali§! con il Mantenimento di £energy£ §YEnergia§!.\nAlla Pop che vive sui §YPianeti Sepolcro§! viene rimosso il Mantenimento di £energy£ §YEnergia§!.\nVelocità di crescita Pop sui §YPianeti Sepolcro§! §G+10%§!\nAbitabilità Pianeta Sepolcro: §G+10%§!"
+
+ trait_plantoid_budding:0 "Gemmazione"
+ trait_plantoid_budding_desc:0 "§LQuesta specie è capace di riprodursi per gemmazione, oltre alla più usuale fecondazione di semi o spore.§!"
+ trait_plantoid_budding_portrait_override_tt: "O qualsiasi specie che si riproduce tramite riproduzione vegetativa"
+ trait_lithoid_budding:0 "Cristallizzazione"
+ trait_lithoid_budding_desc:0 "§LGrazie alle crescite cristalline, questa specie è in grado di generare reticoli auto-replicanti di se stessa, oltre ai metodi riproduttivi più consueti.§!" 
+ TRAIT_PLANTOID_BUDDING_EFFECT: "Ogni $pop_group_unit$ £pop£ §HPop§! che lavora come schiavo o di livello superiore produce 0.02 £mod_logistic_growth_mult£ §Y$MOD_BONUS_POP_GROWTH$§!.\n\nQuesto si aggiunge ad altre fonti di $MOD_BONUS_POP_GROWTH$ come £building£ §Y$building_clone_vats$§! o £job_spawning_drone£ §Y$job_spawning_drone_plural$§!."
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$"
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
+ trait_advanced_phototrophic_desc:0 "§LGrazie a un'avanzata ingegneria genetica, questa specie è ora parzialmente sostenuta dalla luce solare.§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "Sostituisce il §Y50%§! di Mantenimento Base di £food£ §YCibo§! o £minerals£ §YMinerali§! con il Mantenimento di £energy£ §YEnergia§!."
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc:0 "§LGrazie a un'avanzata ingegneria genetica, questa specie è ora parzialmente sostenuta dalle radiazioni a bassa energia e può quindi prosperare anche sui pianeti più inospitali.§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nAlla Pop che vive sui §YPianeti Sepolcro§! viene rimosso il Mantenimento di £energy£ §YEnergia§!."
+
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§LLe modifiche alla sequenza del DNA consentono a questa specie di riprodursi per gemmazione, oltre che con i metodi più convenzionali.§!"
+
+ trait_plantoid_bloomed: "Fiorita"
+ trait_plantoid_bloomed_desc: "L'esposizione di questa specie agli effetti della trasformazione di un Seminatore Gaia, fa germogliare fioriture simbiotiche di licheni quando vive su Pianeti Gaia."
+ plantoid_bloomed_trait_tooltip: "Effetti su Pianeti Gaia:\n$t$$mod_planet_jobs_produces_mult$: §G+10%§!\n$t$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!\n$t$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nQuesti effetti vengono aumentati dalle £building£ $building_gaiaseeders_4$."
+### Catalytic Processing by Byron Aytoun
+
+# Regular
+ civic_catalytic_processing:0 "Processo Catalitico"
+ civic_catalytic_processing_desc:0 "Concentradosi nei loro sforzi industriali sulla chimica catalitica, questa civilità ha sbocclato la chiave per usare materiali organici nella costruzione di strutture spaziali."
+ civic_tooltip_catalytic_processing_effects:0 "$t$- §Y$job_foundry_plural_with_icon$§! sono sostituiti con i §Y$job_catalytic_technician_plural_with_icon$§!\n$t$- La manutenzione dei [foundry.GetIcon] [artisan.GetIcon] §YLavori Industriali§! passerà da $r_minerals$ al consumo di $r_food$."
+
+# Corporate
+ civic_corporate_catalytic_processing:1 "Riciclatori Catalitici"
+ civic_corporate_catalytic_processing_desc:0 "Questa Megacorporazione punta a massimare i profitti riciclando la materia organica in eccesso in risorse avanzate utili per le strutture spaziali."
+ civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$ $TABBED_NEW_LINE$- £building£ §Y$building_private_shipyards$§! $megacorp_civic_branch_office_building_effect$"
+
+# Hive Mind
+ civic_hive_catalytic_processing:1 "Ritrattamento Organico"
+ civic_hive_catalytic_processing_desc:0 "La Mente Alveare riprocessa la meteria organica in eccesso in risorse avanzate utili per le strutture spaziali."
+ civic_tooltip_hive_catalytic_processing_effects:0 "$t$- [alloy_drone.GetIcon] §Y$job_alloy_drone_plural$§! vengono sostituiti con §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- La manutenzione dei [fabricator.GetIcon] [artisan_drone.GetIcon] §YLavori Industriali§! passerà da $r_minerals$ al consumo di $r_food$."
+
+ catalytic_gestalt_additional_effects: "\n[artisan_drone.GetIcon] §Y[artisan_drone.GetNamePlural]§! hanno la loro manutenzione $r_minerals$ sostituita con la manutenzione $r_food$."
+
+# Machine Intelligence
+ civic_machine_catalytic_processing:1 "Reciclaggio Organico"
+ civic_machine_catalytic_processing_desc:0 "L'Intelligenza Meccanica riprocessa la materia organica in eccesso in risorse avanzate utili per le strutture spaziali."
+ civic_tooltip_machine_catalytic_processing_effects:0 "$t$- [fabricator.GetIcon] §Y$job_fabricator_plural$§! vengono sostituiti con §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- La manutenzione dei [fabricator.GetIcon] [artisan_drone.GetIcon] §YLavori Industriali§! passerà da $r_minerals$ al consumo di $r_food$."
+
+ civic_tooltip_not_catalytic: "NON possiede la Scelta Civica ['concept_catalytic_civics']"
+ concept_catalytic_civics: "Processo Catalitico"
+ concept_catalytic_civics_desc: "Le Scelte Civiche $concept_catalytic_civics$ consistono in \n- ['civic:civic_catalytic_processing']$NEW_LINE$- ['civic:civic_corporate_catalytic_processing']$NEW_LINE$- ['civic:civic_hive_catalytic_processing']$NEW_LINE$- ['civic:civic_machine_catalytic_processing']"
+
+# Regular & Corporate
+ job_catalytic_technician:0 "Tecnico Catalitico"
+ job_catalytic_technician_plural:0 "Tecnici Catalitici"
+ job_catalytic_technician_plural_with_icon: "£job_catalytic_technician£ $job_catalytic_technician_plural$"
+ job_catalytic_technician_desc:0 "Lavoratori altamente qualificati hanno bisogno di trasformare la materia organica grezza in leghe resistenti necessarie per le costruzioni avanzate."
+ job_catalytic_technician_effect_desc:0 "I £job_catalytic_technician£ $job_catalytic_technician_plural$ trasformano £food£ §Y$food$§! in £alloys£ §Y$alloys$§!"
+ mod_job_catalytic_technician_add:0 "Lavori da $job_catalytic_technician$"
+ mod_job_catalytic_technician_per_pop:0 "§G+1§! Lavoro da $job_catalytic_technician$ per $VALUE$ Pop"
+ mod_job_catalytic_technician_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_technician_add£ per $VALUE$ £pop£"
+
+# Gestalt
+ catalytic_drone: "$job_catalytic_drone$"
+ job_catalytic_drone:0 "Drone Catalitico"
+ job_catalytic_drone_plural:0 "Droni Catalitici"
+ job_catalytic_drone_plural_with_icon: "£job_catalytic_drone£ $job_catalytic_drone_plural$"
+ job_catalytic_drone_desc:0 "Composti organici preziosi vengono lavorati in leghe resistenti per la costruzione navale e la costruzione avanzata da Droni Catalitici altamente specializzati."
+ job_catalytic_drone_effect_desc:0 "I £job_catalytic_drone£ §Y$job_catalytic_drone_plural$§! trasformano £food£ §Y$food$§! in £alloys£ §Y$alloys$§!"
+ mod_job_catalytic_drone_add:0 "Lavori da $job_catalytic_drone$"
+ mod_job_catalytic_drone_per_pop:0 "§G+1§! Lavoro $job_catalytic_drone$ per $VALUE$ Pop"
+ mod_job_catalytic_drone_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_drone_add£ per $VALUE$ £pop£"
+
+ ### Invasive Species trait
+ trait_invasive: "Specie Invasive"
+ TRAIT_INVASIVE_EFFECT: "§YPuoi selezionare solo tratti negativi o botanici§!\n\n    - Abitabilità: §G+5%§! per ogni tratto negativo selezionato\n    - Velocità Crescita Pop: §G+5%§! per ogni tratto negativo selezionato"
+ trait_invasive_desc: "Riproduzione rapida. Elevata capacità di dispersione. Zero funzionalità utili."

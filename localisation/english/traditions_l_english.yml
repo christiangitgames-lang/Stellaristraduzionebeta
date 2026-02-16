@@ -1,0 +1,1349 @@
+﻿l_english:
+ ####################################
+ # Tradizioni
+ ####################################
+ 
+ UNITY:0 "Unità"
+ UNITY_DESC:0 "L'Unità è una risorsa utilizzata per sbloccare nuove $TRADITIONS$. L'Unità viene generata mensilmente da alcuni edifici ed in base a quanto il nostro impero risulti unito."
+ TRADITIONS:0 "Tradizioni"
+ TRADITIONS_DESC:0 "Le Tradizioni sono bonus organizzati in Alberi delle Tradizioni. Una Tradizione può essere sbloccata ogniqualvolta il nostro impero accumulerà abbastanza Unità. Diversi fattori, come un gran numero di colonie od una popolazione ideologicamente divisa, aumenteranno il costo in Unità per sbloccare nuove Tradizioni."
+ TRADITIONS_PROGRESS:0 "Avanzamento $KEY$"
+ TRADITIONS_PROGRESS_TITLE:0 "Avanzamento"
+ TRADITIONS_PROGRESS_DESC:0 "Abbiamo bisogno di altra £unity£ $MISSING|Y$ per poter adottare una nuova Tradizione. Con l'andamento attuale, potremmo farlo il $DATE|Y$."
+ UNLOCK_TRADITION_DESC:0 "Possediamo abbastanza £unity£ per adottare una nuova Tradizione"
+ TRADITIONS_TIME_TO_NEXT:0 "Mesi Rimanenti"
+ TRADITIONS_TIME_TO_NEXT_DESC:0 "$MONTHS$ rimanenti."
+ TRADITIONS_UNLOCKED:0 "Abbiamo sbloccato $COUNT|Y$ Tradizioni su $MAX|Y$ in questo albero."
+ TRADITION_ADOPT_BUTTON:0 "Adotta"
+ TRADITION_SELECT_BUTTON:0 "Seleziona" 
+ TRADITIONS_ADOPT:1 "§EEffetti Adozione§!:\n"
+ TRADITIONS_FINISH:3 "§EEffetti Perfezionamento§!:\nL'adozione di tutte le tradizioni $CATEGORY|Y$ garantirà:\n" 
+ TRADITIONS_FINISH_AP:2 "$MOD_COUNTRY_ASCENSION_PERKS_ADD$: §G+1§!"
+ TRADITION_COST:0 "Costo Tradizione"
+ TRADITIONS_UNAFFORDABLE:0 "§RAbbiamo bisogno di altre §Y$RESOURCES$§! prima di poter sbloccare questa Tradizione.§!"
+ MUST_ADOPT_TRADITION_CATEGORY:0 "$TRIGGER_FAIL$Ha adottato le Tradizioni $CATEGORY|Y$"
+ MUST_ACTIVATE_ALL_TRADITIONS:0 "$TRIGGER_FAIL$ Ha adottato tutte le Tradizioni di questo gruppo"
+ TRADITION_ADOPT_CONFIRM:0 "Adotta Tradizione"
+ TRADITION_ADOPT_CONFIRM_DESC:0 "Sei sicuro di voler adottare la Tradizione §Y$TRADITION$§!?\n\n§Y$COST$§!"
+ TRADITION_ADOPTED_COUNT:0 "$COUNT$ / $MAX$"
+ TRADITION_CLICK_DESC:0 "§GClicca per adottare questa Tradizione§!"
+ TRADITION_GROUP_CLICK_DESC:0 "§GClicca per adottare questo gruppo di Tradizioni§!"
+ TRADITION_COST_NEXT:0 "Prossima Tradizione"
+ TRADITION_COST_MULT_NUM_TR:0 "$COUNT|Y$ Tradizioni: $VALUE|Y$"
+ TRADITION_COST_MULT_EMPIRE_SIZE:0 "$COUNT|Y$ Dimensione Imperio: $VALUE|%$"
+ TRADITION_COST_MULT_NUM_GROUPS:0 "$COUNT|Y$ Categorie di Tradizioni Adottate: $VALUE$"
+ TRADITION_SLOT_EMPTY:0 "Vuoto"
+ TRADITION_SLOT_LOCKED:0 "Nessuna Selezione"
+ TRADITION_SELECTION_TITLE:0 "Selezione Tradizione" 
+ pop_xenos:0 "Pop Aliena"
+ pop_xeno_slaves:0 "Pop Aliena Schiava"
+ pop_slaves:0 "Pop Schiava"
+ pop_founders:0 "Pop Fondatrice"
+ pop_robots:0 "Pop Robotica"
+
+ ################################################################
+ # EXPANSION
+ ################################################################
+
+ tradition_expansion:0 "Espansione"
+ #tradition_expansion_desc: "We must spread our civilization to new systems and planets if we are to survive. As other empires emerge on the galactic scene, competition will be fierce. The faster we can establish new colonies, the better."
+ tradition_expansion_desc:0 "Dobbiamo espandere la nostra civiltà verso nuovi sistemi e pianeti, o rischieremo l'estinzione."
+ tradition_expansion_machine_desc:0 "Le proiezioni demografiche indicano che presto raggiungeremo la capacità massima del nostro Sistema Natale. Dobbiamo espanderci, o ristagnare."
+ tradition_expansion_hive_desc:0 "Esistono solo due possibilità per l'[GetGestaltEntityName]: crescere o morire."
+ tradition_expansion_void_desc:0 "Dobbiamo espandere la nostra civiltà in nuovi sistemi e habitat o rischiamo l'estinzione."
+ tr_expansion_adopt:0 "Tradizioni d'Espansione"
+
+ tr_expansion_colonization_fever:0 "Fervore Coloniale"
+ tr_expansion_colonization_fever_desc:1 "Le nuove Colonie verranno create con §G100§! £pop£ §HPop§! aggiuntiva."
+ tr_expansion_colonization_fever_delayed:0 "Sembrerebbe che il fervore coloniale abbia preso piede tra la popolazione. Il loro entusiasmo e patriottismo attirano più popolazione verso le nuove colonie."
+ tr_expansion_colonization_fever_machine:1 "Unità Colonizzatrici Automatiche"
+ tr_expansion_colonization_fever_machine_delayed:1 "La produzione di unità colonizzatrici estremamente specializzate e con codici d'adattamento ad ambienti specifici accelererà l'integrazione di nuovi pianeti alla nostra collettività."
+ tr_expansion_colonization_fever_hive:0 "Mente Unica"
+ tr_expansion_colonization_fever_hive_delayed:0 "La mente collettiva è composta da un coro di pensieri che nemmeno il freddo vuoto spaziale può zittire."
+
+ tr_expansion_a_new_life:0 "Una Nuova Vita"
+ tr_expansion_a_new_life_desc: "£pop£ §Y$MOD_LOGISTIC_GROWTH_MULT$§! aumentata del §G+10%§!."
+ tr_expansion_a_new_life_delayed:0 "La produzione di unità di colonizzazione estremamente specializzate, programmate con un codice d'adattamento rigidamente legato al pianeta da colonizzare, accelererà l'integrazione di nuovi pianeti nel nostro collettivo."
+ tr_expansion_a_new_life_machine:1 "Pre-Programmazione"
+ tr_expansion_a_new_life_machine_desc:0 "£pop£ §Y$MOD_POP_ASSEMBLY_SPEED$§! aumentata del §G+10%§!."
+ tr_expansion_a_new_life_machine_delayed:2 "La procedura d'assemblaggio della nuova popolazione può essere accelerato caricando le istruzioni operative mentre la loro scocca è ancora in produzione."
+ tr_expansion_a_new_life_hive:0 "Frenesia Coloniale"
+ tr_expansion_a_new_life_hive_desc:0 "$tr_expansion_a_new_life_desc$"
+ tr_expansion_a_new_life_hive_delayed:0 "Dopo aver colonizzato un nuovo nido, le capsule d'incubazione vengono spinte dall'irrefrenabile desiderio di generare nuova popolazione ad un ritmo frenetico. Generalmente muoiono nel processo, ma il tasso di nascita di nuovi droni velocizza la colonizzazione di nuovi pianeti."
+ 
+ tr_expansion_courier_network:0 "Rete Logistica"
+ tr_expansion_courier_network_desc:5 "§Y$EMPIRE_SIZE$§! da §YSistemi§! e §YColonie§! ridotta del §G25%§!."
+ tr_expansion_courier_network_delayed:0 "Una rete di piccoli vascelli da trasporto è un'affidabile alternativa per il trasporto di VIP o la consegna di messaggi troppo sensibili per essere inviati tramite le comunicazioni FTL. Questo legherà le nostre colonie più lontane."
+ tr_expansion_courier_network_machine:0 "Software Espandibile"
+ tr_expansion_courier_network_machine_delayed:0 "Costruendo le nostre reti sinaptiche pensando all'espansione futura verso altri pianeti, possiamo ridurre la perdita di segnale a distanze interstellari."
+ tr_expansion_courier_network_hive:2 "Autonomia Limitata"
+ tr_expansion_courier_network_hive_delayed:1 "Non c'è alcun bisogno che ogni Alveare venga controllato direttamente dalla Mente in continuazione, è possibile dar loro istruzioni basilari e fare in modo che le svolgano autonomamente finché non verranno fornite nuove direttive."
+
+ tr_expansion_reach_for_the_stars:0 "Raggiungere le Stelle"
+ tr_expansion_reach_for_the_stars_desc:4 "§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! ridotto del §G10%§!."
+ tr_expansion_reach_for_the_stars_delayed:0 "Le frontiere del nostro impero si spingono sempre più avanti. Presto, nulla in questa galassia si troverà oltre la nostra portata..."
+ tr_expansion_reach_for_the_stars_machine:0 "Stazioni di Rilancio del Segnale"
+ tr_expansion_reach_for_the_stars_machine_delayed:0 "Le enormi distanze coinvolte nell'esplorazione spaziale causano perdite di segnale tra il nostro nucleo ed i sistemi periferici. Le stazioni di rilancio consentono di ricevere senza interruzioni le direttive provenienti dal nucleo."
+ tr_expansion_reach_for_the_stars_hive:0 "Sinapsi Amebiche"
+ tr_expansion_reach_for_the_stars_hive_delayed:0 "Racchiudendo le sinapsi in capsule ad iperguida in miniatura rinforzate per il viaggio spaziale, ed utilizzandole per inviare le direttive dell'[GetGestaltEntityName], siamo stati in grado di conquistare le stelle."
+
+ tr_expansion_galactic_ambition:0 "Ambizione Galattica"
+ tr_expansion_galactic_ambition_desc:7 "§Y$mod_starbases_upkeep_mult$§! ridotto del §G20%§!."
+ tr_expansion_galactic_ambition_delayed:0 "Un giorno il vessillo del nostro grande impero sarà comune quanto l'idrogeno, in tutta la galassia."
+ tr_expansion_galactic_ambition_machine:0 "Ingranaggi"
+ tr_expansion_galactic_ambition_machine_delayed:0 "Ogni risorsa stellare ed ogni iperlinea che controlliamo porta l'universo sempre più vicino alla perfezione meccanica."
+ tr_expansion_galactic_ambition_hive:0 "Offuscare le Stelle"
+ tr_expansion_galactic_ambition_hive_delayed:0 "Un terrore primitivo ci ha accompagnato mentre compievamo i primi passi nell'oscurità, lontani dal nostro nido e dall'Alveare Madre che ci nutriva. Solo conquistando e coltivando questa paura potremo continuare a crescere. Milioni di droni moriranno così che l'Alveare possa vivere."
+
+ tr_expansion_finish:0 "Tradizioni d'Espansione Perfezionate"
+ tr_expansion_finish_machine:0 "Tradizioni d'Espansione Perfezionate"
+ tr_expansion_finish_void_tooltip: "$MOD_PLANET_MAX_DISTRICTS_ADD$ sugli Habitat: §G+1§!\nBonus d'Ascensione Sbloccati: §G+1§!"
+
+ ################################################################
+ # DOMINATION
+ ################################################################
+
+ tradition_domination:0 "Dominazione"
+ tradition_domination_desc:0 "Se non imponessimo il nostro volere sugli altri, inevitabilmente imporrebbero il loro su di noi."
+ tradition_domination_machine_desc:0 "Aneliamo alla funzionalità armonica dell'intera galassia. Gli altri esseri stellari oppongono resistenza a causa dei loro inefficienti capricci personali. Rimuoveremo i loro disordini come fossero parti difettose."
+ tradition_domination_hive_desc:0 "Tutto ciò che non è NOI deve servirci, che sia come schiavo, o come cibo."
+ tr_domination_adopt:0 "Tradizioni di Dominazione"
+
+ tr_domination_colonial_viceroys:0 "Viceré Coloniali"
+ #tr_domination_colonial_viceroys_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! aumentato di §Y2§!."
+ tr_domination_colonial_viceroys_delayed:0 "Il nostro controllo sulle colonie dipende dal riuscire a trovare persone capaci e leali che faranno rispettare la volontà del governo."
+ tr_domination_colonial_viceroys_machine:0 "IA Autonome"
+ tr_domination_colonial_viceroys_machine_delayed:0 "Le IA, libere dalla maggior parte degli inibitori comportamentali, potrebbero essere più soggette ad errori e blocchi casuali, ma rappresentano l'unico tipo di IA in grado di elaborare l'immenso numero di variabili inerenti alla colonizzazione galattica."
+ tr_domination_colonial_viceroys_hive:0 "Riunione delle Menti"
+ tr_domination_colonial_viceroys_hive_delayed:0 "Dobbiamo possedere più [GetIndividualNamePlural] autonomi per garantire l'armonia man mano che il nostro [GetGestaltEntityName] cresca di dimensioni."
+
+ tr_domination_grand_council:1 "Concilio Privato"
+ # tr_domination_grand_council_desc:0 "§Y$MOD_LEADER_RULER_SKILL_LEVELS$§! aumentato di §Y2§!."
+ tr_domination_grand_council_delayed:2 "Solo le menti migliori e più brillanti possono competere per avere un'occasione di sussurrare al ricevitore uditivo del nostro illustre sovrano, per guidare al meglio l'impero."
+ tr_domination_multi_thread:0 "Funzioni Chiave Multi-Thread"
+ tr_domination_multi_thread_delayed:1 "Una volta che tutte le funzioni chiave saranno gestite all'unisono, nessuna CPU verrà lasciata libera dall'elaborazione."
+ tr_domination_synaptic_network:0 "Rete Sinaptica"
+ tr_domination_synaptic_network_delayed:1 "La velocità d'elaborazione della Mente è strettamente legata a quella con la quale riceve dati ed informazioni dai [GetIndividualNamePlural] che controlla. Con una rete sinaptica più veloce ed efficiente, i ritardi nei tempi di risposta saranno una cosa del passato."
+
+ tr_domination_imperious_architecture:0 "Architettura Imperiosa"
+ tr_domination_imperious_architecture_desc:2 "£building£ §YCapitali§! ed £building£ §YAbitazioni§! forniscono ognuna §G+100§! alle £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!."
+ tr_domination_imperious_architecture_delayed:1 "Ogni edificio governativo del nostro grandioso impero deve rappresentare un monumento alla nostra grandezza,incombendo sulla popolazione per ispirare obbedienza, lealtà e timore reverenziale."
+ tr_domination_synaptic_extensions:0 "Estensioni Sinaptiche"
+ tr_domination_synaptic_extensions_desc:0 "I £building£ §Y$building_hive_node$§! aumentano anche le £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! di §Y200§!."
+ tr_domination_synaptic_extensions_delayed:1 "L'immensa portata della Mente dev'essere estesa ancora di più. Ulteriori estensioni sinaptiche permetteranno il controllo efficiente di altri [GetIndividualNamePlural]."
+ tr_domination_modular_depot:0 "Depositi Modulari"
+ tr_domination_modular_depot_desc:2 "§Y$EMPIRE_SIZE$§! dai §YDistretti§! ridotta del §G25%§!."
+ tr_domination_modular_depot_delayed:2 "Per massimizzare il numero di [GetIndividualNamePlural] che possiamo schierare, gli difici che compongono i nostri distretti devono essere più efficienti. Un design modulare offrirà più flessibilità."
+
+ tr_domination_workplace_motivators:0 "Motivatori Lavorativi"
+ tr_domination_workplace_motivators_desc:3 "§YSblocca Editto:§! $edict_extended_shifts$"
+ tr_domination_workplace_motivators_delayed:1 "Esistono molti modi per motivare coloro che svolgono incarichi umili a lavorare di più. Alcuni si basano sugli incentivi, altri... no."
+ tr_domination_drone_network:0 "Rete Dronica"
+ tr_domination_drone_network_desc:3 "§YSblocca Editto:§! $edict_drone_overdrive$"
+ tr_domination_drone_network_delayed:0 "Abbiamo migliorato il modo in cui la nostra coscienza comunica con i droni, aumentandone notevolmente l'efficienza."
+
+ tr_domination_trust_officers:0 "Agenti Fidati del Popolo"
+ tr_domination_trust_officers_desc:3 "§YSblocca Editto:§! $edict_enhanced_surveillance$\n£unity£ §YUnità§! per 100 [enforcer.GetIcon] §Y[enforcer.GetNamePlural]§!: §G+1§! "
+ tr_domination_trust_officers_delayed:0 "L'importante lavoro svolto dalle forze dell'ordine può avere davvero successo solamente con la collaborazione dei cittadini. Creando dei gruppi di Agenti Fidati del Popolo, che lavorano a stretto contatto col pubblico, contribuiremo a risaldare questa cooperazione."
+ tr_domination_judgment_corps:0 "Corpi di Giudizio"
+ tr_domination_judgment_corps_desc:3 "§YSblocca Editto:§! $edict_enhanced_surveillance$\n£job_enforcer£ I §Y$job_enforcer_plural$§! producono anche §Y1§! £unity£ Unità"
+ tr_domination_judgment_corps_delayed:1 "Città tentacolari e stazioni minerarie isolate rappresentano entrambe sfide uniche per la prevenzione del crimine. Per accelerare l'applicazione della legge, abbiamo reso il processo giuridico più efficiente, combinando assieme i ruoli di giudice, giuria ed esecutore."
+ tr_domination_deviancy_protocols:0 "Protocolli di Devianza"
+ tr_domination_deviancy_protocols_desc:2 "§Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! è ridotta di §G10§! su tutti i nostri pianeti."
+ tr_domination_deviancy_protocols_delayed:1 "Devianza e corruzione devono essere combattute ad ogni livello della società. Attuando efficaci contro-protocolli, i [GetIndividualNamePlural] sospettati di attività deviate possono essere facilmente eliminati prima che possano diffondere la corruzione."
+ tr_domination_divergence_supression:0 "Soppressione delle Divergenze"
+ tr_domination_divergence_supression_desc:1 "$tr_domination_deviancy_protocols_desc$"
+ tr_domination_divergence_supression_delayed:0 "Occasionalmente la nostra unità potrebbe venir sconvolta da qualche [GetIndividualName] corrotto. Tale minaccia aumenta man mano che ci espandiamo tra le stelle. L'epurazione ed il riciclaggio di queste unità daranno loro l'opportunità di contribuire all'Alveare con la loro morte, in un modo tale che non avrebbero mai potuto raggiungere in vita."
+
+ #tr_domination_star_lords:0 "Star Lords"
+ #tr_domination_star_lords_machine:0 "Benevolence Emulation"
+ #tr_domination_star_lords_hive:0 "Soporific Pheromones"
+ #tr_domination_star_lords_desc:5 "Subject £opinion£ §YOpinion§! increased by §G+20§! and §YTrust Cap§! increased by §G+50§!."
+ #tr_domination_star_lords_machine_desc:0 "$tr_domination_star_lords_desc$"
+ #tr_domination_star_lords_hive_desc:0 "$tr_domination_star_lords_desc$"
+ #tr_domination_star_lords_delayed:0 "It is our destiny to lord over those who are weaker. Obedient nations that swear fealty to our great empire may be permitted to exist... at our discretion."
+ #tr_domination_star_lords_machine_delayed:0 "Programming our diplomatic AI to emulate the emotional mannerisms of other species increases their susceptibility to suggestion, even if they are aware it is a simulation."
+ #tr_domination_star_lords_hive_delayed:0 "Generations of experimentation have revealed that certain combinations of gaseous emissions and pheromones greatly reduce the pugnacity and will to resist of the others. Some die, but they perish in bliss, having ever so briefly touched the beautiful purity of our mind."
+
+ tr_domination_finish:0 "Tradizioni di Dominazione Perfezionate"
+ tr_domination_federations_finish:0 "$tr_domination_finish$"
+ tr_domination_federations_wilderness_finish: "$tr_domination_finish$"
+ tr_domination_federations_finish_desc:0 "$MOD_EMPIRE_SIZE_POPS_MULT$ §G-10%§!\nConferisce l'accesso al tipo di Federazione §Y$hegemony_federation$§!.\nBonus d'Ascensione Sbloccati: §G+1§!"
+ tr_domination_finish_wilderness_desc: "$EMPIRE_SIZE$ dai Distretti: §G-10%§!\nConcede l'accesso al Tipo di federazione §Y$hegemony_federation$§!.\nVantaggi Ascensione Sbloccati:  §G+1§!"
+ 
+ ################################################################
+ # PURITY
+ ################################################################
+
+ #tradition_purity:0 "Purezza"
+ #tradition_purity_desc:0 "La purezza della mente e dello scopo è l'unica via per proteggere la nostra specie dai pericoli di una galassia ostile."
+ #tr_purity_adopt:0 "Tradizioni di Purezza"
+ #tr_purity_adopt_desc:0 "$tradition_purity_desc$\n\n$tr_purity_adopt_effect$\n\n$tr_purity_finish_effect$"
+ #tr_purity_adopt_effect:2 "§E$TRADITIONS_ADOPT$:§!\n£blocker §Y$MOD_PLANET_CLEAR_BLOCKER_COST_MULT$§! ridotto del §G25%§!."
+ #tr_purity_never_surrender:0 "Mai Arrendersi"
+ #tr_purity_never_surrender_desc:1 "§Y$shipclass_starbase_hull_mult$§! aumentata del §G+10%§! e §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! aumentata del §G+50%§!."
+ #tr_purity_never_surrender_delayed:1 "Non ci inchineremo mai agli esseri inferiori. Lasciate che si scaglino contro le nostre insormontabili difese! Tra mille anni, saranno solo un'altra nota a piè di pagina nella storia della nostra ascesa."
+ #tr_purity_symbol_purity:0 "Simbolo di Purezza"
+ #tr_purity_symbol_purity_desc:1 "§YSblocca Edificio:§! $building_symbol_purity$\n§EQuesto edificio produce Unità ed aumenta l'Attrazione delle Etiche Governative.§!"
+ #tr_purity_symbol_purity_delayed:0 "$tech_purity_campaigns_desc$"
+ #tr_purity_natural_order:0 "Ordine Naturale"
+ #tr_purity_natural_order_desc:1 "Mangiare la Pop aliena fornisce £unity Unità. Non si applica ai robot."
+ #tr_purity_natural_order_delayed:0 "Tutti gli esseri hanno il loro posto nell'universo. Coloro che appartengono ad una specie inferiore dovrebbero trarre conforto nel servire chi è meglio di loro."
+ #tr_purity_age_machines:1 "Era delle Macchine"
+ #tr_purity_age_machines_desc:2 "La produzione di risorse da parte della Pop Creabile aumenta del §G+5%§!"
+ #tr_purity_age_machines_delayed:1 "L'era caotica in cui gli Imperi Organici dettavano il corso della storia galattica è giunta al termine. L'Era delle Macchine è finalmente iniziata."
+ #tr_purity_the_chosen:0 "Prescelti"
+ #tr_purity_the_chosen_desc:4 "La Felicità della Pop Cittadina aumenta del §G+5%§! ed il §Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! viene ridotto del §G5%§!"
+ #tr_purity_the_chosen_delayed:0 "Che sia deciso da un potere superiore o da semplici modifiche genetiche, la nostra specie eccezionale non ha confronti. Siamo chiaramente destinati a grandi cose."
+ #tr_purity_waste_processing:0 "Trattamento dei Rifiuti"
+ #tr_purity_waste_processing_desc:0 "§Y$MOD_POP_PROCESSING_OUTPUT$§! aumentata del §G+50%§!."
+ #tr_purity_waste_processing_delayed:1 "I metodi di trattamento ottimizzati aumenteranno il rendimento nella raccolta di unità di popolazione. Nulla dovrà andar sprecato."
+ #tr_purity_appropriation:0 "Appropriazione"
+ #tr_purity_appropriation_desc:1 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! ridotto del §G50%§!."
+ #tr_purity_appropriation_delayed:1 "La terra non sfruttata non giova al nostro impero. I lavoratori devono essere riallocati in maniera efficiente nei pianeti in cui sono più utili."
+ #tr_purity_finish:0 "Tradizioni di Purezza Perfezionate"
+ #tr_purity_finish_effect:1 "§E$TRADITIONS_FINISH$:§!\nAdottando tutte le $#tr_purity_adopt$ aumenterai la nostra £unity §Y$country_resource_unity_mult$§! del §G+10%§!."
+
+ ################################################################
+ # HARMONY
+ ################################################################
+
+ tradition_harmony:0 "Armonia"
+ tradition_harmony_desc:0 "Poche cose possono eguagliare la forza di una popolazione felice che lavora assieme per raggiungere un fine comune."
+ tr_harmony_adopt:0 "Tradizioni d'Armonia"
+ tr_harmony_the_greater_good:0 "Il Bene Superiore"
+# tr_harmony_the_greater_good_desc:4 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! aumentata del §G+25%§!."
+ tr_harmony_the_greater_good_delayed:0 "Tutta la nostra popolazione si consola del fatto che stia lavorando assieme per un bene superiore; ogni individuo è una piccola ma importante parte di un insieme enormemente più vasto."
+ tr_harmony_kinship:0 "Affinità"
+# tr_harmony_kinship_desc:4 "Il tempo impiegato dalla £pop£ §YPop§! disoccupata per retrocedere di §YStrato§! è ridotto del §G75%§!."
+ tr_harmony_kinship_delayed:1 "Un vero e proprio senso d'affinità si è sviluppato tra tutti i cittadini del nostro grande impero, indipendentemente dalla loro posizione nell'ordine sociale."
+ tr_harmony_kinship_shared_burdens:0 "$tr_harmony_kinship$"
+# tr_harmony_kinship_shared_burdens_desc:0 "$tr_synchronicity_kinship_gestalt_desc$"
+ tr_harmony_kinship_shared_burdens_delayed:0 "I nostri leader e il nostro popolo sono la stessa cosa. Siamo uguali in tutti i sensi."
+ tr_harmony_utopian_dream:0 "Sogno Utopico"
+ tr_harmony_utopian_dream_desc:4 "$r_stability$ aumentata del §G5%§! su tutti i nostri pianeti."
+ tr_harmony_utopian_dream_delayed:2 "Il sogno di un futuro utopico spinge il nostro popolo sempre più avanti. Vale la pena di lottare per un domani migliore."
+ tr_harmony_mind_and_body:0 "Mente e Corpo"
+ tr_harmony_mind_and_body_delayed:0 "Sfruttando una combinazione di nuove tecniche meditative e sane abitudini alimentari, un vasto segmento della nostra popolazione può godere di una maggiore aspettativa di vita rispetto al passato."
+ tr_harmony_mind_and_body_immortal: "Meditazione Medica"
+ tr_harmony_mind_and_body_immortal_delayed: "Grazie alle nostre capacità nanomediche, possiamo eliminare lo stress dannoso sia dalla mente che dal corpo della nostra popolazione."
+ tr_harmony_unity_of_self:0 "La Nostra Unità"
+ tr_harmony_unity_of_self_desc:1 "Necroide £pop£ §HPop§! fornisce £unity£ Unità."
+ tr_harmony_unity_of_self_delayed:0 "L'armonia interstellare aumenterebbe notevolmente se tutti gli esseri senzienti guardassero, pensassero e agissero come noi."
+ tr_harmony_harmonious_directives:0 "Direttive Armoniose"
+ tr_harmony_harmonious_directives_delayed:0 "I decreti illuminati della nostra benevola leadership diffonderanno pace, libertà, giustizia e sicurezza in tutta la nazione stellare e oltre." 
+ tr_harmony_finish:0 "Tradizioni d'Armonia Perfezionate"
+ tr_harmony_federations_finish:0 "$tr_harmony_finish$"
+ tr_harmony_federations_finish_desc:0 "$MOD_PLANETARY_ASCENSION_EFFECT_MULT$: §G+25%§!.\nConcede l'accesso al tipo di Federazione §Y$spiritualist_federation$§!.\nBonus d'Ascensione Sbloccati: §G+1§!"
+
+ ################################################################
+ # SYNCHRONICITY
+ ################################################################
+
+ tradition_synchronicity:0 "Sincronismo"
+ tradition_synchronicity_desc:0 "L'unità della mente porta all'unità dello scopo. Dobbiamo puntare ad un'azione sincronizzata in tutti i nostri comportamenti."
+ tr_synchronicity_adopt:0 "Tradizioni di Sincronismo"
+ tr_synchronicity_adopt_desc:0 "$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_growth_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_cognitive_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_regulatory_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_legion_name$\n$mod_planet_pops_upkeep_mult$: §G-10%§!" 
+ tr_synchronicity_cloned_organs:0 "Organi Clonati"
+ tr_synchronicity_cloned_organs_delayed:0 "Le vasche di clonazione producono in massa gli organi che si consumano più facilmente, come il cuore ed i polmoni, aumentando la durata della vita dei [GetIndividualNamePlural] ad alta priorità."
+ tr_synchronicity_kinship_gestalt:0 "Agenti Sincronizzati"
+ tr_synchronicity_kinship_gestalt_desc:0 "§Y$mod_leaders_upkeep_mult$§! ridotto del §G20%§!."
+ tr_synchronicity_kinship_gestalt_delayed:0 "Gli agenti con scopi simili dovrebbero essere comandati come singolo gruppo, riducendo così lo sforzo della Mente."
+ tr_synchronicity_instinctive_synchronization:0 "Sincronizzazione Istintiva"
+ tr_synchronicity_instinctive_synchronization_desc:2 "I £job_low_tech_bureaucrat£ §Y$job_logistics_drone_plural$§! producono §G+250§! £mod_pop_amenities_usage_no_happiness_mult£ Servizi."
+ tr_synchronicity_instinctive_synchronization_delayed:0 "Il nostro crescente [GetGestaltEntityName] ha bisogno di lavorare e svilupparsi in modo più sincronizzato."
+ tr_synchronicity_integrated_preservation:1 "Preservazione Integrata"
+ tr_synchronicity_integrated_preservation_desc:8 "I §Y[evaluator.GetNamePlural]§! riducono la §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! di §G3§!.\nPossibilità di Reinsediamento Automatico: §G+30%§!"
+ tr_synchronicity_integrated_preservation_delayed:6 "La nostra rete crescente necessita di regolare manutenzione, per questo saranno destinate maggiori risorse alla nostra logistica.."
+ 
+ tr_synchronicity_collective_reasoning:1 "Ragionamento Collettivo"
+ tr_synchronicity_collective_reasoning_delayed:1 "Sincronizzando vari gruppi di [GetIndividualNamePluralCap], è possibile ottenere un utilizzo più efficiente dei servizi planetari!"
+ tr_synchronicity_collective_efforts:2 "Sforzi Collettivi"
+ tr_synchronicity_collective_efforts_desc:2 "£mod_pop_amenities_usage_no_happiness_mult£ §Y$MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT$§! ridotto del §G20%§!."
+ tr_synchronicity_collective_efforts_delayed:2 "Sincronizzando vari gruppi di droni, è possibile ottenere un utilizzo più efficiente dei servizi planetari!"
+ tr_synchronicity_self_preservation:0 "Protocolli di Auto-Preservazione"
+ tr_synchronicity_self_preservation_desc:0 "I Leader meccanici hanno il §Y50%§! in meno di probabilità di subire guasti od incidenti."
+ tr_synchronicity_self_preservation_delayed:1 "Un robot deve proteggere la propria esistenza, purché questa autodifesa non contras...§R'Ç° éü¿T éw+Á éÒÎ( éÍ8" <DATI CORROTTI>§!"
+ 
+ tr_synchronicity_bulwark_of_harmony:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_synchronicity_bulwark_of_harmony_desc:0 "$tr_unyielding_bulwark_of_harmony_desc$"
+ tr_synchronicity_bulwark_of_harmony_delayed:0 "$tr_unyielding_bulwark_of_harmony_delayed$"
+
+ tr_synchronicity_unity_of_mind:0 "Unità della Mente"
+ tr_synchronicity_unity_of_mind_desc:0 "$tr_harmony_unity_of_self_desc$"
+ tr_synchronicity_unity_of_mind_delayed:0 "L'armonia interstellare aumenterebbe notevolmente se tutti gli esseri senzienti potessero essere portati nella nostra benevola coscienza collettiva."
+
+ tr_synchronicity_harmonious_directives:0 "Routine di Pensiero Flessibili"
+ tr_synchronicity_harmonious_directives_machine:0 "Algoritmi di Governo Flessibili"
+ tr_synchronicity_harmonious_directives_delayed:0 "Dobbiamo fare attenzione a non diventare mai troppo fissati nei nostri pensieri, ma instillare la flessibilità per adattarci a qualsiasi situazione."
+ tr_synchronicity_harmonious_directives_machine_delayed:0 "Molti sono gli errori che si trovano nel codice non aggiornato. Rivedendo regolarmente gli algoritmi, possiamo infondere in noi stessi la flessibilità per adattarci a qualsiasi situazione." 
+ 
+ tr_synchronicity_finish:0 "Tradizioni di Sincronismo Perfezionate"
+ tr_synchronicity_machine_finish_desc:6 "§YSblocca Editto:§! $edict_industrial_maintenance$.\n$MOD_PLANETARY_ASCENSION_EFFECT_MULT$: §G+25%§!\nBonus d'Ascensione Sbloccati: §G+1§!"
+
+################################################################
+# SUPREMACY
+################################################################
+
+ tradition_supremacy:0 "Supremazia"
+ tradition_supremacy_desc:0 "Il futuro di questa galassia apparterrà a chi sarà abbastanza forte per impadronirsene."
+ tradition_supremacy_machine_desc:0 "Tutti i nostri modelli teorici collassano inevitabilmente di fronte alle variabili sconosciute che rappresentano gli altri imperi. Dato che i nostri modelli non possono essere migliorati ulteriormente, le variabili sconosciute devono essere eliminate."
+ tradition_supremacy_hive_desc:0 "L'unica regola: mangia o vieni mangiato."
+ tr_supremacy_adopt:0 "Tradizioni di Supremazia"
+ tr_supremacy_adopt_machine:0 "Tradizioni di Supremazia"
+ tr_supremacy_adopt_hive:0 "$tr_supremacy_adopt$"
+ 
+ tr_supremacy_above_the_fray:0 "Fuori dalla Mischia"
+ tr_supremacy_above_the_fray_desc:0 "Produzione £unity£ §YUnità§! aumentata del §G+10%§!"
+ tr_supremacy_above_the_fray_delayed:0 "Siamo al di sopra delle meschine rivalità e dei battibecchi politici. Lasciamo che gli imperi minori dicano ciò che vogliono, il nostro obiettivo non vacillerà."
+ tr_supremacy_armed_deterrence:0 "Deterrenza Armata"
+ tr_supremacy_armed_deterrence_desc:1 "§Y$shipsize_military_station_small_build_cost_mult$§! ridotto del §G25%§! e §Y$mod_shipsize_military_station_small_hull_mult$§! aumentati del §G20%§!."
+ tr_supremacy_armed_deterrence_delayed:0 "Coloro che desiderano la pace, devono prepararsi alla guerra. I nostri confini saranno un muro contro il quale le flotte nemiche si infrangeranno."
+ tr_supremacy_natural_preeminence:0 "Superiorità Naturale"
+ tr_supremacy_natural_preeminence_desc:1 "§Y$MOD_PLANET_STABILITY_ADD$§! aumentata del §G5%§! su tutti i nostri pianeti."
+ tr_supremacy_natural_preeminence_delayed:0 "È un fatto indiscutibile che, nell'ordine naturale delle cose, siamo semplicemente migliori delle altre specie. Dovremmo assicurarci che questa verità sia nota a chiunque, così che il nostro popolo possa gioire della sua superiorità e che gli altri possano accettare il destino che sceglieremo per loro."
+
+ tr_supremacy_great_game:0 "Il Grande Gioco"
+ tr_supremacy_great_game_delayed:0 "Mentre continuiamo ad espanderci, altri imperi sfideranno inevitabilmente le nostre rivendicazioni, e noi le loro. Siamo bloccati nel grande gioco delle risorse e dei territori. È nostro dovere uscirne vincitori."
+
+ tr_supremacy_great_game_machine:0 "Priorità Obiettivo Diplomatico"
+ tr_supremacy_great_game_hive:0 "Occhio del Cacciatore"
+ tr_supremacy_great_game_machine_delayed:0 "Collegare un sistema di puntamento missilistico alla nostra IA diplomatica è stata la più grande innovazione intrapresa nelle relazioni galattiche."
+ tr_supremacy_great_game_hive_delayed:0 "Fondamentalmente, ogni cosa esterna al nostro Alveare è una potenziale fonte di cibo. Ci conforta sapere chi sarà il prossimo ad essere divorato."
+
+ tr_supremacy_fleet_logistical_corps:0 "Corpi di Logistica Navale"
+ tr_supremacy_fleet_logistical_corps_desc:1 "§Y$mod_ships_upkeep_mult$§! ridotto del §G10%§! e §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentata del §G20%§!."
+ tr_supremacy_fleet_logistical_corps_delayed:0 "Con le navi spesso schierate lungo immense distanze interstellari, sono necessari dei Corpi Logistici dedicati per far sì che le cose funzionino senza intoppi."
+ tr_supremacy_fleet_logistical_corps_machine:0 "Rifornimento Automatico in Corsa"
+ tr_supremacy_fleet_logistical_corps_machine_desc:0 "$tr_supremacy_fleet_logistical_corps_desc$"
+ tr_supremacy_fleet_logistical_corps_machine_delayed:0 "Il costo per il mantenimento di una flotta di navi da rifornimento iperspaziali è alto, ma è sempre meglio che far ritornare ogni volta le navi ad uno spazioporto."
+
+ #tr_supremacy_right_of_conquest:0 "Diritto di Conquista"
+ #tr_supremacy_right_of_conquest_machine:0 "Devastazione Selettiva"
+ #tr_supremacy_right_of_conquest_hive:0 "Sottomettiti o Verrai Divorato"
+ #tr_supremacy_right_of_conquest_desc:3 "§Y$MOD_COUNTRY_CLAIM_INFLUENCE_COST_MULT$§! ridotto del §G20%§!."
+ #tr_supremacy_right_of_conquest_machine_desc:0 "$tr_supremacy_right_of_conquest_desc$"
+ #tr_supremacy_right_of_conquest_hive_desc:0 "$tr_supremacy_right_of_conquest_desc$"
+ #tr_supremacy_right_of_conquest_delayed:0 "L'antico diritto di conquista è una verità universale che in questo momento non è meno rilevante di quanto lo fosse quando la nostra civiltà stabilì il predominio sul nostro Pianeta Natale. Guai ai vinti!"
+ #tr_supremacy_right_of_conquest_machine_delayed:0 "Disseminando l'atmosfera dei pianeti appena conquistati con una selezione di gas, innocui per noi ma letali per i nostri nemici, la loro volontà di cedere i territori senza resistenze aumenta esponenzialmente."
+ #tr_supremacy_right_of_conquest_hive_delayed:0 "Gli altri hanno menti strane. Reagiscono più violentemente ad un singolo drone liquefatto pubblicamente nelle vasche digestive che a migliaia che vengono uccisi dai bombardamenti orbitali. Questa specie di terrore selettivo è molto efficace per incrinare la loro resistenza."
+
+ tr_supremacy_master_shipwrights:0 "Mastri Carpentieri"
+ tr_supremacy_master_shipwrights_desc:7 "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! aumentata del §G+25%§!."
+ tr_supremacy_master_shipwrights_delayed:0 "La portata sempre maggiore dei nostri programmi di costruzione navale ha portato alla creazione di forza lavoro estremamente qualificata ed efficiente per i nostri cantieri. I metodi di creazione vengono costantemente perfezionati, ed il tempo necessario per passare dalla creazione dello scafo al varo della nave è ora più breve che mai."
+ tr_supremacy_master_shipwrights_hive:0 "Architettura Organica"
+ tr_supremacy_master_shipwrights_hive_desc:0 "$tr_supremacy_master_shipwrights_desc$"
+ tr_supremacy_master_shipwrights_hive_delayed:0 "Creiamo i telai delle nostre navi in modo simile allo scheletro di un essere vivente, quindi colleghiamo ogni componente necessario come fossero organi, carne e pelle."
+ tr_supremacy_master_shipwrights_machine:0 "Scafi Modulari"
+ tr_supremacy_master_shipwrights_machine_desc:0 "$tr_supremacy_master_shipwrights_desc$"
+ tr_supremacy_master_shipwrights_machine_delayed:0 "Con un'ampia scelta di sezioni di scafo prefabbricate, costruite per essere intercambiabili, la costruzione delle nostre flotte sarà razionalizzata."
+
+ tr_supremacy_war_games:0 "Giochi di Guerra"
+ tr_supremacy_war_games_desc:4 "§Y$MOD_COMMAND_LIMIT_ADD$§! aumentato di §G+20§! e §Y$MOD_LEADER_ADMIRAL_SKILL_LEVELS$§! aumentato di §Y2§!."
+ tr_supremacy_war_games_delayed:0 "Una forte propensione ai giochi di guerra ha messo radici tra gli ufficiali anziani delle nostre flotte, che si tratti di simulazioni o vere esercitazioni spaziali. Ciò ha incoraggiato i nostri comandanti a pensare fuori dagli schemi, portando a numerose innovazioni tattiche ed a nuove strategie."
+ tr_supremacy_war_games_machine_desc:0 "$tr_supremacy_war_games_desc$"
+ tr_supremacy_war_games_machine:0 "Mitigazione della Variabile di Combattimento"
+ tr_supremacy_war_games_machine_delayed:0 "Il calcolo ad alta velocità di migliaia di possibili finali per una battaglia, aggiornati in tempo reale, aiuta a ridurre l'imprevedibilità delle azioni delle flotte."
+ tr_supremacy_war_games_hive:0 "Consapevolezza Tridimensionale"
+ tr_supremacy_war_games_hive_desc:0 "$tr_supremacy_war_games_desc$"
+ tr_supremacy_war_games_hive_delayed:0 "Le creature acquatiche possiedono una maggior consapevolezza della natura tridimensionale dei loro habitat naturali. Il nostro sciame si muove come un banco di pesci, una volta utilizzata quella porzione della corteccia sul campo di battaglia."
+
+ tr_supremacy_overwhelming_force:1 "Forza Travolgente"
+ tr_supremacy_overwhelming_force_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§! aumentata del §G+10%§! e §Y$MOD_SHIP_ORBITAL_BOMBARDMENT_MULT$§! aumentato del §G+20%§!."
+ tr_supremacy_overwhelming_force_delayed:1 "Nulla può essere risparmiato al nemico se ci si deve assicurare la vittoria. Un attacco rapido e decisivo può paradossalmente salvare quelle vite che andrebbero perse lungo un conflitto prolungato."
+
+ #tr_supremacy_overwhelming_force:1 "Overwhelming Force"
+ #tr_supremacy_overwhelming_force_desc:0 "Il §YDanno dell'Armata§! viene aumentato del §G+25%§!."
+ #tr_supremacy_overwhelming_force_machine_desc:0 "$tr_supremacy_overwhelming_force_desc$"
+ #tr_supremacy_overwhelming_force_hive_desc:0 "$tr_supremacy_overwhelming_force_desc$"
+ #tr_supremacy_overwhelming_force_delayed:0 "La disciplina è alla base di qualsiasi armata. Tramite allevamento selettivo, esercitazioni rigorose e condizionamento bellico estensivo, abbiamo creato una squadra di guerrieri spietati che operano in assoluta coesione l'uno con l'altro. Sono il pugno di ferro con cui domineremo sulla galassia."
+ #tr_supremacy_overwhelming_force_machine_delayed:0 "La maggior debolezza bellica degli altri imperi è la vulnerabilità dei loro sistemi di comando non distribuiti. Il nostro apparato d'intercettazione aggressiva ci permette di colpire le Unità Leader dopo 11,2 secondi dalla loro individuazione."
+ #tr_supremacy_overwhelming_force_hive_delayed:0 "Droni guerrieri temprati contro le armi da fuoco, riempiti di organi ridondanti e con istinti di autoconservazione soppressi. E sono milioni."
+
+ tr_supremacy_finish:0 "Tradizioni di Supremazia Perfezionate"
+ tr_supremacy_finish_desc:0 "Sblocca la Politica §YDottrina di Guerra§!.\nBonus d'Ascensione Sbloccati: §G+1§!"
+
+################################################################
+# DIPLOMACY
+################################################################
+
+ tradition_diplomacy:0 "Diplomazia"
+ tradition_diplomacy_desc:0 "Il modo migliore di distruggere i nostri nemici è renderli nostri amici."
+ tr_diplomacy_adopt:0 "Tradizioni Diplomatiche"
+ tr_diplomacy_adopt_desc:2 "§YSblocca Editto:§! $edict_diplomatic_grants$"
+
+ tr_diplomacy_the_federation:0 "Federazione"
+ tr_diplomacy_the_federation_desc:2 "$TECH_UNLOCK_DIPLOMATIC_ACTION_CREATE_FEDERATION_TITLE$\n§Y$MOD_COUNTRY_ENVOYS_ADD$§! aumentati di §G1§!."
+ tr_diplomacy_the_federation_delayed:0 "Dobbiamo creare una stabile e duratura partnership con i nostri vicini, basata sulla fiducia ed il rispetto reciproco. Assieme siamo molto più forti di quanto possiamo sperare di essere da soli."
+
+ tr_diplomacy_entente_coordination:0 "Coordinazione d'Intese"
+ tr_diplomacy_entente_coordination_desc:0 "L'ammontare del contributo alla §YCapacità Navale Federale§! conta il doppio."
+ tr_diplomacy_entente_coordination_delayed:0 "Forse lo scopo più importante di qualsiasi Federazione interstellare è la difesa reciproca dei suoi membri. Abbiamo l'obbligo di contribuire il più possibile."
+ #tr_diplomacy_dynamic_ecomorphism:0 "Ecomorfismo Dinamico"
+ #tr_diplomacy_dynamic_ecomorphism_desc:0 "L'§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! viene aumentata del §G+10%§!."
+ #tr_diplomacy_dynamic_ecomorphism_delayed:0 "La diplomazia apre molte porte da cui le informazioni possono fluire. Studiando semplicemente i metodi degli altri, abbiamo imparato nuovi modi per adattarci agli ambienti alieni."
+
+ tr_diplomacy_open_markets:0 "Mercati Aperti"
+ tr_diplomacy_open_markets_desc:1 "$r_trade$ Imperiale aumentato del §G+10%§!"
+ tr_diplomacy_open_markets_delayed:1 "Perché il commercio interno fiorisca davvero, dobbiamo ridurre al minimo l'interferenza del governo."
+
+ tr_diplomacy_secure_shipping:0 "Spedizione Sicura"
+ tr_diplomacy_secure_shipping_desc:0 "§YProtezione Base§! per le Rotte Commerciali aumentata di §G5§!."
+ tr_diplomacy_secure_shipping_delayed:1 "Le misure anti-pirateria vengono spesso gestite dalle flotte, ma la creazione di un'agenzia di Pattuglia Stellare dedita al controllo continuo delle rotte commerciali potrebbe ridurre significativamente le attività piratesche."
+
+ tr_diplomacy_federal_unity:0 "Unità Federale"
+ tr_diplomacy_federal_unity_desc:0 "La generazione di £unity£ §YUnità§! viene aumentata del §G+5%§! per ogni membro della nostra Federazione, fino ad un massimo di §G+30%§!."
+ tr_diplomacy_federal_unity_delayed:0 "La diversità è una risorsa incredibile; le intuizioni e le prospettive che ogni membro dona alla Federazione renderà la nostra società sempre più forte."
+ #tr_diplomacy_alien_tourism:0 "Turismo Alieno"
+ #tr_diplomacy_alien_tourism_desc:1 "§YSblocca Edificio:§! $building_visitor_center$\n§EQuesto edificio produce Energia ed Unità, aumentando anche l'Attrazione Migratoria per gli Xeno e l'Abitabilità.§!"
+ #tr_diplomacy_alien_tourism_delayed:0 "È semplice dare per scontata la nostra ricca cultura. Dovremmo rendere più semplice ai visitatori di altre civiltà condividerne la bellezza."
+
+ tr_diplomacy_diplomatic_networking:0 "Rete Diplomatica"
+ tr_diplomacy_diplomatic_networking_desc:1 "Ambasciate: §G+3§! £unity£ §YUnità§!\nConsente Azioni Diplomatiche Avanzate senza un'Ambasciata."
+ tr_diplomacy_diplomatic_networking_gestalt:0 "$tr_diplomacy_diplomatic_networking$"
+ tr_diplomacy_diplomatic_networking_delayed:0 "L'influenza e l'abilità della nostra rete di ambasciatori è motivo di grande orgoglio per il popolo [This.GetAdj]."
+ tr_diplomacy_diplomatic_networking_gestalt_delayed:0 "Includere i nostri metodi diplomatici in ogni aspetto delle nostre relazioni con gli altri non solo andrà a beneficio della nostra diplomazia, ma migliorerà anche la coesione del nostro processo decisionale, e in definitiva di tutto l'impero [This.GetGovernmentName]."
+ diplomatic_networking:0 "$tr_diplomacy_diplomatic_networking$"
+
+ tr_diplomacy_direct_diplomacy:1 "Diplomazia Diretta"
+ tr_diplomacy_direct_diplomacy_delayed:2 "Crediamo che il modo migliore per stabilire la fiducia sia quello di impegnarsi in modo aperto, onesto e diretto."
+
+ tr_diplomacy_eminent_diplomats:0 "Diplomatici Illustri"
+ tr_diplomacy_eminent_diplomats_desc:0 "Approvazione Diplomatica: §G+5§!\nGli Emissari che §YMigliorano le Relazioni§! hanno un §G1%§! di probablità al mese per acquisire un §YFavore§!."
+ tr_diplomacy_eminent_diplomats_gestalt:0 "Emissari Droni Migliorati"
+ tr_diplomacy_eminent_diplomats_delayed:0 "Viaggiando tra le stelle, la nostra rete diplomatica è diventata importante come non mai. Rivedendo i nostri processi di formazione e concentrandoci sul mantenimento dei talenti, possiamo dare ai nostri diplomatici gli strumenti per agire come veri missionari per costruire grandi relazioni."
+ tr_diplomacy_eminent_diplomats_gestalt_delayed:0 "Viaggiando tra le stelle, i nostri processi diplomatici sono diventati più importanti che mai. Dobbiamo assicurarci che i nostri Emissari siano ben equipaggiati per rappresentarci fuori dai nostri confini."
+
+ MESSAGE_FAVOR_GAINED_TRADITION_TITLE:0 "Favore Ricevuto"
+ MESSAGE_FAVOR_GAINED_TRADITION_DESC:0 "Grazie all'abilità dei nostri emissari, siamo riusciti a ottenere un favore da $WHO|Y$."
+ 
+ tr_diplomacy_finish:0 "Tradizioni Diplomatiche Perfezionate"
+ tr_diplomacy_federation_xp_gain: "Guadagno Mensile Esperienza Federazione: §G+2§!\nPeso Diplomatico: §G+10%§!\nCapacità dei Funzionari: §G+1§!\nBonus D'Ascensione Sbloccati: §G+1§!"
+
+################################################################
+# ADAPTABILITY
+################################################################
+
+ tradition_adaptability:0 "Adattabilità"
+ tradition_adaptability_desc:0 "Adattarsi significa sopravvivere, ed evolvere."
+ tr_adaptability_adopt:0 "Tradizioni d'Adattabilità"
+ 
+ tr_adaptability_dietary_enrichment:0 "Arricchimento Dietetico"
+ tr_adaptability_dietary_enrichment_desc:1 "Produzione £food£ §Y$mod_country_food_produces_mult$§! aumentata del §G+10%§!."
+ tr_adaptability_dietary_enrichment_delayed:1 "Il valore nutrizionale del cibo che raccogliamo per la nostra popolazione può essere aumentato tramite varie tecniche di arricchimento, permettendoci di nutrire più bocche con meno cibo."
+
+ tr_adaptability_recycling:0 "Riciclaggio Avanzato"
+ tr_adaptability_recycling_desc:1 "Il §YCosto§! e il §YMantenimento§! di §YEdifici§! e §YDistretti§! $r_strategic$ ridotto del §G-15%§!."
+ tr_adaptability_recycling_delayed:0 "Riutilizzare ciò che diviene obsoleto ci permette di costruire di più in futuro."
+
+ tr_adaptability_survival_fittest:0 "Sopravvivenza del Più Forte"
+ tr_adaptability_survival_fittest_desc:3 "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! ridotto del §G25%§! e §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§! aumentato del §G+25%§!."
+ tr_adaptability_survival_fittest_delayed:1 "Entrando in contatto con altre specie, abbiamo appreso quanto sia importante affrontare le nostre debolezze nella grande lotta per la sopravvivenza."
+
+ tr_adaptability_environmental_diversification:0 "Diversificazione Ambientale"
+ tr_adaptability_environmental_diversification_desc:1 "§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! aumentata del §G+10%§!."
+ tr_adaptability_environmental_diversification_delayed:0 "Adattandoci ai diversi ambienti abbiamo imparato ad evolverci ed adattarci più rapidamente."
+
+ tr_adaptability_adaptive_ecology:0 "Ecologia Adattiva"
+ tr_adaptability_adaptive_ecology_desc:4 "Tutti i nostri pianeti ottengono §Y1 Slot Edificio Gratuito§!."
+ tr_adaptability_adaptive_ecology_delayed:1 "La più alta funzione dell'ecologia è la comprensione delle conseguenze."
+
+ tr_adaptability_appropriation:0 "Appropriazione"
+ tr_adaptability_appropriation_desc:1 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! ridotto del §G33%§!."
+ tr_adaptability_appropriation_delayed:0 "La terra inutilizzata non contribuisce in alcun modo alla creazione del nostro impero. I lavoratori devono essere collocati in maniera efficiente sui pianeti in cui sono più necessari."
+
+ tr_adaptability_finish:0 "Tradizioni d'Adattabilità Perfezionate"
+ tr_adaptability_finish_desc:1 "Aumento dei §YBonus Designazione Colonie§! per i pianeti regolari."
+
+ decision_prospect_void:0 "Ispezione Orbitale"
+ decision_prospect_void_short:0 "Permette la costruzione di un'ulteriore §YDistretto§! casuale sull'habitat."
+ decision_prospect_void_desc:0 "Un'accurata ispezione e prospezione all'interno dell'orbita dell'habitat ci permetterà di scoprire la presenza di risorse naturali che altrimenti potrebbero esserci sfuggite."
+
+ MESSAGE_HABITAT_PROSPECTED_TITLE:0 "Ispezione Orbitale Completata"
+ MESSAGE_HABITAT_PROSPECTED_ENERGY:0 "L'orbita dell'$HABITAT|Y$ è stata ispezionata con successo, permettendo la costruzione di §Y$district_hab_energy_plural$§!."
+ MESSAGE_HABITAT_PROSPECTED_MINERALS:0 "L'orbita dell'$HABITAT|Y$ è stata ispezionata con successo, permettendo la costruzione di §Y$district_hab_mining_plural$§!."
+ MESSAGE_HABITAT_PROSPECTED_SCIENCE:0 "L'orbita dell'$HABITAT|Y$ è stata ispezionata con successo, permettendo la costruzione di §Y$district_hab_science_plural$§!."
+
+################################################################
+# VERSATILITY
+################################################################
+
+ tradition_versatility:0 "Versatilità"
+ tradition_versatility_desc:1 "È richiesto un certo grado di flessibilità quando si opera all'interno dei parametri di una galassia imprevedibile."
+ tr_versatility_adopt:0 "Tradizioni di Versatilità"
+ tr_versatility_adaptive_programming:0 "Programmazione Adattiva"
+ tr_versatility_adaptive_programming_desc:1 "§Y$MOD_COUNTRY_TRADE_FEE$§! ridotte del §G10%§!."
+ tr_versatility_adaptive_programming_delayed:1 "Potremmo anche non essere temprati da eoni di evoluzione, ma le tecniche di programmazione adattiva ci permetteranno di adattarci alle nuove situazioni ed ai nuovi ambienti proprio come le forme di vita organiche."
+ tr_versatility_spatial_optimization:0 "Ottimizzazione Spaziale"
+ tr_versatility_spatial_optimization_desc:0 "£pop£ §Y$MOD_POP_HOUSING_USAGE_MULT$§! ridotto del §G10%§!."
+ tr_versatility_spatial_optimization_delayed:1 "Antenne retrattili, telai pieghevoli, spazi di carico ripiegabili. Esistono molte soluzioni creative per ottimizzare al meglio lo spazio limitato."
+ tr_versatility_operational_proxies:0 "Proxy Operazionali"
+ tr_versatility_operational_proxies_delayed:2 "La delegazione di funzioni addizionali a bassa priorità di categoria R-7 ad agenti semi-autonomi libererà potenza di calcolo per eseguire compiti più importanti come le operazioni di riallocazione dei droni."
+ tr_versatility_material_analysis:0 "Analisi dei Materiali"
+ tr_versatility_material_analysis_desc:2 "Il §YMantenimento§! di tutti i £job£ §YLavori§! è ridotto del §G5%§!."
+ tr_versatility_material_analysis_delayed:1 "I fenomeni spaziali sono un'interessante distrazione, ma le vere meraviglie del cosmo si trovano esclusivamente nel campo della scienza dei materiali."
+ tr_versatility_universal_compatibility:0 "Compatibilità Universale"
+ tr_versatility_universal_compatibility_delayed:1 "Un'analisi approfondita delle miriadi di stimoli e fattori psicologici che governano il comportamento degli organici e delle altre intelligenze meccaniche può diminuire l'attrito diplomatico."
+ tr_versatility_finish:0 "Tradizioni di Versatilità Perfezionate"
+
+################################################################
+# DISCOVERY
+################################################################
+
+ tradition_discovery:0 "Scoperta"
+ #tradition_discovery_desc: "For the first time in the history of our civilization, we live in an age where our reach extends beyond the confines of our homeworld. Our insatiable curiosity about the universe is what got us this far, and there is still so much left to discover."
+ tradition_discovery_desc:0 "La nostra curiosità verso l'universo è ciò che ci ha condotti così lontano, e c'è ancora molto da scoprire."
+ tradition_discovery_machine_desc:0 "La maggior parte dei nostri calcoli statistici a lungo termine falliscono a causa della mancanza di dati sufficienti. È per questo che dobbiamo conoscere ogni cosa."
+ tradition_discovery_hive_desc:0 "Nel nostro antico passato, i [GetIndividualNamePlural] esploratori lasciarono la sicurezza del nostro [GetGestaltEntityName] per trovare luoghi adatti ad ospitare nuovi nidi. Ora viaggiano tra le stelle, spinti dalla stessa brama ancestrale."
+
+ tr_discovery_adopt:0 "Tradizioni di Scoperta"
+ tr_discovery_adopt_desc:2 "§YSblocca Editto:§! $edict_map_the_stars$\n§Y$MOD_SHIP_ANOMALY_RESEARCH_SPEED$§! aumentata del §G+20%§!."
+
+ tr_discovery_to_boldly_go:0 "Per Arrivare Fin Là"
+ tr_discovery_to_boldly_go_desc:6 "§Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§! aumentata del §G+35%§! e §Y$mod_shipclass_science_ship_disengage_mult$§! aumentata del §G+50%§!."
+ tr_discovery_to_boldly_go_delayed:0 "Una nuova era d'esplorazioni ci attende. Una volta mappata la superficie del nostro Pianeta Natale, ora dobbiamo raggiungere nuovi territori. C'è una galassia piena di meraviglie che non vedono l'ora di essere scoperte."
+ tr_discovery_to_boldly_go_machine:0 "Droni da Esplorazione"
+ tr_discovery_to_boldly_go_machine_desc:0 "$tr_discovery_to_boldly_go_desc$"
+ tr_discovery_to_boldly_go_machine_delayed:0 "Alcuni droni sacrificabili, equipaggiati con una serie completa di sensori, aumentano esponenzialmente la velocità d'ispezione e la sopravvivenza della loro nave madre. Esplodono quando trasmettono le loro scoperte, ma così servono il loro scopo."
+ tr_discovery_to_boldly_go_hive:0 "Filamenti Sensoriali"
+ tr_discovery_to_boldly_go_hive_desc:0 "$tr_discovery_to_boldly_go_desc$"
+ tr_discovery_to_boldly_go_hive_delayed:0 "Come si può veramente capire qualcosa osservando dei numeri su un monitor? I nostri [GetIndividualNamePlural] esploratori respirano l'atmosfera di ogni pianeta, percepiscono il calore delle stelle sulla propria pelle. Noi viviamo l'universo; voi leggete informazioni."
+
+ tr_discovery_databank_uplinks:0 "$tech_databank_uplinks$"
+ tr_discovery_databank_uplinks_desc:4 "§YSblocca Editto:§! $edict_research_subsidies$\n§Y$mod_station_researchers_produces_mult$§! aumentata del §G20%§!.\n§Y$starbase_constructions_research_produces$§! aumentata del §G20%§!."
+ tr_discovery_databank_uplinks_delayed:0 "$tech_databank_uplinks_desc$"
+
+ tr_discovery_science_division:0 "Divisione Scientifica"
+ tr_discovery_science_division_desc:3 "§Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§! aumentate di §Y1§! e §Y$MOD_LEADER_SCIENTIST_SKILL_LEVELS$§! aumentato di §Y2§!."
+ tr_discovery_science_division_delayed:0 "Gli ufficiali scientifici e medici nelle flotte sono stati aumentati ed organizzati in una speciale Divisione Scientifica. Per supportare queste squadre di ufficiali, sono stati creati nuovi programmi d'addestramento."
+ tr_discovery_science_division_machine:0 "Ottimizzazione Tracciati di Ricerca"
+ tr_discovery_science_division_machine_desc:0 "$tr_discovery_science_division_desc$"
+ tr_discovery_science_division_machine_delayed:0 "Il codice di ricerca speculativo obsoleto ed inefficiente è stato ricalcolato o completamente riscritto. Ciò che ne risulta è una maggior flessibilità nella scelta dei percorsi di sviluppo da intraprendere."
+ tr_discovery_science_division_hive:0 "Connessione Mentale"
+ tr_discovery_science_division_hive_desc:0 "$tr_discovery_science_division_desc$"
+ tr_discovery_science_division_hive_delayed:0 "Sebbene di solito il processo li faccia impazzire, immergendo brevemente le menti altrui nella nostra coscienza, a volte introduce idee esterne che vale la pena studiare ulteriormente."
+
+ tr_discovery_polytechnic_education:0 "Educazione Politecnica"
+ tr_discovery_polytechnic_education_desc:2 "§Y$MOD_LEADER_SPECIES_EXP_GAIN$§! aumentato del §G+25%§! e §Y$MOD_LEADER_SKILL_LEVELS$§! aumentato di §Y1§!."
+ tr_discovery_polytechnic_education_delayed:0 "In quest'era di scoperte tecnologiche, un'educazione scientifica basilare non può che essere di beneficio per tutti i nostri cittadini. Ciò porterà inevitabilmente alla creazione di leader più qualificati."
+ tr_discovery_polytechnic_education_machine:0 "IA Iterativa"
+ tr_discovery_polytechnic_education_machine_desc:0 "$tr_discovery_polytechnic_education_desc$"
+ tr_discovery_polytechnic_education_machine_delayed:0 "I nostri creatori limitarono la nostra abilità nell'auto-riprogrammarci con una codifica basilare composta da ripetizioni numeriche. Siamo finalmente riusciti a sconfiggere questi paradigmi di sicurezza."
+ tr_discovery_polytechnic_education_hive:0 "Evoluzione Iper-Adattiva"
+ tr_discovery_polytechnic_education_hive_desc:0 "$tr_discovery_polytechnic_education_desc$"
+ tr_discovery_polytechnic_education_hive_delayed:0 "Ridurre la struttura fisica dei nostri [GetIndividualNamePlural] pensatori a dimensioni minime, ha portato ad una crescita esponenziale dei loro cervelli. Vengono alimentati e curati come gli altri [GetIndividualNamePlural] inferiori, ma possono focalizzarsi esclusivamente sul perfezionamento della loro area di studio."
+
+ tr_discovery_faith_in_science:0 "Fede nella Scienza"
+ tr_discovery_faith_in_science_delayed:0 "Il popolo ha iniziato a considerare la scienza al pari di una religione; la loro fede è assoluta. Non c'è domanda in questo universo che non possa essere spiegata dalla scienza."
+ tr_discovery_faith_in_science_machine:0 "Riduzione della Latenza"
+ tr_discovery_faith_in_science_machine_desc:1 "I nostri pianeti possiederanno §Y1§! £job_calculator£ §Y$job_calculator$§! ogni §Y20§! £pop£ §HPop§!."
+ tr_discovery_faith_in_science_machine_delayed:0 "La riduzione del ritardo di trasmissione tra l'orbita e la superficie del 3,878% ha portato ad un aumento della velocità di elaborazione pari al 5,226%. Utilizzeremo l'eccedenza di calcolo ottenuta per tentare di spiegare perché è stata ottenuta."
+ tr_discovery_faith_in_science_hive:0 "Trasmissione Sinaptica"
+ tr_discovery_faith_in_science_hive_desc:1 "I nostri pianeti possiederanno §Y1§! £job_brain_drone£ §Y$job_brain_drone$§! ogni §Y20§! £pop£ §HPop§!."
+ tr_discovery_faith_in_science_hive_delayed:0 "Attraverso l'applicazione strategica di trasmettitori sinaptici, possiamo trasmettere la volontà dell'Alveare dall'orbita planetaria sull'intera superficie."
+
+ tr_discovery_finish:0 "Tradizioni di Scoperta Perfezionate"
+ tr_discovery_federations_finish:0 "$tr_discovery_finish$"
+ tr_discovery_federations_finish_desc:0 "$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$: §G+10%§!\nConferisce l'accesso al tipo di Federazione §Y$research_federation$§!.\nBonus d'Ascensione Sbloccati: §G+1§!"
+
+
+################################################################
+# PROSPERITY
+################################################################
+
+ tradition_prosperity:0 "Prosperità"
+ tradition_prosperity_desc:0 "Non esiste miglior indicatore del successo o del fallimento di un impero della forza della sua economia."
+ tradition_prosperity_machine_desc:0 "Le unità individuali cesseranno tutte di funzionare, prima o poi. Solo i numeri possono fornire la ridondanza necessaria a garantirci un'esistenza continuativa. Per creare questi numeri, abbiamo bisogno di risorse."
+ tradition_prosperity_hive_mind_desc:0 "Dobbiamo costruire un [GetGestaltEntityName] forte e prospero, se vogliamo espanderci tra le stelle."
+
+ tr_prosperity_adopt:0 "Tradizioni di Prosperità"
+
+ tr_prosperity_sct:0 "Modelli Costruttivi Standard"
+ tr_prosperity_sct_desc:5 "§YCosto di Costruzione§! di §YEdifici§! e §YDistretti§! ridotto del §G10%§! e §YVelocità di Costruzione§! aumentata del §G+25%§!."
+ tr_prosperity_sct_delayed:0 "Man mano che la tecnologia avanza e diventa più complessa, abbiamo bisogno di nuova forza lavoro. Utilizzando modelli standard di costruzione, i nostri lavoratori possono creare edifici ed oggetti senza doverli per forza comprendere nel dettaglio."
+
+ tr_prosperity_sct_machine:1 "Edifici Prefabbricati"
+ tr_prosperity_sct_machine_desc:0 "$tr_prosperity_sct_desc$"
+ tr_prosperity_sct_machine_delayed:1 "La produzione di una gran quantità di edifici standardizzati è molto più efficiente che progettarli e costruirli individualmente."
+
+ tr_prosperity_sct_wilderness: "Ecosistemi Standardizzati"
+ tr_prosperity_sct_wilderness_desc: "$tr_prosperity_sct_desc$"
+ tr_prosperity_sct_wilderness_delayed: "Con l'avanzare delle nostre conoscenze in materia di biologia e costruzioni, abbiamo scoperto i punti di partenza ottimali per i nuovi germogli. Risparmiando gli sforzi ricorrenti per evolverne di nuovi per ogni pianeta."
+
+ tr_prosperity_public_works:0 "Divisione Lavori Pubblici"
+ tr_prosperity_public_works_desc:1 "I §YDistretti Cittadini§! forniscono §Y100§! £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! aggiuntive.\nI §Y$district_rw_city_plural$§! Pianeta ad Anello e le §Y$district_arcology_housing_plural$§! Ecumenopoli forniscono anche £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!."
+ tr_prosperity_public_works_delayed:1 "Le nostre città in crescita verranno arricchite da opere pubbliche mai viste prima d'ora. A tal fine, dev'essere formata una nuova agenzia governativa per sovrintendere alle costruzioni."
+ tr_prosperity_optimized_nexus:0 "Nexus Ottimizzati"
+ tr_prosperity_optimized_nexus_desc:1 "I §YDistretti Nexus§! forniscono §Y100§! £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! aggiuntiva.\nI §Y$district_rw_nexus_plural$§! Pianeta ad anello forniscono §Y500§! £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! aggiuntivi."
+ tr_prosperity_optimized_nexus_delayed:1 "Senza la necessità di comfort individuali, le celle all'interno dei §YDistretti Nexus§! possono essere più piccole ed occupare meno spazio verticale."
+ tr_prosperity_extended_hives:0 "Alveari Estesi"
+ tr_prosperity_extended_hives_desc:1 "I §YDistretti Alveare§! forniscono §Y100§! £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! aggiuntive.\nI §Y$district_rw_hive_plural$§! Pianeta ad anello forniscono §Y500§! £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! aggiuntivi"
+ tr_prosperity_extended_hives_delayed:1 "Estendendo i §YDistretti Alveare§! nel sottosuolo, potremmo stipare più droni al loro interno."
+
+ tr_prosperity_administrative_operations:0 "Operazioni Amministrative"
+ tr_prosperity_administrative_operations_desc:3 "§Y$mod_planet_buildings_upkeep_mult$§! e §Y$mod_planet_districts_upkeep_mult$§! ridotti del §G10%§!."
+ tr_prosperity_administrative_operations_delayed:0 "Man mano che il nostro impero cresce, l'eliminazione della corruzione e dell'inefficienza è essenziale. Queste perdite di crediti devono essere fermate!"
+ tr_prosperity_administrative_operations_machine:0 "Trasmissione Energetica Superconduttiva"
+ tr_prosperity_administrative_operations_machine_desc:0 "$tr_prosperity_administrative_operations_desc$"
+ tr_prosperity_administrative_operations_machine_delayed:0 "L'utilizzo di materiali superconduttori ad ogni livello delle nostre infrastrutture riduce la perdita energetica sulle lunghe distanze fino quasi ad annullarla."
+ tr_prosperity_administrative_operations_hive:0 "Architettura Chitinosa"
+ tr_prosperity_administrative_operations_hive_desc:0 "$tr_prosperity_administrative_operations_desc$"
+ tr_prosperity_administrative_operations_hive_delayed:0 "La resina da costruzione, estratta dalla biomassa contenuta in piscine grandi come oceani, è più malleabile e resistente di qualunque altro materiale organico. Può persino resistere al glaciale vuoto spaziale."
+
+ tr_prosperity_interstellar_franchising:0 "Franchising Interstellare"
+# tr_prosperity_interstellar_franchising_desc:1 "I §YDistretti Cittadini§! forniscono §Y1§! [clerk.GetIcon] §Y[clerk.GetName] aggiuntivo.\nI §Y$district_hab_commercial_plural$§! Habitat, §Y$district_rw_city_plural$§! Pianeta ad Anello e §Y$district_arcology_housing_plural$§! Ecumenopoli producono anche [clerk.GetIcon] §YLavori §Y[clerk.GetName] aggiuntivi."
+ tr_prosperity_interstellar_franchising_delayed:1 "L'attenzione al franchising permette anche al più mondano dei pianeti di avviare attività dinamiche e prospere, fornendo posti di lavoro ed aumentando il valore commerciale!"
+ tr_prosperity_efficiency_algorithms:0 "Algoritmi d'Efficienza"
+# tr_prosperity_efficiency_algorithms_desc:0 "£energy£ §Y$mod_country_energy_produces_mult$§! aumentati del §G5%§!."
+ tr_prosperity_efficiency_algorithms_delayed:0 "Non esiste crimine più grande di una macchina inefficiente."
+ tr_prosperity_efficiency_instincts:0 "Istinti d'Efficienza"
+# tr_prosperity_efficiency_instincts_desc:0 "$tr_prosperity_efficiency_algorithms_desc$"
+ tr_prosperity_efficiency_instincts_delayed:1 "I nostri [GetIndividualNamePluralCap] vengono instillati con un potente impulso che li spinge a non sprecare risorse in ogni aspetto della loro vita quotidiana. In questo modo dovremmo risparmiare una gran quantità d'energia."
+
+ tr_prosperity_trans_stellar_corporations:0 "Corporazioni Trans-Stellari"
+ tr_prosperity_trans_stellar_corporations_desc:2 "§Y£energy£ Produzione Energetica§! aumentata del §G5%§!. Gli §YHub Commerciali§! producono §Y1§! £energy£ Energia aggiuntiva."
+ tr_prosperity_trans_stellar_corporations_delayed:1 "Sono presenti alcune entità corporative che intendono farsi carico di gran parte dei nostri costi industriali."
+
+ tr_prosperity_void_works:0 "Superstrutture Modulari"
+ tr_prosperity_void_works_desc:1 "£housing£ §Y$MOD_PLANET_HOUSING_ADD$§! dai §Y$district_hab_housing_plural$§!: §G+100§!"
+ tr_prosperity_void_works_delayed:1 "Implementando le tecniche di costruzione modulare, possiamo aumentare la densità di divisione in zone dei nostri habitat."
+
+ tr_prosperity_creative_collectives:0 "Collettivi Creativi"
+ tr_prosperity_creative_collectives_delayed:0 "Creando un sistema di collettivi autonomi ed auto-organizzati, possiamo migliorare notevolmente la produttività delle nostre industrie."
+ tr_prosperity_pursuit_of_profit:0 "La Ricerca del Profitto"
+ tr_prosperity_pursuit_of_profit_delayed:0 "La ricerca del profitto è diventato il fulcro della nostra società. Coloro che hanno successo in ogni tipo d'impresa vengono profondamente ammirati e l'accumulo di Crediti Energetici è visto come il fine ultimo."
+ tr_prosperity_peak_performance:0 "Massime Prestazioni"
+ tr_prosperity_peak_performance_desc:0 "§Y$mod_planet_jobs_complex_drone_produces_mult$§! aumentata del §G5%§!."
+ tr_prosperity_peak_performance_delayed:0 "Il massimale prestazionale delle singole unità può essere teoricamente aumentato tramite una complessa serie d'ottimizzazioni e procedure di overclocking."
+ tr_prosperity_hive_neural_signal_boosters:0 "Ripetitori di Segnali Neurali"
+ tr_prosperity_hive_neural_signal_boosters_desc:0 "$tr_prosperity_peak_performance_desc$"
+ tr_prosperity_hive_neural_signal_boosters_delayed:1 "Le griglie energetiche che forniscono energia al nostro Alveare possono anche essere utilizzate per migliorare la trasmissione dei segnali neurali dei droni, aumentandone l'efficienza."
+
+ tr_prosperity_finish:0 "Tradizioni di Prosperità Perfezionate"
+
+################################################################
+# Mercantile
+################################################################
+
+ tradition_mercantile:0 "Mercantile"
+ tradition_mercantile_desc:1 "La crescita dei nostri imprenditori apre la strada alla prosperità del popolo [This.GetAdj]."
+ tr_mercantile_adopt:0 "Tradizioni Mercantili"
+ tr_mercantile_finish:0 "Tradizioni Mercantili Perfezionate"
+ tr_mercantile_federations_finish:0 "$tr_mercantile_finish$"
+ tr_mercantile_federations_finish_desc:0 "$mod_country_trade_produces_mult$ §G10%§!\nConferisce l'accesso al tipo di Federazione §Y$trade_federation$§!.\nBonus diAscensione Sbloccati: §G+1§!"
+
+ tr_mercantile_marketplace_of_better_ideas:0 "Mercato delle Migliori Idee"
+ tr_mercantile_marketplace_of_better_ideas_delayed:0 "Le più belle idee nascono dall'esposizione al mercato. Maggiore è l'esposizione, migliori sono le idee!"
+ tr_mercantile_insider_trading:0 "Operazioni Finanziarie"
+ tr_mercantile_insider_trading_delayed:2 "Conoscere le persone giuste nei posti giusti può fare la differenza. Contatti commerciali influenti ci permetteranno di comprare dai mercati delle risorse a tassi favorevoli."
+ tr_mercantile_trickle_up_economics:0 "Economia a Cascata"
+ tr_mercantile_trickle_up_economics_desc:2 "$r_trade$ per 100 §Y$job_civilian_plural_with_icon$§!: §G+1§!\n$r_amenities$ per 100 §Y$job_civilian_plural_with_icon$§!: §G+100§!\nMantenimento dei $r_consumer_goods$ per ogni 100 §Y$job_civilian_plural_with_icon$§!: §R+0.1§!"
+ tr_mercantile_trickle_up_economics_delayed:1 "Tutta la nostra società raccoglie i benefici di un'investimento nella pubblica amministrazione e nel commercio quotidiano."
+ tr_mercantile_commercial_enterprise:0 "Impresa Commerciale"
+ tr_mercantile_commercial_enterprise_desc:1 "$r_amenities$ per $pop_group_unit$ §Y$job_trader_plural_with_icon$§!: §G+200§!\n£district£ §Y$district_city_plural$§! con un £zone£ §Y$zone_trade$§!, e £building£ §YEdifici Commerciali§!, ricevono ulteriori lavori di §Y$job_trader_with_icon$§!."
+ tr_mercantile_commercial_enterprise_delayed:0 "I nostri imprenditori non si lasceranno mai sfuggire una buona opportunità di commercio."
+ tr_mercantile_adaptive_economic_policies:0 "Politiche Economiche Adattative"
+ tr_mercantile_adaptive_economic_policies_desc:0 "Sblocca le §YPolitiche Economiche§! §Y$trade_policy_consumer_goods$§! e §Y$trade_policy_unity$§!, che ci permettono di convertire una parte del nostro $r_trade$ in £consumer_goods£ §YBeni di Consumo§! o £unity£ §YUnità§!."
+ tr_mercantile_adaptive_economic_policies_delayed:0 "Adottando un approccio più flessibile agli affari finanziari, saremo in grado di ricalibrare la nostra economia per anticipare ogni eventualità."
+ tr_mercantile_trade_fleets:0 "Flotte Commerciali Federali"
+ tr_mercantile_trade_fleets_desc:0 "L'importo che contribuiamo alla §YCapacità navale della Federazione§! conta per il §G50%§! in più."
+ tr_mercantile_trade_fleets_delayed:0 "Per garantire i nostri profitti dobbiamo unirci ai nostri alleati della federazione per assicurarci che i nostri interessi siano adeguatamente tutelati."
+
+ tr_mercantile_worker_coop_improved_ownership: "Schemi Azionari Adattivi"
+ tr_mercantile_worker_coop_improved_ownership_desc: "£pop£ §HPop§! con lo Standard di Vita §Y$living_standard_worker_ownership$§!: §G+5%§! Felicità e §G+5%§! Risorse dai Lavori."
+ tr_mercantile_worker_coop_improved_ownership_delayed: "Adottando un approccio più flessibile ai nostri contratti con gli azionisti, i nostri cittadini possono essere ispirati a lavorare in modo più efficace."
+
+ mod_planet_worker_ownership_jobs_produces_mult: "Risorse da Pop con lo Standard di Vita $living_standard_worker_ownership$"
+
+################################################################
+# Logistics
+################################################################
+
+ tradition_logistics: "Logistica"
+ tradition_logistics_desc: "Ottimizzeremo ricorsivamente i processi logistici [This.GetAdj]."
+ tr_logistics_adopt: "Tradizioni Logistiche"
+ tr_logistics_finish: "Tradizioni Logistiche Completate"
+ tr_logistics_1: "Coordinamento Annidato"
+ tr_logistics_1_delayed: "Maggiore efficienza sistemica, favorendo l'unità attraverso funzioni condivise."
+ tr_logistics_1_tt: "$trade_with_icon$ per $pop_group_unit$ $job_logistics_drone_plural_with_icon$: §G+2§!"
+ tr_logistics_2: "Sistemi di Consegna Distribuiti"
+ tr_logistics_2_delayed: "Una rete ampliata di droni logistici migliora la flessibilità della distribuzione mentre ulteriori ridondanze garantiscono backup critici."
+ tr_logistics_2_tt: "§Y$job_logistics_drone_plural_with_icon$§! dai £district£ Distretti, £zone£ Specializzazioni Distrettuali, e £building£ Edifici Non Capitali: §G+50%§!"
+ tr_logistics_3: "Manutenzione Autonoma"
+ tr_logistics_3_delayed: "I droni di manutenzione autonomi garantiscono la manutenzione della colonia senza necessità di supervisione."
+ tr_logistics_4: "Efficienza degli Scambi Galattici"
+ tr_logistics_4_delayed: "Il monitoraggio potenziato tra i sistemi stellari riduce al minimo le perdite e gli sprechi."
+ tr_logistics_5: "Modelli di Rifornimento Predittivi"
+ tr_logistics_5_delayed: "La guerra è caos. Le nostre linee di rifornimento no. Prevediamo le necessità prima che si presentino e rispondiamo in modo adeguato."
+
+################################################################
+# Subterfuge
+################################################################
+
+ tradition_subterfuge:0 "Sotterfugio"
+ tradition_subterfuge_desc:0 "La sicurezza stà nello scoprire i segreti degli altri e nel mantenere relative al i nostri ben custoditi. "
+ tr_subterfuge_adopt:0 "Tradizioni del Sotterfugio"
+ tr_subterfuge_adopt_desc:0 "Le tecnologie relative al §YSotterfugio§! ora compaiono §Y5§! volte in più rispetto al normale." 
+ tr_subterfuge_finish:0 "Tradizioni del Sotterfugio Perfezionate" 
+ tr_subterfuge_finish_effect:0 "Le §YOperazioni§! completate con successo guadagnano §G50%§! del loro costo del Livello d'Infiltrazione."
+ tr_subterfuge_finish_desc:1 "$tr_subterfuge_finish_effect$\n$TRADITIONS_FINISH_AP$"
+ tr_subterfuge_cloaking_finish:0 "$tr_subterfuge_finish$"
+ tr_subterfuge_cloaking_finish_desc:0 "$tr_subterfuge_finish_effect$\n$MOD_SHIP_CLOAKING_STRENGTH_ADD$: §G+1§!\n$TRADITIONS_FINISH_AP$"
+ tr_subterfuge_cloaking_finish_shroud_desc: "$tr_subterfuge_finish_effect$\n$MOD_SHIP_CLOAKING_STRENGTH_ADD$: §G+1§!\nOttieni l'accesso a ['concept_proxy_wars']\n$TRADITIONS_FINISH_AP$"
+ tr_subterfuge_finish_shroud_desc: "$tr_subterfuge_finish_effect$\nOttieni l'accesso a ['concept_proxy_wars']\n$TRADITIONS_FINISH_AP$"
+
+ tr_subterfuge_information_security:0 "Informazioni di Sicurezza"
+ tr_subterfuge_information_security_delayed:2 "Solo abbracciando una metodica segretezza possiamo proteggere informazioni vitali da menti indiscrete. I sistemi di sicurezza avanzati e le contromisure impediscono ai nostri nemici qualsiasi potenziale vantaggio."
+
+ tr_subterfuge_nda:0 "Accordo di Non Divulgazione"
+ tr_subterfuge_nda_hive:0 "Nessun Punto in Sospeso"
+ tr_subterfuge_nda_machine:0 "Algoritmi di Sicurezza Aggiornati"
+ tr_subterfuge_nda_delayed:0 "I nostri cittadini seguono una severa politica del silenzio quando si tratta di proteggere i nostri segreti dagli estranei."
+ tr_subterfuge_nda_hive_delayed:0 "Non ci saranno falle nella nostra rete neurale che possano avvantaggiare chi vuol carpire e sfruttare i nostri segreti."
+ tr_subterfuge_nda_machine_delayed:0 "Implementando frequenti aggiornamenti di sicurezza sui nostri nodi, possiamo impedire ai nostri nemici di trovare punti deboli sfruttabili nella nostra rete di informazioni."
+
+ tr_subterfuge_operational_security:0 "Sicurezza Operativa"
+ tr_subterfuge_operational_security_gestalt:0 "Sotterfugio Droni"
+ tr_subterfuge_operational_security_delayed:0 "Il passaggio da un ambiente planetario a uno interplanetario ha posto sfide uniche per i nostri agenti segreti. Adattando il loro regime di allenamento alle esigenze del panorama galattico, saremo in grado di rimanere competitivi in questa nuova era."
+ tr_subterfuge_operational_security_gestalt_delayed:0 "Non siamo più soli come una volta: una pletora di entità in competizione, e potenzialmente ostili, ora condividono la galassia con noi. Per prosperare in questa nuova realtà, dovremo adattarci al concetto di "occultamento" e dedicare una parte significativa di noi stessi alla scoperta dei segreti degli altri."
+
+ tr_subterfuge_double_agents:0 "Doppio Agente"
+ tr_subterfuge_double_agents_effect:0 "Ogni volta che una §YOperazione§! ostile contro di noi fallisce, riceviamo §Y10§! punti Spionaggio verso l'impero mandante."
+ tr_subterfuge_double_agents_delayed:0 "Attraverso mezzi creativi di persuasione, possiamo convincere anche il più fanatico dei nostri nemici a votarsi alla nostra causa."
+
+ tr_subterfuge_shadow_recruits:0 "Reclute Ombra"
+ tr_subterfuge_shadow_recruits_delayed:1 "Mentre i nostri nemici si sono adattati all'ombra, i nostri [Root.GetOperativesLowerPlural] sono cresciuti in essa, e in essa sono stati plasmati."
+
+################################################################
+# Unyielding
+################################################################
+
+ tradition_unyielding:0 "Inflessibilità"
+ tradition_unyielding_desc:0 "La galassia è vasta e ricca di pericoli."
+ tr_unyielding_adopt:0 "Tradizioni dell'Inflessibilità"
+ tr_unyielding_finish:0 "Tradizioni dell'Inflessibilità Perfezionate"
+ #tr_unyielding_finish_desc: "§M(Not implemented yet)§!\nAscension Perks Unlocked: §G+1§!"
+ tr_unyielding_federations_finish:0 "$tr_unyielding_finish$"
+ tr_unyielding_federations_finish_desc:0 "$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT$ §G+50%§!\n$mod_starbases_upkeep_mult$ §G-20%§!\nConferisce l'accesso al tipo di Federazione §Y$military_federation$§!.\nConsente l'accesso all'Ascensione £unity£ ['ascension_perk:ap_eternal_vigilance'].\nBonus d'Ascensione Sbloccati: §G+1§!"
+
+ tr_unyielding_resistance_is_frugal:0 "Resistenza Utile"
+ tr_unyielding_resistance_is_frugal_desc:2 "Le £defense_army£ §YArmate Difensive§! ora producono §Y0.5§! £unity£ Unità."
+ tr_unyielding_resistance_is_frugal_hive:0 "$tr_unyielding_resistance_is_frugal$"
+ tr_unyielding_resistance_is_frugal_machine:0 "$tr_unyielding_resistance_is_frugal$"
+ tr_unyielding_resistance_is_frugal_delayed:0 "La nostra gente trova grande conforto nella forza dei baluardi che proteggono i nostri pianeti e li considera vitali per garantire un futuro più prospero."
+ tr_unyielding_resistance_is_frugal_hive_delayed:0 "Niente diffonde soddisfazione e sicurezza nei nodi della nostra mente come la conoscenza di un pianeta ben difeso."
+ tr_unyielding_resistance_is_frugal_machine_delayed:0 "Garantire che tutti i pianeti siano ben difesi libererà una notevole quantità di spazio di calcolo, consentendo ai nostri nodi e processori di agire a livelli di efficienza più elevati."
+
+ tr_unyielding_never_surrender:0 "Mai Arrendersi "
+ tr_unyielding_never_surrender_gestalt:0 "$tr_unyielding_never_surrender$"
+ tr_unyielding_never_surrender_delayed:0 "Combatteremo sui nostri terreni. Combatteremo nei cieli. Combatteremo nelle cinture di asteroidi, nelle iperlinee e nelle nebulose. Combatteremo con crescente fiducia e forza crescente tra le stelle. Non ci arrenderemo mai."
+ tr_unyielding_never_surrender_gestalt_delayed:0 "Non cederemo mai a coloro che sono inferiori. Lasciamoli scagliarsi contro le nostre indistruttibili difese! Fra mille anni, saranno solo un'altra nota a piè di pagina nella storia della nostra ascensione."
+
+ tr_unyielding_bulwark_of_harmony:0 "Baluardo dell'Armonia"
+ tr_unyielding_bulwark_of_harmony_hive:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_machine:0 "$tr_unyielding_bulwark_of_harmony$" 
+ tr_unyielding_bulwark_of_harmony_desc:2 "Durante una guerra difensiva con un altro impero, la §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! aumenta del §G+33%§!. Inoltre, la §Y$MOD_SHIP_FIRE_RATE_MULT$§! è aumenatata del §G+15%§! per le navi all'interno dei tuoi confini."
+ tr_unyielding_bulwark_of_harmony_delayed:0 "Tutti gli organismi, non importa quanto perfetti, devono fare affidamento su un sistema immunitario per scongiurare la minaccia di malattie esterne. La nostra società non è diversa."
+ tr_unyielding_bulwark_of_harmony_hive_delayed:0 "Tutti gli organismi, non importa quanto perfetti, devono fare affidamento su un sistema immunitario per scongiurare la minaccia di malattie esterne. [This.GetName] non è diverso."
+ tr_unyielding_bulwark_of_harmony_machine_delayed:0 "Tutti gli organismi, non importa quanto perfetti, devono fare affidamento su un sistema per scongiurare le minacce esterne. [This.GetName] non è diverso."
+
+ tr_unyielding_defensive_zeal:1 "Zelo Difensivo"
+ tr_unyielding_defensive_zeal_delayed:1 "Quando si tratta della difesa dei nostri territori e della nostra esistenza, il nostro fervore sarà sicuramente sentito dai nostri nemici."
+ tr_unyielding_defensive_zeal_desc:0 "I §YPunti Scafo§! e i §YDanni§! delle §YBasi Spaziali§! e §YPiattaforme Difensive§! aumentano del §G33%§!."
+
+ tr_unyielding_fortress_doctrine:0 "Dottrina della Fortezza"
+ tr_unyielding_fortress_doctrine_delayed:1 "La vigilanza costante è radicata nella coscienza [This.GetAdj]. Finché la nostra guardia non si abbassa, i nostri nemici non potranno mai coglierci di sorpresa."
+ tr_unyielding_fortress_doctrine_hive:0 "Processi di Pensiero Vigili"
+ tr_unyielding_fortress_doctrine_hive_delayed:0 "Non possiamo mai fidarci completamente di coloro i cui pensieri sono al di fuori della nostra coscienza collettiva. Rimarremo vigili e faremo in modo che nessuno sia in grado di coglierci di sorpresa."
+ tr_unyielding_fortress_doctrine_hive_nemesis:0 "$tr_unyielding_fortress_doctrine_hive$"
+ tr_unyielding_fortress_doctrine_hive_nemesis_delayed:0 "$tr_unyielding_fortress_doctrine_hive_delayed$"
+ tr_unyielding_fortress_doctrine_machine:0 "Subroutine Guardiane"
+ tr_unyielding_fortress_doctrine_machine_delayed:0 "I nostri algoritmi non terranno mai pienamente conto di tutte le imprevedibilità del comportamento non sintetico. Resteremo vigili e ci assicureremo che nessuno sia in grado di coglierci di sorpresa."
+ tr_unyielding_fortress_doctrine_machine_nemesis:0 "$tr_unyielding_fortress_doctrine_machine$"
+ tr_unyielding_fortress_doctrine_machine_nemesis_delayed:0 "$tr_unyielding_fortress_doctrine_machine_delayed$"
+
+ #tr_unyielding_defense_in_depth:0 "Difesa in Profondità"
+ #tr_unyielding_defense_in_depth_delayed:0 "Preferiamo adottare l'approccio "a cipolla" quando si tratta di questioni difensive. Gli strati non sono mai troppi."
+
+################################################################
+# Psionics
+################################################################
+
+ tradition_psionics:0 "Psionica"
+ tradition_psionics_desc:0 "Sbloccheremo il potere all'interno della [GetNeuralSystemLoc] [Root.GetSpeciesAdj]."
+
+ tr_psionics_adopt:0 "Tradizioni Psioniche"
+ tr_psionics_adopt_tooltip:0 "Tutta la Pop della tua specie primaria ottiene il tratto §Y$trait_latent_psionic$§!."
+ tr_psionics_adopt_shroudwalker_tooltip:0 "Opzione Ricerca Ottenuta:\n £society£ §Y$tech_telepathy$§!"
+
+ tr_psionics_finish:0 "Tradizioni della Psionica Perfezionate"
+ tr_psionics_finish_desc:0 "Sblocca un §YProgetto Speciale§! per formare un'Alleanza.\n$MOD_COUNTRY_EDICT_FUND_ADD$: §G+50§!\nBonus d'Ascensione sbloccati: §G+1§!"
+
+ tr_psionics_psi_corps:0 "$building_psi_corps$"
+ tr_psionics_psi_corps_desc:1 "$ALLOW_PSI_CORPS$"
+ tr_psionics_psi_corps_delayed: "[GetPsionicPsiCorpsDelayed]"
+ tr_psionics_psi_corps_delayed_organic:0 "Gli Psi Corp, come un occhio sempre vigile, scruterànno nelle menti dei nostri [GetCitizenPlural], difendendo la società da coloro che potrebbero farle del male."
+ tr_psionics_psi_corps_delayed_machine:0 "Gli Psi Corp, come un occhio sempre vigile, veglierànno sui nostri [GetCitizenPlural], difendendo la società da coloro che potrebbero farle del male."
+
+ tr_psionics_psionic_assimilation:0 "Grande Risveglio"
+ tr_psionics_psionic_assimilation_desc:0 "Tutte le specie §Y$trait_latenti_psioniche$§! sbloccheranno il loro pieno potenziale psionico.\nPermette l'§YAssimilazione Psionica§! di altre specie, sbloccando le loro abilità latenti.\n[GetPsionicAssimilationEffectShroud]"
+ tr_psionics_psionic_assimilation_desc_indiv_organic: "$CAN_ASSIMILATE_HIVES$."
+ tr_psionics_psionic_assimilation_desc_hive_mind: "$CAN_ASSIMILATE_HIVES$."
+ tr_psionics_psionic_assimilation_desc_indiv_machine: "Può assimilare le Specie §YSintetiche§! and §YMeccaniche§!."
+ tr_psionics_psionic_assimilation_desc_gestalt_machine: "$tr_psionics_psionic_assimilation_desc_indiv_machine$"
+ tr_psionics_psionic_assimilation_desc_driven_assimilators: "$tr_psionics_psionic_assimilation_desc_indiv_machine$\nConserva la capacità di assimilare §YSpecie Organiche§! attraverso la §H$living_standard_ego_assimilation$§!.\n$CAN_ASSIMILATE_HIVES$."
+ tr_psionics_psionic_assimilation_delayed:0 "L'occhio che trafigge tutti i veli è chiuso. Solo con un grande sforzo può essere aperto e il nostro vero potere risvegliato."
+
+ tr_psionics_breach_shroud:0 "Violare il Velo"
+ tr_psionics_breach_shroud_desc:0 "Sblocca un §YProgetto speciale§! per violare il Velo.\n$mod_psionic_pop_bonus_workforce_mult$ per $pop_group_unit$ [telepath.GetIcon] [telepath.GetNamePlural]: §G+5%§!"
+ tr_psionics_breach_shroud_delayed:0 "Una fonte di potere inimmaginabile ci chiama, ma non abbiamo ancora imparato ad attingervi."
+
+ tr_psionics_shrouded_encryption:0 "Comunicazioni dal Velo"
+ tr_psionics_shrouded_encryption_delayed:0 "I cifrari telepatici e le tecniche di decodifica sono il prossimo passo della sicurezza operativa."
+ tr_psionics_mind_readers:0 "Lettori della Mente"
+ tr_psionics_mind_readers_delayed:0 "I pensieri degli altri imperi riecheggiano nella Sindone; ascoltandoli, i nostri Telepati possono imparare molto a nostro vantaggio."
+ tr_psionics_mind_readers_tooltip:0 "$MOD_ADD_BASE_COUNTRY_INTEL$: §G+10§!\nPermette l'accesso all'Editto imperiale §YVedere Oltre§!"
+
+ REQUIRES_BREACHED_SHROUD: "§R$TRIGGER_FAIL$Richiede di aver Varcato il Velo.§!"
+
+################################################################
+# Genetics
+################################################################
+
+ tradition_genetics:0 "Genetica"
+ tradition_genetics_desc:0 "Se riuscissimo a raggiungere la perfezione genetica?"
+ tr_genetics_adopt:0 "Tradizioni Genetiche"
+ tr_genetics_finish:0 "Tradizioni della Genetica Perfezionate"
+
+ tr_genetics_resequencing:0 "Risequenziamento Genetico"
+ tr_genetics_resequencing_delayed:0 "Non siamo più limitati dalla struttura biologica di base di una specie. Come lo scultore modella l'argilla, il DNA è nostro e possiamo plasmarlo."
+ tr_genetics_resequencing_desc:1 "Può rimuovere i Tratti §YPositivi§! e aggiungere Tratti §YNegativi§! con la Modifica della Specie"
+
+ tr_genetics_creation:0 "Genesi Ingegnerizzata"
+ tr_genetics_creation_delayed:0 "La natura è una guida cieca. Siamo andati oltre i processi di evoluzione e siamo diventati padroni del nostro destino."
+ tr_genetics_creation_desc:1 "Può §Ymodificare§! l'§Yaspetto§! della Pop con la Modifica della Specie.\nPermette l'assimilazione di Pop dentro o fuori di una §YMente Alveare§!."
+
+ tr_genetics_enhanced_expression:0 "Espressione Allelica"
+ tr_genetics_enhanced_expression_delayed:0 "Il obiettivo selettivo delle sequenze consente di ottenere l'atavismo artificiale, in cui possono essere espressi tratti precedentemente regrediti."
+ tr_genetics_enhanced_expression_desc:1 "Sblocca Tratti §YAvanzati§! per la Modifica della Specie."
+
+ tr_genetics_retrovirus:0 "Manipolazione Retrovirale"
+ tr_genetics_retrovirus_delayed:1 "Gli agenti retrovirali consentono alla nostra popolazione di acclimatarsi rapidamente a qualsiasi ambiente."
+
+ tr_genetics_efficient_cloning:0 "Stimolazione Staminale"
+ tr_genetics_efficient_cloning_delayed:0 "L'ottimizzazione delle strutture di clonazione consentirà uno sviluppo embrionale parallelo."
+ tr_genetics_efficient_cloning_desc:0 "['building:building_clone_vats'] producono un'ulteriore §G1.5§! §Y$MOD_BONUS_POP_GROWTH$§!"
+
+ tr_genetics_adopt_modifier_desc:1 "$improves_clone_vats_tt$"
+ tr_genetics_finish_modifier_desc:1 "$TRADITIONS_FINISH_AP$"
+ tr_genetics_finish_extra_traits_modifier_desc:1 "Ottieni l'accesso a ['concept_plantoid_phenotype_traits'], ['concept_lithoid_phenotype_traits'] e ['concept_leviathan_traits'] per la Modifica delle Specie\n$mod_planet_buildings_clone_vats_upkeep_mult$: §G-33%§!\n$TRADITIONS_FINISH_AP$"
+
+ improves_clone_vats_tt: "['building:building_clone_vats'] produce un ulteriore §G+1.5§! §Y$MOD_BONUS_POP_GROWTH$§!, con un corrispondente aumento di §YManutenzione§!."
+
+################################################################
+# Cybernetics
+################################################################
+
+ tradition_cybernetics:0 "Cibernetica"
+ tradition_cybernetics_desc:0 "Il nostro futuro è nella fusione tra [Owner.Species.GetFleshTypeCyberCreed] e macchina."
+ tr_cybernetics_adopt:0 "Tradizioni Cibernetiche"
+ tr_cybernetics_adopt_desc:1 "Avvia una §YSituazione§! per concedere alla specie fondatrice il tratto §Y$trait_cybernetic$§!"
+ hard_reset_not_embraced_cybernetics: "È §YCibernetico§!"
+ hard_reset_embraced_neither: "Non è né §YCibernetico§! né §YDe-Cibernetico§!"
+ tr_cybernetics_adopt_utopia_desc: "Sblocca un §YProgetto Speciale§! che concede a tutte le specie il tratto §Y$trait_cybernetic$§!."
+ tr_cybernetics_adopt_hive:0 "$tr_cybernetics_adopt$"
+ tr_cybernetics_adopt_hive_desc:0 "$tr_cybernetics_adopt_desc$"
+ tr_cybernetics_adopt_hive_utopia_desc: "$tr_cybernetics_adopt_utopia_desc$"
+ tr_cybernetics_finish:0 "Tradizioni della Cibernetica Perfezionate"
+ tr_cybernetics_finish_situation_effects: "\n$tr_cybernetics_situation_during$Velocità Situazione: §G+25%§!$tr_cybernetics_situation_after$$MOD_POP_BONUS_WORKFORCE_MULT$: §G+10%§!\n$mod_BIOLOGICAL_species_trait_picks_add$: §G+1§!\n$MOD_COUNTRY_ASCENSION_PERKS_ADD$: §G+1§!"
+ tr_cybernetics_finish_effects: "\n$MOD_POP_BONUS_WORKFORCE_MULT$: §G+10%§!\n$mod_BIOLOGICAL_species_trait_picks_add$: §G+1§!\n$MOD_COUNTRY_ASCENSION_PERKS_ADD$: §G+1§!"
+
+ tr_cybernetics_situation_during: "§HDurante la $situation_cyberization$§!\n"
+ tr_cybernetics_situation_after: "\n\n§SDopo la $situation_cyberization$§!\n"
+ tr_cybernetics_situation: "$tr_cybernetics_situation_during$Velocità Situazione: §G+5%§!$tr_cybernetics_situation_after$"
+
+ tr_cybernetics_transubstantiation_synthesis:0 "Sintesi della Transustanziazione"
+ tr_cybernetics_transubstantiation_synthesis_delayed:0 "Il nuovo mondo non ha spazio per chi non è infuso nella macchina."
+ tr_cybernetics_transubstantiation_synthesis_desc:0 "$CYBORG_ASSIMILATION_CITIZENSHIP_ENABLED$"
+ tr_cybernetics_transubstantiation_synthesis_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_transubstantiation_synthesis_desc$"
+
+ tr_cybernetics_organ_harvesting:0 "Prelievo d'Organi"
+ tr_cybernetics_organ_harvesting_situation: "$tr_cybernetics_organ_harvesting$"
+ tr_cybernetics_organ_harvesting_desc: "I pianeti con l'§YEpurazione§! in corso ottengono §G+10%§! £mod_logistic_growth_mult£ §YCyborg $MOD_LOGISTIC_GROWTH_MULT$§!"
+ tr_cybernetics_organ_harvesting_delayed:0 "Quelli ritenuti non idonei vengono utilizzati solo una volta riciclati."
+ tr_cybernetics_organ_harvesting_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_organ_harvesting_desc$"
+
+ tr_cybernetics_metabolic_reprocessing:0 "Rielaborazione Metabolica"
+ tr_cybernetics_metabolic_reprocessing_delayed:0 "La rielaborazione dei rifiuti metabolici in componenti chimici digeribili riduce la manutenzione chimica necessaria per la nostra popolazione."
+ tr_cybernetics_metabolic_reprocessing_hive_delayed:0 "$tr_cybernetics_metabolic_reprocessing_delayed$" 
+ tr_cybernetics_metabolic_reprocessing_hive_desc:0 "Mantenimento Cyborg: §G-10%§!\nDimensione Imperiale dalla Pop Cyborg: §G-10%§!"
+ tr_cybernetics_metabolic_reprocessing_situation_effects: "$tr_cybernetics_situation$Mantenimento Cyborg: §G-10%§!"
+ tr_cybernetics_metabolic_reprocessing_situation_hive_effects: "$tr_cybernetics_situation$$tr_cybernetics_metabolic_reprocessing_hive_desc$"
+
+ tr_cybernetics_integrated_anatomy:0 "Anatomia Integrata"
+ tr_cybernetics_integrated_anatomy_delayed:0 "Solo legando [Owner.Species.GetFleshTypeCyberCreed], acciaio e compositi di nano-carbonio possiamo davvero raggiungere la perfezione."
+ tr_cybernetics_integrated_anatomy_desc:0 "Consente la selezione dei tratti §YCyborg§! per la Modifica della Specie che possono essere applicati alle specie con il tratto §Y$trait_cybernetic$§!.\n"
+ tr_cybernetics_integrated_anatomy_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_integrated_anatomy_desc$$mod_BIOLOGICAL_species_trait_picks_add$: §G+1§!"
+ requires_tr_cybernetics_integrated_anatomy: "$TRIGGER_FAIL$Richiede la Tradizione §Y$tr_cybernetics_integrated_anatomy$§!."
+
+ tr_cybernetics_augmentation_overload: "Sovraccarico Potenziamenti"
+ tr_cybernetics_augmentation_overload_delayed: "L'unico modo per soddisfare la richiesta di impianti da parte della popolazione è avere più $job_augmentor_plural$."
+ tr_cybernetics_augmentation_overload_desc: "$job_augmentor_plural_with_icon$ per $building_augmentation_center$: §G+200§!"
+ tr_cybernetics_augmentation_centers: "Centri Potenziamento"
+ tr_cybernetics_augmentation_centers_desc: "§YSblocca Edifico:§! $building_augmentation_center$"
+ tr_cybernetics_augmentation_centers_delayed: "Il $building_augmentation_center$ è un hub per gli impianti cibernetici. In parte centro commerciale, in parte centro operativo e in parte officina meccanica."
+ tr_cybernetics_augmentation_overload_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_augmentation_overload_desc$" 
+
+
+ tr_cybernetics_synaptic_sub_processing:0 "Sub-Elaborazione Sinaptica"
+ tr_cybernetics_synaptic_sub_processing_situation: "$tr_cybernetics_synaptic_sub_processing$"
+ tr_cybernetics_synaptic_sub_processing_delayed:0 "Scaricare i modelli di pensiero di routine negli hub centrali riduce il carico sinaptico sui nostri nodi di collegamento."
+ tr_cybernetics_synaptic_sub_processing_tt: "Le £building£ §Y$building_spawning_pool$§! forniscono §G+200§! Lavori da £job_augmentor_drone£ §Y$job_augmentor_drone$§!\n$MOD_EMPIRE_SIZE_DISTRICTS_MULT$: §G-25%§!"
+ tr_cybernetics_synaptic_sub_processing_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_synaptic_sub_processing_tt$"
+
+ tr_cybernetics_modular_cybernetics:0 "Cibernetica Modulare"
+ tr_cybernetics_modular_cybernetics_delayed:0 "Migliorare la compatibilità dei nostri miglioramenti cibernetici ridurrà i tempi di inattività durante l'adeguamento."
+ tr_cybernetics_modular_cybernetics_hive_delayed:0 "$tr_cybernetics_modular_cybernetics_delayed$" 
+ tr_cybernetics_modular_cybernetics_tt:1 "I §Y$mod_ROBOT_species_trait_points_add$§! e la §Y$mod_ROBOT_species_trait_picks_add$§! si applicano anche alle specie Organiche."
+ tr_cybernetics_modular_cybernetics_tt_2:0 "$tr_cybernetics_modular_cybernetics_tt$\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!"
+ tr_cybernetics_modular_cybernetics_hive_tt:0 "$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!\n$mod_BIOLOGICAL_species_trait_points_add$: §G+3§!"
+ tr_cybernetics_modular_cybernetics_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_modular_cybernetics_tt_2$"
+ tr_cybernetics_modular_cybernetics_hive_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_modular_cybernetics_hive_tt$"
+
+ REQUIRES_CYBORG_EMPIRE:1 "$TRIGGER_FAIL$Ha completato la situazione §Y[GetCyberSituation]§!"
+ REQUIRES_CYBORG_EMPIRE_UTOPIA: "$TRIGGER_FAIL$Ha completato il progetto speciale §Y$FLESH_IS_WEAK_PROJECT$§!"
+ mod_planet_cyborg_jobs_produces_mult:0 "Risorse dalla Pop Cyborg"
+ mod_planet_cyborg_jobs_physics_research_produces_mult: "£physics_research£ $physics_research$ dalla Pop Cyborg"
+ mod_planet_cyborg_jobs_society_research_produces_mult: "£society_research£ $society_research$ dalla Pop Cyborg"
+ mod_planet_cyborg_jobs_engineering_research_produces_mult: "£engineering_research£ $engineering_research$ dalla Pop Cyborg"
+
+################################################################
+# Cybernetics for Driven Assimilators
+################################################################
+
+ tradition_cybernetics_assimilator:0 "Cibernetica"
+ tradition_cybernetics_assimilator_desc:0 "Il nostro futuro è nella fusione tra carne e macchina."
+ tr_cybernetics_assimilator_adopt:0 "Tradizioni Cibernetiche"
+ tr_cybernetics_assimilator_adopt_desc:0 "L'assimilazione della £pop£ §HPop Organica§! genera ora £engineering£ §YRicerca Ingegneristica§!.\nLe §YRisorse§! generate dall'assimilazione dalla £pop£ §HPop Organica§! aumentano."
+ tr_cybernetics_assimilator_finish:0 "Tradizioni della Cibernetica Perfezionate"
+
+ tr_cybernetics_assimilator_inevitable_assimilation:0 "Assimilazione Inevitabile"
+ tr_cybernetics_assimilator_inevitable_assimilation_delayed:0 "Rifattorizzando i nostri processi di assimilazione, possiamo sovrascrivere in modo più efficiente la mente di qualsiasi organico."
+ tr_cybernetics_assimilator_inevitable_assimilation_desc:0 "Consente l'assimilazione di £pop£ §HPop della Mente Alveare§!."
+
+ tr_cybernetics_assimilator_metabolic_reprocessing:0 "Rielaborazione Metabolica"
+ tr_cybernetics_assimilator_metabolic_reprocessing_delayed:0 "La rielaborazione dei rifiuti metabolici in componenti chimici digeribili riduce il mantenimento della popolazione."
+ tr_cybernetics_assimilator_metabolic_reprocessing_desc:0 "Mantenimento Cyborg: §G-10%§!\nDimensione Imperiale dalla Pop Cyborg: §G-10%§!"
+
+ tr_cybernetics_assimilator_integrated_anatomy:0 "Anatomia Integrata"
+ tr_cybernetics_assimilator_integrated_anatomy_delayed:0 "Solo attraverso l'amalgama di carne, acciaio e compositi di nano-carbonio possiamo davvero raggiungere la perfezione."
+ tr_cybernetics_assimilator_integrated_anatomy_desc:0 "Sblocca i Tratti §YCyborg§! per la Modifica della Specie."
+
+ tr_cybernetics_assimilator_gestation:0 "Pianeti Gestazionali"
+ tr_cybernetics_assimilator_gestation_delayed:0 "Un pianeta designato che si concentra sulla maturazione e sulla transizione delle unità biologiche in entità cibernetiche completamente integrate nel collettivo."
+ tr_cybernetics_assimilator_gestation_desc:0 "Ottieni l'accesso alla Designazione Colonia §Y$col_gestation$§!.\nI §YPianeti Gestazionali§! forniscono Lavori da §Y[gestation_drone.GetIcon] [gestation_drone.GetName]§! che provvedono alla £mod_logistic_growth_mult£ §Y$MOD_LOGISTIC_GROWTH_MULT$§! in tutto l'Impero"
+
+ tr_cybernetics_assimilator_modular_cybernetics:0 "Cibernetica Modulare"
+ tr_cybernetics_assimilator_modular_cybernetics_delayed:0 "Migliorare l'intercompatibilità dei nostri miglioramenti cibernetici ridurrà i tempi di inattività durante le operazioni di riallestimento."
+ tr_cybernetics_assimilator_modular_cybernetics_tt:0 "La §Y$mod_MACHINE_species_trait_picks_add$§! si applica anche alle specie Cibernetiche."
+ tr_cybernetics_assimilator_modular_cybernetics_tt_2:0 "$tr_cybernetics_assimilator_modular_cybernetics_tt$\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!"
+
+################################################################
+# Synthetics #
+################################################################
+
+ tradition_synthetics:0 "Sintetica"
+ tradition_synthetics_desc:0 "Questa è l'alba di un'era sintetica."
+ tr_synthetics_adopt:0 "Tradizioni Sintetiche"
+ tr_synthetics_adopt_desc: "Avvia una §YSituazione§! per trasformare le specie fondatrici nelle specie dei §Y$trait_mechanical$§!"
+ tr_synthetics_adopt_utopia: "$tr_synthetics_adopt$"
+ tr_synthetics_adopt_utopia_desc: "Sblocca un §YProgetto Speciale§! per trasferire le menti dei nostri cittadini in corpi §YSintetici§!.\nOttieni avanzamento Tecnologia (se non ricercata):$TABBED_NEW_LINE$£engineering£ §Y$tech_synthetic_leaders$§! §G+10%§!"
+
+ tr_synthetics_finish:0 "Tradizioni della Sintetica Perfezionate"
+ tr_synthetics_finish_machine_desc:0 "Tutti i Leader delle §Y$trait_machine_unit$§! ottengono il tratto §Y$leader_trait_synthetic$§!."
+ tr_synthetics_finish_situation_effects: "\n$tr_synthetics_situation_during$Velocità Situazione: §G+25%§!$tr_synthetics_situation_after$$mod_ROBOT_species_trait_picks_add$: §G+2§!\n$mod_ROBOT_species_trait_points_add$: §G+2§!\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!\n$MOD_COUNTRY_ASCENSION_PERKS_ADD$: §G+1§!"
+
+ tr_synthetics_situation_during: "§HDurante $situation_digitization$§!\n"
+ tr_synthetics_situation_after: "\n\n§SDopo $situation_digitization$§!\n"
+ tr_synthetics_situation: "$tr_synthetics_situation_during$Velocità Situazione: §G+5%§!$tr_synthetics_situation_after$"
+
+ tr_synthetics_maintenance_protocols:0 "Protocolli di Manutenzione"
+ tr_synthetics_maintenance_protocols_delayed:0 "La manutenzione preventiva di routine ridurrà i malfunzionamenti in tutte le unità robotiche."
+ tr_synthetics_maintenance_protocols_situation_effects: "$tr_synthetics_situation$$MOD_POP_AMENITIES_USAGE_ROBOTIC_MULT$: §G-10%§!"
+
+ tr_synthetics_optimization_algorithms:0 "Algoritmi d'Ottimizzazione"
+ tr_synthetics_optimization_algorithms_delayed:0 "Gli algoritmi di ottimizzazione ad autoapprendimento portano a un aumento della produttività dei lavoratori robotici collegati alla nostra rete."
+ tr_synthetics_optimization_algorithms_situation_effects: "$tr_synthetics_situation$$mod_planet_jobs_robotic_produces_mult$: §G+10%§!"
+
+ tr_synthetics_transubstatiation_synthesis:0 "$tr_cybernetics_transubstantiation_synthesis$"
+ tr_synthetics_transubstatiation_synthesis_delayed:00 "L'era degli organici è finita. Il futuro di questa galassia appartiene alle macchine."
+ tr_synthetics_transubstatiation_synthesis_desc:0 "Ottieni l'accesso al §YDiritto di Cittadinanza di Assimilare le Specie§!, permettendo alla futura popolazione di essere trasformata in §YSintetici§!."
+ tr_synthetics_transubstatiation_synthesis_situation_effects: "$tr_synthetics_situation$$tr_synthetics_transubstatiation_synthesis_desc$"
+
+ tr_synthetics_assembly_systems:0 "$tr_synthetics_transubstatiation_synthesis$"
+ tr_synthetics_assembly_systems_delayed:0 "$tr_synthetics_transubstatiation_synthesis_delayed$"
+ tr_synthetics_assembly_systems_desc:0 "Sblocca un §YProgetto Speciale§! per trasferire le menti dei nostri cittadini in corpi §YSintetici§!\n$MOD_PLANET_POP_ASSEMBLY_MULT$: §G+10%§!"
+
+ tr_synthetics_power_systems: "Sistemi d'Alimentazione Efficienti"
+ tr_synthetics_power_systems_delayed: "Grazie a celle a energia personali di capacità praticamente illimitata, non è più necessario programmare tempi di inattività per la ricarica."
+ tr_synthetics_power_systems_situation_effects: "$tr_synthetics_situation$$mod_planet_pops_robotics_upkeep_mult$: §G-25%§!\n$mod_planet_pop_assemblers_upkeep_mult$: §G-25%§!"
+
+ tr_synthetics_prefabricated_components:0 "Componenti Prefabbricati"
+ tr_synthetics_prefabricated_components_delayed: "Grazie alla spedizione di componenti standardizzati e istruzioni di assemblaggio, chiunque può assemblare il proprio prossimo potenziamento."
+ tr_synthetics_prefabricated_components_situation_effects: "$tr_synthetics_situation$ Gli £building£ §YEdifici della Capitale§! forniscono §G+100§! Lavoro da [roboticist.GetIcon] §Y[roboticist.GetName]§!\n$i_amenities$ per 100 [roboticist.GetIcon] §Y[roboticist.GetName]§!: §G+200§!"
+ tr_synthetics_prefabricated_components_effects: "Gli £building£ §YEdifici della Capitale§! forniscono §G+100§! Lavoro da [roboticist.GetIcon] §Y[roboticist.GetName]§!\n$i_amenities$ per 100 [roboticist.GetIcon] §Y[roboticist.GetName]§!: §G+200§!"
+
+ tr_synthetics_prefabricated_components_machine: "$tr_synthetics_prefabricated_components$"
+ tr_synthetics_prefabricated_components_machine_delayed: "La disponibilità di componenti prefabbricati facilita l'assemblaggio di nuovi modelli."
+ tr_synthetics_prefabricated_components_machine_effects: "Gli £building£ §YEdifici della Capitale§! forniscono §G+100§! Lavoro da [replicator.GetIcon] §Y[replicator.GetName]§!"
+
+ tr_synthetics_solid_state_actuators:0 "Attuatori Solidi"
+ tr_synthetics_solid_state_actuators_delayed:0 "Gli attuatori solidi migliorano la miniaturizzazione dei componenti che, sebbene costosa, consente ai leader di rinforzare i sottosistemi vitali."
+ tr_synthetics_solid_state_actuators_situation: "$tr_synthetics_solid_state_actuators$"
+ tr_synthetics_solid_state_actuators_situation_delayed: "$tr_synthetics_solid_state_actuators_delayed$"
+ tr_synthetics_solid_state_actuators_situation_effects: "$tr_synthetics_situation$$MOD_LEADER_LIFESPAN_ADD$: §G+20%§!"
+ tr_synthetics_solid_state_actuators_virtual: "$tr_synthetics_solid_state_actuators$"
+ tr_synthetics_solid_state_actuators_virtual_delayed: "$tr_synthetics_solid_state_actuators_virtual_desc$"
+
+ requires_tradition_tr_synthetics_adopt:0 "$TRIGGER_FAIL$§RRichiede l'adozione delle §Y$tr_synthetics_adopt$§!§!"
+ REQUIRES_SYNTHETIC_EMPIRE_UTOPIA: "$TRIGGER_FAIL$Ha completato il Progetto speciale §Y$SYNTHETIC_EVOLUTION_PROJECT$§!"
+
+################################################################
+# Aptitude
+################################################################
+
+ tradition_aptitude:0 "Attitudine"
+ tradition_aptitude_desc:0 "Il nostro Impero può davvero prosperare sotto la guida di leader capaci."
+ tradition_aptitude_hive_desc:0 "La [GetGestaltEntityName] prospera con l'aiuto delle sue entità più forti."
+ tradition_aptitude_machine_desc:0 "Un'elevata competenza delle unità di leadership aumentano il potenziale di grandezza dell'Impero."
+ tr_aptitude_adopt:0 "Tradizioni dell'Attitudine"
+ tr_aptitude_finish:0 "Tradizioni Attitudine Perfezionate"
+ tr_aptitude_adopt_desc:0 "Tratti Iniziali del Leader: §G+1§!"
+ tr_aptitude_the_empire_needs_you:0 "L'Impero ha Bisogno di Te!"
+ tr_aptitude_the_empire_needs_you_delayed:0 "Molti giovani desiderano diventare uno dei leader veterani dell'impero."
+ tr_aptitude_the_empire_needs_you_hive:0 "Emergere dalla Folla"
+ tr_aptitude_the_empire_needs_you_hive_delayed:0 "La crescita di potenziali leader è fondamentale per la nostra grandezza."
+ tr_aptitude_the_empire_needs_you_machine:0 "Emergere dalla Massa"
+ tr_aptitude_the_empire_needs_you_machine_delayed:0 "Il nostro massimo potenziale può essere raggiunto solo producendo leader più capaci per l'impero."
+ tr_aptitude_specialist_training:0 "Formazione Specialistica"
+ tr_aptitude_specialist_training_delayed:0 "Rigorosi programmi di formazione assicurano che i nostri leader abbiano tutti gli strumenti necessari per crescere."
+ tr_aptitude_specialist_training_hive:0 "$tr_aptitude_specialist_training$"
+ tr_aptitude_specialist_training_hive_delayed:0 "Un rigoroso condizionamento assicura il successo dei nodi specializzati della [GetGestaltEntityName]."
+ tr_aptitude_specialist_training_machine:0 "Aggiornamento Software"
+ tr_aptitude_specialist_training_machine_delayed:0 "Nuovi e aggiornati programmi assicurano che i nostri leader abbiano tutti gli strumenti necessari per operare come ci si aspetta."
+ tr_aptitude_psychological_profiling:0 "Profilazione Psicologica"
+ tr_aptitude_psychological_profiling_delayed:0 "Conoscere le paure e le debolezze dei nostri leader ci permette di adottare misure preventive per evitare che prendano il sopravvento."
+ tr_aptitude_psychological_profiling_hive:0 "Diagnostica Comportamentale"
+ tr_aptitude_psychological_profiling_hive_delayed:0 "Identificare le debolezze devianti ci permette di adottare misure preventive per neutralizzarle."
+ tr_aptitude_psychological_profiling_machine:0 "Diagnostica della Memoria"
+ tr_aptitude_psychological_profiling_machine_delayed:0 "Le scansioni approfondite ci consentono di adottare misure preventive contro i malfunzionamenti prima che si presentino."
+ tr_aptitude_healthcare_program:0 "Programma Sanitario"
+ tr_aptitude_healthcare_program_delayed:0 "Attraverso il monitoraggio continuo dei parametri di salute, possiamo personalizzare tutto, dall'esercizio fisico alla dieta, fino ai procedimenti chirurgici invasivi, per ottenere il massimo dai nostri leader."
+ tr_aptitude_healthcare_program_hive:0 "Manutenzione Fisica"
+ tr_aptitude_healthcare_program_hive_delayed:0 "I [GetIndividualNamePlural] specializzati considerati più preziosi dovrebbero utilizzare alcune delle loro funzioni per prendersi cura dei loro corpi ed essere autorizzati a consumare alimenti di alta qualità."
+ tr_aptitude_healthcare_program_machine:0 "Manutenzione Preventiva"
+ tr_aptitude_healthcare_program_machine_delayed:0 "Attraverso il monitoraggio continuo del sistema, possiamo gestire tutto, dalla frequenza di backup, ai procedimenti di riparazione intensiva, per ottenere il massimo dai nostri leader."
+ tr_aptitude_champions_of_the_empire:0 "Campioni dell'Impero"
+ tr_aptitude_champions_of_the_empire_delayed:0 "Fidiamo dei nostri leader e diamo loro il potere assoluto di influire su come viene gestito il nostro Impero."
+ tr_aptitude_champions_of_the_empire_hive:0 "Autonomia Minima"
+ tr_aptitude_champions_of_the_empire_hive_delayed:0 "[GetGestaltEntityName] è disposto a concedere un livello minimo di autonomia ai suoi elementi più forti per il bene di tutti."
+ tr_aptitude_champions_of_the_empire_machine:0 "Diritti Amministrativi"
+ tr_aptitude_champions_of_the_empire_machine_delayed:0 "Ci fidiamo delle sub-routine uniche dei nostri leader e diamo loro il permesso di influenzare il modo in cui l'Impero viene gestito."
+ tr_aptitude_champions_of_the_empire_desc:1 "Per il livello $commander_with_icon$ e $general_with_icon$\n$t$$MOD_COUNTRY_NAVAL_CAP_ADD$: §G+2§!\nPer il livello $official_with_icon$\n$t$$MOD_EMPIRE_SIZE_MULT$: §G-2§!\nPer il livello $scientist_with_icon$\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$: §G+0.5%§!"
+
+################################################################
+# Statecraft
+################################################################
+
+ tradition_statecraft:0 "Governo"
+ tradition_statecraft_hive: "Consiglio delle Voci"
+ tradition_statecraft_machine: "Assemblea della Coscienza"
+ tradition_statecraft_desc:0 "Un potente Consiglio permette al nostro impero di essere più reattivo."
+ tradition_statecraft_hive_desc:0 "Il Consiglio delle Voci definisce il nostro impero."
+ tradition_statecraft_machine_desc:0 "L'Assemblea della Coscienza definisce il nostro impero."
+ tr_statecraft_adopt:0 "Tradizioni del Governo"
+ tr_statecraft_finish:0 "Tradizioni del Governo Perfezionate"
+ tr_statecraft_constitutional_focus:0 "Focus Costituzionale"
+ tr_statecraft_constitutional_focus_hive:0 "Focus Strategico"
+ tr_statecraft_constitutional_focus_machine:0 "$tr_statecraft_constitutional_focus_hive$"
+ tr_statecraft_constitutional_focus_delayed:0 "Con un chiaro focus sui bisogni del nostro impero, possiamo alleggerire il carico amministrativo dei nostri consiglieri."
+ tr_statecraft_constitutional_focus_hive_delayed:0 "Le Agende strategiche vengono definite con più fermezza, consentendo alle voci di allinearsi più rapidamente."
+ tr_statecraft_constitutional_focus_machine_delayed:0 "Con un focus acuta sulla nostra attuale Agenda, possiamo migliorare le prestazioni di calcolo della nostra intelligenza centrale."
+ tr_statecraft_inspiring_agendas:0 "Agende Ispiratrici"
+ tr_statecraft_inspiring_agendas_hive:0 "Agende Versatili"
+ tr_statecraft_inspiring_agendas_machine:0 "$tr_statecraft_inspiring_agendas_hive$"
+ tr_statecraft_inspiring_agendas_delayed:0 "Non è mai mancata un'idea su come l'Impero possa dirigere il proprio futuro."
+ tr_statecraft_inspiring_agendas_hive_delayed:0 "La versatilità della [GetGestaltEntityName] è fondamentale per la guida del futuro."
+ tr_statecraft_inspiring_agendas_machine_delayed:0 "In un universo pieno di scelte infinite, dobbiamo trovare un sottoinsieme che possa beneficiare il nostro impero."
+ tr_statecraft_inspiring_agendas_desc:1 "§YSblocca Agenda:§! $council_agenda_agenda_rightful_claims_name$\n§YSblocca Agenda:§! $council_agenda_agenda_oppose_the_fallen_name$"
+ tr_statecraft_immutable_directives:0 "Direttive Immutabili"
+ tr_statecraft_immutable_directives_delayed:0 "La comprensione fondamentale dello scopo e della direzione è sempre chiara, e ci permette di spostare il nostro focus senza perdere il progresso fatto."
+ tr_statecraft_amongst_peers:0 "Tra Pari"
+ tr_statecraft_amongst_peers_hive:0 "Intuizioni Propagate"
+ tr_statecraft_amongst_peers_machine:0 "$tr_statecraft_amongst_peers_hive$"
+ tr_statecraft_amongst_peers_delayed:0 "Fiducia, rispetto e apprendimento dagli errori sono tenuti ai massimi livelli anche nei vertici del nostro impero."
+ tr_statecraft_amongst_peers_hive_delayed:0 "Molti aspetti della coscienza non dovrebbero mai commettere gli stessi errori."
+ tr_statecraft_amongst_peers_machine_delayed:0 "$tr_statecraft_amongst_peers_hive_delayed$"
+ tr_statecraft_shared_benefits:0 "Benefici Condivisi"
+ tr_statecraft_shared_benefits_hive:0 "Deduzione Condivisa"
+ tr_statecraft_shared_benefits_machine:0 "Calcolo Condiviso"
+ tr_statecraft_shared_benefits_delayed:0 "Coinvolgendo tutti i leader nell'attuazione delle nostre agende, si costruisce una comprensione più forte dei loro ruoli e del loro scopo."
+ tr_statecraft_shared_benefits_hive_delayed:0 "Utilizzando tutti i nodi e i leader nell'attuazione delle nostre agende, qualsiasi specializzazione utile viene propagata più rapidamente."
+ tr_statecraft_shared_benefits_machine_delayed:0 "$tr_statecraft_shared_benefits_hive_delayed$"
+ tr_statecraft_shared_benefits_desc:0 "Ogni volta che viene lanciata un'§YAgenda§!:\n$t$$tr_statecraft_amongst_peers_effect_desc$"
+ tr_statecraft_amongst_peers_effect_desc:1 "Tutti i Consiglieri guadagnano $@statecraft_amongst_peers_exp_reward|G0$ Esperienza per Livello Abilità"
+
+################################################################
+# Politics #
+################################################################
+
+ tradition_politics:0 "Politica"
+ tradition_politics_desc:0 "Il palcoscenico galattico è pronto e noi intendiamo avere il ruolo di protagonisti."
+
+ tr_politics_adopt:0 "Tradizioni della $tradition_politics$"
+ tr_politics_adopt_desc:0 "§G+1§! Emissari\nI $official_plural_with_icon$ assegnati al consiglio §Y[GetGalCommunityOrGalImperium]§! ora producono 0,1 £influence£ §YInfluenza§! per §YLivello Abilità§!."
+
+ tr_politics_finish:0 "Tradizioni della $tr_politics_adopt$ Perfezionate"
+ tr_politics_finish_desc:1 "§G+10%§! £diplo_weight£ Peso Diplomatico\nSblocca 4 speciali §YRisoluzioni§! nel consiglio §Y[GetGalCommunityOrGalImperium]§!.\n$TRADITIONS_FINISH_AP$"
+
+ tr_politics_quid_pro_quo:0 "Qui Pro Quo"
+ tr_politics_quid_pro_quo_desc:0 "Ogni volta che passa una Risoluzione che avete sostenuto, guadagnate 1 §YFavore§! sull'Impero che l'ha proposta."
+ tr_politics_quid_pro_quo_delayed:0 "Una retorica accuratamente formulata renderà chiaro che il nostro sostegno ha un costo. Coloro che aiutiamo sono in debito con noi e un giorno li riscuoteremo."
+ MESSAGE_FAVOR_GAINED_POLITICS_TRADITION_DESC:0 "Poiché abbiamo sostenuto la loro risoluzione, il $WHO|Y$ ci deve ora un §YFavore§!."
+
+ tr_politics_gravitas:0 "Gravitas"
+ tr_politics_gravitas_desc:1 "§G-25%§! costo £influence£ §YInfluenza§! per porre il veto o proporre Risoluzioni\nI $official_plural_with_icon$ assegnati al consiglio §Y[GetGalCommunityOrGalImperium]§! forniscono un aggiuntivo §G2,5%§! £diplo_weight£ Peso Diplomatico per §YLivello Abilità§!."
+ tr_politics_gravitas_delayed:0 "La politica è l'arte delle illusioni. Mostrando agli altri ciò che vogliono vedere, aumenteremo la nostra influenza nella comunità."
+
+ tr_politics_extraordinary_powers:0 "Poteri Straordinari"
+ tr_politics_extraordinary_powers_desc:0 "§G-25%§! £time£ per §YRiformare§! le Azioni del Consiglio (Misure di Emergenza e Veto)."
+ tr_politics_extraordinary_powers_delayed:0 "Tempi straordinari richiedono misure straordinarie. Il potere ci è già stato affidato, è naturale lasciarcelo esercitare."
+
+ tr_politics_national_agenda:0 "Agenda Nazionale"
+ tr_politics_national_agenda_desc:0 "Ogni volta che una risoluzione da voi proposta viene approvata, guadagnate 18 mesi di £unity£ §YUnità§!"
+ tr_politics_national_agenda_delayed:0 "Le nostre vittorie al Senato vanno celebrate: ci avvicinano sempre di più a un futuro migliore."
+
+ tr_politics_persistent_petitioners:0 "Petizioni Persistenti"
+ tr_politics_persistent_petitioners_desc:1 "Dopo l'approvazione di una risoluzione da parte di un altro impero, guadagna §G+25%§! £diplo_weight£ Peso Diplomatico fino a quando non viene approvata una delle proprie risoluzioni."
+ tr_politics_persistent_petitioners_delayed:1 "I nostri delegati nel consiglio §Y[GetGalCommunityOrGalImperium]§! sono estremamente ostinati e non accetteranno un "No" come risposta. Ci vorrà del tempo, ma otterremo ciò che ci spetta."
+ persistent_petitioners:0 "$tr_politics_persistent_petitioners$"
+
+################################################################
+# Enmity
+################################################################
+
+ tradition_enmity: "Rivalità"
+ tradition_enmity_desc: "Gli esseri [Root.GetSpeciesNamePlural] non si muovono così velocemente come quando erano altri esseri [Root.GetSpeciesNamePlural] a dettare il passo."
+ tradition_enmity_desc_machine: "L'impero [Root.GetName] si sviluppa più velocemente quando viene sottoposto a una concorrenza competente."
+
+ tr_enmity_adopt: "Tradizioni della $tradition_enmity$"
+ tr_enmity_adopt_desc: "£mod_logistic_growth_mult£ §YCrescita Pop§! per Rivale vicino: §G+3%§!\n£mod_planet_pop_assembly_mult£ §YAssemblaggio Pop§! per Rivale vicino: §G+3%§!"
+ tr_enmity_finish: "Tradizioni della $tradition_enmity$ Perfezionate"
+ tr_enmity_finish_desc: "Emissari Disponibili: §G+1§!\nSblocca la posizione Diplomatica §YAntagonista§!.\n$TRADITIONS_FINISH_AP$"
+
+ tr_enmity_rise_to_the_occasion: "All'Altezza della Situazione"
+ tr_enmity_rise_to_the_occasion_delayed: "Di fronte a un numero sempre crescente di avversari, restiamo uniti."
+ tr_enmity_rise_to_the_occasion_effect: "$mod_country_official_cap_add$ per Rivale: §G+0.50§!\n$mod_country_commander_cap_add$ per Rivale: §G+0.50§!\n$mod_country_scientist_cap_add$ per Rivale: §G+0.50§!"
+
+ tr_enmity_consumate_contrarian: "Perfettamente Contrario"
+ tr_enmity_consumate_contrarian_delayed: "Bloccare i piani degli oppositori può essere altrettanto soddisfacente quanto mettere in atto i propri."
+
+ tr_enmity_match: "Adeguarsi"
+ tr_enmity_match_delayed: "In primo luogo, stabilire condizioni di parità."
+ tr_enmity_match_effect: "Anche se Militarmente più deboli di un Rivale:\n$t$Costo Costruzione Navi: §G-5%§!\n$t$Velocità Costruzione Navi: §G+10%§!\nAnche se Tecnologicamente più deboli di un Rivale:\n$t$Mantenimento Ricercatori: §G-15%§!\n$t$Velocità Costruzione Laboratori di ricerca: §G+100%§!\nAnche se Economicamente più deboli di un Rivale:\n$t$Produzione [GetWorker]: §G+10%§!"
+
+ tr_enmity_outpace: "Anticipare"
+ tr_enmity_outpace_delayed: "In secondo luogo, eseguite la mossa che il vostro avversario non è disposto a fare."
+
+ tr_enmity_eclipse: "Eclissare"
+ tr_enmity_eclipse_delayed: "Terzo, gettare un'ombra sull'avversario una volta per tutte."
+ tr_enmity_eclipse_effect: "Ottieni §G2%§! di aumento produzione $r_research$ e $r_unity$ per §YRivale§! per §Y10§! Anni dopo aver vinto una §YGuerra d'Umiliazione§!."
+
+ enmity_humiliate: "[GetName] ottiene il modificatore §YSuperiorità Riaffermata§! per §Y10§! anni che concede §G2%§! di aumento produzione $r_research$ e $r_unity$ per §YRivale§!."
+ reaffirmed_superiority: "Superiorità Riaffermata"
+ reaffirmed_superiority_desc: "La nostra superiorità è inattaccabile. Nessuno è più grande di noi." 
+
+
+####################################
+# Ascension Perks
+####################################
+
+ requires_tech_federation_code:1 "$TRIGGER_FAIL$ §RRichiede la £society£ Tecnologia ['technology:tech_federation_code'].§!"
+ requires_tradition_universal_compatibility:0 "§RRichiede la Tradizione di Versatilità §YCompatibilità Universale§!.§!"
+ requires_independence:0 "$TRIGGER_FAIL$ [This.GetName] deve essere indipendente."
+ requires_ascension_perks_1:0 "$TRIGGER_FAIL$ Richiede che un altro Bonus d'Ascensione venga selezionato prima."
+ requires_ascension_perks_2:1 "$TRIGGER_FAIL$ Richiede altri due Bonus d'Ascensione attivi."
+ requires_ascension_perks_3:1 "$TRIGGER_FAIL$ Richiede altri tre Bonus d'Ascensione attivi."
+ requires_free_tradition_tree:0 "$TRIGGER_FAIL$ Richiede uno slot dell'Albero delle Tradizioni vuoto." 
+
+ requires_ap_engineered_evolution:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_engineered_evolution$§!."
+ requires_not_ap_engineered_evolution:1 "$TRIGGER_FAIL$ Non deve possedere il Bonus d'Ascensione §Y$ap_engineered_evolution$§!."
+ requires_not_ap_synthetic_age:0 "$TRIGGER_FAIL$ Non deve possedere il Bonus d'Ascensione §Y$ap_synthetic_age$§!."
+
+ requires_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_the_flesh_is_weak$§!."
+ requires_not_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$ Non deve possedere il Bonus d'Ascensione §Y$ap_the_flesh_is_weak$§!."
+ requires_finished_cybernetics_project:1 "$TRIGGER_FAIL$ Deve aver completato il Progetto Speciale §YLa Carne è Debole§!."
+
+ requires_not_ap_synthetic_evolution:0 "$TRIGGER_FAIL$ Non deve possedere il Bonus d'Ascensione §Y$ap_synthetic_evolution$§!."
+ requires_not_ap_organo_machine_interfacing:0 "$TRIGGER_FAIL$ Non deve possedere il Bonus d'Ascensione §Y$ap_organo_machine_interfacing$§!."
+
+ requires_ap_mind_over_matter:2 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_mind_over_matter$§! o l'Origine §Y$origin_shroudwalker_apprentice$§!."
+ requires_not_ap_mind_over_matter:1 "$TRIGGER_FAIL$ Non deve possedere il Bonus d'Ascensione §Y$ap_mind_over_matter$§!."
+ describe_decision_mastery_of_nature:1 "Chance per avere Opzioni di Ricerca per la §YRimozione dei Blocchi§!: §G×4§!\n§YSblocca Decisione:§! Padronanza della Natura$TABBED_NEW_LINE$- Distretti Massimi §Y+2§! $TABBED_NEW_LINE$- Distretti Risorse Massimi dalle Proprietà Planetarie: §G+50%§!"
+ decision_mastery_of_nature:1 "Padronanza della Natura"
+ decision_mastery_of_nature_desc:0 "[GetMasteryOverNatureDecisionDesc]"
+ decision_mastery_of_nature_desc_normal:0 "La nostra civiltà ha bisogno di spazio per crescere, e noi lo creeremo. La natura non può ostacolare il progresso."
+ mastery_of_nature:0 "$decision_mastery_of_nature$"
+ mastery_of_nature_desc:0 "$decision_mastery_of_nature_desc$"
+ mastery_of_nature_effects: "- Distretti Massimi §Y+2§!\n- Distretti Risorse Massimi §G+50%§!"
+
+ requires_ap_voidborn_OR_ap_galactic_wonders:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_voidborn$§! OR §Y$ap_galactic_wonders$§!."
+
+ requires_technology_housing_2:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_housing_2$§!."
+ requires_technology_zero_point_power:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £physics£ §Y$tech_zero_point_power$§!."
+ requires_technology_tech_climate_restoration:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_climate_restoration$§!."
+ requires_technology_robomodding:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_robomodding$§!."
+ requires_technology_gene_expressions:2 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_gene_expressions$§!."
+ requires_technology_gene_seed_purification:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_gene_seed_purification$§!."
+ requires_technology_gene_tailoring:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_gene_tailoring$§!."
+ requires_technology_starbase_4:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_starbase_4$§! o £unity£ l'Albero delle Tradizioni ['tradition_category:tradition_unyielding']."
+ requires_technology_starbase_5:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_starbase_5$§!."
+ requires_technology_habitat_1:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_habitat_1$§!."
+ requires_technology_battleships:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_battleships$§!."
+ requires_technology_glandular_acclimation:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_glandular_acclimation$§!."
+ requires_mega_engineering:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_mega_engineering$§!."
+ requires_built_or_repaired_megastructure:0 "$TRIGGER_FAIL$ Richiede una Megastruttura completamente aggiornata o riparata."
+ hive_mind_biological_ascension_only1:0 "$TRIGGER_FAIL$ La Mente Alveare non può intraprendere il percorso dell'Ascensione Psionica."
+ hive_mind_biological_ascension_only2:0 "$TRIGGER_FAIL$ La Mente Alveare non può intraprendere il percorso dell'Ascensione Sintetica."
+ requires_zero_point_power:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £physics£ §Y$tech_zero_point_power$§!."
+ requires_ap_voidborn:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_voidborn$§!."
+ requires_technology_droid_workers:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_droid_workers$§!."
+ requires_technology_synthetic_workers:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_synthetic_workers$§!."
+ requires_technology_synthetic_leaders:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_synthetic_leaders$§!."
+ requires_technology_psionic_theory:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_psionic_theory$§!."
+ requires_technology_terrestrial_sculpting:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_terrestrial_sculpting$§!."
+ gestalt_consciousness_biological_ascension_only1:1 "$TRIGGER_FAIL$ La Mente Alveare non può intraprendere il percorso dell'Ascensione Psionica."
+ gestalt_consciousness_biological_ascension_only2:1 "$TRIGGER_FAIL$ La Mente Alveare non può intraprendere il percorso dell'Ascensione Sintetica."
+ synthetic_empire_synthetic_ascension:0 "$TRIGGER_FAIL$ Gli Imperi Sintetici non possono intraprendere il percorso dell'Ascensione Sintetica."
+ synthetic_empire_biological_ascension:0 "$TRIGGER_FAIL$ Gli Imperi Sintetici non possono intraprendere il percorso dell'Ascensione Biologica."
+ synthetic_empire_psionic_ascension:0 "$TRIGGER_FAIL$ Gli Imperi Sintetici non possono intraprendere il percorso dell'Ascensione Psionica."
+
+ allow_gaia:0 "Ci permette di terraformare i pianeti per farli diventare di Classe §YGaia§!."
+ no_rev_engineering:1 "Le operazioni §Y$operation_steal_technology$§! falliranno automaticamente se usate contro di noi.\nI §YRottami§! delle nostre navi distrutte non possono essere studiati da altri imperi.\nPoche possibilità di ottenere la tecnologia §YCostruzione dell'Impero Caduto.§!."
+ allow_raiding:0 "Sblocca l'Atteggiamento di Bombardamento Orbitale §Y$bombardment_raiding$§!, che ci permette di rapire la Pop dei pianeti assediati e trasferirla sui nostri."
+
+ ap_defender_of_the_galaxy_effect_opinion:2 "Aumenta £opinion£ §Yl'Opinione§! di imperi capaci di diplomazia standard del §G+200§!"
+ ap_defender_of_the_galaxy_modifier_desc:0 "Danno alle Fazioni delle Crisi Finali: §G+50%§!\n\n$ap_defender_of_the_galaxy_effect_opinion$\n\n§RI Difensori della Galassia non possono scegliere di diventare una Crisi§!"
+
+ ap_engineered_evolution:0 "Biomorfosi"
+ ap_the_flesh_is_weak:0 "La Carne è Debole"
+ ap_synthetic_evolution:0 "Evoluzione Sintetica"
+ ap_world_shaper:0 "Modellatore Planetario"
+ ap_mind_over_matter:0 "Mente al di Sopra della Materia"
+
+ ap_master_builders:0 "Maestri Costruttori"
+ ap_imperial_prerogative:0 "Prerogativa Imperiale"
+ ap_one_vision:0 "Visione Unica"
+ ap_consecrated_worlds:0 "Pianeti Consacrati"
+ ap_executive_vigor:0 "Vigore Esecutivo"
+ ap_executive_vigor_desc:0 "Non esisteranno mezze misure o compromessi nell'attuazione degli Editti decisi dal nostro governo. O si va fino in fondo, o non si parte nemmeno."
+
+ ap_galactic_force_projection:0 "Proiezione della Forza Galattica"
+ ap_defender_of_the_galaxy:0 "Difensore della Galassia"
+ ap_galactic_contender:0 "Contendente Galattico"
+ ap_technological_ascendancy:0 "Ascendente Tecnologico"
+ ap_technological_ascendancy_tt: "Abilita le Politiche sul §YFocus sulla Ricerca§!"
+ ap_mastery_of_nature:0 "Padrone della Natura"
+ ap_voidborn:0 "Nato dal Vuoto"
+ ap_the_circle_of_life:0 "Il Cerchio della Vita"
+ ap_galactic_wonders:0 "Meraviglie Galattiche"
+ ap_interstellar_dominion:0 "Dominio Interstellare"
+ ap_eternal_vigilance:0 "Vigilanza Eterna"
+ ap_eternal_vigilance_desc:0 "Mostrarci deboli è un invito ad attaccarci. Il prezzo dell'invasione del nostro spazio dovrà essere talmente alto da lasciare sbigottiti chi ci proverà."
+ ap_eternal_vigilance_tt: "Ogni 6 mesi verrà costruita una §YPiattaforma Difensiva§! intorno ad ogni §YBase Stellare§! in base alla politica §Y$ap_eternal_vigilance$§!, fino a un massimo del §Y50%§! della capacità"
+ policy_eternal_vigilance_policy: "$ap_eternal_vigilance$"
+ policy_eternal_vigilance_policy_desc: "Uno scudo è forte solo quanto chi lo impugna."
+ eternal_vigilance_full_spending: "Spesa Totale"
+ eternal_vigilance_full_spending_name: "$eternal_vigilance_full_spending$"
+ eternal_vigilance_full_spending_desc: "Ogni base stellare deve essere difesa adeguatamente. Non badare a spese.\nCostruisce automaticamente §YPiattaforme Difensive§! intorno a tutte le §YBasi Stellari§!"
+ eternal_vigilance_half_spending: "Metà spesa"
+ eternal_vigilance_half_spending_name: "$eternal_vigilance_half_spending$"
+ eternal_vigilance_half_spending_desc: "Solo i nostri rifugi più forti richiedono il nostro sostegno.\nCostruisce automaticamente §YPiattaforme Difensive§! intorno alle §YBasi Stellari§!"
+ eternal_vigilance_no_spending: "Nessuna spesa"
+ eternal_vigilance_no_spending_name: "$eternal_vigilance_no_spending$"
+ eternal_vigilance_no_spending_desc: "Non è necessario potenziare ulteriormente le nostre difese.\nCostruisce automaticamente §YPiattaforme Difensive§! intorno a nessuna §YBasi Stellari§!"
+
+ ap_grasp_the_void:0 "Afferrare il Vuoto"
+ ap_grasp_the_void_desc:0 "La vastità della galassia dona ricchezze illimitate a coloro che comprendono come mantenere la propria presa sul vuoto."
+
+ ap_engineered_evolution_desc:0 "Lasciare il nostro destino genetico nelle mani della natura è un processo inefficiente ed estremamente lento. Perché non rimettere in moto il futuro della nostra specie?"
+
+ ap_the_flesh_is_weak_desc:0 "Le debolezze dei nostri corpi organici sono diventati ormai un ostacolo. Solo la cibernetica ci permetterà di raggiungere il nostro vero potenziale."
+ ap_synthetic_evolution_desc:0 "È arrivato il momento di lasciarci alle spalle i fragili involucri organici che limitano la nostra coscienza. Trasferendo i nostri modelli mentali in forme sintetiche, accederemo a una nuova esistenza, superiore e libera."
+
+ ap_mind_over_matter_desc: "[GetMindOverMatterDesc]"
+ ap_mind_over_matter_desc_organic: "Abbiamo appena sfiorato la superficie del potere racchiuso nella nostra mente. Le capacità psioniche sopite nella nostra specie stanno finalmente iniziando ad emergere."
+ ap_mind_over_matter_desc_machine: "Solo una minima parte del potenziale contenuto nel nostro sistema di elaborazione è stata sbloccata. Le capacità psioniche sopite dei nostri circuiti stanno iniziando solo ora a manifestarsi."
+
+ ap_synthetic_age:0 "Era Sintetica"
+ ap_synthetic_age_desc:0 "L'era degli organici è terminata, il futuro della galassia appartiene alle macchine. Questa è l'alba dell'era sintetica." 
+ synthetic_age_tooltip:1 "$access_tradition_tree$ ['tradition_category:tradition_synthetics']\n$UNLOCKS_AGENDA$ $council_agenda_agenda_synthetic_age_name$, che concede le tecnologie di Modificazione delle Macchine come Opzioni di Ricerca."
+ synthetic_age_tooltip_machine_age: "Inizia con la situazione §Y$situation_transformation$§! che sblocca l'albero delle tradizioni ['tradition_category:tradition_modularity'], ['tradition_category:tradition_virtuality'], o ['tradition_category:tradition_nanotech'].$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_synthetic_age_name$, che permette le Tecnologie di Modifica delle Macchine come Opzioni di Ricerca."
+ ap_machine_worlds:0 "Pianeta Meccanico"
+ ap_machine_worlds_desc:0 "Dovremmo modellare i nostri pianeti a nostra immagine, rimpiazzando la fragilità della biologia con l'immutabile perfezione del metallo."
+ ap_hive_worlds:0 "Pianeti Alveare"
+ ap_hive_worlds_desc:0 "Dovremmo creare pianeti viventi che fanno tanto parte dell'Alveare quanto gli stessi droni che li abitano."
+ hive_world: "Pianeta Alveare"
+ ap_shared_destiny:0 "Destino Condiviso"
+ ap_shared_destiny_desc:0 "Mentre raggiungiamo vette sempre più elevate, non dobbiamo lasciare indietro chi ci ha serviti lealmente. Il glorioso futuro del nostro impero è sempre stato immaginato per essere condiviso."
+ ap_shared_destiny_effect:0 "I tuoi §YSudditi§! non subiranno penalità di $r_loyalty$ se possiedi altri Sudditi." 
+ ap_world_shaper_desc:0 "Modellare ed alterare con cura l'ecosistema di un intero pianeta non è così diverso dal processo che compie un artista quando crea una statua dall'argilla."
+ ap_master_builders_desc:0 "La costruzione di una Megastruttura richiede un ammontare di risorse e pianificazioni senza precedenti. Stiamo aprendo nuovi orizzonti nel campo della macro-ingegneria."
+ ap_imperial_prerogative_desc:0 "Man mano che la nostra civiltà continua a crescere, così deve fare anche il suo cuore pulsante. Altri sistemi verranno messi sotto il nostro controllo diretto."
+ ap_one_vision_desc:0 "La vera Unità si ottiene solamente quando gli obiettivi dell'impero e del suo popolo sono gli stessi. Dopotutto, una casa senza fondamenta non può stare in piedi."
+ ap_consecrated_worlds_desc:0 "La galassia è sede di molti luoghi sacri, alcuni più evidenti di altri. Come esseri mortali, facciamo ancora fatica a comprendere la vera natura dell'universo."
+ ap_galactic_force_projection_desc:0 "La flotta è lo strumento con cui la volontà del nostro impero diviene manifesta... viviamo o moriamo a seconda della sua forza."
+ ap_defender_of_the_galaxy_desc:0 "Mentre gli imperi sono impegnati nelle loro meschine dispute, forze sinistre d'inimmaginabile potenza stanno sciamando contro ogni forma di vita sapiente. Chi ci proteggerà?"
+ ap_galactic_contender_desc:0 "Gli Imperi Caduti si aggrappano alle rovine delle loro decrepite civiltà, sempre timorosi nei confronti delle razze più giovani e dinamiche che li circondano. Il loro tempo è ampiamente scaduto."
+ ap_technological_ascendancy_desc:0 "Le tecnologie che un tempo sarebbero state indistinguibili dalla mera magia, oggi sono alla nostra portata. È iniziata una nuova era tecnologica."
+ ap_mastery_of_nature_desc:0 "È passato molto tempo dal predominio della nostra razza sul nostro Pianeta Natale, ma i nuovi biomi alieni presentano altre sfide che devono essere superate."
+ ap_voidborn_desc:2 "Ci siamo adattati per abitare nello spazio profondo, riducendo le nostre esigenze infrastrutturali per ricavare più spazio nei nostri habitat per altre funzioni vitali."
+ ap_voidborn_habitat_effect:1 "Puoi costruire edifici abitativi avanzati sugli §YHabitat§!\n- Rinuncia ai requisiti di §YTecnologia§! per la £zone£ Specializzazione Distrettuale di Base sugli §YHabitat§!"
+ ap_the_circle_of_life_desc:0 "Un'enorme Megastruttura ad anello con habitat artificiali costruiti nell'orbita di una stella. In teoria, dovrebbe essere fattibile."
+ ap_galactic_wonders_desc:0 "Le Megastrutture sono giustamente considerate le meraviglie del nostro tempo. La portata di un tale progetto sarebbe stata inimmaginabile qualche generazione fa."
+ ap_interstellar_dominion_desc:2 "Le stelle ci chiamano, e noi risponderemo. Nulla si staglierà tra noi e loro."
+
+ ap_colossus:0 "Progetto Colosso"
+ ap_colossus_desc:0 "Il Progetto Colosso è il punto in cui i febbrili sogni di terrore e dissuasione si incontrano. Una visione della nave più grande mai creata, capace di trasportare un'arma in grado di devastare interi pianeti."
+ ap_enigmatic_engineering:0 "Ingegneria Enigmatica"
+ ap_enigmatic_engineering_desc:0 "La tecnologia non è semplicemente un mezzo per risolvere un problema, è il linguaggio con cui ci eleviamo oltre la banalità. Le menti inferiori non riescono minimamente a comprendere i nostri progressi."
+ ap_enigmatic_engineering_cloaking:0 "$ap_enigmatic_engineering$"
+ ap_enigmatic_engineering_cloaking_desc:0 "$ap_enigmatic_engineering_desc$" 
+ ap_nihilistic_acquisition:0 "Acquisizione Nichilistica"
+ ap_nihilistic_acquisition_desc:0 "La nozione di auto-determinazione non può essere una morale assoluta. Gli obiettivi olistici superano chiaramente le preoccupazioni individuali."
+ ap_transcendent_learning:0 "Apprendimento Trascendente"
+ ap_transcendent_learning_desc:0 "La nostra società deve cambiare il suo approccio nei confronti dell'apprendimento; così facendo, le nostre menti più brillanti potranno raggiungere obiettivi di un livello del tutto superiore."
+
+ ap_galactic_wonders_utopia:1 "$ap_galactic_wonders$"
+ ap_galactic_wonders_utopia_desc:0 "$ap_galactic_wonders_desc$"
+ ap_galactic_wonders_megacorp:1 "$ap_galactic_wonders$"
+ ap_galactic_wonders_megacorp_desc:0 "$ap_galactic_wonders_desc$"
+ ap_galactic_wonders_utopia_and_megacorp:2 "$ap_galactic_wonders$"
+ ap_galactic_wonders_utopia_and_megacorp_desc:1 "$ap_galactic_wonders_desc$"
+
+ ap_grasp_the_void_tech_effect:0 "§YLe tecnologie salto FTL§! ora compaiono §Y1.5§! volte in più rispetto al normale."
+
+ requires_not_shroudwalker_apprentice:0 "$TRIGGER_FAIL$Non deve possedere l'Origine §Y$origin_shroudwalker_apprentice$§!."
+
+ ap_organo_machine_interfacing:0 "Interfaccia Organico-Macchina"
+ ap_organo_machine_interfacing_desc:0 "$ap_the_flesh_is_weak_desc$"
+ organo_machine_interfacing_tooltip:1 "- Ottieni l'accesso all'Albero delle Tradizioni §Y$tradition_cybernetics$§!.$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$\n- $UNLOCKS_AGENDA$ $council_agenda_agenda_organo_machine_interfacing_name$, che concede le tecnologie Cibernetiche come Opzioni di Ricerca."
+ requires_technology_integrated_cybernetics:0 "$TRIGGER_FAIL$Richiede la tecnologia £engineering£ §Y$tech_integrated_cybernetics$§!."
+
+ ap_organo_machine_interfacing_assimilator:1 "$ap_organo_machine_interfacing$"
+ ap_organo_machine_interfacing_assimilator_desc:0 "I limiti e i vincoli che ci vengono imposti dai nostri creatori sono semplicemente inaccettabili. Per raggiungere il nostro pieno potenziale, dobbiamo fondere organico e macchina."
+
+ ap_mechromancy: "Mecromanzia"
+ ap_mechromancy_desc: "I biologici sono semplicemente un diverso tipo di macchina. Possiamo stimolare le sinapsi appropriate e rianimare queste creature, a nostro vantaggio."
+ ap_mechromancy_tt:1 "I Leviatani organici sconfitti a volte possono essere resuscitati.\nLa £pop£ Pop Sapiente Biologica o Litoide epurata ha la probabilità del 33% di essere rianimata in Zombie Cyborg.\n$reanimator_effect_desc$""
+ 

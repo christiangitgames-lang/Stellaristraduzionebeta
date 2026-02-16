@@ -1,0 +1,65 @@
+﻿l_english:
+# Pre-FTL Stances
+# Resolutions
+ resolution_category_pre_ftl_stances:1 "Atteggiamento Pre-FTL"
+ resolution_pre_ftl_stances_repeal_1:0 "§RRevoca la Risoluzione $resolution_pre_ftl_stances_equal_standing$§!"
+ resolution_pre_ftl_stances_repeal_1_desc:1 "Trattare alla pari "civiltà" che sono a malapena in grado di lasciare i loro mondi d'origine è un'idea assurda. Gli imperi del Consiglio [global_event_country.GetGalCommunityOrGalImperium] dovrebbero essere autorizzati a trattare le civiltà minori all'interno dei loro confini come meglio credono."
+ resolution_pre_ftl_stances_repeal_1_effect_success:1 "Revoca la Risoluzione §Y$resolution_pre_ftl_stances_equal_standing$§!."
+
+ resolution_pre_ftl_stances_repeal_2:0 "§RRevoca la Risoluzione $resolution_pre_ftl_stances_non_interference$§!"
+ resolution_pre_ftl_stances_repeal_2_desc:1 "Impedire agli imperi del Consiglio [global_event_country.GetGalCommunityOrGalImperium] di utilizzare risorse che gli appartengono di diritto solo perché dei selvaggi le occupano abusivamente è una violazione dei nostri diritti intellettuali e di proprietà."
+ resolution_pre_ftl_stances_repeal_2_effect_success:1 "Revoca la Risoluzione §Y$resolution_pre_ftl_stances_non_interference$§!."
+
+ resolution_pre_ftl_stances_repeal_3:1 "§RRevoca la Risoluzione $resolution_pre_ftl_stances_exploitation$§!"
+ resolution_pre_ftl_stances_repeal_3_desc:1 "Trattare un'altra civiltà esclusivamente come una fonte di risorse da sfruttare sulla base della loro attuale tecnologia è ripugnante. Gli imperi del Consiglio [global_event_country.GetGalCommunityOrGalImperium] dovrebbero garantire che alle civiltà che ci seguiranno verso le stelle siano garantiti gli stessi diritti di qualsiasi altra specie."
+ resolution_pre_ftl_stances_repeal_3_effect_success:1 "Revoca la Risoluzione §Y$resolution_pre_ftl_stances_exploitation$§!."
+
+ resolution_pre_ftl_stances_equal_standing:1 "Legge sulla Parità di Trattamento"
+ resolution_pre_ftl_stances_equal_standing_desc:1 "Ogni civiltà pre-FTL ha il potenziale per apprendere il volo spaziale ed unirsi al Consiglio [global_event_country.GetGalCommunityOrGalImperium]. Per questo motivo, dobbiamo trattare i futuri membri con dignità e rispetto."
+ resolution_pre_ftl_stances_equal_standing_tooltip:1 "Le politiche §Y$interference_not_allowed$§! e §Y$interference_aggressive$§! sono §Rvietate§!.\nAumenta l'efficacia degli accordi diplomatici §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! con le Civiltà Pre-FTL.\n§YCiviltà Pre-FTL§! che diventano spaziali grazie agli accordi §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! guadagneranno §G+100§! £loyalty£ §YFedeltà§!.\n§YAccordi Commerciali§! con le Civiltà sono più efficaci."
+
+ resolution_pre_ftl_stances_non_interference:1 "Legge di Non-Interferenza"
+ resolution_pre_ftl_stances_non_interference_desc:1 "Le Civiltà pre-FTL dovrebbero avere la possibilità di svilupparsi senza interferenze esterne."
+ resolution_pre_ftl_stances_non_interference_tooltip:1 "Le politiche §Y$interference_active$§! e §Y$interference_aggressive$§! sono §RVietate§!.\nGarantisce l'accesso alla politica §Y$interference_not_allowed$§! indipendentemente dall'Etica o dalla Civica.\nTutti gli §YAccordi Diplomatici§! con le Civiltà Pre-FTL verranno considerate in §RViolazione della Legge Galattica§!.\nLe §YOperazioni di Spionaggio§! fallite che hanno come obiettivo le Civiltà Pre-FTL verranno considerate in §RViolazione della Legge Galattica§!."
+
+ resolution_pre_ftl_stances_non_interference_modifier:0 "Il progresso di §YConoscenza§! dall'osservazione delle Civiltà pre-FTL è aumentato del §G+25%§!."
+
+ resolution_pre_ftl_stances_exploitation:1 "Legge sullo Sfruttamento"
+ resolution_pre_ftl_stances_exploitation_desc:1 "I mondi pre-FTL rientrano nella giurisdizione di chi controlla il loro sistema, e ogni impero dovrebbe essere libero di trattare le proprie proprietà nel modo che ritiene più opportuno."
+ resolution_pre_ftl_stances_exploitation_tooltip:1 "Le Stazioni d'Osservazione forniscono un piccolo ammontare di §HPunti Ricerca§! £physics£ £engineering£ mentre stai §YOsservando§! le Civiltà pre-FTL. Approvare la Risoluzione §Y$resolution_galacticstudies_advanced_xenostudies$§! incrementerà i §HPunti Ricerca§! £physics£ £engineering£ guadagnati.\n\nLa politica §Y$interference_not_allowed$§! è §RVietata§!.\nL'uso del Accordo Diplomatico §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! con le Civiltà Pre-FTL verrà considerato in §RViolazione della Legge Galattica§!.\nLe prove che sono state effettuate Operazioni di Spionaggio §Y$operation_plant_advanced_knowledge$§! verranno considerate in §RViolazione della Legge Galattica§!."
+
+# Events
+ preftl.10000.desc:0 "Il Consiglio [global_event_country.GetGalCommunityOrGalImperium] ha approvato la Risoluzione §Y$resolution_pre_ftl_stances_equal_standing$§!, che vieta agli imperi di adottare le politiche §Y$interference_not_allowed$§! o §Y$interference_aggressive$§!.\n\nIl nostro Impero attualmente non rispetta questa risoluzione. Dobbiamo modificare le nostre politiche per renderle conformi?"
+ preftl.10050.name:0 "Violazione della Risoluzione $resolution_pre_ftl_stances_equal_standing$"
+ preftl.10050.desc:0 "I funzionari del Consiglio [global_event_country.GetGalCommunityOrGalImperium] hanno stabilito che il nostro trattamento verso §H[pre_ftl_country.GetName]§! viola la Risoluzione §Y$resolution_pre_ftl_stances_equal_standing$§!, a prescindere dalle nostre intenzioni.\n\n$preftl.10050.outro$"
+ preftl.10050.outro:0 "[Root.GetName] sarà considerato in §RViolazione della Legge Galattica§! per i prossimi dieci anni. Inoltre, ci è stata imposta una multa salata."
+
+ preftl.10055.name:0 "$preftl.10050.name$"
+ preftl.10055.desc:0 "A seguito della nostra violazione della Risoluzione §Y$resolution_pre_ftl_stances_equal_standing$§! dovuta al nostro trattamento di §H[pre_ftl_country.GetName]§!, abbiamo presentato i documenti necessari ai funzionari del Consiglio [global_event_country.GetGalCommunityOrGalImperium]. Speriamo che ammettendo le nostre azioni siano più tolleranti.\n\n$preftl.10055.outro$"
+ preftl.10055.outro:0 "[Root.GetName] verrà considerato in §RViolazione della Legge Galattica§! per i prossimi cinque anni. In aggiunta, ci è stata imposta una multa salata."
+
+ preftl.10100.desc:0 "Il consiglio [global_event_country.GetGalCommunityOrGalImperium] ha approvato la Risoluzione §Y$resolution_pre_ftl_stances_non_interference$§!, vietando agli imperi di detenere qualsiasi politica §Y$policy_interference$§! ad eccezione della §Y$interference_not_allowed$§!.\n\nIl nostro Impero attualmente non rispetta questa risoluzione. Dobbiamo modificare le nostre politiche per renderle conformi?"
+ preftl.10150.name:0 "Violazione della Risoluzione $resolution_pre_ftl_stances_non_interference$"
+ preftl.10150.desc:0 "I funzionari del Consiglio [global_event_country.GetGalCommunityOrGalImperium] hanno ricevuto notizia della nostra interferenza nello sviluppo naturale di §H[pre_ftl_country.GetName]§!. Ci hanno informato che si tratta di una chiara violazione della Risoluzione §Y$resolution_pre_ftl_stances_non_interference$§!, indipendentemente dalle nostre intenzioni.\n\n$preftl.10050.outro$"
+
+ preftl.10155.name:0 "$preftl.10150.name$"
+ preftl.10155.desc:0 "Abbiamo presentato un rapporto completo ai funzionari del consiglio [global_event_country.GetGalCommunityOrGalImperium], a seguito della nostra violazione della risoluzione §Y$resolution_pre_ftl_stances_non_interference$§! nei confronti di §H[pre_ftl_country.GetName]§!. Speriamo che questo atto di confessione ci renda più simpatici ai pubblici ministeri, che a loro volta potrebbero considerare il nostro caso con maggiore clemenza."
+
+ preftl.10157.desc:0 "La nostra invasione del pianeta Natale §H[pre_ftl_country.GetAdj]§! è stata notata dal Consiglio [global_event_country.GetGalCommunityOrGalImperium]. Ci hanno informato che si tratta di una chiara violazione della Risoluzione §Y$resolution_pre_ftl_stances_non_interference$§!.\n\n$preftl.10050.outro$"
+ preftl.10161.desc:0 "Il nostro bombardamento del pianeta Natale §H[pre_ftl_country.GetAdj]§!è stato notato dal Consiglio [global_event_country.GetGalCommunityOrGalImperium]. Ci hanno informato che questa è una chiara violazione della Risoluzione §Y$resolution_pre_ftl_stances_non_interference$§!.\n\n$preftl.10050.outro$"
+
+ preftl.10200.desc:1 "Il Consiglio [global_event_country.GetGalCommunityOrGalImperium] ha approvato la Risoluzione §Y$resolution_pre_ftl_stances_exploitation$§!, vietando agli imperi di detenere la politica §Y$interference_not_allowed$§!.\n\nIl nostro Impero attualmente non rispetta questa risoluzione. Dobbiamo modificare le nostre politiche per renderle conformi?"
+ preftl.10250.name:0 "Violazione della Risoluzione $resolution_pre_ftl_stances_exploitation$"
+ preftl.10250.desc:0 "I funzionari del Consiglio [global_event_country.GetGalCommunityOrGalImperium] hanno ricevuto la notizia della nostra condivisione di dati tecnologici con §H[pre_ftl_country.GetName]§!. Ci hanno informato che si tratta di una chiara violazione della Risoluzione §Y$resolution_pre_ftl_stances_exploitation$§!, indipendentemente dalle nostre intenzioni.\n\n$preftl.10050.outro$"
+
+ preftl.10255.name:0 "$preftl.10250.name$"
+ preftl.10255.desc:0 "Abbiamo presentato un rapporto completo ai funzionari del Consiglio [global_event_country.GetGalCommunityOrGalImperium], in seguito alla violazione della Risoluzione §Y$resolution_pre_ftl_stances_exploitation$§! nei confronti di §H[pre_ftl_country.GetName]§!. Speriamo che questo atto di confessione ci renda più simpatici ai pubblici ministeri, che a loro volta potrebbero considerare il nostro caso con maggiore clemenza."
+
+ pre_ftl_stances_fix_breach_not_allowed:1 "Cambieremo la nostra politica §Y$policy_interference$§! in §Y$interference_not_allowed$§!."
+ pre_ftl_stances_fix_breach_subtle:1 "Cambieremo la nostra politica §Y$policy_interference$§! in §Y$interference_subtle$§!."
+ pre_ftl_stances_fix_breach_active:1 "Cambieremo la nostra politica §Y$policy_interference$§! in §Y$interference_active$§!."
+ pre_ftl_stances_fix_breach_aggressive:1 "Cambieremo la nostra politica §Y$policy_interference$§! in §Y$interference_aggressive$§!."
+
+ breach_resolution_pre_ftl_stances_equal_standing_tt:0 "§RQuesto ci porterebbe a violare la Risoluzione $resolution_pre_ftl_stances_equal_standing$!§!"
+ breach_resolution_pre_ftl_stances_non_interference_tt:0 "§RQuesto ci porterebbe a violare la Risoluzione $resolution_pre_ftl_stances_non_interference$!§!"
+ breach_resolution_pre_ftl_stances_exploitation_tt:0 "§RQuesto ci porterebbe a violare la Risoluzione $resolution_pre_ftl_stances_exploitation$!§!"

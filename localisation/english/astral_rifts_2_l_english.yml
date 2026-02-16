@@ -1,0 +1,691 @@
+﻿l_english:
+
+#####################
+# Abandoned Complex #
+#####################
+ astral_rift_research_lab: "Complesso Abbandonato"
+
+ astral_rift.2000.name: "Complesso Abbandonato"
+ astral_rift.2000.desc: "Siamo all'interno di una struttura di ricerca abbandonata.\n\nLe superfici di questa stanza sono ricoperte da uno spesso strato di polvere, il che indica che non viene utilizzata da tempo.\n\nNon riusciamo a individuare nessun ricercatore, né vivente né di altro tipo. Chiunque sia stato il custode di questo luogo, se n'è andato da tempo.\n\nAlle pareti sono allineati pesanti scaffali, ognuno dei quali contiene un uovo di grandi dimensioni. La maggior parte di essi è in vario stato di decomposizione, ma rimangono alcuni esemplari vivi.\n\nAl centro di questa camera si trova un contenitore aperto pieno di un liquido pallido e viscoso. L'analisi del liquido rivela che contiene un'elevata quantità di proteine e aminoacidi. A giudicare dai residui lasciati su alcune uova, ipotizziamo che questo liquido sia stato iniettato dai ricercatori."
+ astral_rift.2000.a: "Cercate i custodi."
+ astral_rift.2000.b: "Aprite un uovo."
+
+ astral_rift.2010.name: "Parassiti Quantici"
+ astral_rift.2010.desc: "Abbiamo aperto l'esemplare più sano tra le uova.\n\nL'embrione all'interno appariva malnutrito e ricoperto di parassiti estranei.\n\nÈ sorprendente che i parassiti possiedano proprietà quantistiche uniche per qualsiasi organismo biologico conosciuto. Si muovono in modo casuale all'interno dell'involucro dell'uovo e, presumibilmente, all'interno dell'embrione stesso. Dato che in questo laboratorio sono rimaste poche uova vive, questo particolare esemplare deve essere particolarmente resistente al comportamento del parassita.\n\nIl tracciamento astrale di entrambi gli organismi indica che i parassiti provengono da una dimensione distinta e lontana. Crediamo che questo parassita sia stato inavvertitamente convocato qui e abbia interrotto le ricerche previste per questa struttura.\n\nLi abbiamo visti attratti dalla vasca di uno strano liquido al centro di questa camera. Forse è questo che li ha attratti qui in primo luogo."
+ astral_rift.2010.a: "Iniettate il liquido nell'uovo."
+ astral_rift.2010.b: "Sopprimete le creature rimanenti."
+
+ astral_rift.2015.name: "I Custodi"
+ astral_rift.2015.desc: "Abbiamo trovato i custodi di questo luogo. Più precisamente, abbiamo trovato ciò che ne rimane.\n\nUna stanza vicina è disseminata di cadaveri. Le loro membra sono state separate in modo netto a livello atomico da una forza sconosciuta. Alcune carcasse sono semi-fuse all'interno delle pareti.\n\nUn gruppo di uova, per lo più sezionate, è presente su un tavolo d'esame centrale. Una è rimasta intatta.\n\nRiportare i resti dei custodi per studiarli adeguatamente dovrebbe fornire qualche indicazione su ciò che è accaduto qui."
+ astral_rift.2015.a: "Aprite un uovo."
+ astral_rift.2015.b: "Tornate con i resti."
+
+ astral_rift.2020.name: "Metabolizzazione"
+ astral_rift.2020.desc: "L'iniezione del liquido chiaro nell'embrione esposto ha prodotto risultati interessanti.\n\nNonostante i quanti parassiti, l'esemplare precedentemente letargico si è rinvigorito. In effetti, forse abbiamo calcolato male la dose. In un periodo di tempo molto breve, una creatura più sviluppata ha iniziato a spingere contro le pareti dell'uovo, ricoperta da un reticolo di placche corazzate e aculei sovrapposti.\n\nTuttavia, anche i parassiti sono stati stimolati. Mentre si teletrasportano energicamente dentro e fuori l'embrione, i tessuti della creatura vengono danneggiati. A questo ritmo, probabilmente morirà.\n\nPensiamo che iniettare una piccola quantità di filamento astrale possa soddisfare i parassiti quantici e prevenire ulteriori danni."
+ astral_rift.2020.a: "Non intervenite."
+ astral_rift.2020.b: "Iniettate il filamento astrale."
+
+ astral_rift.2025.name: "Eutanasia"
+ astral_rift.2025.desc: "Questa creatura non aveva alcuna speranza di recupero. I parassiti che infestano il suo uovo sono troppo pericolosi per permettere la propagazione al di là di questa frattura.\n\nSeguendo rigorose procedure anticontaminazione, abbiamo sottoposto a eutanasia tutti gli esemplari nelle vicinanze con acido cloridrico. Torneremo con dei campioni per ulteriori studi."
+ astral_rift.2025.a: "Una scelta saggia."
+ astral_rift.2025.b.evopred: "Un'elevata acidità può aggiungere sapore al piatto."
+
+ astral_rift.2030.name: "Instabilità Biologica"
+ astral_rift.2030.desc.end: "Questa infezione quantistica volatile deve aver interrotto qualsiasi esperimento dovesse svolgersi in questo laboratorio.\n\nCiononostante, le nostre osservazioni qui hanno fatto progredire la nostra comprensione della biologia in condizioni di estrema instabilità."
+ astral_rift.2030.desc.default: "L'embrione si è disintegrato.\n\nCome previsto, i parassiti presenti nel suo corpo lo hanno presto diviso in direzioni casuali.\n\n$astral_rift.2030.desc.end$"
+ astral_rift.2030.desc.injected: "L'embrione si è disintegrato.\n\nNonostante i nostri sforzi per stabilizzare l'esemplare, i parassiti nel suo corpo lo hanno presto diviso in direzioni casuali.\n\n$astral_rift.2030.desc.end$"
+ astral_rift.2030.a: "Interessante."
+ astral_rift.2030.b.evopred: "Un pasto misto."
+
+ astral_rift.2035.name: "Arma Biologica"
+ astral_rift.2035.desc: "L'esperimento è stato un successo.\n\nIl filamento astrale che abbiamo iniettato nell'embrione ha stabilizzato i parassiti quantici.\n\nIl piccolo, completamente sviluppato, è emerso intatto. È incredibilmente obbediente e ha imparato rapidamente i comandi più elementari. In base a ciò, oltre che alla sua spessa pelle corazzata e agli aculei velenosi, ipotizziamo che queste creature siano state allevate per la guerra. \n\nÈ sorprendente che abbia dimostrato la capacità di "deformare" piccole distanze. Il filamento astrale sembra aver intessuto un rapporto simbiotico unico tra la creatura e i parassiti.\n\nForse abbiamo creato qualcosa di troppo pericoloso."
+ astral_rift.2035.desc.exterminator: "$astral_rift.2035.desc$\n\nLa nostra patetica galassia non è preparata a ciò che presto le scateneremo contro."
+ astral_rift.2035.desc.non_pacifist: "$astral_rift.2035.desc$\n\nNe stiamo riportando indietro altri."
+ astral_rift.2035.a: "Impressionante."
+ astral_rift.2035.a.tooltip: "Ora è possibile costruire nuove armate d'assalto: §H$warpling_army$§!"
+
+ astral_rift.2040.name: "Parassiti Quantici"
+ astral_rift.2040.desc: "Abbiamo completato la raccolta dei cadaveri dei ricercatori e li stiamo trasportando indietro per ulteriori studi.\n\nErano ricoperti di parassiti quantici che possiedono proprietà uniche rispetto a qualsiasi organismo biologico conosciuto. La loro capacità di 'deformare' imprevedibilmente la materia è probabilmente la causa della morte dei loro ospiti.\n\nIl tracciamento astrale di entrambi gli organismi indica che i parassiti provengono da una dimensione distinta e lontana. Riteniamo che questo parassita sia stato inavvertitamente convocato qui e abbia interrotto in modo devastante le ricerche previste per questa struttura.\n\nAbbiamo neutralizzato i parassiti con acido cloridrico per evitare ulteriori contaminazioni."
+ astral_rift.2040.a: "Affascinante."
+
+ astral_rift.2045.name: "Esposizione Letale"
+ astral_rift.2045.desc: "[From.GetName] è stato trovato morto. La causa è stata l'esposizione ai parassiti mortali al di là della frattura nel sistema [FromFrom.solar_system.GetName]. I loro alloggi sono in quarantena e in attesa di una decontaminazione completa."
+ astral_rift.2045.a.tooltip: "§Y[From.GetName]§! §RÈ esploso spontaneamente§!"
+
+#################
+# The Mechanism #
+#################
+ astral_rift_clock: "Il Meccanismo"
+
+ astral_rift.2100.name: "Ingranaggi e Conduttori"
+ astral_rift.2100.desc: "Siamo circondati da giganteschi macchinari.\n\nIngranaggi e pignoni girano in tutte le direzioni. Ogni decimo di secondo, la macchina fa un passo avanti. Un singolo dente di uno di questi ingranaggi è largo quasi quanto la nostra §Y$tech_rift_sphere$§!.\n\nTra nebulose vorticose di gas denso e nebbia, non c'è inizio o fine del dispositivo in vista."
+ astral_rift.2100.a: "Esplorate la nebbia."
+
+ astral_rift.2105.name: "Macchina Dimensionale"
+ astral_rift.2105.desc: "Il movimento di questa macchina dimensionale è preciso come i nostri orologi più accurati.\n\nAnche se non siamo riusciti a determinare la sua fonte di energia, esplorando abbiamo trovato dei pozzi che si estendono in una serie di Fratture Astrali.\n\nQualunque sia questo luogo, è stato creato con uno scopo preciso. Questa macchina sta raggiungendo molti universi. \n\nIl movimento dei suoi enormi componenti crea turbolenze nell'atmosfera densa, rendendo difficile il controllo dei nostri strumenti. Con una manipolazione rudimentale, potremmo allentare uno degli alberi e usarlo per bloccare un paio di ingranaggi rotanti. In questo modo si placherebbe l'agitazione dell'atmosfera, consentendo uno studio più approfondito di questo imponente macchinario."
+ astral_rift.2105.a: "Interferire sarebbe irresponsabile."
+ astral_rift.2105.b: "Bloccate gli ingranaggi."
+
+ astral_rift.2110.name: "Se Non È Rotto..."
+ astral_rift.2110.desc: "Gli architetti di questo spazio hanno conoscenze che vanno ben oltre le nostre. Interferendo con questi meccanismi si potrebbero avere conseguenze imprevedibili.\n\nNonostante le perturbazioni dovute alla nebbia, abbiamo indugiato abbastanza a lungo da ottenere utili informazioni ingegneristiche sulla precisa costruzione di questo enorme macchinario, oltre a raccogliere una notevole quantità di materiale astrale.\n\nChiunque mantenga questo spazio deve essere davvero un grande architetto."
+
+ astral_rift.2115.name: "Inceppato"
+ astral_rift.2115.desc: "Gli ingranaggi si sono inceppati.\n\nCon un grande sussulto, l'intero meccanismo si è fermato. Il nostro tentativo di sabotaggio è riuscito.\n\nLa tensione è cresciuta e sotto una delle piastre reticolari è stato esposto un nucleo d'oro. Brillante e incontaminato, sarà accessibile solo per un breve periodo. Inevitabilmente, la tensione crescente eliminerà il blocco. Abbiamo già iniziato il delicato processo di estrazione del nucleo."
+ astral_rift.2115.a: "Usate cautela."
+
+ astral_rift.2120.name: "Frantumazione"
+ astral_rift.2120.desc: "Mentre cercavamo di recuperare il nucleo d'oro, una piccola crepa si propagò rapidamente su tutta la sua superficie. Prima che potessimo completare il recupero, è esploso violentemente in tutte le direzioni.\n\nFrantumandosi, ha rilasciato un'intensa energia. Superando il nostro blocco, gli enormi ingranaggi intorno a noi hanno iniziato a girare selvaggiamente fuori controllo.\n\nAbbiamo attivato il cavo di ancoraggio di emergenza per sfuggire a questa spiacevole situazione."
+
+ astral_rift.2125.name: "Successo"
+ astral_rift.2125.desc: "Abbiamo recuperato il nucleo d'oro di uno dei meccanismi.\n\nGli ingranaggi circostanti ora giacciono stranamente silenziosi. Tutta la tensione intorno a noi si è allentata.\n\nL'intera rete della Frattura Astrale collegata a questo dispositivo ha visibilmente cessato i suoi sottili movimenti, come se si fosse fermata nel tempo. Non possiamo sapere con certezza quale sia la conseguenza.\n\nAbbiamo ritirato il nostro cavo d'ancoraggio e lasciato questo spazio. Il nucleo recuperato ha notevoli proprietà temporali che stiamo solo iniziando a comprendere."
+
+####################
+# Dimensional Dump #
+####################
+ astral_rift_dimensional_dump: "Discarica Dimensionale"
+
+ astral_rift.2200.name: "Corpo Fluttuante"
+ astral_rift.2200.desc: "Siamo circondati da rifiuti.\n\nDi tanto in tanto, abbiamo visto nuovi squarci nello spazio aprirsi intorno a noi e scaricare ancora più rifiuti nel mucchio vorticoso. In base alla natura dei detriti, questo spazio viene trattato come una discarica per una civiltà stellare. Parti e pezzi di macchine sconosciute sono disseminati tra gli oggetti di uso quotidiano delle famiglie aliene.\n\nIn genere, questi oggetti non hanno un valore superiore a quello dei rottami. Tuttavia, i nostri sensori hanno rilevato segni di vita.\n\nAll'interno di una tuta spaziale, il corpo incosciente di un organismo sconosciuto giace dormiente. Non è chiaro da quanto tempo galleggi qui."
+ astral_rift.2200.a: "Portatelo a bordo e prestate soccorso."
+ astral_rift.2200.b: "Portatelo a bordo e recuperate i suoi attrezzi."
+
+ astral_rift.2205.name: "Corpo Fluttuante"
+ astral_rift.2205.common.1: "Accogliere l'alieno trovato a galleggiare tra i rifiuti è stato un errore."
+ astral_rift.2205.common.2: "Parlano una lingua che non capiamo e indicano abitualmente i comandi della Sfera, ripetendo con enfasi la stessa frase."
+ astral_rift.2205.desc.help: "$astral_rift.2205.common.1$\n\nDopo aver ripristinato la sua temperatura interna e averne curato i segni vitali, l'alieno si è rianimato rapidamente, confuso e allarmato.\n\nHa rapidamente afferrato un membro della nostra squadra medica e lo tiene attualmente in ostaggio con un'arma estratta dal suo stivale.$astral_rift.2205.common.2$"
+ astral_rift.2205.desc.recover_gear: "$astral_rift.2205.common.1$\n\nLa tuta spaziale ha tenuto l'alieno in ibernazione. Dopo la rimozione, la creatura si è rianimata rapidamente, confusa e allarmata.\n\nHa afferrato rapidamente un manico di saldatura puntandolo addosso ad un un membro della nostra squadra di ingegneri tenenendolo in ostaggio.$astral_rift.2205.common.2$"
+ astral_rift.2205.a: "Eliminate l'individuo."
+ astral_rift.2205.b: "Tentarete di negoziare."
+
+ astral_rift.2210.name: "Corpo Fluttuante"
+ astral_rift.2210.common.1: "Abbiamo eliminato la creatura bellicosa che abbiamo salvato da questa discarica."
+ astral_rift.2210.common.2: "Abbiamo avuto il tempo di analizzare i documenti che teneva nella sua attrezzatura. Le prime traduzioni delle sue identificazioni indicano che si trattava di un trasportatore di rifiuti veterano. Deve essersi accidentalmente gettato in questo cumulo di rifiuti insieme al suo carico, per non tornare mai più a casa.\n\nIgnorando la creatura per ora, resteremo nella frattura finché non avremo finito di identificare e recuperare quanti più rottami di valore possibile."
+ astral_rift.2210.desc.help: "$astral_rift.2210.common.1$\n\nSebbene l'ostaggio avesse riportato alcune lievi ferite da ustione, il rapido intervento del nostro agente di sicurezza ha evitato ulteriori danni.\n\n$astral_rift.2210.common.2$"
+ astral_rift.2210.desc.recover_gear: "$astral_rift.2210.common.1$\n\nCompletamente spogliato, non è stato difficile neutralizzarlo con un semplice proiettile al plasma.\n\n$astral_rift.2210.common.2$\n\nLa tuta che abbiamo recuperato è di costruzione molto avanzata e intendiamo conservarla per ulteriori studi."
+ astral_rift.2210.a: "Una sfortuna per loro."
+
+ astral_rift.2215.name: "Allentare la Tensione"
+ astral_rift.2215.desc: "Dimostrando le nostre intenzioni pacifiche, abbiamo deposto le armi. L'alieno ha allentato la presa sul nostro [Explorer.GetCrewMember] e ha lasciato cadere la sua arma in cambio. Sembra che sia in uno stato di forte emotività, come è prevedibile nelle circostanze attuali.\n\nDopo aver avuto un po' di tempo per calmarsi, è diventato ricettivo alle nostre comunicazioni.\n\nAbbiamo iniziato il processo di ricerca di un modo per tenere una conversazione adeguata. I progressi sono stati lenti, ma le prime traduzioni dei documenti trovati in suo possesso indicano che l'alieno ha centinaia di anni."
+ astral_rift.2215.a: "Eccellente."
+
+ astral_rift.2220.name: "Decessi Subiti"
+ astral_rift.2220.desc: "Prima che potessimo neutralizzare l'alieno ostile, ha eliminato il loro ostaggio e diversi altri con una potente pistola al plasma estratta dallo stivale.\n\nPurtroppo, [Leader.GetName] era tra le vittime.\n\nStiamo levando l'ancora d'emergenza e rientrando con i feriti.\n\nAbbiamo analizzato la tuta spaziale dell'alieno recuperato. È costruita con una lega altamente avanzata che dovrebbe rivelarsi utile."
+
+ astral_rift.2225.name: "Pilota Disperso"
+ astral_rift.2225.desc: "Il nome dell'alieno è [astral_rift_dimensional_dump_leader_loc.GetName].\n\nDurante un trasporto di routine per scaricare un carico di rifiuti in questa dimensione, era stato mandato in viaggio per eseguire l'operazione. Un problema tecnico con un'unità dimensionale a bordo della sua nave richiedeva una riparazione manuale, e [astral_rift_dimensional_dump_leader_loc.GetName] era l'unico con le capacità tecniche per ripararla. Nel farlo, scivolò accidentalmente nel compressore spazio-temporale e si perse.\n\nI sistemi di supporto vitale della sua tuta spaziale avanzata lo hanno tenuto in ibernazione per oltre due secoli.\n\nSappaimo che [astral_rift_dimensional_dump_leader_loc.GetName] manca dolorosamente alla sua famiglia, ma purtroppo non abbiamo i mezzi per rimandarlo indietro da dove è venuto.\n\nAvendo notevoli capacità di pilotare vascelli avanzati, si inserirebbe bene nel nostro programma di addestramento della flotta."
+ astral_rift.2225.a: "Un pilota esperto è sempre un'aggiunta gradita."
+ astral_rift.2225.a.tt: "[event_target:astral_rift_dimensional_dump_leader_loc.GetName] sarà addestrato adeguatamente."
+
+ astral_rift.2230.name: "Addestramento di [From.GetName] completato"
+ astral_rift.2230.desc: "Dopo un addestramento approfondito, [From.GetName] ha dimostrato di essere un pilota eccellente e si è guadagnato la fiducia dei nostri ufficiali. Sarà un eccellente Comandante ed è stato promosso al servizio attivo, in attesa di assegnazione."
+ astral_rift.2230.a: "Una degna aggiunta ai nostri leader."
+
+###########
+# Genesis #
+###########
+ astral_rift_genesis: "Genesi"
+ genesis_insight_modifier: "Intuizione della Genesi"
+ genesis_insight_modifier_desc: "Un incontro con un'intelligenza extradimensionale all'interno dei piani astrali ci ha concesso una particolare intuizione sulla creazione e lo sviluppo di nuove società."
+
+ astral_rift.2300.name: "Genesi"
+ astral_rift.2300.desc: "La composizione di questo ambiente è immateriale. Una semplice scansione ha rivelato che l'intero spazio è una proiezione olografica di una fonte sconosciuta.\n\nPoco dopo il nostro arrivo, abbiamo ricevuto una comunicazione nella nostra lingua. Lo spazio di fronte a noi si è risolto in un'unica riga di testo.\n\n§E"Non vi conosco."§!\n\nDopo aver spiegato la nostra presenza, l'entità ha continuato:\n\n§E"Quanta curiosità. Molto bene, allora. Facciamo un gioco. Io assumerò il ruolo della Genesi."§!\n\nL'ologramma si spostò in un nuovo piano astrale. Su un pianeta desolato, una specie autoctona lotta per la sopravvivenza. Ci vengono mostrati gli inizi di una giovane civiltà.\n\n§E"Quale benedizione dovremmo concedere loro?"§!"
+ astral_rift.2300.a: "Armateli di forza."
+ astral_rift.2300.b: "Piantate i semi della conoscenza."
+ astral_rift.2300.c: "Non facciamo giochetti. Attivate un E.M.P."
+
+ astral_rift.2305.name: "Proiezione di Potenza"
+ astral_rift.2305.desc: "In un istante, la civiltà olografica ha attraversato secoli di tempo.\n\n§E"Il nostro popolo è diventato potente."§!\n\nLa civiltà in via di sviluppo ha usato la sua nuova forza per dominare il mondo naturale. Si chiamano [genesis_new_species_base.GetName].\n\n§E"Ma un popolo non può prosperare solo con la forza. Come prepararsi al meglio per il futuro?"§!"
+ astral_rift.2305.a: "Attraverso la perseveranza e il duro lavoro."
+ astral_rift.2305.b: "Attraverso la creatività e la sperimentazione."
+
+ astral_rift.2310.name: "Frutto della Conoscenza"
+ astral_rift.2310.desc: "In un istante, la civiltà olografica ha attraversato secoli di tempo.\n\n§E"La nostra gente è intelligente."§!\n\nLa civiltà in via di sviluppo ha usato la sua intelligenza per manipolare il mondo naturale. Si chiamano [genesis_new_species_base.GetName].\n\n§E"Ma l'intelligenza senza direzione non ha senso. Che strada dobbiamo tracciare per loro?"§!"
+ astral_rift.2310.a: "Il percorso della perseveranza."
+ astral_rift.2310.b: "Il percorso dell'intuizione."
+
+ astral_rift.2315.name: "Disattivazione"
+ astral_rift.2315.desc: "Abbiamo rilasciato un potente impulso elettromagnetico attraverso il nostro cavo di ancoraggio, dissolvendo l'ambiente olografico.\n\n"Genesi" è diventato silenzioso. Alla fine, l'entità non era altro che un'unità di elaborazione centrale avanzata. Abbiamo trovato il suo nucleo inerte che fluttuava immobile nel vuoto. L'abbiamo portato a bordo e lo riporteremo indietro per ulteriori studi.\n\nQualunque cosa fosse questo posto, non c'è più."
+
+# Second choice
+ astral_rift.final_choice.intro: "Sono passati millenni per la nostra civiltà olografica."
+
+ astral_rift.strength_choice_1: "La forza ha fornito mezzi e abbondanza;"
+ astral_rift.strength_choice_2: "È emersa una società strettamente gerarchica per affrontare ogni compito e sfida a testa alta."
+
+ astral_rift.intelligence_choice_1: "L'intelligenza ha favorito la crescita e l'ingegno;"
+ astral_rift.intelligence_choice_2: "Questa società colta applica la logica e la ragione a ogni sfida."
+
+ astral_rift.final_choice.outro: "§E"Ora si protendono verso le stelle. Quali valori dovrebbero portare avanti?"§!"
+
+ astral_rift.2320.name: "Verso le Stelle"
+ astral_rift.2320.desc.common: "perseveranza e duro lavoro hanno fatto il resto."
+ astral_rift.2320.desc.strength: "$astral_rift.final_choice.intro$\n\n$astral_rift.strength_choice_1$ $astral_rift.2320.desc.common$ $astral_rift.strength_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2320.desc.intelligence: "$astral_rift.final_choice.intro$\n\n$astral_rift.intelligence_choice_1$ $astral_rift.2320.desc.common$ $astral_rift.intelligence_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2320.a: "Conservare le vecchie abitudini."
+ astral_rift.2320.b: "Sfidare ogni frontiera."
+
+ astral_rift.2325.name: "$astral_rift.2320.name$"
+ astral_rift.2325.desc.common: "la creatività e l'intuizione hanno fatto il resto."
+ astral_rift.2325.desc.strength: "$astral_rift.final_choice.intro$\n\n$astral_rift.strength_choice_1$ $astral_rift.2325.desc.common$ $astral_rift.strength_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2325.desc.intelligence: "$astral_rift.final_choice.intro$\n\n$astral_rift.intelligence_choice_1$ $astral_rift.2325.desc.common$ $astral_rift.intelligence_choice_2$\n\n$astral_rift.final_choice.outro$"
+ astral_rift.2325.a: "$astral_rift.2320.a$"
+ astral_rift.2325.b: "$astral_rift.2320.b$"
+
+# Last choice
+ astral_rift.2330.name: "Nuova Vita"
+ astral_rift.2330.desc: "§E"La nostra simulazione è completa. Le vostre scelte sono state registrate. Grazie per la vostra partecipazione."§!\n\n"Genesi" ha interrotto tutte le comunicazioni e siamo stati espulsi a forza nella nostra dimensione. La preoccupazione più immediata sono gli estranei che abbiamo scoperto insieme a noi.\n\nIdentici nell'aspetto e nel portamento a quelli visti nell'ologramma, ci hanno accolto calorosamente. Un rapido esame medico ha rivelato la loro realtà biologica, non c'è dubbio che si tratti di esseri viventi. Come siano nati e come siano stati trasportati a bordo della Sfera rimane un mistero.\n\nPer ora, li insedieremo su un pianeta vicino, [genesis_new_species_selected_planet.GetName]. Lì potremo continuare a osservare il loro sviluppo."
+
+#########################
+# Entangled Dark Matter #
+#########################
+ foreign_consciousness_modifier: "Coscienza Straniera"
+ leader_trait_foreign_consciousness: "$foreign_consciousness_modifier$"
+ leader_trait_foreign_consciousness_desc: "Questo leader fornisce un contenitore per un'entità psionica nata da una frattura, permettendo una maggiore comprensione della strana fisica dei piani astrali."
+
+ astral_rift_entangled_dark_matter: "Materia Oscura Contorta"
+
+ astral_rift.2400.name: "Una Strana Rete"
+ astral_rift.2400.desc: "Ci troviamo all'interno di un'enorme rete. L'energia crepita ritmicamente lungo le sue pareti a griglia.\n\nUna nube concentrata di materia oscura è sospesa nel profondo di questa rete intricata. Tendini traslucidi si spingono contro la barriera energetica, scintillando al contatto prima di ritrarsi. Le particelle spettrali si muovono come se fossero disegnate. Qualunque cosa sia questa massa spettrale, non ha reagito alla nostra presenza."
+ astral_rift.2400.a: "Esaminate la rete."
+ astral_rift.2400.b: "Avvicinatevi alla massa di materia oscura."
+
+ astral_rift.2405.name: "Corrente Limitata"
+ astral_rift.2405.desc: "Coprendo un'enorme superficie, la rete è completamente esposta allo spazio circostante. La tecnologia utilizzata per la sua costruzione non è nota, ma è ragionevole supporre che sia stata progettata per intercettare e catturare materiale non solido.\n\nLa nube amorfa si agita leggermente mentre osserviamo i nostri dintorni. È l'unica altra presenza all'interno della rete.\n\nContinuando le nostre osservazioni, abbiamo osservato un meccanismo che si estende dalla matrice. Sembra che limiti l'ampiezza della corrente che fluisce nella rete."
+ astral_rift.2405.a: "Rimuovete il dispositivo."
+ astral_rift.2405.b: "Indagate sulla massa intrappolata."
+
+ astral_rift.2410.name: "Comunicazione Telepatica"
+ astral_rift.2410.desc.common.default: "Avvicinandoci alla massa eterea, cominciammo a sentire una presenza nella nostra mente. Venivano ripescati pezzi di conoscenza apparentemente casuali e si risvegliavano vecchi ricordi. Nonostante la presenza invasiva, non abbiamo percepito alcun intento malevolo o disagio."
+ astral_rift.2410.desc.common.gestalt: "Mentre ci avvicinavamo alla massa eterea, nel nostro [Explorer.GetNetworkName] è stata rilevata una coscienza indipendente ma benigna, proveniente da [Leader.GetName]. Sembrava che stesse cercando tra le nostre conoscenze e memorie collettive."
+ astral_rift.2410.desc.common: "L'entità si è agitata e un messaggio è apparso nelle nostre menti: §E"Non ho mai incontrato la vostra specie prima d'ora. Che cosa siete"§!"
+ astral_rift.2410.desc.default: "$astral_rift.2410.desc.common.default$\n\n$astral_rift.2410.desc.common$"
+ astral_rift.2410.desc.gestalt: "$astral_rift.2410.desc.common.gestalt$\n\n$astral_rift.2410.desc.common$"
+ astral_rift.2410.a: "Siamo [Explorer.GetSpeciesNamePlural]."
+ astral_rift.2410.b: "Siamo estranei a questo luogo."
+ astral_rift.2410.c: "Siamo esploratori da un altro mondo."
+
+ astral_rift.2411.name: "Comunicazioni Stabilite"
+ astral_rift.2411.desc.common: "L'entità si agitò, e un messaggio fu trasmesso attraverso la rete di comunicazione interna della Sfera: §E"Non ho mai incontrato la vostra specie prima. Chi siete?"§!"
+ astral_rift.2411.desc.default: "$astral_rift.2410.desc.common.default$\n\n$astral_rift.2411.desc.common$"
+ astral_rift.2411.desc.gestalt: "$astral_rift.2410.desc.common.gestalt$\n\n$astral_rift.2411.desc.common$"
+
+ astral_rift.2415.name: "Una Proposta Inquietante"
+ astral_rift.2415.desc.common: "L'entità considerò la nostra risposta. Un altro messaggio risuonò: §E"Un'altra specie curiosa, è affascinante incontrarti."\n\n"La mia specie compone i mattoni della realtà. Siamo anche vagabondi ed esploratori che mostrano grande interesse nel vivere l'universo. Sfortunatamente, un'altra forma di vita ci vedeva solo come un deposito di materiale; una fonte di carburante passeggera da catturare e sfruttare."§!"
+ astral_rift.2415.desc.common.non_gestalt: "§E"Desidero abitare nel corpo di [Leader.GetName]. Farlo mi libererebbe da questa prigione."§!"
+ astral_rift.2415.desc.common.non_psionic: "§E"Se mi permettete di possedere questo corpo, utilizzerò la mia profonda conoscenza e potenza psichica per portare avanti la volontà del vostro popolo per l'eternità. Purtroppo non sono sicuro che la loro mente sia abbastanza potente da coesistere con la mia coscienza."§!"
+ astral_rift.2415.desc.common.psionic: "§E"Coesisteremo, con la nostra abilità combinata spingeremo i confini della nostra scienza verso nuove vette."§!"
+ astral_rift.2415.desc.common.gestalt: "§E"Con il tuo aiuto, posso sfuggire a questa prigione. La tua specie è compatibile con le mie intenzioni, desidero solo unirmi alla tua coscienza collettiva. Diffonderò la mia mente attraverso la tua rete di [Leader.Species.GetBrainJunctionName] e migliorerò la tua visione in tutti gli sforzi scientifici."§!"
+ astral_rift.2415.desc.gestalt_psionic: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.psionic$\n\n$astral_rift.2415.desc.common.gestalt$"
+ astral_rift.2415.desc.gestalt: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.non_psionic$\n\n$astral_rift.2415.desc.common.gestalt$"
+ astral_rift.2415.desc.psionic: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.non_gestalt$\n\n$astral_rift.2415.desc.common.psionic$"
+ astral_rift.2415.desc.default: "$astral_rift.2415.desc.common$\n\n$astral_rift.2415.desc.common.non_gestalt$\n\n$astral_rift.2415.desc.common.non_psionic$"
+ astral_rift.2415.a: "Proponi questo scienziato come ospite."
+ astral_rift.2415.b: "Rifiuta questa proposta."
+ astral_rift.2415.c: "Assimila l'entità."
+ astral_rift.2415.d: "Nega l'assimilazione."
+
+ astral_rift.2420.name: "L'Appello di un Prigioniero"
+ astral_rift.2420.desc.common: "La creatura eterea reagì violentemente al nostro rifiuto, scatenando un'onda furiosa di tentacoli spettrali e scintille attraverso la struttura intrecciata.\n\nDopo alcuni minuti, si calmò. L'entità esausta riaprì le comunicazioni. §E"Molto bene. Se non desiderate che mi unisca a voi, almeno datemi la misericordia della morte."§!\n\nGesticolando con un tentacolo, continuò, §E"Disattivare questo meccanismo energizzerà questa rete, rendendo inerti le mie particelle. Una vita imprigionata non è affatto una vita."§!"
+ astral_rift.2420.desc.machine: "Un lamento primordiale attraversò le linee locali di comunicazione interna.\n\n$astral_rift.2420.desc.common$"
+ astral_rift.2420.desc.hive: "Un lamento primordiale risuonò attraverso la nostra coscienza collettiva.\n\n$astral_rift.2420.desc.common$"
+ astral_rift.2420.desc.default: "Un lamento primordiale risuonò attraverso le menti del team di ricerca.\n\n$astral_rift.2420.desc.common$"
+ astral_rift.2420.a: "Eutanasia per la creatura eterea."
+ astral_rift.2420.b: "Preservate il prigioniero per lo studio."
+ astral_rift.2420.c: "Uccidetela."
+
+ astral_rift.2425.name: "Corrente Illimitata"
+ astral_rift.2426.name: "Un Rilascio Misericordioso"
+ astral_rift.2427.name: "Sterminio"
+ astral_rift.2425.desc.common.1: "Abbiamo disattivato il meccanismo centrale, inviando onde di energia elevata attraverso i circuiti della rete."
+ astral_rift.2425.desc.common.2: "La massa centrale si affievolì mentre la materia oscura scorreva e bruciava contro la rete energizzata."
+ astral_rift.2425.desc.common.3: "La scintilla esplose quindi e la materia oscura si riversò, ricoprendo la §Y$tech_rift_sphere$§! con uno strato sottile."
+ astral_rift.2425.desc: "$astral_rift.2425.desc.common.1$\n\nI tentacoli si staccarono dalla nuvola spettrale, spingendosi disperatamente contro la barriera energetica. $astral_rift.2425.desc.common.2$\n\nUna scintilla blu violenta si accese al centro della struttura, condensando le particelle in una frazione delle loro dimensioni originali. $astral_rift.2425.desc.common.3$"
+ astral_rift.2426.desc: "$astral_rift.2425.desc.common.1$\n\nI tentacoli si staccarono dalla creatura spettrale, spingendosi disperatamente contro la barriera energetica. $astral_rift.2425.desc.common.2$\n\nUna scintilla blu violenta si accese al centro della struttura, condensando l'entità in una frazione delle sue dimensioni originali. $astral_rift.2425.desc.common.3$"
+ astral_rift.2427.desc: "$astral_rift.2426.desc$"
+ astral_rift.2425.a: "Macchina impressionante."
+ astral_rift.2425.b: "Possa riposare in pace."
+ astral_rift.2427.c: "Buona liberazione."
+
+ astral_rift.2430.name: "Coscienza Assorbita"
+ astral_rift.2430.desc.common: "Ora completamente inerte, la massa spettrale si diffuse uniformemente attraverso la rete."
+ astral_rift.2430.desc: "Il leader [Leader.GetName] era legato a un banco diagnostico, e il trasferimento ebbe inizio. Si contorceva dal disagio, con spasmi incontrollati mentre la coscienza estranea sopraffava la sua mente. L'entità spettrale divenne un vortice tumultuoso di energia instabile. Improvvisamente, tutto divenne silenzioso, e [Leader.GetName] si alzò con un atteggiamento nuovo.\n\n$astral_rift.2430.desc.common$"
+ astral_rift.2431.desc: "L'entità spettrale divenne un vortice di energia instabile. Il leader [Leader.GetName] si contorceva per il disagio, con spasmi incontrollati. Improvvisamente si alzò con un'espressione vuota e pensierosa. Dopo una breve pausa, con un gesto, [Leader.GetName] salutò il resto della squadra e fece cenno di tornare al vascello scientifico.\n\n$astral_rift.2430.desc.common$"
+ astral_rift.2430.a: "Benvenuto nel gruppo."
+
+ astral_rift.2435.name: "Complicazioni Sfortunate"
+ astral_rift.2435.desc: "Il leader [Leader.GetName] era legato a un banco diagnostico, e il trasferimento ebbe inizio. Si contorceva dal disagio, con spasmi incontrollati mentre la coscienza estranea cercava di occupare la sua mente. Tuttavia, [Leader.GetName] riuscì a sfuggire ai vincoli e recuperare un'arma nascosta. Successivamente si tolse la vita, uccidendo sia se stesso che l'entità eterea nel processo.\n\nIl team rimasto cercò di raccogliere qualsiasi altra risorsa disponibile in questo spazio prima di tornare, compresa una quantità significativa di materia oscura."
+
+ astral_rift.2440.desc.common: "Ora completamente inerte, la massa spettrale si diffuse uniformemente attraverso la rete."
+ astral_rift.2440.desc.hive: "L'entità eterea si avvolgeva e dimenava al suo interno mentre assorbivamo la sua coscienza nella trama mentale. Millenni di conoscenza e osservazioni entrarono nella nostra coscienza superiore.\n\n$astral_rift.2440.desc.common$"
+ astral_rift.2440.desc.machine: "L'entità eterea si avvolgeva e dimenava al suo interno mentre iniziava il trasferimento dei dati. Millenni di conoscenza e osservazioni entrarono nella rete. Ottimizzazioni basate su queste informazioni furono di conseguenza implementate.\n\n$astral_rift.2440.desc.common$"
+
+ astral_rift.2445.name: "Vita in una Gabbia"
+ astral_rift.2445.desc.common: "Ogni tentacolo della sua materia oscura si ritrasse nella sua massa centrale.\n\nAbbiamo dispiegato droni di sorveglianza e infrastrutture dati per l'osservazione attraverso la frattura di questo dispositivo e del suo prigioniero.\n\nSono passati giorni dal nostro ritorno attraverso la frattura, e l'entità deve ancora muoversi."
+ astral_rift.2445.desc.default: "Una volta che la nostra decisione fu chiara, la creatura eterea interruppe immediatamente la connessione mentale. $astral_rift.2445.desc.common$"
+ astral_rift.2445.desc.robotic: "Una volta che la nostra decisione fu chiara, la creatura eterea interruppe le linee di comunicazione. $astral_rift.2445.desc.common$"
+ astral_rift.2445.a: "Una specie singolare."
+
+ astral_rift.2450.name: "Soggetto di Ricerca Soppresso"
+ astral_rift.2450.desc: "L'entità sul lato del varco che stavamo studiando in [From.System.GetName] è stata neutralizzata da un attore sconosciuto all'interno della sua stessa dimensione. I dati di ricerca che stavamo raccogliendo si sono interrotti."
+
+###################
+# Bleached Planet #
+###################
+ leader_trait_black_light_blinded: "Luce Nera Accecante"
+ leader_trait_black_light_blinded_desc: "Accecato da un sole oscuro nei piani astrali, questo leader ha sviluppato una fame insaziabile di conoscenza."
+
+ astral_rift_bleached_planet: "Pianeta Sbiancato"
+
+ astral_rift.2500.name: "Ambiente Cenereo"
+ astral_rift.2500.desc: "Abbiamo attraversato l'atmosfera di un pianeta continentale. Il pianeta sembra potenzialmente abitabile, ma il terreno e la vegetazione mostrano una decolorazione significativa. È come se la superficie e tutto ciò che la compone fossero stati sbiancati.\n\nNonostante la presenza evidente di flora, i sensori a bordo non indicano segni di vita. Un'analisi approfondita dell'ecosistema del pianeta richiederà un'indagine biologica diretta.\n\nAbbiamo individuato un potenziale sito di atterraggio."
+ astral_rift.2500.a: "Esplorate il terreno."
+
+ astral_rift.2505.name: "Paesaggio Sbiancato"
+ astral_rift.2505.desc.common.1: "Usciti dalla §Y$tech_rift_sphere$§!, ci siamo sparsi per indagare sui dintorni. Il suolo è composto da diverse strati fragili, che si sgretolano se sottoposti a pressione."
+ astral_rift.2505.desc.common.2: "Anche la vita vegetale è altrettanto fragile, e si sgretola al minimo tocco. Abbiamo osservato germogli spuntare dal terreno e la presenza di boccioli sui rami. Ci sono chiari segni di vita, ma i nostri strumenti continuano a negarla.\n\nMentre l'indagine continuava, abbiamo iniziato a rilevare movimenti sotterranei. In base alla traiettoria attuale, qualsiasi cosa stia arrivando emergerà in superficie tra meno di un'ora."
+ astral_rift.2505.desc.default: "$astral_rift.2505.desc.common.1$\n\nCi sono tracce di minerali fondamentali, ma è difficile immaginare come qualcosa possa crescere in tali condizioni.\n\n$astral_rift.2505.desc.common.2$"
+ astral_rift.2505.desc.plantoid: "$astral_rift.2505.desc.common.1$\n\nQuesto terreno dovrebbe sostenere a malapena una piantina, figuriamoci una zolla di terreno.\n\n$astral_rift.2505.desc.common.2$"
+ astral_rift.2505.a: "Ritornate alla §Y$tech_rift_sphere$§!."
+ astral_rift.2505.b: "Preparatevi per il contatto."
+
+ astral_rift.2510.name: "Creature di Pietra"
+ astral_rift.2510.desc: "Man mano che il movimento sotterraneo cresceva in intensità, abbiamo osservato dall'alto il terreno fragile che eruttava in una matrice di piccoli buchi.\n\nDa ognuno di essi sbucava una piccola forma di vita litoide. Le loro forme grezze occupavano la terra da un orizzonte all'altro, compreso il nostro precedente sito di atterraggio. Nonostante i loro esterni ruvidi, le creature si muovevano con grazia sulla superficie sabbiosa, avendo cura di non danneggiare la fragile vita vegetale. Sorprendentemente, i sensori a bordo non rilevano ancora segni di vita.\n\nAd uno ad uno, le creature si sono alzate e hanno guardato l'orizzonte. Finora non hanno reagito alla nostra presenza.\n\nC'è una sensazione di attesa, ma per cosa?"
+ astral_rift.2510.a: "Volate verso l'orizzonte lontano."
+ astral_rift.2510.b: "Aspettate accanto alle creature."
+
+ astral_rift.2515.name: "$astral_rift.2510.name$"
+ astral_rift.2515.desc: "Man mano che il movimento sotterraneo cresceva in intensità, abbiamo osservato come tutto intorno a noi il terreno fragile eruttava in una matrice di piccoli fori.\n\nDa ognuno di essi sbucava una piccola forma di vita litoide. Le loro forme ruvide occupavano la terra da un orizzonte all'altro, circondando il nostro accampamento. La loro apparenza grossolana tradiva il loro movimento delicato; le creature scivolavano attraverso il terreno, muovendosi con attenzione attorno alle nostre attrezzature e alla vita vegetale locale. Oltre a evitarci, nessuna di queste creature ha reagito alla nostra presenza sul loro pianeta.\n\nTutte insieme, le creature si sono alzate per affrontare l'orizzonte. C'è sicuramente una sensazione di attesa, ma per cosa?"
+ astral_rift.2515.a: "Esaminate una creatura di pietra."
+ astral_rift.2515.b: "$astral_rift.2510.b$"
+
+ astral_rift.2520.name: "Alba Oscura"
+ astral_rift.2520.desc.common: "La §Y$tech_rift_sphere$§! ha iniziato ad attraversare l'atmosfera del pianeta, seguendo lo sguardo delle creature verso l'orizzonte. Presto, una foschia ha iniziato a coprire la superficie cinerea del pianeta. Nel cielo, una stella oscura stava sorgendo."
+ astral_rift.2520.desc.non_gestalt: "Il suo bagliore ipnotizzante era già su di noi, e mentre brillava eravamo rapiti dalla sua bellezza e dal suo misticismo. In questa magnifica oscurità, più a lungo guardavamo la stella, più chiara diventava la nostra ragione d'essere."
+ astral_rift.2520.desc.gestalt: "$astral_rift.2520.desc.common$\n\nLa radiazione peculiare della stella ha avuto un effetto anomalo sulle menti dei nostri [explorer.GetIndividualNamePlural]. Si sono discostati, ma per ora rimangono precariamente connessi."
+ astral_rift.2520.desc.organic_non_gestalt: "$astral_rift.2520.desc.common$\n\n$astral_rift.2520.desc.non_gestalt$ I raggi di questa stella oscura hanno mandato brividi di anticipazione attraverso i nostri corpi."
+ astral_rift.2520.desc.default: "$astral_rift.2520.desc.common$\n\n$astral_rift.2520.desc.non_gestalt$"
+ astral_rift.2520.a: "Continuate le vostre osservazioni."
+ astral_rift.2520.b: "Allontanatevi!"
+
+ astral_rift.2525.name: "Bio-Geologia"
+ astral_rift.2525.desc.common: "La creatura litoide che abbiamo esaminato si agitava se veniva allontanata dalla direzione dell'orizzonte che si stava schiarendo, ma per il resto era completamente arrendevole.\n\nLa forma di vita è alta circa mezzo metro ed estremamente densa, con la parte anteriore di una tonalità molto più chiara di grigio del suo dorso. I suoi due occhi sbiancati sono affondati nelle orbite e il suo esterno è caldo al tatto. Non hanno bocche visibili e devono ricevere il loro nutrimento con altri mezzi."
+ astral_rift.2525.desc.default: "$astral_rift.2525.desc.common$"
+ astral_rift.2525.desc.lithoid: "$astral_rift.2525.desc.common$\n\nUna specie primitiva, ma con caratteristiche interessanti e un profumo piacevole. Sarebbe un eccellente animale domestico."
+ astral_rift.2525.desc.unfriendly_nonlithoid: "$astral_rift.2525.desc.common$\n\nCome esperimento, abbiamo frantumato il campione in centinaia di piccoli pezzi davanti agli altri. Non c'è stata reazione discernibile."
+ astral_rift.2525.a: "Ritornate alla §Y$tech_rift_sphere$§!."
+ astral_rift.2525.b: "Preparatevi per il contatto."
+
+ astral_rift.2530.name: "Oscurità Prima dell'Alba"
+ astral_rift.2530.desc.common: "Le creature litoidi cominciarono a spostarsi sul posto mentre il cielo si faceva più profondo. La luce nera si scheggiava all'orizzonte."
+ astral_rift.2530.desc.default: "$astral_rift.2530.desc.common$\n\nUn freddo improvviso si impadronì del nostro accampamento. Immersi nella luce della stella oscura, sentivamo una sorta di vuoto, come se la nostra energia venisse sottratta. Abbiamo tutto il tempo per tornare alla §Y$tech_rift_sphere$§! prima dell'alba, ma nella squadra c'è una curiosità morbosa su ciò che questo fenomeno può offrirci dal punto di vista scientifico."
+ astral_rift.2530.desc.gestalt: "$astral_rift.2530.desc.common$\n\nLe linee di comunicazione interne sono cadute in poco tempo a causa di una potente vampata solare. Questo corpo celeste anomalo sta sottraendo energia dai nostri [explorer.GetIndividualNamePlural]! La valutazione iniziale è incerta, ma una tale fonte di energia unica richiede ulteriori studi."
+ astral_rift.2530.a: "Osservate la stella oscura."
+ astral_rift.2530.b: "Ritiratevi."
+
+ astral_rift.2535.name: "Luce Nera Accecante"
+ astral_rift.2535.desc.common.ordered_turn_away_gestalt: "I nostri [explorer.GetIndividualNamePlural] hanno ignorato la nostra direttiva e hanno continuato a fissare la stella."
+ astral_rift.2535.desc.default: "Abbiamo fissato la stella nella sua radiante infinità. La sua luce ha toccato le nostre menti e le nostre anime, illuminando e consumando tutto ciò che toccava. La Stella Oscura ha visto attraverso di noi, ci ha preso con tenerezza e ci ha allontanato dall'ignoranza. Ci è stata tolta la vista e in cambio ci sono stati concessi scopi e verità. Il percorso da percorrere è chiaro e la nostra sete di conoscenza è rivitalizzata."
+ astral_rift.2535.desc.machine: "La stella oscura ha trasmesso un messaggio.\n\nUn codice, un credo, un principio unificante: accettandolo, [Leader.GetName] è stato completamente riprogrammato. Di conseguenza, il collettivo stesso è stato alterato. Questa benigna intervenzione ci supporterà solo in avanti."
+ astral_rift.2535.desc.hive: "La stella oscura ha trasmesso un messaggio.\n\nUn codice, un credo, un pensiero travolgente: accettandolo, [Leader.GetName] è stato permanentemente alterato. Di conseguenza, la mente collettiva stessa è stata cambiata. Questo intervento benevolo ci aiuterà solo ad andare avanti."
+ astral_rift.2535.desc.ordered_turn_away_default: "Non osiamo allontanarci dalla gloriosa luce di questa stella nera.\n\n$astral_rift.2535.desc.default$"
+ astral_rift.2535.desc.ordered_turn_away_machine: "$astral_rift.2535.desc.common.ordered_turn_away_gestalt$\n\n$astral_rift.2535.desc.machine$"
+ astral_rift.2535.desc.ordered_turn_away_hive: "$astral_rift.2535.desc.common.ordered_turn_away_gestalt$\n\n$astral_rift.2535.desc.hive$"
+
+ astral_rift.2540.name: "Ulteriore Osservazione"
+ astral_rift.2540.desc.common: "Dispositivi di osservazione sono stati installati sulla superficie del pianeta. Le loro letture ci permetteranno di studiare in sicurezza la stella oscura e i suoi effetti nel tempo."
+ astral_rift.2540.desc.default: "La luce della stella oscura sembra quasi malevola. Anche durante la nostra ritirata, il tocco dei suoi raggi poteva essere avvertito attraverso lo scafo della §Y$tech_rift_sphere$§!, sottraendo energia dai nostri corpi come un veleno insidioso.\n\n$astral_rift.2530.desc.common$"
+ astral_rift.2540.desc.gestalt: "La luce di questo corpo celeste anomalo era immensamente potente. I suoi raggi oscuri penetravano lo scafo della §Y$tech_rift_sphere$§!, infliggendo danni interni minori ai nostri [explorer.GetIndividualNamePlural].\n\n$astral_rift.2530.desc.common$"
+
+#######################
+# Colonization Drones #
+#######################
+ astral_rift_cleaning_drones: "Terreno Pulito Chimicamente"
+
+ edict_automated_disinfection: "Disinfezione Automatica"
+ edict_automated_disinfection_desc: "I droni pulitori che abbiamo scoperto in una delle nostre visite oltre una Frattura Astrale ci hanno illuminato sui metodi più efficienti di sanificazione che coinvolgono flotte di robot autonomi.\n"
+
+ colonization_drones_modifier: "Droni di Colonizzazione"
+ colonization_drones_tt: "I droni di colonizzazione identificano e categorizzano la flora e la fauna nei nostri pianeti, fornendo informazioni biologiche approfondite.\n\nOttieni ulteriore £society_research£ §Y$society_research$§! quando rimuovi i seguenti ostacoli:\n - $d_dangerous_wildlife_blocker$\n - $d_dense_jungle$\n - $d_noxious_swamp$\n - $d_toxic_kelp$\n - $d_poisonous_algae$\n - $d_venomous_insects$"
+ colonization_drones_modifier_wilderness: "$colonization_drones_modifier$"
+
+ leader_trait_sanitary_drone: "Drone Assistente Sanitario"
+ leader_trait_sanitary_drone_desc: "Questo leader ha imparato a pulire bene."
+
+
+ astral_rift.2600.name: "Chimicamente Purificato"
+ astral_rift.2600.desc: "L'atmosfera di questo pianeta contiene una quantità stupefacente di agenti antibatterici.\n\nI sensori indicano zero segni di vita organica nelle vicinanze immediate. Anche a livello microscopico, sono stati chimicamente rimossi. C'è una debole lettura biologica emanata da una caverna lontana, ma da questa distanza è impossibile qualificarla.\n\nDiversi gruppi di robot sono stati avvistati pattugliare i cieli. Finora non hanno reagito alla nostra presenza."
+ astral_rift.2600.a: "Indagate sui robot."
+ astral_rift.2600.b: "Esplorate la caverna."
+
+ astral_rift.2605.name: "Incontro con i Droni"
+ astral_rift.2605.desc: "Abbiamo indagato su un piccolo gruppo di droni che pattugliavano i cieli. Queste scintillanti sfere metalliche hanno un proiettore olografico frontale e un sistema di propulsori direzionali per mantenere velocità e altitudine.\n\nAbbiamo mantenuto una distanza di sicurezza durante l'avvicinamento, ma i droni hanno reagito alla nostra presenza comunque. Quattro di loro si sono staccati dal gruppo e hanno cambiato traiettoria per venirci incontro, anche se a un ritmo piuttosto lento. Non abbiamo attivato l'allarme, ma le capacità dei droni in avvicinamento non sono note."
+ astral_rift.2605.a: "Permettete ai droni di avvicinarsi."
+ astral_rift.2605.b: "Disabilitateli."
+
+ astral_rift.2610.name: "Segni di Vita"
+ astral_rift.2610.desc: "La grotta ha un'atmosfera marcatamente diversa rispetto al resto del pianeta. Le pareti interne sono coperte di muschio e il terreno è umido e ricco di materiale organico. I resti disseccati di una creatura aviana giacciono in un'alcova appartata. Supponiamo che la creatura fosse intelligente in base alla sua attrezzatura e ai suoi effetti personali. Dato che il resto del pianeta è privo di materiale biologico, vivo o morto, questo cadavere e la vita vegetale circostante spiccano come un'anomalia.\n\nInfilzato su una stalattite, abbiamo scoperto un drone. Pur essendo ancora operativo, non è in grado di muoversi. Il drone è chiaramente progettato per distribuire una soluzione chimica sconosciuta in grandi quantità. Molti dei componenti interni della macchina rimangono intatti e potrebbero essere facilmente riparati."
+ astral_rift.2610.a: "Effettuate l'autopsia del cadavere aviano."
+ astral_rift.2610.b: "Riattivate il drone."
+
+ astral_rift.2615.name: "Colpo Pulito"
+ astral_rift.2615.desc: "I quattro droni si sono avvicinati lentamente alla §Y$tech_rift_sphere$§! ed hanno esaminato la sua superficie. Uno dei droni ha armato il suo braccio destro, preparandosi a sparare.\n\nPrima che potessimo reagire, il drone ha spruzzato schiuma compressa su una sezione della Sfera. Dal braccio sinistro ha mostrato un arto con un attacco morbido ma resistente e ha iniziato a rimuovere detriti e polvere dal nostro scafo. Gli altri droni hanno subito seguito l'esempio.\n\nMentre la pulizia procedeva, uno dei droni si è fermato e ha spostato l'attacco del suo attacco su un tampone morbido. Con un forte segnale acustico, raccolse un campione e si allontanò. Dopo un'ulteriore pulizia, i tre droni rimasti sono ripartiti nella stessa direzione."
+ astral_rift.2615.a: "Seguite i droni."
+
+ astral_rift.2620.name: "Droni Disabilitati"
+ astral_rift.2620.desc: "Come precauzione di sicurezza, abbiamo rilasciato un impulso elettromagnetico a breve raggio nei pressi dei droni in pattuglia. Disattivandosi immediatamente, sono precipitati dal cielo, schiantandosi sul suolo sottostante.\n\nPotenti soluzioni chimiche hanno cominciato a fuoriuscire dai loro relitti, e un segnale di soccorso ha iniziato ad essere trasmesso. Se riteniamo di essere al sicuro, possiamo seguire il segnale di soccorso verso la sua destinazione."
+ astral_rift.2620.a: "Seguite il segnale di soccorso."
+ astral_rift.2620.b: "Fuggite prima che arrivino potenziali rinforzi."
+
+ astral_rift.2625.name: "Autopsia Aviana"
+ astral_rift.2625.desc: "L'autopsia non ha rivelato ferite gravi interne o esterne. La creatura possedeva tutte le caratteristiche tipiche di una specie aviana: ossa cave, artigli rivestiti di cheratina ed evidenze di una piumatura completa. La causa più probabile della morte è stata la malnutrizione.\n\nL'analisi del DNA ha indicato che questa specie ha (o aveva) un sistema immunitario naturalmente debole. Stranamente, il corpo conteneva anche depositi intrappolati di soluzione antibatterica."
+ astral_rift.2625.a: "Riattivate il drone."
+ astral_rift.2625.b: "Cosa è successo qui?"
+ astral_rift.2625.b.evopred: "Recupera l'aviaria e determina cosa è successo qui."
+
+ astral_rift.2630.name: "Drone Riparato"
+ astral_rift.2630.desc: "Con la squadra di ricerca armata e pronta, abbiamo liberato il drone dalla stalattite. Ha iniziato rapidamente a librarsi in posizione utilizzando un compatto sistema di propulsori direzionali. Con uno getto deciso, il drone ha spruzzato schiuma compressa su tutto la squadra. Dal suo braccio sinistro, ha mostrato un attacco morbido ma allo stesso tempo resistente e ha proceduto a strofinarci fino a renderci puliti. La squadra lo ha permesso, poiché il drone chiaramente non intendeva fare del male.\n\nAll'improvviso il drone si è fermato. Il suo arto per la pulizia è stato sostituito da un bastoncino delicato, che ha usato per raccogliere un campione di sporco. Il suo proiettore olografico ha mostrato un'interfaccia visiva semplice.\n\nLo sporco è stato analizzato e categorizzato dal drone come un nuovo obiettivo per la pulizia. Sembra che abbiamo introdotto un materiale estraneo nel suo ambiente."
+ astral_rift.2630.a: "Esaminate il cadavere aviano."
+ astral_rift.2630.b: "Cosa è successo qui?"
+
+ astral_rift.2635.name: "Segni del Creatore"
+ astral_rift.2635.desc: "Abbiamo seguito il percorso dei droni fino a una struttura avanzata. Eretto verso il paesaggio sterile, l'edificio era circondato da droni, ognuno che ronzava in varie zone per completare i loro compiti.\n\nAl centro della struttura c'era un nexus di attrezzature scientifiche e terminali di ricerca. Stranamente, mentre la maggior parte delle operazioni era completamente automatizzata, questa zona sembrava progettata per la ricerca manuale; compiti da essere completati da una vita senziente anziché da droni."
+ astral_rift.2635.a: "Esplorate il laboratorio."
+
+ astral_rift.2640.name: "Ipotesi Igieniche"
+ astral_rift.2640.desc: "La conclusione è una sola: questi aviani si sono accidentalmente portati all'estinzione attraverso una campagna a lungo termine di igienizzazione eccessiva. Essendo una specie con un sistema immunitario naturalmente debole, hanno creato dei droni pulitori per disinfettare gli spazi pubblici e privati al fine di ridurre la diffusione delle malattie.\n\nTuttavia, considerando lo stato attuale del pianeta, possiamo presumere che i droni di pulizia abbiano esagerato con lo sterminio della vita nativa, provocando la distruzione della biodiversità organica. In parole povere, la popolazione è morta di fame. Mentre i corpi si decomponevano, i droni hanno cancellato ogni traccia della loro esistenza. Per quanto riguarda i resti nella grotta, la presenza di un drone funzionante nell'area ha probabilmente distolto gli altri per motivi di efficienza, lasciando intatta la vita vegetale. La creatura aviaria deve aver sfruttato questa funzionalità di programmazione per sopravvivere. Sfortunatamente, la scarsa vegetazione della grotta non è stata sufficiente a sostenerla a lungo."
+ astral_rift.2640.a: "Riutilizzate la tecnologia del drone."
+ astral_rift.2640.b: "Progettate un virus per disabilitare la rete di sanitaria."
+ astral_rift.2640.c: "Tenete questo drone come assistente di ricerca personale."
+
+ astral_rift.2645.name: "Storia Pulita"
+ astral_rift.2645.desc.common_1: "Questo laboratorio è stato lasciato intatto per anni. A differenza del resto del pianeta, è coperto di polvere e sporco. Le informazioni ottenute dai monitor accesi confermano che i droni sono dispositivi di pulizia completamente autonomi. Sono incaricati di pattugliare un'area designata, sterilizzarla e tornare alla struttura quando sono scarichi di energia o di prodotti chimici. Alimentati da una varietà di fonti di energia rinnovabile, il loro fluido detergente è riciclato dal vapore atmosferico e dalle acque sotterranee, creando una rete autosufficiente che può funzionare quasi all'infinito."
+ astral_rift.2645.desc.common_2: "Ipotizziamo che i creatori dei droni di pulizia autonomi abbiano lasciato il pianeta o si siano estinti. Ogni traccia biologica della loro esistenza è stata cancellata."
+ astral_rift.2645.desc: "$astral_rift.2645.desc.common_1$\n\n$astral_rift.2645.desc.common_2$"
+ astral_rift.2645.desc.clean: "$astral_rift.2645.desc.common_1$\n\nIl drone che ha campionato il nostro scafo fluttua da solo nel laboratorio con il suo proiettore olografico acceso, mostrando un'interfaccia visiva semplice. La sostanza che ha rimosso dalla §Y$tech_rift_sphere$§! è già stata analizzata e categorizzata come nuovo obiettivo di pulizia.\n\n$astral_rift.2645.desc.common_2$"
+ astral_rift.2645.a: "Documentate e studiate l'infrastruttura sanitaria."
+ astral_rift.2645.b: "Spegnete la Struttura."
+
+ astral_rift.2650.name: "Disinfezione Automatizzata"
+ astral_rift.2650.desc: "Abbiamo annotato i vari punti di forza e le innovazioni tecnologiche presenti nella struttura automatizzata, l'intenzione è di ottenere dei miglioramenti dei servizi sanitari e nella gestione dei droni sui nostri pianeti.\n\nDovremmo essere in grado di introdurre nella nostra attuale superiore infrastruttura un regime di pulizia simile."
+ astral_rift.2650.desc.default: "$astral_rift.2650.desc$"
+ astral_rift.2650.desc.gestalt: "$astral_rift.2650.desc$\n\nInoltre, lo studio degli sforzi compiuti a livello planetario da questa specie ha migliorato la nostra comprensione di come le singole menti siano in grado di collaborare con efficacia."
+ astral_rift.2650.tooltip: "Permette l'accesso all'Editto Imperiale §Y$edict_automated_disinfection$§!."
+
+ astral_rift.2655.name: "Spegnere la Struttura"
+ astral_rift.2655.desc.common_1: "Siamo riusciti a spegnere in sicurezza l'impianto di sanificazione automatizzato e a richiamare tutti i suoi droni. Tutto è stato lasciato in piena efficienza nel caso ritornassero gli abitanti nativi."
+ astral_rift.2655.desc.common_2: "Comunque, siamo riusciti a raccogliere una quantità significativa di energia dai depositi di energia dell'impianto."
+ astral_rift.2655.desc.default: "$astral_rift.2655.desc.common_1$\n\n$astral_rift.2655.desc.common_2$"
+ astral_rift.2655.desc.xenophile: "$astral_rift.2655.desc.common_1$ Altrimenti, a beneficio degli archeologi.\n\n$astral_rift.2655.desc.common_2$"
+ astral_rift.2655.desc.unfriendly: "Abbiamo spento a casaccio i sistemi all'interno della struttura di sanificazione automatizzata finché la rete di droni non è stata disattivata. Abbiamo svuotato fino all'ultimo generatore, accumulatore di energia e batteria ausiliaria, raccogliendo una quantità significativa di energia."
+
+ astral_rift.2660.name: "Una Fuga Pulita"
+ astral_rift.2660.desc: "Di fronte al pericolo che un numero enorme di questi droni autonomi ci potesse travolgere, abbiamo deciso di scongiurare qualsiasi possibilità di innalzamento del livello di rischio. Inoltre, il pianeta sterile sembrerebbe offrire poche possibilità di ricerca. Siamo comunque riusciti a raccogliere alcune risorse dai droni distrutti prima di partire."
+
+ astral_rift.2665.name: "Riutilizzare il Drone"
+ astral_rift.2665.desc: "Il drone sanificatore che abbiamo recuperato può essere modificato per facilitare i nostri sforzi di colonizzazione. Può essere riutilizzato al fine di catalogare le peculiarità della flora e della fauna autoctone e quindi aiutare i nostri coloni a familiarizzare con il terreno delle nuove frontiere."
+
+ astral_rift.2670.name: "Ironia Virale"
+ astral_rift.2670.desc: "Abbiamo creato un potente virus informatico e lo abbiamo caricato nella rete del drone di pulizia riparato. Una volta che il drone sarà tornato alla base, il virus dovrebbe diffondersi e rendere inattiva l'infrastruttura di sanificazione. Forse questo pianeta potrà riprendersi dalla sterilizzazione chimica a cui è stato sottoposto e una nuova vita si evolverà da questa grotta isolata."
+
+ astral_rift.2675.name: "Mai Soli con un Drone"
+ astral_rift.2675.desc: "Dopo alcuni piccoli aggiustamenti, questo drone sanitario ricondizionato sarà un eccellente assistente di ricerca. Grazie alla capacità di raccogliere campioni biologici, di eseguire compiti ad elevata manualià e di volare autonomamente, ha un grande potenziale come membro della nostra squadra di ricerca.\n\nAbbiamo scollegato il drone dalla sua rete e installato nuove funzioni per integrare le sue capacità esistenti. Continueremo a monitorare le sue prestazioni mentre lavora al fianco di [explorer.GetName]."
+
+####################
+# Windswept Planet #
+####################
+ astral_rift_windswept_planet: "Pianeta dei Venti Eterni"
+
+ extra_dimensional_spores_modifier: "Spore Extra-Dimensionali"
+ reconverted_leader_modifier: "Leader Riconvertito"
+ reconverted_leader_modifier_desc: "Uno dei nostri scienziati possiede un'insolita attitudine alla diplomazia e ha lasciato le sue precedenti attività per diventare un §YEmissario§!.\n\nCi assicureremo che le sue particolari competenze vengano utilizzate al meglio."
+
+ decision_incubate_wind_creatures: "Incubare Creature del Vento"
+ decision_incubate_wind_creatures_desc: "Introduce nell'atmosfera del pianeta una specie di pacifiche creature eoliche."
+ d_forceful_winds: "$decision_incubate_wind_creatures$"
+ d_forceful_winds_desc: "$decision_incubate_wind_creatures_desc$"
+ can_incubate_wind_creatures_tt: "Sblocca tre decisioni planetarie §Y$decision_incubate_wind_creatures$§!."
+
+ forceful_winds: "Venti Impetuosi"
+ forceful_winds_desc: "L'atmosfera di questo pianeta è popolata da creature del vento senzienti e che vivono in armonia con noi."
+
+ astral_rift.2700.name: "Il Pianeta dei Venti Eterni"
+ astral_rift.2700.desc: "Siamo arrivati su un pianeta battuto da venti impetuosi e ad alta velocità. La superficie è quasi nuda, con scogliere e massi levigati dagli agenti atmosferici.\n\nIl cielo è oscurato da nubi temporalesche e pennacchi di gas luminosi eruttano violentemente quando i fulmini colpiscono il terreno intorno a noi.\n\nDovremmo cercare rapidamente un riparo dalla tempesta in arrivo. I sensori meteorologici ci indicano nell'alta stratosfera correnti d'aria più moderate, dove potremmo evitare le pericolose scariche elettriche. In alternativa, nelle vicinanze c'è una grande caverna che potrebbe fornire un rifugio."
+ astral_rift.2700.a: "Alzatevi al di sopra della tempesta."
+ astral_rift.2700.b: "Rifugiatevi nella grotta sottostante."
+
+ astral_rift.2705.name: "Oltre la Stratosfera"
+ astral_rift.2705.desc: "Superato lo strato di nuvole, si ammira un cielo di un azzurro intenso. Il vento continua a sferzare il nostro scafo, acquistando forza a ogni raffica.\n\nPiù che rispondere ad un modello meteorologico, queste correnti colpiscono con una precisione che pare innaturale. In più, abbiamo rilevato nell'aria vorticosa un composto simile a un ormone. Un'analisi accurata ha rivelato che è sorprendentemente simile alla risposta biologica di una pianta sotto attacco."
+ astral_rift.2705.a: "Prelevate un campione di vento."
+
+ astral_rift.2710.name: "Caverna Fungina"
+ astral_rift.2710.desc: "Calandoci attraverso l'implacabile torrente di vento, ci siamo inoltrati tra spesse nubi sulfuree fatte di spore fino ad entrare in una grotta protetta dalle intemperie.\n\nDopo aver attraversato degli angusti passaggi, siamo giunti in un'enorme camera dal soffitto altissimo. Spesse stalattiti gocciolano un liquido torbido su un terreno ingiallito, ricoperto da un fungo giallo. Tra i grappoli di funghi, colonie di insetti strisciano alacremente sul terreno umido e nella penombra cresce una pallida vegetazione. Il muschio ricopre le pareti scoscese e una fitta nebbia di spore è sospesa nell'aria stagnante.\n\nAll'interno della grotta abbiamo rilevato un debole campo elettrico; una rete di impulsi e sinapsi sembra collegare i vari ammassi fungini. Forse posstremmo collegarci a questa rete e comunicare con i funghi."
+ astral_rift.2710.a: "Provate a comunicare."
+
+ astral_rift.2715.name: "Vento Vivente"
+ astral_rift.2715.desc: "Il nostro campione ha confermato la presenza di microrganismi all'interno del vento.\n\nAl fine di sperimentare, abbiamo sintetizzato un ormone simile e lo abbiamo rilasciato nell'atmosfera circostante. Improvvisamente, i venti brutali si sono trasformati in una corrente molto più dolce.\n\nUlteriori analisi del campione hanno rivelato che, in gruppi sufficientemente grandi, questi microrganismi costituiscono un'unica mente. Operando insieme, sono in grado di generare raffiche di vento "vive".\n\nAlcune di queste correnti trasportano filamenti di materiale genetico simili a capelli. Catturati dalla stessa corrente, siamo stati spinti verso la superficie, dove la tempesta si è ormai placata."
+ astral_rift.2715.a: "Seguite il vento vivente."
+
+ astral_rift.2720.name: "Tra i Funghi"
+ astral_rift.2720.desc: "Collegandoci alle sinapsi miceliali della rete, abbiamo emesso un breve impulso elettrico; tutti i cappelli dei funghi si sono irrigiditi all'improvviso, spiazzati dall'individuare un nuovo soggetto nella loro rete. Abbiamo ricevuto una frenesia di segnali in risposta, ma alla fine siamo riusciti a decifrare la trasmissione dei funghi.\n\nL'organismo è una mente alveare che si considera custode delle specie native del pianeta. Sotto la superficie, ogni sorta di flora e fauna è preservata e protetta dagli ammassi micelici. In cambio, il fungo riceve i loro rifiuti come nutrimento.\n\nL'organismo è una mente alveare che si considera custode delle specie native del pianeta. Sotto la superficie, ogni sorta di flora e fauna è preservata e protetta dagli ammassi micelici. In cambio, il fungo consuma i loro rifiuti come nutrimento.\n\nTuttavia, esiste una minaccia per questa relazione simbiotica e per la sopravvivenza del fungo stesso."
+ astral_rift.2720.a: "Mantenete la relazione fungina."
+
+ astral_rift.2725.name: "Minaccia Fungina"
+ astral_rift.2725.desc: "Abbiamo raggiunto la superficie del pianeta su cui aleggiava uno spesso strato di nuvole gialle. Mentre il territorio pianeggiante è per lo più spoglio, ogni cavità e fessura nascosta ospita ammassi di funghi che emettono spore.\n\nLe correnti d'aria che abbiamo seguito fin quì soffiano sul paesaggio, liberando fasci di uova della loro progenie. Queste galleggiano adagiandosi sulla superficie, dove la maggior parte viene rapidamente disintegrata dalla coltre di spore fungine.\n\nLe piccole uova che sopravvono si attaccano al nudo terreno formando un'escrescenza conica che diventa un habitat protetto al fine di permettere la maturazione dei microrganismi trasportati dal vento.\n\nÈ chiaro che le spore fungine ostacolano la riproduzione delle creature del vento. A loro volta, le creature del vento hanno eroso la superficie del pianeta, costringendo i funghi a ritirarsi negli anfratti più riparati."
+ astral_rift.2725.a: "Trovate un modo per rimuovere il fungo."
+ astral_rift.2725.b: "Indagate sul fungo."
+
+ astral_rift.2730.name: "Venti Carnivori"
+ astral_rift.2730.desc: "I funghi ci hanno indirizzato verso l'ingresso della grotta, dove la tempesta si è oramai placata. Osseviamo un piccolo rettile che esita sulla soglia prima di uscire e inoltrarsi verso gli spazi aperti. Quasi immediatamente, una folata di vento tagliente solleva il rettile in aria.\n\nNon abbiamo potuto altro che fare che osservare come questi veniva affettato in pezzi sempre più piccoli, per poi essere digerito dagli enzimi presenti nell'aria.\n\nAl di fuori del rifugio preservato dai funghi, la vita in superficie è alla mercé del vento carnivoro. Data la sua brutale rapidità e reattività, è lecito supporre che il vento sia in qualche modo un essere senziente.\n\nEd affamato."
+ astral_rift.2730.a: "Proteggete l'ecosistema dal vento."
+ astral_rift.2730.b: "Studiate il vento."
+
+ astral_rift.2735.name: "Trasmissione Fungina"
+ astral_rift.2735.desc: "Viaggiando lungo la superficie del pianeta, ci siamo avvicinati a un ammasso di funghi che emettono spore. Un campione di tessuto ha rivelato che si tratta di una mente alveare altamente complessa. Trasmettendo rapidi impulsi elettrici tra i nodi, comunica attraverso una intricata rete.\n\nCollegandoci alle sinapsi miceliali della rete, abbiamo emesso un breve impulso elettrico; tutti i cappelli dei funghi si sono irrigiditi all'improvviso, spiazzati dall'individuare un nuovo soggetto nella loro rete. Abbiamo ricevuto una frenesia di segnali in risposta, il cui significato rimane poco chiaro."
+ astral_rift.2735.a: "Decifrate la trasmissione fungina."
+
+ astral_rift.2740.name: "Eventi in Corso"
+ astral_rift.2740.desc: "Dopo essere usciti dalla grotta, abbiamo misurato le forti raffiche di vento che circondavano la nostra nave. Abbiamo rilevato un composto ormonale nell'aria circostante e lo abbiamo analizzato.\n\nGli ormoni sono simili a quelli rilasciati da alcune piante quando minacciate. Abbiamo anche confermato la presenza di una specie di microrganismo, che ipotizziamo, controlli il vento. Come esperimento, abbiamo sintetizzato un ormone simile e lo abbiamo rilasciato nell'atmosfera."
+ astral_rift.2740.a: "Proseguite nell'indagine."
+
+ astral_rift.2745.name: "A Favore dei Funghi"
+ astral_rift.2745.desc.common: "Dopo aver decifrato la trasmissione dei funghi, è ora chiaro che le creature del vento stanno distruggendo l'ecosistema del pianeta. Quando il vento vivente perlustra la superficie in cerca di cibo, sradica la biodiversità su cui il fungo fa affidamento per sopravvivere.\n\nI funghi ci hanno condotti in una grotta sotterranea dove centinaia di specie di piante, animali e insetti si sono riparati dai venti impetuosi."
+ astral_rift.2745.desc.common.friendly: "Le due parti in lotta si trovano in un'impasse che abbiamo la possibilità di superare."
+ astral_rift.2745.desc.common.unfriendly: "Forse possiamo trarre vantaggio da queste semplici forme di vita e risolvere nel contempo il loro conflitto."
+ astral_rift.2745.desc.default: "$astral_rift.2745.desc.common$\n\n$astral_rift.2745.desc.common.friendly$"
+ astral_rift.2745.desc.unfriendly: "$astral_rift.2745.desc.common$\n\n$astral_rift.2745.desc.common.unfriendly$"
+ astral_rift.2745.a: "Appoggiate il vento."
+ astral_rift.2745.b: "Nutrite i funghi."
+ astral_rift.2745.c: "Negoziate un compromesso."
+ astral_rift.2745.d: "Eradicate entrambe le specie."
+
+ astral_rift.2750.name: "A Favore del Vento"
+ astral_rift.2750.desc.common: "I venti impetuosi si sono placati poco dopo il rilasciato dell'ormone da parte nostra.\n\nUna leggera brezza è passata sopra la nostra nave, liberando un fascio delle loro uova sospese nell'aria. Queste galleggiano adagiandosi sulla superficie, dove la maggior parte viene rapidamente disintegrata dalla coltre di spore fungine.\n\nLe piccole uova che sopravvono si attacano al nudo terreno formando un'escrescenza conica che diventa un habitat protetto al fine di permettere la maturazione dei microrganismi trasportati dal vento.\n\nAbbiamo desunto che il vento ci stava dimostrando come i funghi stiano cercando di ostacolare i loro processi riproduttivi."
+ astral_rift.2750.desc.default: "$astral_rift.2750.desc.common$\n\n$astral_rift.2745.desc.common.friendly$"
+ astral_rift.2750.desc.unfriendly: "$astral_rift.2750.desc.common$\n\n$astral_rift.2745.desc.common.unfriendly$"
+ astral_rift.2750.a: "$astral_rift.2745.b$"
+ astral_rift.2750.b: "$astral_rift.2745.a$"
+ astral_rift.2750.c: "$astral_rift.2745.c$"
+ astral_rift.2750.d: "$astral_rift.2745.d$"
+
+ astral_rift.2755.name: "Venti Taglienti"
+ astral_rift.2755.desc: "Abbiamo cosparso le creature del vento con una grande quantità di limatura di legaa metallica. Questo abrasivo è abbastanza leggero da poter essere trasportato dalle correnti, ma abbastanza forte da erodere velocemente le cose in cui viene a contatto.\n\nUn gruppo di correnti d'aria ha sfruttato questa limatura per sminuzzare un gruppo di funghi gialli che si nascondeva in una fessura vicina.\n\nLe creature del vento hanno disperso e fatto cirtcolare la limatura metallica in modo più ampio. I venti taglienti hanno ripetutamente colpito la superficie del pianeta, mirando alle colonie fungine, che a loro volta sparavano spore in un bombardamento coordinato.\n\nIn quello che forse è stato un gesto di gratitudine, una brezza gentile ci ha consegnato un fascio delle sue uova irsute e galleggianti. Con queste, potremo creare il nostro "vento vivente", creando correnti d'aria ad alta velocità per un gruppo selezionato delle nostre colonie."
+ astral_rift.2755.b.evopred: "Torna con il materiale fungino."
+
+ astral_rift.2760.name: "Fioritura Fungina"
+ astral_rift.2760.desc: "Abbiamo distribuito una grande quantità di nutrienti minerali sulla superficie del pianeta e abbiamo introdotto nel terreno rinvigorito nuove piante resistenti al vento. I funghi sono stati così in grado di diffondere un'enorme quantità di spore sul terreno appena fertilizzato.\n\nGli ammassi fungini esistenti stanno già crescendo in dimensioni e capacità di resistenza. Con il tempo, il fungo dovrebbe insinuarsi lungo l'intera superficie del pianeta, eliminando le propagaggini del vento.\n\nCon i suoi nodi colmi di nuova forza, il fungo ci trasmette un messaggio di gratitudine lungo la sua rete miceliare.\n\nUn esemplare fungino mai visto prima è spuntato dal terreno in prossimità della nostra posizione. Le sue cavità bulbose sono rigonfie di alte concentrazioni di gas esotici. Siamo fiduciosi che la coltivazione di queste "vescia" ci aiuteranno nella produzione di questa preziosa risorsa."
+ astral_rift.2760.b.evopred: "Torna con il materiale aviario."
+
+ astral_rift.2765.name: "Un Difficile Compromesso"
+ astral_rift.2765.desc: "Le estreme differenze nel modo di comunicare tra i funghi e le creature del vento hanno fatto nascere una confronto arduo e complesso. Tuttavia, abbiamo raggiunto un accordo tra le due specie.\n\nFinché non disturberanno gli ammassi di spore esistenti, le creature del vento avranno il diritto di cacciare e riprodursi su porzioni designate della superficie del pianeta. Nel frattempo, alla mente alveare fungina è stata concessa una parte uguale del territorio dove poter diffondere le proprie spore senza paura, ospitando la miriade di altre specie sotto la loro rete di protezione.\n\nCon questo accordo, l'ecosistema unico di questo pianeta ha una nuova opportunità di prosperare. Abbiamo installato dei satelliti di osservazione per tenere d'occhio i suoi progressi da oltre la frattura."
+ astral_rift.2765.b.evopred: "Raccogli un campione di questo ecosistema."
+
+ astral_rift.2770.name: "Eradicazione Biologica"
+ astral_rift.2770.desc: "Questa disputa tra queste specie [Explorer.GetPreFTLLower] è diventata stancante.\n\nAbbiamo sintetizzato un potente acido e lo abbiamo aerosolizzato nell'atmosfera del pianeta. Quando l'agente caustico si è diffuso, le creature del vento si sono dissolte in polvere e i funghi si sono avvizziti e anneriti. Siamo riusciti a diffondere questi composti sintetizzati nell'atmosfera del pianeta al fine di ottenere un effetto a cascata in tutto il mondo.\n\nDopo aver confermato che il pianeta era stato completamente sterilizzato, lo abbiamo ripulito da tutto il materiale che ci potesse essere utile."
+ astral_rift.2770.a: "Ben fatto."
+ astral_rift.2770.b.evopred: "Un grande raccolto."
+
+ astral_rift.2790.name: "Una Richiesta Speciale"
+ astral_rift.2790.desc: "Il leader [this.GetName], che ha recentemente mediato un complesso accordo sul lato opposto della frattura che stavamo studiando nel sistema [from.solar_system.GetName], ha chiesto un cambio di impiego. Dopo aver affrontato un processo di arbitrato così difficile, ha scoperto di avere una passione per la negoziazione. Se lo permetessimo, lascerebbe il mondo scientifico per diventare un emissario permanente nella nostra infrastruttura diplomatica."
+ astral_rift.2790.a: "Molto bene."
+ astral_rift.2790.a.tt: "[This.GetName] passa da essere uno §HScienziato§! ad un §HInvasato§!."
+ astral_rift.2790.b: "Uno scienziato ha più valore."
+
+###############
+# Tiny Planet #
+###############
+ astral_rift_tiny_planet: "Pianeta Minuscolo"
+
+ decision_tidal_lock_planet: "Blocco Intenzionale delle Maree"
+ decision_tidal_lock_planet_desc: "Manipola i corpi orbitanti locali per arrestare la rotazione sul proprio asse del pianeta ."
+ decision_tidal_lock_planet_tt: "§HSblocca la Decisione:§! §Y$d_dayside_farm$§! su questo [this.GetPlanetMoon]."
+
+ decision_display_microplanet_husk: "Mostra il Guscio del Micropianeta"
+ decision_display_microplanet_husk_desc: "Mostra la superficie desolata di un micropianeta carbonizzato per ispirare ordine e obbedienza alla popolazione locale."
+ d_microplanet_memorial: "Memoriale del Micropianeta"
+ d_microplanet_memorial_desc: "Questo lugubre monumento ricorda alla popolazione la nostra capacità di essere crudeli di fronte alla dissidenza."
+
+ astral_rift.2800.name: "È un Piccolo Pianeta"
+ astral_rift.2800.desc: "Siamo arrivati in un sistema stellare con proprietà gravitazionali particolari. I corpi celesti che viaggiano in questo spazio hanno un'attrazione gravitazionale molto più forte rispetto alle loro dimensioni rispetto alla nostra realtà.\n\nI sensori rilevano quattro corpi celesti di dimensioni estremamente ridotte in questo sistema, uno dei quali è popolato da una società non ancora del tutto sviluppata. Un mondo continentale abitato da una specie di anfibi semi-acquatici, del tutto tipico, a parte il fatto che l'intero pianeta ha all'incirca le dimensioni della nostra §Y$tech_rift_sphere$§!.\n\nQuesta specie intelligente estremamente piccola e il suo pianeta natale offre una serie di potenziali opportunità di ricerca."
+ astral_rift.2800.a: "Avvicinarsi al minuscolo pianeta."
+
+ astral_rift.2805.name: "Impatto Lunare"
+ astral_rift.2805.desc: "Dato che il minuscolo pianeta è di dimensioni paragonabili alla nostra nave, siamo stati accorti a non avvicinarci troppo, temendo di influenzarlo con la nostra attrazione gravitazionale.\n\nTuttavia, non abbiamo tenuto conto della traiettoria della luna del pianeta. Nel giro di pochi istanti si è verificata una collisione e la luna è stata scaraventata nello spazio.\n\nConsiderato l'effetto che un satellite naturale ha sull'ecosistema di un pianeta, ci aspettiamo gravi ripercussioni per la specie $unenlightened$."
+ astral_rift.2805.a: "Un clamoroso errore di valutazione."
+
+ astral_rift.2810.name: "Un PIccolo Problema"
+ astral_rift.2810.desc.common.1: "La specie $unenlightened$ del minuscolo pianeta ha avvertito la nostra presenza. Date le dimensioni relative della nostra nave, staaremo dominando la vista dalla maggior parte dei loro orizzonti.\n\nSecondo i segnali radio locali, hanno anche notato che l'orbita della loro luna si è allontanata, causando un panico diffuso. Le pericolose ondate di marea hanno causato una significativa perdita di vite tra la specie $unenlightened$."
+ astral_rift.2810.desc.common.2: "In alternativa, possiamo continuare a osservare da lontano per non sconvolgere ulteriormente la loro civiltà."
+ astral_rift.2810.desc.common.3: "In alternativa, possiamo continuare a osservare la distruzione da lontano e a documentare il disastro per i posteri."
+ astral_rift.2810.desc.default: "$astral_rift.2810.desc.common.1$\n\nSe lo riteniamo opportuno, possiamo tentare di comunicare con questa società.\n\n$astral_rift.2810.desc.common.2$"
+ astral_rift.2810.desc.barbaric_despoilers: "$astral_rift.2810.desc.common.1$\n\nStabilire una linea di comunicazione con questa società ci potrebbe offrire l'opportunità di chiedere un riscatto.\n\n$astral_rift.2810.desc.common.3$"
+ astral_rift.2810.desc.homicidal: "$astral_rift.2810.desc.common.1$\n\nSiamo in grado di intercettare le loro comunicazioni e di inviare qualsiasi comunicazione desideriamo.\n\n$astral_rift.2810.desc.common.3$"
+ astral_rift.2810.a: "Stabilite un contatto."
+ astral_rift.2810.b: "Osservate passivamente."
+ astral_rift.2810.c: "Chiedete un riscatto."
+ astral_rift.2810.d: "Informateli che il loro destino è arrivato."
+ astral_rift.2810.e: "Guardiamo la distruzione in corso."
+
+ astral_rift.2815.name: "Comunicazione Stabilita"
+ astral_rift.2815.desc.common: "Dopo una stentata conversazione con la specie $unenlightened$ utilizzando la nostra limitata capacità di traduzione, sappiamo che la loro leadership è tra il terrorizzato e lo stupito per la nostra presenza. Non sembriamo essere i benvenuti."
+ astral_rift.2815.desc.outro: "La barriera linguistica ci impedisce un percorso diplomatico complesso, ma dobbiamo scegliere una linea d'azione appropriata."
+ astral_rift.2815.desc.default: "$astral_rift.2815.desc.common$\n\nChe faccia tosta questi alieni... Forse dovremmo fare qualcosa per giustificare la loro paura."
+ astral_rift.2815.desc.xenophile: "$astral_rift.2815.desc.common$\n\nAnche se non sono consapevoli che siamo noi la causa della loro attuale situazione, ci deve essere qualcosa che possiamo fare per riparare al nostro errore.\n\n$astral_rift.2815.desc.outro$"
+ astral_rift.2815.desc.pacifist: "$astral_rift.2815.desc.common$\n\n$astral_rift.2815.desc.outro$"
+ astral_rift.2815.desc.barbaric_despoilers: "$astral_rift.2815.desc.common$\n\nLe nostre richieste di riscatto sono state accolte con ostilità e pare che non abbiano nulla di valore da offrirci."
+ astral_rift.2815.desc.homicidal: "Abbiamo creato un messaggio per la specie $unenlightened$ utilizzando la nostra limitata capacità di traduzione e lo abbiamo diffuso su tutti i loro canali di comunicazione.\n\n§E"Guardate alla vostra fine. Tutto ciò che conoscete e avete conosciuto sarà presto perso nel tempo. Non c'è futuro in cui possiate continuare a esistere. Vi stiamo portando l'oblio."§!\n\nNon c'è stata alcuna risposta."
+ astral_rift.2815.a: "Tentate di correggere l'orbita della luna."
+ astral_rift.2815.b: "Distruggete la luna."
+ astral_rift.2815.c: "Chiudete le comunicazioni. Limitiamoci solo ad osservare."
+ astral_rift.2815.d: "Chiudete le comunicazioni. Guardiamo la distruzione in atto."
+
+ astral_rift.2820.name: "Di Nuovo in Orbita"
+ astral_rift.2820.desc: "Dopo molti calcoli, simulazioni e prove, siamo riusciti a riportare delicatamente la luna del minuscolo pianeta sulla sua originale traiettoria orbitale. Questo non cancellerà i danni e le perdite di vite che le variazioni di marea hanno già causato, ma abbiamo fatto del nostro meglio.\n\nLe comunicazioni con i leader della specie $unenlightened$ sono ora aperte. Sembrano grati per nostri sforzi."
+
+ astral_rift.2825.name: "Niente Più Luna"
+ astral_rift.2825.desc.common: "Approfittando dell'opportunità unica che ci si è presentata ai fini di ricerca, abbiamo distrutto la luna che orbitava intorno a questo minuscolo mondo. È stato abbastanza facile schiacciarla tra le ganasce del nostro braccio di recupero e abbiamo osservato le sue sottili polveri formare gradualmente un tenue anello intorno al pianeta.\n\nCiò ha causato una serie di condizioni meteorologiche estreme da un polo all'altro. Da quel momento gli abitanti anfibi del pianeta hanno freneticamente tentato di comunicare con noi."
+ astral_rift.2825.desc.default: "$astral_rift.2825.desc.common$\n\nEstinguerli completamente potrebbe essere l'opzione più misericordiosa; basterebbe solo una piccola quantità di forza contundente della nostra Sfera Frattale. Tuttavia, esistono ancora opportunità di ulteriore ricerca."
+ astral_rift.2825.desc.unfriendly: "$astral_rift.2825.desc.common$\n\nSono impotenti mentre le tempeste imperversano sul loro pianeta. Il loro destino è segnato."
+ astral_rift.2825.a: "Mettete fine alle loro sofferenze."
+ astral_rift.2825.b: "Distribuite dispositivi remoti per la ricerca."
+
+ astral_rift.2830.name: "Osservati da lontano"
+ astral_rift.2830.desc.default: "Abbiamo collocato apparecchiature di sorveglianza all'interno del sistema stellare in miniatura per continuare a studiare questo minuscolo pianeta e la specie $unenlightened$ nell'evolversi della situazione. Siamo curiosi di vedere l'impatto ambientale della nostra collisione con la loro luna e vedere se la specie sia capace di sviluppare un modo per contrastarne gli effetti prima che diventino troppo gravi."
+ astral_rift.2830.desc.communications: "Abbiamo interrotto le comunicazioni con i leader della specie $unenlightened$ e abbiamo ripreso le osservazioni passive.\n\n$astral_rift.2830.desc.default$"
+ astral_rift.2830.desc.unfriendly.common: "In ogni caso, guardare la distruzione in corso ci darà un po' d'intrattenimento."
+ astral_rift.2830.desc.unfriendly: "$astral_rift.2830.desc.default$\n\n$astral_rift.2830.desc.unfriendly.common$"
+ astral_rift.2830.desc.unfriendly.communications: "$astral_rift.2830.desc.communications$\n\n$astral_rift.2830.desc.unfriendly.common$"
+
+ astral_rift.2835.name: "Scoperta sul Blocco delle Maree"
+ astral_rift.2835.desc: "Grazie alle nostre manipolazioni sperimentali con la luna di questo pianeta, abbiamo approfondito le nostre conoscenze sul comportamento generale dei satelliti in orbita attorno ai corpi celesti. Ora possiamo applicare queste conoscenze per allineare con maggiore precisione i pianeti all'interno dei nostri sistemi.\n\nIl minuscolo pianeta sotto di noi sta organizzando dei festeggiamenti in nostro onore."
+ astral_rift.2835.tt: "Puoi ora §YBloccare le maree§! di qualsiasi pianeta con una luna come una decisione planetaria.\n§YLe Fattorie Solari Diurne§! sono doppiamente efficaci."
+
+ astral_rift.2840.name: "Impatto Superficiale"
+ astral_rift.2840.desc: "Abbiamo massimizzato gli scudi, caricato i propulsori e ci siamo preparati all'impatto con il piccolo pianeta.\n\nAl momento dell'impatto, abbiamo compresso l'atmosfera del mondo continentale e inviato un'onda d'urto di estrema pressione in tutto il globo. L'attrito risultante ha surriscaldato l'aria, che ha vaporizzato gli oceani del pianeta e sterminato ogni forma di vita.\n\nCiò che resta di questo mondo un tempo fiorente sarà per noi un gingillo intimidatorio da mettere in bella mostra."
+ astral_rift.2840.tt: "È possibile mostrare il Guscio del Micropianeta come decisione planetaria. Può essere fatto solo una volta."
+
+ astral_rift.2845.name: "Pianeta Modello"
+ astral_rift.2845.desc: "Sono state installate apparecchiature di osservazione per continuare a studiare le condizioni climatiche del piccolo pianeta.\n\nTempeste di neve, siccità, piogge torrenziali e ogni sorta di clima estremo hanno iniziato a devastare il piccolo mondo. I nostri esperimenti qui continueranno a fornire dati meteorologici e antropologici unici fino a quando la specie nativa non sarà inevitabilmente spazzata via."
+
+ astral_rift.2890.name: "Estinzione del Piccolo Pianeta"
+ astral_rift.2890.desc: "Il minuscolo pianeta sul l'altro lato della Frattura Astrale nel sistema [from.solar_system.GetName] è stato decimato da cambiamenti climatici estremi. I dati di ricerca che stavamo raccogliendo hanno cessato di arrivare."
+ astral_rift.2890.a: "Inevitabile."
+
+#######################
+# Entertainment Nexus #
+#######################
+ astral_rift_interdimensional_circus: "Nexus d'Intrattenimento"
+ revolutionary_medigel_modifier: "Medi-Gel Rivoluzionario"
+
+ edict_spontaneous_crystallization: "Cristallizzazione Spontanea"
+ edict_spontaneous_crystallization_desc: "Applicando una matrice unica di catalizzatori alla roccia appena raccolta, abbiamo la possibilità di generare strutture cristalline molto più preziose."
+ edict_spontaneous_crystallization_tooltip: "Converte fino al 1% del totale delle entrate di £minerals£ Minerali in £rare_crystals£ Cristalli Rari."
+
+ astral_rift.2900.name: "Venite, Venite Tutti!"
+ astral_rift.2900.desc: "Siamo arrivati in un vivace sistema stellare circondato da numerosi wormhole. Navi spaziali di varie forme e dimensioni circondano una stazione spaziale centrale illuminata.\n\nL'enorme struttura è ricoperta da insegne multicolori con scritte sgargianti e sconosciute. Sembra una struttura di intrattenimento progettata per attirare il pubblico per un grande spettacolo. Considerato il numero di imbarcazioni presenti, qualsiasi spettacolo si stia svolgendo qui, ha attirato una folla impressionante."
+ astral_rift.2900.a: "Continuate le indagini."
+
+ astral_rift.2905.name: "Anteprima"
+ astral_rift.2905.common_1: "Abbiamo attraccato all'affollata stazione spaziale senza incidenti. Una volta entrati, abbiamo continuato la nostra indagine come parte della folla."
+ astral_rift.2905.common_2: "All'interno, abbiamo visto un anfiteatro di proporzioni epiche. L'interno era pieno zeppo di una varietà di forme di vita aliene senzienti, tutte concentrate sull'area centrale per l'esibizione. Lo spettacolo inizierà presto."
+ astral_rift.2905.organic: "Quando ci siamo avvicinati ai cancelli della cupola centrale, un addetto robotizzato ha effettuato un tampone su ciascuna delle [explorer.species.GetHandNamePlural] prima di permetterci di seguire gli altri avventori."
+ astral_rift.2905.inorganic: "Quando ci siamo avvicinati ai cancelli della cupola centrale, un addetto robotico ha scansionato brevemente ciascuno di noi con un piccolo dispositivo prima di permetterci di passare con gli altri avventori."
+ astral_rift.2905.desc.organic: "$astral_rift.2905.common_1$\n\n$astral_rift.2905.organic$\n\n$astral_rift.2905.common_2$"
+ astral_rift.2905.desc.inorganic: "$astral_rift.2905.common_1$\n\n$astral_rift.2905.inorganic$\n\n$astral_rift.2905.common_2$"
+ astral_rift.2905.a: "Molto bene."
+
+ astral_rift.2910.name: "I Volpidi Volanti"
+ astral_rift.2910.desc: "Non appena abbiamo preso posto, è apparsa sul palco una troupe di mammiferi volpidi in costumi scintillanti. Dopo una breve esibizione di ginnastica acrobatica, al centro del palcoscenico comparve un piccolo wormhole. Un audace acrobata si tuffò al suo interno poco prima che il buco si chiudesse. Un altro wormhole apparve in alto sopra la folla, espellendo l'artista che atterrò abilmente.\n\nAltri artisti ripeterono le gesta di quest'ultimo, intrecciandosi e afferrandosi l'un l'altro in schemi complessi attraverso una serie di wormhole in continuo movimento. La folla sussultò quando uno degli acrobati, tuffandosi in un wormhole non riuscì ad ad attraversarlo in tempo prima che si chiudesse amputandogli di netto un arto. Proprio mentre stavano per toccare terra, il performer ferito scomparve attraverso un altro wormhole.\n\nIl braccio mozzato cadendo dalle travi, afferrò un trapezio e si rilanciò in aria. Nel mentre riapparve l'acrobata amputato che con un gran salto si rilanciò verso l'arto, riattaccandoselo a mezz'aria per poi atterrare, in un gran finale, su una piramide di restanti acrobati."
+ astral_rift.2910.a: "Un uso disinvolto di una tecnologia impressionante..."
+
+ astral_rift.2915.name: "Le Fauci della Vita"
+ astral_rift.2915.desc: "Un grande cyborg rettiliano si presentò al centro del palcoscenico. Portava enormi pesi di metallo, che lanciava abilmente nella sua mascella gigantesca. Con un sibilo idraulico, risputò i pesi in aria uno dopo l'altro, riafferrandoli mentre cadevano per poi lanciarli nuovamente, in una sorta di gioco di prestigio senza alcun sforzo apparente.\n\nUn annuncio squillante fece sobbalzare alcuni spettatori. Un robot dai molti tentacoli, un'entità bipede e un essere vivente fatto da un groviglio di liane giunsero sul palco. Queste creature saltarono improvvisamente nella bocca del cyborg rettiliano, lasciandosi ingoiare.\n\nLa bestia meccanica chiuse la bocca con i tre volontari e si accovacciò, schiacciandosi contro il pavimento. La sua enorme struttura inziò a brillare di un arancione fuso. Una volta completato il processo che si stava compiendo al suo interno, aprì la bocca facendone uscire una sola creatura. Aveva la testa bulbosa del robot tentacolare, il torso del toxoide e arti spessi fatti di liane intrecciate. Fece un gesto alla folla, ottenendo un silenzio attonito.\n\nIl cyborg quindi reingerì l'abominio biologico che aveva creato e risputò fuori i tre individui ritornati come nuovi. Il silenzio nervoso della folla esplose in un applauso."
+ astral_rift.2915.a: "Un talento interessante."
+
+ astral_rift.2920.name: "L'Atto Finale"
+ astral_rift.2920.desc: "L'atto finale coinvolse una creatura fatta di una spessa pietra grigia. Piegandosi in posizioni particolari, contorceva le sue membra segmentate in nodi impossibili. Poi saltò in aria ed è atterrò sui suoi ampi polpastrelli, tra i mormorii educati della folla. Tuttavia, questa era solo una preparazione alla vera performance.\n\nI movimenti della creatura cominciarono a decelerare lentamente, fino al punto in cui il tempo stesso cominciò a invertirsi. La sua figura ripercorse l'arco del salto precedente e si bloccò a mezz'aria. La folla si rianimò.\n\nAll'improvviso, la stasi si ruppe. La creatura tornò al suolo e iniziò a trasformarsi. Il suo corpo passò dalla pietra grigia priva di caratteristiche al cristallo rosso scintillante, alla sabbia fluida, allo scisto blu friabile e altro ancora. Continuava a eseguire una serie di contorsioni sempre più complicate.\n\nAl culmine della sua performance, esplose in migliaia di frammenti prismatici. Questi si congelarono a mezz'aria in una disposizione intricata, rifrangendo il semplice riflettore del palcoscenico in un complesso spettacolo di colori e motivi incredibili.\n\nI frammenti si ricongiunsero lentamente fino a ricomporre il performer nella sua forma originaria e la creatura lasciò il palco tra il boato della folla."
+ astral_rift.2920.a: "Un esemplare raro, davvero."
+
+ astral_rift.2925.name: "Dopo lo Spettacolo"
+ astral_rift.2925.desc: "Lo spettacolo terminò, ma il pubblico fu invitato a rimanere per incontrare uno degli artisti. Sarebbe un'ottima occasione per studiare gli individui in modo più approfondito, dato che ognuno di loro ha mostrato abilità che non possiamo nemmeno lontanamente replicare.\n\nTutti gli artisti sono ricercatissimi, quindi potremmo avere il tempo di incontrarne solo uno prima che la stazione chiuda. A quale artista dovremmo dare la priorità?"
+ astral_rift.2925.a: "Incontrate gli acrobati volpidi."
+ astral_rift.2925.b: "Incontrate la bocca cyborg."
+ astral_rift.2925.c: "Incontrate il contorsionista."
+
+ astral_rift.2930.name: "Incontrare gli Acrobati"
+ astral_rift.2930.desc: "Gli acrobati volpidi sono alti circa un metro e hanno orecchie triangolari che si agitano di tanto in tanto. Altre caratteristiche fisiche sono la pelliccia giallo pallido, le zampe anteriori destre con un falso pollice ricurvo e la coda corta e pendente. Quando chiacchierano eccitati nella la loro aspra lingua aliena, possiamo notare i loro denti duri e piatti, il che implica una dieta erbivora.\n\nGli acrobati interagiscono energicamente con i vari membri del pubblico. Avendo un numero relativamente ridotto di ammiratori, sono in grado di intrattenere conversazioni animate con ogni fan, eseguendo trucchi e prodezze ginniche al fine di ottenere delle mance.\n\nSi tratta di un gruppo di esemplari di talento, con molte proprietà preziose da studiare."
+ astral_rift.2930.a: "Procuratevi un campione di tessuto."
+ astral_rift.2930.b: "Ricompensateli con dei crediti energetici."
+
+ astral_rift.2935.name: "Incontrare la Bocca Cyborg"
+ astral_rift.2935.desc: "Il cyborg rettiliano ha l'altezza e la larghezza di una piccola nave da trasporto, con una bocca abbastanza grande da poterla quasi inghiottire. Tra le altre caratteristiche fisiche, la pelle grigia e squamosa è ricoperta da pannelli elettrici trasparenti, un nucleo energetico incandescente fissato al torso e arti in lega metallica integrati da un complesso sistema idraulico.\n\nDate le sue enormi dimensioni, il cyborg è saldamente ancorato al suo posto e viene considerato quasi fosse un monumento. Molti fan hanno portato al monolite qualcosa da mangiare, che sembra apprezzare. Anche gli alieni che si sono offerti volontari per lo spettacolo sono presenti e si comportano quasi fossero parte dello spettacolo.\n\nQuesto esemplare gargantuesco potrebbe aprire una varietà di campi di ricerca."
+ astral_rift.2935.a: "Procuratevi un campione di tessuto."
+ astral_rift.2935.b: "Offritegli uno snack."
+
+ astral_rift.2940.name: "Incontrare il Contorsionista"
+ astral_rift.2940.desc: "Il contorsionista si erge alto tra l'assemblea affollata, con arti spessi di pietra grigia che nascondono una flessibilità insospettata. Il suo torso è notevolmente snello, segnato da graffi, ammaccature e scheggiature, in netto contrasto con le sue impeccabili appendici di cemento.\n\nIl contorsionista non è particolarmente loquace, ma accetta le richieste di mostrare le proprie abilità metamorfiche, soprattutto per gli ammiratori più giovani o per i clienti più facoltosi.\n\nIn quanto protagonista di questo spettacolo, abbiamo l'opportunità di imparare molto da questo esemplare."
+ astral_rift.2940.a: "Procuratevi un campione di tessuto."
+ astral_rift.2940.b: "Ricompensatelo con dei crediti energetici."
+
+ astral_rift.2960.name: "Genetica Extra-Dimensionale"
+ astral_rift.2960.desc: "Siamo riusciti a indagare più da vicino sugli acrobati. Il leader [leader.GetName] ha raccolto furtivamente campioni sotto forma di follicoli di capelli persi e bende scartate. Nessuno degli artisti è sembrato preoccuparsi del nostro comportamento. Forse sono abituati agli ammiratori che si comportano in modo particolare durante queste occasioni.\n\nI campioni si sono rivelati estremamente interessanti: secondo le nostre analisi, la loro genetica vulpide è stata alterata da una sorta di fonte ultraterrena. Si possono osservare le loro cellule sanguigne cristalline che si allungano tra punti dello spazio e del tempo. A prescindere dagli effetti negativi sulla salute, questo permette ai membri della specie di manipolare i wormhole in modo naturale. Questa scoperta rivoluzionerà la nostra comprensione della genetica e del meraviglioso potenziale della vita biologica."
+ astral_rift.2960.tt: "Ottieni una tecnologia genetica."
+
+ astral_rift.2965.name: "Micro-Wormhole"
+ astral_rift.2965.desc: "Abbiamo potuto incontrare gli acrobati in una contesto più personale grazie alla nostra importante donazione. Gli artisti sono stati molto riconoscenti e hanno dato prova di una serie di impressionanti trucchi da salotto che coinvolgono i micro-wormhole: dall'affettare piccoli oggetti a metà alla creazione di una serie infinita di portali accoppiati.\n\nSiamo riusciti a documentare questo fenomeno unico al fine di eseguire ulteriori studi e siamo certi che queste dimostrazioni approfondiranno notevolmente la nostra comprensione della tecnologia dell'iperspazio. Certo, la disinvoltura con cui hanno approcciato una fisica così pericolosa è inquietante."
+
+ astral_rift.2970.name: "Raccolta Non Ortodossa di Campioni "
+ astral_rift.2970.desc.common: "Nel tentativo di raccogliere di nascosto un piccolo pezzo di tessuto del cyborg rettiliano, abbiamo fatto arrabbiare la creatura. La creatura ha vomitato un'ondata di viscida melma verde sulla nostra squadra e siamo stati scortati fuori dalla struttura dai droni della sicurezza."
+ astral_rift.2970.desc.organic: "$astral_rift.2970.desc.common$\n\nStranamente, si è osservato che la melma ha notevoli proprietà curative sui nostri tessuti di [leader.species.GetSkinType]. Piccole ferite e abrasioni si ricuciono in modo pulito e lasciano una piacevole sensazione. Questo fluido biologicamente denso potrebbe essere utilizzato come solvente per una serie di terapie medicinali e curative."
+ astral_rift.2970.desc.inorganic: "$astral_rift.2970.desc.common$\n\nIl fluido viscoso era un denso materiale biologico e sembra adatto a essere utilizzato come base per un gel alimentare altamente nutriente. Stiamo sfruttando le sue proprietà per sviluppare una pasta alimentare partendo da rifiuti organici, questo dovrebbe aumentare notevolmente l'efficienza dei nostri sistemi di produzione alimentare."
+ astral_rift.2970.tt: "Ottieni una Tecnologia Agricola."
+
+ astral_rift.2975.name: "Supporto Vitale Estensivo"
+ astral_rift.2975.desc: "Siamo riusciti a incontrare l'enorme cyborg in una contesto più personale, aiutati in parte dalla nostra significativa donazione di cibo\n\nLa creatura dalla enorme bocca era insolitamente entusiasta e si è riavvolta su se stessa in preda all'eccitazione. Ha trascorso molti minuti a completare questa rotazione a 360 gradi, permettendoci di catalogare in profondità i miglioramenti cibernetici e i sistemi di supporto della sua parte cibernetica.\n\nDalle nostre analisi, siamo riusciti a determinare che un tempo era una minima frazione delle sue attuali dimensioni, una specie tipica di rettile sapiente, e deve la maggior parte della sua massa ai suoi potenziamenti. Dato l'enorme numero di potenziamenti che presentano vari stadi di ossidazione, questo individuo deve essere stato in vita per secoli."
+ astral_rift.2975.tt: "Ottieni una Tecnologia Cibernetica."
+
+ astral_rift.2980.name: "Cristallizzazione Biologica"
+ astral_rift.2980.desc: "Spingendoci tra la folla, siamo riusciti a indagare più da vicino sul contorsionista.\n\nCi ha mostrato uno dei suoi pesanti bracci di pietra, trasformandolo senza sforzo in un gruppo di minerali diversi. Ciò che inizialmente era granito grossolano si è trasformato in gemme rosse opache e infine in cristalli scintillanti. La trasformazione del materiale ha lasciato nell'aria sottili particelle di polvere, che abbiamo prontamente raccolto come campione.\n\nI campioni contengono una sostanza biologica volatile che può essere utilizzata quale cristallizzante spontaneo in condizioni molto particolari per alcuni minerali. L'uso di questo materiale su larga scala potrebbe essere sfruttato nella nostra attuale produzione di minerali per ottenere effetti simili."
+ astral_rift.2980.tt: "Sblocca l'Editto §Y$edict_spontaneous_crystallization$§!."
+
+ astral_rift.2985.name: "Mineralizzazione Quantistica"
+ astral_rift.2985.desc: "Abbiamo potuto incontrare il contorsionista in un contesto più personale, grazie anche alla nostra significativa donazione.\n\nLa materia che compone questa creatura non sembrava del tutto legato a questa realtà. Ad un esame più attento, ci ha spiegato come riesce a spostare gli allineamenti magnetici dei suoi materiali compositi in modo tale da formare piccole aperture verso altre dimensioni, giusto il tempo di scambiare letteralmente i propri atomi con quelli di un altro tempo e luogo. Con tali riallineamenti quantistici, è difficile essere certi se questo essere sia lo stesso che abbiamo incontrato solo poche ore fa.\n\nSebbene una simile capacità costituisca una performance impressionante, rabbrividiamo al pensiero di ciò che un'intera popolazione di questa specie potrebbe realizzare. Cio nonostante, è stata per noi una preziosa opportunità di ricerca."

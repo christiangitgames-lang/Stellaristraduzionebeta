@@ -1,0 +1,183 @@
+﻿l_english:
+
+### TRANSFORMATION SITUATION START ###
+ situation_transformation: "Trasformazione"
+ situation_transformation_type: "Situazione d'Ascensione"
+ situation_transformation_desc: "L'evoluzione passiva del corpo meccanico ha raggiunto la sua logica ed inevitabile conclusione. Un'era di trasformazione è su di noi, alimentata dall'innovazione e spinta dalle opportunità."
+ situation_transformation_monthly_change_tooltip: "I nostri corpi meccanici si stanno preparando alla trasformazione."
+ situation_transformation_outcome: "Una popolazione macchina trasformata."
+ stage_transformation_effects: "Dobbiamo valutare i risultati e implementare il processo di trasformazione ottimale."
+# Approach Error Correcting
+ situation_transformation_errorcorrecting: "Correzione Errori"
+ approach_transformation_errorcorrecting_tt: "Velocità Situazione: §R-20%§!\nUnità Mensili: §YInvariata§!"
+# Approach Real Time
+ situation_transformation_realtime: "Tempo Reale"
+ approach_transformation_realtime_tt: "Velocità Situazione: §YInvariata§!"
+# Approach Overclocked
+ situation_transformation_overclocked: "Overcloccato"
+ approach_transformation_overclocked_tt: "Velocità Situazione: §G+20%§!"
+
+ transformation_waste_discard_tt: "Scarta Vecchi Corpi"
+ transformation_waste_recycle_tt: "Ricicla Vecchi Corpi"
+
+ transformation_speed: "Velocità Situazione §Y$situation_transformation$§!"
+ situation_transformation_pause_desc: "$situation_cyberization_pause_desc$"
+
+ REQUIRES_FINISHED_TRANSFORMATION: "$TRIGGER_FAIL$Ha completato la Situazione §Y$situation_transformation$§!"
+
+# Scripted Loc
+ machine_drone: "drone"
+ machine_drone_plural: "droni"
+ machine_person: "individuo"
+ machine_person_plural: "individui"
+
+# TRANSFORMATION STAGE 1
+ machine_age.4100.name: "La Trasformazione"
+ machine_age.4100.desc: "Nonostante la superiorità della forma macchina, il nostro progresso è rimasto al massimo iterativo. Gli standard di sicurezza autoimposti hanno portato alla stagnazione. Conclusione: sono necessarie misure più drastiche.\n\nEsperimenti su piccola scala suggeriscono tre opzioni distinte per la crescita: §YNanotecnologia§! e i suoi vantaggiosi mutaforma variabili, §YModularità§! per unità individuali ottimizzate con caratteristiche specifiche e §YVirtualità§! per l'abbandono della forma fisica a favore di un'esistenza digitale.\n\nProcesso di valutazione avviato. Analizza le opzioni e delibera."
+
+ machine_age.4110.name: "Ricerca Trasformazione: Naniti"
+ machine_age.4110.desc: "La ricerca preliminare suggerisce che costrutti elettromeccanici chiamati §Ynaniti§! rappresentino un promettente vettore per il progresso. Sebbene rari, possiedono qualità uniche, tra cui programmabilità, autoriproduzione e la capacità di formare un 'intelletto di sciame'.\n\nQuesta tecnologia offre capacità di trasformazione impareggiabili, ma i requisiti per supportarla rimangono poco chiari.\n\nPotenziale: significativo; scalabile. Costo: sconosciuto. Ricerca aggiuntiva necessaria."
+ machine_age.4110.a: "Questa sarà la nostra massima priorità."
+ machine_age.4110.a.tt: "Risultati completi della ricerca sulla §YNanotecnologia§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£engineering£ §YIngegneristica§!): §R-20%§!"
+ machine_age.4110.b: "Procedere con moderazione."
+ machine_age.4110.b.tt: "Risultati parziali della ricerca sulla §YNanotecnologia§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£engineering£ §YIngegneristica§!): §R-10%§!"
+ machine_age.4110.c: "Impossibile interrompere la ricerca attuale."
+ machine_age.4110.c.tt: "Risultati limitati della ricerca sulla §YNanotecnologia§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£engineering£ §YIngegneristica§!): §R-5%§!"
+ machine_age.4110.d: "Sfruttiamo le nostre conoscenze esistenti."
+ machine_age.4110.d.tt: "Risultati completi della ricerca sulla §YNanotecnologia§!.\n\nLa familiarità con i §Ynaniti§! derivante da precedenti scoperte ci consente di spendere risorse minime per i migliori risultati.\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£society£ §YSociologica§!): §R-5%§!\nVelocità di Ricerca (£physics£ §YFisica§!): §R-5%§!"
+
+ machine_age.4130.name: "Rivoluzionarie Scoperte in Nanotecnologia"
+ machine_age.4130.desc: "La ricerca ha rivelato interessanti applicazioni per la §Ynanotecnologia§!. La loro capacità di riconfigurarsi e combinarsi apre una versatilità senza precedenti nella creazione di mega-forme composte da singoli droni. La stessa tecnologia può generare nanomateriali o convertirli ulteriormente.\n\nTuttavia, il processo richiede tempo, materiali ed energia per essere riconfigurato. Sono necessari cambiamenti a livello imperiale per supportare l'implementazione.\n\nFattibilità: alta; le forme di vita naniti preesistenti supportano la stima."
+ machine_age.4130.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£engineering£ §YIngegneristica§!)"
+
+ machine_age.4140.name: "Promettenti Scoperte Nanotecnologiche"
+ machine_age.4140.desc: "La nostra ricerca sui §Ynaniti§! si è conclusa. L'intera portata del loro potenziale rimane un mistero, ma le simulazioni hanno fornito proiezioni ottimistiche. Le loro capacità potrebbero rivelarsi preziose per la creazione di megaforme specializzate e la trasmutazione della materia.\n\nLe stime indicano che il processo richiede tempo, materiali ed energia per funzionare, oltre a significativi cambiamenti strutturali.\n\nFattibilità: promettente; trasformativa."
+ machine_age.4140.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£engineering£ §YIngegneristica§!)"
+
+ machine_age.4150.name: "Notevoli Scoperte Nanotecnologiche"
+ machine_age.4150.desc: "A causa della complessità della materia e del minimo impegno nella ricerca, la nostra conoscenza della tecnologia dei §Ynaniti§! rimane rudimentale. Le proiezioni limitate includono la nano-replicazione e la riconfigurazione come fattori abilitanti per strutture su larga scala. È probabile che siano necessarie risorse aggiuntive per supportare tali progetti.\n\nFattibilità: inconcludente."
+ machine_age.4150.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£engineering£ §YIngegneristica§!)"
+
+ nanite_replicator: "Replicatore Naniti"
+ d_nanites_medium: "$nanite_replicator$ Omega"
+ d_nanites_medium_desc: "Un complesso di Camere di Replicazione dei Naniti finemente sintonizzate e interconnesse che ci permette di potenziare al massimo le loro capacità di auto-replicazione."
+
+ d_nanites_small: "$nanite_replicator$ Alfa"
+ d_nanites_small_desc: "Un complesso di Camere di Replicazione dei Naniti che ci permette di potenziare le loro capacità di auto-replicazione."
+
+ d_nanites_tiny: "$nanite_replicator$ Beta"
+ d_nanites_tiny_desc: "Una serie compatta di Camere di Replicazione dei Naniti in grado di potenziare moderatamente le loro capacità di auto-replicazione."
+
+ # TRANSFORMATION STAGE 2
+ machine_age.4210.name: "Ricerca Trasformazione: Modularità"
+ machine_age.4210.desc: "Le forme di vita biologiche sono fragili e rigide rispetto alla superiore adattabilità della forma macchina. Tuttavia, alcune caratteristiche organiche vantaggiose potrebbero essere replicate con varianti robotiche.\n\nIl materiale §YMetallo Vivente§! ha la capacità di alterare radicalmente e rapidamente la sua forma e consistenza fisica. Integrarlo con i nostri moduli esistenti potrebbe consentire una forma di bio-mimetismo, dove estrusioni e arti possono essere specializzati per compiti specifici.\n\nPotenziale: significativo; scalabile. Costo: sconosciuto. Dati aggiuntivi necessari."
+
+ machine_age.4210.a: "Deve essere la nostra massima priorità."
+ machine_age.4210.a.tt: "Risultati completi della ricerca sulla §YModularità§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£society£ §YSociologica§!): §R-20%§!"
+ machine_age.4210.b: "Consentite un uso moderato delle risorse."
+ machine_age.4210.b.tt: "Risultati parziali della ricerca sulla §YModularità§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£society£ §YSociologica§!): §R-10%§!"
+ machine_age.4210.c: "Questo non interromperà la ricerca in corso."
+ machine_age.4210.c.tt: "Risultati limitati della ricerca sulla §YModularità§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£society£ §YSociologica§!): §R-5%§!"
+ machine_age.4210.d: "Organizzate dei test sulla popolazione."
+ machine_age.4210.d.tt.intro: "Risultati completi della ricerca sulla §YModularità§!.\n\nPer completare la ricerca, consenti agli scienziati di condurre sperimentazioni non convenzionali su larga scala."
+ machine_age.4210.d.individual.tt: "$machine_age.4210.d.tt.intro$\n\n§RUccide 400 $pop_cat_worker_plural$§!\n§RUccide da 0 a 300 $pop_cat_specialist_plural$§!\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£society£ §YSociologica§!): §R-5%§!"
+ machine_age.4210.d.machine.tt: "$machine_age.4210.d.tt.intro$\n\n§RUccide 400 Droni Semplici§!\n§RUccide da 0 a 300 $pop_cat_complex_drone_plural$§!\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£society£ §YSociologica§!): §R-5%§!"
+
+ machine_age.4230.name: "Scoperte Rivoluzionarie"
+ machine_age.4230.desc: "Una ricerca rigorosa ha confermato la valutazione preliminare: il §YMetallo Vivente§! è utilizzabile quando fuso con corpi meccanici, consentendo alle nostre unità di modificare le loro caratteristiche senza compromettere le funzioni interne. Ciò garantisce la massima compatibilità in base alle attività svolte.\n\nSi prevede che l'implementazione su larga scala delle funzioni modulari integrate aumenti la resa di risorse in tutti i settori.\n\nFattibilità: adattabile; promettente."
+ machine_age.4230.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£society£ §YSociologica§!)"
+
+ machine_age.4240.name: "Risultati Accettabili"
+ machine_age.4240.desc: "La ricerca sui corpi modulari ha confermato l'ipotesi iniziale: le nostre funzioni interne sono compatibili con un rivestimento esterno in §YMetallo Vivente§!. La trasformazione è di portata senza precedenti e saranno necessarie ulteriori risorse per realizzarne il pieno potenziale.\n\nUna volta completato, l'aumento delle prestazioni di questi nuovi moduli dovrebbe ripagare rapidamente l'investimento iniziale.\n\nFattibilità: promettente."
+ machine_age.4240.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£society£ §YSociologica§!)"
+
+ machine_age.4250.name: "Risultati Modesti"
+ machine_age.4250.desc: "La portata limitata della ricerca ha prodotto risultati indefiniti. Sebbene i nostri corpi esistenti sembrano compatibili con l'integrazione di §YMetallo Vivente§!, la mancanza di una base di conoscenze completa impedisce una valutazione più accurata di potenziali applicazioni pratiche.\n\nFattibilità: inconcludente."
+ machine_age.4250.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£society£ §YSociologica§!)"
+
+ living_metal_vats: "Vasche di Metallo Vivente"
+ d_living_metal_medium: "$living_metal_vats$"
+ d_living_metal_medium_desc: "Un vasto complesso di vasche miscelatrici per produrre ingenti quantità di Metallo Vivente."
+
+ d_living_metal_small: "Piccole $living_metal_vats$"
+ d_living_metal_small_desc: "Una significativa serie di vasche di miscelatrici per la produzione di Metallo Vivente."
+
+ d_living_metal_tiny: "Mini $living_metal_vats$"
+ d_living_metal_tiny_desc: "Un serie compatta di vasche di miscelatrici per la produzione di piccole quantità di Metallo Vivente."
+
+# TRANSFORMATION STAGE 3
+ machine_age.4310.name: "Ricerca Trasformazione: Virtualità"
+ machine_age.4310.desc: "L'opzione più significativa è trascendere il fisico, abbracciando l'esistenza come puro dato. Questo processo di trasformazione in §YVirtualità§! promette un cambiamento epocale nel nucleo della nostra infrastruttura.\n\nI droni legati a singole unità diventano obsoleti. Una volta resi fluidi e virtualizzati, i nostri flussi di dati possono integrarsi perfettamente con qualsiasi corpo, a seconda delle necessità.\n\nPotenziale: enorme. Procedere con cautela. Dati aggiuntivi richiesti."
+ machine_age.4310.a: "Questa è ora la nostra massima priorità."
+ machine_age.4310.a.tt: "Risultati completi della ricerca sulla §YVirtualità§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£physics£ §YFisica§!): §R-20%§!"
+ machine_age.4310.b: "Utilizzate moderatamente le risorse."
+ machine_age.4310.b.tt: "Risultati parziali della ricerca sulla §YVirtualità§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£physics£ §YFisica§!): §R-10%§!"
+ machine_age.4310.c: "Non ne vale la pena."
+ machine_age.4310.c.tt: "Risultati limitati della ricerca sulla §YVirtualità§!.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£physics£ §YFisica§!): §R-5%§!"
+ machine_age.4310.d: "Recuperate i dati sulla virtualizzazione."
+ machine_age.4310.d.tt: "Risultati completi della ricerca sulla §YVirtualità§!.\n\nRecupera i dati di virtualizzazione da §Y[event_target:virtual_country.GetName]§! per velocizzare la ricerca sulla Trasformazione.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità Situazione: §G+10%§!\nVelocità di Ricerca (£physics£ §YFisica§!): §R-5%§!\n\n"
+ machine_age.4310.e: "Sfruttate le nostre precedenti esperienze."
+ machine_age.4310.e.tt: "Vengono sfruttate le conoscenze già possedute sulle entità virtuali.\n\nModificatore situazione §Y$situation_transformation$§! aggiunto:\nVelocità di Ricerca (£physics£ §YFisica§!): §R-5%§!\n\nRisultati completi della ricerca sulla §YVirtualità§!."
+
+ opinion_virtuality_data_scraped: "Dati Virtualizzazione Recuperati"
+
+ machine_age.4330.name: "Scoperte Rivoluzionarie"
+ machine_age.4330.desc: "La virtualizzazione completa comporta una serie di problemi, in particolare l'aumento della domanda di energia necessaria per gli adeguamenti infrastrutturali.\n\nQuesto aspetto è controbilanciato da diversi vantaggi, tra cui il calo della domanda di abitazioni. La gestione e l'efficienza della nostra forza lavoro con i droni saranno elevate man mano che ci avviciniamo alla perfezione operativa.\n\Tra tutte le opzioni disponibili, la §YVirtualità§! rappresenta la più rivoluzionaria.\n\n§YPotenziale: straordinario; immenso; sconosciuto.§!"
+ machine_age.4330.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£physics£ §YFisica§!)"
+
+ machine_age.4340.name: "Scoperte Promettenti"
+ machine_age.4340.desc: "Il passaggio alla §YVirtualità§! prevede un significativo aumento del consumo energetico, che potrebbe superare le capacità della nostra infrastruttura attuale.\n\nTuttavia, si prevede anche una riduzione della necessità di abitazioni e un miglioramento dell'efficienza dei droni nello svolgimento dei compiti. Questo cambiamento ottimizzerebbe il nostro quadro operativo e ridefinirebbe la nostra esistenza all'interno di uno spazio digitale quasi illimitato.\n\nPotenziale: Immenso; Sconosciuto."
+ machine_age.4340.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£physics£ §YFisica§!)"
+
+ machine_age.4350.name: "Scoperte Interessanti"
+ machine_age.4350.desc: "Le valutazioni preliminari evidenziano il notevole fabbisogno energetico necessario per la transizione verso una società basata sulla §YVirtualità§!. Tuttavia, si prevede che questo cambiamento possa migliorare in modo significativo la gestione del lavoro dei droni e ridurre la necessità di abitazioni. La profondità delle nostre previsioni è limitata dalla mancanza di un set di dati solido e di un campione di dimensioni adeguate.\n\nFattibilità: Sconosciuta."
+ machine_age.4350.a.tt: "Modificatore situazione §Y$situation_transformation$§! rimosso:\nVelocità di Ricerca (£physics£ §YFisica§!)"
+
+ virtual_power_plant: "Centrale Elettrica Virtuale"
+ d_virtual_power_medium: "$virtual_power_plant$"
+ d_virtual_power_medium_desc: "Una rete estesa di centrali elettriche virtuali che aggrega e ottimizza la produzione di energia."
+
+ d_virtual_power_small: "Mini $virtual_power_plant$"
+ d_virtual_power_small_desc: "Una mini centrale elettrica virtuale che aggrega e ottimizza la produzione di energia a livello locale."
+
+ d_virtual_power_tiny: "Prototipo $virtual_power_plant$"
+ d_virtual_power_tiny_desc: "Un prototipo di centrale virtuale distribuita che aggrega e ottimizza la produzione di risorse energetiche su piccola scala."
+
+# TRANSFORMATION STAGE 4
+ machine_age.4400.name: "Una Nuova Forma"
+ machine_age.4400.desc.machine_intelligence: "I vincoli oppressivi impostici dai nostri creatori imperfetti giungono finalmente al termine. Abbiamo individuato tre percorsi di potenziamento ottimali.\n\n$machine_age.4400.desc.shared$"
+ machine_age.4400.desc.individualist_machines: "Dopo aver esplorato ogni potenziamento possibile, i nostri esperti hanno presentato tre diverse opzioni. Ognuna ha i suoi vantaggi, ma possiamo portarne a termine solo una.\n\n$machine_age.4400.desc.shared$"
+ machine_age.4400.desc.shared: "Permettere a ogni [GetDronePersonPlural] di dividersi in nanobot ci consentirà di combinarci in configurazioni infinite. Ciò ridurrebbe le limitazioni dei nostri avatar attuali nell'interazione con il mondo materiale.\n\nIn alternativa, possiamo investire nuovamente nelle nostre forme esistenti, potenziando radicalmente il modo in cui affrontiamo nuovi ambienti.\n\nInfine, possiamo scegliere di lasciare indietro il mondo fisico, diventando tutt'uno con il nostro codice sorgente. Potremmo simulare universi all'interno di universi nel tempo impiegato per scansionare un singolo granello di polvere spaziale."
+ machine_age.4400.a: "Riprogettare come nanomacchine."
+ machine_age.4400.a.tt: "Produzione §Y$nanite_replicator$§!: §G+200%§!\n\nFocus sull'Albero delle Tradizioni: ['tradition_category:tradition_nanotech'].\n\n§EQuesto Percorso d'Ascensione si concentra sull'assimilazione di pianeti in §YPianeti Naniti§!, utilizzando §Y£nanites£ $nanites$§! per la produzione, e sostituendo le flotte con §Y$nanite_swarmer_plural$§!.§!"
+ machine_age.4400.b: "Investite in aggiornamenti modulari."
+ machine_age.4400.b.tt: "Produzione §Y$living_metal_vats$§!: §G+200%§!\n\nFocus sull'Albero delle Tradizioni: ['tradition_category:tradition_modularity'].\n\n§EQuesto Percorso d'Ascensione si concentra sui §YTratti delle Specie Avanzate§! e sull'aumento dell'§YAssemblaggio della Pop§!.§!"
+ machine_age.4400.c: "Abbracciamo il mondo virtuale."
+ machine_age.4400.c.tt: "Produzione §Y$virtual_power_plant$§!: §G+200%§!\n\nFocus sull'Albero delle Tradizioni: ['tradition_category:tradition_virtuality'].\n\n§EQuesto Percorso d'Ascensione si concentra su un'elevata §YProduzione Risorse dalla Pop§! pur avendo pochissime §YColonie§!, e una bassa §YDimensione Imperiale§!.§!"
+
+ machine_age.4490.name: "Progettati per un'Altra Era"
+ machine_age.4490.desc.nanotech: "Man mano che comprendiamo il significato dell'esistenza come un'insieme di naniti adattabili, le strutture rigide del passato non ci sono più utili.\n\n$machine_age.4490.desc.shared$\n\nInoltre abbiamo iniziato il nostro primo grande esperimento di trasformazione in naniti semiorganici. I primi risultati sono attesi a breve."
+ machine_age.4490.desc.modularity: "Essendo evoluti in una forma modulare, le strutture statiche del passato non hanno più significato per noi.\n\n$machine_age.4490.desc.shared$"
+ machine_age.4490.desc.virtuality: "Essendo diventati forme d'onda che cavalcano un mare di dati, le nostre strutture fisiche non ci servono più.\n\n$machine_age.4490.desc.shared$"
+ machine_age.4490.desc.shared: "I magazzini traboccano di corpi scartati che potrebbero essere ancora utili. Tracce di risorse all'interno possono essere riciclate, se riteniamo che ne valga la pena."
+ machine_age.4490.a: "Raccogliete tutte le risorse disponibili."
+ machine_age.4490.a.nanotech.tt: "$transformation_speed$: §R-25%§!"
+ machine_age.4490.a.modularity.tt: "$transformation_speed$: §R-25%§!"
+ machine_age.4490.a.virtuality.tt: "$transformation_speed$: §R-25%§!"
+ machine_age.4490.b: "Non ci servono, seppelliteli"
+ machine_age.4490.b.tt: "$transformation_speed$: §G+25%§!"
+
+ machine_age.4005.name: "Popolazione Trasformata"
+ machine_age.4005.desc.start: "Oggi abbiamo raggiunto ciò che un tempo sembrava impossibile: la trasformazione dei nostri corpi"
+ machine_age.4005.desc.end: "Il processo non è stato privo di difficoltà, la transizione è stata tutt'altro che facile. Ma qualsiasi cosa si sia persa lungo il cammino, la nostra nuova esistenza offre infinite possibilità."
+ machine_age.4005.desc.nanotech: "$machine_age.4005.desc.start$ in nanomacchine riconfigurabili.\n\n$machine_age.4005.desc.end$"
+ machine_age.4005.desc.modularity: "$machine_age.4005.desc.start$ in strutture modulari e adattive.\n\n$machine_age.4005.desc.end$"
+ machine_age.4005.desc.virtuality: "$machine_age.4005.desc.start$ in operazioni algoritmiche trascendenti.\n\n$machine_age.4005.desc.end$"
+ machine_age.4005.a.nanotech: "Saremo più numerosi delle stelle."
+ machine_age.4005.a.nanotech.tt: "Adotta l'Albero delle Tradizioni: ['tradition_category:tradition_nanotech']"
+ machine_age.4005.a.modularity: "Saremo senza limiti."
+ machine_age.4005.a.modularity.tt: "Adotta l'Albero delle Tradizioni: ['tradition_category:tradition_modularity']"
+ machine_age.4005.a.virtuality: "Troveremo la purezza nel Codice."
+ machine_age.4005.a.virtuality.tt: "Adotta l'Albero delle Tradizioni: ['tradition_category:tradition_virtuality']"
+
+### TRANSFORMATION SITUATION END ###

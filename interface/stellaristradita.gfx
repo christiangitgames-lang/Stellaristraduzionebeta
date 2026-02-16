@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_stellaris_ita_logo"
+		texturefile = "gfx/interface/logos/stellaris_ita.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stellaris_ita_mainmenu_lines"
+		texturefile = "gfx/interface/mainmenu/mainmenu_lines_tradita.dds"
+	}
+
+}

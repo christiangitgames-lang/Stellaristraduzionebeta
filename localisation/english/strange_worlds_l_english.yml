@@ -1,0 +1,628 @@
+﻿l_english:
+
+ ##THE WORLD IS BLEEDING
+ strange_worlds.1.name: "Un mondo in agonia"
+ strange_worlds.1.desc: "La superficie di §Y[Root.GetName]§! sta mostrando una reazione senza precedenti ai nostri lavori di costruzione. Una sostanza viscosa non identificata sta iniziando a fuoriuscire dalle fondamenta delle installazioni chiave.\n\nLa sostanza è un liquido cremisi, di aspetto gelatinose ma estremamente adesivo al tatto.\n\nI nostri [Owner.GetScientistPlural] sono desiderosi di studiare ulteriormente questa emissione. Attualmente rappresenta solo un fastidio, ma sarebbe prudente garantire la sicurezza dei nostri [Owner.GetColonistPlural]."
+
+ strange_worlds.5.name: "Emorragia Incontrollata"
+ strange_worlds.5.desc: "§Y[Root.GetName]§! riferisce di inquietanti sviluppi riguardo alla misteriosa melma cremisi.\n\nLa sostanza sta rapidamente sfuggendo al controllo, apparendo con sempre maggior frequenza nelle zone infette.\n\nNonostante i rischi, questa melma presenta un lato utile: coagula formando un cemento naturale dalle proprietà adesive molto forti, capace di supportare le nostre attività di costruzione.\n\nTuttavia, la sostanza si rivela quasi impossibile da rimuovere dai [Owner.GetColonistPlural] contaminati. Studiare e trattare questi ultimi potrebbe fornirci preziose informazioni, ma al prezzo di un rallentamento nei lavori di costruzione."
+
+ strange_worlds.5.a: "Curare e analizzare chi è stato colpito dal contagio."
+ strange_worlds.5.b: "Continuiamo la costruzione."
+
+ strange_worlds.15.name: "Montagna di Sangue"
+ strange_worlds.15.desc: "I lavori su §Y[Root.GetName]§! procedono a un ritmo sorprendente, ma la minaccia della sostanza viscosa ha ormai superato le fondamenta delle nostre strutture.\n\nFessure emorragiche si sono aperte in vari punti, come ferite pulsanti sulla superficie del pianeta. All'inizio questa sostanza colpiva solo gli elementi estranei a [Root.GetName], ma ora si diffonde senza discriminazioni, avvolgendo ogni cosa.\n\nGran parte della superficie è stata inghiottita da questo fluido carminio, che si sta rapidamente trasformando in un coagulo minerale denso e impenetrabile, quasi a voler stringere il pianeta in una morsa mortale.\n\nDopo una serie di esperimenti estenuanti, i nostri ingegneri sono riusciti a trovare un modo per rallentare l'avanzata della sostanza e persino a sfruttarla, raccogliendola con un'efficienza mai raggiunta prima. Tuttavia, tutto questo ha richiesto il sacrificio di ampi territori, ceduti senza esitazione a quella massa inquietante."
+ strange_worlds.15.a: "Uno sviluppo interessante."
+
+ strange_worlds.20.name: "Parassita"
+ strange_worlds.20.desc: "Dopo un'accurata analisi e i primi tentativi di cura dei lavoratori affetti su §Y[Root.GetName]§!, i nostri scienziati hanno finalmente isolato l'origine del problema.\n\nCiò che sembrava essere solo una sostanza gelatinosa e viscosa si è rivelato essere una complessa colonia di microrganismi parassiti, capaci di instaurare una relazione simbiotica con il pianeta stesso. Questi organismi si nutrono della materia organica sepolta sotto la crosta di [Root.GetName], trasformandola in nuova sostanza per alimentare il loro ciclo vitale.\n\nIl disturbo provocato dalle nostre attività ha spezzato l'equilibrio del loro habitat, scatenando questa reazione aggressiva contro le intrusioni esterne.\n\nSe ci venisse concesso abbastanza tempo, il nostro team scientifico crede che potremmo imparare a convivere con queste forme di vita, sfruttando la loro biologia unica per potenziare i processi produttivi di [Root.GetName]."
+ strange_worlds.20.a: "Scoperta affascinante, procediamo."
+
+ strange_worlds.25.name: "Una collaborazione vantaggiosa"
+ strange_worlds.25.desc: "Dopo ricerche approfondite, i nostri scienziati hanno creato una variante dei microrganismi parassiti su §Y[Root.GetName]§!, progettata per riconoscere i nostri materiali come innocui nel loro ecosistema naturale, permettendoci di riprendere la costruzione senza problemi.\n\nIntrodotti nella biosfera del pianeta, i nostri parassiti ingegnerizzati si sono integrati con successo.\n\nInoltre, sfruttando gli effetti originali di decomposizione dei microrganismi, siamo riusciti a utilizzare le proprietà adesive della sostanza per potenziare i processi produttivi del pianeta."
+ strange_worlds.25.a.evopred: "Cosa potrebbero insegnarci?"
+
+ strange_worlds.30.name: "Apparsa dal nulla, senza alcun preavviso"
+ strange_worlds.30.desc: "Mentre preparavamo il terreno su §Y[Root.GetName]§! per le future espansioni, una gigantesca struttura è sembrata materializzarsi dal nulla, come un'apparizione fugace.\n\nAvvolta da onde energetiche instabili, essa si manifesta e svanisce a intermittenza, sfuggendo così ai nostri scanner iniziali.\n\nQuando è visibile, il suo esterno sigillato è ricoperto da simboli indecifrabili, scritti in un linguaggio che sfugge a ogni nostro registro.\n\nNon si riesce a cogliere alcuno scopo o funzione. Finora non ha arrecato danno, ma blocca il cammino della nostra espansione."
+ strange_worlds.30.a: "Procediamo con le indagini."
+
+ strange_worlds.35.name: "Anomalie Visive"
+ strange_worlds.35.desc.no_cloak: "L'analisi della struttura luminosa su §Y[Root.GetName]§! ci induce a pensare che l'oggetto giochi con la luce, piegandola o distorcendola in modi ancora incomprensibili.$strange_worlds.35.desc.common_1$ Nonostante la nostra crescente conoscenza delle sue strane proprietà, ancora non siamo riusciti a varcare la sua soglia, ammesso che varcarla sia possibile.$strange_worlds.35.desc.common_2$"
+ strange_worlds.35.desc.cloak: "Le analisi dell'edificio scintillante su §Y[Root.GetName]§! portano a ipotizzare che l'oggetto sia in grado di piegare la luce o distorcerla, nascondendosi a intermittenza dai nostri strumenti.$strange_worlds.35.desc.common_1$Per quanto la nostra comprensione degli effetti di occultamento dell'edificio sia cresciuta, l'accesso al suo interno rimane impossibile, ammesso che possa essere aperto.$strange_worlds.35.desc.common_2$"
+ strange_worlds.35.desc.common_1: "\n\nUn'intensa attività geotermica è stata individuata nelle profondità del mantello siliceo sottostante. Questa fonte di energia primordiale, potente e imprevedibile, sembra alimentare la misteriosa struttura, ma le sue fluttuazioni costanti ne rendono l'uso altamente instabile.\n\n"
+ strange_worlds.35.desc.common_2: "\n\nL'edificio è chiuso ermeticamente da un involucro di materiali ignoti e fortemente reattivi. I tentativi iniziali di forzare l'ingresso hanno soltanto aggravato la destabilizzazione dei campi elettromagnetici che lo avvolgono. Potremmo aprirci un varco, ma il rischio di provocare un'inaspettata e pericolosa reazione è troppo alto."
+ strange_worlds.35.a: "Forziamo l'ingresso con la forza bruta."
+ strange_worlds.35.b: "Continuiamo le analisi dall'esterno."
+
+ strange_worlds.40.name: "Reazione incontrollata"
+ strange_worlds.40.desc: "I tentativi di forzare l'ingresso nella struttura su §Y[Root.GetName]§! si sono conclusi in un disastro. Le nostre apparecchiature hanno ulteriormente destabilizzato i modelli energetici dell'edificio, causando una serie di potenti esplosioni. Ora non è altro che un relitto di cenere.\n\nLa sua distruzione accidentale ha prodotto un risultato inaspettato. Tra le rovine bruciate è emersa la colonia aliena, da tempo abbandonata, in una valle vicina.\n\nSembra che l'oggetto proiettasse un potente campo di occultamento sulla vecchia colonia; ciò da cui si nascondevano resta un mistero, ma è certo che sono periti nonostante i loro sforzi. Nulla di valore archeologico è rimasto intatto.\n\nIl funzionamento esatto di questa insolita tecnologia ci è ancora ignoto, ma abbiamo tratto nuove conoscenze dall'esperienza. Intendiamo sfruttare questa potente fonte di energia geotermica per la nostra colonia."
+ strange_worlds.40.a: "Una scoperta di grande valore."
+ strange_worlds.40.a_ct: "§YStruttura Scintillante§! Blocco rimosso"
+
+ strange_worlds.45.name: "Sala di controllo"
+ strange_worlds.45.desc.intro: "Approfondendo lo studio dei misteriosi simboli incisi sulla superficie della struttura aliena su §Y[Root.GetName]§!, abbiamo scoperto che rappresentano un'interfaccia. Manipolandola con cautela, siamo riusciti ad aprire una porta nascosta che conduce al cuore abbandonato dell'edificio, svelando un'imponente sala di controllo.\n\nPur non comprendendo appieno il suo funzionamento, abbiamo imparato a controllarne i comandi con tentativi ed errori. La loro interruzione ha avuto un effetto inatteso: nelle valli vicine sono emerse le rovine di una colonia aliena dimenticata da tempo.\n\nQuel misterioso oggetto proiettava un campo di occultamento potentissimo sulla colonia; cosa cercassero di celare resta un enigma, ma quel che è certo è che non hanno evitato la distruzione. Sebbene nulla di archeologico sia rimasto intatto, i nostri scienziati hanno saputo sfruttare appieno il sistema di controllo."
+ strange_worlds.45.desc.a: "$strange_worlds.45.desc.intro$\n\nAbbiamo finalmente acquisito la capacità di stabilizzare e ampliare il bizzarro effetto di occultamento emanato dalla struttura, avvolgendo così l'intera valle in un velo protettivo. Questo passo segna un notevole progresso per la salvaguardia della nostra colonia."
+ strange_worlds.45.desc.b: "$strange_worlds.45.desc.intro$\n\nAbbiamo raggiunto la capacità di stabilizzare e diffondere il campo di occultamento dell'edificio, estendendolo a coprire l'intera valle. Questo risultato ha inoltre ampliato significativamente la nostra comprensione delle tecnologie di occultamento."
+ strange_worlds.45.a: "Una scoperta di grande valore."
+
+ strange_worlds.55.name: "Sussulto della Natura"
+ strange_worlds.55.desc.intro: "Un'imponente specie di megafauna erbivora ha iniziato a sconvolgere la produzione energetica su §Y[Root.GetName]§!. In un'inquietante manifestazione di autodistruzione collettiva, queste creature si stanno letteralmente sacrificando sulle nostre stazioni energetiche, arrostendosi vive in uno spettacolo tanto macabro quanto inspiegabile.\n\nSpinte da una forza misteriosa, le bestie abbattono ogni barriera nel loro cammino, sfondando le recinzioni delle nostre reti energetiche pur di raggiungere il loro fatale destino. Le conseguenze per la produzione di energia sono già evidenti e preoccupanti.\n\n"
+ strange_worlds.55.desc.outro: "Questa specie è un pilastro dell'equilibrio ecologico del pianeta. Se questa folle corsa verso l'annientamento continuerà, si estingueranno prima che possiamo comprendere le cause del loro strano destino."
+ strange_worlds.55.desc.a: "$strange_worlds.55.desc.intro$Questo ha però portato a un beneficio inatteso: la produzione di cibo è aumentata, poiché [Owner.GetColonistPlural] hanno scoperto che la carne di queste creature è estremamente gustosa.\n\n$strange_worlds.55.desc.outro$"
+ strange_worlds.55.desc.b: "$strange_worlds.55.desc.intro$Seppur questa situazione incrementi la biomassa disponibile per la raccolta, si rivela alquanto problematica.\n\n$strange_worlds.55.desc.outro$"
+ strange_worlds.55.a: "Indaga questo comportamento"
+
+ strange_worlds.60.name: "Fisiologia Catalitica"
+ strange_worlds.60.desc: "Abbiamo fatto passi avanti nello studio della megafauna suicida su §Y[Root.GetName]§!.\n\nQuesti enormi animali, ciechi di fatto, si affidano all'ecolocazione per percepire il mondo e riconoscersi fra loro. Sembrerebbe che le frequenze emesse dalle nostre reti energetiche disturbino il loro udito finissimo, scatenando in loro una furia suicida contro le nostre centrali.\n\nPiù sorprendente ancora, abbiamo scoperto che gli enzimi digestivi di queste creature funzionano come potenti catalizzatori nei processi metallurgici. I primi esperimenti indicano che potremmo sfruttare questa peculiarità per migliorare la qualità delle nostre leghe.\n\nTuttavia, il cammino verso il ritorno a una produzione energetica stabile è ancora lungo. I nostri scienziati sono immersi nello studio per trovare una soluzione definitiva."
+ strange_worlds.60.a: "$FASCINATING$"
+
+ strange_worlds.65.name: "Magnetismo Animale"
+ strange_worlds.65.desc.intro: "Siamo finalmente riusciti a svelare il mistero dietro i comportamenti aggressivi e autodistruttivi delle creature su §Y[Root.GetName]§!.\n\nLe nostre osservazioni più recenti sul loro sistema di ecolocalizzazione e sulle dinamiche sociali hanno portato a una scoperta tanto sorprendente quanto inquietante: i richiami di accoppiamento di questi esseri vibrano sulla stessa frequenza dei campi energetici generati dalle nostre centrali. Una tragica ironia che ha trasformato le nostre installazioni in strumenti di morte per queste maestose creature.\n\n"
+ strange_worlds.65.desc.common: "Potremmo riprodurre i richiami di queste creature per deviare le loro rotte migratorie lontano dalla nostra colonia, stabilizzando così la loro popolazione. Questo ci permetterebbe di raccogliere gli enzimi catalitici presenti nei loro escrementi per migliorare la produzione di leghe, continuando al contempo lo studio della loro singolare fisiologia.\n\nD'altra parte, interferire con il loro comportamento naturale potrebbe avere conseguenze impreviste per le nostre [Owner.GetSpeciesHandName].\n\n"
+ strange_worlds.65.desc.outro: "Sarebbe semplice progettare mietitrici elettrificate su misura, capaci di trattare queste creature con efficienza senza mai interrompere il flusso della nostra produzione energetica."
+ strange_worlds.65.desc.devouring_swarm: "$strange_worlds.65.desc.intro$Queste nuove conoscenze ci permetteranno di incanalare le creature verso raccoglitori specializzati, trasformandole in una fonte costante di nutrimento. Che il banchetto abbia inizio."
+ strange_worlds.65.desc.food: "$strange_worlds.65.desc.intro$$strange_worlds.65.desc.common$Queste creature, un tempo misteriose, sono ora parte integrante della dieta degli abitanti di §Y[Root.GetName]§!, trasformandosi in una risorsa essenziale per la sopravvivenza della colonia.\n\n$strange_worlds.65.desc.outro$"
+ strange_worlds.65.desc.no_food: "$strange_worlds.65.desc.intro$Queste creature, pur non essendo adatte al consumo, sono diventate una risorsa affidabile e sostenibile di biomassa su §Y[Root.GetName]§!, essenziale per il nostro fabbisogno energetico.\n\n$strange_worlds.65.desc.outro$"
+ strange_worlds.65.a: "Raccogli i loro escrementi"
+ strange_worlds.65.b_devouring_swarm: "Che il banchetto abbia inizio!"
+ strange_worlds.65.b_default: "Preleva la loro carne."
+
+ strange_worlds.75.name: "Sabbie misteriose"
+ strange_worlds.75.desc: "I nostri coloni riportano fenomeni inquietanti legati alle sabbie su §Y[Root.GetName]§!\n\nTempeste di sabbia si sollevano all'improvviso, inghiottendo le terre vicine in mulinelli vorticosi che si dissipano altrettanto rapidamente. Fiumi di granelli in corsa attraversano il paesaggio come creature vive, per poi arrestarsi di colpo, lasciando dietro di sé solo un silenzio innaturale. Ci sono persino testimonianze di dune che si muovono lateralmente, sfidando ogni legge della natura, in giorni privi del minimo alito di vento.\n\nFinora, nessuna spiegazione atmosferica o geologica è riuscita a chiarire l'origine di questi fenomeni.\n\nSebbene queste sabbie non causino danni diretti, stanno progressivamente compromettendo le attività della nostra colonia. I nostri scienziati hanno avviato indagini approfondite per svelare i segreti di questo mistero."
+ strange_worlds.75.a: "Interessante."
+
+ strange_worlds.80.name: "Le Sabbie Cantanti"
+ strange_worlds.80.desc: "Le tempeste di sabbia su §Y[Root.GetName]§! hanno iniziato a risuonare di un cupo, profondo ronzio, le cui frequenze cambiano e si modulano con inquietante regolarità.\n\nAnche se il fenomeno delle \"sabbie canterine\" può trovare spiegazione nelle proprietà delle particelle libere, la costanza di queste modulazioni supera ciò che ci si aspetterebbe dall'attrito.\n\nAbbiamo anche scoperto una valle cosparsa di dune scolpite con simboli enigmatici. Questi glifi emergono in rilievo per un istante, per poi dissolversi nel vento come visioni evanescenti.\n\nNon è chiaro cosa dia vita a questa sabbia, ma la coerenza dei suoi movimenti suggerisce un disegno o una volontà nascosta."
+ strange_worlds.80.a: "Analizza le sequenze."
+
+ strange_worlds.85.name: "Sabbie Psioniche"
+ strange_worlds.85.desc_part1_no_zro: "Durante l'osservazione delle tempeste su §Y[Root.GetName]§!, i nostri [Owner.GetScientistPlural] hanno fatto una scoperta sorprendente: un tipo sconosciuto di materia esotica sembra pervadere ogni granello di sabbia, mescolandosi al silicio come un segreto sussurrato dal vento."
+ strange_worlds.85.desc_part1_zro: "Mentre analizzavano le tempeste di sabbia su §Y[Root.GetName]§!, i nostri [Owner.GetScientistPlural] hanno rivelato una realtà affascinante: lo Zro si diffonde silenzioso tra i granelli di silice, un'ombra invisibile che attraversa il deserto."
+ strange_worlds.85.desc_part2_non_machine_common_no_psionic_zroni: "\nMentre manipolavano i campioni, i nostri [Owner.GetResearchers] sono stati colti da visioni fugaci ma potenti: spettri Zroni si aggiravano tra le dune incise di simboli, come ombre erranti di un passato dimenticato."
+ strange_worlds.85.desc_part2_non_machine_common_no_psionic_no_zroni: "\nMentre manipolavano i campioni, i nostri [Owner.GetResearchers] sono stati colti da visioni fugaci ma potenti: strane figure aliene, ignote e indistinte, si muovevano tra le dune incise da simboli, come spiriti vaganti in un luogo senza tempo."
+ strange_worlds.85.desc_part2_non_machine_common_psionic_zroni: "\nMentre manipolavano i campioni, i nostri [Owner.GetResearchers] sono stati sopraffatti da visioni psioniche fugaci ma intense: spettri delle enigmatiche figure Zroni si muovevano tra le dune incise, come presenze di un mondo oltre la realtà."
+ strange_worlds.85.desc_part2_non_machine_common_psionic_no_zroni: "\nMentre manipolavano i campioni, i nostri [Owner.GetResearchers] sono stati colti da fugaci ma intense visioni psioniche: forme aliene sconosciute si manifestavano tra le dune incise, come ombre di un mondo oltre il nostro comprensibile."
+ strange_worlds.85.desc_part2_machine_common: "\nDurante l'esame dei campioni, i nostri [Owner.GetResearchers] hanno subito improvvise interferenze nei loro circuiti interni, come un disturbo invisibile che ha ostacolato le loro funzioni essenziali.\n\n"
+ strange_worlds.85.desc_part2_machine_zroni: "$strange_worlds.85.desc_part2_machine_common$ Queste intense perturbazioni hanno generato malfunzionamenti nella percezione visiva, facendo manifestare allucinazioni di figure Zroni che vagano tra le dune scolpite del pianeta."
+ strange_worlds.85.desc_part2_machine_no_zroni: "$strange_worlds.85.desc_part2_machine_common$ Queste intense perturbazioni hanno generato malfunzionamenti nella percezione visiva, facendo emergere allucinazioni di enigmatiche figure aliene che vagano tra le dune scolpite del pianeta."
+ strange_worlds.85.desc_part3_common: "\nQueste apparizioni sembrano essere all'origine dei glifi. La decifrazione dei simboli richiede tempo, ma riteniamo con sempre maggiore certezza che si tratti di una forma di linguaggio scritto.\n\n"
+ strange_worlds.85.desc_part3_zro: "$strange_worlds.85.desc_part3_common$Potremmo estrarre lo Zro dalla sabbia con relativa facilità, ma farlo rischierebbe di dissolvere quelle misteriose apparizioni. Eppure, la sostanza è presente in grande quantità, e la sua promessa di valore è difficile da ignorare."
+ strange_worlds.85.desc_part3_no_zro: "$strange_worlds.85.desc_part3_common$Potremmo estrarre il materiale esotico dalla sabbia, ma un'azione simile rischierebbe di disperdere quelle sfuggenti apparizioni. Eppure, questa sostanza unica, capace di sfidare le leggi della fisica, potrebbe nascondere un valore inestimabile."
+ strange_worlds.85.a: "Porta avanti con decisione gli sforzi di traduzione."
+ strange_worlds.85.b_no_zro: "Procedi senza indugio all'estrazione del materiale esotico."
+ strange_worlds.85.b_zro: "Procedi senza esitazioni all'estrazione dello Zro."
+
+ strange_worlds.90.name: "Lo Spettacolo della Sabbia"
+ strange_worlds.90.desc_intro_zroni: "Conoscendo la cultura Zroni, abbiamo tracciato un nuovo glifo sulle sabbie di §Y[Root.GetName]§!, un segno di saluto ancestrale. La risposta si è manifestata immediatamente."
+ strange_worlds.90.desc_intro_no_zroni: "Affidandoci ai vasti archivi linguistici, abbiamo inciso sulle sabbie di §Y[Root.GetName]§! centinaia di simboli che rappresentano saluti in tutte le lingue aliene conosciute. Dopo un'attesa carica di speranza, una risposta si è finalmente manifestata."
+ strange_worlds.90.desc_common: "\nLe tempeste di sabbia si dissolsero lentamente, il letto della valle si fece quieto e il canto delle dune si spense. Intere colline di sabbia si sollevarono leggere, trasformandosi in forme nuove e misteriose. Figure fatte di sabbia animata volteggiavano, danzando in uno spettacolo aereo di rara complessità.\n\n"
+ strange_worlds.90.desc_storyline_started: "$strange_worlds.90.desc_common$Ci fu immediatamente chiaro che ciò che avevamo davanti era la storia degli Zroni; una visione di un potere riscoperto e di un conflitto devastante. La sabbia, animata dall'energia dello Zro, si manifestava come un'eco cosmica dell'antica stirpe Zroni.$strange_worlds.90.desc_outro$"
+ strange_worlds.90.desc_storyline_finished: "$strange_worlds.90.desc_common$Ci fu subito chiaro che questa era la storia degli Zroni; la loro ascesa nel Velo e la rovina inevitabile che ne seguì. La sabbia, intrisa dello Zro, si faceva eco cosmica del destino tragico e inesorabile degli Zroni.$strange_worlds.90.desc_outro$"
+ strange_worlds.90.desc_storyline_not_started: "$strange_worlds.90.desc_common$Ci fu dato di capire che questa era la storia di una civiltà aliena che, scoperto un potere sconosciuto, finì per dividersi e autodistruggersi.$strange_worlds.90.desc_outro$"
+ strange_worlds.90.desc_outro: "\n\nDopodiché, le sabbie psioniche si posero nuovamente in silenzio. Le tempeste non sono più tornate; possiamo soltanto immaginare che queste sabbie abbiano accolto con maggiore benevolenza la nostra presenza su §Y[Root.GetName]§!."
+ strange_worlds.90.a: "$FASCINATING$"
+
+ strange_worlds.95.name: "Missioni di raccolta"
+ strange_worlds.95.desc_zroni_tech: "Affidandoci alla nostra maestria nella distillazione dello Zro, abbiamo estratto un'ingente quantità dalle sabbie di §Y[Root.GetName]§!, scoprendo segreti preziosi lungo il cammino.$strange_worlds.95.desc_outro$"
+ strange_worlds.95.desc_no_zroni_tech: "I tentativi di raccogliere lo Zro su §Y[Root.GetName]§! hanno avuto esiti contrastanti. Solo una piccola parte è stata salvata dalle sabbie, mentre gran parte si è dispersa durante i nostri esperimenti. Ma ogni perdita ci ha insegnato qualcosa di nuovo.$strange_worlds.95.desc_outro$"
+ strange_worlds.95.desc_outro: "\n\nUna volta eliminata la contaminazione da Zro, le sabbie sembrano aver ripreso la loro calma naturale. La nostra colonia può ora procedere senza temere le imprevedibili tempeste di sabbia. Chiunque fosse il burattinaio di questi fenomeni, ora è scomparso nel vuoto."
+
+ strange_worlds.105.name: "Scomparsa Improvvisa"
+ strange_worlds.105.desc_intro: "La comunicazione con uno dei nostri [Owner.GetExplorer] su §Y[Root.GetName]§! si è interrotta bruscamente, poco dopo aver segnalato la possibile scoperta di un §YGas Esotico§! in una valle fino ad allora inesplorata.\n\n"
+ strange_worlds.105.desc_gestalt_non_machine: "Abbiamo percepito un breve ma straziante dolore prima che i nodi si tacessero definitivamente."
+ strange_worlds.105.desc_gestalt_machine: "I dati dei nodi si sono corrotti improvvisamente prima di andare offline. Non sono più collegati alla nostra rete."
+ strange_worlds.105.desc_non_gestalt: "Con preoccupazione, l'ultima trasmissione si è interrotta di colpo, accompagnata da urla angosciate. Temiamo il peggio."
+ strange_worlds.105.a: "Preoccupante."
+
+ strange_worlds.110.name: "Pozze Caustiche"
+ strange_worlds.110.desc: "Durante l'indagine sull'ultima posizione conosciuta del nostro [Owner.GetExplorer] su §Y[Root.GetName]§!, abbiamo scoperto un paesaggio di torbiere estremamente acide che sprigionano una nebbia di puro §YGas Esotico§!. Queste paludi ospitano una specie di flora locale resistente, capace di sopravvivere a un'acidità estrema.\n\nNonostante l'ambiente sia altamente pericoloso, approfondire lo studio di queste nebbie gassose potrebbe rivelarsi prezioso per le risorse della colonia."
+ strange_worlds.110.a: "Studia queste nebbie."
+
+ strange_worlds.115.name: "Palude Digestiva"
+ strange_worlds.115.desc: "Durante lo studio delle paludi acide su §Y[Root.GetName]§!, uno dei nostri [Owner.GetScientistPlural] e il suo equipaggiamento di osservazione sono stati catturati dai tentacoli della flora autoctona e trascinati in una pozza caustica. La dissoluzione è stata quasi istantanea. Riteniamo che lo stesso destino sia toccato al nostro [Owner.GetExplorer] scomparso.\n\nPoco dopo, i tentacoli della pianta si sono gonfiati visibilmente e sono stati rilevati picchi di §YGas Esotico§!. Sembra che questa flora predatrice usi le torbiere acide come un sistema digestivo esterno, trascinando la preda per scioglierla e assorbire i nutrienti. Questo processo rilascia una piccola quantità di gas esotico raccoglibile.\n\nSpeculiamo che la biologia di questo organismo possa essere sfruttata nutrendolo con i rifiuti della colonia per produrre più gas, oppure potremmo neutralizzare queste torbiere per riconquistare terre fertili per l'agricoltura."
+ strange_worlds.115.a: "Coltiva questi organismi."
+ strange_worlds.115.b: "Riconverti la terra."
+
+ strange_worlds.120.name: "Torbiere Neutralizzate"
+ strange_worlds.120.desc: "Siamo riusciti a neutralizzare le torbiere acide su §Y[Root.GetName]§!, eliminando nel contempo la specie di flora che vi abitava. Di conseguenza, le nebbie di §YGas Esotico§! sono scomparse.\n\nQueste terre bonificate sono insolitamente fertili, grazie ai nutrienti residui del processo alimentare della flora locale. Abbiamo così creato un nuovo spazio agricolo di grande valore."
+ strange_worlds.120.a_ct: "Aggiunge §G2§! §Y$distretti_agricoli$§! a [This.GetName]"
+ strange_worlds.120.b.evopred: "Ottimo, raccogli anche i resti."
+
+ strange_worlds.130.name: "Eruzione di Materia Oscura"
+ strange_worlds.130.desc: "Quello che credevamo fosse un vecchio geyser inattivo su §Y[Root.GetName]§! è esploso violentemente, sprigionando nell'atmosfera un gas intriso di §YMateria Oscura§!.\n\nL'eruzione ha saturato i cieli, scatenando anomalie gravitazionali severe che bloccano i viaggi e le comunicazioni spaziali.\n\nPensiamo che la materia oscura abbia origine dal nucleo unico del pianeta. Per contenere la minaccia, sono stati dispiegati sifoni orbitali per estrarre questo miasma dalla stratosfera, poiché le condizioni estreme rappresentano un pericolo per i nostri [Owner.GetColonistPlural]."
+ strange_worlds.130.a: "Monitorate attentamente la situazione."
+
+ strange_worlds.135.name: "Oscurità Liquida"
+ strange_worlds.135.desc_common_1: "Siamo riusciti a siphonare il miasma di §YMateria Oscura§! dall'atmosfera di §Y[Root.GetName]§! e abbiamo iniziato a valutare i danni."
+ strange_worlds.135.desc_common_2: "\nQuando abbiamo ristabilito il contatto con la colonia, abbiamo scoperto che i [Owner.GetColonistPlural] erano stati pietrificati da una sostanza che sembra essere materia oscura solidificata."
+ strange_worlds.135.desc_organic_non_gestalt: "$strange_worlds.135.desc_common_2$ Rilevando segnali vitali all'interno di questi involucri, li abbiamo estratti con cura."
+ strange_worlds.135.desc_machine: "$strange_worlds.135.desc_common_2$ Rilevando segnali elettronici funzionanti all'interno di questi involucri, li abbiamo liberati."
+ strange_worlds.135.desc_gestalt: "$strange_worlds.135.desc_common_2$ Percependo i loro tentativi di reintegrare il collettivo, li abbiamo liberati dalla loro tomba fisica."
+ strange_worlds.135.desc_outro: "\nContro ogni aspettativa, i [Owner.GetColonistPlural] sembrano non aver subito effetti negativi dall'esposizione prolungata e dalla stasi.\n\nIl geyser che ha causato l'incidente si è nel frattempo trasformato in un lago di materia oscura liquida.\n\nUn evento senza precedenti che richiede uno studio approfondito. I nostri [Owner.GetScientistPlural] sono incerti su dove concentrare le risorse, già scarse."
+ strange_worlds.135.a: "Mettere in quarantena e studiare la popolazione."
+ strange_worlds.135.b: "Dare priorità allo studio della materia oscura."
+
+ strange_worlds.140.name: "Contaminazione da Materia Oscura"
+ strange_worlds.140_intro: "I nostri scienziati sono fiduciosi che il lago di Materia Oscura su §Y[Root.GetName]§! non rappresenti più un pericolo imminente per il pianeta. Tuttavia, non si può dire altrettanto dei sintomi emergenti che stanno colpendo la popolazione. Mentre studiavamo i coloni in quarantena, abbiamo individuato mutazioni fisiche in corso, dovute alla loro sepoltura nella sostanza."
+ strange_worlds.140_common: "\nL'esposizione prolungata ha saturato le molecole dei loro corpi con materia oscura,"
+ strange_worlds.140_machine_1: "$strange_worlds.140_common$corrompendo completamente i loro sistemi."
+ strange_worlds.140_non_machine_1: "$strange_worlds.140_common$contaminando i loro sistemi circolatori."
+ strange_worlds.140_machine_2: "\nNonostante il rischio di un malfunzionamento prematuro, queste contaminazioni consentiranno alle unità costruite su questo mondo di processare e raccogliere Materia Oscura in modo efficiente, se integrate nei loro processi di assemblaggio."
+ strange_worlds.140_non_machine_2: "\nPossiamo coltivare queste anomalie, permettendo ai corpi dei nostri [Owner.GetColonistPlural] di processare e secernere Materia Oscura raccoglibile, sacrificando però parte della loro durata di vita."
+ strange_worlds.140.a.dc_empire: "Accogliamo questo dono."
+ strange_worlds.140.a.machine_empire: "Sfruttiamo queste anomalie."
+ strange_worlds.140.a.normal: "Processiamo i contaminanti."
+ strange_worlds.140.b: "Eliminiamo la contaminazione."
+
+ strange_worlds.145.name: "Micro Buco Nero"
+ strange_worlds.145.desc: "Un approfondito studio del lago di materia oscura su §Y[Root.GetName]§! ha rivelato informazioni geologiche cruciali che potrebbero spiegare la causa dell'incidente iniziale.\n\nIl nucleo del pianeta ospita un micro buco nero, lungo meno di un metro. La massa maggiore del pianeta stesso annulla le forze gravitazionali che ci saremmo aspettati da un'anomalia simile. Sembra che questo equilibrio tra le masse sia stabile e destinato a durare a lungo.\n\nUn recente evento sismico ha provocato uno spostamento nel mantello interno, causando l'eruzione del geyser. Il lago di materia oscura ha agito da tappo per stabilizzare il nucleo planetario e prevenire ulteriori eruzioni.\n\nTuttavia, la saturazione prolungata di materia oscura non è stata innocua come sembrava.\n\nMicro buchi neri instabili si sono formati nel centro di massa dei [Owner.GetColonistPlural], facendo implodere violentemente i loro corpi. Sono rimaste solo carcasse senza vita, costituite da materia oscura cristallizzata. Le scansioni non hanno rilevato ulteriori attività al loro interno.\n\nIl nostro conteggio finale indica che abbiamo perso circa un quarto della popolazione di §Y[Root.GetName]§! in un istante. Al loro posto, statue di materia oscura solida punteggiano il pianeta in diverse pose."
+ strange_worlds.145.a.no_gestalt: "Sfortunato."
+ strange_worlds.145.a.gestalt: "Orrore."
+
+ strange_worlds.155.name: "Parassiti Ripugnanti"
+ strange_worlds.155.desc_homicidal: "Abbiamo incontrato una specie di fauna nativa di §Y[Root.GetName]§! decisamente disgustosa.\n\nQuesti esseri hanno sviluppato un meccanismo di difesa che coincide con il loro principale metodo di acquisizione del cibo. Mancando degli enzimi digestivi necessari per scomporre il cibo solido, emettono un gas potente e repellente che induce il vomito proiettivo in altri organismi con un sistema digerente funzionante. Le sostanze espulse vengono poi consumate come principale fonte di nutrienti.\n\nL'eliminazione di queste creature orribili garantirà un utile bottino di §YGas Esotici§! e §YCibo§!."
+ strange_worlds.155.desc_normal: "I nostri [Owner.GetColonistPlural] su §Y[Root.GetName]§! hanno incontrato una specie di fauna locale con un metodo... piuttosto unico per procurarsi il cibo.\n\nInizialmente timide, queste creature si sono abituate alla nostra presenza e, grazie al loro carattere amichevole, sono diventate popolari soprattutto tra i più giovani [Root.Owner.GetSpeciesNamePlural].\n\nPur non rappresentando un pericolo diretto, hanno sviluppato un meccanismo di difesa che coincide con il loro principale metodo di acquisizione del cibo. Mancando degli enzimi digestivi necessari per scomporre il cibo solido, emettono un gas potente e repellente che induce il vomito proiettivo in altri organismi con un sistema digerente funzionante. Le sostanze espulse vengono poi consumate come principale fonte di nutrienti.\n\nLa situazione comporta rischi di diffusione di malattie infettive e i leader locali hanno invitato i [Owner.GetColonistPlural] a evitare queste strane creature.."
+ strange_worlds.155.a: "Che xenobiologia unica."
+ strange_worlds.155.b_purifiers: "Creature disgustose."
+ strange_worlds.155.b_swarm: "Non è per tutti, ma c'è chi lo ama!"
+ strange_worlds.155.b_normal: "Eliminali al primo avvistamento"
+
+ strange_worlds.160.name: "Evoluzioni Ripugnanti"
+ strange_worlds.160.desc: "Liberare §Y[Root.GetName]§! dai suoi disgustosi parassiti si è rivelato un compito arduo. I membri più giovani della colonia continuano a giocare con queste creature nonostante gli avvertimenti ufficiali.\n\nDi conseguenza, le nostre proteine [Root.Owner.GetSpeciesOrganName] sono diventate la loro fonte di cibo preferita. La nostra colonia è diventata un bersaglio molto più facile rispetto alla fauna planetaria che ha imparato a evitare i loro gas nauseabondi. Questi esseri si sono ulteriormente adattati alla nostra presenza, e sono stati osservati mentre attuano imboscate contro qualsiasi [Owner.GetColonist] solitario che si aggiri dopo un pasto.\n\nIncredibilmente, ci sono anche vantaggi in questa situazione. I nostri scienziati hanno scoperto che i fumi emetici prodotti da queste creature contengono preziose particelle di §YGas Esotico§! che potrebbero essere raccolte addomesticando gli animali e tenendoli in strutture di quarantena.\n\nTuttavia, la maggioranza della colonia ha proposto di eliminarli semplicemente."
+ strange_worlds.160.a: "Recintiamoli."
+ strange_worlds.160.b: "Ora basta. Sparate a vista."
+
+ strange_worlds.165.name: "Una Boccata d'Aria Fresca"
+ strange_worlds.165.desc: "Le creature su §Y[Root.GetName]§! non provocano più rigurgiti di massa.\n\nCon lo sviluppo di una pasta nutritiva sintetica studiata per la loro xenobiologia, abbiamo regolato i loro cicli alimentari e posto fine alle imboscate opportunistiche contro i nostri [Owner.GetColonistPlural].\n\nLe abbiamo trasferite in una riserva naturale appositamente progettata, dove il pubblico può ammirarle in sicurezza. Sono stati addestrati specialisti per estrarre il loro §YGas Esotico§! senza arrecare ulteriori danni."
+ strange_worlds.165.a: "Finalmente un po' di sollievo."
+ strange_worlds.165.a.evopred: "Impediamo che quell'odore peggiori."
+
+ strange_worlds.170.name: "Colpire per Uccidere"
+ strange_worlds.170.desc: "Da quando abbiamo adottato la politica ufficiale di sparare a vista, sono ormai passati diversi mesi dall'ultima volta che la specie molesta è stata avvistata nei pressi della colonia su §Y[Root.GetName]§!.\n\nSebbene alcuni [Owner.GetColonistPlural] sentano la mancanza di queste creature pelose, tutti sono complessivamente più tranquilli ora che possono muoversi liberamente senza rischiare di vomitare.\n\nI nostri scienziati hanno recuperato i corpi degli animali, estraendo una buona quantità di §YGas Esotico§! direttamente dai loro organi interni."
+ strange_worlds.170.a: "Se lo sono cercata."
+
+ strange_worlds.185.name: "Ostilitá Interdistrettuale"
+ strange_worlds.185.desc: "I rapporti da §Y[Root.GetName]§! segnalano una preoccupante escalation di ostilità tra le popolazioni rurali e urbane. Non è stata individuata alcuna causa evidente a giustificare questa inimicizia, se non la loro posizione geografica arbitraria.\n\nI nuovi immigrati sono inizialmente accolti con ostilità, ma nel giro di poche settimane, una volta assegnati ai rispettivi distretti, vengono integrati nel gruppo. Per questo motivo, i nostri scienziati sono convinti che questo comportamento strano sia causato da fattori locali specifici dei distretti.\n\nNel frattempo, per evitare che la situazione peggiori, è necessario stabilizzare il clima. Possiamo scegliere di supportare ufficialmente i distretti urbani o rurali, oppure inviare forze di polizia aggiuntive per mantenere la pace."
+ strange_worlds.185.a: "Supporta i distretti urbani."
+ strange_worlds.185.b: "Supporta i distretti rurali."
+ strange_worlds.185.c: "Invia rinforzi per mantenere l'ordine."
+
+ strange_worlds.190.name: "Qualcosa nell'Acqua"
+ strange_worlds.190.desc_intro: "Dopo approfondite analisi ambientali su §Y[Root.GetName]§!, i nostri scienziati hanno individuato la causa dell'ostilità tra i distretti.\n\nNelle profondità del mantello planetario giace il cadavere in decomposizione di un organismo gigantesco. Dopo millenni di decomposizione, il fluido spinale di questa creatura antica si è infiltrato nelle falde acquifere, contaminandole con un batterio psionico. Questo microbo capace di alterare la mente ha invaso i sistemi nervosi dei nostri [Owner.GetColonistPlural], scatenando forti istinti territoriali ereditati probabilmente dall'animale originale.\n\n"
+ strange_worlds.190.desc_non_psionic: "Dovremmo riuscire a risolvere il problema filtrando l'acqua con una complessa serie di filtri di alta qualità, progettati appositamente.\n\n"
+ strange_worlds.190.desc_psionic: "Questa impurità esotica interferisce con le nostre naturali capacità psioniche.$strange_worlds.190.desc_non_psionic$"
+ strange_worlds.190.desc_outro_non_psionic: "In alternativa, i nostri scienziati sono fiduciosi di poter modificare geneticamente il batterio a livello cellulare, indirizzando gli istinti territoriali verso scopi più produttivi."
+ strange_worlds.190.a: "Filtrare le acque sotterranee."
+ strange_worlds.190.b: "Tentare una modifica genetica del batterio."
+
+ strange_worlds.195.name: "Abilità Emergenti"
+ strange_worlds.195.desc_intro: "L'installazione delle stazioni di filtraggio dell'acqua su §Y[Root.GetName]§! si è rivelata un successo straordinario.\n\n"
+ strange_worlds.195.desc_psionic: "L'aggressività iper-territoriale è diminuita, e non solo l'interferenza con le nostre capacità psioniche è cessata, ma queste sono state addirittura potenziate grazie a probiotici naturali che favoriscono una §YRete Psionica Ephapse§! tra gli individui su §Y[Root.GetName]§!. Questo rafforza il nostro legame telepatico condiviso, promuovendo un senso di comunità ancora più profondo e migliorando la produttività."
+ strange_worlds.195.desc_non_psionic: "Sebbene l'aggressività iper-territoriale si sia attenuata, la popolazione ha riportato alcuni effetti collaterali residui ma potenzialmente utili, sotto forma di probiotici naturali che favoriscono una §YSinapsi Psionica§! tra gli individui su §Y[Root.GetName]§!. Questo consente ai nostri [Owner.GetColonistPlural] di comunicare telepaticamente tra loro, rafforzando il senso di comunità e migliorando la produttività."
+ strange_worlds.195.a: "Molto bene."
+ strange_worlds.195.a_ct: "Tutti i pop su §Y[Root.GetName]§! ricevono §YSinapsi Psionica§!"
+ strange_worlds.195.a.evopred: "Ha un sapore... §MStrano§!."
+ strange_worlds.195.a_ct.evopred: "La nostra specie primaria riceve §YSinapsi Psionica§!"
+
+ strange_worlds.200.name: "Riesequenziamento Batterico"
+ strange_worlds.200.desc: "Abbiamo neutralizzato con successo gli effetti negativi dell'organismo batterico su §Y[Root.GetName]§!. I conflitti tra i [Owner.GetColonistPlural] si sono placati e stanno già mostrando segni di maggiore produttività.\n\nI nostri scienziati sono fiduciosi di poter spingersi oltre nella modifica del codice genetico del microbo. Con il giusto sequenziamento del suo genoma, potremmo potenziare ulteriormente un aspetto delle prestazioni dei nostri [Owner.GetColonistPlural].\n\nTuttavia, il microrganismo risultante non sopravviverà a lungo fuori dal pianeta. La connessione psionica tra i suoi mitocondri e la carcassa aliena deve rimanere intatta affinché il batterio possa riprodursi. Non comprendiamo ancora appieno il motivo."
+ strange_worlds.200.a: "Potenzia le capacità riproduttive."
+ strange_worlds.200.b: "Potenzia la forza."
+ strange_worlds.200.c: "Potenzia la cognizione."
+
+ strange_worlds.1000.name: "Gallerie Laviche Mineralizzate"
+ strange_worlds.1000.desc: "L'inaridirsi del clima su §Y[From.GetName]§! ha rivelato un'ampia rete di gallerie laviche sul fondale oceanico ora esposto del pianeta.\n\nI flussi di magma che hanno creato questi profondi tunnel sono ora dormienti, lasciando dietro di sé una ricca vena di minerali forgiati tempo fa dal calore e dalla pressione estrema del nucleo fuso di §Y[From.GetName]§!.\n\nQuesti depositi produttivi sono estremamente densi; le operazioni di estrazione saranno costose ma molto redditizie."
+
+ strange_worlds.1005.name: "Uova Idroattive"
+ strange_worlds.1005.desc: "La terraformazione di §Y[From.GetName]§! ha causato un'impennata inaspettata nella popolazione della fauna autoctona.\n\nAbbiamo scoperto che i cicli riproduttivi di molte specie locali sono strettamente legati alla disponibilità di acqua nell'ambiente. Le loro uova, che in precedenza rimanevano sepolte nel terreno per mesi prima di assorbire abbastanza acqua per schiudersi, ora ricoprono abbondantemente il paesaggio. I numeri della fauna del pianeta stanno aumentando a un ritmo logaritmico.\n\nMolte di queste creature sono altamente nutrienti; forniranno una fonte alimentare abbondante per §Y[From.GetName]§!, oltre a offrire opportunità di studio su un ecosistema estremamente attivo. I visitatori di questo pianeta dovranno ora sottoporsi a un accurato processo di screening alla partenza per prevenire contaminazioni extra-mondo."
+ strange_worlds.1005.evopred: "È possibile replicare questo ritmo?"
+
+ strange_worlds.1010.name: "Sospesi nel Ghiaccio"
+ strange_worlds.1010.intro: "I nostri sforzi di terraformazione su §Y[From.GetName]§! hanno rivelato un numero sorprendente di creature autoctone sepolte nel ghiaccio superficiale. Ancora più stupefacente è il fatto che queste creature siano in qualche modo ancora vive.\n\nLa specie sembra trovarsi in una fase di ibernazione estremamente profonda; un metodo efficace per sopravvivere alle lunghe ere glaciali di §Y[From.GetName]§!. Lo scongelamento causato dal processo di terraformazione ha interrotto prematuramente il loro stato di stasi.\n\nSvegliate dal loro sonno glaciale, le creature stanno già dimostrando segni di intelligenza, utilizzando strumenti semplici per raccogliere il cibo.\n\n"
+ strange_worlds.1010.desc_exterminate: "$strange_worlds.1010.intro$Saranno sterminate senza indugio. Raccoglieremo la biomassa risultante per i nostri scopi."
+ strange_worlds.1010.desc_hunted: "$strange_worlds.1010.intro$Le loro fisiologie uniche ci forniranno una ricca fonte alimentare."
+ strange_worlds.1010.desc_tolerated: "$strange_worlds.1010.intro$Potremmo studiare le straordinarie capacità d'ibernazione di questa specie o raccoglierne la biomassa."
+ strange_worlds.1010.desc_protected: "$strange_worlds.1010.intro$Dovremmo proteggere queste forme di vita. Le loro notevoli capacità d'ibernazione meritano ulteriori studi."
+ strange_worlds.1010.a.purge: "Eliminali."
+ strange_worlds.1010.b.hunted: "Cacciali."
+ strange_worlds.1010.c.study: "Studiali."
+ strange_worlds.1010.d.purge: "Eliminali."
+ strange_worlds.1010.e.protect: "Proteggili."
+
+ strange_worlds.1015.name: "Montagne d'Acciaio"
+ strange_worlds.1015.desc: "Uno dei nostri specialisti della terraformazione ha segnalato un problema imminente su §Y[From.GetName]§!.\n\nSotto le catene montuose ghiacciate del pianeta si trovano vasti depositi altamente concentrati di ferro e carbonio, tutti super-riscaldati dal processo di terraformazione.\n\nPotremmo rimuovere in sicurezza queste risorse ormai quasi fuse. In alternativa, lasciando continuare il super-riscaldamento, potremmo creare una fonte perpetua di leghe. Naturalmente, ciò avverrebbe a scapito dello spazio abitabile."
+ strange_worlds.1015.a: "Dai priorità alle risorse."
+ strange_worlds.1015.b: "Non fare nulla."
+
+ strange_worlds.1020.name: "Atmosfera Combustibile"
+ strange_worlds.1020.desc: "La terraformazione su §Y[From.GetName]§! ha avuto conseguenze impreviste. A nostra insaputa, il terriccio del pianeta era composto da una miscela di particelle fini contenenti alte concentrazioni di §YGranelli Volatili§!, che il nostro processo ha disperso nell'atmosfera del pianeta.\n\nPurtroppo, queste particelle ad alta energia aumentano il rischio di eventi di combustione accidentale sulla superficie. Ogni futura colonia dovrà dare priorità alla prevenzione degli incidenti e dei conflitti per evitare conseguenze devastanti.\n\nTuttavia, se riusciremo a gestire attentamente i pericoli, l'atmosfera di §Y[From.GetName]§! diventerà una ricca fonte di questi rari materiali."
+
+ strange_worlds.1025.name: "Lava Blu"
+ strange_worlds.1025.desc: "La crosta planetaria di §Y[From.GetName]§! si è spostata a seguito del processo di terraformazione, portando a un fenomeno naturale insolito.\n\nLe placche tettoniche in movimento hanno spostato diverse sacche di §YGas Esotici§! che hanno reagito con i depositi minerali ricchi di §YLeghe§! presenti nei vulcani del pianeta, causando eruzioni di un vivido colore blu.\n\nLa natura instabile di questo fenomeno ha reso il pianeta un po' meno ospitale, influenzando i nostri piani per creare spazi abitabili per i nostri [Root.GetColonistPlural].\n\nIn compenso, il terreno attorno a questi vulcani è ora ricco di risorse che possiamo sfruttare."
+
+ strange_worlds.1030.name: "Fulmini Perpetui"
+ strange_worlds.1030.desc: "Abbiamo ricevuto segnalazioni di un nuovo fenomeno atmosferico emergente su §Y[From.GetName]§!.\n\nI depositi cristallini nel substrato roccioso del pianeta sono stati esposti durante la terraformazione, reagendo con le sostanze chimiche impiegate nel processo e diventando radioattivi. Le fluttuazioni risultanti nella temperatura dell'aria hanno generato una tempesta di fulmini perpetua che coinvolge l'intero pianeta.\n\nQueste condizioni meteorologiche uniche influenzeranno inevitabilmente lo sviluppo delle infrastrutture, e i cristalli irradiati avranno certamente conseguenze sulla vivibilità a lungo termine. Tuttavia, i nostri [Owner.GetScientistPlural] sono fiduciosi di poter sfruttare l'energia delle tempeste una volta completata la terraformazione.\n\nIn alternativa, i nostri [Owner.GetEngineerPlural] hanno già elaborato piani per neutralizzare in sicurezza la carica dei depositi cristallini. Questo dovrebbe dissipare le tempeste e consentirci di raccoglierli per altri usi."
+ strange_worlds.1030.a: "Sfrutta l'energia di queste tempeste."
+ strange_worlds.1030.b: "Neutralizza i cristalli."
+
+ strange_worlds.1035.name: "Ibernatori"
+ strange_worlds.1035.desc: "Gli studi sulla popolazione pre-senziente di §Y[event_target:hibernator_planet.GetName]§! hanno prodotto importanti conoscenze sui loro straordinari schemi di ibernazione. Sono regolati da un particolare enzima che innesca l'ingresso e l'uscita del corpo in uno stato di stasi profonda. In questo stato, le reazioni chimiche all'interno del corpo si riducono quasi a livelli trascurabili.\n\nAbbiamo estratto questo enzima e siamo riusciti a somministrarlo con successo - tramite un composto sedativo - a varie altre forme di vita. In tutti i casi, le specie precedentemente incapaci di ibernarsi sono riuscite ad entrare in uno stato di dormienza prolungata che ha ridotto notevolmente l'invecchiamento cellulare durante il periodo.\n\nQuesta straordinaria scoperta apre la strada a criosonno potenziati artificialmente, che ridurranno drasticamente gli sforzi fisici nei viaggi spaziali a lungo raggio per le specie organiche."
+
+ strange_worlds.1040.name: "Sepolture Celesti"
+ strange_worlds.1040.desc: "Non appena abbiamo terminato il processo di terraformazione su §Y[From.GetName]§!, corpi hanno iniziato a cadere dal cielo.\n\nDa tali altezze, queste antiche carcasse si riducono a poltiglia all'impatto. Tra le viscere abbiamo scoperto grappoli di piccoli oggetti - strumenti ornamentali e reliquie bizzarre - tutti precipitati dalle stesse dense nubi nell'alta atmosfera del pianeta.\n\nQueste spesse nubi, che possiamo solo supporre fossero utilizzate come luogo di sepoltura da una razza aliena sconosciuta, si stanno ora diradando a causa delle modifiche atmosferiche apportate dalla terraformazione, rilasciando così il contenuto che vi era sospeso. Possiamo aspettarci che questi resti continuino a cadere finché le tombe tra le nuvole non saranno completamente svuotate."
+ strange_worlds.1040.a: "Macabro, ma potenzialmente redditizio."
+ strange_worlds.1040.b: "Insalubre. Ripuliteli immediatamente."
+
+ strange_worlds.1050.name: "Detriti Orbitali"
+ strange_worlds.1050.desc: "I nostri ingegneri della terraformazione su §Y[event_target:junk_moon_planet.GetName]§! stanno affrontando condizioni di lavoro pericolose a causa della presenza di rifiuti spaziali e detriti minori in orbita attorno al pianeta. L'elevato volume di questi oggetti rappresenta un pericolo di navigazione per le navette in transito da e verso la superficie.\n\nData la densità del materiale, abbiamo elaborato delle proposte per magnetizzare i frammenti più grandi affinché attraggano gli altri detriti in orbita, consolidandoli gradualmente in un'entità unica e più gestibile. Teorizziamo che sarà possibile creare una luna artificiale.\n\nAnche se ciò aumenterebbe i tempi della terraformazione, renderebbe molto più agevole l'accesso alla superficie e rimuoverebbe il rischio che i detriti entrino periodicamente nell'atmosfera."
+ strange_worlds.1050.a: "Facciamo una luna."
+ strange_worlds.1050.b: "Brucerà da sé."
+
+ strange_worlds.1060.name: "Luna di Rottami"
+ strange_worlds.1060.desc: "I tentativi di consolidare i detriti spaziali in orbita attorno a §Y[event_target:junk_moon_planet.GetName]§! hanno avuto successo.\n\nMagnetizzando molti dei frammenti più grandi, abbiamo gradualmente raccolto tutto in un'enorme massa di rottami metallici. La sua densità è ora tale da possedere un proprio livello apprezzabile di attrazione gravitazionale. Questa luna appena creata ha già assunto un'orbita stabile.\n\nL'accesso alla superficie di §Y[event_target:junk_moon_planet.GetName]§! è molto più agevole senza i pericolosi detriti orbitali, e non dobbiamo più preoccuparci della loro eventuale entrata in atmosfera. Inoltre, i nostri ingegneri sono fiduciosi che questa nuova luna possa ospitare una stazione mineraria."
+ strange_worlds.1060.create_moon_ct: "[event_target:junk_moon_planet.GetName] ha una nuova luna: Luna di Rottami"
+
+ site_abandoned_bio_lab: "Struttura Antica"
+ abandoned_bio_lab_desc: "Le scansioni di §Y[fromfrom.planet.GetName]§! hanno rilevato una struttura isolata nella regione più inaccessibile del pianeta. La costruzione appare inattiva o abbandonata, senza segnali energetici e con segni di prolungato degrado. Una spedizione archeologica potrebbe fornire ulteriori informazioni."
+
+ strange_worlds.2000.name: "Laboratorio Biologico Abbandonato"
+ strange_worlds.2000.desc: "L'interno della struttura contiene una miriade di macchinari medici abbandonati, camere di trattamento e un obitorio. Nei pod di conservazione dei cadaveri abbiamo trovato resti organici parzialmente conservati, con segni di malattia e deformazione. La presenza di porte di sicurezza, impianti di sorveglianza e celle di contenimento ha portato §H[universal_macrophage_scientist.GetName]§! a concludere che alcuni individui siano stati trattenuti qui contro la loro volontà.\n\nAbbiamo recuperato alcune parti di attrezzature, ma quasi tutto è gravemente deteriorato. Nei sistemi informatici sono rimasti pochi dati, alcuni dei quali sono stati recuperati ma necessitano di traduzione."
+
+ strange_worlds.2005.name: "Antica Ricerca Immunologica"
+ strange_worlds.2005.desc: "§H[universal_macrophage_scientist.GetName]§! ha prodotto una traduzione parziale di uno dei file recuperati dalla struttura su §Y[fromfrom.planet.GetName]§!.\n\n§LLaboratorio 17 - Aggiornamento dei progressi - Responsabile della Ricerca Gelebor\n\nIl nuovo prototipo ha mostrato una promessa iniziale. I sistemi immunitari dei soggetti sono stati potenziati di milioni di volte e tutti i patogeni eliminati. Persistono effetti collaterali: mutazioni letali, nessun sopravvissuto. Riproveremo. Il Macrofago Universale è a portata di mano, ne sono certo.§!"
+
+ strange_worlds.2010.name: "La Scelta di Gelebor"
+ strange_worlds.2010.desc: "§H[universal_macrophage_scientist.GetName]§! ha tradotto un altro file dal laboratorio abbandonato su §Y[fromfrom.planet.GetName]§!.\n\n§LLaboratorio 17 - Memo interno - Responsabile della Ricerca Gelebor\n\nColleghi, oggi è giunto l'ordine di chiusura del progetto; la pazienza del sovrano è esaurita. Eppure siamo così vicini al nostro obiettivo! Il Macrofago Universale è più importante dei capricci di un singolo individuo. Un futuro libero da malattie può essere nostro! Qual è il piccolo prezzo di qualche altra vita per un tale progresso?\n\nSe non invieranno altri soggetti per i test - proverò l'ultimo prototipo su me stesso. Chi si unirà a me?§!"
+ strange_worlds.2010.a: "Procediamo con cautela."
+
+ strange_worlds.2015.name: "Il Macrofago Universale"
+ strange_worlds.2015.desc: "§H[universal_macrophage_scientist.GetName]§! ha tradotto l'ultimo log recuperato dai computer del laboratorio su §Y[fromfrom.planet.GetName]§!.\n\n§LLaboratorio 17 - Rapporto Finale - Assistente di Ricerca Filidor\n\nTale era la fiducia di Gelebor che lo abbiamo seguito ciecamente.\n\nTestando il prototipo su noi stessi, i nostri sistemi immunitari si sono inizialmente potenziati; eravamo quasi invincibili a qualsiasi patogeno esterno. Poi sono iniziate le mutazioni.\n\nGelebor è morto per primo. È stato difficile assistere alla scena. Ora l'intero team riposa nell'obitorio e presto li raggiungerò.\n\nAbbiamo fallito. Abbiamo affidato le nostre vite alla formula difettosa di Gelebor. Il Macrofago Universale funziona troppo bene - alla fine attacca lo stesso ospite. Tutto ciò che è qui deve essere distrutto.§!"
+ strange_worlds.2015.a: "Distruggete tutto."
+ strange_worlds.2015.b: "Completate il lavoro di Gelebor. C'è del potenziale."
+ strange_worlds.2015.b.mutation: "Siamo maestri della Mutazione. Terminiamo il lavoro."
+ has_tr_mutation_finish_tt: "Questa opzione è disponibile poiché abbiamo completato l'albero delle tradizioni §Y$Mutation$§!"
+ strange_worlds.2015.c: "Questa ricerca difettosa può comunque tornare utile."
+
+ strange_worlds.2030.name: "Mutazioni Letali"
+ strange_worlds.2030.desc: "I cittadini su §Y[Root.GetName]§! stanno sperimentando gravi mutazioni fisiche che compromettono il funzionamento cellulare e degli organi vitali. In alcuni casi queste modifiche hanno migliorato l'efficienza metabolica, ma più comunemente stanno causando decessi.\n\nQuesti effetti collaterali coincidono perfettamente con quelli descritti nei documenti originali del §YMacrofago Universale§!. Nonostante i nostri sforzi, pare che le mutazioni letali causate dalla formula siano inevitabili. Questa tecnologia non è più affidabile. Stiamo distruggendo tutte le rimanenze della formula e ne sospenderemo l'uso."
+ strange_worlds.2030.ct: "§Y[Root.GetName]§! perde 100 £pop£ Pop ed altri 100 £pop£ Pop ogni $@macrophage_kill_pop_every_x$ £pop£ Pop presenti\nTutti i Pop organici £pop£ su §Y[Root.GetName]§! ricevono le §YMutazioni Geleboriche§! e subiscono cambiamenti fisiologici drastici."
+
+ site_anomalous_cube: "Cubo Anomalo"
+ anomalous_cube_desc: "Un enorme cubo metallico è stato scoperto su §Y[Planet.GetName]§!. La sua forma, perfettamente liscia, è indicativa di capacità tecnologiche avanzate, anche se non possiamo neanche iniziare a speculare sulla sua origine o funzione. Una spedizione archeologica potrebbe fornire delle risposte."
+
+ strange_worlds.2035.name: "Metallo Increspato"
+ strange_worlds.2035.desc_intro: "Un'ispezione ravvicinata del misterioso cubo su [fromfrom.planet.GetName] ha sollevato più domande che risposte. Le superfici esterne sono perfettamente lisce, senza giunture, e impenetrabili ai nostri scanner. Avvicinandoci, la facciata imponente sembra incresparsi lievemente in risposta alla nostra presenza."
+ strange_worlds.2035.desc_lm: "$strange_worlds.2035.desc_intro$ §H[event_target:anomalous_cube_scientist.GetName]§! ha concluso che è costituito da una forma di §YMetallo Vivente§!."
+ strange_worlds.2035.desc_no_lm: "$strange_worlds.2035.desc_intro$ §H[event_target:anomalous_cube_scientist.GetName]§! ha concluso che è costituito da un metallo strano, mai visto prima."
+ strange_worlds.2035.a: "Continua l'indagine."
+
+ strange_worlds.2040.name: "Dentro il Cubo"
+ strange_worlds.2040.desc: "Durante l'esame del cubo metallico su [fromfrom.planet.GetName], §H[event_target:anomalous_cube_scientist.GetName]§! ha osservato una delle superfici incresparsi improvvisamente, aprendosi per rivelare un varco verso l'interno. All'interno abbiamo trovato una consolle di comando ancora occupata dallo scheletro di un molluscoide in decomposizione; qualsiasi carne fosse presente è ormai ridotta a polvere.\n\nSulla consolle abbiamo trovato un contenitore insolito da cui provengono tonfi e rumori metallici sordi, come se qualcosa si muovesse al suo interno. Tuttavia, la chiusura del contenitore è complessa e §H[event_target:anomalous_cube_scientist.GetName]§! non è ancora riuscito ad aprirlo."
+ strange_worlds.2040.evopred: "Sicuramente possiamo ancora recuperare la polvere."
+
+ strange_worlds.2045.name: "Registrazioni Audio Scoperte"
+ strange_worlds.2045.desc: "Durante l'analisi dei dati dalla console centrale del cubo, §H[event_target:anomalous_cube_scientist.GetName]§! è riuscito a recuperare e decriptare due brevi registrazioni audio. Contengono una serie di clic gutturali e stop glottali pronunciati da un unico oratore. Incrociando il nostro database linguistico, §H[event_target:anomalous_cube_scientist.GetName]§! ha trovato una lingua antica comparabile e ha prodotto una traduzione funzionante della prima registrazione audio:\n\n§L'Mio presidio, dovete ascoltarmi. C'è ancora tempo per evitare questa guerra. La fiducia dei vostri dinasti è sconsiderata, non possiamo sconfiggere [event_target:anomalous_cube_fallen_empire.GetName]. Ci distruggeranno!'\n\n'L'accondiscendenza è la nostra unica opzione. Il mio container contiene un dono, probabilmente un segno di pace: i segreti del nostro dominio del metallo vivente. L'unico modo per evitare l'oblio è consegnarlo a loro.'§!"
+ strange_worlds.2045.a: "Traduci la seconda registrazione audio."
+
+ strange_worlds.2050.name: "Meraviglia del Metallo Vivente"
+ strange_worlds.2050.desc_intro: "La seconda registrazione audio dalla console di comando del cubo è stata tradotta.\n\n§L'Mio presidio, ho fallito. Il nostro annientamento è imminente e inesorabile.\n\nLa mia navicella esagonale è stata sabotata. Tenterò un atterraggio di emergenza su [fromfrom.planet.GetName]. Anche se sopravvivo, il segno di pace non sarà consegnato. [event_target:anomalous_cube_fallen_empire.GetName] attaccherà come temevamo.'§!\n\n§H[event_target:anomalous_cube_scientist.GetName]§! ha decifrato con successo il meccanismo di blocco del container. Contenuto all'interno c'è un particolare pezzo di metallo. È particolarmente malleabile e iperattivo, rimodellandosi incessantemente in forme intricate ogni pochi secondi."
+ strange_worlds.2050.desc_no_war_lm: "\nPotremmo conservare questa curiosità per approfondire la nostra comprensione del metallo vivente oppure potremmo fare come i suoi precedenti proprietari avevano intenzione; offrirlo come dono a [event_target:anomalous_cube_fallen_empire.GetName] per migliorare il nostro rapporto con loro."
+ strange_worlds.2050.desc_no_war_no_lm: "\nPotremmo conservare questa curiosità per approfondire la nostra comprensione di questo straordinario metallo oppure potremmo fare come i suoi precedenti proprietari avevano intenzione; offrirlo come dono a [event_target:anomalous_cube_fallen_empire.GetName] per migliorare il nostro rapporto con loro."
+ strange_worlds.2050.desc_war_lm: "\nQuesto straordinario oggetto e il recipiente cubico da cui proviene saranno utilizzati per approfondire la nostra conoscenza del metallo vivente."
+ strange_worlds.2050.desc_war_no_lm: "\nQuesto straordinario oggetto e il recipiente cubico da cui proviene saranno utilizzati per approfondire la nostra conoscenza dei composti e delle strutture metalliche."
+ strange_worlds.2050.a_no_war: "Regalala a [event_target:anomalous_cube_fallen_empire.GetName]."
+ strange_worlds.2050.b_fallen_not_defeated_no_war: "Tienila per noi."
+
+ strange_worlds.3005.name: "Profeta Sospetto"
+ strange_worlds.3005.desc: "Osservando la popolazione locale di §Y[event_target:pre_ftl_planet.GetName]§!, la nostra squadra di esplorazione ha fatto una scoperta interessante.\n\nLa capitale è in fermento per le voci su un 'Prescelto' che sarebbe disceso dalle stelle per adempiere a un'antica profezia e guidare i [event_target:pre_ftl_planet.Owner.GetSpeciesName] verso una nuova età dell'oro.\n\nTutto il nostro personale è al completo, quindi chiunque stia visitando questo pianeta, merita ulteriori indagini."
+ strange_worlds.3005.a: "Scopri di più."
+
+ strange_worlds.3010.name: "Falso Profeta"
+ strange_worlds.3010.desc_intro: "L'indagine della nostra squadra sul 'Prescelto' di §Y[event_target:pre_ftl_planet.GetName]§! ha rivelato la sua vera identità.\n\n"
+ strange_worlds.3010.desc_no_megacorp: "Un §YNomade Namaraiano§! si spaccia per la figura centrale della mitologia dei [event_target:pre_ftl_planet.Owner.GetSpeciesName], affermando di essere 'disceso dalle stelle'."
+ strange_worlds.3010.desc_megacorp: "Un §Y[event_target:caravaneer_fleet3_country.GetSpeciesName]§! carovana si spaccia per la figura centrale della mitologia dei [event_target:pre_ftl_planet.Owner.GetSpeciesName], affermando di essere 'disceso dalle stelle'."
+ strange_worlds.3010.desc_outro: "\nUlteriori esplorazioni del pianeta hanno rivelato la loro nave precipitata e inoperabile nascosta in una valle inaccessibile a qualche distanza dalla capitale. Basandoci sul modello datato degli iperdrive, sono qui da un po'.\n\nDa quando sono rimasti bloccati, sembrano aver sfruttato le superstizioni locali a loro vantaggio. Accettano volentieri venerazione e lodi da parte dei locali, essendo stati installati come loro governanti pieni di 'conoscenza celestiale'.\n\nSe lasciato incontrollato, la presenza di questo ciarlatano sul pianeta probabilmente avrà gravi conseguenze per la società in sviluppo. Potrebbe essere meglio intervenire."
+ strange_worlds.3010.a: "Smascherali quali truffatori che sono."
+ strange_worlds.3010.b: "Offri di salvarli."
+
+ strange_worlds.3015.name: "Verità Rivelata"
+ strange_worlds.3015.desc_no_megacorp: "Abbiamo deposto con successo il §YNomade Namaraiano§! su §Y[event_target:pre_ftl_planet.GetName]§! che si spaccia per il 'Prescelto' della mitologia dei [event_target:pre_ftl_planet.Owner.GetSpeciesName]."
+ strange_worlds.3015.desc_megacorp: "Abbiamo deposto con successo il §Y[event_target:caravaneer_fleet3_country.GetSpeciesName]§! su §Y[event_target:pre_ftl_planet.GetName]§! che si spaccia per il 'Prescelto' della mitologia dei [event_target:pre_ftl_planet.Owner.GetSpeciesName]."
+ strange_worlds.3015.desc_outro: "\nDopo aver studiato le leggende locali più nel dettaglio, siamo riusciti a convincere la classe dirigente che il cosiddetto prescelto era in realtà un demone inviato per ingannarli e gettare il pianeta in mille anni di oscurità.\n\nAbbiamo smontato con successo la nave precipitata per i pezzi di ricambio, lasciando nessuna traccia ai locali. Tuttavia, alcuni oggetti personali erano già stati scoperti e hanno offerto a questa specie un assaggio di tecnologia oltre la loro comprensione attuale."
+ strange_worlds.3015.a: "Sfortunato."
+
+ strange_worlds.3020.name: "Ritorno a Casa"
+ strange_worlds.3020.desc_intro: "La nostra squadra di esplorazione ha ottenuto un udienza privata con il 'Prescelto' di §Y[event_target:pre_ftl_planet.GetName]§! e ha offerto i nostri servizi per riparare la loro nave e riportarli nello spazio.\n\n"
+ strange_worlds.3020.desc_no_megacorp: "Il §YNomade Namaraiano§! è stato molto lieto di accettare l'offerta, spiegando che era stato erroneamente accolto come un dio dopo essere rimasto bloccato su §Y[event_target:pre_ftl_planet.GetName]§! e aveva vissuto nella paura di essere ferito qualora fosse stato smascherato."
+ strange_worlds.3020.desc_megacorp: "Il §Y[event_target:caravaneer_fleet3_country.GetSpeciesName]§! è stato molto lieto di accettare l'offerta, spiegando che era stato erroneamente accolto come un dio dopo essere rimasto bloccato su §Y[event_target:pre_ftl_planet.GetName]§! e aveva vissuto nella paura di essere ferito qualora fosse stato smascherato."
+ strange_worlds.3020.desc_outro: "\nDopo averli trasportati al nostro avamposto di ricerca e riparato la loro nave, il viaggiatore riconoscente ci ha regalato una grande parte dell'inventario della sua nave prima di salutarci.\n\nIl vuoto di potere creato dalla loro partenza ha scatenato una breve ma brutale lotta tra varie sette religiose su §Y[event_target:pre_ftl_planet.GetName]§!, che ora si è placata."
+ strange_worlds.3020.a: "Affascinante."
+
+ strange_worlds.3025.name: "[event_target:nomad01_country.GetName]"
+ strange_worlds.3025.desc: "Saluti [Owner.GetSpeciesName]. Comprendiamo che avete affrontato un Namaraiano ribelle che si è separato dalla nostra flotta.\n\nCi avete reso un servizio. Questo individuo fuorviato era un fastidio costante, le loro ambizioni selvagge rappresentavano un rischio per il nostro viaggio.\n\nPer favore, prendete questo dono come ringraziamento."
+ strange_worlds.3025.a: "Molte grazie."
+
+ strange_worlds.3030.name: "[event_target:caravaneer_home_country.GetName]"
+ strange_worlds.3030.desc: "[Owner.GetSpeciesNamePlural] ha risolto il problema del §YRacket§!? Molto gentile da parte vostra! Questo sciocco non ha fatto altro che darci mal di testa. I suoi discorsi senza senso? Una vergogna. È la quinta volta che succede. Onestamente? Siamo contenti che se ne siano andati.\nEcco, prendi questo, un regalo per aver risolto il problema. Offerta unica, ottimo valore."
+ strange_worlds.3030.a: "Grazie mille."
+
+ strange_worlds.3040.name: "Quello che abbiamo lasciato"
+ strange_worlds.3040.desc: "Il nostro posto di osservazione sopra §Y[event_target:pre_ftl_planet.GetName]§! ha segnalato casse di rifornimenti mancanti dopo un recente sondaggio geologico sulla superficie.\n\nSeguendo i geolocalizzatori sulle forniture, abbiamo scoperto che un villaggio locale ha trovato e rivendicato queste risorse per sé.\n\nL'introduzione dei nostri contenitori di stoccaggio potrebbe avere un effetto negativo sullo sviluppo della società [event_target:pre_ftl_planet.Owner.GetSpeciesAdj]."
+ strange_worlds.3040.a: "Sfortunato."
+
+ strange_worlds.3045.name: "Ritorno al mittente"
+ strange_worlds.3045.desc_common: "Sembra che l'inventario smarrito su §Y[event_target:pre_ftl_planet.GetName]§! abbia avuto un impatto strano sulla cultura indigena.\n\nLa popolazione [Root.GetPreFTLUpper] ha costruito imitazioni grezze delle nostre navette di osservazione. Sebbene queste 'navi' siano chiaramente non funzionanti, è la prova che i nostri ricercatori sono stati avvistati dai locali durante il sondaggio.\n\nSotto la guida di un anziano locale, i [event_target:pre_ftl_planet.Owner.GetSpeciesName] possono essere visti mentre imitano la nostra procedura di analisi geologica del suolo: riempiono le nostre casse smarrite con terra e rocce, le caricano sulle loro 'navi' e aspettano pazientemente."
+ strange_worlds.3045.desc_non_homicidal: "\nI [event_target:pre_ftl_planet.Owner.GetSpeciesName] sono convinti che imitando i nostri processi, appariranno più rifornimenti. Dovremmo intervenire prima che questo comportamento influenzi ampiamente la loro società."
+ strange_worlds.3045.desc_homicidal: "\nQuesta pratica è infine inutile, li aspetta solo la morte."
+ strange_worlds.3045.a_normal: "Recupera di nascosto le nostre casse."
+ strange_worlds.3045.a_megacorp: "Recupera con discrezione i nostri beni."
+ strange_worlds.3045.b_normal: "Scambia i rifornimenti alimentari con i loro minerali."
+ strange_worlds.3045.b_megacorp: "Barattiamo!"
+ strange_worlds.3045.c: "Sterilizza questi primitivi."
+ strange_worlds.3045.ct: "Il posto di osservazione che attualmente sorveglia §Y[event_target:pre_ftl_planet.GetName]§! produce ora $@observation_outpost_crate_minerals_production$ $i_minerals$ con un mantenimento di $@observation_outpost_crate_food_upkeep$ $i_food$"
+
+ strange_worlds.3050.name: "Assenza risentita"
+ strange_worlds.3050.desc: "Dopo aver recuperato le nostre casse perdute da §Y[event_target:pre_ftl_planet.GetName]§!, i rituali di carico sulle 'navi' sono continuati per un breve periodo, finché i locali arrabbiati [event_target:pre_ftl_planet.Owner.GetSpeciesName] non si sono rivolti contro l'anziano del villaggio, gettandolo nella navetta improvvisata prima di ridurla in cenere.\n\nSebbene la popolazione sia tornata alle sue abitudini precedenti, la loro cultura mantiene un risentimento latente verso gli 'uomini del cielo'."
+ strange_worlds.3050.a: "Prendo nota."
+
+ strange_worlds.3060.name: "Servizio cancellato"
+ strange_worlds.3060.desc: "Con l'avanzare della società [Root.GetPreFTLLower] [event_target:pre_ftl_planet.Owner.GetSpeciesName], abbiamo interrotto il nostro scambio di razioni per minerali dal nostro posto di osservazione.\n\nNonostante fosse un esperimento interessante, l'interferenza continua con la loro civiltà rischia solo di esporre prematuramente la nostra presenza."
+ strange_worlds.3060.a: "Una misura ragionevole."
+ strange_worlds.3060.ct: "Il posto di osservazione non produce più Minerali e non richiede più mantenimento di Cibo"
+
+ strange_worlds.3070.name: "Anomalia orbitale"
+ strange_worlds.3070.desc: "Un'anomalia gravitazionale ha fatto uscire il nostro posto di osservazione sopra §Y[event_target:pre_ftl_planet.GetName]§! dall'orbita, facendolo cadere brevemente nell'atmosfera inferiore del pianeta.\n\nMentre il nostro equipaggio è illeso e la traiettoria originale è stata ripristinata, c'é la preoccupazione che la stazione possa essere stata rilevata dalla superficie dai [event_target:pre_ftl_planet.Owner.GetSpeciesNamePlural].\n\nSolo il tempo dirà se siamo stati esposti ai locali, e in che misura ciò influenzerà la loro società."
+ strange_worlds.3070.a: "Continua le osservazioni."
+
+ strange_worlds.3075.name: "Scale per il cielo"
+ strange_worlds.3075.desc_common: "Tecnologie primitive di cattura delle immagini sono riuscite a registrare il nostro posto di osservazione mentre era in orbita bassa sopra §Y[event_target:pre_ftl_planet.GetName]§!. Insieme a testimonianze oculari, queste fotografie hanno ispirato alcune nazioni a costruire 'scale per il cielo' per investigare ulteriormente.\n\nAnche se questo è chiaramente uno sforzo inutile, la competizione tra stati nazionali sta avendo un effetto destabilizzante. Vecchie tensioni si stanno riaccendendo nella corsa a completare la prima 'scala', alimentata dall'orgoglio nazionale e dalla scarsità di risorse."
+ strange_worlds.3075.desc_non_homicidal: "\nSe riuscissimo a screditare le loro prove della nostra esistenza, potremmo riuscire a disinnescare le tensioni prima che la situazione sfugga al controllo di [Owner.GetSpeciesHandName].\n\nIn alternativa, questa postura diplomatica tra i poteri politici [Root.GetPreFTLUpper] potrebbe essere un interessante caso di studio sociologico, anche se con il rischio di un'escalation violenta."
+ strange_worlds.3075.desc_homicidal: "\nIl caos imminente sarà un'eccellente opportunità di ricerca."
+ strange_worlds.3075.a: "Scredita le prove della nostra esistenza."
+ strange_worlds.3075.b: "Continua le osservazioni."
+ strange_worlds.3075.b_ct: "La produzione di £society£ §YRicerca Societaria§! dal posto di osservazione è raddoppiata"
+
+ strange_worlds.3080.name: "La verità è là fuori"
+ strange_worlds.3080.desc: "I nostri operatori hanno screditato con successo le prove della nostra esistenza su §Y[event_target:pre_ftl_planet.GetName]§!.\n\nCon le immagini smascherate e la credibilità dei testimoni distrutta, la costruzione delle 'scale verso il cielo' è stata interrotta. Imbarazzate dalla loro presunta follia, le nazioni un tempo divise si sono impegnate nella ricerca razionale e nel metodo scientifico.\n\nI cantieri delle scale sono stati riconvertiti in centri di istruzione superiore, mentre una nuova ondata di studiosi si unisce per smontare i miti della 'Cittadella Celeste'."
+ strange_worlds.3080.a: "$FASCINATING$"
+ strange_worlds.3080.a_ct: "[event_target:pre_ftl_country.GetName] avanza del 50% verso l'età successiva\n[event_target:pre_ftl_country.GetName] diventa Materialista."
+
+ strange_worlds.3085.name: "Le grandi guerre delle scale"
+ strange_worlds.3085.desc: "Nei loro sforzi per costruire le 'scale verso il cielo,'' le tensioni tra le nazioni [Root.GetPreFTLLower] di §Y[event_target:pre_ftl_planet.GetName]§! hanno portato a un conflitto globale totale. Combattendo per risorse sempre più scarse, i due anni di carneficina conosciuti come le 'Grandi Guerre delle Scale' sono finalmente giunti al termine.\n\nI termini chiave del trattato di pace prevedono la presentazione di un fronte unito contro il loro nemico comune, la 'Cittadella Celeste'. Mentre gli [event_target:pre_ftl_planet.Owner.GetSpeciesNamePlural] ricostruiscono il loro mondo devastato dalla guerra, la loro paranoia e l'odio verso l'ignoto aumenteranno, rendendo più difficili i futuri rapporti con loro."
+ strange_worlds.3085.a: "Problemi per dopo."
+ strange_worlds.3085.a_ct: "La produzione di £society£ §YRicerca Societaria§! dall'avamposto di osservazione torna alla normalità."
+
+ create_hibernators_pops_ct: "Crea $@hibernators_pops_created|*0$ £job_pre_sapient£ Popolazioni Pre-Sapienti con il tratto §Y$trait_seasonal_dormancy$§!"
+
+ pm_bleeding_planet: "Pianeta sanguinante"
+ pm_bleeding_planet_desc: "La stessa terra sanguina. Si consiglia cautela nel disturbare il terreno sotto i coloni.\n"
+
+ pm_contruction_coagulate: "Coaugulo di Costruzione"
+ pm_contruction_coagulate_desc: "La terra stessa sembra sanguinare sotto il peso della colonizzazione; il liquido vischioso che ne sgorga agisce come un adesivo naturale, seppur pericoloso.\n"
+
+ pm_hemosymbiosis: "Emosimbiosi"
+ pm_hemosymbiosis_desc: "Uno strano muco originato dal cuore del pianeta influenza ogni aspetto dello sviluppo. I tempi di costruzione e le operazioni minerarie risultano agevolati, ma a scapito della crescita della colonia.\n"
+
+ pm_parasitic_production: "Produzione Parassitica"
+ pm_parasitic_production_desc: "Le forme di vita parassitarie che infestano questo mondo sono state convertite a nostro vantaggio, incrementando la produttività di tutti i lavoratori.\n"
+
+ pm_frying_fauna: "Fauna Fritta"
+ pm_frying_fauna_desc: "La megafauna di questo pianeta prospera in condizioni attentamente ottimizzate. I loro enzimi digestivi, unici nel loro genere, si rivelano estremamente utili nella raffinazione delle leghe."
+
+ pm_frying_fauna_machine: "$pm_frying_fauna$"
+ pm_frying_fauna_machine_desc: "$pm_frying_fauna_desc$"
+
+ pm_frying_fauna_2: "$pm_frying_fauna$"
+ pm_frying_fauna_2_desc: "Mietitrici elettrificate trasformano la megafauna del pianeta in una fonte costante di nutrienti."
+
+ pm_frying_fauna_2_machine: "$pm_frying_fauna$"
+ pm_frying_fauna_2_machine_desc: "$pm_frying_fauna_2_desc$"
+
+ pm_catalytic_excrement: "Escrementi Catalitici"
+ pm_catalytic_excrement_ct: "La megafauna di questo pianeta prospera in condizioni attentamente ottimizzate. I loro enzimi digestivi, unici nel loro genere, si rivelano estremamente utili nella raffinazione delle leghe."
+
+ pm_strange_sandstorm: "Tempeste di sabbia anomale"
+ pm_strange_sandstorm_ct: "Fenomeni insoliti legati alle sabbie di questo pianeta stanno compromettendo il funzionamento della colonia."
+
+ pm_perpetual_lightning: "Fulmini perpetui"
+ pm_perpetual_lightning_desc: "Cristalli irradiati, emersi a seguito di un'anomalia nei processi di terraformazione, hanno generato un clima ideale per una tempesta di fulmini ininterrotta che imperversa sull'intero pianeta."
+
+ pm_dark_matter_geyser: "Geyser di Materia Oscura"
+ pm_dark_matter_geyser_desc: "Il pianeta è avvolto in un miasma denso e soffocante di materia oscura."
+
+ pm_population_quarantine: "Quarantena della Popolazione"
+ pm_population_quarantine_desc: "La popolazione è stata posta in quarantena mentre proseguono le indagini sugli effetti della pietrificazione causata dalla materia oscura."
+
+ pm_dark_matter_statue: "Statue di Materia Oscura"
+ pm_dark_matter_statue_desc: "Ovunque sul pianeta giacciono gusci pietrificati, corpi ormai solidificati di materia oscura. Questi macabri resti di un'antica popolazione offrono spunti preziosi per la ricerca scientifica."
+
+ pm_raining_corpses: "Pioggia di Cadaveri"
+ pm_raining_corpses_desc: "Le nubi dense che un tempo fungevano da necropoli per un'antica civiltà aliena stanno diradandosi. I loro sinistri contenuti precipitano ora sulla superficie del pianeta."
+ pm_raining_corpses_tt: "£minor_artifacts£ $minor_artifacts$ dai lavori £job£ assegnati a $WORKERS$"
+ pm_raining_corpses_no_ancrel: "$pm_raining_corpses$"
+ pm_raining_corpses_no_ancrel_desc: "$pm_raining_corpses$"
+ pm_raining_corpses_no_ancrel_tt: "£consumer_goods£ $consumer_goods$ dai lavori £job£ svolti dai £pop_cat_worker£ $pop_cat_worker$"
+
+ pm_revolting_pests: "Parassiti Rivoltanti"
+ pm_revolting_pests_desc: "La fauna di questo pianeta è tanto affascinante quanto ripugnante. È fortemente sconsigliato avvicinarsi troppo a queste creature."
+
+ pm_gaseous_fauna: "Fauna Gassosa"
+ pm_gaseous_fauna_desc: "Una specie autoctona, ormai addomesticata, intrattiene la popolazione e fornisce al contempo secrezioni gassose utili alla raccolta."
+ pm_gaseous_fauna_ct: "Tutta la £pop£ Pop produce §G$@gaseous_fauna_exotic_gases_production$§! $i_exotic_gases$"
+
+ pm_urban_privilege_regular: "Privilegio Urbano"
+ pm_urban_privilege_regular_desc: "Sostenere i distretti urbani in una disputa locale ha messo in allarme le comunità rurali."
+ pm_urban_privilege_broken_shackles: "$pm_urban_privilege_regular$"
+ pm_urban_privilege_broken_shackles_desc: "$pm_urban_privilege_regular_desc$"
+
+ pm_rural_privilege_regular: "Privilegio Rurale"
+ pm_rural_privilege_regular_desc: "Sostenere i distretti rurali in una disputa locale ha messo in allarme le comunità urbane."
+ pm_rural_privilege_broken_shackles: "$pm_rural_privilege_regular$"
+ pm_rural_privilege_broken_shackles_desc: "$pm_rural_privilege_regular_desc$"
+
+ pm_peacekeeper_deployment: "Schieramento dei Pacificatori"
+ pm_peacekeeper_deployment_desc: "Mentre si cerca di risolvere le controversie tra i distretti, sono in atto ulteriori operazioni di mantenimento della pace."
+
+ bacterial_drive_modifier_desc: "Le riserve idriche arricchite con batteri geneticamente modificati alimentano nella popolazione un impegno straordinario verso un obiettivo comune unico."
+
+ pm_bd_reproduction: "Impulso Batterico: Riproduzione"
+ pm_bd_reproduction_desc: "$bacterial_drive_modifier_desc$"
+
+ pm_bd_strength: "Impulso Batterico: Vigore"
+ pm_bd_strength_desc: "$bacterial_drive_modifier_desc$"
+
+ pm_bd_creativity: "Impulso Batterico: Creatività"
+ pm_bd_creativity_desc: "$bacterial_drive_modifier_desc$"
+
+ ladder_wars_pre_ftl: "Eredità delle Guerre a Gradini"
+ ladder_wars_pre_ftl_desc: "Questo mondo, segnato da guerre intestine, sta cercando di rinascere. Ma la diffidenza radicata rende ogni forma di dialogo con l'esterno un'impresa ardua."
+
+ living_metal_mega_construction_insight: "Scoperte sulle Megastrutture: Metallo Vivente"
+ living_metal_mega_construction_insight_desc: "L'artefatto di Metallo Vivente recuperato ci ha offerto rivelazioni sorprendenti sulla progettazione di megastrutture."
+ living_metal_mega_construction_insight_ct: "Costo base dell'Editto sulle Megastrutture in Metallo Vivente: §G-50%§!"
+
+ d_coagulated_landscape: "Terreno Coagulato"
+ d_coagulated_landscape_desc: "Una sostanza vischiosa pulsa dalla crosta del pianeta, solidificandosi in una massa quasi impenetrabile e pericolosa. Le aree edificabili sono rare e instabili.\n"
+
+ d_shimmering_structure: "Struttura Luccicante"
+ d_shimmering_structure_desc: "Un'imponente struttura scintillante di origine sconosciuta domina il paesaggio."
+
+ d_geothermal_hotspot: "Faglia Geotermica"
+ d_geothermal_hotspot_desc: "Questo pianeta ospita un sito geotermico straordinario, ricco sia di energia che di opportunità scientifiche."
+
+ d_ancient_cloaking_array: "Matrice Occultante Antica"
+ d_ancient_cloaking_array_desc: "La colonia è protetta da un antico sistema di occultamento alieno. Gli attacchi nemici risultano estremamente difficili, offrendo ai coloni un senso tangibile di sicurezza."
+
+ d_psionic_sands: "Sabbie Psioniche"
+ d_psionic_sands_desc: "Le sabbie di questo pianeta sono intrise di Zro. Alcuni giurano che, in certi momenti, sembrino rispondere ai pensieri."
+
+ d_mountains_of_steel: "Montagne d'Acciaio"
+ d_mountains_of_steel_desc: "Forgiate nel calore estremo della terraformazione, queste imponenti montagne metalliche celano enormi giacimenti minerari."
+
+ d_lava_tubes: "Gallerie di Lava"
+ d_lava_tubes_desc: "Scolpiti dal magma in profondità, questi tunnel ricchi di minerali si estendono come vene incandescenti sotto la superficie. Questi veri e propri 'pirodotti' offrono opportunità minerarie estremamente redditizie."
+ d_lava_tubes_ct: "Costo di mantenimento in energia per i lavori di [miner.GetIcon] [miner.GetName]: §R+$@lava_tubes_mining_job_upkeep$§!"
+ d_lava_tubes_ct_short: "§R+$@lava_tubes_mining_job_upkeep$§! Costo di mantenimento in energia per i lavori di [miner.GetIcon] [miner.GetName]"
+
+ d_hydroactive_eggs: "Uova Idroattive"
+ d_hydroactive_eggs_desc: "L'abbondanza naturale d'acqua in questa zona favorisce tassi di riproduzione straordinariamente alti per la fauna autoctona."
+
+ d_explosive_atmosphere: "Atmosfera Esplosiva"
+ d_explosive_atmosphere_desc: "Concentrazioni di particelle volatili sospese nell'aria rendono l'atmosfera di questo pianeta altamente infiammabile."
+ d_explosive_atmosphere_ct: "$t$£volatile_motes£ §Y$volatile_motes$§! da [mote_harvester.GetIcon]$mote_harvester$ Lavori: §G+50%§!"
+ d_explosive_atmosphere_ct_short: "§G+50%§! £volatile_motes£ §Y$volatile_motes$§! da Lavori [mote_harvester.GetIcon]$mote_harvester$"
+
+ d_blue_lava: "Lava Blu"
+ d_blue_lava_desc: "Il processo di terraformazione ha scatenato una reazione tra gas ricchi e depositi di leghe nel profondo del pianeta, trasformando la superficie in un paesaggio incandescente solcato da lava di un ipnotico blu intenso."
+
+ d_crystaline_growths: "Crescite Cristalline"
+ d_crystaline_growths_desc: "Un'abbondanza di formazioni cristalline copre il pianeta, pronte per essere raccolte e sfruttate."
+
+ d_bogplants: "Piante Palustri"
+ d_bogplants_desc: "Paludi superacide ospitano una specie vegetale unica che, nutrendosi, emette gas esotici dalle proprietà peculiari."
+
+ d_liquid_dark_matter: "Materia Oscura Liquida"
+ d_liquid_dark_matter_desc: "Un geyser misterioso è crollato trasformandosi in una pozza di materia oscura liquida, un fenomeno inquietante e raro."
+
+ d_space_junk_hazards: "Pericoli dei Detriti Spaziali"
+ d_space_junk_hazards_desc: "I detriti orbitali rappresentano un rischio per gli accessi ai shuttle e le strutture di superficie, specialmente quando precipitano nell'atmosfera del pianeta."
+
+ trait_inner_darkness: "Oscurità Interiore"
+ trait_inner_darkness_desc: "I loro corpi, potenziati dopo l'esposizione alla Materia Oscura, rilasciano regolarmente tracce di particelle non barioniche, ma questo li condanna a una vita più breve del previsto."
+ trait_inner_darkness_tt: "£sr_dark_matter£ $produced_per_pop_group_unit$ ogni £pop£ Pop: §G+$@inner_darkness_dark_matter_production$§!."
+
+ trait_geleboric_mutations: "Mutazioni Geleboriche"
+ trait_geleboric_mutations_desc: "Esperimenti falliti hanno radicalmente alterato la fisiologia di questa specie."
+
+ trait_psionic_ephapse: "Efasi Psionica"
+ trait_psionic_ephapse_desc: "Dopo un'esposizione prolungata a batteri psicoattivi, il loro sistema digestivo produce probiotici psionici che favoriscono la comunicazione telepatica tra individui affetti."
+ trait_psionic_ephapse_modifier_tooltip: "Se la specie è §Y$trait_psionic$§! o §Y$trait_latent_psionic$§!:\n$bureaucrat_jobs_bonus_workforce_mult$: §G+5%§!\n$researcher_jobs_bonus_workforce_mult$: §G+5%§!"
+
+ sand_caretaker_name: "Custode delle Sabbie"
+ sand_caretaker_name_plural: "Custodi delle Sabbie"
+ sand_whisperer_name: "Sussurratore delle Sabbie"
+ sand_whisperer_name_plural: "Sussurratori delle Sabbie"
+
+ job_sand_whisperer: "Sussurratore delle Sabbie"
+ job_sand_whisperer_plural: "Sussurratori delle Sabbie"
+ job_sand_whisperer_desc: "Nel comunicare con le sabbie psioniche, i $job_sand_whisperer_plural$ riescono a raccogliere una piccola quantità di Zro."
+
+ job_sand_caretaker: "Custode delle Sabbie"
+ job_sand_caretaker_plural: "Custodi delle Sabbie"
+ job_sand_caretaker_desc: "Nel comunicare con le sabbie psioniche, i $job_sand_caretaker_plural$ riescono a raccogliere una piccola quantità di Zro."
+
+ job_drone_sand_whisperer: "Drone $job_sand_whisperer$"
+ job_drone_sand_whisperer_plural: "Droni $job_sand_whisperer_plural$"
+ job_drone_sand_whisperer_desc: "$job_sand_whisperer_desc$"
+
+ job_drone_sand_caretaker: "Drone $job_sand_caretaker$"
+ job_drone_sand_caretaker_plural: "Droni $job_sand_caretaker_plural$"
+ job_drone_sand_caretaker_desc: "$job_sand_caretaker_desc$"
+
+ mod_job_sand_whisperer_add: "Lavori da $job_sand_whisperer$"
+ mod_job_sand_whisperer_per_pop: "§G+1§! Lavoro da £job_sand_whisperer£ $job_sand_whisperer$ ogni $VALUE$ Pop"
+ mod_job_sand_whisperer_per_pop_short: "\n§G+1§! Lavoro da £job_sand_whisperer£ $job_sand_whisperer$ ogni $VALUE$ £pop£"
+
+ mod_job_drone_sand_whisperer_add: "Lavori da $job_drone_sand_whisperer$"
+ mod_job_drone_sand_whisperer_per_pop: "§G+1§! Lavoro da £job_sand_whisperer£ $job_drone_sand_whisperer$ ogni $VALUE$ £pop£ Pop"
+ mod_job_drone_sand_whisperer_per_pop_short: "\n§G+1§! Lavoro da £job_sand_whisperer£ $job_drone_sand_whisperer$ ogni $VALUE$ £pop£"
+
+ mod_job_sand_caretaker_add: "Lavori da $job_sand_caretaker$"
+ mod_job_sand_caretaker_per_pop: "§G+1§! Lavoro da £job_sand_whisperer£ $job_sand_caretaker$ ogni $VALUE$ £pop£ Pop"
+ mod_job_sand_caretaker_per_pop_short: "\n§G+1§! Lavoro da £job_sand_whisperer£ $job_sand_caretaker$ ogni $VALUE$ £pop£"
+
+ mod_job_drone_sand_caretaker_add: "Lavori da $job_drone_sand_caretaker$"
+ mod_job_drone_sand_caretaker_per_pop: "§G+1§! Lavoro da £job_sand_whisperer£ $job_drone_sand_caretaker$ ogni $VALUE$ £pop£ Pop"
+ mod_job_drone_sand_caretaker_per_pop_short: "\n§G+1§! Lavoro da £job_sand_whisperer£ $job_drone_sand_caretaker$ ogni $VALUE$ £pop£"
+
+ job_space_junk_collector: "Raccoglitore di Detriti Spaziali"
+ job_space_junk_collector_plural: "Raccoglitori di Detriti Spaziali"
+ job_space_junk_collector_desc: "I detriti spaziali orbitali entrano periodicamente nell'atmosfera di questo pianeta. Qualunque cosa non si disintegri può essere raccolta e riciclata."
+
+ job_drone_space_junk_collector: "Drone $job_space_junk_collector$"
+ job_drone_space_junk_collector_plural: "Droni $job_space_junk_collector_plural$"
+ job_drone_space_junk_collector_desc: "$job_space_junk_collector_desc$"
+
+ mod_job_space_junk_collector_add: "Lavori da $job_space_junk_collector$"
+ mod_job_space_junk_collector_per_pop: "§G+1§! Lavoro da £job_space_junk_collector£ $job_space_junk_collector$ ogni $VALUE$ £pop£ Pop"
+ mod_job_space_junk_collector_per_pop_short: "\n§G+1§! Lavoro da £job_space_junk_collector£ $job_space_junk_collector$ ogni $VALUE$ £pop£"
+
+ mod_job_drone_space_junk_collector_add: "Lavori da $job_drone_space_junk_collector$"
+ mod_job_drone_space_junk_collector_per_pop: "§G+1§! Lavoro da £drone_space_junk_collector£ $job_drone_space_junk_collector$ ogni $VALUE$ £pop£ Pop"
+ mod_job_drone_space_junk_collector_per_pop_short: "\n§G+1§! Lavoro da £drone_space_junk_collector£ $job_drone_space_junk_collector$ ogni $VALUE$ £pop£"
+
+ mod_planet_deposits_produces_mult: "Risorse generate dai giacimenti"
+
+ mod_planet_jobs_complex_drone_society_research_produces_mult: "£society_research£ $society_research$ per $pop_group_unit$ $pop_cat_complex_drone_plural$ £job£ Lavori"
+
+ mod_planet_districts_hab_energy_upkeep_mult: "Manutenzione energetica dei distretti"
+
+ mod_planet_broken_shackles_scavenger_produces_mult: "Produzione £job_broken_shackles_scavenger£ $job_broken_shackles_scavenger$"
+
+ tech_enhanced_cryosleep_sedatives: "Sedativi Avanzati per Criosonno"
+ tech_enhanced_cryosleep_sedatives_desc: "Sedativi basati su un enzima raro che permettono un criosonno migliorato, aumentando notevolmente la tolleranza delle specie organiche ai viaggi spaziali di lunga durata."
+
+ tech_universal_marcophage: "Macrofago Universale"
+ tech_universal_marcophage_desc: "Questi potenti potenziatori immunologici rendono le malattie un ricordo del passato, permettendo alle popolazioni organiche di vivere vite più lunghe e sane. Possono causare gravi effetti collaterali."
+
+ MOD_POP_ORGANIC_RESETTLEMENT_COST_MULT: "Costo di reinsediamento per popolazioni organiche"
+
+ MOD_LEADER_ORGANIC_LIFESPAN_MULT: "Durata della vita dei leader organici"
+
+ explorer_gestalt: "drone esploratore"
+ explorer_gestalt_plural: "droni esploratori"
+ explorer_non_gestalt: "squadra esplorativa"
+ explorer_non_gestalt_plural: "squadre esplorative"
+
+ ADD_TERRAFORMING_TOTAL_DAYS_PERCENT: "Tempo di terraformazione aumentato del §G+$PERCENT|%0$§!"
+
+ pc_junk: "Luna di Rifiuti"
+ pc_junk_desc: "Un grande corpo di detriti spaziali magnetizzati composto da rottami metallici, resti di satelliti e parti recuperate di megastrutture."
+ NAME_JUNK_MOON: "$pc_junk$"
+
+ opinion_gift_given: "Regalo Offerto"
+
+ planet_broken_shackles_scavenger: "Lavori da Spazzino"
+
+ pre_ftl_regresses_one_age_effect: "[event_target:pre_ftl_country.GetName] regredisce all'era precedente"
+ pre_ftl_progresses_one_age_effect: "[event_target:pre_ftl_country.GetName] avanza all'era successiva"

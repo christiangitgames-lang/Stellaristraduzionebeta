@@ -1,0 +1,16 @@
+﻿l_english:
+
+ LIMBO_2_PROJECT:0 "Limbo: Una Seconda Chance"
+ LIMBO_2_PROJECT_DESC:0 "Potremmo donare una seconda possibilità ad un'antica specie di alieni estinti, caricando le loro scansioni neurali in corpi robotici."
+
+ GHOST_SHIP_PROJECT:0 "Studiare la Nave Fantasma"
+ GHOST_SHIP_PROJECT_DESC: "Un vascello scientifico abbandonato in una secolare perlustrazione del sistema $NAME_Hillos$. Cosa c'è al centro di questa odissea solitaria?"
+ 
+ GHOST_SHIP_PROJECT_02: "Rispondere al Bambino di $NAME_Hillos_ship$"
+ GHOST_SHIP_PROJECT_02_DESC: "La vibrazione psionica rilevata nel sistema $NAME_Hillos$ sembra appartenere alla coscienza artificiale intrappolata a bordo della 'nave fantasma' $NAME_Hillos_ship$."
+ 
+ ANCIENT_MANUFACTORIUM_PROJECT:0 "Potenzia la Fonderia"
+ ANCIENT_MANUFACTORIUM_PROJECT_DESC:0 "Ora, dopo tutti i preparativi fatti, è giunto il momento di mettere in funzione tutti questi macchinari, di collegare la struttura alla rete elettrica planetaria e di fare il punto della situazione.!"
+ 
+ STRATOVENTS_PROJECT: "Progetto Guglie Stratosferiche"
+ STRATOVENTS_PROJECT_DESC: "Studia le conformazioni uniche delle guglie Stratosferiche su §Y[planet.GetName]§! e la loro importanza per la Fauna Spaziale." 

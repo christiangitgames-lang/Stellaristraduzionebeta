@@ -1,0 +1,1342 @@
+﻿l_english:
+
+ # Gestalt trait names and desc
+ leader_trait_fallible_hive: "Fallibile"
+ leader_trait_fallible_hive_desc:0 "Questo [GetIndividualName] soffre di comportamenti errati che potrebbero causare problemi in futuro."
+ leader_trait_fallible_machine: "Difettoso"
+ leader_trait_fallible_machine_desc:0 "Questa unità soffre di piccoli difetti che potrebbero causare problemi in futuro."
+
+ leader_trait_stubborn_machine:0 "Programmazione Rigida"
+ leader_trait_stubborn_machine_desc:1 "Questa unità ha una programmazione particolarmente rigida che raramente permette miglioramenti comportamentali."
+ leader_trait_stubborn_hive:0 "Interfaccia Rigida"
+ leader_trait_stubborn_hive_desc:1 "Questo [owner.GetIndividualName] è particolarmente rigido nel suo pensiero e non è in grado di accettare modifiche comportamentali."
+
+ leader_trait_destructive_hive_desc:1 "Questo [owner.GetIndividualName] ignora la necessaria manutenzione periodica delle sue attrezzature, portando a guasti più gravi."
+ leader_trait_destructive_machine_desc:1 "Questa unità non esegue la manutenzione periodica necessaria delle sue attrezzature, portando a guasti più gravi."
+
+ leader_trait_lavish_lifestyle_hive:0 "Costo Elevato"
+ leader_trait_lavish_lifestyle_hive_desc:0 "Il comportamento errato di questo [owner.GetIndividualName] lo rende altamente inefficiente."
+ leader_trait_lavish_lifestyle_machine:0 "Costo Elevato"
+ leader_trait_lavish_lifestyle_machine_desc:0 "Questa unità ha una programmazione difettosa che la rende altamente inefficiente."
+
+ leader_trait_tyrannical_hive:0 "Razionatore"
+ leader_trait_tyrannical_hive_desc:1 "Questo nodo attribuisce eccessiva priorità alla razionazione delle risorse."
+ leader_trait_tyrannical_machine:0 "Razionatore"
+ leader_trait_tyrannical_machine_desc:1 "Questa unità attribuisce eccessiva priorità alla razionazione delle risorse."
+
+ leader_trait_righteous_hive:0 "Non Corruttibile"
+ leader_trait_righteous_hive_desc:0 "Questo [owner.GetIndividualName] è resistente alla corruzione, limitando comportamenti devianti all'interno dell'[owner.GetGestaltEntityName]."
+ leader_trait_righteous_machine:0 "Routine Aggiornamento"
+ leader_trait_righteous_machine_desc:0 "Questa unità effettua frequenti aggiornamenti su altre unità."
+
+ leader_trait_embezzler_hive:0 "Perdita Energia"
+ leader_trait_embezzler_hive_desc:1 "Questo [owner.GetIndividualName] ha un'irregolarità fisiologica che lo porta a utilizzare una quantità eccessiva di energia."
+ leader_trait_embezzler_machine:0 "Perdita Energia"
+ leader_trait_embezzler_machine_desc:0 "Questa unità ha un difetto di sistema che la porta a consumare una quantità insolitamente elevata di energia."
+
+ leader_trait_gullible_hive:0 "Perdita di Dati"
+ leader_trait_gullible_hive_desc:1 "La natura fiduciosa di questo nodo causa significative debolezze di sicurezza."
+ leader_trait_gullible_machine:0 "Perdita di Dati"
+ leader_trait_gullible_machine_desc:0 "Questo nodo ha una significativa debolezza di sicurezza nel suo sistema operativo."
+
+ leader_trait_bureaucratic_hive:0 "Disruzioni ComunicazionI"
+ leader_trait_bureaucratic_hive_desc:1 "Questo nodo subisce distruzioni di comunicazione durante la fusione della coscienza maggiore con i [owner.GetIndividualNamePlural] individuati."
+ leader_trait_bureaucratic_machine:0 "Errori Trasmissione"
+ leader_trait_bureaucratic_machine_desc:1 "Questo nodo subisce errori di trasmissione durante il collegamento con i droni individuati."
+
+ leader_trait_micromanager_hive: "Non Sincronizzato"
+ leader_trait_micromanager_hive_desc:0 "Questo [owner.GetIndividualName] è inefficiente durante la sincronizzazione di manovre complesse della flotta."
+ leader_trait_micromanager_machine:1 "Non Sincronizzato"
+ leader_trait_micromanager_machine_desc:0 "Questa unità è inefficiente durante la sincronizzazione di manovre complesse della flotta."
+
+ leader_trait_reckless_hive:0 "Mancati Calcoli"
+ leader_trait_reckless_hive_desc:1 "Questo [owner.GetIndividualName] sottostima i rischi, continuando a combattere quando la cosa logica sarebbe ritirarsi, ripararsi e riorganizzarsi."
+ leader_trait_reckless_machine:0 "Calcolo Rischioso"
+ leader_trait_reckless_machine_desc:1 "Questa unità sottostima i rischi, continuando a combattere quando la cosa logica sarebbe ritirarsi, ripararsi e riorganizzarsi."
+
+ leader_trait_slipshod_hive:0 "Difese Indebolite"
+ leader_trait_slipshod_hive_desc:0 "Questo [owner.GetIndividualName] ha sviluppato una coscienza di battaglia errato ed inefficiente che indebolisce le capacità difensive della flotta."
+ leader_trait_slipshod_machine:0 "Difese Indebolite"
+ leader_trait_slipshod_machine_desc:0 "Questa unità ha sviluppato una programmazione di battaglia erratica ed inefficiente che indebolisce le capacità difensive della flotta."
+
+ leader_trait_slothful_hive:0 "Tattiche Non Reattive"
+ leader_trait_slothful_hive_desc:1 "Il comportamento lento e irregolare di questo [owner.GetIndividualName] mette le nostre armate in pericolo inutile." 
+ leader_trait_slothful_machine:0 "Algoritmi Battaglia Difettosi"
+ leader_trait_slothful_machine_desc:1 "Gli algoritmi difettosi e irregolari di questa unità mettono le nostre truppe meccanizzate in pericolo inutile."
+
+ leader_trait_victory_or_death_hive:0 "Vittoria o Morte"
+ leader_trait_victory_or_death_hive_desc:1 "Questo [owner.GetIndividualName] non ha riguardo per la propria sopravvivenza, preferendo combattere fino all'ultimo momento."
+ leader_trait_victory_or_death_machine:0 "Protocollo Non Disingaggio"
+ leader_trait_victory_or_death_machine_desc:1 "Questa unità ha un protocollo di disingaggio difettoso e continuerà a combattere fino alla fine."
+
+ leader_trait_disorganized_hive:0 "Comandi Non Chiari"
+ leader_trait_disorganized_hive_desc:1 "Il comportamento eccentrico di questo [owner.GetIndividualName] può portare a comandi tattici poco chiari."
+ leader_trait_disorganized_machine:0 "Errore Logistico"
+ leader_trait_disorganized_machine_desc:1 "Questa unità agisce su calcoli logistici difettosi che aumentano i costi delle nostre armate."
+
+ leader_trait_paranoid_hive:0 "Comandi Nascosti"
+ leader_trait_paranoid_hive_desc:1 "Questo nodo attua schemi complicati per tenere al sicuro le informazioni, riducendo il rendimento della ricerca."
+ leader_trait_paranoid_machine:0 "Protocolli Sicurezza Eccessivi"
+ leader_trait_paranoid_machine_desc:1 "Questa unità attua schemi complicati per tenere al sicuro le informazioni, riducendo il rendimento della ricerca."
+
+ leader_trait_narrow_minded_hive:1 "Intransigente"
+ leader_trait_narrow_minded_hive_desc:1 "Questo [owner.GetIndividualName] ha un focus molto limitato sui compiti di ricerca che gli sono stati assegnati, ignorando alcune opzioni ritenute inutili."
+ leader_trait_narrow_minded_machine:0 "Errore Mainframe"
+ leader_trait_narrow_minded_machine_desc:1 "Le funzioni del processore centrale sono isolate, causando rigidità nella presa di decisioni."
+
+ leader_trait_neurotic_hive:0 "Esplorazione Erratiche"
+ leader_trait_neurotic_hive_desc:0 "Questo [owner.GetIndividualName] ha una coscienza distratta ed instabile."
+ leader_trait_neurotic_machine:0 "Protocolli rilevamento inefficienti"
+ leader_trait_neurotic_machine_desc:1 "Questa unità ha un protocollo di rilevamento caotico."
+
+ leader_trait_opinionated_hive:0 "Sinapsi Conflittuali"
+ leader_trait_opinionated_hive_desc:1 "Questo [owner.GetIndividualName] ha sinapsi mutate che rendono difficile la compilazione e la sintesi delle conoscenze."
+ leader_trait_opinionated_machine:0 "Dati Conflittuali"
+ leader_trait_opinionated_machine_desc:1 "Questa unità compila i dati inefficientemente."
+
+ leader_trait_profligate_hive:0 "Mantenimento Aumentato"
+ leader_trait_profligate_hive_desc:1 "Questo [owner.GetIndividualName] ha una deficienza che aumenta i costi di mantenimento di tutti gli altri [owner.GetIndividualNamePlural] sul pianeta."
+ leader_trait_profligate_machine:0 "Manutenzione Droni Aumentata"
+ leader_trait_profligate_machine_desc:1 "Questa unità ha un errore costante nella sua programmazione che aumenta i costi di mantenimento di tutte le altre unità sul pianeta."
+
+ leader_trait_procrastinator_hive:0 "Costruzioni Stagnanti"
+ leader_trait_procrastinator_hive_desc:1 "Questo [owner.GetIndividualName] è inefficiente nella gestione dei progetti di costruzione planetari."
+ leader_trait_procrastinator_machine:0 "Costruzioni Stagnanti"
+ leader_trait_procrastinator_machine_desc:1 "Questa unità è inefficiente nella gestione dei progetti di costruzione planetari."
+
+ leader_trait_insider_trading_hive:0 "Produzione Inefficiente"
+ leader_trait_insider_trading_hive_desc:1 "Questo [owner.GetIndividualName] è un manager inefficiente dei [owner.GetIndividualNamePlural] planetari."
+ leader_trait_insider_trading_machine:0 "Produzione Droni Inefficiente"
+ leader_trait_insider_trading_machine_desc:1 "Questa unità è un manager inefficiente dei droni planetari."
+
+ leader_trait_eager_machine:0 "Bot di Qualità"
+ leader_trait_eager_machine_desc:1 "Questa unità è in particolarmente buone condizioni, richiedendo molto meno manutenzione per rimanere operativa."
+ leader_trait_eager_hive:0 "Esemplare Eccellente"
+ leader_trait_eager_hive_desc:0 "Questo [owner.GetIndividualName] è particolarmente sano, richiedendo molto meno mantenimento per mantenere l'efficienza massima."
+
+ leader_trait_martinet_hive:0 "Tiranno"
+ leader_trait_martinet_hive_desc:0 "Osservatore attento che richiede una rigorosa conformità, questo [owner.GetIndividualName] ha un record impeccabile quando si tratta di limitare le deviazioni."
+ leader_trait_martinet_machine:0 "Tiranno"
+ leader_trait_martinet_machine_desc:0 "Con eccellenti capacità di osservazione, questa unità richiede una rigorosa conformità. Il suo record è impeccabile quando si tratta di limitare le deviazioni."
+
+ trait_ruler_charismatic_hive:0 "Sottoprocessi Amplificati"
+ trait_ruler_charismatic_hive_desc:1 "I sottoprocessi amplificati di questo nodo creano più spazio per manovrare ed espandere gli editti."
+ trait_ruler_charismatic_machine:0 "Sottoprocessi Amplificati"
+ trait_ruler_charismatic_machine_desc:1 "Questa unità ha sottoprocessi amplificati che creano più spazio per manovrare ed espandere gli editti."
+
+ trait_ruler_warlike_hive:0 "Mente Guerriera"
+ trait_ruler_warlike_hive_desc:0 "Questo nodo è specializzato per la guerra spaziale e terrestre."
+ trait_ruler_warlike_machine:0 "Algoritmi di Guerra"
+ trait_ruler_warlike_machine_desc:0 "Questo nodo è specializzato per la guerra spaziale e terrestre."
+
+ trait_ruler_warlike_2_hive:0 "$trait_ruler_warlike_hive$ II"
+ trait_ruler_warlike_2_hive_desc:0 "$trait_ruler_warlike_hive_desc$"
+ trait_ruler_warlike_2_machine:0 "$trait_ruler_warlike_machine$ II"
+ trait_ruler_warlike_2_machine_desc:0 "$trait_ruler_warlike_machine_desc$"
+
+ trait_ruler_logistic_understanding_hive:0 "Comprensione Logistica"
+ trait_ruler_logistic_understanding_hive_desc:0 "Questo nodo è efficace nel ridurre il mantenimento di eserciti e navi."
+ trait_ruler_logistic_understanding_machine:0 "Programmazione Logistica"
+ trait_ruler_logistic_understanding_machine_desc:1 "Questa unità è efficace nel ridurre il mantenimento di eserciti e navi."
+
+ trait_ruler_logistic_understanding_2_hive:0 "$trait_ruler_logistic_understanding_hive$ II"
+ trait_ruler_logistic_understanding_2_hive_desc:0 "$trait_ruler_logistic_understanding_hive_desc$"
+ trait_ruler_logistic_understanding_2_machine:0 "$trait_ruler_logistic_understanding_machine$ II"
+ trait_ruler_logistic_understanding_2_machine_desc:0 "$trait_ruler_logistic_understanding_machine_desc$"
+
+ trait_ruler_eye_for_talent_hive:0 "Raccolta Informazioni"
+ trait_ruler_eye_for_talent_hive_desc:0 "Questo [owner.GetIndividualName] raccoglie informazioni, le elabora e adatta nuovi metodi alla ricerca della perfezione."
+ trait_ruler_eye_for_talent_machine:0 "Elaborazione Informazioni"
+ trait_ruler_eye_for_talent_machine_desc:0 "Questa unità raccoglie informazioni, le elabora e adatta nuovi metodi alla ricerca della perfezione."
+
+ trait_ruler_eye_for_talent_2_hive:0 "$trait_ruler_eye_for_talent_hive$ II"
+ trait_ruler_eye_for_talent_2_hive_desc:0 "$trait_ruler_eye_for_talent_hive_desc$"
+ trait_ruler_eye_for_talent_2_machine:0 "$trait_ruler_eye_for_talent_machine$ II"
+ trait_ruler_eye_for_talent_2_machine_desc:0 "$trait_ruler_eye_for_talent_machine_desc$"
+
+ leader_trait_gifted_hive: "Dotato"
+ leader_trait_gifted_hive_desc:1 "La funzionalità di questo [owner.GetIndividualName] è significativamente migliorata da una crescita sinaptica insolita."
+ leader_trait_gifted_machine: "Aggiornato"
+ leader_trait_gifted_machine_desc:1 "La funzionalità di questa unità è stata significativamente migliorata da un aggiornamento sperimentale."
+
+ leader_trait_educator_hive:0 "Conoscenza Espansa"
+ leader_trait_educator_machine:0 "Banche Dati Espanse"
+
+ leader_trait_fleet_organizer_hive:0 "Organizzatore Flotta"
+ leader_trait_fleet_organizer_hive_desc:1 "Questo nodo organizza ed espande la capacità della flotta."
+ leader_trait_fleet_organizer_machine:0 "Organizzatore Flotta"
+ leader_trait_fleet_organizer_machine_desc:1 "Questa unità organizza ed espande la capacità della flotta."
+
+ leader_trait_fleet_organizer_2_hive:0 "$leader_trait_fleet_organizer_hive$ II"
+ leader_trait_fleet_organizer_2_hive_desc:0 "$leader_trait_fleet_organizer_hive_desc$"
+ leader_trait_fleet_organizer_2_machine:0 "$leader_trait_fleet_organizer_machine$ II"
+ leader_trait_fleet_organizer_2_machine_desc:0 "$leader_trait_fleet_organizer_machine_desc$"
+
+ leader_trait_skirmisher_hive:0 "Combattente"
+ leader_trait_skirmisher_hive_desc:0 "Questo nodo migliora l'efficienza di tutte le navi all'interno della flotta."
+ leader_trait_skirmisher_machine:0 "Combattente"
+ leader_trait_skirmisher_machine_desc:1 "Questo nodo migliora l'efficienza di tutte le navi all'interno della flotta elaborando tattiche avanzate di schermaglia."
+
+ leader_trait_skirmisher_2_hive:0 "$leader_trait_skirmisher_hive$ II"
+ leader_trait_skirmisher_2_hive_desc:0 "$leader_trait_skirmisher_hive_desc$"
+ leader_trait_skirmisher_2_machine:0 "$leader_trait_skirmisher_machine$ II"
+ leader_trait_skirmisher_2_machine_desc:0 "$leader_trait_skirmisher_machine_desc$"
+
+ leader_trait_aggressive_hive:0 "Schema Attacco Aggressivo"
+ leader_trait_aggressive_hive_desc:1 "Questo [owner.GetIndividualName] utilizza schemi di attacco aggressivi nei combattimenti della flotta."
+ leader_trait_aggressive_machine:0 "Schema Attacco Aggressivo"
+ leader_trait_aggressive_machine_desc:1 "Questa unità utilizza schemi di attacco aggressivi nei combattimenti della flotta."
+
+ leader_trait_aggressive_2_hive:0 "$leader_trait_aggressive_hive$ II"
+ leader_trait_aggressive_2_hive_desc:0 "$leader_trait_aggressive_hive_desc$"
+ leader_trait_aggressive_2_machine:0 "$leader_trait_aggressive_machine$ II"
+ leader_trait_aggressive_2_machine_desc:0 "$leader_trait_aggressive_machine_desc$"
+
+ leader_trait_engineer_hive:0 "Sistemi Riparazione Automatizzati"
+ leader_trait_engineer_hive_desc:1 "Questo [owner.GetIndividualName] utilizza sistemi automatizzati per riparare gli scafi delle navi al di fuori di un'area di attracco."
+ leader_trait_engineer_machine:0 "Sistemi Riparazione Automatizzati"
+ leader_trait_engineer_machine_desc:1 "Questa unità utilizza sistemi automatizzati per riparare gli scafi delle navi al di fuori di un'area di attracco."
+
+ leader_trait_engineer_2_hive:0 "$leader_trait_engineer_hive$ II"
+ leader_trait_engineer_2_hive_desc:0 "$leader_trait_engineer_hive_desc$"
+ leader_trait_engineer_2_machine:0 "$leader_trait_engineer_machine$ II"
+ leader_trait_engineer_2_machine_desc:0 "$leader_trait_engineer_machine_desc$"
+
+ leader_trait_annihilator_hive:0 "Annientatore"
+ leader_trait_annihilator_hive_desc:1 "Questo [owner.GetIndividualName] si concentra sulla rapida distruzione delle difese planetarie, rade al suolo le fortezze."
+ leader_trait_annihilator_machine:0 "Annientatore"
+ leader_trait_annihilator_machine_desc:1 "Questa unità si concentra sulla rapida distruzione delle difese planetarie, rade al suolo le fortezze."
+
+ leader_trait_artillerist_hive:0 "Artigliere"
+ leader_trait_artillerist_hive_desc:0 "La capacità di questo [owner.GetIndividualName] di operare i sistemi d'arma della flotta è estremamente precisa e letale."
+ leader_trait_artillerist_machine:0 "Artigliere"
+ leader_trait_artillerist_machine_desc:0 "La capacità di questa unità di operare i sistemi d'arma della flotta è estremamente precisa e letale."
+
+ leader_trait_artillerist_2_hive:0 "$leader_trait_artillerist_hive$ II"
+ leader_trait_artillerist_2_hive_desc:0 "$leader_trait_artillerist_hive_desc$"
+ leader_trait_artillerist_2_machine:0 "$leader_trait_artillerist_machine$ II"
+ leader_trait_artillerist_2_machine_desc:0 "$leader_trait_artillerist_machine_desc$"
+
+ leader_trait_commanding_presence_hive:0 "Struttura di Comando"
+ leader_trait_commanding_presence_hive_desc:1 "Questo [owner.GetIndividualName] è specializzato nella gestione e comando di grandi flotte."
+ leader_trait_commanding_presence_machine:0 "Mainframe di Comando"
+ leader_trait_commanding_presence_machine_desc:1 "Questa unità è specializzata nella gestione e comando di grandi flotte."
+
+ leader_trait_commanding_presence_2_hive:0 "$leader_trait_commanding_presence_hive$ II"
+ leader_trait_commanding_presence_2_hive_desc:0 "$leader_trait_commanding_presence_hive_desc$"
+ leader_trait_commanding_presence_2_machine:0 "$leader_trait_commanding_presence_machine$ II"
+ leader_trait_commanding_presence_2_machine_desc:0 "$leader_trait_commanding_presence_machine_desc$"
+
+ leader_trait_corsair_hive:0 "Smantellatore"
+ leader_trait_corsair_hive_desc:0 "Questo [owner.GetIndividualName] smantella le navi nemiche e recupera qualsiasi cosa di valore."
+ leader_trait_corsair_machine:0 "Smantellatore"
+ leader_trait_corsair_machine_desc:0 "Questa unità smantella le navi nemiche e recupera qualsiasi cosa di valore."
+
+ leader_trait_par_zealot_hive:0 "Comportamento Adattivo"
+ leader_trait_par_zealot_hive_desc:0 "La dedizione di questo [owner.GetIndividualName] alla nostra sopravvivenza è pari solo alla sua sete di comprendere le motivazioni e le forze trainanti dei nostri nemici, allo scopo di imparare e far progredire le capacità dell'[owner.GetGestaltEntityName]."
+ leader_trait_par_zealot_machine:0 "Modelli Adattivi"
+ leader_trait_par_zealot_machine_desc:0 "Questa unità è progettata per analizzare le motivazioni e le forze trainanti delle specie ostili, al fine di garantire la sopravvivenza e la prosperità della coscienza."
+
+ leader_trait_demolisher_hive:0 "Demolitore"
+ leader_trait_demolisher_hive_desc:1 "Questo [owner.GetIndividualName] è specializzato nella distruzione di Basi Stellari e Piattaforme di Difesa."
+ leader_trait_demolisher_machine:0 "Demolitore"
+ leader_trait_demolisher_machine_desc:1 "Questa unità è ottimizzata per la distruzione di Basi Stellari e Piattaforme di Difesa."
+
+ leader_trait_shipbreaker_hive:0 "Smantellatore Navi"
+ leader_trait_shipbreaker_hive_desc:0 "Questo [owner.GetIndividualName] recupera leghe preziose dalle navi nemiche distrutte."
+ leader_trait_shipbreaker_machine:0 "Smantellatore Navi"
+ leader_trait_shipbreaker_machine_desc:0 "Questa unità recupera leghe preziose dalle navi nemiche distrutte."
+
+ leader_trait_shipbreaker_2_hive:0 "$leader_trait_shipbreaker_hive$ II"
+ leader_trait_shipbreaker_2_hive_desc:0 "$leader_trait_shipbreaker_hive_desc$"
+ leader_trait_shipbreaker_2_machine:0 "$leader_trait_shipbreaker_machine$ II"
+ leader_trait_shipbreaker_2_machine_desc:0 "$leader_trait_shipbreaker_machine_desc$"
+
+ leader_trait_artillery_focus_hive_desc:0 "Questo [owner.GetIndividualName] è specializzato in armi da artiglieria."
+ leader_trait_artillery_specialization_hive_desc:0 "$leader_trait_artillery_focus_hive_desc$"
+ leader_trait_artillery_focus_machine_desc:0 "Questa unità è specializzata in armi da artiglieria."
+ leader_trait_artillery_specialization_machine_desc:0 "$leader_trait_artillery_focus_machine_desc$"
+
+ leader_trait_carrier_focus_hive_desc:0 "Questo [owner.GetIndividualName] è specializzato in caccia."
+ leader_trait_carrier_specialization_hive_desc:0 "$leader_trait_carrier_focus_hive_desc$"
+ leader_trait_carrier_focus_machine_desc:0 "Questa unità è specializzata in caccia."
+ leader_trait_carrier_specialization_machine_desc:0 "$leader_trait_carrier_focus_machine_desc$"
+
+ leader_trait_rocketry_focus_hive_desc:0 "Questo [owner.GetIndividualName] è specializzato in armi esplosive."
+ leader_trait_rocketry_specialization_hive_desc:0 "$leader_trait_rocketry_focus_hive_desc$"
+ leader_trait_rocketry_focus_machine_desc:0 "Questa unità è specializzata in armi esplosive."
+ leader_trait_rocketry_specialization_machine_desc:0 "$leader_trait_rocketry_focus_machine_desc$"
+
+ leader_trait_gunship_focus_hive_desc:0 "Questo [owner.GetIndividualName] è specializzato in cannoniere."
+ leader_trait_gunship_specialization_hive_desc:0 "$leader_trait_gunship_focus_hive_desc$"
+ leader_trait_gunship_focus_machine_desc:0 "Questa unità è specializzata in cannoniere."
+ leader_trait_gunship_specialization_machine_desc:0 "$leader_trait_gunship_focus_machine_desc$"
+
+ leader_trait_juryrigger_hive:1 "Recuperatore Ingegnoso"
+ leader_trait_juryrigger_hive_desc:0 "Questo [owner.GetIndividualName] utilizza i resti degli avversari sconfitti per riparare le navi della propria flotta."
+ leader_trait_juryrigger_machine:1 "Recuperatore Ingegnoso"
+ leader_trait_juryrigger_machine_desc:0 "$leader_trait_juryrigger_hive_desc$"
+
+ leader_trait_juryrigger_2_hive:0 "$leader_trait_juryrigger_hive$ II"
+ leader_trait_juryrigger_2_hive_desc:0 "$leader_trait_juryrigger_hive_desc$"
+ leader_trait_juryrigger_2_machine:0 "$leader_trait_juryrigger_machine$ II"
+ leader_trait_juryrigger_2_machine_desc:0 "$leader_trait_juryrigger_machine_desc$"
+
+ leader_trait_surgical_bombardment_hive:0 "Bombardamento Chirurgico"
+ leader_trait_surgical_bombardment_hive_desc:1 "Utilizzando dati sensoriali precisi, questo [owner.GetIndividualName] può infliggere attacchi devastanti alle armate terrestri con un minimo di danni collaterali."
+ leader_trait_surgical_bombardment_machine:0 "Bombardamento Chirurgico"
+ leader_trait_surgical_bombardment_machine_desc:1 "Utilizzando dati sensoriali precisi, questa unità può infliggere attacchi devastanti alle armate terrestri con un minimo di danni collaterali."
+
+ leader_trait_scholar_of_war_hive:1 "Analista Tattico"
+ leader_trait_scholar_of_war_hive_desc:1 "Questo [owner.GetIndividualName] raccoglie dati di battaglia estesi per migliorare le sue prestazioni nel tempo."
+ leader_trait_scholar_of_war_machine:1 "Analista Tattico"
+ leader_trait_scholar_of_war_machine_desc:1 "Questa unità raccoglie dati di battaglia estesi per migliorare le sue prestazioni nel tempo."
+
+ leader_trait_scholar_of_war_2_hive:0 "$leader_trait_scholar_of_war_hive$ II"
+ leader_trait_scholar_of_war_2_hive_desc:0 "$leader_trait_scholar_of_war_hive_desc$"
+ leader_trait_scholar_of_war_2_machine:0 "$leader_trait_scholar_of_war_machine$ II"
+ leader_trait_scholar_of_war_2_machine_desc:0 "$leader_trait_scholar_of_war_machine_desc$"
+
+ leader_trait_gale_speed_hive:0 "Velocità del Vento"
+ leader_trait_gale_speed_hive_desc:1 "Questo nodo utilizza sensori avanzati per aumentare la velocità subluminale di tutte le navi."
+ leader_trait_gale_speed_machine:0 "Velocità del Vento"
+ leader_trait_gale_speed_machine_desc:1 "Questa unità utilizza sensori avanzati per aumentare la velocità subluminale di tutte le navi."
+
+ leader_trait_gale_speed_2_hive:0 "$leader_trait_gale_speed_hive$ II"
+ leader_trait_gale_speed_2_hive_desc:0 "$leader_trait_gale_speed_hive_desc$"
+ leader_trait_gale_speed_2_machine:0 "$leader_trait_gale_speed_machine$ II"
+ leader_trait_gale_speed_2_machine_desc:0 "$leader_trait_gale_speed_machine_desc$"
+
+ trait_ruler_fortifier_hive:0 "Fortificatore"
+ trait_ruler_fortifier_hive_desc:0 "Questo nodo è specializzato in misure difensive che consentono la costruzione di basi stellari e piattaforme di difesa a costi ridotti."
+ trait_ruler_fortifier_machine:0 "Fortificatore"
+ trait_ruler_fortifier_machine_desc:1 "Questa unità è specializzata in misure difensive che consentono la costruzione di Basi Stellari e Piattaforme di Difesa a un costo ridotto."
+
+ trait_ruler_fortifier_2_hive:0 "$trait_ruler_fortifier_hive$ II"
+ trait_ruler_fortifier_2_hive_desc:0 "$trait_ruler_fortifier_hive_desc$"
+ trait_ruler_fortifier_2_machine:0 "$trait_ruler_fortifier_machine$ II"
+ trait_ruler_fortifier_2_machine_desc:0 "$trait_ruler_fortifier_machine_desc$"
+
+ leader_trait_armada_logistician_hive:0 "Logistico Armada"
+ leader_trait_armada_logistician_hive_desc:1 "Questo [owner.GetIndividualName] ottimizza la manutenzione della flotta con moduli intercambiabili tra le navi e [owner.GetIndividualNamePlural] di riparazione."
+ leader_trait_armada_logistician_machine:0 "Logistico Armada"
+ leader_trait_armada_logistician_machine_desc:1 "Questa unità ottimizza la manutenzione della flotta con moduli intercambiabili tra le navi e droni di riparazione."
+
+ leader_trait_armada_logistician_2_hive:0 "$leader_trait_armada_logistician_hive$ II"
+ leader_trait_armada_logistician_2_hive_desc:0 "$leader_trait_armada_logistician_hive_desc$"
+ leader_trait_armada_logistician_2_machine:0 "$leader_trait_armada_logistician_machine$ II"
+ leader_trait_armada_logistician_2_machine_desc:0 "$leader_trait_armada_logistician_machine_desc$"
+
+ trait_ruler_military_pioneer_hive:0 "Schemi Navali Modulari"
+ trait_ruler_military_pioneer_hive_desc:1 "Questo nodo gestisce e sviluppa schemi modulari delle navi che riducono i costi di aggiornamento e costruzione.."
+ trait_ruler_military_pioneer_machine:0 "Schemi Navali Modulari"
+ trait_ruler_military_pioneer_machine_desc:1 "Questa unità mantiene e sviluppa schemi modulari delle navi che riducono i costi di aggiornamento e costruzione."
+
+ trait_ruler_military_pioneer_2_hive:0 "$trait_ruler_military_pioneer_hive$ II"
+ trait_ruler_military_pioneer_2_hive_desc:0 "$trait_ruler_military_pioneer_hive_desc$"
+ trait_ruler_military_pioneer_2_machine:0 "$trait_ruler_military_pioneer_machine$ II"
+ trait_ruler_military_pioneer_2_machine_desc:0 "$trait_ruler_military_pioneer_machine_desc$"
+
+ leader_trait_defence_engineer_hive:0 "Ingegneria Piattaforme Difensive"
+ leader_trait_defence_engineer_hive_desc:1 "Questo nodo fornisce aggiornamenti ottimizzati alle piattaforme di Difesa."
+ leader_trait_defence_engineer_machine:0 "Ingegneria Piattaforme Difensive"
+ leader_trait_defence_engineer_machine_desc:1 "Questa unità fornisce aggiornamenti ottimizzati per le Piattaforme di Difesa."
+
+ leader_trait_defence_engineer_2_hive:0 "$leader_trait_defence_engineer_hive$ II"
+ leader_trait_defence_engineer_2_hive_desc:0 "$leader_trait_defence_engineer_hive_desc$"
+ leader_trait_defence_engineer_2_machine:0 "$leader_trait_defence_engineer_machine$ II"
+ leader_trait_defence_engineer_2_machine_desc:0 "$leader_trait_defence_engineer_machine_desc$"
+
+ leader_trait_spycraft_hive: "Raccolta Informazioni"
+ leader_trait_spycraft_hive_desc:1 "Questo nodo elabora le informazioni raccolte dalle operazioni di spionaggio in corso."
+ leader_trait_spycraft_machine:0 "Subroutine di Spionaggio"
+ leader_trait_spycraft_machine_desc:1 "Questo nodo elabora le informazioni raccolte dalle operazioni di spionaggio in corso."
+
+ leader_trait_spycraft_2_hive:0 "$leader_trait_spycraft_hive$ II"
+ leader_trait_spycraft_2_hive_desc:0 "$leader_trait_spycraft_hive_desc$"
+ leader_trait_spycraft_2_machine:0 "$leader_trait_spycraft_machine$ II"
+ leader_trait_spycraft_2_machine_desc:0 "$leader_trait_spycraft_machine_desc$"
+
+ leader_trait_butcher_hive:0 "Distruttore"
+ leader_trait_butcher_hive_desc:1 "Questo [owner.GetIndividualName] scatena eserciti in attacchi implacabili e devastanti che causano significativi danni collaterali."
+ leader_trait_butcher_machine:0 "Distruttore"
+ leader_trait_butcher_machine_desc:1 "Questa unità scatena eserciti in attacchi implacabili e devastanti che causano significativi danni collaterali."
+
+ leader_trait_butcher_2_hive:0 "$leader_trait_butcher_hive$ II"
+ leader_trait_butcher_2_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_2_machine:0 "$leader_trait_butcher_machine$ II"
+ leader_trait_butcher_2_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ leader_trait_butcher_3_hive:0 "$leader_trait_butcher_hive$ III"
+ leader_trait_butcher_3_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_3_machine:0 "$leader_trait_butcher_machine$ III"
+ leader_trait_butcher_3_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ trait_ruler_investor_hive:0 "Ottimizzatore"
+ trait_ruler_investor_hive_desc:1 "Questo nodo è responsabile per massimizzare il potenziale dei [owner.GetIndividualNamePlural] lavoratori."
+ trait_ruler_investor_2_hive:0 "$trait_ruler_investor_hive$ II"
+ trait_ruler_investor_2_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+ trait_ruler_investor_3_hive:0 "$trait_ruler_investor_hive$ III"
+ trait_ruler_investor_3_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+
+ trait_ruler_investor_machine:0 "Unità Ottimizzazione Lavoro"
+ trait_ruler_investor_machine_desc:1 "Questa unità è responsabile per massimizzare il potenziale delle unità lavorative."
+ trait_ruler_investor_2_machine:0 "$trait_ruler_investor_machine$ II"
+ trait_ruler_investor_2_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+ trait_ruler_investor_3_machine:0 "$trait_ruler_investor_machine$ III"
+ trait_ruler_investor_3_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+
+ leader_trait_army_logistician_hive:0 "Logistico Armate"
+ leader_trait_army_logistician_hive_desc:1 "Questo [owner.GetIndividualName] aderisce a routine che riducono la manutenzione dell'esercito."
+ leader_trait_army_logistician_machine:0 "Logistico Armate"
+ leader_trait_army_logistician_machine_desc:1 "Questa unità aderisce a routine che riducono la manutenzione dell'esercito."
+
+ leader_trait_army_logistician_2_hive:0 "$leader_trait_army_logistician_hive$ II"
+ leader_trait_army_logistician_2_hive_desc:0 "$leader_trait_army_logistician_hive_desc$"
+ leader_trait_army_logistician_2_machine:0 "$leader_trait_army_logistician_machine$ II"
+ leader_trait_army_logistician_2_machine_desc:0 "$leader_trait_army_logistician_machine_desc$"
+
+ leader_trait_restrained_hive: "Calcolatore"
+ leader_trait_restrained_hive_desc:1 "Questo [owner.GetIndividualName] calcola offensive tattiche che minimizzano i danni collaterali."
+ leader_trait_restrained_machine: "Calcolatore"
+ leader_trait_restrained_machine_desc:1 "Questa unità calcola offensive tattiche che minimizzano i danni collaterali."
+
+ leader_trait_restrained_2_hive:0 "$leader_trait_restrained_hive$ II"
+ leader_trait_restrained_2_hive_desc:0 "$leader_trait_restrained_hive_desc$"
+ leader_trait_restrained_2_machine:0 "$leader_trait_restrained_machine$ II"
+ leader_trait_restrained_2_machine_desc:0 "$leader_trait_restrained_machine_desc$"
+
+ leader_trait_restrained_3_hive:0 "$leader_trait_restrained_hive$ III"
+ leader_trait_restrained_3_hive_desc:0 "$leader_trait_restrained_hive_desc$"
+ leader_trait_restrained_3_machine:0 "$leader_trait_restrained_machine$ III"
+ leader_trait_restrained_3_machine_desc:0 "$leader_trait_restrained_machine_desc$"
+
+ leader_trait_inspiring_hive: "Risoluto"
+ leader_trait_inspiring_hive_desc:1 "Gli eserciti controllati da questo [owner.GetIndividualName] sono resistenti alla perdita di morale."
+
+ leader_trait_inspiring_2_hive:0 "$leader_trait_inspiring_hive$ II"
+ leader_trait_inspiring_2_hive_desc:0 "$leader_trait_inspiring_hive_desc$"
+
+ leader_trait_glory_seeker_hive:0 "Volontà Collettiva"
+ leader_trait_glory_seeker_hive_desc:1 "Gli eserciti controllati da questo nodo agiscono in perfetta coordinazione."
+ leader_trait_glory_seeker_machine:0 "Volontà Collettiva"
+ leader_trait_glory_seeker_machine_desc:1 "Gli eserciti controllati da questa unità agiscono in perfetta sincronia."
+
+ leader_trait_glory_seeker_2_hive:0 "$leader_trait_glory_seeker_hive$ II"
+ leader_trait_glory_seeker_2_hive_desc:0 "$leader_trait_glory_seeker_hive_desc$"
+ leader_trait_glory_seeker_2_machine:0 "$leader_trait_glory_seeker_machine$ II"
+ leader_trait_glory_seeker_2_machine_desc:0 "$leader_trait_glory_seeker_machine_desc$"
+
+ leader_trait_dreaded_hive:0 "Demoralizzatore"
+ leader_trait_dreaded_hive_desc:1 "Gli eserciti controllati da questo [owner.GetIndividualName] sono eccellenti nel demoralizzare il nemico."
+ leader_trait_dreaded_machine:0 "Demoralizzatore"
+ leader_trait_dreaded_machine_desc:1 "Gli eserciti controllati da questa unità sono eccellenti nel demoralizzare il nemico."
+
+ leader_trait_dreaded_2_hive:0 "$leader_trait_dreaded_hive$ II"
+ leader_trait_dreaded_2_hive_desc:0 "$leader_trait_dreaded_hive_desc$"
+ leader_trait_dreaded_2_machine:0 "$leader_trait_dreaded_machine$ II"
+ leader_trait_dreaded_2_machine_desc:0 "$leader_trait_dreaded_machine_desc$"
+
+ leader_trait_hardy_hive: "Resistente"
+ leader_trait_hardy_hive_desc:1 "Gli eserciti controllati da questo [owner.GetIndividualName] sono fortemente resistenti ai danni."
+ leader_trait_hardy_machine: "Resistente"
+ leader_trait_hardy_machine_desc:1 "Gli eserciti controllati da questa unità sono fortemente resistenti ai danni."
+
+ leader_trait_hardy_2_hive:0 "$leader_trait_hardy_hive$ II"
+ leader_trait_hardy_2_hive_desc:0 "$leader_trait_hardy_hive_desc$"
+ leader_trait_hardy_2_machine:0 "$leader_trait_hardy_machine$ II"
+ leader_trait_hardy_2_machine_desc:0 "$leader_trait_hardy_machine_desc$"
+
+ leader_trait_heavy_hitter_hive:0 "Colpo Pesante"
+ leader_trait_heavy_hitter_hive_desc:1 "Questo [owner.GetIndividualName] utilizza tattiche d'assalto pesante per infliggere danni immensi al nemico."
+ leader_trait_heavy_hitter_machine:0 "Colpo Pesante"
+ leader_trait_heavy_hitter_machine_desc:1 "Questa unità utilizza tattiche d'assalto pesante per infliggere danni immensi al nemico."
+
+ leader_trait_heavy_hitter_2_hive:0 "$leader_trait_heavy_hitter_hive$ II"
+ leader_trait_heavy_hitter_2_hive_desc:0 "$leader_trait_heavy_hitter_hive_desc$"
+ leader_trait_heavy_hitter_2_machine:0 "$leader_trait_heavy_hitter_machine$ II"
+ leader_trait_heavy_hitter_2_machine_desc:0 "$leader_trait_heavy_hitter_machine_desc$"
+
+ leader_trait_scrambler_hive:0 "Codificatore"
+ leader_trait_scrambler_hive_desc:1 "Questo [owner.GetIndividualName] disturba le comunicazioni e i sensori quando occupa colonie nemiche."
+ leader_trait_scrambler_machine:0 "Codificatore"
+ leader_trait_scrambler_machine_desc:1 "Questa unità disturba le comunicazioni e i sensori quando occupa colonie nemiche."
+
+ #leader_trait_kidnapper_machine: "Enslaver"
+ #leader_trait_kidnapper_machine_desc: "This unit captures and enslaves parts of the enemy population when occupying a planet."
+
+ #leader_trait_kidnapper_2_machine: "$leader_trait_kidnapper_machine$ II"
+ #leader_trait_kidnapper_2_machine_desc: "$leader_trait_kidnapper_machine_desc$"
+
+ trait_ruler_deep_connections_hive:0 "Mente Profonda"
+ trait_ruler_deep_connections_hive_desc:1 "Navigando senza sforzo attraverso la labirintica rete della coscienza collettiva, questo nodo promuove la collaborazione armoniosa."
+ trait_ruler_deep_connections_2_hive:0 "$trait_ruler_deep_connections_hive$ II"
+ trait_ruler_deep_connections_2_hive_desc:0 "$trait_ruler_deep_connections_hive_desc$"
+
+ trait_ruler_deep_connections_machine:0 "Subroutine Analisi Profonda"
+ trait_ruler_deep_connections_machine_desc:1 "Navigando senza sforzo attraverso la labirintica rete del network collettivo, questa unità promuove un'interfaccia armoniosa."
+ trait_ruler_deep_connections_2_machine:0 "$trait_ruler_deep_connections_machine$ II"
+ trait_ruler_deep_connections_2_machine_desc:0 "$trait_ruler_deep_connections_machine_desc$"
+
+ leader_trait_interrogator_hive:0 "Interrogatore"
+ leader_trait_interrogator_hive_desc:1 "Questo [owner.GetIndividualName] utilizza tecniche di interrogatorio specializzate su popolazioni occupate. I dati raccolti assistono le operazioni di intelligence in corso."
+ leader_trait_interrogator_machine:0 "Interrogatore"
+ leader_trait_interrogator_machine_desc:1 "Questa unità utilizza tecniche di interrogatorio specializzate su popolazioni occupate. I dati raccolti assistono le operazioni di intelligence in corso."
+
+ leader_trait_interrogator_2_hive:0 "$leader_trait_interrogator_hive$ II"
+ leader_trait_interrogator_2_hive_desc:0 "$leader_trait_interrogator_hive_desc$"
+ leader_trait_interrogator_2_machine:0 "$leader_trait_interrogator_machine$ II"
+ leader_trait_interrogator_2_machine_desc:0 "$leader_trait_interrogator_machine_desc$"
+
+ leader_trait_crusader_hive:0 "Feromoni Potenti"
+ leader_trait_crusader_hive_desc:0 "Questo [owner.GetIndividualName] ha una ghiandola modificata che secerne feromoni che inducono la calma nei combattimento attivi."
+ leader_trait_crusader_2_hive:0 "$leader_trait_crusader_hive$ II"
+ leader_trait_crusader_2_hive_desc:0 "$leader_trait_crusader_hive_desc$"
+ leader_trait_crusader_machine:0 "Tattico"
+ leader_trait_crusader_machine_desc:0 "L'unità ha un software modificato che promuove la coesione tattica nelle unità da combattimento attive."
+ leader_trait_crusader_2_machine:0 "$leader_trait_crusader_machine$ II"
+ leader_trait_crusader_2_machine_desc:0 "$leader_trait_crusader_machine_desc$"
+
+ leader_trait_industrial_espionage_hive:0 "Smantellatore Tecnologico"
+ leader_trait_industrial_espionage_hive_desc:1 "Questo [owner.GetIndividualName] smantella la tecnologia aliena quando occupa una colonia nemica."
+ leader_trait_industrial_espionage_machine:0 "Estrattore Tecnologico"
+ leader_trait_industrial_espionage_machine_desc:1 "Questa unità smantella la tecnologia aliena quando occupa una colonia nemica."
+
+ leader_trait_industrial_espionage_2_hive:0 "$leader_trait_industrial_espionage_hive$ II"
+ leader_trait_industrial_espionage_2_hive_desc:0 "$leader_trait_industrial_espionage_hive_desc$"
+ leader_trait_industrial_espionage_2_machine:0 "$leader_trait_industrial_espionage_machine$ II"
+ leader_trait_industrial_espionage_2_machine_desc:0 "$leader_trait_industrial_espionage_machine_desc$"
+
+ leader_trait_warden_hive:0 "Guardia"
+ leader_trait_warden_hive_desc:1 "Questo [owner.GetIndividualName] comanda diverse armate difensive che assisteranno nella protezione del pianeta."
+ leader_trait_warden_machine:0 "Guardia"
+ leader_trait_warden_machine_desc:1 "Questa unità comanda diverse armate difensive che assisteranno nella protezione del pianeta."
+
+ leader_trait_warden_2_hive:0 "$leader_trait_warden_hive$ II"
+ leader_trait_warden_2_hive_desc:0 "$leader_trait_warden_hive_desc$"
+ leader_trait_warden_2_machine:0 "$leader_trait_warden_machine$ II"
+ leader_trait_warden_2_machine_desc:0 "$leader_trait_warden_machine_desc$"
+
+ leader_trait_reinforcer_hive:0 "Rinforzatore"
+ leader_trait_reinforcer_hive_desc:1 "Questo [owner.GetIndividualName] rinforza le unità da combattimento danneggiate, concentrando l'attenzione sulla difesa."
+ leader_trait_reinforcer_machine:0 "Rinforzatore"
+ leader_trait_reinforcer_machine_desc:1 "Questa unità utilizza protocolli di comando speciali per rinforzare le unità da combattimento danneggiate, concentrando l'attenzione sulla difesa."
+
+ leader_trait_reinforcer_2_hive:0 "$leader_trait_reinforcer_hive$ II"
+ leader_trait_reinforcer_2_hive_desc:0 "$leader_trait_reinforcer_hive_desc$"
+ leader_trait_reinforcer_2_machine:0 "$leader_trait_reinforcer_machine$ II"
+ leader_trait_reinforcer_2_machine_desc:0 "$leader_trait_reinforcer_machine_desc$"
+
+ leader_trait_guardian_hive:0 "Guardiano"
+ leader_trait_guardian_hive_desc:1 "Questo [owner.GetIndividualName] controlla la Base Stellare e le Piattaforme Difensive nel sistema, aumentandone le capacità di difesa."
+ leader_trait_guardian_machine:0 "Guardiano"
+ leader_trait_guardian_machine_desc:0 "Questa unità si collega alla Base Stellare e alle Piattaforme Difensive nel sistema, aumentandone le capacità di difesa."
+
+ leader_trait_guardian_2_hive:0 "$leader_trait_guardian_hive$ II"
+ leader_trait_guardian_2_hive_desc:0 "$leader_trait_guardian_hive_desc$"
+ leader_trait_guardian_2_machine:0 "$leader_trait_guardian_machine$ II"
+ leader_trait_guardian_2_machine_desc:0 "$leader_trait_guardian_machine_desc$"
+
+ leader_trait_conscripter_hive:0 "Crescita Armate"
+ leader_trait_conscripter_hive_desc:1 "Questo [owner.GetIndividualName] aumenta la velocità di crescita delle armate sul pianeta e conferisce ai nuovi soldati i comandi di combattimento avanzati."
+ leader_trait_conscripter_machine:0 "Assemblatore Armate"
+ leader_trait_conscripter_machine_desc:1 "Questa unità aumenta la velocità di produzione delle armate sul pianeta e carica nei nuovi reparti da battaglia protocolli tattici avanzati."
+
+ trait_ruler_from_the_ranks_hive:0 "Dottrina di Guerra"
+ trait_ruler_from_the_ranks_hive_desc:1 "Questo nodo aumenta l'efficienza e la capacità di apprendimento di tutte le unità di combattimento terrestri."
+ trait_ruler_from_the_ranks_machine:0 "Dottrina di Guerra"
+ trait_ruler_from_the_ranks_machine_desc:1 "Questa unità aumenta l'efficienza e la capacità di apprendimento di tutte le unità di combattimento terrestri."
+
+ trait_ruler_recruiter_hive:0 "Infestatore"
+ trait_ruler_recruiter_hive_desc:1 "Questo nodo si specializza nei cicli di infestazione che consentono la crescita di armate ad alta velocità e a basso costo."
+ trait_ruler_recruiter_machine:0 "Protocolli di Assemblaggio di Guerra"
+ trait_ruler_recruiter_machine_desc:1 "Questa unità afferma protocolli di assemblaggio che rendono possibile la costruzione di armate ad alta velocità e a basso costo."
+
+ leader_trait_science_communicator_hive:0 "Condotto Scientifico"
+ leader_trait_science_communicator_hive_desc:1 "Con un flusso costante di nuove conoscenze, questo nodo migliora il rendimento scientifico degli altri [owner.GetIndividualNamePlural] leader."
+ leader_trait_science_communicator_machine:0 "Potenziatore Unità Scientifiche"
+ leader_trait_science_communicator_machine_desc:1 "Con un flusso costante di nuove conoscenze, questa unità migliora il rendimento scientifico delle altre unità leader."
+
+ leader_trait_science_communicator_2_hive:0 "$leader_trait_science_communicator_hive$ II"
+ leader_trait_science_communicator_2_hive_desc:0 "$leader_trait_science_communicator_hive_desc$"
+ leader_trait_science_communicator_2_machine:0 "$leader_trait_science_communicator_machine$ II"
+ leader_trait_science_communicator_2_machine_desc:0 "$leader_trait_science_communicator_machine_desc$"
+
+ leader_trait_carefree_hive: "Rapido"
+ leader_trait_carefree_hive_desc:1 "Questo [owner.GetIndividualName] riesce a selezionare rapidamente i dati durante l'indagine di un fenomeno sconosciuto."
+ leader_trait_carefree_machine:0 "Calcoli Rapidi"
+ leader_trait_carefree_machine_desc:1 "Questa unità seleziona rapidamente i dati durante l'indagine di un fenomeno sconosciuto."
+
+ leader_trait_carefree_2_hive:0 "$leader_trait_carefree_hive$ II"
+ leader_trait_carefree_2_hive_desc:0 "$leader_trait_carefree_hive_desc$"
+ leader_trait_carefree_2_machine:0 "$leader_trait_carefree_machine$ II"
+ leader_trait_carefree_2_machine_desc:0 "$leader_trait_carefree_machine_desc$"
+
+ leader_trait_civil_engineer_hive:0 "Mente Architettonica"
+ leader_trait_civil_engineer_hive_desc:0 "Questo [owner.GetIndividualName] riduce il tempo di costruzione dei distretti e degli edifici."
+ leader_trait_civil_engineer_machine:0 "Calcoli Architettonici"
+ leader_trait_civil_engineer_machine_desc:0 "Questa unità utilizza calcoli avanzati per ridurre il tempo di costruzione dei distretti e degli edifici."
+
+ leader_trait_civil_engineer_2_hive:0 "$leader_trait_civil_engineer_hive$ II"
+ leader_trait_civil_engineer_2_hive_desc:0 "$leader_trait_civil_engineer_hive_desc$"
+ leader_trait_civil_engineer_2_machine:0 "$leader_trait_civil_engineer_machine$ II"
+ leader_trait_civil_engineer_2_machine_desc:0 "$leader_trait_civil_engineer_machine_desc$"
+
+ leader_trait_collaborator_hive:0 "Collegamento delle Sinapsi"
+ leader_trait_collaborator_hive_desc:1 "Questo [owner.GetIndividualName] è efficace nella condivisione di informazioni con altre parti dell'[owner.GetGovernmentName]."
+ leader_trait_collaborator_machine:0 "Collegamento Informatico"
+ leader_trait_collaborator_machine_desc:1 "Questa unità è efficace nella condivisione di informazioni con altre parti della rete."
+
+ leader_trait_collaborator_2_hive:0 "$leader_trait_collaborator_hive$ II"
+ leader_trait_collaborator_2_hive_desc:0 "$leader_trait_collaborator_hive_desc$"
+ leader_trait_collaborator_2_machine:0 "$leader_trait_collaborator_machine$ II"
+ leader_trait_collaborator_2_machine_desc:0 "$leader_trait_collaborator_machine_desc$"
+
+ leader_trait_engineering_focus_hive:0 "Focus Ingenieristico"
+ leader_trait_engineering_focus_hive_desc:0 "Questo nodo si concentra sulla ricerca in campo ingegneristico."
+ leader_trait_engineering_focus_machine:0 "Focus Ingenieristico"
+ leader_trait_engineering_focus_machine_desc:1 "Questa unità si concentra sulla ricerca in campo ingegneristico."
+
+ leader_trait_engineering_focus_2_hive:0 "$leader_trait_engineering_focus_hive$ II"
+ leader_trait_engineering_focus_2_hive_desc:0 "$leader_trait_engineering_focus_hive_desc$"
+ leader_trait_engineering_focus_2_machine:0 "$leader_trait_engineering_focus_machine$ II"
+ leader_trait_engineering_focus_2_machine_desc:0 "$leader_trait_engineering_focus_machine_desc$"
+
+ trait_ruler_explorer_hive:0 "Comprendere Anomalie"
+ trait_ruler_explorer_hive_desc:1 "Questo nodo è ben adattato all'indagine delle irregolarità del cosmo."
+ trait_ruler_explorer_machine:0 "Elaborazione Anomalie"
+ trait_ruler_explorer_machine_desc:1 "Questa unità è ben adattata all'indagine delle irregolarità del cosmo."
+
+ trait_ruler_explorer_2_hive:0 "$trait_ruler_explorer_hive$ II"
+ trait_ruler_explorer_2_hive_desc:0 "$trait_ruler_explorer_hive_desc$"
+ trait_ruler_explorer_2_machine:0 "$trait_ruler_explorer_machine$ II"
+ trait_ruler_explorer_2_machine_desc:0 "$trait_ruler_explorer_machine_desc$"
+
+ trait_ruler_expansionist_hive:1 "Mentalità Espansionistica"
+ trait_ruler_expansionist_hive_desc:1 "Questo nodo è adattato per espandere i nostri confini rapidamente."
+ trait_ruler_expansionist_machine:0 "Espansione Calcolata"
+ trait_ruler_expansionist_machine_desc:1 "Questa unità è adattata per espandere i nostri confini rapidamente."
+
+ trait_ruler_expansionist_2_hive:0 "$trait_ruler_expansionist_hive$ II"
+ trait_ruler_expansionist_2_hive_desc:0 "$trait_ruler_expansionist_hive_desc$"
+ trait_ruler_expansionist_2_machine:0 "$trait_ruler_expansionist_machine$ II"
+ trait_ruler_expansionist_2_machine_desc:0 "$trait_ruler_expansionist_machine_desc$"
+
+ leader_trait_experimenter_hive:0 "Sperimentatore"
+ leader_trait_experimenter_hive_desc:1 "Gli esperimenti in corso di questo [owner.GetIndividualName] sono un vantaggio per l'[owner.GetGestaltEntityName]."
+ leader_trait_experimenter_machine:0 "Simulazioni Sperimentali"
+ leader_trait_experimenter_machine_desc:1 "Le simulazioni sperimentali di questa unità sono un vantaggio per la rete."
+
+ leader_trait_experimenter_2_hive:0 "$leader_trait_experimenter_hive$ II"
+ leader_trait_experimenter_2_hive_desc:0 "$leader_trait_experimenter_hive_desc$"
+ leader_trait_experimenter_2_machine:0 "$leader_trait_experimenter_machine$ II"
+ leader_trait_experimenter_2_machine_desc:0 "$leader_trait_experimenter_machine_desc$"
+
+ leader_trait_inquisitive_hive:0 "Intelletto Espanso"
+ leader_trait_inquisitive_hive_desc:1 "Le sinapsi espandibili di questo nodo offrono una nuova direzione per la ricerca tecnologica."
+ leader_trait_inquisitive_machine:0 "Analitico"
+ leader_trait_inquisitive_machine_desc:1 "Il software analitico di questa unità offre una nuova direzione per la ricerca tecnologica."
+
+ leader_trait_insightful_hive: "Intuitivo"
+ leader_trait_insightful_hive_desc:1 "Questo [owner.GetIndividualName] svolge analisi dettagliate sui dati delle anomalie."
+ leader_trait_insightful_machine: "Attento"
+ leader_trait_insightful_machine_desc:1 "Questa unità svolge analisi dettagliate sui dati delle anomalie."
+ leader_trait_insightful_2_hive:0 "$leader_trait_insightful_hive$ II"
+ leader_trait_insightful_2_hive_desc:0 "$leader_trait_insightful_hive_desc$"
+ leader_trait_insightful_2_machine:0 "$leader_trait_insightful_machine$ II"
+ leader_trait_insightful_2_machine_desc:0 "$leader_trait_insightful_machine_desc$"
+
+ leader_trait_maniacal_hive:0 "Overclock Neurale"
+ leader_trait_maniacal_hive_desc:1 "Questo nodo viene stimolato a lavorare oltre i limiti previsti, aumentando il rendimento della ricerca."
+ leader_trait_maniacal_machine: "Overcloccato"
+ leader_trait_maniacal_machine_desc:1 "Questa unità viene spinta oltre i limiti raccomandati, aumentando il rendimento della ricerca."
+
+ leader_trait_maniacal_2_hive:0 "$leader_trait_maniacal_hive$ II"
+ leader_trait_maniacal_2_hive_desc:0 "$leader_trait_maniacal_hive_desc$"
+ leader_trait_maniacal_2_machine:0 "$leader_trait_maniacal_machine$ II"
+ leader_trait_maniacal_2_machine_desc:0 "$leader_trait_maniacal_machine_desc$"
+
+ leader_trait_manufacturer_hive:0 "Manutenzione Assistita"
+ leader_trait_manufacturer_hive_desc:1 "Questo [owner.GetIndividualName] assiste alla manutenzione e alla funzione della popolazione."
+ leader_trait_manufacturer_machine:0 "Manutenzione Assistita"
+ leader_trait_manufacturer_machine_desc:1 "Questa unità assiste alla manutenzione e alla funzione dell'unità di macchine planetarie."
+
+ leader_trait_manufacturer_2_hive:0 "$leader_trait_manufacturer_hive$ II"
+ leader_trait_manufacturer_2_hive_desc:0 "$leader_trait_manufacturer_hive_desc$"
+ leader_trait_manufacturer_2_machine:0 "$leader_trait_manufacturer_machine$ II"
+ leader_trait_manufacturer_2_machine_desc:0 "$leader_trait_manufacturer_machine_desc$"
+
+ leader_trait_meticulous_hive: "Meticoloso"
+ leader_trait_meticulous_hive_desc:1 "Questo [owner.GetIndividualName] è particolarmente meticoloso durante la ricerca di fenomeni inspiegabili."
+ leader_trait_meticulous_machine: "Calcolatore"
+ leader_trait_meticulous_machine_desc:1 "Questa unità possiede sottoprogrammi avanzati per lo studio di fenomeni inspiegabili."
+
+ leader_trait_meticulous_2_hive:0 "$leader_trait_meticulous_hive$ II"
+ leader_trait_meticulous_2_hive_desc:0 "$leader_trait_meticulous_hive_desc$"
+ leader_trait_meticulous_2_machine:0 "$leader_trait_meticulous_machine$ II"
+ leader_trait_meticulous_2_machine_desc:0 "$leader_trait_meticulous_machine_desc$"
+
+ leader_trait_roamer_hive:0 "Catalogatore"
+ leader_trait_roamer_hive_desc:1 "Questo [owner.GetIndividualName] è stato specificamente creato per catalogare i dati interstellari."
+ leader_trait_roamer_machine:0 "Catalogatore"
+ leader_trait_roamer_machine_desc:1 "Questa unità è stata progettata specificamente per catalogare i dati interstellari."
+
+ leader_trait_roamer_2_hive:0 "$leader_trait_roamer_hive$ II"
+ leader_trait_roamer_2_hive_desc:0 "$leader_trait_roamer_hive_desc$"
+ leader_trait_roamer_2_machine:0 "$leader_trait_roamer_machine$ II"
+ leader_trait_roamer_2_machine_desc:0 "$leader_trait_roamer_machine_desc$"
+
+ leader_trait_salvager_hive:0 "$leader_trait_salvager$"
+ leader_trait_salvager_hive_desc: "$leader_trait_salvager_desc$"
+ leader_trait_salvager_hive_regular_desc:1 "Questo [owner.GetIndividualName] eccelle nel recuperare i rottami delle navi"
+ leader_trait_salvager_machine:0 "$leader_trait_salvager$"
+ leader_trait_salvager_machine_desc: "$leader_trait_salvager_desc$"
+ leader_trait_salvager_machine_regular_desc:1 "Questa unità ha installati dei protocolli di recupero ottimizzati per i rottami delle navi"
+
+ leader_trait_slippery_hive: "Elusivo"
+ leader_trait_slippery_hive_desc:0 "Questo [owner.GetIndividualName] ha un instinto acuto che lo tiene lontano dai pericoli."
+ leader_trait_slippery_machine:0 "Protocolli d'Emergenza"
+ leader_trait_slippery_machine_desc:0 "Questa unità segue dei protocolli avanzati d'emergenza che la tengono lontana dai pericoli."
+
+ leader_trait_surveyor_hive:0 "Monitoraggio Planetario"
+ leader_trait_surveyor_hive_desc:1 "Questo [owner.GetIndividualName] è specializzato nel migliorare la produzione di risorse sui nidi planetari."
+ leader_trait_surveyor_machine:0 "Monitoraggio Planetario"
+ leader_trait_surveyor_machine_desc:1 "Questa unità è ottimizzata nel migliorare la produzione di risorse del pianeta."
+
+ leader_trait_tuner_hive:0 "Sintonizzatore"
+ leader_trait_tuner_hive_desc:0 "Questo [owner.GetIndividualName] naviga lungo i campi gravitazionali naturali tra i vari sistemi stellari. "
+ leader_trait_tuner_machine:0 "Sintonizzatore"
+ leader_trait_tuner_machine_desc:0 "Questa unità naviga lungo i campi gravitazionali naturali all'interno di ciascun sistema stellare."
+
+ leader_trait_tuner_2_hive:0 "$leader_trait_tuner_hive$ II"
+ leader_trait_tuner_2_hive_desc:0 "$leader_trait_tuner_hive_desc$"
+ leader_trait_tuner_2_machine:0 "$leader_trait_tuner_machine$ II"
+ leader_trait_tuner_2_machine_desc:0 "$leader_trait_tuner_machine_desc$"
+
+ trait_ruler_world_shaper_hive:0 "Modellatore di Pianeta"
+ trait_ruler_world_shaper_hive_desc:0 "Questo nodo è specializzato nel migliorare i pianeti colonizzati."
+ trait_ruler_world_shaper_machine:0 "Modellatore di Pianeta"
+ trait_ruler_world_shaper_machine_desc:1 "Questa unità è specializzata nel migliorare i pianeti colonizzati."
+
+ leader_trait_bureaucrat_hive:0 "Consapevolezza"
+ leader_trait_bureaucrat_hive_desc:1 "Questo [owner.GetIndividualName] aumenta gli standard prestazionali e aumenta l'efficienza di tutti i [owner.GetBureaucratPlural] amministrativi."
+ leader_trait_bureaucrat_machine:0 "Amplificatore"
+ leader_trait_bureaucrat_machine_desc:1 "Questa unità aumenta la produzione media e aumenta l'efficienza di tutte le unità amministrative."
+
+ trait_ruler_industrialist_hive:1 "Collezionista"
+ trait_ruler_industrialist_hive_desc:1 "L'obiettivo principale di questo [owner.GetIndividualName] è la produzione di minerali."
+ trait_ruler_industrialist_machine:1 "Accumulatore"
+ trait_ruler_industrialist_machine_desc:1 "L'obiettivo principale di questa unità è la produzione di minerali."
+
+ leader_trait_industrial_focus_hive:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_hive_desc:0 "$trait_ruler_industrialist_hive_desc$"
+ leader_trait_industrial_focus_machine:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_machine_desc:0 "$trait_ruler_industrialist_machine_desc$"
+
+ leader_trait_pop_focused_hive:0 "[owner.GetIndividualNameCap] Guida"
+ leader_trait_pop_focused_hive_desc:0 "Questo [owner.GetIndividualName] sa istintivamente quale [owner.GetIndividualName] è più predisposto a svolgere compiti e lavori critici."
+ leader_trait_pop_focused_machine:0 "Algoritmo di Allocazione"
+ leader_trait_pop_focused_machine_desc:0 "Questa unità è esperta nel calcolare quali macchine sono predisposte per compiti e lavori critici."
+
+ leader_trait_academic_hive:0 "$leader_trait_intellectual_hive$"
+ leader_trait_academic_hive_desc:0 "$leader_trait_intellectual_hive_desc$"
+ leader_trait_academic_machine:0 "$leader_trait_intellectual_machine$"
+ leader_trait_academic_machine_desc:0 "$leader_trait_intellectual_machine_desc$"
+
+ leader_trait_frontier_spirit_hive:0 "$trait_ruler_frontier_spirit$"
+ leader_trait_frontier_spirit_hive_desc:0 "Questo nodo ha sviluppato la voglia di colonizzare nuovi mondi e territori."
+ leader_trait_frontier_spirit_machine:0 "Colonizzazione IA"
+ leader_trait_frontier_spirit_machine_desc:0 "Questa unità è stata aggiornata con speciali sottoprogrammi che migliorano l'efficienza dei processi di colonizzazione."
+
+ leader_trait_distribution_lines_hive:0 "Allocatore Risorse"
+ leader_trait_distribution_lines_hive_desc:0 "Questo [owner.GetIndividualName] calcola rapidamente le risorse necessarie e le rotte di approvvigionamento dei complessi industriali."
+ leader_trait_distribution_lines_machine:0 "Calcoli Forniture"
+ leader_trait_distribution_lines_machine_desc:0 "Questa unità è stata installata con un software di calcolo di fornitura su richiesta altamente efficiente."
+
+ leader_trait_border_guard_hive:0 "Protettivo"
+ leader_trait_border_guard_hive_desc:1 "Questo nodo comprende che il miglior modo per vincere la guerra è di mantenere ben difese e forti le difese sui confini."
+ leader_trait_border_guard_machine:0 "Calcolo Difensivo"
+ leader_trait_border_guard_machine_desc:1 "Questa unità comprende che il miglior modo per vincere la guerra è di mantenere ben difese e forti le difese sui confini."
+
+ leader_trait_crew_trainer_hive:0 "Cervello Combattente"
+ leader_trait_crew_trainer_hive_desc:1 "Questo nodo si concentra sullo sviluppo di [owner.GetIndividualNamePlural] della accademia militare prima che vengano rilasciati in servizio attivo."
+ leader_trait_crew_trainer_machine:0 "Banca dati da Combattimento"
+ leader_trait_crew_trainer_machine_desc:1 "Questa unità conserva una banca dati ridondante sulle tattiche di combattimento, che vengono aggiornate su ogni unità navale."
+
+ leader_trait_space_miner_hive:0 "$leader_trait_space_miner_machine$"
+ leader_trait_space_miner_hive_desc:0 "Questo [owner.GetIndividualName] può identificare ricche vene di minerali per le strutture minerarie planetarie."
+ leader_trait_space_miner_machine:0 "Mappatore Geografico"
+ leader_trait_space_miner_machine_desc:0 "Questa unità può identificare ricche vene di minerali per le strutture minerarie planetarie."
+
+ leader_trait_home_guard_hive:0 "Orientato alla Sicurezza"
+ leader_trait_home_guard_hive_desc:1 "Questo nodo prepara elaborati sistemi di difesa planetaria in caso di invasione nemica."
+ leader_trait_home_guard_machine:0 "Difesa Interplanetaria"
+ leader_trait_home_guard_machine_desc:1 "Questa unità prepara elaborate difese planetarie in caso di invasione nemica."
+
+ trait_ruler_frontier_spirit_hive:0 "Focus Coloniale"
+ trait_ruler_frontier_spirit_hive_desc:1 "L'obiettivo principale di questo [owner.GetIndividualName] è la colonizzazione di pianeti alieni."
+ trait_ruler_frontier_spirit_machine:0 "Focus Coloniale"
+ trait_ruler_frontier_spirit_machine_desc:1 "La programmazione di questa unità è orientata alla colonizzazione di pianeti alieni."
+
+ leader_trait_army_veteran_machine:0 "Robot Armeggiatore"
+ leader_trait_army_veteran_machine_desc:1 "Questa unità è stata appositamente progettata per servire e aggiornare le unità di combattimento attive."
+ leader_trait_army_veteran_hive:0 "[owner.GetIndividualNameCap] da Combattimento"
+ leader_trait_army_veteran_hive_desc:1 "Questo [owner.GetIndividualName] è stato selettivamente addestrato e allevato per la guerra."
+
+ leader_trait_retired_fleet_officer_machine:1 "Design IA-Assistito"
+ leader_trait_retired_fleet_officer_machine_desc:1 "Questa unità è stata appositamente progettata per creare nuovi design di navi."
+ leader_trait_retired_fleet_officer_hive:0 "[owner.GetIndividualNameCap] Maestro"
+ leader_trait_retired_fleet_officer_hive_desc:1 "Questo [owner.GetIndividualName] è stato sviluppato in modo selettivo per sviluppare design di navi all'avanguardia."
+
+ leader_trait_agrarian_upbringing_hive:0 "Focus Agrario"
+ leader_trait_agrarian_upbringing_hive_desc:1 "Questo [owner.GetIndividualName] stimola la produzione planetaria di cibo."
+
+ trait_ruler_fertility_preacher_hive:0 "Crescita Dinamica"
+ trait_ruler_fertility_preacher_hive_desc:1 "Questo nodo incoraggia lo sviluppo del [owner.GetIndividualName], migliorando la crescita della popolazione."
+ trait_ruler_fertility_preacher_machine:0 "Replicatori Accelerati"
+ trait_ruler_fertility_preacher_machine_desc:1 "Questa unità guida sapientemente l'assemblaggio della popolazione meccanica."
+
+ trait_ruler_fertility_preacher_2_hive:0 "$trait_ruler_fertility_preacher_hive$ II"
+ trait_ruler_fertility_preacher_2_hive_desc:0 "$trait_ruler_fertility_preacher_hive_desc$"
+ trait_ruler_fertility_preacher_2_machine:0 "$trait_ruler_fertility_preacher_machine$ II"
+ trait_ruler_fertility_preacher_2_machine_desc:0 "$trait_ruler_fertility_preacher_machine_desc$"
+
+ leader_trait_environmental_engineer_hive_desc:1 "Questo [owner.GetIndividualName] è stato selezionato per essere un efficiente ingegnere ambientale."
+ leader_trait_environmental_engineer_machine:0 "Bulldozer"
+ leader_trait_environmental_engineer_machine_desc:1 "Questa unità viene fornita con protocolli di ingegneria ambientale pre-installati."
+
+ leader_trait_enlister_hive:0 "Focus Sviluppo Armate"
+ leader_trait_enlister_hive_desc:1 "Questo [owner.GetIndividualName] è un reclutatore efficiente, in grado di ridurre i costi di addestramento delle nostre armate."
+ leader_trait_enlister_machine:0 "Focus Sviluppo Armate"
+ leader_trait_enlister_machine_desc:1 "Questa unità è un reclutatore efficiente, in grado di ridurre i costi di addestramento delle nostre armate."
+
+ leader_trait_enlister_2_hive:0 "$leader_trait_enlister_hive$ II"
+ leader_trait_enlister_2_hive_desc:0 "$leader_trait_enlister_hive_desc$"
+ leader_trait_enlister_2_machine:0 "$leader_trait_enlister_machine$ II"
+ leader_trait_enlister_2_machine_desc:0 "$leader_trait_enlister_machine_desc$"
+
+ leader_trait_shipwright_hive:0 "Focus Costruzione Navi"
+ leader_trait_shipwright_hive_desc:1 "Questo [owner.GetIndividualName] si concentra sulla costruzione efficiente ed economicamente vantaggiosa delle flotte nel sistema."
+ leader_trait_shipwright_machine:0 "Focus Costruzione Navi"
+ leader_trait_shipwright_machine_desc:1 "Questa unità è programmata per concentrarsi sulla costruzione efficiente ed economicamente vantaggiosa delle flotte nel sistema."
+
+ leader_trait_shipwright_2_hive:0 "$leader_trait_shipwright_hive$ II"
+ leader_trait_shipwright_2_hive_desc:0 "$leader_trait_shipwright_hive_desc$"
+ leader_trait_shipwright_2_machine:0 "$leader_trait_shipwright_machine$ II"
+ leader_trait_shipwright_2_machine_desc:0 "$leader_trait_shipwright_machine_desc$"
+
+ leader_trait_architectural_interest_hive:0 "Costruttore Efficiente"
+ leader_trait_architectural_interest_hive_desc:1 "Questo [owner.GetIndividualName] è esperto in costruzione e ingegneria."
+ leader_trait_architectural_interest_machine:0 "Costruttore Efficiente"
+ leader_trait_architectural_interest_machine_desc:1 "Questa unità è progettata per la costruzione e l'ingegneria."
+
+ leader_trait_architectural_interest_2_hive:0 "$leader_trait_architectural_interest_hive$ II"
+ leader_trait_architectural_interest_2_hive_desc:0 "$leader_trait_architectural_interest_hive_desc$"
+ leader_trait_architectural_interest_2_machine:0 "$leader_trait_architectural_interest_machine$ II"
+ leader_trait_architectural_interest_2_machine_desc:0 "$leader_trait_architectural_interest_machine_desc$"
+
+ trait_ruler_architectural_sense_hive:0 "Focus Architettura"
+ trait_ruler_architectural_sense_hive_desc:1 "Questo nodo si specializza nella teoria dell'architettura, riducendo la velocità e il costo di sviluppo delle colonie."
+ trait_ruler_architectural_sense_machine:0 "Focus Architettura"
+ trait_ruler_architectural_sense_machine_desc:1 "Questa unità è ottimizzata per la teoria dell'architettura, riducendo la velocità e il costo di sviluppo delle colonie."
+
+ trait_ruler_architectural_sense_2_hive:0 "$trait_ruler_architectural_sense_hive$ II"
+ trait_ruler_architectural_sense_2_hive_desc:0 "$trait_ruler_architectural_sense_hive_desc$"
+ trait_ruler_architectural_sense_2_machine:0 "$trait_ruler_architectural_sense_machine$ II"
+ trait_ruler_architectural_sense_2_machine_desc:0 "$trait_ruler_architectural_sense_machine_desc$"
+
+ leader_trait_mining_focus_hive:0 "Focus Minerario"
+ leader_trait_mining_focus_hive_desc:1 "Questo [owner.GetIndividualName] utilizza tecniche di estrazione e lavorazione uniche, migliorando le nostre riserve minerali."
+ leader_trait_mining_focus_machine:0 "Focus Minerario"
+ leader_trait_mining_focus_machine_desc:1 "Questa unità utilizza tecniche di estrazione e lavorazione uniche, migliorando le nostre riserve minerali."
+
+ leader_trait_generator_focus_hive:0 "Focus Generatori"
+ leader_trait_generator_focus_hive_desc:1 "Questo [owner.GetIndividualName] è esperto nell'estrazione e nello stoccaggio di energia."
+ leader_trait_generator_focus_machine:0 "Focus Generatori"
+ leader_trait_generator_focus_machine_desc:1 "Questa unità è ottimizzata per l'estrazione e lo stoccaggio di energia."
+
+ leader_trait_farming_focus_2_hive:0 "$leader_trait_farming_focus_hive$ II"
+ leader_trait_farming_focus_2_hive_desc:0 "$leader_trait_farming_focus_hive_desc$"
+ leader_trait_farming_focus_2_machine:0 "$leader_trait_farming_focus_machine$ II"
+ leader_trait_farming_focus_2_machine_desc:0 "$leader_trait_farming_focus_machine_desc$"
+
+ leader_trait_mining_focus_2_hive:0 "$leader_trait_mining_focus_hive$ II"
+ leader_trait_mining_focus_2_hive_desc:0 "$leader_trait_mining_focus_hive_desc$"
+ leader_trait_mining_focus_2_machine:0 "$leader_trait_mining_focus_machine$ II"
+ leader_trait_mining_focus_2_machine_desc:0 "$leader_trait_mining_focus_machine_desc$"
+
+ leader_trait_generator_focus_2_hive:0 "$leader_trait_generator_focus_hive$ II"
+ leader_trait_generator_focus_2_hive_desc:0 "$leader_trait_generator_focus_hive_desc$"
+ leader_trait_generator_focus_2_machine:0 "$leader_trait_generator_focus_machine$ II"
+ leader_trait_generator_focus_2_machine_desc:0 "$leader_trait_generator_focus_machine_desc$"
+
+ leader_trait_farming_focus_hive:0 "Focus Agricoltura"
+ leader_trait_farming_focus_hive_desc:1 "Questo [owner.GetIndividualName] è esperto nella coltivazione e nella conservazione del cibo."
+ leader_trait_farming_focus_machine:0 "Focus Agricoltura"
+ leader_trait_farming_focus_machine_desc:1 "Questa unità è stata ottimizzata per essere esperta nella coltivazione e nella conservazione del cibo."
+
+ leader_trait_settler_hive:0 "Colono"
+ leader_trait_settler_hive_desc:1 "Questo [owner.GetIndividualName] è esperto nel miglioramento dei costi di alloggio e di manutenzione del nido."
+ leader_trait_settler_machine:0 "Colono"
+ leader_trait_settler_machine_desc:1 "Questa unità è stata ottimizzata per migliorare i costi di alloggio e di manutenzione del nexus."
+
+ leader_trait_settler_2_hive:0 "$leader_trait_settler_hive$ II"
+ leader_trait_settler_2_hive_desc:0 "$leader_trait_settler_hive_desc$"
+ leader_trait_settler_2_machine:0 "$leader_trait_settler_machine$ II"
+ leader_trait_settler_2_machine_desc:0 "$leader_trait_settler_machine_desc$"
+
+ leader_trait_cartographer_hive:0 "Focus Terraformazione"
+ leader_trait_cartographer_hive_desc:1 "Questo [owner.GetIndividualName] è specializzato unicamente nel terraformazione."
+ leader_trait_cartographer_machine:0 "Focus Terraformazione"
+ leader_trait_cartographer_machine_desc:1 "Questa unità è stata programmata per migliorare i nostri processi di terraformazione."
+
+ leader_trait_cartographer_2_hive:0 "$leader_trait_cartographer_hive$ II"
+ leader_trait_cartographer_2_hive_desc:0 "$leader_trait_cartographer_hive_desc$"
+ leader_trait_cartographer_2_machine:0 "$leader_trait_cartographer_machine$ II"
+ leader_trait_cartographer_2_machine_desc:0 "$leader_trait_cartographer_machine_desc$"
+
+ leader_trait_expeditionist_hive:0 "Scultore Planetario"
+ leader_trait_expeditionist_hive_desc:1 "Questo [owner.GetIndividualName] è specializzato nella scultura geologica e nell'utilizzo del terreno."
+ leader_trait_expeditionist_machine:0 "Scultore Planetario"
+ leader_trait_expeditionist_machine_desc:1 "Questa unità è specializzata nella scultura geologica e nell'utilizzo del terreno."
+
+ leader_trait_life_support_systems_hive:0 "Sistemi di Supporto Vitale"
+ leader_trait_life_support_systems_hive_desc:1 "Questo [owner.GetIndividualName] implementa e gestisce complessi sistemi di supporto vitale su mondi alieni."
+
+ leader_trait_forge_focus_hive:0 "Focus Forgiatura"
+ leader_trait_forge_focus_hive_desc:1 "Questo [owner.GetIndividualName] è un esperto nelle tecniche di lavorazione delle leghe."
+ leader_trait_forge_focus_machine:0 "Focus Forgiatura"
+ leader_trait_forge_focus_machine_desc:1 "Questa unità è programmata con competenze specialistiche nelle tecniche di lavorazione delle leghe."
+
+ leader_trait_forge_focus_2_hive:0 "$leader_trait_forge_focus_hive$ II"
+ leader_trait_forge_focus_2_hive_desc:0 "$leader_trait_forge_focus_hive_desc$"
+ leader_trait_forge_focus_2_machine:0 "$leader_trait_forge_focus_machine$ II"
+ leader_trait_forge_focus_2_machine_desc:0 "$leader_trait_forge_focus_machine_desc$"
+
+ leader_trait_refinement_focus_hive:0 "Focus Raffinazione"
+ leader_trait_refinement_focus_hive_desc:1 "Questo [owner.GetIndividualName] è un esperto nell'estrazione e nel trattamento di risorse planetarie rare."
+ leader_trait_refinement_focus_machine:0 "Focus Raffinazione"
+ leader_trait_refinement_focus_machine_desc:1 "Questa unità è programmata per l'estrazione e il trattamento di risorse planetarie rare."
+
+ leader_trait_refinement_focus_2_hive:0 "$leader_trait_refinement_focus_hive$ II"
+ leader_trait_refinement_focus_2_hive_desc:0 "$leader_trait_refinement_focus_hive_desc$"
+ leader_trait_refinement_focus_2_machine:0 "$leader_trait_refinement_focus_machine$ II"
+ leader_trait_refinement_focus_2_machine_desc:0 "$leader_trait_refinement_focus_machine_desc$"
+
+ leader_trait_urbanist_hive:0 "Urbanista"
+ leader_trait_urbanist_hive_desc:1 "Questo [owner.GetIndividualName] si specializza nello sviluppo urbano e nella gestione dei distretti."
+ leader_trait_urbanist_machine:0 "Urbanista"
+ leader_trait_urbanist_machine_desc:1 "Questa unità si specializza nello sviluppo urbano e nella gestione dei distretti."
+
+
+ leader_trait_trickster_machine_desc:1 "I protocolli avanzati di combattimento di questa unità di fuorviamento le forniscono vantaggi di battaglia unici."
+ leader_trait_trickster_hive_desc:1 "Le tecniche di combattimento di fuorviamento di questo [owner.GetIndividualName] le forniscono vantaggi di battaglia unici."
+ 
+ leader_trait_urbanist_2_hive:0 "$leader_trait_urbanist_hive$ II"
+ leader_trait_urbanist_2_hive_desc:0 "$leader_trait_urbanist_hive_desc$"
+ leader_trait_urbanist_2_machine:0 "$leader_trait_urbanist_machine$ II"
+ leader_trait_urbanist_2_machine_desc:0 "$leader_trait_urbanist_machine_desc$"
+
+ leader_trait_adventurous_spirit_hive:1 "[owner.GetIndividualNameCap] Autonomo"
+ leader_trait_adventurous_spirit_hive_desc:1 "Cresciuto con un grado insolitamente elevato di autonomia, questo [owner.GetIndividualName] è in grado di prendere decisioni spontanee e indipendenti." 
+
+ leader_trait_adventurous_spirit_machine:0 "Unità Senza Limiti"
+ leader_trait_adventurous_spirit_machine_desc:1 "Questa unità è programmata con un grado speciale di autonomia."
+
+ leader_trait_resilient_hive: "Resiliente"
+ leader_trait_resilient_hive_desc:1 "Questo [owner.GetIndividualName] è notevolmente resistente."
+ leader_trait_resilient_machine: "Resiliente"
+ leader_trait_resilient_machine_desc:1 "Questa unità è stata progettata per essere resistente."
+
+ leader_trait_resilient_2_hive:1 "$leader_trait_resilient_hive$ II"
+ leader_trait_resilient_2_hive_desc:1 "$leader_trait_resilient_hive_desc$"
+ leader_trait_resilient_2_machine:1 "$leader_trait_resilient_machine$ II"
+ leader_trait_resilient_2_machine_desc:1 "$leader_trait_resilient_machine_desc$"
+
+ leader_trait_adaptable_machine:0 "Programmazione Flessibile"
+ leader_trait_adaptable_machine_desc:1 "Questa unità è veloce nell'esperimento con nuovi metodi e idee."
+ leader_trait_adaptable_hive_desc:1 "Questo [owner.GetIndividualName] è veloce nell'esperimento con nuovi metodi e idee."
+
+ leader_trait_adaptable_2_hive:0 "$leader_trait_adaptable$ II"
+ leader_trait_adaptable_2_hive_desc:0 "$leader_trait_adaptable_hive_desc$"
+
+ leader_trait_adaptable_2_machine:0 "$leader_trait_adaptable_machine$ II"
+ leader_trait_adaptable_2_machine_desc:0 "$leader_trait_adaptable_machine_desc$"
+
+ leader_trait_politician_hive:0 "Potenziatore Nodi"
+ leader_trait_politician_hive_desc:1 "Questo [owner.GetIndividualName] è stato selezionato per potenziare la coesione del collettivo."
+ leader_trait_politician_machine:0 "Incrementatore Nodi"
+ leader_trait_politician_machine_desc:1 "La programmazione di questa unità ha algoritmi avanzati che migliorano la coesione delle unità."
+
+
+ leader_trait_politician_2_hive:0 "$leader_trait_politician_hive$ II"
+ leader_trait_politician_2_hive_desc:0 "$leader_trait_politician_hive_desc$"
+ leader_trait_politician_2_machine:0 "$leader_trait_politician_machine$ II"
+ leader_trait_politician_2_machine_desc:0 "$leader_trait_politician_machine_desc$"
+
+ leader_trait_capitalist_hive:0 "Fornitore Energia"
+ leader_trait_capitalist_hive_desc:1 "Questo [owner.GetIndividualName] mantiene sistemi di energia decentralizzati."
+ leader_trait_capitalist_machine:0 "Supervisore Server"
+ leader_trait_capitalist_machine_desc:1 "Questa unità è programmata per mantenere sistemi di energia decentralizzati."
+ 
+
+ leader_trait_capitalist_2_hive:0 "$leader_trait_capitalist_hive$ II"
+ leader_trait_capitalist_2_hive_desc:0 "$leader_trait_capitalist_hive_desc$"
+ leader_trait_capitalist_2_machine:0 "$leader_trait_capitalist_machine$ II"
+ leader_trait_capitalist_2_machine_desc:0 "$leader_trait_capitalist_machine_desc$"
+ 
+ leader_trait_private_mines_hive:0 "Sfruttamento Minerario Subsinaptico"
+ leader_trait_private_mines_hive_desc:1 "Questo [owner.GetIndividualName] mantiene fonti di minerali decentralizzate."
+ leader_trait_private_mines_machine:1 "Subroutine Estrazione Mineraria"
+ leader_trait_private_mines_machine_desc:1 "Questa unità è programmata per mantenere scorte di minerali decentralizzate."
+ 
+
+ leader_trait_private_mines_2_hive:0 "$leader_trait_private_mines_hive$ II"
+ leader_trait_private_mines_2_hive_desc:0 "$leader_trait_private_mines_hive_desc$"
+ leader_trait_private_mines_2_machine:0 "$leader_trait_private_mines_machine$ II"
+ leader_trait_private_mines_2_machine_desc:0 "$leader_trait_private_mines_machine_desc$"
+
+ leader_trait_homesteader_hive:1 "[owner.GetIndividualNameCap] Agricolo"
+ leader_trait_homesteader_hive_desc:1 "Questo [owner.GetIndividualName] mantiene appezzamenti di terreno per la produzione di cibo."
+ leader_trait_homesteader_machine:0 "Unità di Supporto Organico"
+ leader_trait_homesteader_machine_desc:1 "Questa unità è programmata per mantenere il terreno per la produzione di cibo."
+ 
+ 
+ leader_trait_homesteader_2_hive:0 "$leader_trait_homesteader_hive$ II"
+ leader_trait_homesteader_2_hive_desc:0 "$leader_trait_homesteader_hive_desc$"
+ leader_trait_homesteader_2_machine:0 "$leader_trait_homesteader_machine$ II"
+ leader_trait_homesteader_2_machine_desc:0 "$leader_trait_homesteader_machine_desc$"
+
+ leader_trait_scrapper_hive:0 "[owner.GetIndividualNamePluralCap] Recuperatore"
+ leader_trait_scrapper_hive_desc:1 "Questo [owner.GetIndividualName] gestisce flotte di recupero."
+ leader_trait_scrapper_machine:0 "Unità di Bonifica"
+ leader_trait_scrapper_machine_desc:1 "Questa unità gestisce flotte di recupero."
+
+ leader_trait_scrapper_2_hive:0 "$leader_trait_scrapper_hive$ II"
+ leader_trait_scrapper_2_hive_desc:0 "$leader_trait_scrapper_hive_desc$"
+ leader_trait_scrapper_2_machine:0 "$leader_trait_scrapper_machine$ II"
+ leader_trait_scrapper_2_machine_desc:0 "$leader_trait_scrapper_machine_desc$"
+
+ leader_trait_venerated_hive:0 "Conduttore del Collettivo"
+ leader_trait_venerated_hive_desc:1 "Questo [owner.GetIndividualName] ha un'influenza unificante, aumentando la coesione del Collettivo."
+ leader_trait_venerated_machine:0 "Ripetitore di Rete"
+ leader_trait_venerated_machine_desc:1 "Questa unità funge da ripetitore per l'intera rete di macchine."
+
+ leader_trait_venerated_2_hive:0 "$leader_trait_venerated_hive$ II"
+ leader_trait_venerated_2_hive_desc:0 "$leader_trait_venerated_hive_desc$"
+ leader_trait_venerated_2_machine:0 "$leader_trait_venerated_machine$ II"
+ leader_trait_venerated_2_machine_desc:0 "$leader_trait_venerated_machine_desc$"
+
+ leader_trait_melancholic_hive:0 "Chimicamente Disallineato"
+ leader_trait_melancholic_hive_desc:1 "Questo [owner.GetIndividualName] è ostacolato da debilitanti attacchi di introspezione."
+ leader_trait_melancholic_machine:0 "Instabile"
+ leader_trait_melancholic_machine_desc:1 "Questa unità esegue molte auto-diagnosi lente e dettagliate."
+
+ leader_trait_reclusive_hive:0 "Solitudine Istintiva"
+ leader_trait_reclusive_hive_desc:1 "Questo nodo è inefficiente nel processare i dati e fatica a fornire informazioni utili quando si tratta di specie aliene."
+ leader_trait_reclusive_machine:0 "Protocollo Diplomatico Malfunzionante"
+ leader_trait_reclusive_machine_desc:1 "Questa unità è inefficiente nel processare i dati e spesso si blocca nel tentativo di fornire informazioni diplomatiche."
+
+ leader_trait_intolerant_hive: "Intollerante"
+ leader_trait_intolerant_hive_desc:1 "Questo nodo è naturalmente sospettoso, diffondendo la sua diffidenza verso gli alieni tra gli altri [owner.GetIndividualNamePlural]."
+ leader_trait_intolerant_machine: "Intollerante"
+ leader_trait_intolerant_machine_desc:1 "Questa unità contiene protocolli di fiducia difettosi che portano a un aumento del livello di scetticismo."
+
+ leader_trait_volatile_hive:0 "Violenza Istintiva"
+ leader_trait_volatile_hive_desc:1 "Questo nodo ha una predisposizione genetica verso l'aggressività e la violenza."
+ leader_trait_volatile_machine:0 "Ciclo di Aggressività Senza Fine"
+ leader_trait_volatile_machine_desc:1 "Questa unità è temperamentale e propensa a scatti di violenza."
+
+ leader_trait_passive_hive: "Passivo"
+ leader_trait_passive_hive_desc:1 "Questo nodo mostra una riluttanza ad agire in modo proattivo."
+ leader_trait_passive_machine: "Passivo"
+ leader_trait_passive_machine_desc:1 "Questa unità mostra un'incapacità di rispondere in modo proattivo."
+
+ leader_trait_emotional_support_pet_hive:0 "Simbionte Supporto Emotivo"
+ leader_trait_emotional_support_pet_hive_desc:1 "Attraverso le secrezioni chimiche di un simbionte mutualistico, questo nodo promuove il benessere all'interno dell'[owner.GetGestaltEntityName]."
+
+ subclass_official_pioneer_hive:0 "Pioniere"
+ subclass_official_pioneer_hive_desc:1 "Preparare nuovi mondi per l'[owner.GetGestaltEntityName] è pericoloso e costoso. Questo [owner.GetIndividualName] sa come mitigare questi rischi."
+ subclass_official_pioneer_machine:0 "Unità Pioniere"
+ subclass_official_pioneer_machine_desc:1 "Integrare nuovi mondi nella rete è pericoloso e costoso. Questa unità è programmata per mitigare tali rischi."
+
+ subclass_official_industrialist_hive:0 "Supervisore Produzione"
+ subclass_official_industrialist_hive_desc:1 "Questo [owner.GetIndividualName] è stato selezionato per guidare tutti coloro che necessitano di assistenza nel processo produttivo."
+ subclass_official_industrialist_machine:0 "Loop Efficienza"
+ subclass_official_industrialist_machine_desc:1 "Questa unità è in grado di isolare ed eliminare schemi di produzione inefficienti."
+
+ leader_trait_agrarian_upbringing_2_hive:0 "$leader_trait_agrarian_upbringing_hive$ II"
+ leader_trait_agrarian_upbringing_2_hive_desc:0 "$leader_trait_agrarian_upbringing_hive_desc$"
+
+ leader_trait_intellectual_hive:0 "Gestore Attività"
+ leader_trait_intellectual_hive_desc:1 "Questo [owner.GetIndividualName] è adatto a gestire contemporaneamente diverse attività impegnative."
+ leader_trait_intellectual_machine:0 "Equazioni Supporto Cognitivo"
+ leader_trait_intellectual_machine_desc:1 "Le unità di ricerca lavorano significativamente più velocemente con l'aiuto delle equazioni di supporto di questa unità."
+
+ leader_trait_bureaucrat_2_hive:0 "$leader_trait_bureaucrat_hive$ II"
+ leader_trait_bureaucrat_2_hive_desc:0 "$leader_trait_bureaucrat_hive_desc$"
+ leader_trait_bureaucrat_2_machine:0 "$leader_trait_bureaucrat_machine$ II"
+ leader_trait_bureaucrat_2_machine_desc:0 "$leader_trait_bureaucrat_machine_desc$"
+
+ leader_trait_courtroom_training_hive:0 "Nodo Rappresentante"
+ leader_trait_courtroom_training_hive_desc:0 "Questo nodo è incredibilmente abile nel coinvolgere gli esseri intelligenti con la sua eloquenza dialettica."
+ leader_trait_courtroom_training_machine:0 "Retorica Meccanica"
+ leader_trait_courtroom_training_machine_desc:1 "Conciso e riflessivo con stili di comunicazione organica, questa unità eccelle in incontri diplomatici."
+
+ leader_trait_principled_hive:0 "Ronzio Stabile"
+ leader_trait_principled_hive_desc:1 "Questo nodo emette un segnale chimico costante che rafforza lo sviluppo sinaptico corretto nei suoi compagni [owner.GetIndividualNamePlural]."
+ leader_trait_principled_machine:0 "Protetto"
+ leader_trait_principled_machine_desc:0 "File corrotti, perdita di dati e problemi simili sono meno probabili sotto la guida di questo nodo."
+
+ leader_trait_principled_2_hive:0 "$leader_trait_principled_hive$ II"
+ leader_trait_principled_2_hive_desc:0 "$leader_trait_principled_hive_desc$"
+ leader_trait_principled_2_machine:0 "$leader_trait_principled_machine$ II"
+ leader_trait_principled_2_machine_desc:0 "$leader_trait_principled_machine_desc$"
+
+ leader_trait_assembler_hive: "Allevatore"
+ leader_trait_assembler_hive_desc:0 "Questo [owner.GetIndividualName] è particolarmente attento alla cura della prole."
+ leader_trait_assembler_machine:0 "Codice Assemblaggio"
+ leader_trait_assembler_machine_desc:1 "Con il giusto codice al posto giusto, la produzione di nuove macchine può essere ottimizzata."
+
+ leader_trait_geologist_hive:0 "[owner.GetIndividualNameCap] Trivellatore"
+ leader_trait_geologist_hive_desc:1 "Con arti fossoriali specializzati, questo [owner.GetIndividualName] può facilmente accedere alle risorse planetarie sotterranee."
+ leader_trait_geologist_machine:0 "Scavatore Profondo"
+ leader_trait_geologist_machine_desc:1 "Dotata di trapani avanzati, questa unità può facilmente accedere alle risorse planetarie sotterranee."
+
+ leader_trait_naturalist_hive:0 "Armonia"
+ leader_trait_naturalist_hive_desc:1 "Priorizzando l'adattabilità, gli ambienti ostili possono diventare benefici per l'[owner.GetGestaltEntityName]."
+ leader_trait_naturalist_machine:0 "Codice Conservazione"
+ leader_trait_naturalist_machine_desc:0 "La conservazione dei biomi esistenti consente lo sfruttamento sostenibile."
+
+ leader_trait_cultural_focus_hive:0 "Focus Unificazione"
+ leader_trait_cultural_focus_hive_desc:1 "Questo [owner.GetIndividualName] è stato selezionato per essere adattivo e comprensivo verso culture aliene."
+ leader_trait_cultural_focus_machine:0 "Focus sull'Unificazione"
+ leader_trait_cultural_focus_machine_desc:1 "Questa unità si specializza nel supportare i processi di unificazione e mantenere comunicazioni positive."
+
+
+ leader_trait_cultural_focus_2_hive:0 "$leader_trait_cultural_focus_hive$ II"
+ leader_trait_cultural_focus_2_hive_desc:0 "$leader_trait_cultural_focus_hive_desc$"
+ leader_trait_cultural_focus_2_machine:0 "$leader_trait_cultural_focus_machine$ II"
+ leader_trait_cultural_focus_2_machine_desc:0 "$leader_trait_cultural_focus_machine_desc$"
+
+ leader_trait_expertise_materials_hive:0 "Competenza: Materiali"
+ leader_trait_expertise_materials_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo dei Materiali."
+ leader_trait_expertise_propulsion_hive:0 "Competenza: Propulsione"
+ leader_trait_expertise_propulsion_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo della Propulsione."
+ leader_trait_expertise_voidcraft_hive:0 "Competenza: Astronavi"
+ leader_trait_expertise_voidcraft_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo delle Astronavi."
+ leader_trait_expertise_industry_hive:0 "Competenza: Industria"
+ leader_trait_expertise_industry_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo dell'Industria."
+ leader_trait_expertise_field_manipulation_hive:0 "Competenza: Manipolazione di Campo"
+ leader_trait_expertise_field_manipulation_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo della Manipolazione di campo."
+ leader_trait_expertise_particles_hive:0 "Competenza: Particelle"
+ leader_trait_expertise_particles_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo delle Particelle."
+ leader_trait_expertise_metaphysics_hive:0 "Competenza: Metafisica"
+ leader_trait_expertise_metaphysics_hive_desc:0 "Questo nodo è focalizzato sulla scoperta nel campo della Metafisica."
+ leader_trait_expertise_psionics_hive:0 "Competenza: Psionica"
+ leader_trait_expertise_psionics_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo della Psionica."
+ leader_trait_expertise_computing_hive:0 "Competenza: Informatica"
+ leader_trait_expertise_computing_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo dell'Informatica."
+ leader_trait_expertise_new_worlds_hive:0 "Competenza: Nuovi Mondi"
+ leader_trait_expertise_new_worlds_hive_desc:1 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie per colonizzare i Nuovi Mondi."
+ leader_trait_expertise_statecraft_hive:0 "Competenza: Diplomazia"
+ leader_trait_expertise_statecraft_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo della Diplomazia."
+ leader_trait_expertise_biology_hive:0 "Competenza: Biologia"
+ leader_trait_expertise_biology_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo della Biologia."
+ leader_trait_expertise_military_theory_hive:0 "Competenza: Teoria Militare"
+ leader_trait_expertise_military_theory_hive_desc:0 "Questo nodo è focalizzato sulla scoperta di nuove tecnologie nel campo della Teoria Militare."
+
+ leader_trait_expertise_materials_machine:0 "Competenza: Materiali"
+ leader_trait_expertise_materials_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo dei Materiali."
+ leader_trait_expertise_propulsion_machine:0 "Competenza: Propulsione"
+ leader_trait_expertise_propulsion_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Propulsione."
+ leader_trait_expertise_voidcraft_machine:0 "Competenza: Astronavi"
+ leader_trait_expertise_voidcraft_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo delle Astronavi."
+ leader_trait_expertise_industry_machine:0 "Competenza: Industria"
+ leader_trait_expertise_industry_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo dell'Industria."
+ leader_trait_expertise_field_manipulation_machine:0 "Competenza: Manipolazione di Campo"
+ leader_trait_expertise_field_manipulation_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Manipolazione di campo."
+ leader_trait_expertise_particles_machine:0 "Competenza: Particelle"
+ leader_trait_expertise_particles_machine_desc:1 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo delle Particelle."
+ leader_trait_expertise_metaphysics_machine:0 "Competenza: Metafisica"
+ leader_trait_expertise_metaphysics_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Metafisica."
+ leader_trait_expertise_psionics_machine:0 "Competenza: Psionica"
+ leader_trait_expertise_psionics_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Psionica."
+ leader_trait_expertise_computing_machine:0 "Competenza: Informatica"
+ leader_trait_expertise_computing_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo dell'Informatica."
+ leader_trait_expertise_new_worlds_machine:0 "Competenza: Nuovi Mondi"
+ leader_trait_expertise_new_worlds_machine_desc:1 "Questa unità è focalizzata sulla scoperta di nuove tecnologie per colonizzare i Nuovi Mondi."
+ leader_trait_expertise_statecraft_machine:0 "Competenza: Diplomazia"
+ leader_trait_expertise_statecraft_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Diplomazia."
+ leader_trait_expertise_biology_machine:0 "Competenza: Biologia"
+ leader_trait_expertise_biology_machine_desc:0 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Biologia."
+ leader_trait_expertise_military_theory_machine:0 "Competenza: Teoria Militare"
+ leader_trait_expertise_military_theory_machine_desc:1 "Questa unità è focalizzata sulla scoperta di nuove tecnologie nel campo della Teoria Militare."
+
+ leader_trait_polluter_hive:0 "Inquinatore"
+ leader_trait_polluter_hive_desc:1 "Questo [owner.GetIndividualName] ignora l'accumulo di sottoprodotti pericolosi dalle industrie che sorveglia."
+
+ leader_trait_sadistic_hive:0 "Dipendenza dal Dolore"
+ leader_trait_sadistic_hive_desc:1 "Questo [owner.GetIndividualName] ha bisogno della stimolazione dei recettori del dolore come mezzo di soddisfazione."
+ leader_trait_sadistic_machine:1 "Macchinario Masochista"
+ leader_trait_sadistic_machine_desc:1 "Questa unità dipende funzionalmente dalla stimolazione frequente dei sensori di danno."
+
+ leader_trait_irenic_hive: "Avversione al Conflitto"
+ leader_trait_irenic_hive_desc:1 "Un'innata avversione al conflitto spinge questo [owner.GetIndividualName] a evitare possibili escalation militari."
+ leader_trait_irenic_machine:0 "Protocolli di Pace"
+ leader_trait_irenic_machine_desc:0 "Questa unità promuove la pace e cercherà di respingere tutti i tentativi di aumentare la preparazione al combattimento."
+
+ leader_trait_physics_focus_hive:0 "Focus Fisica"
+ leader_trait_physics_focus_hive_desc:0 "Questa nodo si concentra sulla ricerca in Fisica."
+ leader_trait_physics_focus_machine:0 "Focus Fisica"
+ leader_trait_physics_focus_machine_desc:0 "Questa unità si concentra sulla ricerca in Fisica."
+
+ leader_trait_physics_focus_2_hive:0 "$leader_trait_physics_focus_hive$ II"
+ leader_trait_physics_focus_2_hive_desc:0 "$leader_trait_physics_focus_hive_desc$"
+ leader_trait_physics_focus_2_machine:0 "$leader_trait_physics_focus_machine$ II"
+ leader_trait_physics_focus_2_machine_desc:0 "$leader_trait_physics_focus_machine_desc$"
+
+ leader_trait_society_focus_hive:0 "Focus Società"
+ leader_trait_society_focus_hive_desc:0 "Questo nodo si concentra sulla ricerca in Società."
+ leader_trait_society_focus_machine:0 "Focus Società"
+ leader_trait_society_focus_machine_desc:0 "Questa unità si concentra sulla ricerca in Società."
+
+ leader_trait_society_focus_2_hive:0 "$leader_trait_society_focus_hive$ II"
+ leader_trait_society_focus_2_hive_desc:0 "$leader_trait_society_focus_hive_desc$"
+ leader_trait_society_focus_2_machine:0 "$leader_trait_society_focus_machine$ II"
+ leader_trait_society_focus_2_machine_desc:0 "$leader_trait_society_focus_machine_desc$"
+
+ leader_trait_archaeologist_hive:0 "[owner.GetIndividualNameCap] Archeologo"
+ leader_trait_archaeologist_hive_desc:0 "Questo [owner.GetIndividualName] si concentra su missioni archeologiche."
+ leader_trait_archaeologist_machine:0 "Unità Archeologa"
+ leader_trait_archaeologist_machine_desc:0 "Questa unità si concentra su missioni archeologiche."
+
+ leader_trait_archaeologist_2_hive:0 "$leader_trait_archaeologist_hive$ II"
+ leader_trait_archaeologist_2_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_2_machine:0 "$leader_trait_archaeologist_machine$ II"
+ leader_trait_archaeologist_2_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_archaeologist_3_hive:0 "$leader_trait_archaeologist_hive$ III"
+ leader_trait_archaeologist_3_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_3_machine:0 "$leader_trait_archaeologist_machine$ III"
+ leader_trait_archaeologist_3_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_prospector_hive:0 "Esploratore Minerario"
+ leader_trait_prospector_hive_desc:0 "A questo [owner.GetIndividualName] sono stati concessi scanner extra-potenti per trovare anche i depositi più profondi durante le rilevazioni."
+ leader_trait_prospector_machine:0 "Esploratore Minerario"
+ leader_trait_prospector_machine_desc:0 "Questa unità ha scanner incorporati per trovare anche i depositi più profondi durante le rilevazioni."
+
+ leader_trait_prospector_2_hive:0 "$leader_trait_prospector_hive$ II"
+ leader_trait_prospector_2_hive_desc:0 "$leader_trait_prospector_hive_desc$"
+ leader_trait_prospector_2_machine:0 "$leader_trait_prospector_machine$ II"
+ leader_trait_prospector_2_machine_desc:0 "$leader_trait_prospector_machine_desc$"
+
+ leader_trait_collective_wisdom_hive:0 "Istinto Collettivo"
+ leader_trait_collective_wisdom_hive_desc:1 "Questo [owner.GetIndividualName] ha un legame profondo con i suoi simili; si muovono insieme come se fossero un unico essere."
+ leader_trait_collective_wisdom_machine:0 "Database Collettivo"
+ leader_trait_collective_wisdom_machine_desc:1 "Questa unità mantiene una rete privata con le sue unità di supporto, migliorando le loro funzioni combinate."
+
+ leader_trait_collective_wisdom_2_hive:0 "$leader_trait_collective_wisdom_hive$ II"
+ leader_trait_collective_wisdom_2_hive_desc:0 "$leader_trait_collective_wisdom_hive_desc$"
+ leader_trait_collective_wisdom_2_machine:0 "$leader_trait_collective_wisdom_machine$ II"
+ leader_trait_collective_wisdom_2_machine_desc:0 "$leader_trait_collective_wisdom_machine_desc$"
+
+ subclass_commander_aggressor_hive:0 "Aggressore"
+ subclass_commander_aggressor_hive_desc:1 "L'offesa è la miglior difesa. Gli Aggressor sono noti per i loro attacchi implacabili, annientando le flotte nemiche prima che possano contrattaccare."
+ subclass_commander_aggressor_machine:0 "Aggressore"
+ subclass_commander_aggressor_machine_desc:0 "$subclass_commander_aggressor_hive_desc$"
+
+ subclass_commander_tactician_hive:0 "Tattico"
+ subclass_commander_tactician_hive_desc:0 "Questo [owner.GetIndividualName] è particolarmente astuto. Le sue tattiche sono progettate per mitigare i punti di forza del nemico e sorprendere i suoi comandanti."
+ subclass_commander_tactician_machine:0 "Tattico"
+ subclass_commander_tactician_machine_desc:0 "$subclass_commander_tactician_hive_desc$"
+
+ subclass_commander_strategist_hive:0 "Stratega"
+ subclass_commander_strategist_hive_desc:0 "Gli Strateghi sono concentrati sulla visione d'insieme. Invece di guidare la battaglia in prima linea, preferiscono mantenere la coesione militare e disegnare piani di guerra che abbracciano l'intera galassia."
+ subclass_commander_strategist_machine:0 "Stratega"
+ subclass_commander_strategist_machine_desc:0 "$subclass_commander_strategist_hive_desc$"
+
+ leader_trait_cautious_hive: "Cauto"
+ leader_trait_cautious_hive_desc:0 "Questo [owner.GetIndividualName] mostra un comportamento estremamente cauto."
+ leader_trait_cautious_machine: "Cauto"
+ leader_trait_cautious_machine_desc:0 "Questa unità è stata programmata per dare priorità alla cautela."
+
+ leader_trait_cautious_2_hive:0 "$leader_trait_cautious_hive$ II"
+ leader_trait_cautious_2_hive_desc:0 "$leader_trait_cautious_hive_desc$"
+ leader_trait_cautious_2_machine:0 "$leader_trait_cautious_machine$ II"
+ leader_trait_cautious_2_machine_desc:0 "$leader_trait_cautious_machine_desc$"
+
+ leader_trait_watchdog_hive:0 "Protettore del Nido"
+ leader_trait_watchdog_hive_desc:1 "Questo [owner.GetIndividualName] possiede un desiderio incessante di difendere il territorio di casa."
+ leader_trait_watchdog_machine:0 "Vigilante"
+ leader_trait_watchdog_machine_desc:1 "Questa unità serve come guardiano vigile per il territorio rivendicato."
+
+ leader_trait_unyielding_hive: "Inflessibile"
+ leader_trait_unyielding_hive_desc:1 "Questo [owner.GetIndividualName] è incapace di arrendersi."
+ leader_trait_unyielding_machine: "Inflessibile"
+ leader_trait_unyielding_machine_desc:1 "Questa unità non possiede un protocollo di resa."
+
+ leader_trait_unyielding_2_hive:0 "$leader_trait_unyielding_hive$ II"
+ leader_trait_unyielding_2_hive_desc:0 "$leader_trait_unyielding_hive_desc$"
+ leader_trait_unyielding_2_machine:0 "$leader_trait_unyielding_machine$ II"
+ leader_trait_unyielding_2_machine_desc:0 "$leader_trait_unyielding_machine_desc$"
+
+ leader_trait_fleet_logistician_hive:0 "Esperto Logistica"
+ leader_trait_fleet_logistician_hive_desc:0 "Questo [owner.GetIndividualName] possiede la capacità unica di concepire le esigenze logistiche di intere flotte."
+ leader_trait_fleet_logistician_machine:0 "Formula Logistica"
+ leader_trait_fleet_logistician_machine_desc:0 "Questa unità è in grado di elaborare le esigenze logistiche di intere flotte."
+
+ leader_trait_fleet_logistician_2_hive:0 "$leader_trait_fleet_logistician_hive$ II"
+ leader_trait_fleet_logistician_2_hive_desc:0 "$leader_trait_fleet_logistician_hive_desc$"
+ leader_trait_fleet_logistician_2_machine:0 "$leader_trait_fleet_logistician_machine$ II"
+ leader_trait_fleet_logistician_2_machine_desc:0 "$leader_trait_fleet_logistician_machine_desc$"
+
+ leader_trait_wrecker_hive:0 "Distruttore"
+ leader_trait_wrecker_hive_desc:1 "Generazioni di attenta selezione genetica hanno prodotto un [owner.GetIndividualName] capace di infliggere danni massicci a un bersaglio specifico."
+ leader_trait_wrecker_machine:0 "Distruttore"
+ leader_trait_wrecker_machine_desc:0 "Attraverso il bypass dei protocolli di sicurezza, questa unità può aumentare l'efficienza delle armi a un livello enorme."
+
+ leader_trait_intimidator_hive:0 "Presenza Belligerante"
+ leader_trait_intimidator_hive_desc:0 "Le dimostrazioni di forza e gli atti ben calibrati di quasi-aggressione sono tipici delle tattiche di questo [owner.GetIndividualName]."
+ leader_trait_intimidator_machine:0 "Indicatore Minacce"
+ leader_trait_intimidator_machine_desc:1 "Le minacce di violenza perfettamente calcolate costituiscono la base della strategia di questo unità."
+
+ leader_trait_overseer_hive:0 "Occhio dello Sciame"
+ leader_trait_overseer_hive_desc:0 "Questo [owner.GetIndividualName] è l'incarnazione fisica dell'autorità dello sciame."
+ leader_trait_overseer_machine:0 "Controllore Meccanico"
+ leader_trait_overseer_machine_desc:0 "I protocolli operativi di questa unità servono come costante esempio di prestazioni ottimali."
+
+ leader_trait_overseer_2_hive:0 "$leader_trait_overseer_hive$ II"
+ leader_trait_overseer_2_hive_desc:0 "$leader_trait_overseer_hive_desc$"
+ leader_trait_overseer_2_machine:0 "$leader_trait_overseer_machine$ II"
+ leader_trait_overseer_2_machine_desc:0 "$leader_trait_overseer_machine_desc$"
+
+ leader_trait_consul_general_hive:0 "[owner.GetIndividualNameCap] Console"
+ leader_trait_consul_general_hive_desc:1 "Per questo [owner.GetIndividualName], la diplomazia è importante tanto quanto qualsiasi altra forma di conflitto."
+ leader_trait_consul_general_machine:0 "Unità di Guerra Diplomatica"
+ leader_trait_consul_general_machine_desc:0 "Le vittorie più efficienti sono ottenute senza violenza."
+
+ leader_trait_consul_general_2_hive:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_hive_desc:0 "$leader_trait_consul_general_hive_desc$"
+ leader_trait_consul_general_2_machine:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_machine_desc:0 "$leader_trait_consul_general_machine_desc$"
+
+ leader_trait_uninspiring_hive:0 "[owner.GetIndividualNameCap] Brutale"
+ leader_trait_uninspiring_hive_desc:1 "Questo [owner.GetIndividualName] non ha alcun rispetto per i coloro sotto il suo comando."
+ leader_trait_uninspiring_machine:0 "Macchina Insensibile"
+ leader_trait_uninspiring_machine_desc:0 "I calcoli di questa unità non comprendono il benessere delle unità che comanda."
+
+ leader_trait_lawless_hive:0 "Disposizione Corrotta"
+ leader_trait_lawless_hive_desc:1 "Questo [owner.GetIndividualName] prende le risorse dello [owner.GetGestaltEntityName] per il suo uso individuale."
+ leader_trait_lawless_machine:0 "Codice Malizioso"
+ leader_trait_lawless_machine_desc:1 "Il codice difettoso di questa unità porta a comportamenti devianti."
+
+ leader_trait_corrupt_hive:0 "[owner.GetIndividualNameCap] Corrotto"
+ leader_trait_corrupt_machine:0 "Unità Corrotta"
+ leader_trait_corrupt_hive_desc:1 "Questo [owner.GetIndividualName] diffonde la sua devianza agli altri."
+ leader_trait_corrupt_machine_desc:1 "Questa unità diffonde la sua devianza agli altri."
+
+ leader_trait_shadow_broker_hive:0 "Cluster Informazioni"
+ leader_trait_shadow_broker_hive_desc:0 "Questo nodo possiede diversi strumenti per migliorare la nostra capacità di infiltrazione."
+ leader_trait_shadow_broker_machine:0 "Strumenti Intrusivi"
+ leader_trait_shadow_broker_machine_desc:0 "Questa unità possiede diversi strumenti per migliorare la nostra capacità di infiltrazione."

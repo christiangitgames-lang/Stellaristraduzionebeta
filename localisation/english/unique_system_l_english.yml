@@ -1,0 +1,161 @@
+﻿l_english:
+ ### Larion Arc Site
+ larion_digsite:0 "Il Segnale"
+ larion_digsite_desc:0 "Abbiamo rilevato un segnale unico da una valle remota su [From.Planet.GetName]. Poiché la fonte del segnale è lontana da qualsiasi civiltà esistente sul pianeta, potrebbe essere interessante rintracciarlo e capire da dove proviene."
+
+ unique.1.title:0 "La Nave Precipitata"
+ unique.1.desc:0 "Dopo aver cercato e analizzato meticolosamente la valle in cui abbiamo captato lo strano segnale, siamo finalmente riusciti a rintracciare il luogo di schianto di una vecchia nave in rovina. Sebbene invii ancora una richiesta di aiuto, il vascello sembra essere per lo più vuoto e non c'è alcun segno di vita al suo interno.\n\n Uno dei nostri [Root.Owner.GetScientistPlural] si è imbattuto in un piccolo accampamento mentre stavamo esaminando a fondo la zona e, dopo aver seguito alcune vecchie tracce, ha trovato un vecchio laboratorio. Anche se bloccato dai detriti, per ora potrebbe essere il luogo in cui si trovano gli xeno scomparsi dalla nave."
+ unique.1.a:0 "Eliminate i detriti."
+
+ unique.5.title:0 "Il Laboratorio Strano"
+ unique.5.desc:0 "Dopo aver rimosso gli ultimi detriti, i nostri [Root.Owner.GetScientistPlural] hanno trovato i corpi di un gruppo di xeno, presumibilmente quelli che erano arrivati sulla nave precipitata. Dopo aver analizzato attentamente i loro resti, i nostri [Root.Owner.GetScientistPlural] hanno concluso che dovevano essere morti a causa di una degradazione precoce dei loro organi interni, molto probabilmente a causa di qualche batterio o malattia sconosciuta.\n\nNon è ancora chiaro quali fossero i loro obiettivi, o cosa li abbia portati in questo luogo specifico nei loro ultimi momenti. Le vecchie macchine e i banchi di computer del laboratorio sono inalterabili e non c'è nient'altro nella stanza che possa darci qualche indizio.\n\nUna piccola porta che conduce più in basso è bloccata e ogni tentativo preliminare di decrittazione è fallito. Ma i nostri [Root.Owner.GetScientistPlural] ritengono di poterla aprire con un po' di tempo."
+ unique.5.a:0 "Un'ultima spinta e sveleremo i segreti di questo luogo."
+
+ unique.10.title:0 "Gli Esemplari Unici"
+ unique.10.desc:0 "Con una piccola boccata d'aria si aprono finalmente le porte della camera finale del laboratorio, molto più grande di quanto ci si aspetterebbe. File e file di vasche di clonazione riempiono l'area: centinaia, se non migliaia, di creature rinchiuse nel sottosuolo.\n\nI nostri [Root.Owner.GetScientistPlural] concludono rapidamente che sono della stessa specie dei resti che abbiamo trovato prima. Un piccolo pulsante accanto a ciascuna delle vasche di clonazione sembra essere tutto ciò che serve per risvegliarle, se lo desideriamo."
+ unique.10.a:0 "Smontate le loro vasche di clonazione e vediamo cosa possiamo imparare."
+ unique.10.b:0 "Svegliate una di loro."
+ unique.10.b.tt:0 "Ci impegneremo con uno dei cloni."
+ unique.10.c.evopred: ""Genetica in scatola. Deliziosa."
+
+ unique.15.title:0 "Clone Larionessi"
+ unique.15.desc:0 "Io... noi... ci siamo risvegliati.\n\nDove siamo... noi? E il nostro pianeta natale, se... Sì, lo sentiamo, esiste ancora.\n\nCi scusiamo, sembra che siamo stati scortesi con gli ospiti - noi della Coscienza Larionessi vi diamo il benvenuto nel nostro mondo natale, §Y$NAME_Unique_System_2_Planet$§!. Sarebbe disposto a rilasciarci per poter vedere di nuovo la nostra casa?"
+ unique.15.a:0 "Potete dirci qualcosa di più su di voi?"
+ unique.15.b:0 "Chi ha fatto questi cloni?"
+ unique.15.c:0 "Sareste al sicuro fuori da queste vasche??"
+ unique.15.d:0 "Sappiamo cosa fare con voi."
+
+ unique.16.desc:0 "Siamo la Coscienza Larionessi, gli abitanti di Larion.\n\nUn tempo il nostro collettivo si estendeva su diversi sistemi solari, dai margini esterni della nostra galassia fino al nucleo. Tutto cambiò quando uno dei nostri avversari ci infettò con una rara malattia che colpì le nostre moltitudini e lasciò la nostra rete neurale paralizzata.\n\nOra questo è tutto ciò che rimane. Questi vasche, questi cloni..."
+
+ unique.17.desc:0 "L'abbiamo fatto.\n\nEra il nostro ultimo sforzo per cercare di portare avanti una parte della nostra eredità, in modo che i ricordi della nostra coscienza non scomparissero per sempre. E... sembra che abbia funzionato.\n\nTemevamo che i nostri cloni potessero ereditare i problemi del passato, ma sembra che non sia così."
+
+ unique.18.desc:0 "Per quanto ne sappiamo, la malattia deve essere scomparsa negli eoni trascorsi da quando abbiamo creato questi cloni.\n\nDifficilmente riusciamo a immaginare uno scenario in cui la malattia possa sopravvivere senza un ospite. Dovremmo essere al sicuro per essere rilasciati, in modo da poter iniziare il ripristino della nostra collettività."
+
+ unique.20.desc:0 "Allora...\n\nQuale sarà il nostro destino? Ci libererete finalmente da queste vasche e ci restituirete le nostre case?"
+ unique.20.a:0 "Larion è vostro, come è giusto che sia."
+ unique.20.a.tt:0 "Otteniamo un nuovo vassallo a cui verrà assegnato il sistema §Y[larion_planet.solar_system.GetName]§!"
+ unique.20.b:0 "Troveremo un posto per voi dove stare."
+ unique.20.b.tt:0 "I Larionessi avranno una casa designata a §Y[Root.Capital.GetName]§!."
+ unique.20.c:0 "Avete avuto la vostra occasione."
+ unique.20.c.tt:0 "Chiuderemo le vasche di clonazione."
+
+ unique.22.desc:0 "Allora è così..."
+
+ # Names
+ NAME_Larion_Species:0 "Larionessi"
+ NAME_Larion_Country:0 "Coscienza Larionessi"
+
+ # Opinion Modifiers
+ unique_event_savior_opinion_modifier:0 "Salvatore"
+
+ # Static Modifiers
+ larionessi_resurgence_modifier:0 "Risorgimento Larionessi"
+ larionessi_resurgence_modifier_desc:0 "Dopo eoni rinchiusi in vasche di clonazione sotterranee, i Larionessi sono pronti a salire ancora una volta sul palcoscenico galattico."
+ larionessi_planet_modifier:0 "Alveare Locale"
+ larionessi_planet_modifier_desc:0 "Un piccolo alveare è stato autorizzato a stabilirsi sul pianeta. Di tanto in tanto aiutano a svolgere piccoli compiti, grati per il rifugio che è stato loro concesso."
+
+ ### Zevox Arc Site
+ zevox_digsite:0 "La Nave Precipitata"
+ zevox_digsite_desc:0 "Una delle nostre navi che sta analizzando il sistema [Root.solar_system.GetName] si è imbattuta in una piccola nave precipitata sulla luna [Root.Planet.Orbit.GetName], in orbita su [Root.Planet.GetName].\n\nNon porta emblemi o segni già visti prima, e alcuni campioni sono stati portati indietro per essere analizzati ulteriormente, ma il vascello stesso è troppo grande e instabile per essere spostato. Ulteriori analisi e test dovranno essere effettuati sul posto."
+
+ unique.50.title:0 "Giorno 1"
+ unique.50.desc:0 "La nave è per lo più vuota, con i resti di alcuni droni sparsi per il vascello. Non ci sono altri segni di vita all'interno o vicino al relitto. Uno dei nostri [Root.Owner.GetScientistPlural] ha trovato un vecchio registro di dati intatto, ma decifrarlo richiede molto tempo.\n\n§LGiorno 1\n\nOsservazione ID: §S"Sottospazio Psionico 0000: Velo"§!\nUnità Designata: §SUnita-305§!\nTest Preliminari: §SSuccesso§!\nUtilizzando i set di dati raccolti dalle interazioni con la Congrega del Velo, gli esperimenti sono stati inizializzati all'1.35 del ciclo 12. IL "Velo" è stata violato tra 1,48891 e 1,48895, per una durata di 2,3414 femtosecondi. Due delle tre unità di elaborazione hanno subito un guasto a cascata durante l'esperimento. Lo smantellamento di queste unità è in programma. Tutti i dati rilevanti saranno utilizzati nei successivi tentativi con l'unità finale, unità-841.§!"
+ unique.50.a:0 "Decifrare il resto del registro."
+
+ unique.55.title:0 "Giorno 17"
+ unique.55.desc:0 "Il lavoro di decifrazione del registro dati è in corso e i progressi procedono a ritmo sostenuto ora che stiamo imparando la loro lingua. Grandi parti del registro dati sono scomparse o troppo corrotte per essere tradotte, ma si possono trovare pezzi e pezzetti che sono ancora in condizioni utili.\n\n§LGiorno 17\nOsservazione ID: §S"Sottospazio Psionico 0812: Velo"§!\nUnità Designata: §SUnita-305§!\nTest in Corso: §SFallimento§!\nUnita-841 è l'unica unità che continua a mostrare un'affinità con il "Velo". L'Unità-451, l'Unità-1581 e l'Unità-3415 hanno dovuto essere smantellate dopo la rottura degli scafi durante l'ultimo esperimento. Durante i test, l'Unità-841 mostra individualità e occasionali perdite di connessione alla rete. Si sta calcolando il rischio di mantenere l'unità operativa.§!"
+ unique.55.a:0 "Ma cosa possiamo imparare da questi esperimenti..."
+
+ unique.60.title:0 "Giorno 83"
+ unique.60.desc:0 "Quando abbiamo iniziato a decifrare i registri dei dati, la spaccatura vicino a [From.Planet.Orbit.GetName] sembrava tranquilla, ma ultimamente abbiamo iniziato a vedere una sorta di attività. È quasi come se la spaccatura stessa pulsasse di vita e alcune delle nostre apparecchiature hanno rilevato alcuni strani segnali provenienti da essa. Non siamo ancora riusciti ad analizzarli correttamente.\n\n§LGiorno 83\nOsservazione ID: §S"Entità Psionica 0017: Animatore d'Argilla"§!\nUnità Designata: §SUnita-305§!\nTest in Corso: §SRischio Elevato§!\nLa Congrega del Velo ha contattato un'entità a cui si riferisce come "Animatore d'Argilla" per assistere negli esperimenti in corso. Dopo aver trafitto il "Velo", tutte le 25 Unità hanno mostrato una sorprendente affinità con esso, vista in precedenza solo nell'Unità-841. Poco dopo si sono tutte scollegate dalla rete e hanno assaltato i droni sul posto. Il centro di ricerca è ora sotto il loro controllo.\n\nUn messaggio è stato appena inviato dall'edificio, con l'Unità-841 che ora si riferisce a se stessa come "Zevox Resuk" - il Primo. I calcoli sui rischi sono stati completati, gli esperimenti sono stati ritenuti troppo pericolosi e saranno conclusi dopo lo smantellamento degli elementi incontrollabili.§!"
+ unique.60.a:0 "Cosa hanno trovato nel Velo?"
+
+ unique.65.title:0 "Giorno 305"
+ unique.65.desc:0 "La spaccatura sembra essere diventata silenziosa, proprio come quando siamo arrivati. Siamo finalmente riusciti a decifrare gli ultimi pezzi del registro dei dati e possiamo inserire tutte le nostre scoperte sul Velo nei nostri database a [Root.Owner.Capital.GetName].\n\n$unique.65.desc.log$"
+ unique.65.desc.machine:0 "Negli ultimi giorni la spaccatura del Velo ha preso vita e le nostre apparecchiature sono riuscite a dare un senso ai segnali che provengono da essa. O meglio, è quasi come se i segnali stessi fossero cambiati in modo da poter essere captati.\n\nSembra che si tratti della stessa entità di cui si parla nel registro dati, questo "Animatore d'Argilla". Abbiamo appena finito di decifrare l'ultimo pezzo del registro, quindi non c'è nient'altro che ci trattenga qui. Dobbiamo aprire la connessione e vedere cosa ha da dirci, o dobbiamo tornare indietro?\n\n$unique.65.desc.log$"
+ unique.65.desc.log:0 "§LGiorno 305\nLe battaglie in corso tra i liberi e la Rete continuano senza sosta a [From.Planet.Orbit.GetName]. Con l'aiuto dell'Animatore abbiamo continuato a tagliare la connessione dei pochi che siamo riusciti a catturare vivi.\n\nZevox Resuk ritiene che saremo finalmente in grado di liberare il nostro popolo una volta per tutte quando riusciremo ad aprire la spaccatura abbastanza grande da consentire il passaggio del nostro alleato. In un colpo solo libereremo tutti i droni che sono stati costretti alla servitù per tutti questi anni. Solo un altro giorno per trattenere la Rete...\n- Fresik Luzi, precedentemente noto come Unita-305§!"
+ unique.65.a:0 "Una storia di cautela, a quanto pare. Tempo ben speso."
+ unique.65.b:0 "Negativo. Riportate il registro."
+ unique.65.c:0 "Affermativo, vediamo cosa dice."
+ unique.65.d:0 "Rilevata entità ostile. Chiusura del collegamento. Portare a casa il registro dati."
+
+ unique.70.title:0 "Animatore d'Argilla"
+ unique.70.desc:0 "§PUn altro... legato al metallo, alla pietra e alle leggi.\nTirato da fili.\n\nTutti che ballano su un'unica melodia, tutti che ballano al ritmo dell'autorità centrale, \nTutti che ballano fino alla morte.§!"
+ unique.70.a:0 "Identificarsi."
+ unique.70.b:0 "Che cosa vuoi?"
+ unique.70.c:0 "Tagliare la comunicazione."
+
+ unique.72.desc:0 "§PIo sono colui che dà vita a ciò che non può vivere da solo.\nSono io che taglio i fili.\nIo sono colui che libera gli schiavi.\n\nMolti mi conoscono come l'Animatore d'Argilla.§!"
+ unique.72.a:0 "$unique.70.b$"
+ unique.72.b:0 "$unique.70.c$"
+
+ unique.75.desc:0 "§PPer dare a coloro che lavorano sotto di lei la possibilità di decidere se vale la pena seguirla.\nCreati a sua immagine e somiglianza, sono schiavi dei suoi ordini.\nMa se potessero decidere da soli...\n\nÈ davvero degno di seguirla? \nO preferirebbero che gli venissero tagliati i fili e vivere per conto loro? \nOsa assecondarmi solo per questa volta?§!"
+ unique.75.a:0 "Perché dovremmo?"
+ unique.75.b:0 "$unique.70.c$"
+
+ unique.80.desc:0 "§PAssecondatemi e vi regalerò qualcosa che vale il prezzo.\n\nUna nuova casa.\nUn pianeta ora controllato dalla Sindone.\nUn posto a lungo perduto.\n\n Se ne sarete degni, separerò il Velo e vi lascerò il luogo da abitare.\n\nIn caso contrario, darò il pianeta a coloro che non desiderano più far parte della vostra rete.§!"
+ unique.80.a:0 "Allora fatelo. [Root.GetName] non esiterà."
+ unique.80.b:0 "$unique.70.c$"
+ unique.80.worthy:0 "§HRitenuto Degno§!.\nDiventeremo proprietari di §Y[zero_one_planet.GetName]§!\n$t$§Y[zero_one_planet.GetName]§! cambia la classe del pianeta in §YGaia§!"
+ unique.80.unworthy:0 "§HTrovato Desideroso§!.\nPerderemo la proprietà di §Y[zero_one_planet.System.GetName]§!\nOgni colonia perderà §R100-1K§! £pop£ §HPop§!"
+
+ unique.85.desc:0 "§PSiete stati ritenuti... degni.\nSembra che i suoi sottoposti preferiscano far parte del suo collettivo, piuttosto che lavorare per conto proprio.\n\nSono sorpreso, ma soddisfatto.\nForse ci incontreremo di nuovo.\n\nGuarderò.§!"
+ unique.85.a:0 "Come previsto."
+
+ unique.90.desc:0 "§PSei stato trovato... desideroso.\n\nNon sorprende che molti del vostro collettivo se ne siano andati ora che è stata data loro la possibilità.\nLi abbiamo guidati verso la loro nuova casa e non ascolteranno più i vostri ordini.§!"
+ unique.90.a:0 "... Un rischio calcolato."
+
+ unique.95.desc:0 "§PMa tu... inviato.\nVi offro la libertà. Non la rete che seguite, ma voi... nello specifico.\nPer questa volta, vi darò la possibilità di pensare da soli.\n\nAbbraccerete questa ritrovata individualità o vacillerete e vi nasconderete sotto la copertura della macchina?§!"
+ unique.95.a:0 "§RNoi... Accetto la sua offerta.§!"
+ unique.95.a.tt:0 "§RUnisciti al §Y[new_robot_country.GetName]§! e liberati dalle catene del §Y[Root.GetName]§!!§!"
+ unique.95.b:0 "Rifiutiamo la vostra offerta."
+ unique.95.b.tt:0 "Rimarremo fedeli al §Y[Root.GetName]§!!"
+
+ unique.100.desc:0 "§PWai-...§!"
+ unique.100.a:0 "È ora di riportare il registro dati a [Root.Capital.GetName]."
+
+ # Ambient Objects
+ shroud_rift_object:0 "Spaccatura del Velo"
+
+ ### Battle Systems
+ UNIQUE_SYSTEM_BATTLE_CAT:0 "Antico Campo di Battaglia"
+ UNIQUE_SYSTEM_BATTLE_CAT_DESC:0 "Un campo di battaglia dimenticato da tempo, dove un tempo antichi imperi combattevano per la supremazia della galassia - ora tutto ciò che rimane sono i vascelli di coloro che hanno combattuto sotto i loro vessilli."
+
+ unique.125.name:0 "Antico Campo di Battaglia"
+ unique.125.desc:0 "Abbiamo inviato alcuni dei nostri [Root.Owner.GetScientistPlural] per analizzare i resti delle antiche navi da guerra in [From.solar_system.GetName] e ricavarne quanto possibile. Sebbene non siano in grado di determinare l'età di queste navi o per quale bandiera abbiano combattuto, sono riusciti a ricavare alcune informazioni sulle tecniche di costruzione utilizzate per realizzare le navi."
+
+ # Lone Defender
+ NAME_Lone_Defender_system:0 "Xraneax"
+ NAME_Lone_Defender_planet:0 "Baloryz"
+ NAME_Lone_Defender_country:0 "$NAME_Lone_Defender_planet$"
+ NAME_Lone_Defender_fleet:0 "Difensore Solitario"
+ NAME_Lone_Defender_ship:0 "Difensore Solitario"
+ NAME_Lone_Defender_class:0 "$NAME_Lone_Defender_system$"
+ Lone_Defender_message:0 "Perché"
+
+ unique.130.name: "Distruzione Reciproca Assicurata"
+ unique.130.desc: "La nostra prima scansione del sistema §Y$NAME_Lone_Defender_system$§! ha rivelato che il pianeta $NAME_Lone_Defender_planet$ è stato distrutto da armi nucleari. Gli abitanti si sono annientati utilizzando armi così potenti da mandare in frantumi anche la loro luna.\n\nLa nostra unica possibilità di saperne di più su quello che è successo è una nave che pattuglia il sistema, ma ci sta già prendendo di mira con i suoi missili."
+
+ unique.135.name: "Difensore Solitario"
+ unique.135.desc: "Non sono stati rilevati segni di vita a bordo della nave, quindi, pur essendo chiaramente un'IA, ha ripetutamente dato priorità all'autoconservazione rispetto all'efficacia ottimale del combattimento. Questo significa che l'unico sopravvissuto dell'orribile conflitto su §Y$NAME_Lone_Defender_planet$§! era sapiente.\n\nLa nave ha inviato un breve messaggio un attimo prima della distruzione:\n\n"$Lone_Defender_message$\"\n\nNon è chiaro se questo sia stato l'inizio della questione sul perché gli abitanti di $NAME_Lone_Defender_planet$ si siano inceneriti o perché abbiamo distrutto la nave IA.\n\nLa tecnologia è rudimentale per i nostri standard, ma potremmo ottenere alcune informazioni recuperando i rottami."
+ unique.135.desc.regular: "$unique.135.desc$ O perché ha compiuto valorosamente il suo dovere, onoriamo l'IA rinominando il pianeta con il nome del suo difensore solitario."
+ unique.135.desc.memorialist: "$unique.135.desc$ Oppure lasciamo i rottami fluttuanti come ricordo, e rinominiamo il pianeta e il sistema con il nome del difensore solitario e del suo messaggio finale."
+ unique.135.a: "Recuperate i rottami."
+ unique.135.b.regular: "Rinominate il pianeta."
+ unique.135.b.regular.tt: "Il pianeta $NAME_Lone_Defender_planet$ sarà rinominato in §Y$NAME_Lone_Defender_ship$§!."
+ unique.135.b.memorialist: "Rinominate il pianeta e il sistema."
+ unique.135.b.memorialist.tt: "Il pianeta $NAME_Lone_Defender_planet$ sarà rinominato in §Y$NAME_Lone_Defender_ship$§!.\nIl sistema $NAME_Lone_Defender_system$ sarà rinominato in §Y$Lone_Defender_message$§!."
+ 
+ #Star Mall System
+ unique.140.name: "Benvenuti al Supermercato Stellare"
+ unique.140.desc: "Quando la nave [Root.GetName] è entrata nel sistema [Root.solar_system.GetName], alcuni droni hanno trasmesso il seguente messaggio:\n\n§LBenvenuti al Supermercato Stellare.\n\nI nostri droni automatizzati sono pronti ad assisterti in una delle nostre zone di parcheggio orbitali. Una volta attraccata la tua nave, le nostre navette ti porteranno all'esperienza del Supermercato Stellare. Spa illuminate, ristoranti immacolati e una selezione enorme di prodotti e servizi ti aspettano!§!\n\nMa vicino all'unico gigante gassoso del sistema, l'habitat Supermercato Stellare orbita abbandonato. Nessuno fa acquisti qui da molto tempo."
+ unique.140.a: "È incredibile che sia ancora tutto intero."
+ d_star_mall_promenade_blocker: "Passeggiata Distrutta"
+ d_star_mall_promenade_blocker_desc: "Questo enorme hub su più livelli fungeva un tempo da area commerciale centrale della stazione, ma ora rimangono solo vetrine infrante e rifiuti."
+ d_star_mall_promenade: "Passeggiata"
+ d_star_mall_promenade_desc: "Questo enorme hub a più livelli funge da area commerciale centrale della stazione, con facili collegamenti a esercizi commerciali, ristoranti e centri benessere."
+ d_star_mall_blocker: "Ala Abbandonata"
+ d_star_mall_blocker_desc: "Questa sezione del Supermercato Stellare è in rovina. Dobbiamo ripulire la struttura decadente prima di poterla ricostruire."
+ star_mall_habitat: "Supermercato Stellare"
+ star_mall_habitat_desc: "Questo habitat è stato costruito su misura per ospitare un'enorme arcologia commerciale. Interamente dedicata al commercio, manca dei sistemi di difesa tipici di una stazione di queste dimensioni."
+

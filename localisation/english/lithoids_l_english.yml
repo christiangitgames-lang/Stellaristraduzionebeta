@@ -1,0 +1,79 @@
+﻿l_english:
+ 
+ LITHOIDS_TITLE: "Lithoids Species Pack" # Do not translate
+ DLC_LITHOIDS_RECOMMENDATION_DESC:2 "§SLithoids§! è un pacchetto di specie che permette di giocare nei panni di una specie rocciosa, con le sue meccaniche uniche."
+ DLC_LITHOIDS_RECOMMENDATION_THEME_REC:1 "Raccomandiamo §SLithoids§! perché la composizione di questo impero si adatta perfettamente al suo tema roccioso."
+ DLC_LITHOIDS_RECOMMENDATION_MINERALS_REC:1 "Raccomandiamo §SLithoids§! poiché la composizione di questo impero influisce sulla produzione di minerali o ne guadagna bonus."
+
+ vo_lithoid_voice:0 "Litoide"
+ lithoid:0 "Litoide" 
+
+ MESSAGE_TERRAVORE_CONSUME_WORLD_TITLE:0 "Consuma Pianeta"
+ MESSAGE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT:0 "Il consumo di $PLANET|Y$ permette di raccogliere minerali per lo sciame."
+ MESSAGE_TERRAVORE_CONSUME_WORLD_ALLOYS_TEXT:0 "Il consumo di $PLANET|Y$ permette di raccogliere leghe per lo sciame."
+ MESSAGE_TERRAVORE_CONSUME_WORLD_POP_TEXT:0 "Il consumo di $PLANET|Y$ permette di raccogliere corpi per lo sciame."
+
+ situation_terravore_consume_planet: "Consuma [Target.GetName]"
+ situation_terravore_consume_planet_type: "Consuma Pianeta"
+ situation_terravore_consume_planet_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_terravore_consume_planet_desc: "Banchettiamo: assaporiamo il suolo di un altro pianeta; la nostra fame non è ancora saziata."
+ terravore_consume_finish_tooltip: "Consuma [Target.GetName], lasciandolo devastato e vuoto."
+ approach_devour: "Divora"
+ approach_restraint: "Contenimento"
+ string_terravore_progress: "Consumo del Pianeta"
+ terravore_devour_effect: "Consumando il Pianeta, ottieni £minerals£ §H$minerals$§!, £alloys£ §H$alloys$§!, o £pop£ §HPop§! ogni §Y6§! mesi."
+ terravore_restraint_effect: "Smette di consumare il pianeta, anche se va contro la nostra natura."
+ stage_feed_feed_feed: "Nutrirsi... Nutrirsi... NUTRIRSI."
+ being_devoured_modifier: "In Divoramento"
+ being_devoured_modifier_desc: "Questo pianeta viene mangiato dal Divoratore di Mondi locale. I suoi giorni sono contati."
+# Calamitous Birth
+
+ lithoid_crater_effect: "Abitabilità per £pop£ §HPop Non Litoide§!: §R-50%§!"
+
+
+# Selective Kinship
+ civic_selective_kinship: "Parentela Selettiva"
+ civic_selective_kinship_desc: "In un universo incerto, ci si può fidare solo della parentela. Questa civiltà è selettiva riguardo alle specie che si definiscono uguali."
+
+ wrong_species_class: "Non concediamo a questa Classe di Specie pieni diritti di cittadinanza."
+ selective_kinship_must_citizen: "$TRIGGER_FAIL$Condividere una Classe di Specie significa che a questa specie viene concessa la §YCittadinanza§!."
+ triggered_selective_kinship: "Parentela Condivisa"
+ triggered_selective_kinship_hates: "Orrido Alieno"
+ mod_citizen_pop_same_species_class_happiness: "La Felicità dei cittadini che condividono il pianeta con la stessa §YClasse di Specie§!"
+ mod_citizen_pop_different_species_class_happiness: "La Felicità dei cittadini che opprimono le altre §YClassi di specie§!"
+ mod_citizen_pop_political_power: "Potere Politico Cittadino"
+ civic_tooltip_selective_kinship_effects: "Opinione degli Imperi con condivisione ['concept_species_class']: §G+100§!\nOpinione degli altri Imperi: §R-50§!\nLa £pop£ §HPop§! della nostra §YClasse di Specie§! ha la Piena Cittadinanza\nLe altre £pop£ §HPop§! sono escluse dalla Piena Cittadinanza"
+ councilor_selective_kinship: "Portavoce di Parentela"
+ councilor_selective_kinship_female: "$councilor_selective_kinship$"
+ councilor_selective_kinship_desc: "Il $TITLE$ amplifica la voce dei nostri legittimi cittadini."
+
+# Void Hive
+
+ civic_void_hive: "Alveare del Vuoto"
+ civic_void_hive_desc: "Questa Mente Alveare ha fatto dello spazio un altro dei suoi domini. I suoi droni particolarmente evoluti sono in grado di trascorrere interi cicli di vita senza mai entrare nell'atmosfera di un pianeta."
+ civic_tooltip_void_hive_effects: "- Genera automaticamente §YStazioni Minerarie e di Ricerca§! su depositi casuali non sfruttati in un nostro sistema, ogni quattro mesi.\n- La mancanza della tecnologia per sfruttare una determinata risorsa riduce la sua produzione del §R-75%§!.\n- Costruire manualmente §YStazioni Minerarie e di Ricerca§! avrà un costo aggiuntivo di §R10§! $r_unity$."
+ reduce_gas_output: "Estrazione Inefficente di $exotic_gases$"
+ reduce_gas_output_desc: "Stiamo estraendo $exotic_gases$ senza la tecnologia necessaria."
+ reduce_gas_output_tt: "$mod_station_gatherers_exotic_gases_produces_mult$ §R-75%§!"
+ reduce_crystal_output: "Estrazione Inefficente di $rare_crystals$"
+ reduce_crystal_output_desc: "Stiamo estraendo $rare_crystals$ senza la tecnologia necessaria."
+ reduce_crystal_output_tt: "$mod_station_gatherers_rare_crystals_produces_mult$ §R-75%§!"
+ reduce_motes_output: "Estrazione Inefficente di $volatile_motes$"
+ reduce_motes_output_desc: "Stiamo estraendo $volatile_motes$ senza la tecnologia necessaria."
+ reduce_motes_output_tt: "$mod_station_gatherers_volatile_motes_produces_mult$ §R-75%§!"
+ reduce_zro_output: "Estrazione Inefficente di $sr_zro$"
+ reduce_zro_output_desc: "Stiamo estraendo $sr_zro$ senza la tecnologia necessaria."
+ reduce_zro_output_tt: "$mod_station_gatherers_sr_zro_produces_mult$ §R-75%§!"
+ reduce_dark_matter_output: "Estrazione Inefficente di $sr_dark_matter$"
+ reduce_dark_matter_output_desc: "Stiamo estraendo $sr_dark_matter$ senza la tecnologia necessaria."
+ reduce_dark_matter_output_tt: "$mod_station_gatherers_sr_dark_matter_produces_mult$ §R-75%§!"
+ reduce_living_metal_output: "Estrazione Inefficente di $sr_living_metal$"
+ reduce_living_metal_output_desc: "Stiamo estraendo $sr_living_metal$ senza la tecnologia necessaria."
+ reduce_living_metal_output_tt: "$mod_station_gatherers_sr_living_metal_produces_mult$ §R-75%§!"
+ mod_station_gatherers_exotic_gases_produces_mult: "Produzione di $exotic_gases$ della $mining_station$"
+ mod_station_gatherers_rare_crystals_produces_mult: "Produzione di $rare_crystals$ della $mining_station$"
+ mod_station_gatherers_volatile_motes_produces_mult: "Produzione di $volatile_motes$ della $mining_station$"
+ mod_station_researchers_sr_zro_produces_mult: "Produzione di $sr_zro$ della $research_station$"
+ mod_station_researchers_sr_dark_matter_produces_mult: "Produzione di $sr_dark_matter$ della $research_station$"
+ mod_station_gatherers_sr_living_metal_produces_mult: "Produzione di $sr_living_metal$ della $research_station$"
+ 

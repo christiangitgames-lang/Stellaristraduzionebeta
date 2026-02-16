@@ -1,0 +1,1222 @@
+﻿l_english:
+
+ ASTRAL_PLANES_TITLE: "Astral Planes" # Do not translate
+ DLC_ASTRAL_PLANES_RECOMMENDATION_DESC: "§S$ASTRAL_PLANES_TITLE$§! è una ricca espansione narrativa che permette di esplorare dimensioni alternative e di deformare la realtà secondo i propri desideri."
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_1: "Raccomandiamo §SAstral Planes§! perché si abbina bene al vostro §SSignore§! permettendo un'ulteriore flessibilità con le Ipervie e le Catapulte Quantiche."
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_2: "Raccomandiamo §SAstral Planes§! perché offre una nuova opportunità di esplorare i precursori trovati nello story pack §SAncient Relics§!."
+
+ ##################
+ # Astral Actions #
+ ##################
+
+ ASTRAL_ACTIONS: "Azioni Astrali"
+ ASTRAL_ACTIONS_TAB_DISABLED: "Disponibile con la tecnologia §Y$tech_astral_harvesting$§!."
+ ASTRAL_ACTION_REMAINING_USAGES: "($LEFT|0$/$TOTAL|0$)"
+ ASTRAL_ACTION_REMAINING_USAGES_DESC: "Questa azione è limitata a $TOTAL|0$ utilizzi complessivi. Hai ancora $LEFT|0$ utilizzi disponibili."
+ ASTRAL_ACTION_UNIQUE_USAGE_DESC: "Questa azione può essere utilizzata una sola volta."
+ ASTRAL_ACTION_UNIQUE_USAGE_DESC_FLEET_ABILITY: "Questa azione può essere utilizzata una sola volta e aggiunge nuove funzionalità alle tue flotte."
+ ASTRAL_ACTION_RIFT_REQUIREMENT_DESC: "Devi completare §Y1§! Frattura Astrale per poter sbloccare questa azione."
+ ASTRAL_ACTION_RIFT_REQUIREMENT_DESC_PLURAL: "Devi completare $NUM_RIFTS|Y$ Fratture Astrali per poter sbloccare questa azione."
+ ASTRAL_ACTION_COOLDOWN_VALUE: "£time£ $VALUE|0$"
+ ASTRAL_ACTION_COOLDOWN_TOOLTIP: "Ricarica Azione Astrale: £time£ §Y$VALUE|0$§!"
+ ASTRAL_ACTION_COOLDOWN_ACTIVE: "$TRIGGER_FAIL$ §RQuesta azione e in fase di ricaricarica per $VALUE|Y$ giorni.§!"
+ 
+ MESSAGE_ASTRAL_ACTION_UNLOCKED_TITLE: "Una nuova Azione Astrale è disponibile."
+ alert_astral_action_available_title: "$ASTRAL_ACTIONS$"
+ alert_astral_action_available_instant: "Almeno un'Azione Astrale è disponibile"
+ alert_astral_action_available_instruction: "§GClicca per aprire la Vista Azioni Astrali§!"
+ ALERT_ASTRAL_ACTION_AVAILABLE_DETAIL: "$ACTION_NAME$ è pronta all'uso."
+
+ action_astral_boost: "Potenziamento Astrale"
+ action_astral_boost_desc: "Potenzia i motori delle nostre navi con i $ASTRAL_THREADS_ICON$, migliorando la loro manovrabilità."
+
+ action_hyper_relay_insight: "Ottenere Indizi sulle Ipervie"
+ action_hyper_relay_insight_desc: "Le peculiari caratteristiche dei $ASTRAL_THREADS_ICON$ dovrebbero aiutarci a capire meglio come ripiegare lo spazio su se stesso."
+
+ action_quantum_catapult_insight: "Ottenere Indizi sulla Catapulta Quantica"
+ action_quantum_catapult_insight_desc: "Le peculiari caratteristiche dei $ASTRAL_THREADS_ICON$ dovrebbe consentirci di superare ulteriormente i limiti del viaggio FTL."
+ action_quantum_catapult_insight_2: "Calibrazione Astrale"
+ action_quantum_catapult_insight_2_desc: "Sfruttando ulteriormente le capacità dei $ASTRAL_THREADS_ICON$, dovremmo essere in grado di aumentare la precisione della nostra Catapulta Quantica."
+ action_quantum_catapult_insight_2_requirement_tooltip: "$TRIGGER_FAIL$§RDevi possedere una §YCatapulta Quantica§!.§!"
+
+ action_summon_dimensional_fleet: "Evoca Flotta Dimensionale"
+ action_summon_dimensional_fleet_desc: "La nostra sintonia con i piani astrali si è approfondita. Ora siamo in grado di invocare guerrieri extradimensionali per sostenere la nostra causa. Da dove vengano, o perché vengano, non possiamo saperlo con certezza."
+ action_summon_dimensional_fleet_tooltip: "Evoca una potente flotta da un luogo e da un tempo sconosciuti. Può rimanere nella nostra dimensione per un massimo di 10 anni."
+ NAME_Astral_Avatar: "Avatar Astrale"
+ NAME_Astral_Avatar_Small: "Piccolo $NAME_Astral_Avatar$"
+ NAME_Dimensional_Fleet: "Flotta Dimensionale"
+ MESSAGE_DIMENSIONAL_FLEET_DESTROYED_TITLE: "Flotta Dimensionale Rientrata"
+ MESSAGE_DIMENSIONAL_FLEET_DESTROYED_DESC: "La Flotta Dimensionale che avevamo evocato è tornata al suo piano di esistenza originario. Non ne rimane alcuna traccia."
+
+ action_astral_splitting: "Sdoppiamento Astrale"
+ action_astral_splitting_desc: "Intrecciando ulteriori $ASTRAL_THREADS_ICON$ nel delicato tessuto dello spazio, dovremmo essere in grado di creare artificialmente uno strappo nella realtà. Se lo facessimo troppo spesso, la galassia rischierebbe di disfarsi del tutto."
+ action_astral_splitting_no_rift_spawning_location: "$TRIGGER_FAIL$§RNon ci sono sistemi validi in cui aprire una nuova Frattura.§!"
+ action_astral_splitting_tooltip: "Crea una $ASTRAL_RIFT$ in un sistema casuale sotto il tuo controllo.\nDevi controllare un sistema senza ulteriori $ASTRAL_RIFTS$ nelle sue adiacenze."
+ action_astral_splitting_too_many_rifts: "$TRIGGER_FAIL$§RLa nostra capacità di aprire forzatamente nuove fratture nello spazio e nel tempo è arrivata al suo limite.§!"
+ action_astral_splitting_no_rift_spawning_location_tt: "§RNon esistono sistemi validi in cui sia possibile aprire una nuova Frattura.§!"
+
+ action_gain_physics_insight: "Ottenere Informazioni sulla Fisica"
+ action_gain_physics_insight_desc: "Permettete ai nostri scienziati di richiedere dei $ASTRAL_THREADS_ICON$ per approfondire la comprensione della fisica."
+
+ action_lateral_artifacting: "Manipolazione Trasversale"
+ action_lateral_artifacting_desc: "Possiamo manipolare il flusso del tempo per utilizzare due potenti artefatti contemporaneamente."
+ action_lateral_artifacting_tooltip: "Permette di attivare una seconda reliquia senza dover aspettare il termine del periodo di Tripudio."
+ action_lateral_artifacting_not_same_relic: "$TRIGGER_FAIL$§RQuesta reliquia è già attiva.§!"
+
+ astral_jump: "Salto Astrale"
+
+ gain_physics_insight_modifier: "$action_gain_physics_insight$"
+ astral_boost_modifier: "$action_astral_boost$"
+ quantum_catapult_insight_2_modifier: "$action_quantum_catapult_insight_2$"
+ quantum_catapult_insight_2_modifier_tt: "$quantic_ambush$ $MOD_SHIP_FIRE_RATE_MULT$: §G+[GetQuantumCatapulInsight2QuanticAmbush]%§!\n$quantic_ambush$ durata del modificatore: §G+100%§!"
+ fold_hyperspace_modifier: "$artifact_fold_hyperspace$"
+
+ action_remaining_astral_actions_locked: "$artifact_action_locked$"
+ action_remaining_astral_actions_locked_desc: "I nostri scienziati sono convinti che ulteriori azioni con i $ASTRAL_THREADS_ICON$ possano essere sbloccate attraverso la scoperta di nuove tecnologie."
+ action_astral_action_locked_failtext: "Sblocca una nuova azione astrale."
+
+ action_flash_forge_hyper_relay: "Creazione Rapida Ipervie"
+ action_flash_forge_hyper_relay_desc: "Le iperlinee possiedono già interessanti proprietà quantistiche, ma intrecciando una determinata quantità di filamenti astrali, abbiamo ottenuto risultati fantastici. Facendo irruzione in altre dimensioni, ora possiamo accedere alle Ipervie già esistenti (o che esisteranno in futuro) e siamo quasi certi di essere gli unici ad avere la capacità di 'prenderli in prestito'."
+ action_flash_forge_hyper_relay_tooltip: "Consente alle nostre navi costruttrici di realizzare in maniera istantanea e senza alcun costo una Ipervia in un sistema."
+ action_flash_forge_hyper_relay_available_tooltip: "$TRIGGER_FAIL$§RAbbiamo predisposto il sito affinchè la nostra nave costruttrice possa eseguire il suo compito.§!"
+ action_flash_forge_hyper_relay_executing_tooltip: "$TRIGGER_FAIL$§RUna delle nostre navi costruttrici si dirige per eseguire il compito ordinato§!"
+ FLASH_FORGE_MEGASTRUCTURE: "Realizzaione Rapida $MEGASTRUCTURE|H$"
+
+ action_dimensional_shifting: "Spostamento Dimensionale"
+ action_dimensional_shifting_desc: "Con un'abile manipolazione del tessuto astrale tra questa dimensione e un'altra, possiamo piegare lo spazio su se stesso per ottenere risultati impressionanti."
+ action_dimensional_shifting_tooltip: "Sblocca l'azione §YFlotta di Fase§!, che consente alle flotte di uscire gradualmente dalla nostra esistenza, e rifugiarsi in un'altra dimensione per §Y180§! giorni.\n\nLe flotte ritorneranno completamente rigenerate."
+
+ action_folding_hyperspace: "Piegare l'Iperspazio"
+ action_folding_hyperspace_desc: "Con un'abile manipolazione del piano interdimensionale, possiamo piegare lo spazio su se stesso e ottenere risultati impressionanti."
+ action_folding_hyperspace_tooltip: "Sblocca l'azione flotta §YSalto Astrale§!, che permette alle tue navi di saltare instantanamente in un sistema entro i tuoi confini."
+
+ action_astral_siphon: "Sifone Astrale"
+ action_astral_siphon_desc: "Esiste un modo per districare il tessuto tra spazio e tempo. Costruendo dispositivi di estrazione attentamente calibrati, possiamo produrre una quantità costante di $astral_threads$."
+ action_astral_siphon_unlock_tooltip_common: "Aumenta la capacità di immagazzinamento dei $ASTRAL_THREADS_ICON$ e fornisce il §Y[GetAstralResearcherJobWithIcon]§!.\n[GetAstralResearcherEffect]"
+ action_astral_siphon_unlock_tooltip_lvl1: "Sblocca l'Edificio planetario §Y$building_astral_siphon_1$§!.\n§Y$building_astral_siphon_1$§! $action_astral_siphon_unlock_tooltip_common$"
+ action_astral_siphon_unlock_tooltip_lvl2: "Consente l'aggiornamento del §Y$building_astral_siphon_1$§! a §Y$building_astral_siphon_2$§!.\n§Y$building_astral_siphon_2$§! $action_astral_siphon_unlock_tooltip_common$"
+ action_astral_siphon_unlock_tooltip_lvl3: "Consente l'aggiornamento del §Y$building_astral_siphon_2$§! a §Y$building_astral_siphon_3$§!.\n§Y$building_astral_siphon_3$§! $action_astral_siphon_unlock_tooltip_common$"
+ building_astral_siphon_1: "Sifone Astrale"
+ building_astral_siphon_1_desc: "Separare i Filamenti Astrali dal tessuto della realtà è un processo delicato. Queste strutture impediscono che il confine tra le realtà si sgretoli."
+ building_astral_siphon_2: "Imbuto Astrale"
+ building_astral_siphon_2_desc: "$building_astral_siphon_1_desc$"
+ building_astral_siphon_3: "Nocciolo Astrale"
+ building_astral_siphon_3_desc: "$building_astral_siphon_1_desc$"
+
+ astral_siphon_modifier_1: "$action_astral_siphon$"
+ astral_siphon_modifier_2: "$action_astral_siphon$"
+ astral_siphon_modifier_3: "$action_astral_siphon$"
+
+ action_planar_mastery: "Padronanza del Piano"
+ action_planar_mastery_desc: "I nostri viaggi nei Piani Astrali ci hanno aiutato a comprendere meglio il tessuto che lega gli universi. Siamo in grado di tessere questi filamenti in modi che pochi altri hanno compreso."
+ edict_astral_binding: "Legame Astrale"
+ edict_astral_binding_desc: "Abbiamo imparato a tessere i Filamenti Astrali in qualsiasi altro materiale presente nell'universo. È il vero tessuto delle dimensioni."
+ edict_astral_binding_effects: "Aumenta tutte le altre risorse materiali del §Y10%§!."
+ edict_astral_shielding: "Schermatura Astrale"
+ edict_astral_shielding_desc: "Non c'è barriera più forte di un reticolo di Filamenti Astrali strettamente intrecciati."
+ edict_dimensional_artificing: "Artefazione Dimensionale"
+ edict_dimensional_artificing_desc: "Palesare oggetti che hanno rilevanza culturale provenienti da altre dimensioni può avvenire nelle giuste circostanze. Non possiamo comunque sapere se le nostre azioni saranno notate o meno in altri piani."
+ edict_dimensional_artificing_tooltip: "§G+5§! £minor_artifacts£ $MINOR_ARTIFACTS$ al mese"
+ action_planar_mastery_tooltip: "Sblocca nuovi $EDICTS$: §Y$edict_astral_binding$§!, §Y$edict_astral_shielding$§! e §Y$edict_dimensional_artificing$§!."
+
+ ASTRAL_RIFTS_COMPLETED: "Fratture Astrali Completate: $VAL|0$"
+ ASTRAL_ACTIONS_RIFTS_COMPLETED_TT: "Per ogni §YFrattura Astrale§! completata:\n$t$Sblocca una §YAzione Astrale§! addizionale.\n$t$Capacità di deposito §Y$ASTRAL_THREADS_ICON$§!: §G+$@astral_threads_capacity_from_each_explored_rift|*0$§!."
+ ASTRAL_ACTIONS_RIFTS_COMPLETED_TT_DESC: "Una sintonia più profonda con i piani astrali sblocca ulteriori possibilità."
+
+ #################
+ # Astral Thread #
+ #################
+
+ astral_threads: "Filamenti Astrali"
+ astral_threads_custom_tooltip: "$ASTRAL_ACTIONS_RIFTS_COMPLETED_TT$"
+ astral_threads_desc: "I £astral_threads£ $astral_threads$ sono filamenti di spazio-tempo condensato: il risultato di piani dimensionali che si scontrano tra loro. Possono essere spesi per ottenere vari effetti nell'impero."
+
+ ASTRAL_THREADS: "$astral_threads$"
+ ASTRAL_THREADS_ICON: "£astral_threads£$astral_threads$"
+ ASTRAL_THREADS_VALUE: "£astral_threads£$VAL|0$"
+ ASTRAL_THREADS_FULL: "$ASTRAL_THREADS$: $VAL|Y0$"
+ ASTRAL_THREADS_DESC: "$astral_threads_desc$"
+
+ action.92.astral_threads: "Durante l'indagine su §Y[From.GetStarName]§!, la nave [Root.GetName] ha scoperto una risorsa strategica precedentemente sconosciuta, denominata §H$astral_threads$§!. Le sue proprietà uniche di distorsione del tempo e dello spazio possono essere utilizzate in molti modi interessanti."
+ action.92.astral_threads.tooltip: "£astral_threads£§Y$astral_threads$§!\n§E$astral_threads_desc$§!"
+ distar.305.astral_threads: "La nave [Root.GetName] ha scoperto una risorsa strategica ancora sconosciuta su [FromFrom.GetName], denominata §H$astral_threads$§!. Le sue proprietà uniche di distorsione del tempo e dello spazio possono essere utilizzate in molti modi interessanti."
+
+ astral_threads_found: "$astral_threads$ Trovati:"
+
+ feature_unlock_astral_rift_exploration: "Esplorazione della Frattura Astrale"
+ feature_unlock_astral_rift_exploration_desc: "Consente alle nostre Navi Scientifiche di esplorare le Fratture Astrali."
+
+ feature_unlock_astral_threads_actions: "Azioni Astrali"
+ feature_unlock_astral_threads_actions_desc: "Utilizza i $ASTRAL_THREADS_ICON$ in vari modi a tuo vantaggio."
+
+ ###############################
+ # Astral Rift Discovery Steps #
+ ###############################
+
+ astral_planes.100.name: "$situation_a_rift_in_space$"
+ astral_planes.100.desc.split: "Una singolarità dimensionale nel sistema [From.solar_system.GetName] è collassata, aprendo una frattura nello spazio-tempo.\n\nDovremmo avvicinarci con cautela."
+ astral_planes.100.desc.default: "Abbiamo scoperto una straordinaria frattura nello spazio-tempo nel sistema [from.solar_system.GetName]. Forse, se spedessimo del tempo per studiare la sua natura, potremmo trovare un modo per esplorarla più approfonditamente."
+ astral_planes.100.a: "Incredibile."
+ astral_planes.101.name: "Avvicinarsi alla Frattura"
+ astral_planes.101.desc: "Il nostro popolo si è finalmente spinto abbastanza vicino quasi a toccare la singolarità nei nostri cieli.\n\nForse, se spedessimo del tempo per studiare la sua natura, potremmo trovare un modo per esplorarla più approfonditamente. Non abbiamo modo di sapere cosa ci possa essere dall'altra parte."
+ astral_planes.101.a: "Abbiamo fatto ciò che i nostri antenati non potevano fare."
+ astral_planes.110.name: "Azioni Astali"
+ astral_planes.110.desc: "Abbiamo svelato il segreto per raccogliere e immagazzinare dei filamenti volatili di materiale astrale che costituiscono l'essenza stessa di questo universo.\n\nQuesta risorsa preziosa e rara può essere utilizzata in modi diversi che apporteranno grandi vantaggi."
+ astral_planes.120.name: "$situation_a_rift_in_space$"
+ astral_planes.120.desc: "Abbiamo perso il controllo del sistema [FromFrom.GetName], e dell'adiacente frattura nello spazio-tempo.\n\nI nostri sforzi per capirne di più sono stati al momento abbandonati."
+
+ approach_situation_speed_tooltip: "\nQuesto approccio accelererà notevolmente la nostra ricerca."
+
+ situation_a_rift_in_space: "Una Frattura nello Spazio"
+ situation_a_rift_in_space_riftworld: "Raggiungere la Frattura"
+ situation_a_rift_in_space_type: "$situation_a_rift_in_space$"
+ situation_a_rift_in_space_riftworld_type: "$situation_a_rift_in_space_riftworld$"
+ situation_a_rift_in_space_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_a_rift_in_space_desc: "Abbiamo scoperto una straordinaria frattura nello spazio-tempo. Forse, se spedessimo del tempo per studiare la sua natura, potremmo trovare un modo per esplorarla più approfonditamente. Non abbiamo modo di sapere cosa ci possa essere dall'altra parte."
+ situation_a_rift_in_space_desc_riftworld_origin: "Il nostro popolo si è finalmente spinto abbastanza vicino quasi a toccare la singolarità nei nostri cieli.\n\nForse, se spedessimo del tempo per studiare la sua natura, potremmo trovare un modo per esplorarla più approfonditamente. Non abbiamo modo di sapere cosa ci possa essere dall'altra parte."
+ situation_a_rift_in_space_standard: "Studio Passivo"
+ approach_situation_a_rift_in_space_standard_tt: "Non siamo in grado di spendere tante risorse così preziose. Osserviamo questo fenomeno da lontano."
+ situation_a_rift_in_space_devote_research: "Dedicarsi alla Ricerca"
+ approach_situation_a_rift_in_space_devote_research_tt: "Possiamo dedicare una quantità significativa di ricerche da parte dei nostri scienziati per svelare i segreti di questa frattura nello spazio-tempo."
+ situation_a_rift_in_space_send_probes: "Inviare Sonde"
+ approach_situation_a_rift_in_space_send_probes_tt: "Ogni sonda che inviamo nella frattura ci permette di comprendere meglio come violare i suoi confini. Siamo in grado di dedicare a questo scopo una certa quantità della nostra produzione di leghe."
+ situation_a_rift_in_space_finisher_effect: "Sblocca la tecnologia §Y$tech_rift_sphere$§!."
+ NAME_Astral_Entity: "Entità Astrale"
+ NAME_Planet_Rift_In_Space: "Pianeta Astrale"
+
+ astral_rift_discovery_event_title: "Spazio-Tempo Instabile"
+ astral_rift_discovery_event_text: "Mentre studiavamo la Frattura Astrale su §Y[target.solar_system.GetName]§!, abbiamo inavvertitamente destabilizzato l'anomalia dimensionale. Questo ha causato una violenta distorsione nello spazio e nel tempo, ripiegando la nostra realtà in maniera imprevedibile."
+ astral_situation.55.name: "$astral_rift_discovery_event_title$"
+ astral_situation.55.desc: "$astral_rift_discovery_event_text$\n\nUn pianeta misterioso, che abbiamo chiamato §Y[planet_rift_in_space.GetName]§!, è apparso dove prima non c'era nulla. Non abbiamo alcuna indizio relativamente alla sua eventuale precedente presenza in nessuna delle mappe galattiche.\n\nÈ popolato da una civiltà [GetPreFTLLower].\n\nLa nostra migliore ipotesi è che sia giunto in qualche modo da uno spazio esterno al nostro universo."
+ astral_situation.60.name: "$astral_rift_discovery_event_title$"
+ astral_situation.60.desc: "$astral_rift_discovery_event_text$\n\nUna nuova specie senziente si è materializzata su §Y[rift_temporary_species_planet.GetName]§!, mescolata uniformemente tra la popolazione già esistente.\n\nLa popolazione [rift_temporary_species.GetName] non ha memoria relativamente dal dove provengano e non appaiono ostili.\n\nDa qualuque sia il luogo da cui essi siano originari, è improbabile che si possa aiutarli a ritornare indietro."
+ astral_situation.65.name: "$astral_rift_discovery_event_title$"
+ astral_situation.65.desc: "$astral_rift_discovery_event_text$\n\nUna significativa distorsione temporale su §Y[rift_temporary_planet.GetName]§! ha causato che il tempo scorresse due volte più velocemente del normale. Dovremmo monitorare la situazione da vicino e assicurarci di raddoppiare i rifornimenti."
+
+ rift_in_space_time_acceleration_modifier: "Distorsioni Temporali"
+ rift_in_space_time_acceleration_modifier_desc: "Il tempo scorre due volte più velocemente del normale su questo pianeta."
+
+ astral_situation.20.name: "Il Problema È l'Attrito"
+ astral_situation.20.desc: "Abbiamo scoperto che per scivolare tra le pieghe dello spazio-tempo occorre un vascello perfettamente liscio.\n\nSiamo certi di poter realizzare un dispositivo simile, che abbiamo chiamato provvisoriamente "§Y$tech_rift_sphere$§!", se dedicheremo sufficiente tempo e ricerca potremmo scoprire cosa ci sia oltre questa anomalia spaziale."
+
+ astral_planes.2005.name: "Tecnologia $tech_rift_sphere$ Sviluppata"
+ astral_planes.2005.desc: "Abbiamo sviluppato una tecnologia che ci permetterà di scivolare tra le pieghe di una Frattura Astrale utilizzando le §Y$tech_rift_sphere_plural$§!.\n\nCostruite con un nano-materiale altamente avanzato e perfettamente liscio, le Sfere sono in grado di scivolare senza attrito attraverso aree turbolente dello spazio e del tempo.\n\nPoiché non sappiamo dove arriveremo, ogni §Y$tech_rift_sphere$§! è collegata a un cavo di ancoraggio. Per riportarci indietro in caso di emergenza, il cavo è legato a una nave scientifica nel nostro universo."
+ astral_planes.2005.a: "Vediamo cosa riusciamo a trovare..."
+
+ ASTRAL_RIFT_IN_SYSTEM: "Questo sitema contiene almeno una Frattura Astrale"
+ CRYSTAL_RIFT_IN_SYSTEM: "Questo sistema contiene un'unica e anomala §YFrattura Cristallina§!."
+
+ tech_rift_sphere: "Sfera Frattale"
+ tech_rift_sphere_plural: "Sfere Frattali"
+ tech_rift_sphere_desc: "Sembra che lo spazio e il tempo tendano a riunirsi in strati, tutti sovrapposti. Il trucco è come scivolare tra le pieghe"
+
+ tech_astral_harvesting: "Raccolta Astrale" 
+ tech_astral_harvesting_desc: "La raccolta di tessuto astrale lacerato lungo le cicatrici delle fratture nello spazio e nel tempo è resa possibile da delicate modifiche alle nostre stazioni di ricerca."
+
+ ASTRAL_RIFT_NOT_EXPLORABLE_EXPLANATION: "Ci manca la tecnologia necessaria\nper esplorare questa anomalia."
+ ASTRAL_RIFT_NOT_EXPLORABLE_STAGE_SUBTITLE: "Ci manca la tecnologia necessaria per esplorare questa anomalia."
+
+ MESSAGE_ASTRAL_RIFT_FINISHED_TITLE: "Frattura Astrale Esplorata"
+ MESSAGE_ASTRAL_RIFT_FINISHED_DESC: "Una Frattura Astrale è stata completamente esplorata"
+ 
+ ASTRAL_RIFT_IS_EXPLORED: "Hai già esplorato la Frattura $RIFT|Y$"
+ ASTRAL_RIFT_IS_NOT_EXPLORED: "NON hai esplorato la Frattura $RIFT|Y$"
+
+ ################
+ # Astral Scars #
+ ################
+
+ NAME_Astral_Scar: "$pc_astral_scar$"
+ pc_astral_scar: "Cicatrice Astrale"
+ pc_astral_scar_desc: "Questo è uno strano piegamento nello spazio e nel tempo. Materiale strano fuoriesce dai suoi bordi, ma non possiamo penetrare oltre."
+ MESSAGE_ASTRAL_SCAR_DISCOVERED_TITLE: "Cicatrice Astrale scoperta"
+ MESSAGE_ASTRAL_SCAR_DISCOVERED_DESC: "Abbiamo scoperto una Cicatrice Astrale."
+
+ ################
+ # Astral Rifts  #
+ ################
+
+ ASTRAL_RIFT: "Frattura Astrale"
+ ASTRAL_RIFTS: "Fratture Astrali"
+ CRYSTAL_RIFT: "Frattura Cristallina"
+ astral_rift: "$ASTRAL_RIFT$"
+ MESSAGE_ASTRAL_RIFT_DISCOVERED_TITLE: "Frattura Astrale scoperta"
+ MESSAGE_ASTRAL_RIFT_DISCOVERED_DESC: "Una nuova Frattura Astrale è pronta per l'esplorazione."
+ MESSAGE_ASTRAL_RIFT_STARTED_TITLE: "Esplorazione della Frattura Astrale"
+ MESSAGE_ASTRAL_RIFT_STARTED_DESC: "La nostra nave scientifica è ancorata a una Frattura Astrale. Nave ed equipaggio non saranno disponibili fino al termine dell'esplorazione."
+ ASTRAL_RIFT_REWARDS: "Ricompense:"
+
+ alert_mia_phase_out_fleet_title: "Flotta di Fase"
+ alert_mia_phase_out_fleet_instant: "La tua flotta è scomparsa da questo piano di esistenza. Se (e quando) tornerà, lo farà molto probabilmente nella sua posizione precedente."
+
+ alert_astral_rift_event_title: "Evento nella Frattura Astrale"
+ alert_astral_rift_event_instant: "È successo qualcosa in una delle Fratture Astrali che stiamo attualmente esplorando."
+ ALERT_ASTRAL_RIFT_EVENT_DETAIL: "$FLEET_NAME|Y$ in $SYSTEM_NAME|Y$."
+
+ RIFT_DIFFICULTY_TYPE: "Difficoltà"
+ RIFT_DIFFICULTY_TYPE_DESC: "Ogni capitolo in una Frattura Astrale può avere un valore di difficoltà diverso.\n$RIFT_DIFFICULTY_EASY$ capitoli sono 0-2, $RIFT_DIFFICULTY_NORMAL$ 3-5, e $RIFT_DIFFICULTY_HARD$ 6+. Una difficoltà più alta può ridurre la probabilità di un risultato positivo alla fine di una fase di esplorazione."
+ RIFT_DIFFICULTY_TYPE_TT: "§H$RIFT_DIFFICULTY_TYPE$§!\n$VALUE$\n\n$RIFT_DIFFICULTY_TYPE_DESC$"
+ RIFT_DIFFICULTY_EASY: "§GFacile§!"
+ RIFT_DIFFICULTY_NORMAL: "§YMedio§!"
+ RIFT_DIFFICULTY_HARD: "§RDifficile§!"
+ RIFT_LEADER_BONUS: "Bonus Abilità"
+ RIFT_LEADER_BONUS_DESC: "Il bonus abilità aumenterà la probabilità di ottenere risultati positivi alla fine di una fase di esplorazione.\n\nQuesto bonus aumenta la §YProbabilità di Successo§!."
+ RIFT_LEADER_BONUS_TT: "§H$RIFT_LEADER_BONUS$§!\n$RIFT_LEADER_BONUS_DESC$"
+ EXPLORATION_PROGRESS_TOOLTIP: "§HFase di Esplorazione§!\nLe Fratture Astrali vengono esplorate in fasi, alla fine di ogni fase si effettua un tiro per avanzare.\n\nLa prossima fase termina in £tempo£ $DAYS|Y$"
+ RIFT_GO_TO: "§HVai a§!\n§GFare clic per spostare rapidamente la visuale verso il punto in cui si trova la frattura.§!"
+ RIFT_CLUES: "Indizi"
+ RIFT_CLUES_DESC: "Gli indizi rappresentano informazioni scoperte durante ogni fase dell'esplorazione della Frattura Astrale.\n\nGli indizi aumentano la §YProbabilità di Successo§!."
+ RIFT_CLUES_TT: "§H$RIFT_CLUES$§!\n$RIFT_CLUES_DESC$"
+ ASTRAL_RIFT_EXPLORATION_LOG: "Diario Esplorazione"
+ ASTRAL_RIFT_EXPLORATION_LOG_TT: "§H$ASTRAL_RIFT_EXPLORATION_LOG$§!\nIl $ASTRAL_RIFT_EXPLORATION_LOG$ mostra i risultati dell'ultima fase di esplorazione."
+ EXPLORATION_LOG_ROLL_TOOLTIP: "§HRisultati della Fase§!\nIndizi Ottenuti: $GAINED|Y$\n\nRisultato: $RESULT|Y$\n  Tiro: $ROLL|Y$\n  Indizi: $CLUES|Y$\n  Bonus Abilità: $BONUS|Y$\n  Difficoltà: $DIFFICULTY|R$\n\n§ERisultati del Tiro:§!\n§RFallimento§!: Risultati §Y4§! o inferiori aggiungono §Y0§! indizi.\n§YProgresso§!: Risultati tra §Y5-9§! aggiungono §Y1§! indizio.\n§GProgresso§!: Risultati tra §Y10-13§! aggiungono §Y2§! indizi."
+ ASTRAL_RIFT_BREAKTHROUGH: "Probabilità di Successo"
+ astral_rift_roll_header: "§H$ASTRAL_RIFT_BREAKTHROUGH$§!\nQuesto riflette la probabilità che il tuo scienziato faccia una scoperta durante l'esplorazione della frattura attuale.\n\nOgni volta che una fase termina, viene lanciato un dado (da §Y1§! a §Y10§!). Il risultato del lancio viene sommato al §YBonus Abilità§! e §YIndizi§!, e poi sottratto dalla §YDifficoltà§!.\n\nIl punteggio attuale prima del lancio del dado è $SCORE|0Y$.\n\n§ERisultati del Lancio:§!"
+
+ FLEETORDER_EXPLORE_RIFT: "Esplorazione di §Y$ASTRAL_RIFT_NAME$§! in §Y$SYSTEM_NAME$§!"
+ FLEETORDER_EXPLORE_RIFT_BUTTON: "Esplora la $ASTRAL_RIFT_NAME$"
+
+ ASTRAL_RIFT_DESCRIPTION: "Una lacerazione nello spazio e nel tempo. Non sappiamo ancora cosa si trovi dall'altra parte."
+ CRYSTAL_RIFT_DESCRIPTION: "Una lacerazione anomala nello spazio e nel tempo. Strani cristalli fluttuano all'interno della frattura."
+ ASTRAL_RIFT_FINISHED: "Frattura completamente esplorata"
+ ASTRAL_RIFT_EXPLORED_BY_OTHER: "Questa Frattura è attualmente esplorata da un altro impero.\nÈ troppo instabile per noi avventurarci all'interno."
+ ASTRAL_RIFT_LOCKED: "Esplorazione della Frattura in Corso"
+ ASTRAL_RIFT_POOL_IS_EMPTY: "Questa Frattura Astrale non sembra portare da nessuna parte."
+
+ CANNOT_EXPLORE_OUTSIDE_EMPIRE_BORDERS: "$TRIGGER_FAIL$§RImpossibile esplorare Fratture Astrali al di fuori dei tuoi confini imperiali§!"
+ CANNOT_EXPLORE_OUTSIDE_EMPIRE_BORDERS_CLOAKED: "$TRIGGER_FAIL$§RLa nostra influenza su questo sistema non è sufficiente per garantire la sicurezza di questa spedizione.§!"
+ CANNOT_EXPLORE_ALREADY_BEING_EXPLORED: "$TRIGGER_FAIL$§RQuesta Frattura Astrale è già in fase di esplorazione§!"
+ CANNOT_EXPLORE_ALREADY_BEING_EXPLORED_BY_OTHER: "$TRIGGER_FAIL$§RQuesta Frattura è attualmente esplorata da un altro impero.\n Per noi è troppo instabile per avventurarci all'interno.§!"
+ CANNOT_EXPLORE_WITHOUT_VALID_LEADER: "$TRIGGER_FAIL$§RImpossibile esplorare Fratture Astrali senza un leader valido§!"
+ CANNOT_EXPLORE_WITHOUT_SCIENCE_SHIP: "$TRIGGER_FAIL$§RÈ possibile esplorare le Fratture Astrali solo con una nave scientifica§!"
+ CANNOT_EXPLORE_WITH_COUNCIL_LEADER: "$TRIGGER_FAIL$§RGLi scienziati non possono esplorare le Fratture mentre occupano una posizione nel consiglio§!"
+ CANNOT_EXPLORE_WITH_HEIR_LEADER: "$TRIGGER_FAIL$§REsplorare le Fratture è troppo pericoloso per il nostro erede§!"
+ can_not_dismiss_rift_explorer: "§RImpossibile congedare un leader attualmente impegnato nell'esplorazione di una Frattura Astrale§!"
+
+ ASTRAL_RIFT_PRE_EXPLORATION: "Pre-Esplorazione"
+ ASTRAL_RIFT_ASSIGN_SCIENTIST: "§HAssegna uno scienziato per iniziare l'esplorazione§!"
+ SHOW_ASTRAL_RIFT: "Vedi la Frattura £astral_rift£"
+
+ rift_samples_biology_modifier: "Campioni di Fluido della Frattura"
+
+ warpling_army: "Creatura Astrale"
+ seq_warpling_army: "$C$ª $warpling_army$"
+ warpling_army_desc: "Creature extraterrestri progettate per la guerra, queste creature corazzate sono in grado di percorrere istantaneamente piccole distanze, consentendo l'esecuzione di impressionanti manovre di fiancheggiamento e imboscate."
+
+ flamestorm_troopers_army: "Soldati Tempesta di Fiamme"
+ flamestorm_troopers_army_desc: "Equipaggiati per la guerra incendiaria, queste squadre tendono a infliggere considerevoli danni collaterali."
+
+ astral_planes.210.name: "Il Ritorno dello Scienziato"
+ astral_planes.210.desc: "[fromfrom.leader.GetName] è tornato dall'esplorazione di una $ASTRAL_RIFT$ alla ricerca di una galassia perduta. Molti dei luoghi che conoscevano sono scomparsi completamente dall'esistenza.\n\nNon sono ancora sicuri di essere tornati nella nostra dimensione e sembrano soffrire di una forma di shock cognitivo come conseguenza."
+ astral_planes.210.a: "Bentornato?"
+
+ ###########
+ # Effects #
+ ###########
+
+ SPAWN_ASTRAL_RIFT_EFFECT: "Una nuova Frattura nello spazio e nel tempo si è aperta nel sistema $SYSTEM$!"
+
+ ASTRAL_RIFT_FINISH: "Termina l'esplorazione della Frattura Astrale."
+ ASTRAL_RIFT_FINISH_NOT: "Non termina l'esplorazione della Frattura Astrale."
+
+ SET_NEXT_ASTRAL_RIFT_EVENT: "Imposta l'evento successivo su $EVENT_ID|Y$."
+ SET_NEXT_ASTRAL_RIFT_EVENT_FAIL: "§RRipiega su $EVENT_ID|Y$ se la fase fallisce.\nProbabilità di fallire ad ogni tiro: $FAIL_PROBABILITY$.§!"
+
+ ############
+ # Triggers #
+ ############
+
+ TRIGGER_HAS_ASTRAL_RIFT: "Contiene una Frattura Astrale"
+ TRIGGER_HAS_ASTRAL_RIFT_NOT: "Non contiene una Frattura Astrale."
+ TRIGGER_IS_ASTRAL_RIFT_POOL_EMPTY: "Verifica se la lista di Fratture Astrali è vuota."
+ TRIGGER_IS_ASTRAL_RIFT_POOL_EMPTY_NOT: "Verifica se la lista di Fratture Astrali non è vuota."
+ TRIGGER_BYPASS_HAS_LOCK: "Verifica se il bypass è bloccato da un blocco dimensionale."
+ TRIGGER_BYPASS_HAS_LOCK_NOT: "Verifica se il bypass non è bloccato da un blocco dimensionale."
+ TRIGGER_ASTRAL_RIFTS_COMPLETED: "Le Fratture Astrali completate sono $COMPARATOR$ $NUM|Y$"
+ TRIGGER_ASTRAL_RIFTS_COMPLETED_NOT: "Le Fratture Astrali completate NON sono $COMPARATOR$ $NUM|Y$"
+
+ IS_ASTRAL_RIFT_BEING_EXPLORED_TRIGGER: "La Frattura Astrale è attualmente in esplorazione"
+
+ ######################################
+ # Astral Thread Action - Astral Jump #
+ ######################################
+
+ FLEETORDER_ASTRAL_JUMP: "Effettua un Salto Astrale verso $SYSTEM|Y$"
+ FLEETORDER_ASTRAL_JUMP_HEADER: "Salto Astrale"
+ FLEETORDER_ASTRAL_JUMP_DESC: "Piegando l'iperspazio, le flotte equipaggiate con Motori FTL possono saltare istantaneamente ovunque entro i confini stabiliti. Ogni istanza di piegamento ha una ricarica di $COOLDOWN|Y$ giorni e richiede un costo di $COST|Y$."
+ CANNOT_ASTRAL_JUMP_COOLDOWN: "§RSarà possibile il Salto Astrale in $DAYS|Y$ giorni"
+ CANNOT_PAY_ASTRAL_JUMP: "§RNon disponiamo delle risorse per compiere questa azione.§!"
+
+ FLEETORDER_PHASE_FLEET: "Sfasato (Ritorna $DATE|Y$)"
+ FLEETORDER_PHASE_FLEET_HEADER: "Flotta Sfasata"
+ FLEETORDER_PHASE_FLEET_DESC: "Le flotte militari possono sfasarsi dal nostro piano di realtà. Le flotte sfasate torneranno completamente riparate tra $DURATION|Y$ giorni. Ogni flotta può essere sfasata solo una volta ogni $COOLDOWN|Y$ giorni e richiede un costo di $COST|Y$."
+ CANNOT_PHASE_FLEET_COOLDOWN: "§RQuesta flotta può essere sfasata tra $DAYS|Y$ giorno(i).§!"
+ CANNOT_PAY_PHASE_FLEET: "§RNon disponiamo delle risorse per compiere questa azione.§!"
+ CANNOT_PHASE_NON_MILITARY_FLEET: "§RSolo le flotte militari possono essere sfasate.§!"
+ 
+ ###########################################
+ # Astral Thread Action - Dimensional Lock #
+ ###########################################
+
+ DIMENSIONAL_LOCK: "Blocco Dimensionale"
+ DIMENSIONAL_LOCKS: "Blocchi Dimensionali"
+ action_dimensional_lock: "$DIMENSIONAL_LOCK$"
+ action_dimensional_lock_tooltip: "Permette alle tue navi scientifiche di posizionare un $DIMENSIONAL_LOCK$ su un Wormhole, un Portale-L o un Tunnel del Velo. Una volta bloccato, solo le flotte con il tuo permesso possono entrare. I $DIMENSIONAL_LOCKS$ durano per §Y10§! anni."
+ action_dimensional_lock_desc: "Sintonizzando le nostre navi con la firma quantistica uniche di una piega nello spazio, possiamo allineare le sue frequenze con le nostre. Tuttavia, tale sintonizzazione non è permanente. Alla fine, la falla graviterà nuovamente verso la sua inclinazione naturale."
+ action_dimensional_lock_cooldown_tooltip: "\nIl $DIMENSIONAL_LOCK$ è in ricarica"
+ FLEETORDER_LOCK_BYPASS: "Posiziona il $DIMENSIONAL_LOCK$ su $BYPASS|H$ in $SYSTEM|Y$"
+ FLEETORDER_LOCK_BYPASS_ACTIVITY: "Posizionamento del $DIMENSIONAL_LOCK$ su $BYPASS|H$: $PROGRESS|Y%0$"
+ FLEETORDER_LOCK_BYPASS_DESC: "Una volta bloccato, solo coloro con il tuo permesso possono entrare. I $DIMENSIONAL_LOCKS$ durano per $DURATION_YEARS|Y$."
+ FLEETORDER_LOCK_BYPASS_CANNOT_LOCK_NEXUS: "Non possiamo bloccare questo bypass. Ha troppe connessioni."
+ FLEETORDER_LOCK_BYPASS_ORDER_LABEL: "Blocca $BYPASS|Y$"
+ FLEETORDER_EXTEND_LOCK_BYPASS_ORDER_LABEL: "Estendi il blocco su $BYPASS|Y$"
+ FLEETORDER_LOCK_BYPASS_NOT_OWNER: "$BYPASS|Y$ è bloccato da $PLAYER$"
+ FLEETORDER_LOCK_BYPASS_ALREADY_LOCKED: "$BYPASS|Y$ è già bloccato"
+ FLEETORDER_LOCK_BYPASS_ALREADY_LOCKED_BY: "$BYPASS|Y$ è già bloccato da $PLAYER$"
+ FLEETORDER_LOCK_BYPASS_NOT_SYSTEM_OWNER: "I $DIMENSIONAL_LOCKS$ possono essere posizionati solo nei sistemi che controlli"
+ DIMENSIONAL_LOCK_TOOLTIP: "§H$DIMENSIONAL_LOCK$§!\n$PLAYER|Y0$\nTempo rimasto: $REMAINING_DAYS|Y0$\n---\nUn $DIMENSIONAL_LOCK$ è stato posizionato qui. Solo coloro con il permesso di $PLAYER|Y0$ possono entrare."
+ MESSAGE_BYPASS_LOCK_EXPIRED_TITLE: "Il $DIMENSIONAL_LOCK$ Si sta destabilizzando"
+ MESSAGE_BYPASS_LOCK_EXPIRED_DESC: "Questo $DIMENSIONAL_LOCK$ si sta destabilizzando. Dovremo lavorare velocemente per evitare che svanisca completamente."
+ MESSAGE_DAEDALUS_SEAL_EXPIRED_DESC: "I $DIMENSIONAL_LOCKS$ di Daedalus si stanno destabilizzando e presto giungeranno al termine."
+ RENEW_BYPASS_LOCK_DESC: "Rinnova il $DIMENSIONAL_LOCK$ per $DURATION_YEARS|Y$."
+ TRIGGER_CAN_BYPASS_LOCK_BE_RENEWED: "Il $DIMENSIONAL_LOCK$ può essere rinnovato."
+ TRIGGER_CAN_BYPASS_LOCK_BE_RENEWED_NOT: "Il $DIMENSIONAL_LOCK$ non può essere rinnovato."
+ astral_planes.1030.name: "$MESSAGE_BYPASS_LOCK_EXPIRED_TITLE$"
+ astral_planes.1030.desc: "$MESSAGE_BYPASS_LOCK_EXPIRED_DESC$"
+ astral_planes.1030.a: "Rinnova il Blocco."
+ astral_planes.1030.a.tooltip: "Mentre sono attivi i $DIMENSIONAL_LOCKS$, solo le flotte con il tuo permesso possono entrare.\n\n"
+ astral_planes.1030.b: "Lasciateli andare."
+ astral_planes.1030.b.tooltip: "Questo $DIMENSIONAL_LOCK$ scadrà e dovrà essere riattivato con una nave scientifica."
+ LOCK_BYPASS_EFFECT_DESC: "Posiziona un $DIMENSIONAL_LOCK$ su un Wormhole o su un Portale-L. Una volta bloccato, solo coloro con il tuo permesso possono entrare."
+ BYPASS_FORBIDDEN_BY_LOCK: "Solo coloro con il permesso di $PLAYER|Y0$ possono entrare."
+
+ #############
+ # Modifiers #
+ #############
+
+ MOD_COUNTRY_ASTRAL_RIFT_SPEED_MULT: "Velocità di Esplorazione della Frattura Astrale"
+ MOD_COUNTRY_ASTRAL_RIFT_FAIL_MULT: "Probabilità di Fallimento della Frattura Astrale"
+ MOD_SHIP_ASTRAL_RIFT_SPEED_MULT: "Velocità di Esplorazione della Frattura Astrale"
+ MOD_SHIP_ASTRAL_RIFT_CLUES_ADD: "Abilità di Esplorazione dell Frattura Astrale"
+ MOD_ASTRAL_RIFT_DIFFICULTY_ADD: "Difficoltà di Esplorazione della Frattura Astrale"
+
+ astral_rift_difficulty_increase_1: "Aumento della Difficoltà della Frattura Astrale"
+ astral_rift_difficulty_increase_2: "$astral_rift_difficulty_increase_1$"
+ astral_rift_difficulty_decrease_1: "Diminuzione della Difficoltà della Frattura Astrale"
+ astral_rift_difficulty_decrease_2: "$astral_rift_difficulty_decrease_1$"
+ astral_rift_difficulty_decrease_3: "$astral_rift_difficulty_decrease_1$"
+
+ ##########
+ # Traits #
+ ##########
+
+ leader_trait_rift_warped: "Frattura Deformata"
+ leader_trait_rift_warped_desc: "Questo leader ha attraversato i piani astrali; gli effetti di un tale viaggio sono duraturi e profondi."
+ leader_trait_partially_digested: "Parzialmente Digerito"
+ leader_trait_partially_digested_desc: "Questo leader ha avuto uno sfortunato incontro con un verme gigante proveniente da un'altra dimensione. Pur non avendo più un corpo intero, ha acquisito una conoscenza unica della biologia molecolare."
+ leader_trait_planar_theorist: "Teorico Planare"
+ leader_trait_planar_theorist_desc: "Questo leader è specializzato nello studio delle Fratture Astrali e del comportamento delle dimensioni esterne alla nostra."
+
+ leader_trait_spacebender: "Dominatore Spaziale"
+ leader_trait_spacebender_desc: "Profondamente in sintonia con la vastità dello spazio, questo leader è in grado di scivolare facilmente attraverso le galassie."
+ leader_trait_spacebender_effect: "$THIS_LEADER_TXT$:\n$t$Non ha spese di mantenimento"
+ leader_trait_energy_weapon_specialist: "Specialista in Armi Energetiche"
+ leader_trait_energy_weapon_specialist_desc: "I calcoli e la messa a fuoco precisa che servono per calibrare correttamente le armi a energia possono richiedere molto tempo, ma queste abilità vengono naturali a questo comandante."
+
+ trait_plasmic: "Plasmatico"
+ trait_plasmic_desc: "La membrana esterna e il corpo amorfo di questa specie permettono loro di adattarsi a qualsiasi ambiente e li rendono immuni a un'ampia varietà di malattie."
+
+ trait_exd: "Extradimensionale"
+ trait_exd_desc: "Questa specie proviene da un'altra dimensione e richiede una grande quantità di energia per sopravvivere nel nostro universo."
+ TRAIT_EXD_EFFECT: "- Mantenimento di $energy_with_icon$ per ogni $pop_group_unit$ £pop£ Pop: §R+$@living_standard_energy_normal|*0$§!\nn$t$- Ogni $pop_group_unit$ £pop£ §HPop§! che lavora come schiavo o altro produce 0.5 £physics_research£ §YRicerca Fisica§! al mese"
+
+ ######################
+ # Origin - Riftworld #
+ ######################
+
+ origin_riftworld: "Il Pianeta della Frattura"
+ origin_riftworld_desc: "Un'enorme frattura nello spazio e nel tempo incombe vicino al pianeta natale di questa civiltà. Dopo aver studiato il fenomeno per millenni, i recenti progressi nella tecnologia delle astronavi permetterà a questo popolo di scoprire finalmente quali segreti potrebbe nascondere."
+ origin_tooltip_riftworld_effects: "- $HOMEWORLD$ ['concept_archaeology_site'] ['concept_riftworld_digsite'] $NEW_LINE$- Pianeti colonizzati in sistemi con [ 'concept_astral_rift',$ASTRAL_RIFTS$]: ['modifier:riftworld_affinity']$NEW_LINE$- Probabilità che le §Y$ASTRAL_RIFTS$§! appaiano nei tuoi sistemi: §G+100%§!"
+ START_SCREEN_RIFTWORLD: "Da sempre, la Grande Frattura si staglia nei cieli sopra [GetHomeWorldName]. Le leggende sostengono che il nostro passato sia intimamente legato a questa misteriosa fenditura celeste e a un antico sito d'impatto vicino alla nostra capitale.\n\nPer generazioni, il sito è stato venerato, ma poco compreso. Tuttavia, la recente attività sismica ha portato alla luce anomalie nel sottosuolo del cratere. Sono già in corso i preparativi per trivellare il suo nucleo. I pareri sono ancora discordanti su ciò che potremmo scoprire in quel luogo.$START_SCREEN_RIFTWORLD_END$"
+ START_SCREEN_RIFTWORLD_MACHINE: "Secondo i registri delle nostre banche dati, da sempre la Grande Frattura incombe nei cieli sopra [GetHomeWorldName]. I nostri orologi interni sono sincronizzati con la frequenza della cicatrice celeste e i nostri primi rilevamenti descrivono un antico sito d'impatto vicino alla nostra capitale.\n\nPer molto tempo, il sito è stato lasciato in pace, per il fatto non aver capito la sua importanza. Tuttavia, la recente attività sismica ha portato alla luce delle anomalie nelle profondità del cratere. Sono già in corso i preparativi per la perforazione del nucleo.$START_SCREEN_RIFTWORLD_END$"
+ START_SCREEN_RIFTWORLD_END: "\n\nÈ una semplice coincidenza che ciò sia avvenuto in concomitanza con l'avvento della tecnologia dell'Iperguida? Proprio quando ci avviciniamo al cielo, la nostra attenzione viene riportata al suolo. Forse ciò che si trova sotto la superficie di questo pianeta è destinato ad aiutarci nel nostro viaggio verso le stelle. Forse può prepararci a ciò che si trova oltre la Frattura."
+
+ riftworld_affinity: "Affinità con la Frattura"
+ riftworld_affinity_desc: "Il nostro sviluppo sociale sotto l'influenza delle forze interdimensionali stimola un fervore per ulteriori ricerche."
+
+ astral_planes.2105.name: "Strana Trasmissione"
+ astral_planes.2105.desc: "All'indomani dell'esplorazione della Frattura Astrale nel sistema §H[From.solar_system.GetName]§!, è stata ricevuta una misteriosa trasmissione.\n\nI nostri [GetScientistPlural] hanno stabilito che la sua origine proviene da oltre la frattura stessa, e sono stati in grado di tradurre solo poche parole."
+
+ astral_planes.2110.name: "$astral_planes.2105.name$"
+ astral_planes.2110.desc: "... sintonizzatevi... con i piani... vi troveremo..."
+
+ astral_planes.2120.name: "Rilevata Anomalia Sismica"
+ astral_planes.2120.desc: "La recente attività sismica ha rivelato caratteristiche inaspettate dell'antico sito di impatto vicino alla nostra capitale.\n\nQuesto specifico cratere è stato collegato alla nostra stessa origine come [Owner.GetSpeciesNamePlural]."
+
+ riftworld_digsite: "Antico Cratere"
+ riftworld_digsite_desc: "Abbiamo rilevato un'attività sismica anomala dalle profondità di un antico cratere sulla superficie del pianeta [Planet.GetName]. Il sonar sotterraneo ha rivelato una cavità precedentemente sconosciuta."
+ astral_planes.2125.name: "Impatto ad Alta Velocità"
+ astral_planes.2125.desc: "Gli scavi iniziali alla base del cratere hanno rivelato un cilindro completamente formato di impactite alloggiato in profondità nella terra.\n\nQuesta vena deve aver avuto origine da un impatto meteorico di velocità estremamente elevata. I primi calcoli dimostrano che l'oggetto deve essere arrivato quasi alla velocità della luce. È un miracolo che sia arrivato in superficie."
+ astral_planes.2125.a: "Continuate gli scavi."
+ astral_planes.2130.name: "Caverne Sotterranee"
+ astral_planes.2130.desc: "Nel punto di terminazione della vena di impactite, abbiamo scoperto un esteso sistema di caverne.\n\nLaghi sotterranei sostengono sottili linee di pallida vegetazione lungo le pareti della caverna. Sul fondo di uno di questi laghi si trovano i resti di un oggetto sferico anomalo. Non è una formazione naturale e sembra essere la fonte di questo sito di impatto."
+ astral_planes.2130.a: "Recuperate l'oggetto."
+ astral_planes.2135.name: "Sfera Antica"
+ astral_planes.2135.desc: "Abbiamo recuperato la sfera dal lago sotterraneo.\n\nAnche se è ricoperta di vegetazione, si percepisce che sia rimasta completamente integra. La sua costruzione è uno strano insieme di progettazione altamente sofisticata e assemblaggio grezzo. Delle piastre metalliche perfettamente lisce rivestono la parte frontale della nave, grazie alle quali deve aver ridotto notevolmente l'attrito al momento dell'ingresso nell'atmosfera. La posizione in cui giace si allinea con la vena di impactite, confermando che questa sfera è la fonte della roccia metamorfica che ci ha condotto fin qui. E cosa ancora più incredibile, ci sono segni che questa nave avesse dei passeggeri.\n\nLa traiettoria del suo sito di riposo si allinea con la vena di impactite, confermando che questa sfera è la fonte della roccia metamorfica che ci ha condotto qui. Ancora più incredibilmente, ci sono segni che questa nave aveva dei passeggeri."
+ astral_planes.2140.name: "Antenati"
+ astral_planes.2140.desc.common: "Abbiamo recuperato una serie di documenti all'interno dell'antica sfera, ciascuno scritto in una versione arcaica della nostra lingua. Molti di essi citano nomi associati alle nostre leggende più sacre.\n\nUn'intricata rete di scale si snoda verso l'alto dal luogo dell'impatto fino a un massiccio sistema di tunnel. In base all'età variabile delle fibre di corda, queste caverne devono essere state occupate per diverse generazioni, mentre i sopravvissuti all'impatto si facevano strada verso la superficie.\n\nOppure, nulla di ciò che avevamo scoperto finora poteva prepararci alla rivelazione finale: una delle camere superiori conteneva un luogo di sepoltura. L'analisi del DNA condotta sui resti all'interno ha rivelato una verità sconvolgente: queste persone sono i nostri antenati.\n\nDa dove provengano esattamente, o perché questo luogo sia stato dimenticato, non è ancora noto. I documenti recuperati sono in cattivo stato di conservazione, ma abbiamo recuperato un registro di dati dalla sfera. Mostra chiaramente che il vascello è arrivato nel nostro sistema stellare attraverso la Frattura Astrale vicino al pianeta [from.planet.GetName]."
+ astral_planes.2140.desc.has_rift_sphere: "$astral_planes.2140.desc.common$\n\nAnche se chiaramente meno avanzata della nostra tecnologia, questa sfera è una testimonianza della disperazione e dell'ingegno dei suoi costruttori. È stato un ultimo sforzo per sfuggire a quello che deve essere stato un destino terribile sul lato opposto della frattura."
+ astral_planes.2140.desc.default: "$astral_planes.2140.desc.common$\n\nCon un po' di studio, dovremmo essere in grado di replicare e persino migliorare la tecnologia necessaria per costruire un vascello con queste capacità di spaziare tra le dimensioni."
+ astral_planes.2140.desc.machine.common: "Abbiamo recuperato una banca di dati all'interno dell'antica sfera, che era codificata in una versione arcaica rispetto ai nostri nuovi sistemi informatici.\n\nUn'intricata rete di scale si snoda verso l'alto dal luogo dell'impatto fino a un enorme sistema di tunnel. In base alla variabile età dei materiali di cui sono composte le scale, queste caverne devono essere state occupate per diverso tempo mentre i sopravvissuti all'incidente si facevano strada verso la superficie.\n\nUno dei siti superiori conteneva componenti molto simili a quelli utilizzati nei nostri primi modelli di navi. Questi sopravvissuti erano i nostri predecessori.\n\nNon si sa ancora da dove provengano esattamente, né perché questa località sia andata perduta. I dati che abbiamo recuperato dalla sfera mostrano chiaramente che il vascello è arrivato nel nostro sistema stellare attraverso la Frattura Astrale, vicino a [from.planet.GetName]."
+ astral_planes.2140.desc.machine.has_rift_sphere: "$astral_planes.2140.desc.machine.common$\n\nPur essendo chiaramente meno avanzata della nostra tecnologia, questa sfera testimonia la disperazione e l'inventiva dei suoi costruttori. Si trattava di un ultimo sforzo per sfuggire a quello che doveva essere un destino terribile sul lato opposto della frattura."
+ astral_planes.2140.desc.machine: "$astral_planes.2140.desc.machine.common$\n\nCon un po' di studio, dovremmo essere in grado di replicare e persino migliorare la tecnologia necessaria per costruire un vascello con queste capacità di spaziare nelle dimensioni."
+ astral_planes.2140.a: "Abbiamo trovato il nostro luogo di nascita."
+ astral_planes.2140.a.synthetic: "Abbiamo trovato il nostro crogiolo."
+
+ #############################
+ # Government & Empire Names #
+ #############################
+
+ gov_defensive_union: "Unione Difensiva"
+ gov_defensive_union_desc: "Questo governo unisce il suo popolo nella causa comune della protezione contro le minacce esterne."
+ RT_DEFENSIVE_UNION: "Alto Scudo"
+ HT_DEFENSIVE_UNION: "Guardiano"
+
+ Guardianship: "Nave Guardiano"
+ Protectorate: "Protettorato"
+ Stalwart_Legion: "Legione Coraggiosa"
+
+ gov_dimensional_covenant: "Patto Dimensionale"
+ gov_dimensional_covenant_desc: "Questa società è sostenuta da una profonda coscienza spirituale. Sono in vigore rigorosi codici morali per garantire che la più alta percentuale di persone possa guardare con fiducia all'aldilà."
+ RT_DIMENSIONAL_COVENANT: "Primo Ascendente"
+ HT_DIMENSIONAL_COVENANT: "Secondo Ascendente"
+
+ Church_of_Otherworlds: "Chiesa di Altri Mondi"
+ Astral_Fellowship: "Compagnia Astrale"
+ Dimensional_Commune: "Comune Dimensionale"
+
+ ##########
+ # Civics #
+ ##########
+
+ sm_dimensional_shrine: "Santuario Dimensionale"
+ sm_dimensional_shrine_desc: "Al di fuori dell'universo conosciuto ci sono percorsi verso altri mondi, e luoghi in cui queste connessioni sono sottilmente realizzate. È qui che costruiamo il più sacro dei nostri templi.\n"
+ sm_reloading_bay: "Baia di Ricarica"
+ sm_reloading_bay_desc: "Riserva una porzione significativa della Base Stellare per ricaricare i componenti delle nostre armi e fornisce piattaforme di difesa aggiuntive.\n"
+ requires_dimensional_space_object: "§RRichiede un §Y$WORMHOLE$§!, un §Y$pc_rift_star$§!, un §Y$ASTRAL_RIFT$§!, un §Y$LGATE_GALACTIC$§! o un §Y$SHROUD_TUNNEL_GALACTIC$§!§!"
+
+ civic_hyperspace_specialty: "Specialità Iperspaziale"
+ civic_hyperspace_specialty_desc: "Questa società ha sempre abbracciato la velocità. La manipolazione dell'iperspazio è solo un'altra strada, e coloro che hanno attitudini in questo campo sono saliti alla casta più alta."
+ civic_hyperspace_specialty_effects: "I £physics£ §Y$tech_hyper_drive_2$§! sono un'Opzione di Ricerca Garantita.\nHa un Basso Livello di Informazioni su tutti i sistemi entro 3 Iperlinee dal tuo sistema di partenza."
+ civic_hive_hyperspace_specialty: "Sincronicità Iperspaziale"
+ civic_hive_hyperspace_specialty_desc: "Questo gruppo cerca la velocità. Le metodologie di manipolazione dell'iperspazio sono radicati in profondità nel collettivo, consentendo una comprensione progressiva dei principi fondamentali della distanza nel tempo."
+ civic_hive_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effects$"
+ civic_machine_hyperspace_specialty: "Calcoli Iperspaziali"
+ civic_machine_hyperspace_specialty_desc: "Questo gruppo cerca la velocità. Le teorie sulla manipolazione dell'iperspazio sono inserite nell'unità di elaborazione di ogni drone, garantendo al gruppo una comprensione progressiva dei principi fondamentali della distanza nel tempo"
+ civic_machine_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effects$"
+ civic_corporate_hyperspace_specialty: "Commercio Iperspaziale"
+ civic_corporate_hyperspace_specialty_desc: "Il tempo è denaro, e questa Megacorporazione dà valore alla velocità. I forti investimenti in ricerca e sviluppo hanno dato ottimi frutti, garantendo alla Corporazione l'accesso proprietario a tecniche di manipolazione dell'iperspazio all'avanguardia."
+ civic_corporate_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effects$\n£building£ §Y$building_amusement_megaplex$§! $megacorp_civic_branch_office_building_effect$"
+
+ civic_tooltip_not_hyperspace_specialty: "NON ha una Scelta Civica ['concept_hyperspace_specialty_civics']"
+ concept_hyperspace_specialty_civics: "Specialità Iperspaziale"
+ concept_hyperspace_specialty_civics_desc: "Le Scelte Civiche $concept_hyperspace_specialty_civics$ consistono in \n- ['civic:civic_hyperspace_specialty']$NEW_LINE$- ['civic:civic_corporate_hyperspace_specialty']$NEW_LINE$- ['civic:civic_hive_hyperspace_specialty']$NEW_LINE$- ['civic:civic_machine_hyperspace_specialty']"
+
+ civic_dimensional_worship: "Culto Dimensionale"
+ civic_dimensional_worship_desc: "Questa società crede che un'esistenza divina si trovi al di là delle pieghe dello spazio e del tempo. I sistemi in cui le instabilità sono più elevate hanno un significato sacro per loro, in quanto siti di pellegrinaggio e di ricerca."
+ civic_dimensional_worship_effects: "$t$- $AVAILABLE_STARBASE_BUILDINGS$ ['starbase_building:dimensional_shrine', $sm_dimensional_shrine$]"
+ civic_dimensional_worship_effects_additional: "- Probabilità delle ['concept_astral_rift', $ASTRAL_RIFTS$] nei Sistemi Controllati: §G+100%§!"
+ civic_corporate_dimensional_worship: "Impresa Dimensionale"
+ civic_corporate_dimensional_worship_desc: "$civic_dimensional_worship_desc$"
+ civic_corporate_dimensional_worship_effects: "$civic_dimensional_worship_effects$ $TABBED_NEW_LINE$- £building£ §Y$building_xeno_tourism_agency$§! $megacorp_civic_branch_office_building_effect$"
+
+ civic_tooltip_not_dimensional_worship: "NON ha una Scelta Civica ['concept_dimensional_worship_civics']"
+ concept_dimensional_worship_civics: "Culto Dimensionale"
+ concept_dimensional_worship_civics_desc: "Le Scelte Civiche $concept_dimensional_worship_civics$ consistono in \n- ['civic:civic_dimensional_worship']$NEW_LINE$- ['civic:civic_corporate_dimensional_worship']"
+
+ civic_dark_consortium: "Consorzio Oscuro"
+ civic_dark_consortium_desc: "Una profonda comprensione dell'architettura dell'universo ha permesso a questa società di sfruttare le misteriose proprietà della materia oscura molto prima della scoperta dell'iperguida."
+ civic_dark_consortium_effects: "$t$- $ADDITIONAL_TECHNOLOGIES_STRING$$TABBED_NEW_LINE$$t$- ['technology:tech_mine_dark_matter', £physics£$tech_mine_dark_matter$] $TABBED_NEW_LINE$- Accesso a ['concept_dark_matter_edicts'] $TABBED_NEW_LINE$- Ha accesso all'Agenda del Consiglio §Y$council_agenda_agenda_dark_matter_breakthrough_name$§!."
+ 
+ concept_dark_matter_edicts: "Editti sulla Materia Oscura"
+ concept_dark_matter_edicts_desc: "- ['edict:baryonic_insight', $edict_baryonic_insight$]\n- ['edict:dark_matter_forging', $edict_dark_matter_forging$]\n- ['edict:dark_matter_unravelling', $edict_dark_matter_unravelling$]\n- ['edict:shadow_matrix', $edict_shadow_matrix$]"
+ civic_corporate_dark_consortium: "Corporazione Ombra"
+ civic_corporate_dark_consortium_desc: "$civic_dark_consortium_desc$"
+ civic_corporate_dark_consortium_effects: "$civic_dark_consortium_effects$ $TABBED_NEW_LINE$- £building£ §Y$building_private_research_initiative$§! $megacorp_civic_branch_office_building_effect$"
+
+ civic_tooltip_not_dark_consortium: "NON ha una Scelta Civica ['concept_dark_consortium_civics']"
+ concept_dark_consortium_civics: "Consorzio Oscuro"
+ concept_dark_consortium_civics_desc: "Le Scelte Civiche $concept_dark_consortium_civics$ consistono in \n- ['civic:civic:civic_dark_consortium']$NEW_LINE$- ['civic:civic:civic_corporate_dark_consortium']"
+
+ civic_sovereign_guardianship: "Sovrana Tutela"
+ civic_sovereign_guardianship_desc: "Questo insieme di tribù in guerra ha sviluppato una storica preferenza per i territori trincerati e la postura difensiva. Ora uniti, sono pronti a portare questa filosofia alle stelle, con l'obiettivo di mantenere solidi i loro confini e basse le tensioni."
+ civic_sovereign_guardianship_effects: "Sblocca i §Y$fanatic_guardian_plural$§! come eserciti di difesa.\n$civic_sovereign_guardianship_effects_common$"
+ civic_hive_sovereign_guardianship: "Sciame Guardiano"
+ civic_hive_sovereign_guardianship_desc: "Questo collettivo ha sviluppato una preferenza storica per i territori trincerati e la postura difensiva. Sono pronti a portare questa filosofia alle stelle, con l'obiettivo di mantenere solidi i loro confini e basse le tensioni."
+ civic_hive_sovereign_guardianship_effects: "Sblocca §Y$machine_fanatic_guardian_plural$§! come armate di difesa.\n$civic_sovereign_guardianship_effects_common$"
+ civic_machine_sovereign_guardianship: "Matrice Guardiana"
+ civic_machine_sovereign_guardianship_desc: "Questo collettivo meccanico ha sviluppato una preferenza procedurale per i territori trincerati e la postura difensiva. Sono pronti a portare questa efficace strategia alle stelle, con l'obiettivo di mantenere solidi i loro confini e basse le tensioni."
+ civic_machine_sovereign_guardianship_effects: "Sblocca le §Y$machine_fanatic_guardian_plural$§! come eserciti di difesa.\n$civic_sovereign_guardianship_effects_common$"
+ civic_corporate_sovereign_guardianship: "Protettorato Corporativo"
+ civic_corporate_sovereign_guardianship_desc: "Questa società di industrie in competizione tra loro ha imparato che la migliore protezione per i loro investimenti è un forte atteggiamento difensivo. Ora uniti, sono pronti a portare questa filosofia alle stelle, con l'obiettivo di mantenere solidi i loro confini e basse le tensioni."
+ civic_corporate_sovereign_guardianship_effects: "$civic_sovereign_guardianship_effects$"
+ civic_sovereign_guardianship_effects_common: "Permette di costruire una §Y$sm_reloading_bay$§! nelle basi stellari.\nAbilita l'§HEditto§! §Y$edict_inner_focus$§!, convertendo £influence£ §YInfluenza§! in £unity£ §YUnità§!."
+
+ civic_tooltip_not_guardian: "NON ha una Scelta Civica ['concept_guardian_civics']"
+ concept_guardian_civics: "Sovrana Tutela"
+ concept_guardian_civics_desc: "Le Scelte Civiche $concept_guardian_civics$ consistono in \n- ['civic:civic_sovereign_guardianship']$NEW_LINE$- ['civic:civic_corporate_sovereign_guardianship']$NEW_LINE$- ['scivic:civic_hive_sovereign_guardianship']$NEW_LINE$- ['civic:civic_machine_sovereign_guardianship']"
+
+ fanatic_guardian: "Guardiano Fanatico"
+ fanatic_guardian_plural: "Guardiani Fanatici"
+ fanatic_guardian_desc: "Stoici difensori della nostra patria, questi soldati incrollabili sono più efficaci quando proteggono coloro con cui condividono un rapporto stretto."
+
+ machine_fanatic_guardian: "Unità Matrice"
+ machine_fanatic_guardian_plural: "Unità Matrici"
+ machine_fanatic_guardian_desc: "Questi droni protettivi altamente letali sono più efficaci se tenuti in stretta vicinanza con tutti gli altri nodi strategici."
+
+ ##########
+ # Edicts #
+ ##########
+
+ edict_shadow_matrix: "Matrice Ombra"
+ edict_shadow_matrix_desc: "L'oscurità elettronica fornita dalle unità di elaborazione della materia oscura genera un software con cui anche i migliori decifratori di codici devono lottare."
+
+ edict_obsidian_veil: "Velo di Ossidiana"
+ edict_obsidian_veil_desc: "Per nascondersi in una foresta, si dovrebbe indossare la terra. Per nascondersi nello spazio, si dovrebbe indossare il vuoto."
+
+ edict_dark_matter_forging: "Forgiatura Materia Oscura"
+ edict_dark_matter_forging_desc: "Le proprietà vincolanti uniche della materia oscura come flusso nelle nostre fonderie aumentano la resa di quantità apprezzabili."
+
+ edict_dark_matter_unravelling: "Disfacimento Materia Oscura"
+ edict_dark_matter_unravelling_desc: "L'energia contenuta nei legami formati dalla materia oscura può essere dipanata in un prodotto prezioso."
+
+ edict_inner_focus: "Focus Interiore"
+ edict_inner_focus_desc: "L'eccessiva estensione dei propri confini introduce una serie di rischi. Comprendere se stessi è uno sforzo più affidabile e produttivo"
+
+ edict_baryonic_insight: "Approfondimento Barionico"
+ edict_baryonic_insight_desc: "Per una comprensione più profonda della trama dell'universo, dobbiamo guardare oltre la nozione di atomo."
+
+#######################
+# Councilor Positions #
+#######################
+
+ councilor_hyperspace_specialty: "Supervisore Iperlinee"
+ councilor_hyperspace_specialty_female: "$councilor_hyperspace_specialty$"
+ councilor_hyperspace_specialty_desc: "Il $TITLE$ aiuta a garantire la sicurezza della nostra rete logistica interstellare."
+ councilor_hyperspace_specialty_custom_modifier_desc: "Ogni edificio §Y$sm_warp_fluctuator$§! della base stellare fornisce anche §G+$@councilor_hyperspace_specialty_warp_fluctuator_stability$§! £stability£ Stabilità"
+ councilor_hyperspace_specialty_corporate: "$councilor_hyperspace_specialty$"
+ councilor_hyperspace_specialty_corporate_female: "$councilor_hyperspace_specialty_corporate$"
+ councilor_hyperspace_specialty_corporate_desc: "$councilor_hyperspace_specialty_desc$"
+ councilor_dimensional_worship: "Ministro Astrale"
+ councilor_dimensional_worship_female: "$councilor_dimensional_worship$"
+ councilor_dimensional_worship_desc: "Il $TITLE$ unisce il nostro sacerdozio sotto un'unica visione guida per servire meglio il nostro popolo."
+ councilor_dimensional_worship_custom_modifier_desc: "£physics£ §YPhysics§! per $pop_group_unit$ $job_priest_name_plural_with_icon$: §G+$@councilor_dimensional_worship_priest_physics$§! "
+ councilor_dimensional_worship_corporate: "$councilor_dimensional_worship$"
+ councilor_dimensional_worship_corporate_female: "$councilor_dimensional_worship_corporate$"
+ councilor_dimensional_worship_corporate_desc: "$councilor_dimensional_worship_desc$"
+ councilor_dimensional_worship_corporate_custom_modifier_desc: "- £physics£ §YPhysics§! per $pop_group_unit$ $job_priest_name_plural_with_icon$: §G+$@councilor_dimensional_worship_priest_physics$§!\n- $r_trade$ per $pop_group_unit$ $job_priest_name_plural_with_icon$: §G+$@councilor_dimensional_worship_priest_trade_value$§! "
+
+ councilor_dark_consortium: "Tessitore dell'Ombra"
+ councilor_dark_consortium_female: "$councilor_dark_consortium$"
+ councilor_dark_consortium_desc: "I compiti del $TITLE$ consistono nel rendere conto di ogni singola unità di materia oscura, assicurandosi che non venga sprecata nemmeno una particella."
+ councilor_dark_consortium_corporate: "Agente dell'Ombra"
+ councilor_dark_consortium_corporate_female: "$councilor_dark_consortium_corporate$"
+ councilor_dark_consortium_corporate_desc: "$councilor_dark_consortium_desc$"
+
+ councilor_sovereign_guardianship: "Capo Cittadella"
+ councilor_sovereign_guardianship_female: "$councilor_sovereign_guardianship$"
+ councilor_sovereign_guardianship_desc: "Esperto altamente considerato nella protezione della nostra patria, il $TITLE$ è responsabile della sicurezza e della manutenzione di tutte le nostre fortificazioni planetarie."
+ councilor_sovereign_guardianship_corporate: "Segretario della Difesa"
+ councilor_sovereign_guardianship_corporate_female: "$councilor_sovereign_guardianship_corporate$"
+ councilor_sovereign_guardianship_corporate_desc: "Esperto molto apprezzato nella protezione della nostra patria, il $TITLE$ è responsabile della contabilità e della logistica di tutte le nostre fortificazioni planetarie."
+
+##########
+# Relics #
+##########
+
+ r_infinity_root: "Radice Infinita"
+ r_infinity_root_desc: "Un ammasso di materiale organico che si diffonde aggressivamente ovunque sia collocato."
+ infinity_root_active_effect_tt: "Fa crescere un nuovo leader. Non ha spese di mantenimento e non conta per il totale dei leader."
+
+ r_time_crystal: "Cristallo Temporale"
+ r_time_crystal_desc: "Una camera di cristallo sigillata contenente un anello temporale isolato."
+
+ r_daedalus_seal: "Sigillo del Dedalo"
+ r_daedalus_seal_desc: "Questo dispositivo avanzato è in grado di vibrare a una frequenza che risuona con le adiacenti pieghe dello spazio-tempo, sigillandole temporaneamente."
+ daedalus_seal_active_effect_tt: "Piazza un Blocco a tutti i Wormholes e i Portali-L posti entro i tuoi confini per §Y5§! anni."
+ daedalus_seal_acquisition_tt: "Durata del Blocco Dimensionale: §G+25%§!"
+ daedalus_seal_no_bypasses_fail: "$TRIGGER_FAIL$Non ci sono Wormhole o Portali-L posti entro i tuoi confini."
+ MOD_DIMENSIONAL_LOCK_DURATION_MULT: "Durata del Blocco Dimensionale"
+
+ r_ever_spinning_top: "Trottola Perpetua"
+ r_ever_spinning_top_desc: "Una Trottola extra dimensionale perpetua. Il suo flusso è senza soluzione di continuità, ipnotico; un movimento perfetto in perpetuo."
+ ever_spinning_top_modifier: "Moto Perpetuo"
+
+ r_celestial_tear: "Lacrima Celestiale"
+ r_celestial_tear_desc: "Un campione di una lacrima astrale di un corpo celeste in lutto. Più è posta nelle prossimità di un sole attivo, più si illumina."
+ celestial_tear_modifier: "$r_celestial_tear$"
+ celestial_tear_acquisition_tt: "Abitabilità dei pianeti all'interno dei tuoi confini che orbitano intorno a stelle di classe §YA§!, §YB§!, §YF§!, e §YG§!: §G+5%§!"
+
+ r_plasmic_core: "Nucleo Plasmatico"
+ r_plasmic_core_desc: "Il nucleo di una gigantesca cellula proveniente da una dimensione aliena. Un promemoria dell'infinita diversità della vita organica."
+ machine_plasmic_core_effect: "Conferisce a un leader casuale 3 tratti positivi casuali."
+ plasmic_core_effect: "Ogni Pop su un pianeta casuale guadagna il tratto §Y$trait_plasmic$§!."
+ plasmic_core_no_suitable_planet: "$TRIGGER_FAIL$§RNessun pianeta disponibile per gli abitanti senza il tratto §Y$trait_plasmic$§!.§!"
+ plasmic_core_effect_evopred: "Dà il §G50%§! di progresso alla situazione §Y$evolutionary_predators_situation$§!. Inoltre, il tratto §Y$trait_plasmic$§! può essere aggiunto al completamento."
+
+ effect_random_bypass: "Bypass Casuale"
+ effect_every_bypass: "Tutti Bypass"
+ any_bypass_trigger: "Alcuni Bypass"
+ count_bypass_trigger: "Numero di Bypass$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
+ count_bypass_all_trigger: "$IS_ALL_NOT$ Bypass soddisfano le previste condizioni"
+
+ effect_random_astral_rift: "Frattura Astrale Casuale"
+ effect_every_astral_rift: "Tutte le Fratture Astrali"
+ any_astral_rift_trigger: "Alcune Fratture Astrali"
+ count_astral_rift_trigger: "Numero di Fratture Astrali$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
+ count_astral_rift_all_trigger: "$IS_ALL_NOT$ Fratture Astrali soddisfano le previste condizioni"
+
+ r_continuum: "Il Continuum"
+ r_continuum_desc: "Il nucleo dorato di un meccanismo di cronometraggio extradimensionale, questo straordinario dispositivo ha la capacità di manipolare il tempo come se fosse un dei suoi ingranaggi."
+
+ r_eternal_throne: "Il Trono Eterno"
+ r_eternal_throne_desc: "Un rifugio extradimensionale in grado di garantire la vita eterna. Chi viene incluso nella sua influenza vive in una realtà priva di paura, stupore e senza termine."
+ eternal_throne_active_effect_tt: "Tutti i leader sono immortali."
+ eternal_throne_modifier: "Sintonia astrale"
+
+##############
+# Situations #
+##############
+
+ situation_crystal_sphere_desc: "È apparso un oggetto misterioso. Crediamo che la nostra esplorazione delle fratture tra spazio e tempo abbia attirato l'attenzione di qualcuno o qualcosa."
+ rift_sphere_missing: "Non possediamo la tecnologia §Y$tech_rift_sphere$§! necessaria per portare avanti correttamente la nostra ricerca."
+ formless_seal_defeat_all_fleets: "Dobbiamo eliminare gli ultimi invasori perché il Senza Forma possa per sigillare correttamente il sistema [Root.Target.GetName]"
+ galactic_object: "Sistema"
+
+ situation_destroy_crystal_sphere: "Distruggi la Sfera di Cristallo"
+ situation_destroy_crystal_sphere_type: "$situation_destroy_crystal_sphere$"
+ situation_destroy_crystal_sphere_desc: "$situation_crystal_sphere_desc$"
+ situation_destroy_crystal_sphere_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_destroy_crystal_sphere_mechanical: "Approccio Meccanico"
+ approach_situation_destroy_crystal_sphere_mechanical_tt: "I nostri ingegneri ritengono che se facciamo esplodere una serie controllata di esplosivi, raggiungeremo una frequenza di risonanza tale che frantumerà completamente la sfera di cristallo."
+ situation_destroy_crystal_sphere_astral: "Approccio Astrale"
+ approach_situation_destroy_crystal_sphere_astral_tt: "Il filamento astrale è in grado di scivolare all'interno della struttura cristallina di questo dispositivo per indebolirlo dall'interno."
+ destroy_mechanical_agitation: "Approccio Meccanico"
+ destroy_astral_method: "Approccio Astrale"
+
+ finisher_effects_destroy: "Se riusciremo a distruggere questo dispositivo, saremo in grado di sfruttare i materiali che lo compongono e allo stesso tempo di prevenire ulteriori pericoli per il nostro impero."
+
+ situation_study_crystal_sphere: "Studia la Sfera di Cristallo"
+ situation_study_crystal_sphere_type: "Studia la Sfera di Cristallo"
+ situation_study_crystal_sphere_desc: "$situation_crystal_sphere_desc$"
+ situation_study_crystal_sphere_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_study_crystal_sphere_observe: "Osserva e Riferisci"
+ approach_situation_study_crystal_sphere_observe_tt: "Il dispositivo sembra attivarsi lentamente. Riteniamo che, con il tempo, riuscirà a realizzare ciò per cui è stato progettato."
+ situation_study_crystal_sphere_mundane: "Metodo Banale"
+ approach_situation_study_crystal_sphere_mundane_tt: "Se dedicassimo una quantità sufficiente di ricerca scientifica per svelare il potenziale di questo dispositivo, crediamo di poterne accelerare l'attivazione."
+ situation_study_crystal_sphere_astral: "Metodo Astrale"
+ approach_situation_study_crystal_sphere_astral_tt: "Il filamento astrale sembra poter stimolare il dispositivo. Più lo esponiamo ad esso, più veloce è la sua attivazione."
+ study_observe_method: "Il dispositivo sembra attivarsi lentamente in modo programmato. Riteniamo che, con il tempo, riuscirà a realizzare ciò per cui è stato progettato."
+ study_mundane_method: "Se dedicassimo una quantità sufficiente di ricerca scientifica per svelare il potenziale di questo dispositivo, crediamo di poterne accelerare l'attivazione."
+ study_astral_method: "Il filamento astrale sembra poter stimolare il dispositivo. Più lo esponiamo ad esso, più veloce è la sua attivazione."
+ finisher_effects_study: "Non sappiamo esattamente quali segreti possa contenere questo dispositivo.\n\nSiamo cautamente ottimisti sul fatto che saremo in grado di far progredire ulteriormente la nostra società dopo aver esaminato la sua costituzione."
+
+ situation_the_seal: "Il Sigillo"
+ situation_the_seal_type: "Il Sigillo"
+ situation_the_seal_desc: "Sotto assalto da una forza sconosciuta, le entità che attualmente abitano il centro della galassia hanno richiesto la nostra assistenza. Se venissero sconfitte, non sappiamo cosa ci potrà accadere."
+ situation_the_seal_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_the_seal_do_nothing: "Non Fare Nulla"
+ approach_situation_the_seal_do_nothing_tt: "Non prenderemo alcuna iniziativa."
+ situation_the_seal_weave_astral_fabric: "Tessere il Tessuto Astrale"
+ approach_situation_the_seal_weave_astral_fabric_tt: "§G+50%§! Punti Scudo per tutte le navi amiche presenti nel sistema §H$NAME_Formless_System$§!."
+ situation_the_seal_pump_exotic_gases: "Pompare Gas Esotici"
+ approach_situation_the_seal_pump_exotic_gases_tt: "§G+10%§! Danno Armi ad Energia per tutte le navi amiche presenti nel sistema §H$NAME_Formless_System$§!."
+ finisher_effects_the_seal: "Non sappiamo quale sarà il risultato, qualora decidessimo di salvare questi esseri."
+ the_seal_do_nothing_method: "Lasceremo che questo conflitto proceda senza interferenze."
+ the_seal_weave_method: "Se consegnassimo il filamento astrale che abbiamo recuperato a questi esseri, potrebbero usarlo per rafforzare le loro schermature."
+ the_seal_pump_method: "I gas esotici hanno effetti amplificati in questa strana bolla di esistenza. Potremmo usarli per potenziare i nostri armamenti."
+ the_seal_weave_astral_fabric_modifiers: "Se consegnassimo il filamento astrale che abbiamo recuperato a questi esseri, essi potrebbero utilizzare la loro conoscenza che hanno a riguardo delle sue proprietà per rafforzare le loro schermature."
+ the_seal_pump_exotic_gases_modifier: "I gas esotici hanno effetti amplificati in questa strana bolla di esistenza. Potremmo usarli per potenziare i nostri armamenti."
+ destroy_sphere_modifier: "Pace in Questa Dimensione"
+ aberrant_fleet_spawn_countdown: "La prossima Flotta Aberrante ricommparirà il [this.days_before_spawn]."
+
+ astral_situation.1.name: "Sfera di Cristallo Distrutta"
+ astral_situation.1.desc: "È fatta.\n\nLa Sfera Cristallina è stata frantumata in innumerevoli granelli scintillanti.\n\nAbbiamo immediatamente raccolto una grande quantità di materiale prezioso. I suoi elementi di base sono diversi da qualsiasi cosa abbiamo mai incontrato prima.\n\nIl nostro popolo sta festeggiando la coraggiosa decisione di mettere la sicurezza della nostra patria davanti a tutto. Permettere a un dispositivo del genere di rimanere all'interno dei nostri confini sarebbe stato irresponsabile."
+
+ astral_situation.5.name: "Lo Studio è Terminato"
+ astral_situation.5.desc: "È un messaggio.\n\nCodificato all'interno di un'intricato reticolo cristallino, c'era una serie di istruzioni.\n\nSeguendole alla lettera, siamo riusciti a riprodurre le condizioni presenti intorno alla sfera di cristallo. Questa determinata disposizione di gas e filamenti astrali ha finito per 'attivare' la sfera.\n\nImmediatamente dopo, è semplicemente scomparsa. Al suo posto, si è formata una Frattura Astrale diversa da qualsiasi altra mai vista. \n\nLa sua presenza invita all'esplorazione."
+
+ astral_planes.15.name: "La Sfera di Cristallo"
+ astral_planes.15.desc.default: "Uno strano oggetto è arrivato nell'orbita di [Root.GetHomeWorldName].\n\nUna sfera cristallina che ricorda la nostra tecnologia della §Y$tech_rift_sphere$§!, è apparsa senza preavviso lungo una traiettoria sconosciuta.\n\nCosì in prossimità del pianeta natale [Root.GetHomeWorldName], la sfera potrebbe rappresentare un significativo pericolo per la nostra gente.\n\nD'altra parte, è anche molto probabile che possa contenere preziosi indizi sulla natura dei viaggi dimensionali."
+ astral_planes.15.desc.win: "Abbiamo preso il controllo dello strano oggetto che orbita nel sistema [crystal_sphere_system.GetName].\n\nÈ un oggetto sferico cristallino molto simile alla tecnologia della §Y$tech_rift_sphere$§! che abbiamo sviluppato e che ci consente di esplorare le altre dimensioni.\n\nPotrebbe rapppresentare un significativo potenziale pericolo per il nostro impero.\n\nD'altra parte, è anche molto probabile che possa contenere preziosi indizi sulla natura dei viaggi dimensionali."
+ astral_planes.15.desc.win_delayed: "Alla luce delle nostre recenti ricerche in merito alle Fratture Astrali, abbiamo scoperto che l'oggetto sferico cristallino presente nel sistema [crystal_sphere_system.GetName] presenta molte analogie con la tecnologia §Y$tech_rift_sphere$che abbiamo sviluppato.\n\nPotrebbe rapppresentare un significativo potenziale pericolo per il nostro iompero.\n\nD'altra parte, è anche molto probabile che possa contenere preziosi indizi sulla natura dei viaggi dimensionali."
+ astral_planes.15.a: "Studiatelo."
+ astral_planes.15.b: "Distruggetelo."
+
+ astral_planes.30.name: "Una Strana Sfera"
+ astral_planes.30.desc: "Abbiamo preso il controllo dello strano oggetto in orbita nel sistema [crystal_sphere_system.GetName].\n\nSiamo incerti relativamente al suo scopo e alle sue origini. Probabilmente con delle ricerche mirate potremmo conoscere il modi di approcciarci ad esso."
+ astral_planes.30.a: "terremo sotto controllo la situazione."
+
+###########
+# Systems #
+###########
+
+ pc_rift_star: "Cicatrice Astrale"
+ pc_rift_star_desc: "Al posto di una stella, i corpi celesti di questo sistema orbitano attorno a un'antica Frattura Astrale."
+ sc_rift_star: "$pc_rift_star$"
+ sc_rift_star_desc: "$sc_rift_star$"
+
+ formless_system_initializer_NAME: "Il Sistema azilash"
+ formless_system_initializer_DESC: "Il pianeta natale dei Senza Forma, è ancorato qui con qualche mezzo sconosciuto."
+ NAME_Formless_System_Rift: "Antica Frattura "
+ NAME_Formless_System: "azilash"
+ NAME_FORMLESS_SYSTEM_GAS_GIANT: "yoss"
+ NAME_FORMLESS_SYSTEM_GAIA: "zeya"
+ NAME_Formless_System_Strange_Wormhole: "Strano Wormhole"
+
+ MESSAGE_RANDOM_POP_SETTLED_TITLE: "Un Nuovo Inizio"
+ MESSAGE_RANDOM_POP_SETTLED: "Nuove specie provenienti da un'altra dimensione si sono insediate su [this.GetName]."
+
+######################################
+# Formless System Countries & Fleets #
+######################################
+
+ NAME_Extradimensional_Scout: "Scout Extradimensionali"
+ NAME_Extradimensional_Scouts: "Scout Extradimensionali"
+
+ NAME_Formless: "I Senza Forma"
+ NAME_Formless_Anchor: "Ancora Extradimensionale"
+
+ NAME_Formless_Aberrant_Invader_Battleship: "Corazzata Extradimensionale da invasione"
+ NAME_Formless_Aberrant_Invader_Cruiser: "Incrociatore Extradimensionale da invasione"
+ NAME_Formless_Aberrant_Invaders: "Invasori Extradimensionali"
+ NAME_Formless_Cruiser: "Incrociatore Extradimensionale"
+ NAME_Formless_Defense: "Flotta di Difesa dei Senza Forma"
+
+ NAME_Extradimensional_Defenders: "Difensori Extradimensionali"
+ NAME_Extradimensional_Defender: "Difensore Extradimensionale"
+
+############
+# Deposits #
+############
+
+ d_astral_threads_deposit_1: "£astral_threads£ §Y+1§!"
+ d_astral_threads_deposit_2: "£astral_threads£ §Y+2§!"
+ d_astral_threads_deposit_3: "£astral_threads£ §Y+3§!"
+ d_crystal_rift: "£unity£ §Y+10§! e £physics£ §Y+10§!"
+ d_physics_25: "£physics£ +25"
+ d_engineering_25: "£engineering£ +25"
+ d_society_25: "£society£ +25"
+
+ d_hab_astral_threads_1: "Deposito Filamenti Astrali"
+ d_hab_astral_threads_1_desc: "Questo $habitat_complex$ è costruito vicino a un giacimento sfruttabile di Filamenti Astrali."
+ d_hab_astral_threads_2: "$d_hab_astral_threads_1$"
+ d_hab_astral_threads_2_desc: "$d_hab_astral_threads_1_desc$"
+ d_hab_astral_threads_3: "$d_hab_astral_threads_1$"
+ d_hab_astral_threads_3_desc: "$d_hab_astral_threads_1_desc$"
+
+###############################
+# Formless System Event Chain #
+###############################
+
+ formless_country_modifier: "$NAME_Formless$"
+
+ STRANGE_WORMHOLE: "Strano Wormhole"
+ STRANGE_WORMHOLE_DESC: "Questo sistema contiene uno §Y$STRANGE_WORMHOLE$§! connesso con $DEST|Y$"
+ STRANGE_WORMHOLE_DESC_UNEXPLORED: "Questo sistema contiene un §Rinesplorato§! §Y$STRANGE_WORMHOLE$§!"
+ STRANGE_WORMHOLE_ACCESS_DENIED: "$TRIGGER_FAIL$§RUna forza esterna ci impedisce di entrare.§!"
+ BYPASS_STRANGE_WORMHOLE: "$STRANGE_WORMHOLE$"
+ BYPASS_NAME_STRANGE_WORMHOLE: "$SYSTEM$ $STRANGE_WORMHOLE$"
+ BYPASS_DESC_STRANGE_WORMHOLE: "Non abbiamo mai visto prima un wormhole simile."
+ BYPASS_DESC_UNKNOWN_STRANGE_WORMHOLE: "$BYPASS_DESC_STRANGE_WORMHOLE$"
+ ENTRY_BYPASS_STARLIT_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+ EXIT_BYPASS_STARLIT_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+
+ astral_planes.45.name: "$STRANGE_WORMHOLE$"
+ astral_planes.45.desc.event_chain_owner: "Un anomalo wormhole è apparso nei pressi della §HFrattura Cristallina§!, su §H[From.GetName]§!.\n\nPossiamo solo supporre che si tratti di un passaggio aperto dai Senza Forma per andare in loro scoccorso. Rileviamo che il sistema posto all'altra estremità è stato trascinato nella nostra dimensione da un altro luogo.\n\nQualora decidessimo di attraversarlo dovremmo preparare le nostre flotte più potenti."
+ astral_planes.45.desc.locked: "Abbiamo scoperto un anomalo wormhole. Per quanto le nostre navi cerchino di avvicinarsi, siamo respinti da una forza sconosciuta. Sta accadendo qualcosa di molto strano nel sistema §H[From.GetName]§!."
+ astral_planes.45.desc.unlocked: "Abbiamo scoperto un anomalo wormhole nel sistema §H[From.GetName]§!. I sensori rilevano che si tratta di un percorso diretto verso il centro della galassia. Come è possibile?"
+
+ astral_planes.50.name: "$STRANGE_WORMHOLE$"
+ astral_planes.50.desc: "L'anomalo wormhole che abbiamo scoperto nel sistema §H[crystal_sphere_system.GetName]§! fluttua selvaggiamente. I sensori rilevano che si tratta di un percorso diretto verso il centro della galassia.\n\nCom'è possibile?"
+
+ astral_planes.3000: "Dove Siamo?"
+ astral_planes.3000.desc: "L'altra parte di questo wormhole pare che ci abbia condotto... al centro della galassia?\n\nNon dovrebbe esistere nulla qui, figuriamoci un sistema intero. Forse è in atto una manipolazione dimensionale?\n\nAbbiamo poco tempo per indagare, perché stiamo ricevendo trasmissioni da un'entità sconosciuta."
+
+ astral_planes.3005.desc: "cos'è questo... quali sciocchi avete portato in vostro aiuto, shadagon? o forse ... ci avete offerto del cibo..."
+ astral_planes.3005.a: "Siamo stati attirati qui come prede?"
+
+ astral_planes.3015: "Il Messaggero"
+ astral_planes.3015.desc: "Le nostre flotte hanno sconfitto le strane navi che sorvegliano la frattura, ma sembra che non fossero sole.\n\nAbbiamo ricevuto una trasmissione da esseri che abitano una struttura vicina all'unico pianeta di questo sistema."
+
+ astral_planes.3020.desc: "ne arriveranno altri... dobbiamo sigillare la frattura... siamo tutto ciò che ne rimane..."
+ astral_planes.3020.a: "Ne arriveranno altri?"
+
+ astral_planes.3050.desc: "siamo tutto ciò che ne rimane... dobbiamo rigenerarci... abbiamo bisogno di tempo..."
+ astral_planes.3050.a: "Potreste servirvi di §Yquesto?§!"
+ astral_planes.3050.a.tt: "Se consegnassimo una grande quantità di filamenti astrali, questi esseri potrebbero sicuramente migliorare le loro difese."
+ number_formless_fleet_max_reached: "I Senza Forma non hanno più flotte."
+ astral_planes.3050.b: "Lascia stare."
+
+ astral_planes.3070.desc: "finalmente... abdicazione... le nostre catene sono rotte... guardate la nostra ascesa... troveremo quello che hanno nascosto..."
+ astral_planes.3070.a: "Dobbiamo andarcene."
+ astral_planes.3070.a.tt: "Gli esseri noti come Senza Forma sono stati distrutti da aggressori provenienti da un'altra dimensione. Il portale nel sistema $NAME_Formless_System$ si è chiuso."
+
+ astral_planes.3100.desc: "§HIn un costante stato di mutamento, la forma visibile di questa entità si sposta tra questa realtà e un'altra. La loro voce risuona come una moltitudine armonica, come se parlassero a nome di più esseri contemporaneamente.§!\n\n... è fatta... il sigillo è posto... i nostri figli non ritroveranno mai più questo posto..."
+ astral_planes.3100.a: "Chi siete?"
+ astral_planes.3100.a.desc: "ci conosci... noi siamo oltre la frattura... e nella frattura... avete visto..."
+ astral_planes.3100.b: "Perché siete qui?"
+ astral_planes.3100.b.desc: "i nostri figli... bambini corrotti... ci danno la caccia... cercano il trono... l'abbiamo nascosto..."
+ astral_planes.3100.c: "Cos'è questo "Trono?""
+ astral_planes.3100.c.desc: "la nostra eternità... i nostri ricordi... se siamo il sangue... esso e il cuore... è al sicuro ora... vi ringraziamo..."
+ astral_planes.3100.d: "§YSottomettetevi a noi e forse vivrete ancora.§!"
+ formless_subjugation_path_success_tt: "I §Y$NAME_Formless$§! diventano sottomessi a §Y[This.GetName]§! come §Y$preset_luminarium$§!."
+ astral_planes.3100.e: "§RDateci il "Trono" di cui parlate.§!"
+ astral_planes.3100.f: "Cooperiamo."
+ astral_planes.3101.desc: "questo e stato predetto... vi serviremo... il nostro destino..."
+ astral_planes.3102.desc.fail: "Vi abbiamo malgiudicati... grande dispiacere... lascia che sia fatto..."
+ astral_planes.3102.desc: "il trono eterno... non è destinato a voi...\n$astral_planes.3102.desc.fail$"
+ astral_planes.3102.a: "E così sia."
+
+ astral_planes.3110.desc: "gratitudine... sicurezza... ricompensa..."
+ astral_planes.3110.a: "Abbiamo bisogno del vostro §Ypotere§!."
+ astral_planes.3110.a.tt: "Ottieni una flotta dei Senza Forma sotto il tuo controllo."
+ astral_planes.3110.b: "Abbiamo bisogno delle vostre §Yconoscenze§!."
+ astral_planes.3110.b.tt: "Ottieni una tecnologia fisica a caso."
+ astral_planes.3110.c: "Abbiamo bisogno del vostro §Ytessuto§!."
+ astral_planes.3110.d: "Chi vi a portato a noi?"
+ astral_planes.3110.d.desc: "§Y$NAME_Formless_leader$§!... architetto del trono eterno...\n\nè colui che ha trascorso millenni nella sua realizzazione...\n\nun dispositivo che ci lega l'un l'altro come una cosa sola... delicato e per sempre...\n\nil più adatto a servirvi...\n\nnon ne sono rimasti di più intelligenti..."
+ astral_planes.3110.e: "Chi sono "Gli Indesiderati"?"
+ astral_planes.3110.f: "Chi sono "Gli Aberranti"?"
+ astral_planes.3110.g: "Chi sono "I Veementi"?"
+ astral_planes.3110.h: "§Y$NAME_Formless_leader$§! è caduto."
+ astral_planes.3110.h.desc: "rimorso...\n\nnon previsto...\n\ndestino...\n\nnon piangere..."
+
+ astral_planes.3114.desc.unbidden: "shabanash... progenie rinnegata... sempre affamati...\n\nla nostra ingordigia... amplificata...\n\npeccati emersi alla luce...\n\nuna grande vergogna..."
+ astral_planes.3114.desc.aberrant: "dagaal... senza ragione... colmi di rabbia...\n\nla nostra ira... manifestata...\n\ni loro conflitti non avranno mai fine..."
+ astral_planes.3114.desc.vehement: "onzai... a caccia del trono...\n\ngrande invidia...\n\nil nostro principio abbandonato..."
+ astral_planes.3114.a: "Hanno una debolezza?"
+ astral_planes.3114.b: "Vorremmo chiedere qualcos'altro."
+
+ astral_planes.3115.desc.common: "conosciamo i modi... è una questione di... frequenze...?\n\nnella vostra lingua non esiste la parola...\n\nrichiediamo... materiale astrale..."
+ astral_planes.3115.desc.unbidden: "la loro avidità è una rovina...\n\n$astral_planes.3115.desc.common$"
+ astral_planes.3115.desc.aberrant: "la loro ira non ha un preciso obiettivo...\n\n$astral_planes.3115.desc.common$"
+ astral_planes.3115.desc.vehement: "i loro desideri sono folli...\n\n$astral_planes.3115.desc.common$"
+ astral_planes.3115.a: "Ve lo forniremo."
+
+ astral_planes.3116.desc: "è fatta... la vostra sintonia è completa..."
+
+ secret_of_the_unbidden_modifier: "I Segreti degli Indesiderati"
+ pacification_of_the_aberrant_modifier: "La Pacificazione degli Aberranti"
+ folly_of_the_vehement_modifier: "La Follia dei Veementi"
+
+ astral_planes.3121.desc: "§Y$NAME_Formless_leader$§! di shadagon... come mai siete qui...\n\nsarete un grande banchetto...\n\nvenite a infrangersi contro di noi..."
+ astral_planes.3122.desc: "non siamo finiti... §Y$NAME_Formless_leader$§! di shadagon...\n\navete salvato la vostra progenie... ma perseguite stupidamente... arroganza...\n\ntestimoni della furia... e poi l'oblio..."
+ astral_planes.3123.desc: "l'architetto... §Y$NAME_Formless_leader$§! di shadagon...\n\nnoi vi divoreremo... assimileremo la vostra mente...\n\nil segreto del trono... vi offriamo una grande occasione...\n\nunitevi a noi... vi onoreremo..."
+
+ alert_formless_reward_available_title: "IL Dono dei Senza Forma"
+ alert_formless_reward_available_instant: "I Senza Forma ci hanno offerto una ricompensa."
+ ALERT_FORMLESS_REWARD_AVAILABLE_DETAIL: "Gli esseri al centro della nostra galassia ci sono grati per la nostra assistenza e si sono impegnati a inviarci doni di tanto in tanto."
+
+ NAME_Formless_leader: "zadigal"
+ formless_leader_desc: "Uno degli ultimi leader dei Senza Forma, un'entità extradimensionale, ha condotto flotte per un tempo superiore alla vita della maggior parte delle specie conosciute."
+ formless_leader_catch_phrase: "gratitudine... accettazione..."
+
+ astral_planes.3155.name: "Guerra ai Senza Forma"
+ astral_planes.3155.desc: "La nostra aggressiva campagna contro i Senza Forma ha fatto sì che [this.GetName] abbandonasse le flotte assegnategli e si riunisse ai loro ranghi."
+ astral_planes.3155.a: "Molto bene."
+
+ astral_planes.3165.name: "Senza Forma Distrutti"
+ astral_planes.3165.desc: "Abbiamo sterminato l'ultimo dei Senza Forma rimasti su [event_target:formless_system.GetName].\n\nTutto ciò che rimane è un dispositivo misterioso. È sufficiente appoggiare sopra le [this.species.GetHandNamePlural] per attivare le sue miracolose proprietà rigenerative. Il dispositivo funziona come una sorta di condotto tra i piani astrali, con incredibili quantità di materiale extradimensionale che fluisce spontaneamente attraverso di esso."
+
+ astral_planes.3170.desc: "anche se sappiamo chi siete...\nnon è il momento di incontrarci..."
+
+ pm_formless_haven: "Paradiso dei Senza Forma"
+ pm_formless_haven_desc: "L'ultimo baluardo degli esseri conosciuti come i Senza Forma. Le specie di altre dimensioni si stabiliranno qui di tanto in tanto sotto la loro protezione.."
+ pm_formless_haven_tt: "Genera §Y500§! £pop£ §HPop§! provenienti da un'altra specie su questo pianeta"
+
+ preset_luminarium: "Luminarium"
+ preset_luminarium_desc: "Il Luminarium è un qualcosa creato dal possessore del Trono Eterno. Colui che rivendica questo seggio esercita un'influenza sui Senzaforma, il cui impero dimensionale è ormai caduto in rovina."
+ preset_luminarium_flavor_desc: "$preset_luminarium_desc$"
+ modifiers_eternal_throne: "$preset_luminarium$"
+ eternal_throne_conditions: "$MODIFIER$"
+ not_allowed_for_luminarium: "$TRIGGER_FAIL$ §Y$preset_luminarium$§! preselezione non disponibile."
+
+##############
+# Automation #
+##############
+
+ AUTOMATION_ASTRAL_RIFTS_ENABLED: "$AUTOMATION_ASTRAL_RIFTS$ £trigger_yes£"
+ AUTOMATION_ASTRAL_RIFTS: "Esplora Fratture Astrali"
+
+##############
+# Skin Types #
+##############
+
+ SKIN_DEF: "pelle"
+ SKIN_FUR: "pelliccia"
+ SKIN_SPINES: "spine"
+ SKIN_SCALES: "scaglie"
+ SKIN_FEATHERS: "piume"
+ SKIN_EXOSKELETON: "esoscheletro"
+ SKIN_MANTLE: "crosta"
+ SKIN_SHELL: "conchiglia"
+ SKIN_MEMBRANE: "memebrana"
+ SKIN_EPIDERMIS: "epidermide"
+ SKIN_FRONDS: "fronda"
+ SKIN_VINES: "viti"
+ SKIN_ROOTS: "radici"
+ SKIN_FLESH: "carne"
+ SKIN_LIFE_SUPPORT: "supporto vitale"
+ SKIN_BONES: "ossa"
+ SKIN_BLUBBER: "grasso"
+ SKIN_GANGRENE: "cancrena"
+ SKIN_GEODES: "geodi"
+ SKIN_EXTERIOR: "parte esterna"
+ SKIN_ABSTRACT: "superficie"
+
+ ###########
+ # Agendas #
+ ###########
+
+ council_agenda_agenda_dark_matter_breakthrough_name: "Scoperta della Materia Oscura"
+ council_agenda_agenda_dark_matter_breakthrough_desc: "Ci sono potenti applicazioni che non abbiamo ancora esplorato a fondo sulla manipolazione della Materia Oscura."
+ council_agenda_agenda_dark_matter_breakthrough_init_effect_desc: "§RBlocca la scelta civica §Y$civic_dark_consortium$§!, impedendo che venga riformata.§!"
+ council_agenda_agenda_dark_matter_breakthrough_effect_desc: "Sblocca un'opzione di ricerca per una Tecnologia casuale della £sr_dark_matter£ Materia oscura."
+ agenda_dark_matter_breakthrough_techs_obsolete: "$TRIGGER_FAIL$ La Materia Oscura ha già svelato tutti i suoi segreti."
+ civic_dark_consortium_locked: "$council_agenda_agenda_dark_matter_breakthrough_name$ started"
+
+########################
+# Anomalies & Projects #
+########################
+
+ ASTRAL_SCAR_CAT: "$pc_astral_scar$"
+ anomaly_astral_scar_desc: "Abbiamo scoperto una frattura anomala nello spazio e nel tempo. Più ci avviciniamo, meno le leggi conosciute della relatività fisica hanno significato.\n\nLo studio di questo fenomeno potrebbe spingere la nostra comprensione scientifica della meccanica dell'universo a un livello superiore."
+ astral_planes.6000.name: "$pc_astral_scar$"
+ astral_planes.6000.desc: "Abbiamo completato la nostra analisi della §Y$pc_astral_scar$§! su §Y[FromFrom.System.GetName]§!.\n\nSta facendo fuoriuscire nel nostro universo del materiale proveniente da... un'altra parte. La materia non rimane a lungo intorno alla frattura, per lo meno non in modo apprezzabile. Anche se su scala relativamente minuscola, in qualche modo la farttura sta aumentando la massa complessiva del nostro universo.\n\nLa ricerca su questo fenomeno potrebbe consentirci di avere una maggiore comprensione di questa fonte di energia non ancora censita."
+ ASTRAL_SCAR_PROJECT: "$pc_astral_scar$"
+ ASTRAL_SCAR_PROJECT_DESC: "Abbiamo scoperto una frattura anomala nello spazio e nel tempo. La ricerca delle sue peculiari proprietà dovrebbe fornire preziose informazioni scientifiche."
+ astral_planes.6001.name: "$pc_astral_scar$"
+ astral_planes.6001.desc: "Abbiamo confermato l'esistenza di un altro universo oltre il nostro nel sistema §Y[FromFromFrom.System.GetName]§!.\n\nAttraverso la frattura, le sue dimensioni stanno esercitando un'immensa pressione sul nostro universo, che si traduce in un piccolo ma costante flusso di materiale verso il nostro universo. Gli effetti a lungo termine devono ancora essere compresi, ma nel frattempo dobbiamo continuare ad analizzare la sua portata cosmica."
+ astral_planes.6001.a: "Quali meraviglie si celano al di là?"
+
+ ASTRAL_SCAR_INSTABILITY: "$pc_astral_scar$ Instabile"
+ ASTRAL_SCAR_INSTABILITY_DESC: "Anomalie gravitazionalmente instabili fuoriescono dalla §Y$pc_astral_scar$§! nel sistema [From.System.GetName], che si manifestano come singolarità che si diffondono in maniera continua nello spazio antistante prima di implodere violentemente. Le navi che attraversano questo sistema sono in gradi di evitarle, ma devono procedere con maggiore cautela.\n\nUn'indagine più approfondita di questa situazione potrebbe rivelare un modo per ripristinare l'agibilità dimensionale."
+ instable_astral_scar_modifier: "$ASTRAL_SCAR_INSTABILITY$"
+ astral_planes.6006.name: "Una Sutura nel Tempo (e nello Spazio)"
+ astral_planes.6006.desc: "Dopo un'attenta analisi, confermiamo che la §Y$pc_astral_scar$§! nel sistema [From.System.GetName] è pericolosamente instabile e richiede un intervento immediato per evitare che si formino altre singolarità gravitazionali in questo sistema.\n\nLa massiccia emissione di §Y$astral_threads$§! potrebbe essere reindirizzata e utilizzata al fine di 'suturare' la fenditura. Questo riparerebbe la lacerazione dello spazio-tempo e probabilmente ci lascerebbe da questa parte una quantità significativa di materiale astrale.\n\nIn alternativa, potremmo utilizzare un massiccio carico di ordigni con l'idea di allargare la fenditura. È ipotizzabile che così facendo ci consentirebbe anche di poter pensare ad una esplorazione di ciò che potrebbe trovarsi dall'altra parte."
+ astral_planes.6006.a: "Suturatela tutto."
+ astral_planes.6006.b: "Apritela del tutto."
+ astral_planes.6007.name: "Ferita Cosmica"
+ astral_planes.6007.desc: "Dopo un'attenta manipolazione del suo tessuto lacerato, siamo riusciti a sigillare completamente la §Y$pc_astral_scar$§! nel sistema [From.System.GetName]. Le anomalie gravitazionali si sono arrestate e abbiamo recuperato una quantità significativa di §Y$astral_threads$§! durante il processo.\n\nQualsiasi realtà ci fosse dall'altra parte non rappresenterà più un pericolo per la nostra."
+ astral_planes.6008.name: "$astral_planes.6007.name$"
+ astral_planes.6008.desc: "Gli ordigni che abbiamo spedito nel nucleo della §Y$pc_astral_scar$§! nel sistema [From.System.GetName] hanno allargato le pieghe dello spazio-tempo. Dove un tempo c'era un piccolo strappo nel tessuto cosmico, ora c'è una frattura più ampia che siamo in grado di esplorare.\n\nla stabilità che ne deriva ha fatto sì che le anomalie gravitazionali si attenuassero e siamo pronti a scoprire cosa c'è oltre."
+ astral_planes.6009.name: "Collaasso Astrale"
+ astral_planes.6009.desc: "La §Y$pc_astral_scar$§! nel sistema [FromFromFromFrom.System.GetName] è collassata su se stessa, espellendo una quantità significativa di $astral_threads$ nel sistema adiacente. Dove un tempo c'era un piccolo strappo nel tessuto cosmico, ora c'è uno spazio vuoto.\n\nQualsiasi realtà ci fosse dall'altra parte non rappresenterà più un pericolo per la nostra."
+
+ GREATEST_SHOW_CAT: "Rilevato un Oggetto Luminoso"
+ anomaly_greatest_show_desc: "È stato rilevato un oggetto luminoso su un asteroide nel sistema §Y[from.System.GetName]§!.\n\nCostruito con materiali altamente avanzati, trasmette un flusso costante di onde radio su tutte le frequenze. I nostri scanner non indicano la presenza di composti esplosivi o volatili, quindi possiamo avvicinarci in tutta sicurezza per studiarlo ulteriormente."
+ astral_planes.6010.name: "Il Più Grande Spettacolo del Multiverso"
+ astral_planes.6010.desc: "L'oggetto luminoso che abbiamo scoperto su questo asteroide è un annuncio pubblicitario.\n\nQuesto enorme schermo è sostenuto da un'infrastruttura meccanica che occupa l'interno dell'asteroide su cui è montato. L'asteroide stesso è sospeso in modo anomalo in un punto dello spazio, non influenzato dall'attrazione gravitazionale di alcun oggetto vicino.\n\nLa pubblicità fa riferimento a quello che chiama "Il Più Grande Spettacolo del Multiverso". C'è un terminale che accetta crediti di energia per il teletrasporto diretto all'attrazione."
+ astral_planes.6010.a: "Pagate il biglietto."
+ astral_planes.6010.b: "Riutilizziamolo a nostro uso e consumo."
+ astral_planes.6010.c: "Smontiamolo per recuperare materiali."
+ astral_planes.6011.name: "Appare una Frattura"
+ astral_planes.6011.desc: "Dopo aver elaborato il pagamento, i macchinari all'interno dell'asteroide hanno preso vita. Un flusso di penetrante luce blu si è diffuso verso l'esterno, separando la struttura del tessuto dello spazio e del tempo. Una volta terminato il lavoro, l'asteroide è semplicemente scomparso e al suo posto è rimasto una Frattura Astrale."
+ astral_planes.6011.a: "Impressionante."
+ astral_planes.6012.name: "Una pubblicità Efficace!"
+ astral_planes.6012.desc: "Abbiamo sostituito l'annuncio insolito con una pubblicità a favore delle nostre aziende locali del pianeta [fromfrom.GetName]. Il terminale di pagamento è stato accuratamente smantellato, rivelando una piccola riserva di crediti energetici."
+ astral_planes.6012.a: "Veramente intraprendenti."
+ astral_planes.6013.name: "Segnaletica Complessa"
+ astral_planes.6013.desc: "La tecnologia dei meccanismi interni dell'asteroide era più avanzata di quanto ci aspettassimo inizialmente. Per questo motivo, il suo smatellamento ci ha ricompensato considerevolmente. Abbiamo scoperto una varietà di materiali rari, tra cui una ingente quantità di §Y$astral_threads$§!. L'asteroide cavo deve essere stato progettato per manipolare in qualche modo lo spazio e il tempo."
+ astral_planes.6013.a: "Ne faremo buon uso."
+
+ BLACK_HOLE_INSTABLE_CAT: "$sc_black_hole$ Instabile"
+ anomaly_black_hole_instable_desc: "I nostri scanner hanno rilevato deviazioni significative delle proprietà fisiche consuete del buco nero nel sistema [from.System.GetName]. Le sue forze gravitazionali sono imprevedibili e causano notevoli incongruenze temporali tra un punto e l'altro dello spazio."
+ astral_planes.6020.name: "Buco Nero Instabile"
+ astral_planes.6020.desc: "Alcune delle particelle rilasciate dal buco nero nel sistema [from.System.GetName] sono, di fatto, §Y$astral_threads$§!. Ciò significa che in un certo momento una Cicatrice Astrale è stata trascinata nella sua singolarità e ora viene lentamente espulsa. Pensavamo che un evento del genere fosse impossibile.\n\nPotrebbe esserci un modo per far espellere la cicatrice e ripristinare lo spazio di questo sistema dirigendo un flusso altamente concentrato di §Y$astral_threads$§! verso la singolarità.\n\nTuttavia, non intraprendere alcuna azione, ci permetterebbe di continuare a raccogliere il tessuto cosmico da una distanza di sicurezza"
+ astral_planes.6020.a: "Iniettate materiale astrale nella singolarità."
+ astral_planes.6020.b: "Raccogliete i filamenti a distanza di sicurezza."
+ astral_planes.6021.name: "È Apparsa una Frattura"
+ astral_planes.6021.desc: "L'iniezione di §Y$astral_threads$§! nella singolarità ha causato una reazione immediata e violenta, una marea di particelle extradimensionali si sono riversate fuori dall'attrazione gravitazionale del buco nero. Queste particelle si sono condensate in una $astral_rift$ sospesa nel pozzo gravitazionale.\n\nNon si sa come questa anomalia celeste sia stata risucchiata dalla singolarità, ma ora possiamo almeno indagare su cosa ci sia dall'altra parte."
+ astral_planes.6022.name: "È Nata una Cicatrice"
+ astral_planes.6022.desc: "IL buco nero nel sistema [from.System.GetName] ha espulso una $pc_astral_scar$ che era stata assorbita all'interno della singolaritá, insieme a una quantità significativa di materiale astrale che era intrappolato.\n\nLe forze gravitazionali del buco nero si sono poi normalizzate."
+
+ astral_planes.6030.name: "Meraviglia Astrale"
+ astralnomical_interest_modifier: "Interesse Astrale"
+ astralnomical_interest_tt: "Ogni £pop£ §HPop Organica§! Non-Schiava produce 1 £physics_research£ §YRicerca Fisica§! al mese."
+ astral_planes.6030.desc.common_1: "I coloni di [this.GetName] hanno sviluppato un'attrazione per la"
+ astral_planes.6030.desc.common_2: "visibile nel cielo dell'emisfero meridionale del pianeta. Esistono speculazioni a raffica sulle sue origini e sui pericoli o le opportunità che potrebbe presentare.\n\nGli amanti di astronomia di tutto l'impero [owner.GetName] sono accorsi sul pianeta per vederlo di persona."
+ astral_planes.6030.desc.rift: "$astral_planes.6030.desc.common_1$ $astral_rift$ $astral_planes.6030.desc.common_2$"
+ astral_planes.6030.desc.scar: "$astral_planes.6030.desc.common_1$ $pc_astral_scar$ $astral_planes.6030.desc.common_2$"
+
+ astral_planes.6035.name: "Visioni Contrastanti"
+ astral_planes.6035.tt: "La colonia perde 5 $r_stability$"
+ conflicting_visions: "$astral_planes.6035.name$"
+ astral_planes.6035.desc.common_1: "Il fascino della locale"
+ astral_planes.6035.desc.common_2: "su [this.GetName] è diventato fanatico. Molti riferiscono di aver sperimentato visioni di un mondo al di là del nostro.\n\nUn gruppo sostiene che quella"
+ astral_planes.6035.desc.common_3: "conduce al centro di una galassia a orologeria, dove un dio meccanico carica un orologio per mantenere l'equilibrio tra infiniti mondi.\n\nInvece, altri dicono che le loro visioni hanno rivelato una stella nera che contiene la chiave per l'illuminazione."
+ astral_planes.6035.desc.rift: "$astral_planes.6035.desc.common_1$ $astral_rift$ $astral_planes.6035.desc.common_2$ Frattura $astral_planes.6035.desc.common_3$"
+ astral_planes.6035.desc.scar: "$astral_planes.6035.desc.common_1$ $pc_astral_scar$ $astral_planes.6035.desc.common_2$ Cicatrice $astral_planes.6035.desc.common_3$"
+
+ astral_planes.6040.name: "Allargamento del Divario"
+ astral_planes.6040.tt: "La Colonia perde tra 5 e 10 di $r_stability$"
+ widening_divide_1: "$astral_planes.6040.name$"
+ widening_divide_2: "$widening_divide_1$"
+ widening_divide_3: "$widening_divide_1$"
+ widening_divide_4: "$widening_divide_1$"
+ widening_divide_5: "$widening_divide_1$"
+ widening_divide_6: "$widening_divide_1$"
+ astral_planes.6040.desc.common: "Lo scisma tra la popolazione di [this.GetName] si sta aggravando. Le strane visioni riferite dai coloni hanno scatenato accesi dibattiti che alla fine sono sfociati in episodi di violenza. I leader locali chiedono una proclamazione ufficiale.\n\nPer quanto possa sembrare stravagante, ci viene chiesto di dare credibilità all'esistenza di un dio meccanico o di una stella nera al di là dei loro"
+ astral_planes.6040.desc.rift: "$astral_planes.6040.desc.common$ $astral_rift$."
+ astral_planes.6040.desc.scar: "$astral_planes.6040.desc.common$ $pc_astral_scar$."
+ astral_planes.6040.a: "Lunga vita al dio meccanico."
+ astral_planes.6040.b: "Che guardino alla stella nera."
+ astral_planes.6040.c: "Nessuna delle due visioni ha alcun merito."
+
+ astral_planes.6045.name: "Conflitto Post-Teorico"
+ astral_planes.6045.desc: "Disastro su [this.GetName]!\n\nLe visioni contrastanti sperimentate dalla popolazione sono sfociate in disordini su larga scala. I gruppi in competizione hanno imbracciato le armi, con scaramucce locali che hanno portato a scontri violenti in tutto il pianeta.\n\nNon si può permettere che questo continui."
+ astral_planes.6045.a: "Fermate questa follia."
+
+ astral_planes.6050.name: "Zelo Astrale"
+ astral_zeal_modifier: "Zelo Astrale"
+ astral_zeal_modifier_tt: "Guadagna una piccola quantità di $r_unity$ al completamento di una §Y$astral_rift$§!."
+ astral_planes.6050.desc.common_1: "Con la visione di "
+ astral_planes.6050.desc.common_2: "resa credibile, il dibattito sulla"
+ astral_planes.6050.desc.common_3: "è diminuito in modo significativo. Allo stesso tempo, l'entusiasmo del pubblico per il suo studio non è mai stato così alto."
+ astral_planes.6050.desc.mechgod: "un dio meccanico"
+ astral_planes.6050.desc.blackstar: "una stella nera che espande la mente"
+ astral_planes.6050.desc.rift_mechgod: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.mechgod$ $astral_planes.6050.desc.common_2$ $astral_rift$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.rift_blackstar: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.blackstar$ $astral_planes.6050.desc.common_2$ $astral_rift$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.scar_mechgod: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.mechgod$ $astral_planes.6050.desc.common_2$ $pc_astral_scar$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.scar_blackstar: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.blackstar$ $astral_planes.6050.desc.common_2$ $pc_astral_scar$ $astral_planes.6050.desc.common_3$"
+
+ astral_planes.6055.name: "Dibattito Limitato"
+ astral_aficionados_modifier: "Amatori Astrali"
+ astral_planes.6055.desc.common: "Tutte le discussioni pubbliche sulle strane visioni su [this.GetName] sono state vietate. Punizioni severe per chiunque venga sorpreso a toccare l'argomento proibito hanno scoraggiato il conflitto aperto.\n\nMolti coloni sono passati a nuove attività, ma un nucleo di astronomi amatoriali continua a godersi il puro spettacolo dei"
+ astral_planes.6055.desc.rift: "$astral_planes.6055.desc.common$ $astral_rift$."
+ astral_planes.6055.desc.scar: "$astral_planes.6055.desc.common$ $pc_astral_scar$."
+ astral_planes.6055.a: "Una misura ragionevole."
+
+ SPONTANEOUS_EXPLOSIONS_CAT: "Esplosioni Spontanee"
+ COLONIZATION_IMPOSSIBLE_UNDER_INVESTIGATION: "$TRIGGER_FAIL$§RIl pianeta è oggetto di indagine.§!"
+ anomaly_spontaneous_explosions_desc: "Abbiamo rilevato esplosioni spontanee sulla superficie di §Y[this.GetName]§!. Non essendoci navi da guerra in orbita o vita di superficie rilevabile, la causa di queste esplosioni massicce rimane sconosciuta."
+ astral_planes.6060.name: "Munizioni Volatili"
+ astral_planes.6060.desc: "La superficie di §Y[from.GetName]§! è disseminata di munizioni difettose, ognuna delle quali esplodendo stacca pezzi di pianeta.\n\nLe armi stesse sono sconosciute ed estremamente volatili. Inoltre, lo schema delle scariche esplosive indica una rete di siti di lancio sepolti in tutto il pianeta."
+ astral_planes.6060.a: "Indagate ulteriormente."
+
+ SPONTANEOUS_EXPLOSIONS: "$astral_planes.6060.name$"
+ SPONTANEOUS_EXPLOSIONS_DESC: "$astral_planes.6060.desc$"
+ astral_planes.6065.name: "$SPONTANEOUS_EXPLOSIONS$"
+ astral_planes.6065.desc: "Ulteriori analisi indicano che questo pianeta era un tempo utilizzato come enorme deposito di armi. Essendo rimaste inattive per migliaia di anni, le singole armi stanno iniziando a funzionare male, trasformando l'intero pianeta in un campo di battaglia instabile.\n\nAbbiamo la capacità di attivare tutte le munizioni rimanenti in modo controllato. In alternativa, potremmo tentare di estrarre alcune delle armi e disattivarle prima che esplodano."
+ astral_planes.6065.a: "Fatele esplodere."
+ astral_planes.6065.b: "Tentate di recuperare gli antichi esplosivi."
+ astral_planes.6065.c: "Lasciate che la situazione si risolva da sola."
+
+ astral_planes.6070.name: "Appare una Frattura"
+ astral_planes.6070.desc.common_1: "Dopo aver dispiegato una serie di cariche attentamente studiate intorno a [from.GetName], abbiamo innescato una reazione a catena che ha distrutto interamente il pianeta."
+ astral_planes.6070.desc.common_2: "Teorizziamo che l'apertura di questa frattura sia stata causata da un potente esplosivo generatore di singolarità conservato in uno dei numerosi depositi di armi."
+ astral_planes.6070.desc.no_rift: "$astral_planes.6070.desc.common_1$\n\nL'esplosione risultante è stata così forte che non solo ha distrutto il pianeta, ma ha anche fatto un buco nel tessuto dello spazio-tempo, dando luogo alla formazione di quella che chiamiamo §Y$astral_rift$§!.\n\n$astral_planes.6070.desc.common_2$"
+ astral_planes.6070.desc.rift: "$astral_planes.6070.desc.common_1$\n\nL'esplosione risultante fu così forte che non solo distrusse il pianeta, ma portò alla formazione di una nuova §Y$astral_rift$§!.\n\n$astral_planes.6070.desc.common_2$"
+
+ astral_planes.6075.name: "Estrazione delle Armi Riuscita"
+ astral_planes.6075.desc: "Siamo riusciti a creare un condotto di estrazione per le armi conservate sulla superficie del pianeta, rendendo inerti le munizioni attive prima di prepararle per la raccolta e l'analisi.\n\nStabilire una colonia permanente su questo pianeta ci permetterebbe di sfruttare la spazio rimanente in modo più efficiente."
+
+ astral_planes.6076.name: "Scoperta Arma di Singolarità "
+ astral_planes.6076.desc: "I ricercatori che studiano [from.GetName] hanno scoperto un missile generatore di singolarità danneggiato all'interno dei depositi di armi abbandonati del pianeta. Quest'arma è stata apparentemente progettata per creare una violenta implosione gravitazionale, con il potenziale di creare un buco nello spazio-tempo stesso.\n\nPurtroppo, questo armamento è danneggiato in modo irreparabile e al di là delle nostre capacità di replica. Tuttavia, potremmo essere in grado di riutilizzarlo nell'ambito della nostra ricerca su armi esplosive simili."
+ astral_planes.6076.a: "Molto Bene."
+
+ astral_planes.6080.name: "Mancata Accensione"
+ astral_planes.6080.desc.common_1: "Mentre cercava di creare un condotto di estrazione per le armi abbandonate su [from.GetName], la [this.GetName] è stata distrutta da un esplosivo malfunzionante. Tutti a bordo del vascello sono andati perduti, compreso [leader.GetName].\n\nL'esplosione della nave ha ulteriormente innescato una reazione a catena volatile in tutta la rete di nascondigli di armi."
+ astral_planes.6080.desc.common_2: "$astral_planes.6070.desc.common_2$"
+ astral_planes.6080.desc.no_rift: "$astral_planes.6070.desc.common_1$\n\nLa cascata risultante è stata così violenta che non solo ha distrutto il pianeta, ma ha anche lacerato il tessuto dello spazio-tempo, dando luogo alla formazione di quella che chiamiamo §Y$astral_rift$§!.\n\n$astral_planes.6070.desc.common_2$"
+ astral_planes.6080.desc.rift: "$astral_planes.6070.desc.common_1$\n\nLa cascata risultante è stata così violenta che non solo ha distrutto il pianeta, ma ha portato alla formazione di una nuova §Y$astral_rift$§!.\n\n$astral_planes.6070.desc.common_2$"
+
+ astral_planes.6085.name: "Reazione a Catena"
+ astral_planes.6085.desc: "Le esplosioni spontanee di armi instabili su [from.GetName] sono culminate in una reazione a catena che ha causato la completa disgregazione del pianeta.\n\nTra i detriti, abbiamo rilevato una concentrazione significativa di §Y$volatile_motes$§!. Questa risorsa deve aver costituito un componente chiave delle armi conservate sotto la superficie."
+
+ d_weapon_extraction_facility: "Impianto Estrazione Armi"
+ d_weapon_extraction_facility_desc: "Questa struttura elabora armi antiche provenienti dai depositi lasciati da una civiltà perduta."
+
+ munitions_decommissioner: "$job_munitions_decommissioner$"
+ job_munitions_decommissioner: "Disarmatore di Munizioni"
+ job_munitions_decommissioner_plural: "Disarmatori di Munizioni"
+ job_munitions_decommissioner_desc: "Questi pratici ricercatori ispezionano e modificano le armi antiche per adattarle alle nostre specifiche moderne."
+ mod_job_munitions_decommissioner_add: "Lavori da $job_munitions_decommissioner$"
+ job_munitions_decommissioning_unit: "Unità Smantellamento Munizioni"
+ job_munitions_decommissioning_unit_plural: "Unità Smantellamento Munizioni"
+ job_munitions_decommissioning_unit_desc: "Unità specializzata nello smontaggio e nell'analisi di armi antiche."
+ mod_job_munitions_decommissioning_unit_add: "Lavori da $job_munitions_decommissioning_unit$"
+ job_munitions_decommissioning_drone: "Drone Smantellamento Munizioni"
+ job_munitions_decommissioning_drone_plural: "Droni Smantellamento Munizioni"
+ job_munitions_decommissioning_drone_desc: "Questi droni smontano efficacemente le armi antiche per adattarle alle nostre specifiche moderne."
+ mod_job_munitions_decommissioning_drone_add: "Lavori da $job_munitions_decommissioning_drone$"
+
+ astral_researcher: "$job_astral_researcher$"
+ job_astral_researcher: "Ricercatore Astrale"
+ job_astral_researcher_plural: "Ricercatori Astrali"
+ job_astral_researcher_icon: "£job_astral_researcher£"
+ job_astral_researcher_with_icon: "$job_astral_researcher_icon$ $job_astral_researcher$"
+ job_astral_researcher_plural_with_icon: "$job_astral_researcher_icon$ $job_astral_researcher_plural$"
+ job_astral_researcher_desc: "I filamenti dello spazio-tempo contengono i segreti di ogni dimensione, compresa la nostra. Questi ricercatori lavorano instancabilmente per decifrarne il significato riducendo al minimo i paradossi."
+ job_astral_researcher_effect_desc: "I £job_astral_researcher£ $job_astral_researcher_plural$ trasformano $r_consumer_goods$ in $r_research$ e $r_astral_threads$"
+ mod_job_astral_researcher_add: "Lavori da $job_astral_researcher$"
+ mod_job_astral_researcher_per_pop: "§G+1§! Lavoro da $job_astral_researcher$ per $VALUE$ Pop"
+ mod_job_astral_researcher_per_pop_short: "\n§G+1§! £mod_job_astral_researcher_add£ per $VALUE$ £pop£"
+ physicist_is_astral_researcher_tt: "I £job_physicist£ $job_physicist_plural$ vengono convertiti in $job_astral_researcher_plural_with_icon$"
+
+ job_astral_drone: "Drone Astrale"
+ job_astral_drone_plural: "Droni Astrali"
+ job_astral_drone_icon: "£job_astral_drone£"
+ job_astral_drone_with_icon: "$job_astral_drone_icon$ $job_astral_drone$"
+ job_astral_drone_desc: "I filamenti dello spazio-tempo contengono i segreti di ogni dimensione, compresa la nostra. Questi droni hanno il compito di decifrarne il significato riducendo al minimo i paradossi."
+ job_astral_drone_effect_desc: "I £job_astral_drone£ $job_astral_drone_plural$ trasformano $r_minerals$ in $r_research$ e $r_astral_threads$"
+ mod_job_astral_drone_add: "Lavori da $job_astral_drone$"
+ mod_job_astral_drone_per_pop: "§G+1§! Lavoro da $job_astral_drone$ per $VALUE$ Pop"
+ mod_job_astral_drone_per_pop_short: "\n§G+1§! £mod_job_brain_Drone_add£ per $VALUE$ £pop£"
+
+ job_astral_unit: "Unità Astrale"
+ job_astral_unit_plural: "Unità Astrali"
+ job_astral_unit_icon: "£job_astral_unit£"
+ job_astral_unit_with_icon: "$job_astral_unit_icon$ $job_astral_unit$"
+ job_astral_unit_desc: "I filamenti dello spazio-tempo contengono i segreti di ogni dimensione, compresa la nostra. Queste unità cercano di decifrarne il significato evitando a tutti i costi i paradossi."
+ job_astral_unit_effect_desc: "Le £job_astral_unit£ $job_astral_unit_plural$ trasformano $r_energy$ in $r_research$ e $r_astral_threads$"
+ mod_job_astral_unit_add: "Lavori da $job_astral_unit$"
+ mod_job_astral_unit_per_pop: "§G+1§! Lavoro da $job_astral_unit$ per $VALUE$ Pop"
+ mod_job_astral_unit_per_pop_short: "\n§G+1§! £mod_job_astral_unit_add£ per $VALUE$ £pop£"
+
+
+#############
+# Tutorials #
+#############
+
+ TUTORIAL_ASTRAL_ACTIONS_VIEW_TITLE: "Tutorial: Azioni Astrali"
+ TUTORIAL_ASTRAL_ACTIONS_VIEW_DESC: "La schermata Azioni Astrali ci permette di spendere i nostri $ASTRAL_THREADS_ICON$ per vari effetti a livello di impero. Più §SFratture Astrali§! esploriamo, più azioni sbloccheremo. Alcune azioni sono ripetibili nel tempo, mentre altre possono essere utilizzate una sola volta per sbloccare nuove abilità o tecnologie."
+
+ TUTORIAL_ASTRAL_RIFT_VIEW_TITLE: "Vista Frattura Astrale"
+ TUTORIAL_ASTRAL_RIFT_VIEW_DESC: "La finestra della Frattura Astrale mostra i dettagli della §SFrattura Astrale§! attualmente selezionata. In ogni fase di avanzamento, è possibile che vi vengano richiesti degli ordini da impartire ai nostri scienziati che porteranno a risultati diversi, a volte inaspettati. La maggior parte delle spedizioni al di là delle Fratture astrali ha più percorsi da seguire.\n\nPer svelare i segreti di una Frattura, uno Scienziato deve effettuare una §SSvolta§! per avanzare in ciascuna delle fasi della Frattura. Gli Scienziati con i rilevanti §STratti e Abilità Superiori§! accelerano il processo di avanzamento alla fase successiva, mentre un punteggio di Difficoltà più alto di una scelta di percorso lo rallenta. Ogni scienziato che indaga su una Frattura per un periodo di tempo sufficiente accumulerà §SIndizi§! che renderanno più probabile una scoperta.\n\nNel corso dell'esplorazione di una §SFrattura Astrale§!, gli scienziati sono trasportati in un'altra dimensione e non possono essere rimossi fino al completamento dell'esplorazione. Come conseguenza del fatto che sono intrappolati tra il tempo e lo spazio in questo modo, non possono morire di vecchiaia."
+
+ #Mercedes Romero Lives!
+
+ astral_planes.6100.name: "Fuga Finale"
+ astral_planes.6100.desc: "Emergendo dalla Frattura Astrale accanto alla Sfera Frattale [FromFromFrom.GetName], una vista inaspettata cattura la nostra attenzione: una capsula di salvataggio inattiva che segue la scia della Sfera. Poco dopo, riceviamo un semplice segnale di soccorso accompagnato da un video in diretta."
+ astral_planes.6100.b: "Non è affare nostro."
+ astral_planes.6100.c: "Usiamola come bersaglio d'addestramento."
+
+ NAME_Mercedes: "Mercedes Romero"
+ Mercedes_DESC: "Una centenaria con una passione per le culture aliene, in particolare per gli umani, questa allegra Blorg ha sfidato una Frattura Astrale per arrivare qui. La sua missione: fare amicizia."
+ mercedes_catch_phrase: "Possiamo essere amici?"
+ astral_planes.6105.desc.reg: "§HLa ripugnante aliena ci osserva in silenzio, il suo unico movimento è quello del pileo che ondeggia ritmicamente come un'onda. Riprendendo bruscamente la compostezza, con un gesto dei tentacoli la creatura si presenta: §!\n\nCosa- Chi- Dove sono? Scusatemi. Il mio nome è Mercedes Romero, esploratrice e diplomatica della Comunanza Blorg. Conoscete gli Umani?"
+ astral_planes.6105.desc.human: "§HLa ripugnante aliena ci osserva in silenzio, il suo unico movimento è quello del pileo che ondeggia ritmicamente come un'onda. Dopo averci individuati, scatta in avanti per poi trattenersi.§!\n\nS- Siete- Siete Umani!? §H*Squeee*§! Mi- Mi scuso, sono affascinata dalla vostra cultura sin da quando ero un piccolo germoglio!\n\n§HL'aliena allunga un tentacolo in un goffo tentativo di imitare una stretta di mano§!\n\nMi chiamo Mercedes Romero e sono lieta di incontrarvi."
+ astral_planes.6105.a: "Che cosa ricorda?"
+ astral_planes.6105.a.response: "L'ultima cosa che ricordo è il Sistema Antares. Ero impegnata in un'azione di flotta con un gruppo di Amici quando ho visto una luce intensa. Poi, il vuoto. Mi sono ritrovata qui nella mia capsula di salvataggio. Sola e senza Amici."
+ astral_planes.6105.b: " Perché sei così affascinata dagli Umani?"
+ astral_planes.6105.b.response: "Oh, gli Umani sono le creature più straordinarie! Noi Blorg li osserviamo da secoli. Infatti, gran parte della nostra cultura si basa su ciò che abbiamo appreso dalla vita Umana. Il colore! Il dramma! L'Amicizia! Ci hanno insegnato che la vita è qualcosa di più della semplice sopravvivenza. Si possono anche stringere Amicizie! Che concetto meraviglioso! Che meraviglia!"
+ astral_planes.6105.c: "Cosa può fare per noi?"
+ astral_planes.6105.c.response: "Non è proprio una domanda da Amico, ma se avete bisogno di qualcuno al vostro servizio, sono a disposizione! Certo, ho secoli di esperienza come capitano di navi scientifiche, ma la mia vera passione sono le relazioni intergalattiche. Diventando vostra Amica, posso aiutarvi a stringere altre Amicizie nel processo. Vi prego, se me lo concedete, lasciate che rappresenti i vostri interessi diplomatici!"
+ astral_planes.6105.hire_custom_tooltip:0 "§Y$NAME_Mercedes$§! si unisce al nostro impero come §HLeader§!."
+ leader_trait_blorg_insight: "Intuito Blorg"
+ leader_trait_blorg_insight_desc: "Secoli di studio delle trasmissioni e della cultura di una certa specie di mammiferi bipedi hanno reso questo individuo sfacciatamente ansioso di compiacere. Alcuni direbbero, in modo fastidioso."
+ blorg_insight_effect: "§R-25§! opinione con imperi §YUmani§!."
+ triggered_opinion_blorg_insight: "Intuito Blorg"
+ 
