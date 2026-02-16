@@ -163,11 +163,11 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
  MOD_COUNTRY_STORM_REPELLING_ADD: "Effetti repulsivi della tempesta cosmica"
  MOD_PLANET_STORM_DEVASTATION_MULT: "Riduzione della devastazione da tempesta cosmica planetaria"
  MOD_STORM_SHIP_HULL_BREAKER_MULT: "Effetti negativi delle tempeste cosmiche sulle difese delle navi:"
- MOD_SHIP_HULL_STORM_BREAKER_1: "$MOD_STORM_SHIP_HULL_BREAKER_MULT$ §G-50%§!"
- MOD_SHIP_HULL_STORM_BREAKER_2: "$MOD_STORM_SHIP_HULL_BREAKER_MULT$ §G-100%§!"
+ MOD_SHIP_HULL_STORM_BREAKER_1: "$MOD_STORM_SHIP_HULL_BREAKER_MULT$ §G-45%§!"
+ MOD_SHIP_HULL_STORM_BREAKER_2: "$MOD_STORM_SHIP_HULL_BREAKER_MULT$ §G-90%§!"
  MOD_SHIP_STORM_WEAPONS_MULT: "Effetti negativi delle tempeste cosmiche sulle armi navali:"
- MOD_SHIP_STORM_WEAPONS_1: "$MOD_SHIP_STORM_WEAPONS_MULT$ §G-50%§!"
- MOD_SHIP_STORM_WEAPONS_2: "$MOD_SHIP_STORM_WEAPONS_MULT$ §G-100%§!"
+ MOD_SHIP_STORM_WEAPONS_1: "$MOD_SHIP_STORM_WEAPONS_MULT$ §G-45%§!"
+ MOD_SHIP_STORM_WEAPONS_2: "$MOD_SHIP_STORM_WEAPONS_MULT$ §G-90%§!"
  MOD_PLANETARY_STORM_SHIELD_MULT: "Riduzione dell'effetto di devastazione delle tempeste cosmiche planetarie: §G50%§!"
  MOD_STORM_REPELLENT_TIMED: "Campo di respingimento della tempesta cosmica attivo per la durata di: "
 
@@ -189,11 +189,11 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
 
  building_storm_resistant_production: "Centro di Soccorso per le Tempeste"
  building_storm_resistant_production_desc: "Questo centro di assistenza assiste gli sforzi locali per annullare l'impatto di una tempesta cosmica sulla produzione planetaria. Attraverso un coordinamento e una comunicazione efficienti, il $building_storm_resistant_production$ consente un rapido dispiegamento delle squadre di soccorso e migliora le condizioni per il commercio a livello planetario."
- building_storm_resistant_production_tt: "Gli effetti negativi della §Y$default_storm$§! che influenzano la produzione del pianeta sono ridotti del §G25%§!.\n\nMentre una §Y$default_storm$§! è presente:$TABBED_NEW_LINE$$mod_planet_miners_minerals_produces_add$: §G+1§! $TABBED_NEW_LINE$$mod_planet_farmers_food_produces_add$: §G+1§! $TABBED_NEW_LINE$$mod_planet_technician_energy_produces_add$: §G+1§! \n\nConsente le Decisione Planetaria §Y$decision_hunker_down$§!"
+ building_storm_resistant_production_tt: "Gli effetti negativi della §Y$default_storm$§! che influenzano la produzione del pianeta sono ridotti del §G30%§!.\n\nMentre una §Y$default_storm$§! è presente:$TABBED_NEW_LINE$$mod_planet_miners_minerals_produces_add$: §G+0.5§! $TABBED_NEW_LINE$$mod_planet_farmers_food_produces_add$: §G+0.5§! $TABBED_NEW_LINE$$mod_planet_technician_energy_produces_add$: §G+0.5§! \n\nConsente le Decisione Planetaria §Y$decision_hunker_down$§!"
 
  building_advanced_storm_resistant_production: "Nullificattore di tempesta"
  building_advanced_storm_resistant_production_desc: "Aggiungendo un sistema di controllo meteorologico a ogni $building_storm_resistant_production$, gli effetti negativi delle tempeste cosmiche sono significativamente attenuati. Inoltre, le squadre di soccorso possono essere dispiegate in modo ancora più efficiente e il commercio planetario è quasi insensibile alle condizioni meteorologiche locali."
- building_advanced_storm_resistant_production_tt: "Gli effetti negativi della §Y$default_storm$§! che influenzano la produzione del pianeta sono ridotti del §G40%§!.\n\nMentre una §Y$default_storm$§! è attiva:$TABBED_NEW_LINE$$mod_planet_miners_minerals_produces_add$: §G+2§! $TABBED_NEW_LINE$$mod_planet_farmers_food_produces_add$: §G+2§! $TABBED_NEW_LINE$$mod_planet_technician_energy_produces_add$: §G+2§! \n\nConsente le Decisione Planetaria §Y$decision_hunker_down$§!"
+ building_advanced_storm_resistant_production_tt: "Gli effetti negativi della §Y$default_storm$§! che influenzano la produzione del pianeta sono ridotti del §G45%§!.\n\nMentre una §Y$default_storm$§! è attiva:$TABBED_NEW_LINE$$mod_planet_miners_minerals_produces_add$: §G+1§! $TABBED_NEW_LINE$$mod_planet_farmers_food_produces_add$: §G+1§! $TABBED_NEW_LINE$$mod_planet_technician_energy_produces_add$: §G+1§! \n\nConsente le Decisione Planetaria §Y$decision_hunker_down$§!"
 
  building_adakkaria_patriotic_institute: "Istituto patriottico della celebrazione"
  building_adakkaria_patriotic_institute_desc: "La $building_adakkaria_patriotic_institute$ è una miniera di intuizioni avanzate sulla condizione senziente. Qui manteniamo le persone in grado di coltivare la loro tempesta interiore evitando il canto allettante della crudeltà della Convenzione."
@@ -260,6 +260,11 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
  job_storm_duelist_effect_desc: "Gli [entertainer.GetIcon] [entertainer.GetNamePlural] trasformano i $r_consumer_goods$ in $r_unity$ $r_amenities$, e £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!"
  job_storm_duelist_with_icon: "£job_storm_duelist£ $job_storm_duelist$"
  job_storm_duelist_plural_with_icon: "£job_storm_duelist£ $job_storm_duelist_plural$"
+
+ reenactor: "$job_reenactor$"
+ job_reenactor: "Historic Reenactor"
+ job_reenactor_plural: "Historic Reenactors"
+ job_reenactor_desc: "Part actor, part museum curator, part warrior, these specialists realize that the best way to understand the past is to experience it."
 
 # Triggers
  count_system_within_storm_trigger: "Numero di sistemi all'interno della tempesta$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
@@ -432,7 +437,7 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
 
  resolution_cosmic_storms_protection_initiative: "Iniziativa di rilevamento delle tempeste"
  resolution_cosmic_storms_protection_initiative_desc: "È tempo di essere più proattivi. Una migliore innovazione ci aiuterà a sfruttare i vantaggi economici delle tempeste cosmiche."
- resolution_cosmic_storms_protection_initiative_tooltip: "$output_from_storm_protection_buildings$ §G+10%§!\n\n$unity_from_storms$ §G+1§!\n\n$storm_tech_draw_chance$ §G+50%§!"
+ resolution_cosmic_storms_protection_initiative_tooltip: "$output_from_storm_protection_buildings$ §G+5%§!\n\n$unity_from_storms$ §G+1§!\n\n$storm_tech_draw_chance$ §G+50%§!"
 
  resolution_cosmic_storms_protection_initiative_repeal: "Abrogazione $resolution_cosmic_storms_protection_initiative$"
  resolution_cosmic_storms_protection_initiative_repeal_desc: "$resolution_space_weather_exploitation_repeal_desc$"
@@ -440,7 +445,7 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
 
  resolution_cosmic_storms_galactic_management: "Gestione delle tempeste galattiche"
  resolution_cosmic_storms_galactic_management_desc: "Le tempeste cosmiche ci hanno spinto ad aumentare la nostra efficienza, ma c'è ancora molto da ottenere."
- resolution_cosmic_storms_galactic_management_tooltip: "$output_from_storm_protection_buildings$ §G+20%§! \n\n$storm_tech_cost$ §G-50%§! \n\n$storm_tech_draw_chance$ §G+75%§! \n\n$unity_from_storms$ §G+2§!"
+ resolution_cosmic_storms_galactic_management_tooltip: "$output_from_storm_protection_buildings$ §G+10%§! \n\n$storm_tech_cost$ §G-50%§! \n\n$storm_tech_draw_chance$ §G+75%§! \n\n$unity_from_storms$ §G+2§!"
 
  resolution_cosmic_storms_galactic_management_repeal: "Abrogazione $resolution_cosmic_storms_galactic_management$"
  resolution_cosmic_storms_galactic_management_repeal_desc: "$resolution_space_weather_exploitation_repeal_desc$"
@@ -448,7 +453,7 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
 
  resolution_cosmic_storms_utilization_protocols: "Protocolli di utilizzo delle tempeste"
  resolution_cosmic_storms_utilization_protocols_desc: "Non è più responsabile per nessuno di noi rimanere senza la protezione dalla tempesta cosmica, e altrettanto sciocco è non approfittare di ciò che le tempeste possono offrire."
- resolution_cosmic_storms_utilization_protocols_tooltip: "$output_from_storm_protection_buildings$ §G+20%§! \n\n$storm_tech_draw_guaranteed$\n\n$unity_from_storms$ §G+2§!\n\n$breach_galactic_law_intro$$TABBED_NEW_LINE$- Navi senza §YProtezione dalle tempeste cosmiche§!"
+ resolution_cosmic_storms_utilization_protocols_tooltip: "$output_from_storm_protection_buildings$ §G+10%§! \n\n$storm_tech_draw_guaranteed$\n\n$unity_from_storms$ §G+2§!\n\n$breach_galactic_law_intro$$TABBED_NEW_LINE$- Navi senza §YProtezione dalle tempeste cosmiche§!"
 
  resolution_cosmic_storms_utilization_protocols_repeal: "Abrogazione $resolution_cosmic_storms_utilization_protocols$"
  resolution_cosmic_storms_utilization_protocols_repeal_desc: "$resolution_space_weather_exploitation_repeal_desc$"
@@ -456,7 +461,7 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
 
  resolution_cosmic_storms_manipulation_mandate: "Mandato di manipolazione della tempesta"
  resolution_cosmic_storms_manipulation_mandate_desc: "Siamo chiamati a dominare le tempeste cosmiche. Queste forze della natura sono state create per servirci."
- resolution_cosmic_storms_manipulation_mandate_tooltip: "$output_from_storm_protection_buildings$ §G+30%§! \n\n$storm_tech_cost$ §G-80%§!\n\n$storm_tech_draw_guaranteed$\n\n$unity_from_storms$ §G+3§!\n\n$breach_galactic_law_intro$$TABBED_NEW_LINE$- Navi senza §YProtezione dalle tempeste cosmiche§!$TABBED_NEW_LINE$- Pianeti senza §YEdifici per tempeste cosmiche§!"
+ resolution_cosmic_storms_manipulation_mandate_tooltip: "$output_from_storm_protection_buildings$ §G+15%§! \n\n$storm_tech_cost$ §G-80%§!\n\n$storm_tech_draw_guaranteed$\n\n$unity_from_storms$ §G+3§!\n\n$breach_galactic_law_intro$$TABBED_NEW_LINE$- Navi senza §YProtezione dalle tempeste cosmiche§!$TABBED_NEW_LINE$- Pianeti senza §YEdifici per tempeste cosmiche§!"
 
  resolution_cosmic_storms_manipulation_mandate_repeal: "Abrogazione $resolution_cosmic_storms_manipulation_mandate$"
  resolution_cosmic_storms_manipulation_mandate_repeal_desc: "$resolution_space_weather_exploitation_repeal_desc$"
@@ -1280,7 +1285,7 @@ DLC_COSMIC_STORMS_RECOMMENDATION_DESC: "Raccomandiamo §S$COSMIC_STORMS_TITLE$§
 
  origin_storm_chasers: "Cacciatori di Tempeste"
  origin_storm_chasers_desc: "Non esiste sfida che non affronteranno, indizio che non seguiranno, né tempesta che lasceranno passare inosservata.\n\nQuesta civiltà è mossa dalla ricerca di emozioni, ma il loro desiderio di spingersi oltre potrebbe portarli tanto alla grandezza quanto alla rovina."
- origin_tooltip_storm_chasers_effects: "- $LEADERS_TRAITS$ ['concept_storm_rider']\n- $mod_planet_jobs_unity_produces_mult$ ricavate dalla §YStruttura della Tempesta§! Planetaria: §G+$@storm_chasers_storm_building_unity_produces_mult|%0$§! \n- §Y$default_storm$§! Possibilità di apparire entro i confini: §G+100%§! \n- §YTecnologia delle Tempeste Cosmiche§! Possibilità di opzioni di ricerca: §G+175%§!\n- Accesso alla ['concept_weather_forecasting_mode']\n- $ADDITIONAL_TECHNOLOGIES_STRING$$TABBED_NEW_LINE$- £physics£ ['technology:tech_storm_prediction_1']"
+ origin_tooltip_storm_chasers_effects: "- $LEADERS_TRAITS$ ['concept_storm_rider']\n- Planet $mod_planet_jobs_unity_produces_mult$ per §YStorm Building§!: §G+$@storm_chasers_storm_building_unity_produces_mult|%0$§!\n- Capital Buildings automatically provide the modifiers of §YStorm Shelters§! once the required technologies are researched. \n- §Y$default_storm$§! Appearance Chance Within Borders: §G+100%§! \n- §YCosmic Storm Technology§! Research Option Chance: §G+175%§!\n- Access to the ['concept_weather_forecasting_mode']\n- $ADDITIONAL_TECHNOLOGIES_STRING$$TABBED_NEW_LINE$- £physics£ ['technology:tech_storm_prediction_1']"
 
  START_SCREEN_STORM_CHASERS: "Che senso ha la vita senza adrenalina? Vivere intensamente e morire in modo spettacolare è sempre stato il nostro credo. Ma quando ogni sentiero è stato battuto e persino la vetta più alta è stata scalata, cosa rimane?\n\nIl nostro pianeta è sempre stato tempestoso, soggetto a uragani e diluvi di ogni tipo. Se troviamo il modo di sfruttare queste condizioni uniche, abbiamo la possibilità di evocare una furiosa tempesta cosmica.\n\nI nostri leggendari antenati hanno da tempo dominato le sfide del nostro mondo natale. È giunto il momento di lanciarci urlando nel vuoto. Non sarà facile, ma come dice l'anziano saggio: 'Solo gli audaci possono raggiungere l'orizzonte.'"
 
@@ -1894,6 +1899,7 @@ cstorms.1725.desc.spiritualist: "Questo fenomeno straordinario ci ricorda le mer
 # Mountain in the Sky
  d_sky_mountain: "La Montagna nel Cielo"
  d_sky_mountain_desc: "Una montagna colossale è sospesa nell'aria sottile dell'atmosfera esterna del pianeta, esponendoci nuovi depositi di minerali."
+ unlocks_zone_minerals_physics: "$t$Unlocks District Specialization: §Y$zone_minerals_physics$§!"
  cstorms.1745.name: "$d_sky_mountain$"
  cstorms.1745.desc: "Una importante §Y$gravity_storm$§! ha causato una straordinaria trasformazione sul panorama di §H[this.GetName]§!. Le potenti fluttuazioni gravitazionali della tempesta hanno staccato la montagna più grande del pianeta dalla sua zolla tettonica, sollevandola verticalmente sopra il pianeta.\n\nRimane sospesa nell'atmosfera esterna, tenuta in posizione da un effetto gravitazionale residuo della tempesta. Questo notevole sconvolgimento ha messo a nudo riserve di minerale nel sottosuolo precedentemente inaccessibili, oltre a fornire [owner.GetResearchers] con tanto da analizzare."
 
@@ -2229,3 +2235,7 @@ cstorms.1725.desc.spiritualist: "Questo fenomeno straordinario ci ricorda le mer
  job_visionary: "Visionario Tecnologico"
  job_visionary_plural: "Visionari Tecnologici""
  job_visionary_desc: "Senza vincoli e senza il peso dell'umiltà, questi visionari trasformano ipotesi audaci in realtà commerciabili. Per un vero visionario, il progresso non è solo un principio, ma un prodotto."
+ noble_merchant: "$job_noble_merchant$"
+ job_noble_merchant: "Patrician"
+ job_noble_merchant_plural: "Patricians"
+ job_noble_merchant_desc: "The right to rule is determined not by inheritance, but by the measure of one's worth; and how better to measure your worth than by the sum total of the balance sheet?"

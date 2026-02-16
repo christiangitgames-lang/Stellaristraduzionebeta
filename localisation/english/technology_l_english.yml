@@ -1226,6 +1226,7 @@
  gateway_detection:0 "§HPercorso di Rilevamento§!\n§EQuesta tecnologia porterà a ulteriori progressi nel rilevamento delle flotte occultate.§!"
  gateway_node_reformatting: "§HPercorso Formattazione Nodo§!\n§EQuesta tecnologia porterà a ulteriori progressi nelle Agende di Formattazione dei Nodi.§!"
  gateway_node_culling: "§HPercorso Sostituzione Nodo§!\n§EQuesta tecnologia porterà a ulteriori progressi nelle Agende di Sostituzione dei Nodi.§!"
+ gateway_zone: "§HRural District Specialization Path§!\n§EThis technology will lead to further advancements in Specializing Rural Districts.§!"
 
 
  #####################################

@@ -22,6 +22,7 @@
  building_necrophage_elevation_chamber:0 "Stanza dell'Elevazione"
  building_necrophage_elevation_chamber_desc:0 "Coloro che attendono la trasformazione trascorrono le loro giornate studiando le pratiche e i rituali dei [This.Owner.GetSpeciesNamePlural] nel comfort della Stanza dell'Elevazione."
  building_necrophage_elevation_chamber_desc_hive:0 "Coloro che attendono la trasformazione passano i loro giorni a prepararsi per unirsi alla coscienza collettiva [This.Owner.GetAdj] nel comfort della Stanza dell'Elevazione."
+ disables_necrophage_growth: "§PThis £building£ Building disables Pop Growth for §YNecrophage§! species!§!"
  necrophage_elevation_timer_tooltip:0 "Il prossimo rituale di elevazione su §Y[This.GetName]§! avrà luogo su §Y[This.necrophage_elevation_timer]§!.\n\n" 
  building_necrophage_elevation_chamber_scaling_tooltip:0 "Per assicurare una fornitura costante di [necro_apprentice.GetIcon] [necro_apprentice.GetNamePlural], il numero di lavori forniti deve essere tra §Y100§! e §Y300§!, che dipendono dalla §Ycrescita Pop§!.\n\n"
  building_necrophage_house_of_apotheosis:0 "Casa dell'Apoteosi"

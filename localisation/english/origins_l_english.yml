@@ -526,7 +526,7 @@
  shroud_forged.400.tt: "Gli effetti potranno richiedere fino a §Y1§! anno per manifestarsi."
  shroud_forged.400.unavailable.tt: "$TRIGGER_FAIL$Dobbiamo stabilire un processo tecnico per interfacciarci con il Velo."
  shroud_forged.400.d: "Crea altri vascelli."
- shroud_forged.400.d.tt: "Aggiunge §G$@animator_of_clay_create_more_vessels|0$§! £pop£ §YPop Macchina§! a tutte le colonie possedute."
+ shroud_forged.400.d.tt: "Add §G$@animator_of_clay_create_more_vessels|0$§! £pop£ §YShroud-Forged Pops§! to all Colonies with either a £building£ §Y$building_zroni_equilibrator$§! or £decision£ §Y$d_shroud_rift_deposit$§!."
  shroud_forged.400.e: "Migliora i nostri vascelli."
  shroud_forged.400.f: "Qual è il tuo ruolo nel Velo?"
  shroud_forged.400.g: "Non importa."

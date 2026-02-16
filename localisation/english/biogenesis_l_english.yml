@@ -43,7 +43,7 @@
 
  trait_hollow_bones: "Ossa Vuote"
  trait_hollow_bones_desc: "Le ossa fragili di questa specie permettono loro di muoversi con eleganza e leggerezza. Tuttavia, li rendono anche più sensibili agli effetti gravitazionali del loro mondo."
- trait_hollow_bones_effect: "$worker_and_simple_drone_cat_bonus_workforce_mult$ per Dimensione del Pianeta: §R-0.67%§!"
+ trait_hollow_bones_effect: "$BONUS_WORKFORCE_FOR$ $pop_cat_worker_plural$, $pop_cat_simple_drone_plural$, and Soldier Jobs per Dimensione del Pianeta: §R-0.67%§!"
 
  trait_rooted: "Radicati"
  trait_rooted_desc: "Questa specie mette letteralmente radici nell'ambiente in cui si trova, perciò lo spostamento risulta un'esperienza estremamente traumatica."
@@ -1193,6 +1193,7 @@
  genomic_facility_needed_tt: "§R\nAzione richiesta:§!\n$t$- Costruisci una §Y$building_genomic_facility$§! per iniziare la situazione §Y$genetic_ascension_situation$§!."
  building_genomic_facility: "Struttura di Ricerca Genomica"
  building_genomic_facility_plural: "Strutture di Ricerca Genomica"
+ building_genomic_facility_plural_with_icon: "£building£ $building_genomic_facility_plural$"
  building_genomic_facility_desc: "Strutture specializzate dove si plasma il nostro futuro genetico."
 
  genetic_ascension_number_of_genomic_researchers: "Posti di lavoro $job_genomic_researcher_plural$"
@@ -1233,24 +1234,24 @@
  no_mutation_unlock_tt: "§PL'Approccio §Y$genetic_ascension_approach_mutation$§! non è stato selezionato in nessuna fase!§!"
 
  purity_unlock_level_1: "Ricerca Genomica - Purezza I"
- purity_unlock_level_1_tt: "£mod_logistic_growth_mult£ $MOD_LOGISTIC_GROWTH_MULT$ per $pop_group_unit$ [GetGenomicJobsPluralWithIcon]: §G+$@genomic_purity_growth|1%$§!"
+ purity_unlock_level_1_tt: "£mod_logistic_growth_mult£ $MOD_LOGISTIC_GROWTH_MULT$ from $building_genomic_facility_plural_with_icon$: §G+$@genomic_purity_growth|0%$§!"
  purity_unlock_level_1_desc: "$genetic_ascension_approach_purity_desc$"
  purity_unlock_level_2: "Ricerca Genomica - Purezza II"
  purity_unlock_level_2_tt: "$purity_unlock_level_1_tt$\n"
  purity_unlock_level_2_desc: "$genetic_ascension_approach_purity_desc$"
 
  cloning_unlock_level_1: "Ricerca Genomica - Clonazione I"
- cloning_unlock_level_1_tt: "£mod_bonus_pop_growth£ $MOD_BONUS_POP_GROWTH$ per $pop_group_unit$ [GetGenomicJobsPluralWithIcon]: §G+$@genomic_cloning_assembly|0$§!"
+ cloning_unlock_level_1_tt: "£mod_bonus_pop_growth£ $MOD_BONUS_POP_GROWTH$ from $building_genomic_facility_plural_with_icon$: §G+$@genomic_cloning_assembly|0$§!"
  cloning_unlock_level_1_desc: "$genetic_ascension_approach_cloning_desc$"
  cloning_unlock_level_2: "Ricerca Genomica - Clonazione II"
- cloning_unlock_level_2_tt: "$cloning_unlock_level_1_tt$\n£mod_planet_amenities_add£ Comfort planetario per $pop_group_unit$ [GetGenomicJobsPluralWithIcon]: §G+$@genomic_cloning_amenities|0$§!"
+ cloning_unlock_level_2_tt: "$cloning_unlock_level_1_tt$\n£mod_planet_amenities_add£ Amenities from $building_genomic_facility_plural_with_icon$: §G+$@genomic_cloning_amenities|0$§!"
  cloning_unlock_level_2_desc: "$genetic_ascension_approach_cloning_desc$"
 
  mutation_unlock_level_1: "Ricerca Genomica - Mutazione I"
- mutation_unlock_level_1_tt: "£mod_pop_environment_tolerance£ $MOD_POP_ENVIRONMENT_TOLERANCE$ da £building£ $building_genomic_facility_plural$: §G+$@genomic_mutation_habitability|1%$§!"
+ mutation_unlock_level_1_tt: "£mod_pop_environment_tolerance£ $MOD_POP_ENVIRONMENT_TOLERANCE$ from $building_genomic_facility_plural_with_icon$: §G+$@genomic_mutation_habitability|0%$§!"
  mutation_unlock_level_1_desc: "$genetic_ascension_approach_mutation_desc$"
  mutation_unlock_level_2: "Ricerca Genomica - Mutazione II"
- mutation_unlock_level_2_tt: "$mutation_unlock_level_1_tt$\n$MOD_AUTO_MOD_MONTHLY_ADD$ da £building£ $building_genomic_facility_plural$: §G+$@genomic_mutation_auto_mod|0$§!"
+ mutation_unlock_level_2_tt: "$mutation_unlock_level_1_tt$\n$MOD_AUTO_MOD_MONTHLY_ADD$ from $building_genomic_facility_plural_with_icon$: §G+$@genomic_mutation_auto_mod|0$§!"
  mutation_unlock_level_2_desc: "$genetic_ascension_approach_mutation_desc$"
 
  # Traditions
@@ -2159,7 +2160,7 @@
 
  civic_crowdsourcing: "Crowdsourcing"
  civic_crowdsourcing_desc: "Questa società ha capito che l'ispirazione individuale è la radice della vera innovazione. Brevetti open-source, apertura mentale, collaborazioni spontanee e premi all'innovazione aprono la strada al progresso."
- civic_crowdsourcing_effects: "$t$- Le fazioni producono $r_research$ invece di $r_unity$ $TABBED_NEW_LINE$- Le fazioni si formeranno nel tuo impero subito dopo l'inizio della partita"
+ civic_crowdsourcing_effects: "$t$- Le fazioni producono $r_research$ invece di $r_unity$ $TABBED_NEW_LINE$- Le fazioni si formeranno nel tuo impero subito dopo l'inizio della partita, ma la Produzione delle Fazioni è ridotta per i primi dieci anni"
  civic_corporate_crowdsourcing: "Ricerca e Sviluppo Decentralizzata"
  civic_corporate_crowdsourcing_desc: "Le regolari competizioni interdipartimentali per l'innovazione stimolano le iniziative di ricerca e sviluppo di questa azienda."
  civic_corporate_crowdsourcing_effects: "$civic_crowdsourcing_effects$ $TABBED_NEW_LINE$- £building£ §Y$building_private_research_initiative$§!: $megacorp_civic_branch_office_building_effect$"

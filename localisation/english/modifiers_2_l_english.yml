@@ -122,6 +122,8 @@
  empire_size_mods:0 "Dimensione Imperiale"
  taste_the_stars:0 "Assapora le stelle"
  taste_the_stars_desc:0 "La scoperta di un'antica bevanda aliena ha dato al nostro popolo un assaggio per l'ignoto." 
+ game_start: "Early Years"
+ game_start_desc: "Faction output is reduced for the first ten years."
  
  rock_brain_decoding:0 "Linguaggio del Cervello di Pietra" 
  

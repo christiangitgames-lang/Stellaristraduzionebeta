@@ -279,7 +279,7 @@
 
  trait_plantoid_bloomed: "Fiorita"
  trait_plantoid_bloomed_desc: "L'esposizione di questa specie agli effetti della trasformazione di un Seminatore Gaia, fa germogliare fioriture simbiotiche di licheni quando vive su Pianeti Gaia."
- plantoid_bloomed_trait_tooltip: "Effetti su Pianeti Gaia:\n$t$$mod_planet_jobs_produces_mult$: §G+10%§!\n$t$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!\n$t$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nQuesti effetti vengono aumentati dalle £building£ $building_gaiaseeders_4$."
+ plantoid_bloomed_trait_tooltip: "Effects on Gaia Worlds:\n$t$$pop_bonus_workforce_mult$: §G+10%§!\n$t$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!\n$t$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nThese effects are increased by a £building£ $building_gaiaseeders_4$."
 ### Catalytic Processing by Byron Aytoun
 
 # Regular

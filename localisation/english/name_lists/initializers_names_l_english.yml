@@ -234,6 +234,7 @@
  NAME_Superstructure_I:0 "Superstruttura I" #ringworld segment
  NAME_Superstructure_II:0 "Superstruttura II" #ringworld segment
  NAME_Superstructure_III:0 "Superstruttura III" #ringworld segment
+ NAME_Superstructure_III:0 "Superstruttura III" #ringworld segment
 
 # Species names
  NAME_Dead_Species:0 "Specie Morte"

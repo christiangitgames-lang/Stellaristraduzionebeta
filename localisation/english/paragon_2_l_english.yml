@@ -1399,7 +1399,7 @@
  leader_trait_totalitarian:0 "Araldo dell'Impero"
  leader_trait_totalitarian_desc:2 "Un titolo di onore e reputazione, l'Araldo è un abile giocatore nel grande gioco delle nazioni. Tali diplomatici forniscono un collegamento fidato tra un signore feudale e i suoi vassalli."
  leader_trait_bellicose:0 "Stimato Logistico"
- leader_trait_bellicose_effect:1 "$EMPIRE_EFFECTS_TXT$:\n$t$Ogni 100 [Leader.GetLeaderSoldierJobType]:\n$tt$$MOD_COUNTRY_NAVAL_CAP_ADD$: §G+2§!\n$tt$$MOD_DEFENSE_ARMIES_ADD$: §G+1§!"
+ leader_trait_bellicose_effect:1 "$EMPIRE_EFFECTS_TXT$:\n$t$Ogni 100 [Leader.GetLeaderSoldierJobType]:\n$tt$$MOD_COUNTRY_NAVAL_CAP_ADD$: §G+2§!\n$tt$$MOD_DEFENSE_ARMIES_ADD$: §G+0.5§!"
  leader_trait_bellicose_desc:1 "Con un genio per la logistica, questo comandante mantiene l'efficienza delle operazioni militari con soluzioni ingannevolmente semplici."
 
  # Special Traits

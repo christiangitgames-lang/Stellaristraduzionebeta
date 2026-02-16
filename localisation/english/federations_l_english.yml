@@ -2074,6 +2074,9 @@
  mod_council_member:0 "Membro del Consiglio"
  mod_galactic_community_delegate:0 "Delegati Comunitari"
 
+mod_unemployment_resources_energy_upkeep_add:0 "Unemployed Energy Upkeep"
+ mod_damage_vs_country_type_gray_goo_mult:0 "Damage to Nanites"
+ 
  mod_station_gatherers_energy_produces_mult:0 "Produzione Energetica Stazione Mineraria"
  mod_unemployment_resources_energy_upkeep_add:0 "Mantenimento Energetico Disoccupati"
  mod_damage_vs_country_type_gray_goo_mult:0 "Danni ai Naniti"
@@ -2649,6 +2652,9 @@
  mod_artificial_planet_jobs_produces_mult: "Produzione della Pop sui Pianeti Artificiali"
  mod_station_gatherers_unity_cost_add: "Costo £unity£ Unità Costruzione Stazione Mineraria"
  mod_station_researchers_unity_cost_add: "Costo £unity£ Unità Costruzione Stazione di Ricerca" 
+ mod_artificial_planet_jobs_produces_mult: "Pop Output on Artificial Worlds"
+ mod_station_gatherers_unity_cost_add: "Mining Station £unity£ Unity Build Cost"
+ mod_station_researchers_unity_cost_add: "Research Station £unity£ Unity Build Cost"
  
  START_SCREEN_SCION:1 "All'inizio della nostra storia, prima che sviluppassimo la maggior parte della nostra tecnologia, i nostri benefattori alieni si sono mostrati a noi. Ci spiegarono, in termini che i nostri antenati potessero comprendere, che la nostra specie era molto promettente. Con molta pazienza, ci guidarono su un cammino che aiutò la nostra civiltà a raggiungere il pieno potenziale.\n\nIn quelle rare occasioni nelle quali deviammo dalla retta via, corressero il nostro cammino... fermamente, come farebbe un genitore... e ben presto i nostri scienziati padroneggiarono l'elettricità, l'energia atomica ed i primi voli spaziali. Sotto la tutela dei nostri supervisori, abbiamo appena costruito i nostro primo [GetStartingDrive]." 
  origin_scion:0 "Rampollo"

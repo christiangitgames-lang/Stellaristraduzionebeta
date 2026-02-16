@@ -110,7 +110,7 @@
  SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
  SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "I nostri sudditi sono qui per servirci, e dovrebbero sempre saperlo. Mostrare clemenza nei loro confronti contrarierà enormemente la fazione."
  SUPREMACIST_UNPLUGGED_CYBERIZE: "Abbraccia la Nostra Identità Meccanica"
- SUPREMACIST_UNPLUGGED_NOT_CYBERIZE: "$SUPREMACIST_UNPLUGGED_DECYBERIZE$"
+ SUPREMACIST_UNPLUGGED_NOT_CYBERIZE: "Repressed Machine Identity"
  SUPREMACIST_UNPLUGGED_CYBERIZE_DESC: "Perfezionare e aggiornare la cibernetica che ci è stata donata dalla Macchina rinvigorirà la nostra temibile eredità e quindi soddisferà [root.GetName]."
 
  # XENOISTS
@@ -237,7 +237,7 @@
  IMPERIALIST_FLEET_USAGE_LOW:0 "Bassa Capacità Navale"
  IMPERIALIST_FLEET_USAGE_NOT_LOW:0 "$IMPERIALIST_FLEET_USAGE_LOW$"
  IMPERIALIST_FLEET_USAGE_LOW_DESC:0 "Mantenere una flotta molto al di sotto della capacità del nostro impero li contrarierà notevolmente."
- IMPERIALIST_UNPLUGGED_CYBERIZE: "$SUPREMACIST_UNPLUGGED_CYBERIZE$"
+ IMPERIALIST_UNPLUGGED_CYBERIZE: "Embrace Our Machine Identity"
  IMPERIALIST_UNPLUGGED_NOT_CYBERIZE: "$SUPREMACIST_UNPLUGGED_NOT_CYBERIZE$"
  IMPERIALIST_UNPLUGGED_CYBERIZE_DESC: "$SUPREMACIST_UNPLUGGED_CYBERIZE_DESC$"
 

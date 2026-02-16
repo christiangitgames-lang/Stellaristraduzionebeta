@@ -167,6 +167,8 @@
  refugees.1.desc.3:0 "Una piccola flotta di navi martoriate con a bordo alcuni rifugiati §Y[Root.GetSpeciesNamePlural]§! in fuga da §Y[RefugeeEscapedFrom.GetName]§! è arrivata nel nostro spazio. Dopo averli sfamati e medicato i feriti, è stato permesso loro di stabilirsi su §H[Root.Planet.GetName]§!.\n\nQuesti cenciosi e terrorizzati rifugiati stanno fuggendo dai combattimenti che infuriano nello spazio [RefugeeEscapedFrom.GetSpeciesAdj]. Sono a malapena riusciti a lasciare il loro pianeta natale, §H[RefugeeEscapedPlanet.GetName]§!, prima che l'incubo [RefugeeEscapedCrisis.GetSpeciesAdj] lo raggiungesse, lasciando alle spalle la maggior parte dei loro averi."
  refugees.1.a:0 "Sono i benvenuti."
 
+ mod_refugee_attraction: "Refugee Attraction"
+ 
  snake_infestation_chain_name:0 "Ofidiani Insidiosi"
  snake_infestation_chain_title:0 "Ofidiani Insidiosi"
  snake_infestation_chain_desc:0 "Qualcosa stà scavando nel sottosuolo per uscire in superficie, infestando la nostra colonia!"

@@ -2325,7 +2325,7 @@
  progress.2.a.assim:0 "Saremo una cosa sola."
  progress.2.a.mech:0 "Ricevuto."
  progress.2.a.term:0 "Saremo pronti per loro."
- progress.2.a.serv:0 "Meraviglioso! Preparate i cesti di benvenuto."
+ progress.2.a.serv:0 "Eccellente. Preparate i protocolli preliminari di arricchimento."
  progress.2.a.evopred: "Che notizia deliziosa!"
  progress.3.name:0 "La Prima Colonia di Origine [Root.Owner.GetSpeciesName]"
  progress.3.desc_end:0 "\n\nLa nave è stata trasformata in un §Y$building_colony_shelter$§! per fungere da quartier generale e il suo nucleo del reattore è stato rimosso per fungere da fonte di energia temporanea della colonia. Tende piene di materiali da costruzione, insieme a rifugi prefabbricati, sono spuntate intorno allo scafo della nave mentre i coloni sbarcano, segnando la prima città [Root.Owner.GetSpeciesName] su un mondo alieno."

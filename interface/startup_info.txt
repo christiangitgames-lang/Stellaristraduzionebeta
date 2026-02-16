@@ -1,37 +1,15 @@
-§GStellaris§! §WTraduzione§! §RItaliana§!
+﻿§YLa traduzione non è testata§!
+Essenzialmente devo ringraziare §YStellaris Traduzione Italiana§! per aver già fatto il lavoro sporco con la 4.0. 
+Io ho solo preso il testimone e l'ho portato fino alla §GCetus§!. Tipo staffetta, ma senza correre.
+E senza sudare. E senza tradurre i conflitti §Rgrossi§! mettendoli in §Ringlese§!.
+Insomma, un lavoro da vero §Geroe§!.
 
-L'aggiornamento Stellaris 4.2 "Corvus" alza la temperatura con il pacchetto specie Infernals.
+§RNON È ANCORA IL TUO MOMENTO. MA POTREBBE ESSERLO.§!
 
-La costellazione del "Corvus" rappresenta il Corvo, le cui ali sono state annerite dall'ira di Apollo. Corvus ti offre il nostro pacchetto specie più ambizioso fino ad ora, in cui la vita estremofila prospera dove gli altri bruciano.
+La Open Beta 4.3.0 si concentra sul'equilibrio economico e sulle prestazioni. Sono state apportate modifiche significative all'economia per riequilibrarla su un livello di potenza generalmente più basso, con meno bonus o modificatori che si accumulano in modo non lineare fino a livelli estremi. Alcuni tratti, edifici o specializzazioni distrettuali potrebbero essere stati modificati o addirittura rimossi.
 
-Le cose si stanno facendo un po' troppo calde anche per gli Infernali nell'origine Red Giant (Gigante Rosso), poiché il sole del tuo pianeta natale inizia inaspettatamente ad espandersi. Sta a te decidere se risolvere questo mistero e invertire il processo o lasciarlo andare, riforgiando il tuo popolo nel calore di una supernova. L'origine Cosmic Dawn inizia proprio dall'inizio: il tuo impero prosperava prima che il raffreddamento intrappolasse il tuo popolo in pianeti solidificati. Recentemente liberati da questa prigione grazie all'attività vulcanica, è tempo di riportare il tuo impero alla gloria... Magari incendiando l'universo con il percorso di crisi "Ipertermia Galattica".
+In questa build le flotte hanno ricevuto cambiamenti importanti volti a ridurre il numero totale di navi, rendendo ogni singola unità più preziosa e, si spera, più interessante. Le difese delle navi sono state migliorate (soprattutto per gli scafi più grandi), quindi i combattimenti potrebbero durare più a lungo rispetto a prima. Tieni presente che i Raggi di Perdizione dei Titani ora infliggono danni collaterali all'intera flotta.
 
-L'aggiornamento Corvus apporta anche ulteriori correzioni di bug e miglioramenti a Custodian: consulta le note complete sulla patch e i Dev Diary per maggiori dettagli.
+Dietro le quinte, i programmatori dei Custodi si stanno concentrando su prestazioni e stabilità, portando funzionalità di threading e modificatori dalle versioni più recenti del nostro motore Clausewitz. Abbiamo inoltre migliorato il tracciamento dei problemi legati alle prestazioni, il che ci aiuterà a individuarli e risolverli man mano che questa Open Beta procede.
 
-Grazie per aver giocato a Stellaris, e che i tuoi imperi possano brillare di luce propria! (Ma non troppo!)
-
---------
-
-§YCometer (la nostra Mente Alveare)§!
-Ti ricorderemo sempre, questo non è un addio, ma semplicemente un arrivederci.
-"Il cosmo è dentro di noi. Siamo fatti della stessa materia delle stelle." - Carl Sagan
-
---------
-
-Team Stellaris Traduzione Italiana:
-
-§MMikDalex - Maestro del Velo§!
-§BDarthGisa - Custode§!
-§BLow Mist - Custode§!
-§BNebu84 - Custode§!
-§VLavy - Specialista / Beta§!
-§VMr.Liodena - Specialista / Beta§!
-
---------
-
-Seguici sui nostri canali ufficiali:
-https://discord.gg/3xDqCk5Gs7
-https://www.facebook.com/stellaris.traduzione.italiana
-https://www.youtube.com/stellaristraduzione
-
-«« »»» »» »» »»» »«« »« « «»«» »»»» »» «» ««»
+Facci sapere sui nostri forum cosa pensi dei cambiamenti. Il tuo feedback è essenziale per far funzionare al meglio questo processo di Open Beta.

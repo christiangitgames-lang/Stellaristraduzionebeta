@@ -42,7 +42,7 @@
  mod_citizen_pop_same_species_class_happiness: "La Felicità dei cittadini che condividono il pianeta con la stessa §YClasse di Specie§!"
  mod_citizen_pop_different_species_class_happiness: "La Felicità dei cittadini che opprimono le altre §YClassi di specie§!"
  mod_citizen_pop_political_power: "Potere Politico Cittadino"
- civic_tooltip_selective_kinship_effects: "Opinione degli Imperi con condivisione ['concept_species_class']: §G+100§!\nOpinione degli altri Imperi: §R-50§!\nLa £pop£ §HPop§! della nostra §YClasse di Specie§! ha la Piena Cittadinanza\nLe altre £pop£ §HPop§! sono escluse dalla Piena Cittadinanza"
+ civic_tooltip_selective_kinship_effects: "Opinione degli Imperi con condivisione ['concept_species_class']: §G+100§!\nOpinione degli altri Imperi: §R-50§!\n$mod_refugee_attraction$ with our §YSpecies Class§!: §G+30%§!\nLe altre £pop£ §HPop§! sono escluse dalla Piena Cittadinanza"
  councilor_selective_kinship: "Portavoce di Parentela"
  councilor_selective_kinship_female: "$councilor_selective_kinship$"
  councilor_selective_kinship_desc: "Il $TITLE$ amplifica la voce dei nostri legittimi cittadini."

@@ -38,6 +38,7 @@
  HUM_fossil_plural:0 "fossili"
  HUM_remnant:0 "scheletro"
  HUM_remnant_plural:0 "scheletri"
+ HUM_birth: "birth"
  
  MAM:0 "Mammifero"
  MAM_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Mammiferi potrebbero considerare gli altri Mammiferi meno alieni rispetto ad altre Classi."
@@ -66,6 +67,7 @@
  MAM_fossil_plural:0 "fossili"
  MAM_remnant:0 "scheletro"
  MAM_remnant_plural:0 "scheletri"
+ MAM_birth: "$HUM_birth$"
  
  REP:0 "Rettiliano"
  REP_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Rettiliani potrebbero considerare gli altri Rettiliani meno alieni rispetto ad altre Classi."
@@ -96,6 +98,7 @@
  REP_fossil_plural:0 "fossili"
  REP_remnant:0 "scheletro"
  REP_remnant_plural:0 "scheletri"
+ REP_birth: "hatching"
  
  AVI:0 "Aviario"
  AVI_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma gli Aviari potrebbero considerare gli altri Aviari meno alieni rispetto ad altre Classi."
@@ -130,6 +133,7 @@
  AVI_fossil_plural:0 "fossili"
  AVI_remnant:0 "scheletro"
  AVI_remnant_plural:0 "scheletri"
+ AVI_birth: "$REP_birth$"
  
  ART:0 "Artropoide"
  ART_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma gli Artropodi potrebbero considerare gli altri Artropoidi meno alieni rispetto ad altre Classi."
@@ -158,6 +162,7 @@
  ART_fossil_plural:0 "resti di gusci"
  ART_remnant:0 "guscio"
  ART_remnant_plural:0 "gusci"
+ ART_birth: "$REP_birth$"
  
  MOL:0 "Molluscoide"
  MOL_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Molluschi potrebbero considerare gli altri Molluschi meno alieni rispetto ad altre Classi."
@@ -186,6 +191,7 @@
  MOL_fossil_plural:0 "avanzi"
  MOL_remnant:0 "residuo pallido"
  MOL_remnant_plural:0 "residui pallidi"
+ MOL_birth: "$REP_birth$"
  
  FUN:0 "Fungoide"
  FUN_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Fungoidi potrebbero considerare gli altri Fungoidi meno alieni rispetto ad altre Classi."
@@ -214,6 +220,7 @@
  FUN_fossil_plural:0 "avanzi"
  FUN_remnant:0 "residuo pallido"
  FUN_remnant_plural:0 "residui pallidi"
+ FUN_birth: "$PLANT_birth$"
  
  PLANT:1 "Plantoide"
  PLANT_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Plantoidi potrebbero considerare gli altri Plantoidi meno alieni rispetto ad altre Classi."
@@ -242,6 +249,7 @@
  PLANT_fossil_plural:0 "fossili"
  PLANT_remnant:0 "radice secca"
  PLANT_remnant_plural:0 "radici secche"
+ PLANT_birth: "sprouting"
 
  PRE_PLANT:0 "$PLANT$"
  PRE_PLANT_desc:0 "$PLANT_desc$"
@@ -270,6 +278,7 @@
  PRE_PLANT_fossil_plural:0 "$PLANT_fossil_plural$"
  PRE_PLANT_remnant:0 "$PLANT_remnant$"
  PRE_PLANT_remnant_plural:0 "$PLANT_remnant_plural$"
+ PRE_PLANT_birth: "$PLANT_birth$"
  
  PRE_MAM:0 "Mammifero"
  PRE_MAM_desc:0 ""
@@ -298,6 +307,7 @@
  PRE_MAM_fossil_plural:0 "$MAM_fossil_plural$"
  PRE_MAM_remnant:0 "$MAM_remnant$"
  PRE_MAM_remnant_plural:0 "$MAM_remnant_plural$"
+ PRE_MAM_birth: "$MAM_birth$"
  
  PRE_REP:0 "Rettiliano"
  PRE_REP_desc:0 ""
@@ -328,6 +338,7 @@
  PRE_REP_fossil_plural:0 "$REP_fossil_plural$"
  PRE_REP_remnant:0 "$REP_remnant$"
  PRE_REP_remnant_plural:0 "$REP_remnant_plural$"
+ PRE_REP_birth: "$REP_birth$"
  
  PRE_AVI:0 "Aviario"
  PRE_AVI_desc:0 ""
@@ -362,6 +373,7 @@
  PRE_AVI_fossil_plural:0 "$AVI_fossil_plural$"
  PRE_AVI_remnant:0 "$AVI_remnant$"
  PRE_AVI_remnant_plural:0 "$AVI_remnant_plural$"
+ PRE_AVI_birth: "$AVI_birth$"
  
  PRE_ART:0 "Artropoide"
  PRE_ART_desc:0 ""
@@ -390,6 +402,7 @@
  PRE_ART_fossil_plural:0 "$ART_fossil_plural$"
  PRE_ART_remnant:0 "$ART_remnant$"
  PRE_ART_remnant_plural:0 "$ART_remnant_plural$"
+ PRE_ART_birth: "$ART_birth$"
  
  PRE_MOL:0 "Molluscoide"
  PRE_MOL_desc:0 ""
@@ -418,6 +431,7 @@
  PRE_MOL_fossil_plural:0 "$MOL_fossil_plural$"
  PRE_MOL_remnant:0 "$MOL_remnant$"
  PRE_MOL_remnant_plural:0 "$MOL_remnant_plural$"
+ PRE_MOL_birth: "$MOL_birth$"
  
  PRE_FUN:0 "Fungoide"
  PRE_FUN_desc:0 ""
@@ -446,6 +460,7 @@
  PRE_FUN_fossil_plural:0 "$FUN_fossil_plural$"
  PRE_FUN_remnant:0 "$FUN_remnant$"
  PRE_FUN_remnant_plural:0 "$FUN_remnant_plural$"
+ PRE_FUN_birth: "$FUN_birth$"
  
  #ROBOT: "Robot"
  ROBOT_desc:0 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Robot potrebbero considerare gli altri Robot meno alieni rispetto ad altre Classi."
@@ -474,6 +489,7 @@
  ROBOT_fossil_plural:0 "componenti arrugginiti"
  ROBOT_remnant:0 "circuito elettrico"
  ROBOT_remnant_plural:0 "circuiti elettrici"
+ ROBOT_birth: "activation"
  
  #MACHINE: "Machine"
  MACHINE_desc:0 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma le Macchine potrebbero considerare le altre Macchine meno aliene rispetto ad altre Classi."
@@ -502,6 +518,7 @@
  MACHINE_fossil_plural:0 "componenti arrugginiti"
  MACHINE_remnant:0 "circuito elettrico"
  MACHINE_remnant_plural:0 "circuiti elettrici"
+ MACHINE_birth: "$ROBOT_birth$"
  
  LITHOID:0 "Litoide"
  LITHOID_desc:0 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Litoidi potrebbero considerare gli altri Litoidi meno alieni rispetto ad altre Classi."
@@ -530,6 +547,7 @@
  LITHOID_fossil_plural:0 "frammenti"
  LITHOID_remnant:0 "sasso senza vita"
  LITHOID_remnant_plural:0 "sassi senza vita"
+ LITHOID_birth: "formation"
 
  PRE_LITHOID:0 "$LITHOID$"
  PRE_LITHOID_desc:0 "$LITHOID_desc$"
@@ -558,6 +576,7 @@
  PRE_LITHOID_fossil_plural:0 "$LITHOID_fossil_plural$"
  PRE_LITHOID_remnant:0 "$LITHOID_remnant$"
  PRE_LITHOID_remnant_plural:0 "$LITHOID_remnant_plural$"
+ PRE_LITHOID_birth: "$LITHOID_birth$"
  
  SWARM:0 "Sciame"
  EXD:0 "Extradimensionali"
@@ -589,6 +608,7 @@
  NECROID_fossil_plural:0 "fossili"
  NECROID_remnant:0 "scheletro"
  NECROID_remnant_plural:0 "scheletri"
+ NECROID_birth: "animation"
 
  PRE_NECROID:0 "$NECROID$"
  PRE_NECROID_desc:0 "$NECROID_desc$"
@@ -617,6 +637,7 @@
  PRE_NECROID_fossil_plural:0 "$NECROID_fossil_plural$"
  PRE_NECROID_remnant:0 "$NECROID_remnant$"
  PRE_NECROID_remnant_plural:0 "$NECROID_remnant_plural$"
+ PRE_NECROID_birth: "$NECROID_birth$"
 
  # This is not really an actual species class, but we need it for the Imperial ship set
  IMPERIAL:0 "Imperiale"
@@ -659,6 +680,7 @@
  AQUATIC_fossil_plural:0 "fossili"
  AQUATIC_remnant:0 "lisca"
  AQUATIC_remnant_plural:0 "lische"
+ AQUATIC_birth: "$REP_birth$"
 
  PRE_AQUATIC:0 "$AQUATIC$"
  PRE_AQUATIC_desc:0 "$AQUATIC_desc$"
@@ -698,6 +720,7 @@
  PRE_AQUATIC_fossil_plural:0 "$AQUATIC_fossil_plural$"
  PRE_AQUATIC_remnant:0 "$AQUATIC_remnant$"
  PRE_AQUATIC_remnant_plural:0 "$AQUATIC_remnant_plural$"
+ PRE_AQUATIC_birth: "$AQUATIC_birth$"
 
  TOX:1 "Tossicoide"
  TOX_desc:1 "Le Classi Specie non ha alcun effetto sul nostro Impero, ma i Tossicoidi potrebbero considerare gli altri Tossicoidi meno alieni rispetto ad altre Classi di Specie."
@@ -733,6 +756,7 @@
  TOX_fossil_plural:0 "fossili"
  TOX_remnant:0 "scheletro"
  TOX_remnant_plural:0 "scheletri"
+ TOX_birth: "nascency"
 
  PRE_TOX:0 "$TOX$"
  PRE_TOX_desc:0 "$TOX_desc$"
@@ -768,6 +792,7 @@
  PRE_TOX_fossil_plural:0 "$TOX_fossil_plural$"
  PRE_TOX_remnant:0 "$TOX_remnant$"
  PRE_TOX_remnant_plural:0 "$TOX_remnant_plural$"
+ PRE_TOX_birth: "$TOX_birth$"
 
 
  INF: "Infernale" #consider changing to Thermophile?
@@ -808,6 +833,7 @@
  INF_fossil_plural: "fossili"
  INF_remnant: "cenere"
  INF_remnant_plural: "ceneri"
+ INF_birth: "kindling"
 
  PRE_INF: "$INF$"
  PRE_INF_desc: "$INF_desc$"
@@ -847,8 +873,41 @@
  PRE_INF_fossil_plural: "$INF_fossil_plural$"
  PRE_INF_remnant: "$INF_remnant$"
  PRE_INF_remnant_plural: "$INF_remnant_plural$"
+ PRE_INF_birth: "$INF_birth$"
 
 
+ MINDWARDEN: "Custode Mentale"
+ MINDWARDEN_desc: ""
+ MINDWARDEN_plural: "Custodi Mentali"
+ MINDWARDEN_insult_01: "testa di latta"
+ MINDWARDEN_insult_02: "bloccamente"
+ MINDWARDEN_insult_03: "neurocrate"
+ MINDWARDEN_insult_plural_01: "teste di latta"
+ MINDWARDEN_insult_plural_02: "bloccamenti"
+ MINDWARDEN_insult_plural_03: "neurocrati"
+ MINDWARDEN_compliment_01: "protettore"
+ MINDWARDEN_compliment_plural_01: "protettori"
+ MINDWARDEN_spawn: "infante"
+ MINDWARDEN_spawn_plural: "infanti"
+ MINDWARDEN_sound_01: "$REP_sound_01$"
+ MINDWARDEN_sound_02: "$REP_sound_02$"
+ MINDWARDEN_sound_03: "$REP_sound_03$"
+ MINDWARDEN_sound_04: "$REP_sound_04$"
+ MINDWARDEN_sound_05: "$REP_sound_05$"
+ MINDWARDEN_organ: "$TOX_organ$"
+ MINDWARDEN_organ_plural: "$TOX_organ_plural$"
+ MINDWARDEN_mouth: "$REP_mouth$"
+ MINDWARDEN_ear: "$REP_ear$"
+ MINDWARDEN_ear_plural: "$REP_ear_plural$"
+ MINDWARDEN_hand: "$REP_hand$"
+ MINDWARDEN_hand_plural: "$REP_hand_plural$"
+ MINDWARDEN_tooth: "$REP_tooth$"
+ MINDWARDEN_tooth_plural: "$REP_tooth_plural$"
+ MINDWARDEN_fossil: "$REP_fossil$"
+ MINDWARDEN_fossil_plural: "$REP_fossil_plural$"
+ MINDWARDEN_remnant: "$REP_remnant$"
+ MINDWARDEN_remnant_plural: "$REP_remnant_plural$"
+ MINDWARDEN_birth: "$TOX_birth$"
 
  CYBERNETIC:1 "Cibernetico"
  CYBERNETIC_desc:1 "La Classe Specie Cibernetico non ha effetti sul tuo Impero, ma le specie appartenenti a questa classe potrebbero considerare altre specie Cibernetiche meno aliene rispetto a quelle di classi diverse."
@@ -891,6 +950,7 @@
  SALVAGER_fossil_plural:0 "fossili"
  SALVAGER_remnant:0 "scheletro"
  SALVAGER_remnant_plural:0 "scheletri"
+ SALVAGER_birth: "$HUM_birth$"
 
  SHROUDWALKER:0 "Enigma"
  SHROUDWALKER_plural:0 "Enigmi"
@@ -919,6 +979,7 @@
  SHROUDWALKER_fossil_plural:0 "fossili"
  SHROUDWALKER_remnant:0 "scheletro"
  SHROUDWALKER_remnant_plural:0 "scheletri"
+ SHROUDWALKER_birth: "$HUM_birth$"
 
  MSI_SLAVER:0 "$NAME_MSI_species$"
  MSI_SLAVER_desc:1 "$HUM_desc$"
@@ -948,6 +1009,7 @@
  MSI_SLAVER_fossil_plural:0 "$HUM_fossil_plural$"
  MSI_SLAVER_remnant:0 "$HUM_remnant$"
  MSI_SLAVER_remnant_plural:0 "$HUM_remnant_plural$"
+ MSI_SLAVER_birth: "$HUM_birth$"
 
  SOLARPUNK:0 "Solarpunk"
 

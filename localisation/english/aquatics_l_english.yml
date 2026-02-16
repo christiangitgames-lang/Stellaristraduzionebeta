@@ -266,7 +266,7 @@
  civic_corporate_anglers_desc:0 "$civic_anglers_desc$"
  civic_tooltip_corporate_anglers_effects: "$civic_tooltip_anglers_effects$$TABBED_NEW_LINE$- £building£ §Y$building_food_conglomerate$§! $megacorp_civic_branch_office_building_effect$"
  civic_tooltip_anglers_effects:3 "$civic_tooltip_anglers_start$"
- civic_tooltip_anglers_start: "$t$- Sui §YPianeti Oceanici§!, i §YDistretti Agricoli§! non sono limitati.$TABBED_NEW_LINE$- Sui Pianeti §YUmidi§!, i §YDistretti Agricoli§! hanno la Specializzazione £zone£ §Y$zone_anglers$§!."
+ civic_tooltip_anglers_start: "$t$- Sui §YPianeti Oceanici§!, i §YDistretti Agricoli§! non sono limitati.$TABBED_NEW_LINE$- Sui Pianeti §YUmidi§! worlds:$TABBED_NEW_LINE$$t$- i §YDistretti Agricoli§! hanno la Specializzazione £zone£ §Y$zone_anglers$§!."
  civic_tooltip_anglers_negative_effects: "$t$- Richiede il tratto ['trait:trait_aquatic']."
  civic_corporate_machine_anglers: "Robotica Marittima"
  civic_corporate_machine_anglers_desc: "$civic_machine_anglers_desc$"

@@ -82,18 +82,18 @@ job_polytechnic_mentor: "Mentore Termotecnico"
 job_polytechnic_mentor_plural: "Mentori Termotecnici"
 job_polytechnic_mentor_desc: "Forte di competenze diversificate, questo mentore colma i divari disciplinari per aumentare l'efficienza dei lavoratori specializzati."
 mod_job_polytechnic_mentor_add: "Lavori da $job_polytechnic_mentor$"
-job_polytechnic_mentor_effect: "£job_polytechnic_mentor£ $job_polytechnic_mentor_plural$ aumentano altri lavori: $job_polytechnic_job_tt$"
+job_polytechnic_mentor_effect: "£job_polytechnic_mentor£ $job_polytechnic_mentor_plural$ aumentano altri lavori. \n\n$job_polytechnic_job_tt$"
 concept_polytechnic_mentor: "$job_polytechnic_mentor_plural$"
-concept_polytechnic_mentor_desc: "- £unity£ $unity$ da £job_miner£ $job_miner_plural$: §G+0.3§! \n- £physics_research£ $physics_research$ da £job_technician£ $job_technician_plural$: §G+0.3§! \n- £engineering_research£ $engineering_research$ da £job_foundry£ $job_foundry_plural$: §G+0.3§! \n- £society_research£ $society_research$ da £job_artisan£ $job_artisan_plural$: §G+0.3§!"
-job_polytechnic_job_tt: "$TABBED_NEW_LINE$£job_miner£ ['concept_planet_miners'] producono £unity£ §Y$unity$§! $TABBED_NEW_LINE$£job_technician£ ['concept_planet_technician'] producono £physics_research£ §Y$physics_research$§! $TABBED_NEW_LINE$£job_foundry£ ['concept_planet_metallurgists'] producono £engineering_research£ §Y$engineering_research$§! $TABBED_NEW_LINE$£job_artisan£ ['concept_planet_artisans'] producono £society_research£ §Y$society_research$§!"
+concept_polytechnic_mentor_desc: "Extra resources produced per $pop_group_unit$ £pop£ §HPops§!\n(Limit: §Y4000§! £job£ Jobs per category):\n- £job_miner£ ['concept_planet_miners']: §G+$@polytechnic_output$§! £unity£ $unity$\n- £job_technician£ ['concept_planet_technician']: §G+$@polytechnic_output$§! £physics_research£ $physics_research$\n- £job_foundry£ ['concept_planet_metallurgists']: §G+$@polytechnic_output$§! £engineering_research£ $engineering_research$\n- £job_artisan£ ['concept_planet_artisans']: §G+$@polytechnic_output$§! £society_research£ $society_research$"
+job_polytechnic_job_tt: "$concept_polytechnic_mentor_desc$"
 
 job_polytechnic_drone: "Drone Piroclastico"
 job_polytechnic_drone_plural: "Droni Piroclastici"
 job_polytechnic_drone_desc: "Forte di competenze diversificate, questo drone colma i divari disciplinari per aumentare l'efficienza dei lavoratori specializzati."
 mod_job_polytechnic_drone_add: "Lavori da $job_polytechnic_drone$"
-job_polytechnic_drone_effect: "£job_polytechnic_drone£ $job_polytechnic_drone_plural$ aumentano altri lavori: $job_polytechnic_job_tt$"
+job_polytechnic_drone_effect: "£job_polytechnic_drone£ $job_polytechnic_drone_plural$ aumentano altri lavori. \n\n$job_polytechnic_job_tt$"
 concept_polytechnic_drone: "$job_polytechnic_drone_plural$"
-concept_polytechnic_drone_desc: "- £unity£ $unity$ da £job_mining_drone£ $job_mining_drone_plural$: §G+0.3§! \n- £physics_research£ $physics_research$ da £job_technician_drone£ $job_technician_drone_plural$: §G+0.3§! \n- £engineering_research£ $engineering_research$ da £job_alloy_drone£ $job_alloy_drone_plural$ o £job_fabricator£ $job_fabricator_plural$: §G+0.3§!"
+concept_polytechnic_drone_desc: "$concept_polytechnic_mentor_desc$"
 
 # Origin - Red Giant
 origin_red_giant: "Gigante Rossa"
@@ -112,7 +112,7 @@ starfire_cannon: "Cannone a Fuocostellare"
 starfire_cannon_plural: "Cannoni a Fuocostellare"
 NAME_Starfire_Cannon: "$starfire_cannon$"
 starfire_cannon_key: "Nucleo $starfire_cannon$"
-sfe_on_hit_stun_tt: "§YDisabilita§! il bersaglio per §G5§! giorni, riducendone velocità, cadenza di fuoco e scudi."
+sfe_on_hit_stun_tt: "§YDisabilita§! il bersaglio per §G5§! giorni, riducendone velocità, cadenza di fuoco e scudi.\n\n$ION_CANNON_FLEET_EFFECT$"
 sfe_weapon_stun_effect: "§RImpatto $starfire_cannon$§!"
 sfe_weapon_stun_effect_desc: "   " # not visible
 decision_starfire_cannon: "Costruisci $starfire_cannon$"
@@ -149,8 +149,8 @@ d_galvanic_living_metal_desc: "Questo pianeta presenta depositi naturali di $r_l
 # Civic - Scorched World Heralds
 civic_scorched_earth: "Araldi del Mondo in Fiamme"
 civic_scorched_earth_desc: "Il calore permea ogni aspetto della cultura di questa società, dalle tradizioni e i rituali fino alla tecnologia stessa. Si considerano i legittimi suprematisti ardenti della galassia, vedendo le specie più deboli come meri ostacoli sul cammino verso un universo ideale, adatto solo ai Termofili."
-civic_scorched_earth_effects: "Non può intraprendere §YDiplomazia§! con altre specie.\nNon può accedere al §YMercato Galattico§!.\nGarantisce il casus belli §Y'$casus_belli_cb_blaze$'§! contro altre specie.\nOttiene £unity£ §Y$unity$§! quando attacca con l'atteggiamento di bombardamento §Y$bombardment_firestorm$§!.\nCrea ostacoli speciali con l'atteggiamento di bombardamento §Y$bombardment_seismic_bombing$§! sul pianeta sottostante."
-
+civic_scorched_earth_effects: "- Cannot engage in §YDiplomacy§! except with §Y$trait_infernal_plural$§!.\n- Cannot access the §YGalactic Market§!.\n- Grants the §Y'$casus_belli_cb_blaze$'§! casus belli on other species.\n- Gains £unity£ §Y$unity$§! when bombarding with the §Y$bombardment_firestorm$§! bombardment stance.\n- Creates special blockers with the §Y$bombardment_seismic_bombing$§! bombardment stance on the planet below. \n- Non-['trait:trait_infernal'] Species are restricted to §YSlavery§! or worse."
+SCORCHED_HERALDS_ONLY_INF: "$TRIGGER_FAIL$§Y$civic_scorched_earth$§! only tolerate ['trait:trait_infernal'] £pop£ $POPS$ in their society."
 civic_hive_scorched_earth: "Istinto Piromaniaco"
 civic_hive_scorched_earth_desc: "I nostri Mondi Bruciati sono il culmine dell'evoluzione planetaria. Incendieremo la galassia e prospereremo tra le fiamme!"
 
@@ -635,6 +635,8 @@ requires_actor_not_scorched_earth: "$TRIGGER_FAIL$§RCome §Y$civic_scorched_ear
 infernals.35.name: "Avvolti dalle Fiamme"
 infernals.35.desc: "La superficie di §H[from.GetName]§! si è squarciata, la sua crosta si è fratturata mentre un calore insopportabile si sprigionava dal sottosuolo. La trasformazione è stata rapida e totale: le montagne sono crollate, gli oceani hanno iniziato a ribollire e il cielo si è ricoperto di un velo di braci.\n\nNon rimane traccia dei biomi un tempo rigogliosi del pianeta. Solo forme di vita estremofile possono ancora chiamare questo luogo casa."
 mod_planet_pops_alloys_upkeep_mult: "Mantenimento leghe della Pop"
+mod_planet_mentors_upkeep_mult: "$job_polytechnic_mentor$ Upkeep"
+planet_mentors: "Planet Mentors"
 
 # Planet Smelter planet killer weapon
 tech_pk_smelter: "Fusione Planetaria"

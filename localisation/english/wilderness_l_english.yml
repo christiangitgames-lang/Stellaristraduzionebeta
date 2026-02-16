@@ -499,7 +499,7 @@
  tr_domination_wilderness_network_delayed: "Aumentare il tasso di scambio energetico su scala continentale migliora significativamente il supporto che ciascuna parte di noi può offrire alle altre."
  tr_domination_wilderness_network_effect: "§YSblocca Editto:§! $edict_drone_overdrive_wilderness$"
  tr_domination_imperious_architecture_wilderness: "Compatibilità Feromonale Interspecie"
- tr_domination_imperious_architecture_wilderness_desc: "§Y$district_craglands_plural$§! forniscono £defense_army£ §Y$defense_army_plural$§! aggiuntive: §G+2§!"
+ tr_domination_imperious_architecture_wilderness_desc: "§Y$district_craglands_plural$§! forniscono £defense_army£ §Y$defense_army_plural$§! aggiuntive: §G+1§!"
  tr_domination_imperious_architecture_wilderness_delayed: "Forzare la comunicazione feromonale tra tutti [GetIndividualNamePlural] consente risposte più rapide alle minacce esterne."
  tr_expansion_colonization_fever_wilderness: "Mente dei Molti Mondi"
  tr_expansion_colonization_fever_wilderness_desc: "Aggiunge un §Y£district£Distretto§! casuale all'atto della colonizzazione di un nuovo mondo."

@@ -185,6 +185,7 @@
  protege_onboard:0 "Equipaggio Promettente"
  ship_master_cruiser:0 "Design Navale dei Precursori"
  ship_excess_power:0 "Potenza in Eccesso"
+ no_naval_capacity: "Ignores Naval Capacity"
 
  ####################################
  # Pop Modifiers
@@ -195,8 +196,8 @@
  pop_pleased:0 "Compiaciuta"
  alien_infection:0 "Infezione Aliena"
  alien_music:0 "Musica Aliena"
- mod_planet_jobs_trade_produces_add: "Lavori da $r_trade$ ogni $pop_group_unit$"
- mod_planet_pops_trade_produces_mult: "$r_trade$ dai Lavori"
+ mod_planet_jobs_trade_produces_add: "$r_trade$ from Living Standards"
+ mod_planet_pops_trade_produces_mult: "$mod_planet_jobs_trade_produces_add$"
  mod_starbase_buildings_trade_produces_add: "$r_trade$ dagli Edifici della Base Stellare"
  MOD_POP_BONUS_WORKFORCE_MULT: "Efficienza Lavorativa"
  MOD_POP_BONUS_WORKFORCE_ADD: "$MOD_POP_BONUS_WORKFORCE_MULT$"

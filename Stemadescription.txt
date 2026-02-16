@@ -1,0 +1,20 @@
+[h1][b]Intro[/b][/h1]
+
+Essenzialmente devo ringraziare Stellaris Traduzione Italiana per aver già fatto il lavoro sporco con la 4.0. 
+Io ho solo preso il testimone e l'ho portato fino alla Cetus. Tipo staffetta, ma senza correre.
+E senza sudare. E senza tradurre i conflitti grossi mettendoli in inglese.
+Insomma, un lavoro da vero eroe.
+
+[h2][b]Spiegazione[/b][/h1]
+
+Per rendere la traduzione compatibile ho usato un algoritmo di differenza histogrammica con incidenza euristica, confrontando i tre file canonici: mio, nuovo e vecchio. In presenza di conflitti:
+Se erano minori, li correggevo.
+Se erano grossi, prendevo il nuovo (in inglese).
+Se vi va, potete tradurli voi e pusharli su GitHub [url=https://github.com/christiangitgames-lang/Stellaristraduzionebeta]Stellaristraduzionebeta[/url]. La porta è aperta.
+
+[h3]Nota[/h3]
+COnsiderate che ho fatto il tutto in 1 ora e mezza quindi non posso assicurarvi che sia la topperia.
+Non ho fatto test approfonditi, ho fixato gli errori che mi dava il gioco dopo aver finito la traduzione. 
+La maggior parte del lavoro l'ha fatto l'algoritmo, che teoricamente ha un margine d'errore inferiore all'1%, le parti fatte a mano da me invece stimo un errore intorno al 3%.
+Secondo le mie stime, ci dovrebbero essere uno o due errori gravi e una qualche errore minori.
+Se li trovate, avvisate commentando o facendo un issues su github. O meglio ancora , fixateli e fate una pull request, sempre su github.

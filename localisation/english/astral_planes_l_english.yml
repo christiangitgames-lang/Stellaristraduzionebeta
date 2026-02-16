@@ -610,11 +610,9 @@
  councilor_dimensional_worship: "Ministro Astrale"
  councilor_dimensional_worship_female: "$councilor_dimensional_worship$"
  councilor_dimensional_worship_desc: "Il $TITLE$ unisce il nostro sacerdozio sotto un'unica visione guida per servire meglio il nostro popolo."
- councilor_dimensional_worship_custom_modifier_desc: "£physics£ §YPhysics§! per $pop_group_unit$ $job_priest_name_plural_with_icon$: §G+$@councilor_dimensional_worship_priest_physics$§! "
  councilor_dimensional_worship_corporate: "$councilor_dimensional_worship$"
  councilor_dimensional_worship_corporate_female: "$councilor_dimensional_worship_corporate$"
  councilor_dimensional_worship_corporate_desc: "$councilor_dimensional_worship_desc$"
- councilor_dimensional_worship_corporate_custom_modifier_desc: "- £physics£ §YPhysics§! per $pop_group_unit$ $job_priest_name_plural_with_icon$: §G+$@councilor_dimensional_worship_priest_physics$§!\n- $r_trade$ per $pop_group_unit$ $job_priest_name_plural_with_icon$: §G+$@councilor_dimensional_worship_priest_trade_value$§! "
 
  councilor_dark_consortium: "Tessitore dell'Ombra"
  councilor_dark_consortium_female: "$councilor_dark_consortium$"

@@ -2290,4 +2290,4 @@
  count_bypass_in_system_trigger: "Numero di Bypass nel sistema $CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
  any_starbase_in_system_trigger: "Qualsiasi Base Stellare nel sistema"
 
- POP_GROUP_CRIME: "$PLANET_CRIME_TITLE$: $AMOUNT|Y$
+ POP_GROUP_CRIME: "$PLANET_CRIME_TITLE$: $AMOUNT|Y$"

@@ -157,6 +157,7 @@
  origin_subterranean:0 "Sotterranei"
  origin_subterranean_desc:4 "Questa civiltà potrebbe non scoprire mai perché i suoi antenati migrarono sottoterra. Forse è stato un tentativo di evitare i predatori o la promessa di abbondanti risorse ad attirarli. In ogni caso questa specie si è evoluta per vivere sotto la superficie del suo pianeta natale, portando ad una società più versatile dal punto di vista ambientale."
  origin_tooltip_subterranean_effects:4 "- $SPECIES_TRAITS$ ['concept_cave_dweller']\n- ['concept_mining_district', £district£ Distretti Minerari]: Sbloccati"
+ origin_tooltip_subterranean_shared_effects: "\n- ['concept_mining_district', £district£ Mining Districts]: Uncapped\n- Available District Specializations: £zone£ §Y$zone_subterranean_urban$§!  for Mining Districts\n- Homeworld starts with a £zone£ §Y$zone_subterranean_urban$§! already built."
  trait_cave_dweller:0 "Abitante delle Caverne"
  trait_cave_dweller_desc:0 "§LQuesta specie prospera sotto la superficie di qualsiasi pianeta in cui possa abitare.§!"
  trait_cave_dweller_tooltip: "$MOD_BIO_LOGISTIC_GROWTH_MULT$: §R-10%§!"
@@ -165,7 +166,7 @@
  trait_robot_cave_dweller_tooltip: "$MOD_POP_ASSEMBLY_SPEED$: §R-10%§!"
  origin_subterranean_machines: "Macchine Sotterranee"
  origin_subterranean_machines_desc: "Questa civiltà si è perfettamente integrata nell'esistenza sotterranea, inizialmente guidata da un calcolata autoconservazione o da una direttiva per individuare le risorse nascoste e abbondanti nelle profondità. Gli adattamenti meccanici derivanti hanno portato alla luce una comunità di macchine versatile e incrollabile."
- origin_tooltip_robot_subterranean_effects: "- $SPECIES_TRAITS$ ['concept_robot_cave_dweller']\n- ['concept_mining_district', £district£ Distretti Minerari]: Senza Blocchi"
+ origin_tooltip_robot_subterranean_effects: "- $SPECIES_TRAITS$ ['concept_robot_cave_dweller'] $origin_tooltip_subterranean_shared_effects$"
 
  START_SCREEN_SUBTERRANEAN:1 "Mentre altri esseri sul pianeta [GetHomeWorldName] avrebbero trascorso le loro notti nelle terre selvagge, i nostri antenati appresero in fretta la saggezza delle dimore sotterranee, riparate dalla luce e dai climi rigidi.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_PLANT:1 "La vita sul pianeta [GetHomeWorldName] ha preso strade radicalmente diverse. A differenza delle altre forme di vita con cui condividiamo questo mondo, che ricavano la loro energia dalla luce solare, noi otteniamo i nostri nutrienti dalle profondità del sottosuolo, così come hanno fatto anche i nostri antenati della specie [GetSpeciesAdj].\n\n$START_SCREEN_SUBTERRANEAN_END$"

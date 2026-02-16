@@ -12,6 +12,7 @@
  cosmogenesis_chain_title: "Cosmogenesi"
  cosmogenesis_chain_desc: "L'ignoranza ci incatena, mettendo i segreti dell'universo fuori dalla nostra portata.\n\nNon importa quale sia il prezzo, dobbiamo liberarci."
  cosmogenesis_level_reached: "Livello Crisi Raggiunto"
+ cosmogenesis_aborted_tt: "\n£trigger_no£ §RWe have renounced our Cosmogenesis ambitions.§!"
 
  ### Crisis Stage Techs
 
@@ -32,7 +33,7 @@
  cosmogenesis_level_4_tech_title: "Sblocca Crisi §HCosmogenesi§! §HLivello 5§!"
  cosmogenesis_level_4_tech_desc: "§H$tech_cosmogenesis_crisis_4$§!\nLa realtà geme; protesta e brontola, rimodellandosi ostinatamente nonostante le nostre modifiche. Non possiamo permettere che questo sviluppo inaspettato continui."
  tech_cosmogenesis_crisis_5: "Universi Nascenti"
- tech_cosmogenesis_crisis_5_desc: "Il viaggio su larga scala verso universi diversi è un'impresa ardua. Dobbiamo progettare un'astronave che possa non solo oltrepassare il tessuto dello spaziotempo, ma anche sopravvivere al viaggio."
+ tech_cosmogenesis_crisis_5_desc: "Il viaggio su larga scala verso universi diversi è un'impresa ardua. Dobbiamo progettare un'astronave che possa non solo oltrepassare il tessuto dello spaziotempo, ma anche sopravvivere al viaggio.§RGli Imperi Caduti cercheranno di fermarci!§!"
  cosmogenesis_level_5_tech_title: "§HSblocca Megastruttura:§! Ago dell'Orizzonte"
  cosmogenesis_level_5_tech_desc: "§HAgo dell'Orizzonte§!\nUna meraviglia tecnologica, l'Ago dell'Orizzonte è una nave civile con capacità di piegare la realtà. Può ospitare la nostra popolazione e le nostre conoscenze accumulate per guidare in sicurezza la migrazione trans-universale."
  requires_capital: "£trigger_no£ Deve essere costruito nell'orbita della nostra capitale."
@@ -235,9 +236,11 @@
  cosmogenesis_world_ruined_MEGASTRUCTURE_DETAILS: "$cosmogenesis_world_ruined_DESC$"
 
  #Hidden district - not being displayed in the UI.
- district_cosmogenesis_goverment: ""
- district_cosmogenesis_goverment_plural: ""
- district_cosmogenesis_goverment_desc: ""
+ district_cosmogenesis_goverment: "Capitale Sinaptica $building_lathe_capital$"
+ district_cosmogenesis_goverment_plural: "Unità di Elaborazione Sinaptica"
+ district_cosmogenesis_goverment_desc: "$building_lathe_capital_desc$"
+ mod_district_cosmogenesis_goverment_max_add: "Massimo $district_cosmogenesis_goverment_plural$"
+
 
  district_cosmogenesis_world_science: "Porta Neurale"
  district_cosmogenesis_world_science_plural: "Porte Neurali"
@@ -351,8 +354,10 @@
  crisis.7115.a: "Siamo pronti a rischiare tutto."
 
  crisis.7120.name: "Livello Crisi 5"
- crisis.7120.desc: "Non può essere, eppure è così. Per quanto ci proviamo, le nostre modifiche alla realtà rimangono ostinatamente temporanee. Questo universo è semplicemente troppo vecchio affinché i cambiamenti prendano piede. Ma nel bel mezzo della frustrazione, a volte può esserci un'opportunità, e un nuovo esperimento ha dato risultati inaspettati. Da tempo sappiamo dell'esistenza di altre dimensioni, ma i mezzi per viaggiarvi in modo affidabile ci sono sfuggiti.\n\nAbbiamo la tecnologia per inviare sonde in un buco nero. Una volta attraversato l'orizzonte degli eventi, cominceranno ad esercitare una pressione, piegando questi piani giovani alla nostra volontà. Dove lo spazio si piega nell'eternità si trova la porta di un altro universo che contiene anche altri universi più giovani. Nel profondo dell'abisso del multiverso, troveremo una realtà malleabile da plasmare in qualcosa di straordinario."
+ crisis.7120.desc: "Non può essere, eppure è così. Per quanto ci proviamo, le nostre modifiche alla realtà rimangono ostinatamente temporanee. Questo universo è semplicemente troppo vecchio affinché i cambiamenti prendano piede. Ma nel bel mezzo della frustrazione, a volte può esserci un'opportunità, e un nuovo esperimento ha dato risultati inaspettati. Da tempo sappiamo dell'esistenza di altre dimensioni, ma i mezzi per viaggiarvi in modo affidabile ci sono sfuggiti.\n\nAbbiamo la tecnologia per inviare sonde in un buco nero. Una volta attraversato l'orizzonte degli eventi, cominceranno ad esercitare una pressione, piegando questi piani giovani alla nostra volontà. Dove lo spazio si piega nell'eternità si trova la porta di un altro universo che contiene anche altri universi più giovani. Nel profondo dell'abisso del multiverso, troveremo una realtà malleabile da plasmare in qualcosa di straordinario.\n\nI mentecatti di questa galassia potrebbero cercare di fermarci, ma quei decrepiti stolti non sono certo all'altezza della nostra ingegnosità."
  crisis.7120.a: "Deve piegarsi, perché noi non cederemo."
+ cosmogenesis_war: "Reality War"
+ cosmogenesis_materialist_war: "Knowledge Interdiction War"
 
  crisis.7125.name: "Vittoria all'Orizzonte"
  crisis.7125.desc: "Questa realtà è imperfetta. È segnata dall'entropia, dai bisogni fisici e dalla violenza. Sebbene non possiamo cambiarla, possiamo lasciarcela alle spalle. Entriamo nell'ignoto e troviamo un universo giovane in cui le nostre modifiche alla realtà saranno valide. Modelliamolo alla perfezione, il rifugio che la nostra civiltà merita.\n\nAbbiamo preparato i piani per una nave straordinaria: l'§YAgo dell'Orizzonte§!. Questa Megastruttura mobile non è concepita per la guerra, ma la sua capacità di piegare le leggi della fisica ci permetterà di imbarcare l'intera nostra civiltà. Insieme, ci tufferemo in un buco nero a nostra scelta, abbandonando questa realtà per una di nostra creazione."
@@ -474,7 +479,9 @@
  crisis.7210.a: "$crisis.7205.a$"
  crisis.7210.b: "Il Pi greco è stato arrotondato al ribasso!?"
  crisis.7210.c: "Almeno ora è più semplice."
-
+ crisis.7111.desc: "Curiosity is a commendable quality, but its excess might bring dire consequences on all of us. For your sake, please, think about what you're doing.\n\nIt is not too late to stop before irreparable damage is caused to the galaxy. The forces you are contemplating are no mere toys, and your experiments endanger us all."
+ crisis.7111.b: "We'll be careful."
+ 
  crisis.7215.name: "Supervelocità"
  crisis.7215.desc.both: "Da un giorno all'altro, la velocità della luce è aumentata drasticamente, causando un massiccio afflusso di energia solare. Sta già tornando lentamente alla sua velocità prevista e i nostri ricercatori sono impegnati a tenersi al passo con i cambiamenti."
  crisis.7215.desc.unknown: "$crisis.7215.desc.both$\n\n$crisis.unknown.desc$"
@@ -599,7 +606,9 @@
 
  crisis.7280.desc: "Saluti, [Root.GetSpeciesNamePlural] talentuosi. Oggi avete raggiunto un importante traguardo tecnologico e i nostri cuori si gonfiano di orgoglio. La strada che vi ha condotto qui non è stata priva di sfide. Superandole siete cresciuti e la vostra recente abilità tecnologica è un segno inequivocabile che abbiamo fatto bene a offrirvi la nostra guida."
 
- crisis.7285.desc: "Piccolo capriccioso! Oggi hai messo alla prova la nostra pazienza in modo eccessivo. I tuoi esperimenti sconsiderati rappresentano un pericolo per tutti, e ti ordiniamo categoricamente di interromperli. Non hai idea di cosa stai maneggiando e, sebbene la curiosità sia lodevole, l'imprudenza a tale livello è intollerabile. La realtà è stata costruita così per una ragione. Lasciala stare.\n\nNon ci saranno ulteriori avvertimenti."
+ crisis.7285.desc: "Piccolo capriccioso! Oggi hai messo alla prova la nostra pazienza in modo eccessivo. I tuoi esperimenti sconsiderati rappresentano un pericolo per tutti, e ti ordiniamo categoricamente di interromperli. Non hai idea di cosa stai maneggiando e, sebbene la curiosità sia lodevole, l'imprudenza a tale livello è intollerabile. La realtà è stata costruita così per una ragione. Lasciala stare."
+ crisis.7285.a: "Hai ragione, è troppo pericoloso."
+ crisis.7285.a.tt: "Rinuncia alle tue ambizioni di Cosmogenesi, perdi l'accesso alla maggior parte degli Edifici e delle Navi degli Imperi Caduti.\n\n§RQuesto ci impedirà di completare il nostro Percorso di Crisi§!"
 
 ### Cosmogenesis Modifiers
 
@@ -664,7 +673,7 @@
 ##########################
  origin_cybernetic_creed: "Credo Cibernetico"
  origin_cybernetic_creed_desc: "§RATTENZIONE: Blocca tutti i Percorsi d'Ascensione tranne ['concept_cybernetic_ascension']§!\n\nQuesto impero persegue una vocazione divina, la fusione tra un corpo glorificato e la cibernetica sacra. Il potenziamento è un culto."
- origin_tooltip_cybernetic_creed_effects: "- $HOMEWORLD$ Gli edifici iniziali sono sostituiti dalla ['concept_cybernetic_creed_infrastructure'] $NEW_LINE$- Fazioni formate dopo l'inizio del gioco ['concept_cybernetic_creed']\n- Tratto Spiritualista: ['concept_cybernetic_creed_traits']\n- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_integrated_cybernetics', £engineering£ $tech_integrated_cybernetics$]\n- Lavori: ['concept_cybernetic_creed_jobs']"
+ origin_tooltip_cybernetic_creed_effects: "- $HOMEWORLD$ Gli edifici iniziali sono sostituiti dalla ['concept_cybernetic_creed_infrastructure'] $NEW_LINE$- Fazioni formate dopo l'inizio del gioco ['concept_cybernetic_creed']\n- $SPECIES_TRAITS$ ['trait:trait_cyborg_ritualistic_implants']\n- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_integrated_cybernetics', £engineering£ $tech_integrated_cybernetics$]\n- Lavori: ['concept_cybernetic_creed_jobs']"
  START_SCREEN_CYBERNETIC_CREED: "La nostra sublime chiamata è l'unificazione tra [Owner.Species.GetFleshTypeCyberCreed] e macchina. La nostra storia è costellata di tentativi falliti, eppure guidati dalla volontà divina, abbiamo raggiunto ora la prima fase di una simbiosi sacra con i nostri impianti ritualistici.\n\nAbbiamo appena iniziato a toccare il nostro illimitato potenziale cibernetico. I potenziamenti più avanzati devono ancora arrivare.\n\nCiononostante, la nostra fede è divisa, con fedi concorrenti che contestano gli obiettivi finali dell'accrescimento sacro. Una volta risposto a questa domanda, l'unione perfetta della sacra [Owner.Species.GetFleshTypeCyberCreed] e della benedetta tecnologia ci permetterà di migliorare i disegni limitati dell'evoluzione.\n\n$machine_age.1090.pray$"
  concept_cybernetic_creed_traits: "$trait_cyborg_ritualistic_implants$"
  concept_cybernetic_creed_traits_desc: "- §GAssegnato automaticamente alla £pop£ §HPop Spiritualista§!§! $NEW_LINE$- $TRAIT_IMPROVES_LEADERS$ $NEW_LINE$- §RNon può essere modificato geneticamente§! $NEW_LINE$- Efficienza lavorativa degli Operai: §G+5%§!$NEW_LINE$- $mod_pop_foundry_bonus_workforce_mult$: §G+5%§!$NEW_LINE$- $mod_pop_engineer_bonus_workforce_mult$: §G+5%§!$NEW_LINE$- $mod_pop_bureaucrat_bonus_workforce_mult$: §G+5%§!$NEW_LINE$- Danno Armate: §G+5%§! $NEW_LINE$- Il tratto cambia con il §Y$origin_cybernetic_creed$§! dominante\n\n§L$trait_cyborg_ritualistic_implants_desc$§!"
@@ -1212,6 +1221,11 @@
  pop_cat_cyborg: "Cyborg"
  mod_pop_cyborg_happiness: "Felicità $pop_cat_cyborg$"
  mod_pop_non_cyborg_happiness: "Felicità Non-$pop_cat_cyborg$"
+ mod_pop_replicator_workforce_mult: "$job_replicator_plural_with_icon$ Job Efficiency"
+ cyber_hive_node_booster: "Assimilation Frenzy"
+ cyber_hive_node_booster_desc: "The addition of new drones to the collective elicits a strong emotional response at the deepest level."
+ cyber_hive_planet_booster: "$cyber_hive_node_booster$"
+ cyber_hive_planet_booster_desc: "$cyber_hive_node_booster_desc$"
 
 ##########################
 # ARC WELDERS ORIGIN
@@ -1271,7 +1285,7 @@
  concept_abandoned_cities: "$d_abandoned_cities$"
  concept_abandoned_cities_desc: "- $MOD_PLANET_MAX_DISTRICTS_ADD$: §R-1§! $NEW_LINE$- Tempo di Sgombero: £time£ 360 §IGiorni§!$NEW_LINE$- Costo per lo Sgombero: $TABBED_NEW_LINE$- 750 $i_energy$ $TABBED_NEW_LINE$- 250 $i_minerals$\n\n§L$_abandoned_cities_desc$§!"
  concept_synth_ai: "Tecnologie IA"
- concept_synth_ai_desc: "- ['concept_administrative_ai', £physics_research£ $tech_administrative_ai$] $NEW_LINE$- ['concept_self_aware_logic', £physics_research£ $tech_self_aware_logic$] $NEW_LINE$- ['concept_sapient_ai', £physics_research£ $tech_sapient_ai$]"
+ concept_synth_ai_desc: "- ['concept_powered_exoskeletons', £engineering_research£ $tech_powered_exoskeletons$] $NEW_LINE$- ['concept_administrative_ai', £physics_research£ $tech_administrative_ai$] $NEW_LINE$- ['concept_self_aware_logic', £physics_research£ $tech_self_aware_logic$] $NEW_LINE$- ['concept_sapient_ai', £physics_research£ $tech_sapient_ai$]"
  concept_administrative_ai: "$tech_administrative_ai$"
  concept_administrative_ai_desc: "$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$: §G+5%§!\n$job_researcher_plural_with_icon$ Mantenimento: §R+5%§!\n\n§L$tech_administrative_ai_desc$§!"
  concept_self_aware_logic: "$tech_self_aware_logic$"
@@ -2691,7 +2705,7 @@
  automodding_trait_biological_tooltip: "$automodding_trait_tooltip_all$\n\nLa §Y$trait_auto_mod_biological$§! sceglie i modificatori dalla ['concept_automodding_biological']"
  automodding_trait_robotic_tooltip: "$automodding_trait_tooltip_all$\n\nIl §Y$trait_auto_mod_robotic$§! scegle i modificatori dalla ['concept_automodding_robotic']"
  automodding_trait_overtuned_tooltip: "$automodding_trait_tooltip_all$\n\nL'§Y$trait_auto_mod_overtuned$§! sceglie i modificatori dalla ['concept_automodding_overtuned']"
- automodding_trait_cyborg_tooltip: "$automodding_trait_tooltip_all$\n\nIl §Y$trait_auto_mod_cyborg$§! sceglie i modificatori dalla ['concept_automodding_cyborg']\n\n$CYBORG_ENERGY_UPKEEP_EFFECT$"
+ automodding_trait_cyborg_tooltip: "$automodding_trait_tooltip_all$\n\nIl §Y$trait_auto_mod_cyborg$§! sceglie i modificatori dalla ['concept_automodding_cyborg']"
  trait_auto_mod_biological: "Genetica Vocazionale"
  trait_auto_mod_biological_desc: "Stringhe genetiche avanzate presentano trigger epigenetici che si adattano alle esigenze occupazionali, ottimizzando dinamicamente l'espressione genica per l'ambiente di lavoro dell'ospite."
  trait_auto_mod_cyborg: "Potenziamento Universale"
@@ -2718,7 +2732,7 @@
  concept_universal_augmentations_traits: "Tratti $trait_auto_mod_cyborg$"
  concept_universal_augmentations_traits_desc: "I $concept_universal_augmentations_traits$ sono tratti della specie che possono essere modificati automaticamente dal tratto ['trait:trait_auto_mod_cyborg'].$NEW_LINE$$concept_automodding_cyborg_desc$"
  concept_automodding_cyborg: "Lista dei Tratti di Auto-Modifica Cibernetici"
- concept_automodding_cyborg_desc: "- ['trait:trait_cyborg_loyalty_circuits']\n- ['trait:trait_cyborg_trading_algorithms']\n- ['trait:trait_cyborg_logic_engines']\n- ['trait:trait_cyborg_power_drills']\n- ['trait:trait_cyborg_harvesters']\n- ['trait:trait_cyborg_superconductive']\n- ['trait:trait_cyborg_stainless_steel_smile']"
+ concept_automodding_cyborg_desc: "- ['trait:trait_cyborg_propaganda_machines']\n- ['trait:trait_cyborg_trading_algorithms']\n- ['trait:trait_cyborg_logic_engines']\n- ['trait:trait_cyborg_power_drills']\n- ['trait:trait_cyborg_harvesters']\n- ['trait:trait_cyborg_superconductive']\n- ['trait:trait_cyborg_stainless_steel_smile']"
 
 ######################
 # MACHINE AGE TRAITS #
@@ -2751,6 +2765,10 @@
  trait_cyborg_climate_adjustment_wet_desc: "L'isolamento pesante e la protezione da bioforme aliene sono adatti ai climi umidi, ma dannosi per gli altri."
  trait_cyborg_climate_adjustment_cold: "Modifiche Clima Freddo"
  trait_cyborg_climate_adjustment_cold_desc: "Componenti di riscaldamento migliorati e lubrificanti resistenti al freddo aiutano nei climi ghiacciati ma sono un ostacolo per gli altri."
+ trait_cyborg_mass_produced: "Refurbished Implants"
+ trait_cyborg_mass_produced_desc: "The enforced backwards compatibility of mandatory implants greatly reduces the cost of outfitting newborn citizens."
+ trait_cyborg_propaganda_machines: "Compliance Filters"
+ trait_cyborg_propaganda_machines_desc: "Cortical analysis units can jolt down users at the inception of seditious thiking, or dispense hormonal rewards to exemplar citizens."
 
 #MACHINE
  trait_robot_artificial_engineers: "Nucleo Ingegneria"
@@ -2825,7 +2843,7 @@
  TECH_UNLOCK_LEVIATHAN_MACHINE_DESC: "Ci permette di aggiungere i Tratti del Leviatano alle Specie Robotiche tramite la Modifica della Specie."
 
  INTEGRATED_WEAPONRY_TT: "Danni Armate: §G+100%§!\nEfficienza Lavorativa per [enforcer.GetIcon] [enforcer.GetName]: §G+20%§!"
- INTEGRATED_WEAPONRY_CYBORG_TT: "$INTEGRATED_WEAPONRY_TT$\n$CYBORG_ENERGY_UPKEEP_EFFECT$"
+ INTEGRATED_WEAPONRY_CYBORG_TT: "$INTEGRATED_WEAPONRY_TT$"
  mod_planet_jobs_robot_worker_produces_mult: "Produzione Risorse da Pop Robotica [GetWorker]"
  trait_robot_ancient_dreadnought: "Dreadnought Antica"
  trait_robot_ancient_dreadnought_desc: "Equipaggiata con moduli energetici miniaturizzati, c'è un notevole miglioramento nella produttività industriale e un aumento del danno delle armi integrate nel telaio."
@@ -2982,7 +3000,7 @@
  tr_virtuality_5_delayed: "Attraverso protocolli di mantenimento meticolosi, dispieghiamo i nostri server principali in regni un tempo considerati troppo ostili, espandendo i nostri confini operativi."
 
  tr_virtuality_adopt_modifier_desc: "Aggiunge il tratto §Y$trait_robot_digital_1$§! alla specie principale\n§RLa £pop£ §HPop Virtuale§! non può essere reinsediata§!"
- tr_virtuality_1_modifier_desc: "Il Tratto Specie §Y$trait_robot_digital_1$§! ottiene i seguenti effetti:$TABBED_NEW_LINE$- $MOD_POP_BONUS_WORKFORCE_MULT$: §G+175%§! (§R-25%§! per Colonia)$TABBED_NEW_LINE$- Mantenimento Pop: §R+0.1§! $r_energy$ per Colonia"
+ tr_virtuality_1_modifier_desc: "Il Tratto Specie §Y$trait_robot_digital_1$§! ottiene i seguenti effetti:$TABBED_NEW_LINE$- $MOD_POP_BONUS_WORKFORCE_MULT$: §G+175%§! (§R-10%§! per Colonia)$TABBED_NEW_LINE$- Mantenimento Pop: §R+0.1§! $r_energy$ per Colonia"
  tr_virtuality_3_modifier_desc: "§YSblocca Politica§!: $virtuality_focus$\nPermette la specializzazione dei nostri processi virtuali per aumentare la nostra §YRicerca§!, §YUnità§! o §YLeader§!"
  tr_virtuality_4_modifier_desc: "I Distretti che forniscono §Y[GetClerkOrLogisticDrone]§!, §Y[GetBureaucratWithIcon]§! o £job_researcher£ §Y[GetResearcherPlural]§! garantiscono ulteriori lavori."
  job_maintenance_drone_with_icon: "[maintenance_drone.GetIcon] [maintenance_drone.GetName]"
@@ -3006,7 +3024,7 @@
  trait_robot_digital_1: "Virtuale"
  trait_robot_digital_2: "$trait_robot_digital_1$"
  trait_robot_digital_1_tt: "§RNon può essere venduto sul Mercato degli Schiavi o Rapito§!\nUtilizzo Abitazioni Pop: §G-90%§!\nAbitabilità Minima della Specie: §G+25%§!"
- trait_robot_digital_2_tt: "$trait_robot_digital_1_tt$\n$MOD_POP_BONUS_WORKFORCE_MULT$: §G+175%§! (§R-25%§! per Colonia)\nMantenimento Pop: §R+0.1§! £energy£ §YEnergia§! per Colonia"
+ trait_robot_digital_2_tt: "$trait_robot_digital_1_tt$\n$MOD_POP_BONUS_WORKFORCE_MULT$: §G+175%§! (§R-10%§! per Colonia)\nMantenimento Pop: §R+0.1§! £energy£ §YEnergia§! per Colonia"
  trait_robot_digital_1_desc: "§LLiberati dai vincoli delle nostre forme fisiche primitive, siamo pronti a comprendere l'essenza della realtà.§!"
  trait_robot_digital_2_desc: "$trait_robot_digital_1_desc$"
  mod_planet_virtual_jobs_produces_mult: "Risorse dalla Pop Virtuale"
@@ -3212,13 +3230,13 @@
 
  trait_robot_exotic_fuel_consumption: "Consumo Carburante"
  trait_robot_exotic_fuel_consumption_desc: "Gas esotici ad alta pressione migliorano notevolmente la mobilità e l'agilità degli arti."
- trait_robot_exotic_fuel_consumption_tt: "Mantenimento $r_exotic_gases$: §R+0.04§!"
+ trait_robot_exotic_fuel_consumption_tt: "Mantenimento $r_exotic_gases$: §R+0.05§!"
  trait_robot_rare_crystal_exterior: "Esterno in Cristallo Raro"
  trait_robot_rare_crystal_exterior_desc: "Con le loro proprietà elettromagnetiche, i cristalli rari assicurano che i nostri telai sopravvivano in qualsiasi situazione."
- trait_robot_rare_crystal_exterior_tt: "Mantenimento $r_rare_crystals$: §R+0.02§!"
+ trait_robot_rare_crystal_exterior_tt: "Mantenimento $r_rare_crystals$: §R+0.05§!"
  trait_robot_volatile_mote_reactor: "Reattore a Granelli Volatili"
  trait_robot_volatile_mote_reactor_desc: "La conversione diretta dei granelli in energia avviene con alta efficienza, e con fallimenti catastrofici rari."
- trait_robot_volatile_mote_reactor_tt: "Mantenimento $r_volatile_motes$: §R+0.02§!"
+ trait_robot_volatile_mote_reactor_tt: "Mantenimento $r_volatile_motes$: §R+0.05§!"
  trait_robot_suppressed: "Soppresso"
  trait_robot_suppressed_desc: "Errore: accesso Amministrativo Scaduto alla senzienza di base."
  trait_robot_suppressed_tt: "Non può generare §YLeader§!\nNon può essere impiegato per Lavori da §Y$pop_cat_ruler$§! o §Y$pop_cat_specialist$§!"
@@ -3228,12 +3246,12 @@
  trait_robot_inquisitative_axioms_desc: "Interrogazioni infinite generano soluzioni infinite, portando a un progresso sconfinato."
  trait_robot_ceaseless_symmetric_annihilation_engine: "Motori a Materia Oscura"
  trait_robot_ceaseless_symmetric_annihilation_engine_desc: "Attraverso l'annichilimento continuo, raggiungiamo la creazione infinita: questo è il vero ciclo dell'esistenza delle macchine."
- trait_robot_ceaseless_symmetric_annihilation_engine_tt: "Mantenimento $r_dark_matter$: §R+0.02§!"
+ trait_robot_ceaseless_symmetric_annihilation_engine_tt: "Mantenimento $r_dark_matter$: §R+0.03§!"
  trait_robot_shielded_components: "Componenti Schermati"
  trait_robot_shielded_components_desc: "Difese migliorate rendono ogni sottosistema robusto, eliminando le vulnerabilità."
  trait_robot_ferro_viscosity_augmentation: "Potenziamenti in Metallo Vivente"
  trait_robot_ferro_viscosity_augmentation_desc: "La ferro-viscosità del metallo vivente ci concede una superiorità tecnologica."
- trait_robot_ferro_viscosity_augmentation_tt: "Utilizzo Servizi dalla Pop: §G-50%§!\nMantenimento $r_living_metal$: §R+0.01§!"
+ trait_robot_ferro_viscosity_augmentation_tt: "Utilizzo Servizi dalla Pop: §G-50%§!\nMantenimento $r_living_metal$: §R+0.03§!"
  trait_robot_biomimetic_assembly: "Assemblaggio Biomimetico"
  trait_robot_biomimetic_assembly_desc: "Anche attraverso i suoi vagabondaggi senza meta, l'evoluzione ha prodotto alcuni design degni di essere emulati."
  trait_robot_biomimetic_assembly_tt: "Mantenimento $r_food$: §R+1§!\nMantenimento $r_exotic_gases$: §R+0.02§!"

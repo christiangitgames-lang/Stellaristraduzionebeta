@@ -280,6 +280,7 @@
  astral_rift.1510.desc.default: "$astral_rift.1510.desc.common$"
  astral_rift.1510.desc.psionic_or_latent: "$astral_rift.1510.desc.common$\n\n[Leader.GetName] ha riferito di essersi sentito a disagio da quando è entrato nella cupola. Qui c'è qualcosa che non va."
  astral_rift.1510.desc.psionic_or_latent_robot: "$astral_rift.1510.desc.common$\n\n[Leader.GetName] ha segnalato anomalie nei sensori da quando è entrato nella cupola. Si raccomanda cautela."
+ astral_rift.1510.b.default: "Che cosa sta succedendo su [Explorer.GetHomeWorldName]? Non si erano persi?"
  astral_rift.1510.default: "Che cosa sta succedendo su [Explorer.GetHomeWorldName]? Non si erano persi?"
  astral_rift.1510.b.hive: "Questo sfida ogni logica, non li avevamo persi?"
  astral_rift.1510.b.robot: "Tutto molto strano... Li avevamo persi. Tuttavia, ricevuto."

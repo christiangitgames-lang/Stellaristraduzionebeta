@@ -1,8 +1,7 @@
-version="3.5.3"
+version="1.6"
 tags={
 	"Translation"
-	"Graphics"
 }
-name="Stellaris Traduzione Italiana"
-supported_version="v4.2.4"
-remote_file_id="2611194666"
+name="StellarisItaCetus"
+supported_version="v4.3.0"
+remote_file_id="3666917653"
